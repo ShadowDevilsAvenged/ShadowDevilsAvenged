@@ -1,0 +1,45 @@
+//META{"name":"Bubbles World","description":"Enjoy the world of bubbles!","author":"DevilsTheAvenged"}*//
+
+
+body::after,
+.callout-backdrop,
+.user-popout::before,
+#user-profile-modal .header::before,
+#pubs-container::before,
+.auth-background,
+.auth-tiling-bg,
+.invite-modal .invite-splash,
+.radio-theme.light label,
+.radio-theme.dark label{
+    background-image: url(https://i.imgur.com/3V5domr.jpg) !important; /* IMPORTANT: Link must be HTTPS! */
+}
+
+.channels-wrap [class*="scroller-"] [class*="Text"][class*="content"][class*="Selected"] {
+    background-image: url(https://i.imgur.com/z2MIlrd.jpg)!important;
+    animation: rainbow 1s infinite linear;
+}
+
+.guilds-wrapper .guilds .guild.selected::before {
+    background-image: url(https://i.imgur.com/pMMRjo1.gif)!important;
+    animation: selectserver .5s cubic-bezier(0.22,0.21,0.26,1);
+    -webkit-animation: selectserver .5s cubic-bezier(0.22,0.21,0.26,1);
+     width: 70%;
+    border-radius: 70px;
+    padding: 10px;
+    margin-top: -28.1px;
+    margin-left: 14px;
+    height: 75%;
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+ }
+
+.guilds-wrapper .guilds .guild .guild-inner a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.chat > .content .messages .message-group:not(.has-divider) {
+    border-bottom-color: hsla(315, 100%, 100%, 0.2)!important;
+}
