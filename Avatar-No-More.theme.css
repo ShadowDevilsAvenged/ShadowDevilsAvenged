@@ -1,0 +1,130 @@
+//META{"name":"Avatar-No-More","description":"Avatars have vainshed (evil laughs)","author":"DevilsTheAvenged","version":"1.0"}*//{}
+/* Avatar No More */
+.channel-members .avatar-small {
+    width: 0px;
+    height: 0px;
+}
+.avatar-small .status, .status-online, .status-idle, .status-dnd, .status-online, .status-invisible, .status-offline {
+    border-radius: 25px;
+    bottom: -14px !important;
+    height: 30px;
+    right: -7px !important;
+    width: 30px;
+    box-shadow: inset 1px -9px 12px 1px rgba(0,0,0,0.55);
+    border: 1px solid black !important;
+    
+}
+.status.status-typing .spinner-item {
+    background-color: #fff;
+    border-radius: 31px;
+    display: block;
+    height: 10px;
+    opacity: 1;
+    width: 10px;
+}
+.channel-members .status.status-typing {
+    border-radius: 25px;
+    bottom: -14px !important;
+    height: 30px !important;
+    right: -7px !important;
+    width: 30px !important;
+    box-shadow: inset 1px -9px 12px 1px rgba(0,0,0,0.55);
+    border: 1px solid black;
+}
+.container-iksrDt .avatar-small {
+    width: 10px;
+    height: 10px;
+    background: black !important
+}
+.container-iksrDt .status {
+    width: 30px;
+    height: 30px;
+    left: 96px;
+    
+}
+.private-channels .channel .avatar-small {
+    width: 0px;
+    height: 0px;
+}
+.private-channels .status {
+    border: 2px solid black;
+    
+}
+.private-channels .channel:hover .status {
+    border-color: black;
+}
+.private-channels .channel  {
+    margin-bottom: 12px !important;
+}
+.private-channels .channel.selected .status {
+    border-color: white;
+}
+.headerStreaming-3F-wjT {
+    background: #593695;
+    height: 234px;
+}
+
+.avatarHint-2i5XWK {
+  position: absolute;
+  opacity: 0.3;
+  margin-top: 105.7px !important;
+  z-index: 9;
+  margin-left: -30.5px !important;
+  width: 70px;
+  height: 70px;
+}
+.headerNormal-1cioxU {
+    background:  linear-gradient(to right, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url(/assets/8cd2f31a12333149b89ef3931626ab83.png);
+    background-size: 270px 213px;
+    height: 184px;
+}
+.popout-UKvsJt {
+    height: 0px;
+    width: 0px;
+}
+.avatar-large {
+    background-size: 0px 0px;
+    height: 0px;
+    width: 0px;
+}
+.headerNormal-1cioxU .status-3jUEha  {
+ border-radius: 50%;
+    border: 3px solid black;
+    top: 99px !important;
+    height: 75px;
+    right: -38px !important;
+    width: 75px;
+}
+.headerStreaming-3F-wjT .status-3jUEha {
+    border-radius: 50%;
+    border: 3px solid black;
+    top: 132px !important;
+    height: 75px;
+    right: -38px !important;
+    width: 75px;
+}
+
+.channel-members .member {
+    font-weight: bold;
+    line-height: 30px;
+    overflow: visible;
+    margin-bottom: 12px;
+}
+#user-profile-modal .guilds .guild .status {
+    border: 2px solid #000;
+    bottom: -6px !important;
+    right: -4px !important;
+    
+}
+.avatar-profile {
+    background-size: 5px 5px;
+    height: 5px;
+    width: 5px;
+    background: black;
+}
+.avatar-profile .status {
+    top: 2px !important;
+    height: 130px;
+    left: 12px !important;
+    width: 130px;
+}
