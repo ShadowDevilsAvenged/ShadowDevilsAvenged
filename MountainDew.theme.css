@@ -1,0 +1,24 @@
+//META{"name":"MountainDew","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"1.0"}*//{}
+
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/57dc08dd/SomeUnImportantStuff/MountainDew.theme.css);
+@import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
+/* Backgrounds */
+.app,
+.callout-backdrop {
+	background-image: url("https://i.imgur.com/fmeLWYL.jpg");
+	background-size: cover !important;
+	background-position: center !important;
+}
+
+.bda-backdrop {
+	background: url("https://i.imgur.com/fmeLWYL.jpg");
+	background-size: cover!important;
+}
+
+#pubs-container:before {
+	background: url("https://i.imgur.com/fmeLWYL.jpg")!important;
+	background-size: cover!important;
+}
+.theme-dark .chat{background: transparent;}
+
+.layers, .layer { background: transparent !important; }
