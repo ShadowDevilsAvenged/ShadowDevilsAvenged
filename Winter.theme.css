@@ -1,6 +1,5 @@
 //META{"name":"Winter","description":"Enjoy the 'Cool' Theme","author":"DevilsTheAvenged","version":"1.0"}*//{}
-
-@import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/WinterWonder.theme.css);
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/5b9f812a/SomeUnImportantStuff/WinterWonder.theme.css);
 @import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
 
 :root {
@@ -19,34 +18,19 @@
 }
 
 /* Backgrounds */
-.app,
-.callout-backdrop {
-	background-image: url("https://wallpapercave.com/wp/aHXgonf.jpg");
+.app {
+	background-image: url("https://wallpapercave.com/wp/aHXgonf.jpg") !important;
 	background-size: cover !important;
 	background-position: center !important;
+
 }
 
 .bda-backdrop {
 	background: url("https://wallpapercave.com/wp/aHXgonf.jpg");
 	background-size: cover!important;
 }
-
 #pubs-container:before {
 	background: url("https://wallpapercave.com/wp/aHXgonf.jpg")!important;
 	background-size: cover!important;
 }
-.theme-dark .chat{background: transparent;}
 
-.layers, .layer { background: transparent !important; }
-
-
- .upload-modal {
-   background-color: rgba(0,0,123,0.7);
-}
-.upload-modal .footer {
-    border-radius: 0 0 10px 10px;
-    background-color: rgba(0,0,123,0.7);
- }
-.theme-brand .inner-3if5cm {
-    background-color: rgba(0,0,153,0.3);
-}
