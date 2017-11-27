@@ -1,21 +1,9 @@
 //META{"name":"Winter","description":"Enjoy the 'Cool' Theme","author":"DevilsTheAvenged","version":"3.0"}*//{}
-@import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/be35bb72/SomeUnImportantStuff/WinterWonder.theme.css);
 
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/d20e555f/SomeUnImportantStuff/WinterWonder.theme.css);
 /* Backgrounds */
-.app {
+.app,.bda-backdrop,#pubs-container:before {
 	background-image: url("https://wallpapercave.com/wp/aHXgonf.jpg") !important;
 	background-size: cover !important;
 	background-position: center !important;
-
 }
-
-.bda-backdrop {
-	background: url("https://wallpapercave.com/wp/aHXgonf.jpg");
-	background-size: cover!important;
-}
-#pubs-container:before {
-	background: url("https://wallpapercave.com/wp/aHXgonf.jpg")!important;
-	background-size: cover!important;
-}
-
