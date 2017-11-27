@@ -5,6 +5,7 @@
     background: #fc58a4;
     border: 2px solid pink;
 }
+
 /* Scrollbars to Start Off Don't Touch and Other Stuff on that list */
 /*divider*/
 /* One that shows the Date Divider */
@@ -1806,9 +1807,12 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .scroller-fzNley.channel-members {
     background: rgba(0,0,0,0.21) !important;
 }
+.theme-dark .message-group a {
+    color: pink;
+}
 .chat .avatar-large {
-    width: 83px;
-    height: 83px;
+    width: 53px;
+    height: 53px;
     background-size: cover;
     background-color: #F33C88;
     border: 4px solid #F599B2;
@@ -1967,12 +1971,12 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 }
 .theme-dark .message-group h2 strong {
     color: rgb(255, 255, 255);
-    font-size: 21px;
+    font-size: 15px;
     text-shadow: 1px 3px 2px #000, 1px 3px 2px #000;
 }
 .theme-dark .message-group h2 span {
     color: rgba(255, 255, 255, 1);
-    font-size: 17px;
+    font-size: 14px;
     text-shadow: 1px 3px 2px #000, 1px 3px 2px #000;
 }
 .theme-dark .channel-members h2 {
