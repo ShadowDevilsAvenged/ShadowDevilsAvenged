@@ -1,28 +1,10 @@
 //META{"name":"MountainDew","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"1.0"}*//{}
 
-@import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/9a77afdb/SomeUnImportantStuff/MountainDew.theme.css);
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/9f60c828/SomeUnImportantStuff/MountainDew.theme.css);
 /* Backgrounds */
 .app,
-.callout-backdrop {
+.callout-backdrop,#pubs-container:before,.bda-backdrop {
 	background-image: url("https://i.imgur.com/fmeLWYL.jpg");
 	background-size: cover !important;
 	background-position: center !important;
-}
-
-.bda-backdrop {
-	background: url("https://i.imgur.com/fmeLWYL.jpg");
-	background-size: cover!important;
-}
-
-#pubs-container:before {
-	background: url("https://i.imgur.com/fmeLWYL.jpg")!important;
-	background-size: cover!important;
-}
-.theme-dark .chat{background: transparent;}
-
-.layers, .layer { background: transparent !important; }
-
-.theme-dark .contentTitle-sL6DrN, .marginLeft8-34JoM2, .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz, .theme-dark .descriptionDiscriminator-3KCIMj, .marginLeft4-3RAvyQ, .theme-dark .hljs-comment, .theme-dark .hljs-quote {
-    color: white;
 }
