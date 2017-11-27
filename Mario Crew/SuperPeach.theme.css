@@ -144,32 +144,7 @@
     background-color: rgba(0,0,0,0) !important;
     box-shadow: none;
 }
-/* Nitro Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-premium {
-    background: url(https://discordia.me/uploads/nitro/nitrobadge.png) 84% 84% /cover !important;
-    margin-right: 0;
-    padding-right: 8px;
-}
-/* Hypersquad Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-hypesquad {
-    background-image: url(/assets/23fbc1d621de200e48b165d40a0ea531.svg) !important;
-}
-/* Partner Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-partner {
-    background: url(/assets/c9423f39ad61457cb1125138d8ea1898.svg) !important;
-}
-#user-profile-modal .header .header-info .profile-badge {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 52px;
-    width: 72px;
-    position: absolute;
-    left: -3px !important;
-    top: 4px;
-    margin-bottom: 0px !important;
-    background-size: cover !important;
-}
+
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
     position: absolute;
     top: 9px;
@@ -2160,82 +2135,13 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     border-style: solid;
     background: rgba(243,60,136,0.7);
 }
-/* Invite Button Accepted and Main and such */
-.theme-dark .invite-button.accepted.can-click {
-    background-color: rgba(245,153,178,0.7);
-    background-size: 70px 70px;
-    border-color: #F14E91;
-    border-width: 3px;
+/* The Invite Section */
+.theme-dark .wrapper-uAa07y {
+    background-color: rgba(59,21,125,0.6);
+    border: none;
 }
+/* The Invite Accepted Section */
 .invite-button-icon.accepted {
-    background-color: #53B047;
-    border-color: black;
-    border-width: 3px;
-}
-.invite-button-icon.accepted:before {
-    background: url(http://mariopartylegacy.com/wp-content/uploads/2011/08/peachprofile.png) 10% 10% / cover !important;
-    width: 56px;
-    height: 56px;
-    transform:rotate(3deg);
-    margin-bottom: 0px !important;
-    content: "";
-    position: absolute;
-    left: -3px;
-    top: -3px;
-}
-.invite-button-icon.accepted:before {
+    background-color: rgb(59,21,125);
     border: none;
-}
-
-.invite-button-icon:before {
-    background: url(http://mariopartylegacy.com/wp-content/uploads/2011/08/peachprofile.png) 10% 10% / cover !important;
-    width: 56px;
-    height: 56px;
-    transform:rotate(3deg);
-    margin-bottom: 0px !important;
-    content: "";
-    position: absolute;
-    left: -3px;
-    top: -3px;
-    border: none;
-    opacity: 1;
-}
-.invite-button.join:hover .invite-button-icon {
-    border-color: #F599B2;
-}
-.invite-button-icon {
-    background-color: #F33C88;
-    border: 3px solid  #F599B2;
-    border-radius: 50%;
-    height: 50px;
-    margin-right: 10px;
-    position: relative;
-    transition: border-color .2s;
-    width: 50px;
-    opacity: 1;
-}
-.theme-dark .invite-button {
-    background-color: #F33C88;
-    background-size: 70px 70px;
-    border-color: #F599B2;
-    border-width: 3px;
-}
-/* The Invite Expired Stage */
-.invite-button-icon.expired:before {
-    border: none;
-    border-right: none;
-    border-width: 3px;
-}
-.invite-button-icon.expired:after {
-    content: "NO!";
-    transform: rotate(0deg);
-    border: none;
-    margin-top: 7px;
-    margin-left: -14px;
-    font-size: 20px;
-    font-weight: 800;
-}
-.invite-button-icon.expired {
-    background-color: red;
-    border-color: red;
 }
