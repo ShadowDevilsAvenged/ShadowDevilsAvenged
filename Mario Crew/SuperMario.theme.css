@@ -2146,83 +2146,13 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     border-style: solid;
     background: rgba(46,49,146,0.7);
 }
-/* Invite Button Accepted and Main and such */
-.theme-dark .invite-button.accepted.can-click {
-    background-color: rgba(46,49,146,0.7);
-    background-size: 70px 70px;
-    border-color: #D42128;
-    border-width: 3px;
+/* The Invite Section */
+.theme-dark .wrapper-uAa07y {
+    background-color: rgba(59,21,125,0.6);
+    border: none;
 }
+/* The Invite Accepted Section */
 .invite-button-icon.accepted {
-    background-color: #E4BA4B;
-    border-color: black;
-    border-width: 3px;
-}
-.invite-button-icon.accepted:before {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mario_emblem_inverted.svg/480px-Mario_emblem_inverted.svg.png) 10% 10% / cover !important;
-    width: 56px;
-    height: 56px;
-    transform:rotate(3deg);
-    margin-bottom: 0px !important;
-    content: "";
-    position: absolute;
-    left: -3px;
-    top: -3px;
-}
-.invite-button-icon.accepted:before {
+    background-color: rgb(59,21,125);
     border: none;
-}
-
-.invite-button-icon:before {
-    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Mario_emblem_inverted.svg/480px-Mario_emblem_inverted.svg.png) 10% 10% / cover !important;
-    width: 56px;
-    height: 56px;
-    transform:rotate(3deg);
-    margin-bottom: 0px !important;
-    content: "";
-    position: absolute;
-    left: -3px;
-    top: -3px;
-    border: none;
-    opacity: 1;
-}
-.invite-button.join:hover .invite-button-icon {
-    border-color: #E4BA4B;
-}
-.invite-button-icon {
-    background-color: #2E3192;
-    border: 3px solid  #D42128;
-    border-radius: 50%;
-    height: 50px;
-    margin-right: 10px;
-    position: relative;
-    transition: border-color .2s;
-    width: 50px;
-    opacity: 1;
-    
-}
-.theme-dark .invite-button {
-    background-color: #2E3192;
-    background-size: 70px 70px;
-    border-color: #D42128;
-    border-width: 3px;
-}
-/* The Invite Expired Stage */
-.invite-button-icon.expired:before {
-    border: none;
-    border-right: none;
-    border-width: 3px;
-}
-.invite-button-icon.expired:after {
-    content: "NO!";
-    transform: rotate(0deg);
-    border: none;
-    margin-top: 7px;
-    margin-left: -14px;
-    font-size: 20px;
-    font-weight: 800;
-}
-.invite-button-icon.expired {
-    background-color: red;
-    border-color: red;
 }
