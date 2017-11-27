@@ -1,6 +1,6 @@
 //META{"name":"Mario","description":"The Great Mario Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/DevilsLynAvenged/f040c226/Mario%20Crew/SuperMario.theme.css);
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/DevilsLynAvenged/33cff459/Mario%20Crew/SuperMario.theme.css);
 .app,
 .callout-backdrop,
 .bda-backdrop,
@@ -9,3 +9,30 @@
   background-size: cover !important;
 	background-position: center !important;
 }
+/* Nitro Badge */
+#user-profile-modal .header .header-info .profile-badge.badge-premium {
+    background: url(https://discordia.me/uploads/nitro/nitrobadge.png) 84% 84% /cover !important;
+    margin-right: 0;
+    padding-right: 8px;
+}
+/* Hypersquad Badge */
+#user-profile-modal .header .header-info .profile-badge.badge-hypesquad {
+    background-image: url(/assets/23fbc1d621de200e48b165d40a0ea531.svg) !important;
+}
+/* Partner Badge */
+#user-profile-modal .header .header-info .profile-badge.badge-partner {
+    background: url(/assets/c9423f39ad61457cb1125138d8ea1898.svg) !important;
+}
+#user-profile-modal .header .header-info .profile-badge {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    height: 52px;
+    width: 72px;
+    position: absolute;
+    left: -3px !important;
+    top: 4px;
+    margin-bottom: 0px !important;
+    background-size: cover !important;
+}
+
