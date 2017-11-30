@@ -1,2 +1,1747 @@
 //META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.4"}*//{}
- @import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/0af0a5d0/SomeUnImportantStuff/Gamble.theme.css);
+ 
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-color: transparent;
+}
+.scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-color: rgba(0, 0, 0, 0);
+}
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-color: rgba(0, 0, 0, 0);
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #b2b3cb;
+    border-color: rgba(0, 0, 0, 0);
+}
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child {
+    background: transparent !important;
+}
+.channels-3g2vYe {
+    background-color: transparent;
+}
+.container-RYiLUQ {
+    background-color: transparent;
+}
+.container-2OU7Cz {
+    background-color: transparent;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: black;
+    border: 3px solid rgba(255,0,0,0.6);
+}
+.theme-dark .layer, .theme-dark .layers {
+    background: rgba(0,0,0,0.25);
+}
+.guilds-wrapper {
+    background-color: transparent;
+}
+.theme-dark .chat form .typing {
+    background-color: transparent;
+}
+.theme-dark .chat form {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .chat>.content {
+    background-color: transparent;
+}
+.theme-dark .chat {
+    background-color: transparent;
+}
+.chat .messages {
+    background: transparent;
+}
+.theme-dark .friends-table, .theme-dark .messages-wrapper {
+    background-color: transparent;
+}
+.theme-dark .channel-members {
+    background-color: transparent;
+}
+.theme-dark .title-qAcLxz {
+    background: transparent;
+    box-shadow: none;
+}
+.theme-dark #friends {
+    background-color: transparent;
+}
+.theme-dark .headerBar-cxbhPD {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .content-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view .sidebar-region {
+    background: transparent;
+}
+.theme-dark .ui-standard-sidebar-view {
+    background: transparent;
+}
+/* Backgrounds */
+.app,
+.callout-backdrop {
+	background-image: url("https://images6.alphacoders.com/860/860275.png");
+	background-size: cover !important;
+	background-position: center !important;
+}
+.bda-backdrop {
+	background: url("https://images6.alphacoders.com/860/860275.png");
+	background-size: cover!important;
+}
+#pubs-container:before {
+	background: url("https://images6.alphacoders.com/860/860275.png")!important;
+	background-size: cover!important;
+}
+
+.chat .content .messages .message-group .avatar-large {
+    background-size: cover;
+    width: 65px;
+    height: 65px;
+    border: 4px solid #cc1111;
+}
+.chat .content .messages .message-group .avatar-large:hover{
+    width: 65px;
+    height: 65px;
+    opacity: 1;
+    filter:saturate(2);
+    border: 4px solid #cc1111;
+}
+/* Theme Stuff */ 
+.channel-text-area-default [class*="textArea-"], .channel-text-area-default [class*="selector-"] [class*="marginLeft8-"] {
+    color: #cc1111;
+}
+.message-group .btn-reaction {
+    background: url(data:image/png;base64,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) 60% no-repeat;
+    opacity: 1;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.message-group .comment>div:hover .btn-reaction, .message-group .comment>div:hover .btn-option {
+    opacity: 1;
+}
+.message-group .btn-option {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAA5klEQVRoQ+2YsRGDMAxFocpGaTMAVTbJKNkkVQZIy0ZUcBTkuMTHyULGEveoJRn9JyThtgn+tMHfvyGB2gQhAIGdCiRL6HZ/j1txP6/OTemRwEzq2Q+bxHZWydf9cb38CW5CgASEiCCwCEUXEpaMxMxNP5e8bMqGBLTKWflBwEpJbRyTSaw93MKPBNwvc8vUXf8j/E5i18tc+ARSH1ooApIELLqJNsY5u5BWjRp+rBI1VF+fCQGXBLiZOxCLyRxwvQtJJjEJCEuOmzlu5oSlkmPGJM5Rq4QtBEqomhMTAjlqlbANT2ACZSyYMQ7KHHoAAAAASUVORK5CYII=) 50% no-repeat;
+    opacity: 1;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+.channel-text-area-default [class*="inner-"], .channel-text-area-default [class*="autocomplete-"], .channel-text-area-default [class*="autocompleteInner-"], .channel-text-area-default [class*="selectorSelected-"] {
+    background: #000000;
+    border: 6px outset #000;
+}
+
+.theme-dark .attachButtonForeground-3VZiXQ {
+    fill: transparent;
+    opacity: 1;
+}
+.attachButton-Di6YUh {
+    opacity: 1;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACVUlEQVRIS+2UwYsSYRjG33HWCDclFcoQqUARnY4hHUSzOokwItqkf0G1RYcgwbsX6xS1/gXipMKgIB4CI0UQ9pjrDtql0h0vTqS5grJNjGjsDo4zQ3vc9zTD97zP73vm+95BQFmhFEV9UKlUf3Acf6ikFVEgRrvdbt9qtV7leyqVStXv99+X2y8XpO50Oj9sNtsCsqpSqfQZx/G7cmByQGqapnt2u/3KOkOKouqhUMgjBZMCbYSszOXANoG2aJruiyURJpCCiYEUQeQkWwdCaZo+lJtEbjIhCG21Wl8xDLshdbib1svl8qdAIHDvpOYUKJlMvkkkEi//B7LqTaVSr+Px+KvVuzDRBQBwAsDWUnCT47icHDCCIGEA+LbUHgPAPgDMxEBCT4zjuJZMEAYAbTGt1Bydg84/3b+74+Q4jr+mkoUgCD8WB5tu3W0AuAgAXwDgl0B4fTQadbRaLT9fojUej2c6nc4GAN8FossAcAsAjhCGYSYmk0lDkmQ6Go0+FbpVq9U9n8/Hb0a0arXantfrdQkFmUwmHYvFHg8GgyNkOBz+NhgM24VC4X0kEnm2xg2p1+tNh8OBGY3G7ZPrw+Fw0m639z0ezx0A4IS9+Xz+XTgc3mFZdiIHxPfzg30NADTL55XnBAAOxaKeArEsO9br9ZeKxeLbYDD4QvLUFQgoiuI9ny8S9Xo91mw265vN5gHDMB/n8zmqwEtUiqLoscVieeByuZz9fv8nQpLkLkEQT87CXMwjl8vtLn6q2Ww27Xa7H2k0GvVZAqfT6azRaGQJgtj5C5gCAGEzC3tYAAAAAElFTkSuQmCC) !important;
+    background-size: cover;
+}
+.channel-members .avatar-small {
+    border: 2px solid #cc1111;
+    border-radius: 50px;
+}
+.channel-members .avatar-small .status.status-typing {
+    right: -4px!important;
+    width: 32px!important;
+}
+.theme-dark .channel-members .avatar-small .status {
+    width: 17px !important;
+    height: 17px !important;
+}
+.bar-Y-RLyN {
+    background-color: black !important;
+    color: red;
+}
+.status-online {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+   
+ }
+.status-idle {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-dnd {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-invisible, .status-offline {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+    
+ }
+.status-streaming {
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100px !important;
+   
+ }
+
+.chat .new-messages-bar button, .chat .new-messages-bar button:last-child, .chat .divider.divider-red>span {
+    text-align: left;
+    background: none;
+    color: #fff;
+    font-weight: 500;
+    background: #cc1111;
+    font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    padding: 6px 10px;
+    line-height: 14px;
+}
+.avatarStatusIdle-3ADLtR { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusDnd-31uU1Q { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusOnline-3Io--E { 
+     background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.header-3mZJcV .avatarStatusInvisible-135znp { 
+    background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+    
+}
+.avatarStatusStreaming-3lGjGk { 
+     background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
+    background-size: cover;
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 100px !important;
+    border: 2px solid black !important;
+   
+} 
+#user-profile-modal .scroller, #user-profile-modal .tab-bar-container {
+    background: #111111;
+    border: 1px solid #111111;
+}
+.avatar-profile .status {
+    width: 30px !important;
+    height: 30px !important;
+   border: 4px solid #000;
+    bottom: 2px;
+    right: 2px;
+}
+#user-profile-modal .header:after {
+   background-size: cover;
+     background-attachment: absolute;
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-image: url(http://images.picstatio.com/u/5a5b45/tablet_cute-art-anime-girl-Jabami-Yumeko.jpg)!important;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name, #user-profile-modal .tab-bar .tab-bar-item{
+    color: #cc1111;
+}
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+    color: #cc1111;
+    font-weight: bold;
+    border-bottom-color: #cc1111;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+    border-radius: 7px;
+    border: 1px solid #cc1111;
+}
+#user-profile-modal .guilds .section+.section {
+    border-top: 1px solid #cc1111;
+}
+#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon {
+    width: 50px;
+    height: 50px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    background-size: cover;
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAABu0lEQVRoQ+2Z4W3CQAyFn5UOYCYpSBmgm5QN2g3abkAnaDpJF6CiTBLzv8jVqUSiCHo2HEeCjr/x2f7e84UkR7iSH10JBwpI35wsjgzSkQUzfwNPBExBxFkgVEWB5gZ4mYhIrKZptObMMxA9xJKd5brqay3yGMttBWmDE5XqZCLyFUua4vqCebwmWkBVapFRLKcNZDTSkKhuW1N8rKj1+txR19SYJ6G1SUucp24BsSh6akxx5JCCHmVOdWF7vadu2SMplU8xCcWR4ohDgbLZU2w6h+DR0OJIcSQ6JMcFZB2trpi1Vc87TQFJvUc2Hy0+iGjc5e6tI4fg/0CoLkF0631dzjpa+0B2ISrgbk3UDgpkH0T4LuVRtxPHsybp0+8hiNCYp6mLgvwHMRiQGMQgQCwQvQexQvQaxAPRLxDV91pkGpryQlifw3bjPHc62+2XuckN4XXRBNIplcuJs/2P5Byn7fFKPlq5ndgI93vQA6zqto0e95lGa87cgOgeqsvwANid6X0yT5Xo7djNbFqX8ugtOLIGZhXwmBFiBdWmAp6THYaalLtwkGm0LtyjqXwBMcmUMag4klFsU6kfD0zpQjh2YTAAAAAASUVORK5CYII=) no-repeat 50%;
+}
+#user-profile-modal .guilds .section .note textarea {
+    color: #cc1111 !important;
+    font-size: 14px;
+    line-height: 16px;
+    background: transparent;
+}
+#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, #user-profile-modal .guilds .section .section-header, ::-webkit-input-placeholder {
+  color: #cc1111 !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+    color: #cc1111;
+    font-weight: bold;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    font-size: 19px;
+    color: #cc1111;
+    position: relative;
+    left: 12px !important;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+    width: 250px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #4f545c;
+    padding-top: 4px;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity {
+   color: #cc1111 !important;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 16px;
+    color: #4f545c;
+    padding-top: 4px;
+}
+#user-profile-modal .header .header-info .header-info-inner .activity strong {
+   color: #cc1111 !important;
+    font-size: 14px;
+    font-weight: bold;
+}
+.channel-members .member .member-activity-text {
+    color: #cc1111;
+    font-style: italic;
+    font-weight: bold;
+}
+.body-3rkFrF {
+    padding: 10px;
+    background-color: #111111;
+}
+.footer-2J5zqP {
+    border-top-color: #111111;
+    background: #111111;
+}
+.theme-dark .chat form .typing span {
+    color: rgba(255, 255, 255, 0.8);
+}
+.typing .text {
+    display: inline-block;
+    }
+
+.quick-message::-webkit-input-placeholder {
+    color: #cc1111 !important;
+}
+.note textarea:focus {
+    background: #000;
+}
+.note textarea {
+    color: red;
+}
+.quick-message {
+    border: 2px outset #333;
+    background: #000;
+    border-radius: 13px;
+    color: red;
+    font-weight: bold;
+}
+.member-roles .member-role {
+    cursor: default;
+    background-color: #000;
+    border-radius: 100px;
+    border: 1px outset #333333;
+    font-size: 12px;
+    line-height: 12px;
+    color: #cc1111;
+    font-weight: bold;   
+}
+
+
+.body-3rkFrF .note-3Zfyi2 textarea::-webkit-input-placeholder {
+    color: #cc1111 !important;
+}
+.bodyTitleText-hSiL7d {
+    color: #cc1111;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.headerNormal-1cioxU {
+    background: url(https://images2.alphacoders.com/854/854421.png);
+    background-size: cover;
+}
+.avatarNormal-3luwna {
+    border-color: #111111;
+}
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+    background: #111111;
+    border-top: 1px solid #cc1111;
+}
+.bda-slist .bda-name, .ui-standard-sidebar-view .bda-slist .bda-description {
+  color: #cc1111;
+  border-top: 1px solid #000;
+}
+
+.ui-standard-sidebar-view .bda-slist li {
+    background: #000000;
+    border-bottom: 1px solid #cc1111;
+}
+.itemBrand-mC9YR4 {
+    color: #cc1111;
+    font-weight: bold;
+}
+.app a, .connecting a {
+  color: #cc1111;
+    font-weight: bold;
+}
+.theme-dark .itemDefault-3NDwnY:hover {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+.barFill-18ABna {
+    background: #cc1111;
+    height: 100%;
+}
+#bd-settings-sidebar .ui-tab-bar-item:hover {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected {
+    border: 5px solid #000;
+    background-color: #121111;
+    color: #cc1111;
+}
+
+
+.theme-dark div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: #cc1111 !important;
+ }
+.theme-dark div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #994444 !important;
+}
+
+[class*="barFill-18ABna"][style*="background: rgb(105, 196, 154)"]
+{
+    background: #cc1111 !important;
+}
+[class*="bar-2cFRGz"][style*="background: rgb(251, 184, 72)"]
+{
+    background: #000 !important;
+}
+.theme-dark .bar-2cFRGz {
+    background: #000;
+}
+.tooltip-right:after {
+    border-right-color: #cc1111 !important;
+}
+.tooltip-top:after {
+    border-top-color: #cc1111 !important;
+}
+.tooltip-bottom:after {
+    border-bottom-color: #cc1111 !important;
+}
+.tooltip {
+  background-color: #000;
+    border: 2px inset #555;
+    border-radius: 10px;
+   color: #cc1111;
+}
+[layer-id="user-settings"] input[type="checkbox"]:checked + div polyline {
+    stroke: #cc1111;
+}
+.cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"],
+.radio-item.checked[style*="background-color: rgb(114, 137, 218);"],
+.theme-light .ui-card-primary.checked {
+    background-color: #000 !important;
+    border: solid 4px #cc1111 !important;
+}
+.buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, #bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: #cc1111;
+    background-color: #121111;
+    border: 1px outset gray;
+}
+.buttonBrandFilled-3Mv0Ra:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+    color: #cc1111;
+    background-color: #121111;
+    border: 2px inset gray;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+   background: #994444;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+    background: #cc1111;
+}
+.bd-pfbtn, .ui-standard-sidebar-view .bda-slist .bda-right button{
+    background: #000;
+    color: #cc1111;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bd-pfbtn[style*="left"] {
+      position: relative;
+      top: -46px;
+}
+.ui-standard-sidebar-view #editor-detached button {
+    background: #000;
+    color: #cc1111;
+    font-size: 35px;
+    font-weight: bold;
+}
+::-webkit-scrollbar-track {
+   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	background-color: transparent;
+    display: none;
+ }
+
+::-webkit-scrollbar
+{
+	width: 5px !important;
+	background-color: transparent;
+    border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb
+{
+    border: 0px solid #cc1111 !important;
+	border-radius: 10px;
+    background-color: transparent !important;
+}
+.scrollbarGhost-K_3Xa9::-webkit-scrollbar-track-piece 
+{
+    background-color: transparent !important;
+    border-radius: 10px;
+}
+.badge { 
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209bk.png) !important;
+    background-size: cover;
+    background-position: center;
+  position: relative;
+    height: 16px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 14px;
+    width: 16px;
+    text-align: center;
+    padding-bottom: 2px;
+    clip-path: circle(50% at 50% 50%);
+    background-size: cover;
+    margin-bottom: 2px !important;
+}
+.new-messages-indicator.new-messages-indicator-mention {
+    background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+    background-size: cover;
+    color: transparent;
+    border-radius: 25px;
+    margin-bottom: 19px;
+    left: 16px;
+    opacity: 1;
+    width: 45px;
+    height: 45px;
+} 
+.new-messages-indicator .icon.icon-unread-arrow {
+   margin-left: -23px;
+    width: 22px !important;
+    height: 22px !important;
+    background-size: cover;
+    opacity: 1;
+}
+
+#instant-invite-modal .clipboard-input-inner input {
+    color: #cc1111;
+    background: #000;
+    font-size: 24px;
+    border: 3px outset #cc1111;
+    
+}
+#instant-invite-modal .form-header header {
+    color: #cc1111;
+    font-size: 18px;
+    line-height: 24px;
+}
+#instant-invite-modal .blurb {
+    font-size: 14px;
+    color: #cc1111;
+    opacity: 1;
+}
+#instant-invite-modal .expire-text {
+   font-size: 19px;
+   color: #cc1111;
+}
+.form.deprecated .form-inner {
+    background-color: #000;
+    color: #cc1111;
+}
+.form.deprecated .form-header {
+    background: #000;
+ }
+#instant-invite-modal .form-actions {
+   color: #cc1111;
+    background-color: #000;
+ }
+#instant-invite-modal .copy {
+   background-color: #000;
+    color: #cc1111;
+}
+.clipboard-input-inner button:first-of-type:before {
+    background: transparent;
+    border-right-color: #cc1111;
+}
+.clipboard-input-inner {
+    border: 3px outset #333333;
+    border-radius: 9px;
+ }
+#instant-invite-modal-advanced .form-actions {
+    background-color: #cc1111;
+}
+.popout-menu {
+    background: black;
+ }
+.theme-dark .attachButtonPlus-2l1NEU {
+    fill: transparent;
+}
+.foreground-2zy1hc {
+    fill: transparent;
+    opacity: 1;
+}
+.background-2nyTH_ {
+    fill: transparent;
+}
+.unread-23Kvxk {
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    clip-path: circle(50% at 50% 50%);
+    top: 27%;
+    border-radius: 100px;
+    left: 3%;
+    margin-top: -4px;
+   background-size: cover;
+   background-image: url(http://www.chipsandgames.com/images/products/detail/209rd.png) !important;
+ }
+.wrapper-2xO9RX {
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209bk.png) !important;
+    background-size: cover;
+    background-position: center;
+    border-radius: 95px;
+    width: 12px;
+    height: 15px;
+    text-align: center;
+    clip-path: circle(50% at 50% 50%);
+}
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"] {
+    background: black !important;
+    border: 2px outset #222222 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+}
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"]:hover {
+    background: black !important;
+    border: 2px inset #cc1111 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+  }
+[class*="copybutton"][style*="color: rgb(131, 148, 150); border: 2px solid rgb(40, 43, 48); background-color: rgb(46, 49, 54);"]:focus {
+    background: black !important;
+    border: 2px inset #cc1111 !important;
+    border-radius: 5px;
+    color: #cc1111 !important;
+   animation: pulse 1s 3 backwards;
+ }
+ .theme-dark .message-group .comment .markup code.inline, .theme-dark .message-group .comment .markup pre code {
+    background: rgba(0,0,0,0.5);
+    border: 2px solid #cc1111;
+    border-radius: 15px;
+    overflow-x: auto;
+    font-size: 11px;
+    
+ }
+.guilds-wrapper .guilds .guild .guild-inner {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: transparent !important;
+}
+.guilds-wrapper .guilds .friends-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url(http://www.chipsandgames.com/images/products/detail/209rd.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+ }
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:not(.selected) {
+    background-color: #111;
+    border: 1px outset #cc1111;
+    color: #cc1111;
+}
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+   box-shadow: 1px 1px 13px 4px rgba(204,17,17,1);
+    background: #111;
+}
+
+.private-channels .channel .channel-name {
+    color: #8e0b0b;
+    opacity: 1;
+}
+.private-channels .channel .channel-name:hover, #friends .friends-table .friends-table-header .friends-column, .private-channels header , #friends .friends-table .friends-row .discord-tag .username, #friends .friends-table .friends-row .friends-column-status .status-text  { 
+    color: #cc1111 !important;
+    opacity: 1;
+}
+
+.private-channels .channel .channel-activity-text {
+    color: #cc1111;
+}
+#friends .friends-header .tab-bar .tab-bar-item {
+    background: black;
+    color: #cc1111 !important;
+}
+#friends .friends-header .tab-bar .tab-bar-item.selected {
+    background: #112 !important;
+    border: 1px solid #555566;
+}
+#friends .friends-table .friends-row .discord-tag .discriminator {
+    color: #ef2a2a;
+    opacity: 1;
+    font-style: italic;
+}
+.nameSelectedText-32NDX5, .nameDefault-Lnjrwm {
+    color: red;
+    border: 1px solid red;
+    text-align: center;
+    font-weight: bold;
+}
+.nameHoveredText-2FFqiz {
+    animation: pulse 1s infinite;
+    color: red;
+}
+.nameDefaultText-QoumjC, .nameDefaultVoice-1swZoh {
+    color: #bf0d0d !important;
+}
+.chat>.title-wrap.title-wrap-dark .channel-name, .header-1tSljs {
+    color: red;
+}
+
+.chat>.title-wrap>.title .channel-name .channel-icon {
+    color: transparent;
+ }
+.nameHoveredVoice-TIoHRJ {
+    color: red;
+    font-weight: bold;
+}
+.nameDefault-1I0lx8 {
+    color: #bf0d0d;
+}
+.nameHovered-28u_Fz, .nameSpeaking-3ROx9q {
+    color: red;
+    font-weight: bold;
+}
+.avatarSpeaking-3teDH6 {
+    
+    box-shadow: 0px 0px 2px 2px #cc1111, inset 0 0 1px 2.5px #000;
+}
+.nameSelectedVoice-XpjYTw { 
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+.chat>.title-wrap.title-wrap-dark .topic {
+    color: red;
+ }
+ .upload-modal {
+    background-color: #000;
+    border-radius: 10px;
+    border: 2px solid #cc1111;
+}
+.upload-modal .inner {
+    border: 2px dashed #cc1111;
+    border-radius: 10px 10px 10px 10px;
+    color: #cc1111;
+}
+.theme-dark .message-group h2 span {
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+}
+.theme-brand .inner-3if5cm, .upload-modal .footer {
+    background: black;
+}
+.theme-brand .textArea-20yzAH {
+    color: #cc1111;
+    font-weight: bold;
+}
+.upload-modal .footer .button:first-child {
+   background-color: black;
+    color: #cc1111;
+ }
+.upload-modal .footer .button-primary {
+    color: #cc1111;
+    background-color: #111111;
+ }
+.guilds-wrapper .guilds .guild.unread:before {
+   background: #cc1111;
+ }
+.theme-dark .channel-members h2 {
+    color: #cc1111;
+    font-size: 14px; 
+    font-weight: bold;
+ }
+
+.theme-dark .channel-members .member:hover {
+    background: black !important;
+    border: 5px solid #cc1111;
+    border-radius: 10px;
+}
+
+.container-iksrDt {
+    height: 79px;
+    background: rgba(0,0,0,0.8) !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+ }
+.theme-dark .message-group .comment .markup .mention {
+    background: black;
+    color: red;
+}
+.theme-dark .message-group .comment .markup .mention:hover {
+    background: black;
+    color: red;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.accountDetails-15i-_e .username {
+    overflow: hidden;
+    font-size: 19px;
+    text-align: left;
+}
+.accountDetails-15i-_e .discriminator {
+    opacity: 0.8;
+    font-size: 10px;
+}
+.container-iksrDt .avatar-small {
+   width: 49px;
+    height: 49px;
+    background-size: cover;
+    border: 3px inset #cc1111;
+}
+.container-iksrDt .status {
+    border: 2px solid #292c31;
+    position: relative;
+    left: 26px;
+    top: 25px;
+    width: 25px !important;
+    height: 25px !important; 
+}
+.button-1aU9q1{
+    opacity: 1;
+    background-color: rgba(124,0,0,0.2);
+    position: relative;
+    right: -9px;
+}
+.upload-modal .inner .file .icon.image {
+   border: 4px solid #cc1111;
+}
+  .theme-dark .inner-3if5cm {
+    background-color: rgba(114, 0,  0, 0.4);
+}
+
+.theme-dark .headerBar-cxbhPD {
+    background-color: rgba(0, 0, 0, 1) !important;
+}
+.private-channels .search-bar {
+    background: rgba(10, 13, 16, 1) !important;
+}
+
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+    background-color: black;
+    color: #c11;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+    border: 4px outset #c11 ;
+    color: #c11;
+}
+.theme-dark #friends .tab-bar .tab-bar-item {
+    color: #c11;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: black;
+    color: #c11;
+    border: 3px inset #c11;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: black;
+    color: #c11;
+    border: 2px solid rgba(255,0,0,0.3);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+    background-color: black !important;
+    color: #c11;
+    border: 2px outset rgba(255,0,0,0.6);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: black;
+    color: #c11;
+    border: 3px inset #c11;
+}
+#friends .btn {
+    background-color: black !important;
+    color: #c11;
+    border: 2px outset rgba(255,0,0,0.6);
+}
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header, #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    background-color: black;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: black !important;
+    border: 4px outset rgba(255,0,0,1);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: black !important;
+    color: #c11;
+    border: 4px  solid rgba(255,0,0,0.3);
+}
+.nameSelectedText-32NDX5, .nameDefault-Lnjrwm, .nameHovered-1YFSWq {
+    color: #f00;
+    border: 1px solid #f00;
+    text-align: center;
+    font-weight: bold;
+}
+.theme-dark .textArea-20yzAH {
+    color: red;
+}
+.autocompleteInner-N7OQf1 {
+   background: rgba(0,0,0,0.5);
+}
+.theme-dark .autocomplete-1TnWNR {
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid rgba(255,0,0,0.5);
+}
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: black;
+     border: 3px solid rgba(255,0,0,0.5);
+}
+.tab-bar.TOP .tab-bar-item:hover {
+    border-bottom: 2px solid rgba(255,0,0,0.5);
+}
+#user-profile-modal .guilds .guild:hover {
+   background: black;
+   border: 3px outset rgba(255,0,0,0.5);
+    color: red;
+}
+#user-profile-modal .actions .btn.add-friend:hover {
+    background: rgba(255,0,0,0.7);
+}
+
+#user-profile-modal .actions .btn.add-friend {
+    background: rgba(255,0,0,0.3);
+}
+.theme-dark .iconForeground-1U-F96 {
+    fill: rgba(255,0,0,0.7);
+}
+.theme-dark .content-249Pr9, .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz, .theme-dark .contentTitle-sL6DrN  {
+    color: rgba(255,0,0,0.7);
+}
+.theme-dark #friends {
+background: transparent !important;
+}
+.private-channels .channel.selected a {
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+}
+
+.guilds-wrapper .guilds-error:hover {
+    background-color: rgba(7,7,7,0.8);
+}
+.guilds-wrapper .guilds-error {
+    -webkit-box-sizing: border-box;
+    background: black;
+    border: 3px solid #c11;
+    border-radius: 50%;
+    color: #c11!important;
+    font-size: 40px;
+    font-weight: 700;
+    height: 50px;
+    line-height: 46px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+}
+.unread-mentions-indicator-bottom .unread-mentions-bar, .unread-mentions-indicator-top .unread-mentions-bar {
+    background: black !important;
+    color: #c11;
+    font-weight: bold;
+}
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div {
+    background: none;
+    opacity: .4;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+    background: none;
+}
+[id="bd-pub-button"][style="line-height: 20px; font-size: 12px;"] {
+color: #c11;
+}
+.accountDetails-15i-_e .username, .accountDetails-15i-_e .discriminator {
+color: #c11;
+}
+.theme-dark .search .search-bar {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 23px;
+}
+ .icon-2qNMWC {
+    color: red;
+}
+.theme-dark .message-group a {
+    color: red;
+}
+.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx,.theme-dark .message-group h2 span {
+    color: red;
+}
+#user-profile-modal .avatar-wrapper {
+    background-color: transparent;
+ }
+ .context-menu {
+   background: #000;
+}
+.context-menu .item:hover {
+    background: #111 !important;
+    color: red;
+}
+/* Main Invite Button (Not Yet Invited) */
+.theme-dark .invite-button {
+    background-color: #2f3136;
+    border-color: #2c2e33;
+}
+/* Main Invite Button (Invited) */
+.theme-dark .invite-button {
+    background-color: #2f3136;
+    border-color: #2c2e33;
+}
+.popout-menu .popout-menu-separator {
+    border-bottom: none;
+}
+.dropdown-button path[stroke] {
+    stroke: red;
+}
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container {
+    background-color: black;
+}
+.bda-dark #bda-qem button.active {
+    background-color: #111;
+    color: red;
+    font-weight: bold;
+}
+
+.bda-dark #bda-qem button {
+    background: #222;
+    border-left: none;
+    box-shadow: none;
+    color: #c11;
+    font-weight: bold;
+    border: none;
+ }
+ .bda-dark #bda-qem button:hover {
+    background: #222;
+    border-left: none;
+    box-shadow: none;
+    color: #c11;
+    font-weight: bold;
+    border: none;
+ }
+ .theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu, .theme-dark .topic-1KFf6J, .channelIcon-1KtcMW {
+    color: red;
+}
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .bot-tag {
+    background: black;
+    border-radius: 50px;
+    color: #c11!important;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 4px 4px;
+     font-weight: bold;
+}
+.theme-dark .message-group h2 span .bot-tag {
+    background: black;
+    border-radius: 13px;
+    color: #c11!important;
+    font-size: 16px;
+    padding: 5px 5px;
+     font-weight: bold;
+}
+.channel-members .bot-tag, .aka-2Ba14Z {
+    height: 14px;
+    line-height: 15px;
+    padding: 2px 4px;
+    font-size: 12px;
+    background: black;
+    border-radius: 13px;
+    color: #c11!important;
+    font-weight: bold;
+}
+ .bda-dark #bda-qem {
+    border-bottom: 1px solid black !important;
+}
+
+.typing strong {
+    font-weight: 700;
+    color: red;
+ }
+ .theme-dark .chat form .typing span { 
+ color: red;
+ }
+ .iconBadge-1FYlQB {
+    background-color: red;
+    border: 2px solid black !important;
+}
+.chat .new-messages-bar button, .chat .new-messages-bar button:last-child, .chat .divider.divider-red>span {
+     color: #c11 !important;
+    font-weight: bold;
+    background: black !important;
+}
+.emoji-picker .scroller .emoji-item {
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.bda-dark .emoji-picker, .emoji-picker .scroller {
+    background-color: black;
+}
+.bda-dark .emoji-picker .category, .notice.notice-info {
+color: #c11;
+background: black;
+}
+.emoji-picker .categories .item.selected {
+    border-bottom-color: red;
+}
+#pluginNotice #outdatedPlugins span {
+    color: #c11;
+ }
+ .bda-dark .emoji-picker .header .search-bar {
+    background-color: black;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(27,27,27,.7);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 53px!important;
+}
+.theme-dark.context-menu {
+    background: black;
+    color: #c11;
+}
+
+.theme-dark.context-menu .item-subMenu {
+    background: #111;
+   
+}
+.theme-dark.context-menu .item:hover {
+    background: black;
+    color: red;
+}
+.theme-dark.context-menu .context-menu {
+    -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
+    background: black;
+    border: 1px solid black;
+ }
+ .theme-dark.context-menu .item {
+    color: #c11;
+}
+
+
+.theme-dark .defaultColor-v22dK1, .theme-dark .titleChecked-3Ngoss, .theme-dark .title-3i-5G_, .theme-dark .h5-3KssQU, .theme-dark .ui-select>.Select .Select-control .Select-placeholder, .theme-dark .channelName-g_kAQT, .channelNameByline-1v_o14 {
+    color: #c11 !important;
+}
+.theme-dark .roundRemoveButton-1NEXB9 {
+    background-color: black;
+ }
+ [class*="checkbox-1QwaS4 center-1MLNrE flex-3B1Tl4 justifyCenter-29N31w alignCenter-3VxkQP box-XhjOl4 checked-2TahvT"][style="border-color: rgb(114, 137, 218);"] {
+ border-color: red !important;
+ }
+ .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: red;
+    stroke-width: 2;
+}
+.popout-menu .popout-menu-item:hover {
+    background-color: black;
+    color: red;
+    opacity: 1;
+}
+.theme-dark .footer-1PYmcw, .theme-dark .header-3sp3cE {
+    background-color: #111 !important;
+}
+.container-3lnMWU {
+    background: black;
+    border-bottom: none;
+}
+.inner-ptMwR- .channel-3YGMy1 {
+    color: red;
+    opacity: 1;
+}
+div[class*="switchEnabled"][class*=valueUnchecked] {
+    background-color: #c11 !important;
+}
+div[class*="switchEnabled"][class*=valueChecked] {
+    background-color: red !important;
+}
+.upload-drop-modal .bgScale {
+    background: black;
+    border-radius: 46px;
+    
+}
+.upload-drop-modal .inner .instructions, .upload-drop-modal .inner .title {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4px;
+    text-align: center;
+}
+.upload-drop-modal .inner {
+    border: 3px dashed red;
+    border-radius: 46px;
+    color: #fff;
+}
+.icon-3w_81G {
+  color: red;
+}
+.theme-dark .ui-select>.Select .Select-option {
+    background-color: rgba(0, 0, 0, 0);
+    color: #c11;
+}
+.icon-3_ICKH {
+    fill: red;
+}
+.lighten-bXgwKO {
+    opacity: 1;
+}
+.theme-dark .ui-select>.Select .Select-menu-outer {
+    background: black;
+    border-color: #c11;
+}
+.instant-invite-modal {
+    background: transparent;
+}
+.Select .Select-menu {
+    border-radius: 0 0 3px 3px;
+    background: black;
+    }
+    .clipboard-input-copied .clipboard-input-inner {
+    border-color: red;
+}
+.form.deprecated .control-group .help-text,.form.deprecated .control-group label, .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: red;
+}
+#instant-invite-modal-advanced .form-actions .btn-default {
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+}
+#instant-invite-modal-advanced .form-actions .btn-default:active {
+    background-color: rgba(0, 0, 0, 0);
+    color: red;
+}
+.form.deprecated .btn-default:hover {
+    border-bottom: 2px solid #c11;
+}
+.form.deprecated .btn-default {
+   border-bottom: 2px solid red;
+}
+.form.deprecated .btn-default:active {
+   border-bottom: 2px solid red;
+}
+#instant-invite-modal .checkbox .checkbox-inner span, #instant-invite-modal-advanced .checkbox .checkbox-inner span {
+    border: 2px solid red;
+}
+.form.deprecated .form-inner:first-child {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+#instant-invite-modal-advanced .form-actions {
+    background-color: black !important;
+    border-top: none;
+    padding-top: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.form.deprecated .btn-primary:active{
+    background-color: black;
+    border-radius: 53px;
+    border: 3px inset rgba(255,0,0,0.8) !important;
+     color: red;
+}
+.form.deprecated .btn-primary:hover {
+    background-color: #111;
+    border-radius: 53px;
+    border: 3px outset rgba(255,0,0,0.8);
+     color: red;
+}
+.form.deprecated .btn-primary {
+    background-color: black;
+    border-radius: 53px;
+    border: 3px solid rgba(255,0,0,0.4);
+    color: red;
+}
+.theme-dark .message-group .comment .markup pre {
+    background: transparent;
+    border-color: transparent;
+}
+
+/* Invite Button Stuff */
+.form.deprecated .form-header {
+    background: black;
+    border-bottom: 1px solid #c11;
+    border-radius: 52px 52px 0 0;
+}
+#instant-invite-modal .form-header header, #instant-invite-modal .blurb, #instant-invite-modal .form-actions .checkbox, #instant-invite-modal .expire-text {
+    color: red;
+}
+#instant-invite-modal .form-actions {
+    border-radius: 0px 0px 32px 32px;
+    background: black !important;
+}
+.form.deprecated .form-inner {
+   background: black !important;
+}
+#instant-invite-modal .clipboard-input-inner input {
+    color: rgba(255,0,0,0.4);
+    background: black;
+    border-radius: 63px;
+}
+.clipboard-input-inner button:first-of-type:before {
+ background: rgba(255,0,0,0.4);
+ border-radius: 6px;
+}
+.form.deprecated .Select-control {
+background: black;
+border: 2px solid red;
+}
+.Select-arrow {
+    border-color: red rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 8px 8px 2.5px;
+}
+.form.deprecated .Select-control:hover {
+    border-color: #c11;
+}
+.clipboard-input-inner {
+    border: 3px solid black;
+    border-radius: 63px;
+}
+.clipboard-input-inner button {
+    border-left: 3px solid black;
+}
+.clipboard-input-inner button {
+  color: black;
+}
+.clipboard-input-inner {
+    background: #000;
+}
+#instant-invite-modal .copy {
+    background-color: black;
+    text-transform: capitalize;
+}
+.clipboard-input-copied button {
+    background-color: black !important;
+    border-color: #c11 !important;
+}
+.private-channels .channel:hover a {
+    background-color: black;
+    color: #c11;
+}
+.search-popout {
+    background: black;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    width: 320px;
+}
+.search-popout .option:after {
+   background: black;
+}
+.search-popout .search-option .filter, .search-popout .search-option .answer, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .option .non-text, .search-popout .option .answer, .search-popout .search-query .search-for strong, .search-popout .option.user .display-username, .search-popout .results-group .header, .search-popout .option .filter, .search-popout .search-query .search-for, .search-popout .option.user .displayed-nick, .search-popout .option strong {
+    color: red;
+    font-weight: 500;
+    margin: 0 4px 0 0;
+}
+.search-popout .search-option .filter:hover , .search-popout .search-option .answer:hover , .search-popout .results-group .header:hover , .search-popout .option .filter:hover , .search-popout .option .non-text:hover , .search-popout .option .answer:hover {
+    color: red;
+    font-weight: 500;
+    margin: 0 4px 0 0;
+}
+.search-popout .option.selected,.search-popout .option.selected:after, .search-popout .option.selected:before {
+    background-color: black !important;
+}
+.keybind-shortcut.dim span {
+    background-color: black;
+    color: red;
+}
+.keybind-shortcut span {
+    border: 1px solid rgba(255, 0, 0,0.4);
+    border-radius: 2px;
+    box-shadow: inset 0 -4px 0 rgba(255, 0, 0,0.4);
+}
+.keybind-shortcut.dim span:active {
+    color: red;
+}
+.search-popout .option.selected:after {
+    background: black;
+}
+.theme-dark .search-answer, .theme-dark .search-filter, .search-popout .date-picker .date-picker-hint .hint-value {
+    background-color: black;
+    border: 1.5px solid red;
+    color: red;
+}
+
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: black;
+    border: 1.5px solid red;
+    color: red;
+}
+.search-popout .date-picker .date-picker-hint .hint {
+color: red;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
+    background: black;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
+color: #c11;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
+    border-left-color: rgba(0,0,0,0.6);
+    border-top-color: rgba(0,0,0,0.6);
+    
+    color: rgba(255,0,0,1);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
+    background-color: black;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
+    background-color: rgba(0,0,0,.05);
+    color: rgba(255,0,0,.2);
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous  {
+ background: transparent;
+ }
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
+    background-color: rgba(25,25,25,0.5);
+    color: red;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
+    border-right-color: black;
+}
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
+    background-color: rgba(0,0,0,0.3);
+    color: rgba(255,0,0,.6);
+}
+.theme-dark .private-channel-call {
+    background-color: rgba(0,0,0,0.5);
+}
+.buttonRedFilled-1NjJNj {
+    background-color: black;
+    color: red;
+}
+.buttonRedFilled-1NjJNj:hover {
+    background-color: black;
+    color: red;
+    border: 3px outset red;
+}
+.buttonRedFilled-1NjJNj:active{
+    background-color: black;
+    color: red;
+    border: 3px outset red;
+}
+.guilds-wrapper .guilds-add {
+    background: black;
+    border: 3px dashed red;
+    border-radius: 50%;
+    color: red;
+    font-size: 40px;
+}
+.guilds-wrapper .guilds-add:hover {
+    background: black;
+    border: 3px solid red;
+    border-radius: 50%;
+    color: red;
+    font-size: 40px;
+}
+.create-guild-container.deprecated {
+    background-color: transparent;
+}
+
+.slider-handle {
+	border: 3px solid #c11;
+	background-color: black;
+	
+}
+
+.slider-handle span {
+	border-radius: 10px;
+	background-color: rgba(0, 0, 0, .7)
+}
+
+.slider-bar-fill {
+	background: red;
+}
+.message-group .mentioned .message-text:after {
+    background: none;
+    border: none;
+}
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(250,0,0,.2);
+}
+.status-picker .popout-menu-item .status-icon-text, .status-picker .popout-menu-item .helper, .guilds-wrapper .guilds .friends-online {
+   color: #c11;
+}
+.guilds-wrapper .guild-separator:after {
+background: red;
+}
+/* Full Main Invited Button */
+.theme-dark .invite-button {
+    background-color: rgba(0, 0, 0,0.4) !important;
+    border-color: rgba(255,0,0,0.3)!important;
+    border-width: 3px;
+    border-style: outset;
+}
+.theme-dark .invite-button.join:hover {
+     background-color: rgba(0, 0, 0,0.6) !important;
+    border-color: red !important;
+    border-width: 3px;
+    border-style: outset;
+}
+.theme-dark .invite-button .invite-button-header, .theme-dark .invite-button .invite-button-body {
+    color: #c11;
+}
+/* Green Invite Button Accepted Part */
+.invite-button-icon.accepted {
+    background-color: black;
+    border-color: red;
+    border-width: 3px;
+    border-style: inset;
+}
+.invite-button-icon.accepted:before {
+    border-color: red;
+    opacity: 0.7;
+}
+/* Green Invite Button Not Accepted Part */
+.invite-button-icon.accepted {
+    background-color: black;
+    border-color: red;
+    border-width: 3px;
+    border-style: inset;
+}
+.invite-button.join:hover .invite-button-icon {
+    border-color: #262626;
+}
+.invite-button-icon {
+    background-color: black;
+    border-color: red;
+    border-width: 3px;
+    border-style: outset;
+    border-radius: 50%;
+}
+.invite-button-icon:before {
+    border-color: red;
+    opacity: 1;
+    border-style: solid;
+    border-width: 0 6px 6px 0;
+}
+/* Bot Tags for Different Locations*/
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .bot-tag {
+    background: black;
+    border-radius: 50px;
+    color: #c11 !important;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 4px 4px;
+}
+.theme-dark .message-group h2 span .bot-tag {
+    background: black;
+    border-radius: 13px;
+    color: #c11 !important;
+    font-size: 16px;
+    padding: 5px 5px;
+}
+.channel-members .bot-tag {
+    height: 14px;
+    line-height: 15px;
+    padding: 2px 4px;
+    font-size: 12px;
+    background: black;
+    border-radius: 13px;
+    color: #c11 !important;
+}
+.wrapper-2ldvyE {
+    background-color: black;
+    border-radius: 50px;
+    color: #c11;
+    border: 3px outset rgba(255,0,0,0.4);
+}
+.chat .jump-to-present-bar button {
+    background: black;
+    color: #c11;
+}
+.chat .jump-to-present-bar .spinner .spinner-item {
+    background-color: #c11;
+}
+.chat .jump-to-present-bar .spinner {
+    background: black;
+}
+
+.theme-dark .message-group .edit-message .edit-operation {
+    color: #c11;
+    font-size: 18px
+}
+.message-group .edit-message .edit-operation>a {
+  color: red;
+    font-size: 18px;
+}
+.avatarStatus-1g8f0K {
+    border: 3px solid rgba(0, 0, 0, 1) !important;
+    height: 64px !important;
+    width: 64px !important;
+    z-index: 3;
+}
+.wrapper-2xO9RX {
+    background-clip: padding-box;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 53px;
+    color: #c11;
+    padding: 5px 8px;
+ }
+ .popout-UKvsJt {
+    height: 190px;
+    width: 190px;
+}
+
+.horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
+    background-color: transparent !important;
+}
+[class*="emoji-image"][class*="emoji-row"]  {
+   background-position: 0 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    height: 32px;
+    width: 32px;
+}
+
+.spinner-pulsing-ellipsis .spinner-item {
+   background: red;
+}
+
+.iconCollapsed-1INdMX, .iconDefault-xzclSQ, .iconHovered-3PRzOR, .iconHoveredCollapsed-jNYgOD, .iconMuted-Hb4ttQ, .iconUnread-3sxnnr {
+    color: red;
+}
+.user-settings-connections .connection-header .connection-account-value {
+     color: black !important;
+}
+.user-settings-connections .connection-options .connection-option-switch h3 {
+    color: black !important;
+    font-weight: 400;
+}
+
+.user-settings-connections .connection-header .connection-account-label {
+    color: black !important;
+}
+
+.theme-dark .primary-2giqSn {
+    color: #c11;
+}
+
+
+.theme-dark .ui-standard-sidebar-view .esc-text {
+    color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close {
+    border-color: #c11;
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+    background: rgba(125,0,0,0.6);
+}
+
+.theme-dark .ui-standard-sidebar-view .btn-close path[fill] {
+    fill: red;
+}
+
+.theme-dark .input-2YozMi:focus {
+    border-color: #c11;
+}
+
+.theme-dark .input-2YozMi {
+   color: red;
+}
+#user-profile-modal .guilds .guild .status {
+    border: 2px solid black !important;
+}
+#user-profile-modal .guilds .avatar-large {
+   background-color: black;
+}
+
+/* Mute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 190.528px;"] {
+    left: 201px !important;
+    top: 649px !important;
+}
+/* Deafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 217.017px;"] {
+    left: 227px !important;
+    top: 649px !important;
+}
+/* UnMute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 182.528px;"] {
+    left: 194px !important;
+    top: 649px !important;
+}
+/* UnDeafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 209.517px;"] {
+    left: 222px !important;
+    top: 649px !important;
+}
+.contentSelectedText-3j5CXt {
+    background-color: rgba(0,0,0,.6);
+}
+.contentHoveredText-2HYGIY {
+    background-color: rgba(0,0,0,.3);
+}
