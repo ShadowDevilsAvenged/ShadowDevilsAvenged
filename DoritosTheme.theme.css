@@ -136,10 +136,13 @@
 	border: 1px solid #FD5E00;
 }
 .headerNormal-1cioxU {
-	background: linear-gradient( rgba(217, 3, 7, 0.55), rgba(217, 3, 7, 0.55)), url(https://snowypeaktv.com/wp-content/uploads/2017/01/Doritos-Chip-Flix_Thumb-1920x1080.png);
+	background: linear-gradient( rgba(217, 3, 7, 0.55), rgba(217, 3, 7, 0.55)), url(https://snowypeaktv.com/wp-content/uploads/2017/01/Doritos-Chip-Flix_Thumb-1920x1080.png) !important;
 	background-size: cover;
 	background-position: center;
 	border-radius: 29px 29px 0px 0px;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarNormal-3luwna {
 	border: 5px outset red;
@@ -148,11 +151,18 @@
 	height: 120px;
 	width: 120px;
 }
-.body-3rkFrF {
+.theme-dark .body-3rkFrF {
 	background: rgba(217, 3, 7,0.4);
 	border-bottom: 2px solid red;
 }
-.footer-2J5zqP {
+.bodyTitle-yehI7c {
+    color: white;
+    text-transform: uppercase;
+}
+.protip {
+   display: none;
+}
+.theme-dark .footer-2J5zqP {
 	background: rgba(217, 3, 7,0.4);
 	border-radius: 0px 0px 29px 29px;
 	border-bottom: 7px solid red;
@@ -313,7 +323,7 @@
 	color:  #FFBB10;
 	text-transform: Uppercase;
 }
-.member-roles .member-role {
+.theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
     color: #D90307;
@@ -341,7 +351,7 @@
 #user-profile-modal .scroller {
   background: rgba(217, 3, 7,0.6);
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
   color: white;
   font-size: 22px;
   font-weight: 700;
@@ -349,7 +359,7 @@
 .note textarea:focus {
   background: black;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
   border-radius: 20px;
   border-color: #FD5E00;
   border-style: solid;
@@ -358,9 +368,9 @@
   border-left-width: 5px;
   border-right-width: 5px;
   border-radius: 15px;
-  background: #D90307;
+  background: #D90307  !important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
   color: #FFBB10;
   font-size: 130%;
   font-weight: bold;
@@ -387,7 +397,7 @@
   padding: 0 5px 20px;
 }
 
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
   border-bottom-color: #FD5E00;
   color: #FD5E00;
   font-weight: bold;
@@ -407,13 +417,18 @@
 #user-profile-modal .actions .btn.add-friend:hover {
   background: #FFBB10;
 }
-
-#user-profile-modal .header:after {
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
+.root-2sNHUF {
   background: url(https://ih1.redbubble.net/image.210637170.7071/flat,800x800,075,f.u3.jpg) !important;
   background-size: 90% !important;
   background-position: right !important;
 }
-.theme-dark #user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
   background: #D90307;
   color: #FFBB10 !important;
 }
@@ -1749,9 +1764,16 @@ input[type="checkbox" i][value*="on"] {
    width: 50px;
    border-radius: 50%;
 }
-#user-profile-modal .guilds .avatar-large {
+.listAvatar-MpHQ5z {
     background-color: #c90306;
     color: #FD5E00;
+}
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .bot-tag {
     background: #c90306;
@@ -2202,4 +2224,9 @@ background: #730000 !important;
 }
 .theme-dark .ui-standard-sidebar-view {
     background: transparent;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
