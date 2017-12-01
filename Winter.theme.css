@@ -4,7 +4,6 @@
 	background-size: cover !important;
 	background-position: center !important;
 }
-
 .contentSelectedText-3j5CXt,.contentHoveredText-2HYGIY {
     background-color: transparent;
 }
@@ -129,8 +128,11 @@
 }
 .headerNormal-1cioxU {
    background: transparent;
-    background-image: url(http://3.bp.blogspot.com/-5eYZ8jhPY_A/Upi-uNsOVDI/AAAAAAAAN9M/9uB3zI0W4eM/s1600/5.gif);
+    background-image: url(http://3.bp.blogspot.com/-5eYZ8jhPY_A/Upi-uNsOVDI/AAAAAAAAN9M/9uB3zI0W4eM/s1600/5.gif) !important;
     background-size: 270px 213px;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .channel-members-loading { display: none }
 
@@ -140,8 +142,7 @@
     height: 200px;
 }
 .userPopout-4pfA0d {
-    background-image: url(http://3.bp.blogspot.com/-5eYZ8jhPY_A/Upi-uNsOVDI/AAAAAAAAN9M/9uB3zI0W4eM/s1600/5.gif);
-    background-size: cover;
+    background: url(http://3.bp.blogspot.com/-5eYZ8jhPY_A/Upi-uNsOVDI/AAAAAAAAN9M/9uB3zI0W4eM/s1600/5.gif)50% 50%/ cover !important;
 }
 .userPopout-4pfA0d :not([class*="status-"]) {
     background-image: url(http://3.bp.blogspot.com/-5eYZ8jhPY_A/Upi-uNsOVDI/AAAAAAAAN9M/9uB3zI0W4eM/s1600/5.gif);
@@ -367,10 +368,10 @@
     background-image: url(https://wallpapercave.com/wp/aHXgonf.jpg);
     background-size: cover;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
     border-radius: 3px;
     border: 1px solid #000;
-    background: rgba(0,0,43,0.6);
+    background: rgba(0,0,43,0.6)  !important;
  }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
     color: white;
@@ -383,10 +384,33 @@
 #user-profile-modal .header:after {
     background-color: rgba(0,0,43,1) !important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
+.connectedAccountName-3EFj01 {
     font-weight: 400;
     font-size: 16px;
     color: #fff;
+}
+.root-2sNHUF {
+    background: url(https://wallpaperscraft.com/image/snow_snowflake_winter_73812_4928x3264.jpg) 50% 50% / cover !important; 
+}
+.listAvatar-MpHQ5z {
+    background-color: rgb(0,0,123);
+}
+.theme-dark .listRow-1wEi-U:hover {
+    background: rgb(0,0,150);
+    color: white;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+    background-color: rgb(30, 33, 36);
+    border-color: transparent;
+}
+.theme-dark .body-3_tdh6 {
+   background: transparent;
 }
 .guilds-wrapper .guilds-add:hover {
     color: hsla(0,0%,100%,.75);
@@ -1148,6 +1172,11 @@ color: white;
 .theme-dark .iconBadge-1FYlQB {
     border-color: #36393e;
     background: blue;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
 
 
