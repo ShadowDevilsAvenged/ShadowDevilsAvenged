@@ -264,7 +264,8 @@
 }
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
 .headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
-    background: rgba(7,6,5,0.6);
+    background: rgba(7,6,5,0.6) !important;
+    border: none;
 }
 .botTagInvert-gorWR_ {
     background: #070605;
@@ -2187,4 +2188,9 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .invite-button-icon.accepted {
     background-color: rgb(7,6,5);
     border: none;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
