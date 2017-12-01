@@ -126,10 +126,13 @@
 	border: 1px solid white;
 }
 .headerNormal-1cioxU {
-	background: linear-gradient( rgba(18, 124, 4, 0.55), rgba(18, 124, 4, 0.55)), url(https://images-na.ssl-images-amazon.com/images/I/91Ip10yHNVL._SY679_.jpg);
+	background: linear-gradient( rgba(18, 124, 4, 0.55), rgba(18, 124, 4, 0.55)), url(https://images-na.ssl-images-amazon.com/images/I/91Ip10yHNVL._SY679_.jpg) !important;
 	background-size: cover;
 	background-position: center;
     border-radius: 29px 29px 0px 0px;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarNormal-3luwna {
     border-color: green;
@@ -139,11 +142,11 @@
     width: 120px;
 }
 .body-3rkFrF {
-	background: #0e5403;
+	background: #0e5403 !Important;
     border-bottom: 4px solid #159405;
 }
 .footer-2J5zqP {
-	background: #0e5403;
+	background: #0e5403 !Important;
     border-radius: 0px 0px 29px 29px;
     border-bottom: 7px solid #159405;
 }
@@ -186,6 +189,7 @@
     color: #e7e7e7 ;
     overflow: hidden;
     width: 190px;
+    box-shadow: none;
 }
 .popout.popout-left.no-arrow {
     margin-right: 10px;
@@ -306,7 +310,7 @@
 	color:  #e7e7e7;
 	text-transform: Uppercase;
 }
-.member-roles .member-role {
+.theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
     color: #0e5403;
@@ -314,6 +318,9 @@
     display: inline-block;
     font-size: 12px;
     font-weight: bold;
+}
+.protip {
+   display: none;
 }
 .quick-message {
   background: black;
@@ -334,7 +341,7 @@
 #user-profile-modal .scroller {
   background: #0e5403;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
   color: #e7e7e7;
   font-size: 22px;
   font-weight: 700;
@@ -342,7 +349,7 @@
 .note textarea:focus {
   background: black;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
   border-radius: 20px;
   border-color: #147b04;
   border-style: solid;
@@ -351,9 +358,9 @@
   border-left-width: 5px;
   border-right-width: 5px;
   border-radius: 1px;
-  background: black;
+  background: black  !important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
   color: #e7e7e7;
   font-size: 130%;
   font-weight: bold;
@@ -377,19 +384,19 @@
   padding: 0 5px 20px;
 }
 
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
   border-bottom-color: #189405;
   color: #e7e7e7;
   font-weight: bold;
 }
 
-#user-profile-modal .tab-bar .tab-bar-item.selected:nth-child(2) {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected:nth-child(2) {
   border-bottom-color:  #189405;
   color: #e7e7e7;
   font-weight: bold;
 }
 
-#user-profile-modal .tab-bar .tab-bar-item.selected:nth-child(3) {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected:nth-child(3) {
   border-bottom-color:  #189405;
   color: #e7e7e7;
   font-weight: bold;
@@ -405,18 +412,23 @@
 #user-profile-modal .actions .btn.add-friend {
   background: #189405;
 }
-
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
 #user-profile-modal .actions .btn.add-friend:hover {
   background: #1cac06;
 }
 
-#user-profile-modal .header:after {
+.root-2sNHUF {
   background: url(http://www.desktop-screens.com/data/out/76/3182835-mountain-dew-wallpapers.jpg) !important;
   background-size: 90% !important;
   background-position: right !important;
 }
 
-.theme-dark #user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
   background: #1cac06;
   color: #e7e7e7 !important;
 }
@@ -1885,98 +1897,18 @@ input[type="checkbox" i][value*="on"] {
     border-radius: 50%;
     margin-right: 5px;
 }
-.statusOnline-1Mp2_H:before {
-    content: "O" !important;
-	margin-left: 7px;
-	position: absolute;
-	bottom: 8px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-} 
-.statusIdle-2AQdvu:before {
-    content: "I" !important;
-	margin-left: 12px;
-	position: absolute;
-	bottom: 10px;
-	font-size: 30px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-.statusDnd-35xAXU:before {
-    content: "D" !important;
-	margin-left: 10px;
-	position: absolute;
-	bottom: 10px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-.statusInvisible-2ci18Q:before, .statusOffline-jZXr_u:before {
-    content: "In" !important;
-	margin-left: 9px;
-	position: absolute;
-	bottom: 12px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-/* User Guild Status */
-.avatar-profile .status {
-   border: 4px solid #000;
-   bottom: -5px;
-   height: 50px;
-   right: -5px;
-   width: 50px;
-   border-radius: 50%;
-}
-.avatar-profile .status-online:before {
-    content: "O" !important;
-	margin-left: 5px;
-	position: absolute;
-	bottom: 6px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-.avatar-profile .status-idle:before {
-   content: "I" !important;
-	margin-left: 13px;
-	position: absolute;
-	bottom: 6px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-.avatar-profile .status-dnd:before {
-   content: "D" !important;
-	margin-left: 8px;
-	position: absolute;
-	bottom: 6px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-.avatar-profile .status-offline:before {
-   content: "In" !important;
-	margin-left: 5px;
-	position: absolute;
-	bottom: 6px;
-	font-size: 28px;
-	opacity: 1;
-	font-family: 'AirMillHouseItalic' !important;
-	color: white;
-}
-#user-profile-modal .guilds .avatar-large {
+
+
+.listAvatar-MpHQ5z {
     background-color: green;
     color: #e7e7e7;
+}
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+    background-color: transparent;
+    border-color: transparent;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .bot-tag {
     background: green;
@@ -2472,4 +2404,10 @@ background: #006622 !important;
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: transparent;
     border: none;
+}
+
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
