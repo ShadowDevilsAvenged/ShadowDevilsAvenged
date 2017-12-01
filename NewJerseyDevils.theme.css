@@ -9,6 +9,7 @@
 	background-position: center !important;
 }
 
+
 .theme-dark .chat form .typing {
   background-color: transparent;
 }
@@ -863,8 +864,10 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 
 /* User Popout Stuff */
 .headerNormal-1cioxU, .body-3rkFrF, .footer-2J5zqP {
-    background: rgba(0,0,0,0.6);
-   
+    background: rgba(0,0,0,0.6) !important;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .userPopout-4pfA0d {
     background-image: url(https://i.pinimg.com/originals/fd/95/97/fd9597f36988ce52bcce119a4d7e52c1.jpg); 
@@ -957,10 +960,16 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 #user-profile-modal .scroller, #user-profile-modal .tab-bar-container, #user-profile-modal .header {
     background-color: transparent !important;
 }
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
 #user-profile-modal .header {
    background-image: none;
 }
-#user-profile-modal {
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
+.root-2sNHUF {
     background-image: url(http://1.bp.blogspot.com/-y1KAeChVBoQ/T9Qb6F9b-jI/AAAAAAAAAoQ/P7Q-6ENfdRE/s1600/NJ_Devils_logo.jpg);
     background-position: center;
     background-size: cover;
@@ -985,7 +994,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     box-shadow: none;
     background-color: transparent !important;
 }
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     border: 3px outset #C8102E;
     color: white;
     background: black;
@@ -1042,25 +1051,28 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     border: 3px inset #C8102E;
     background: black;
 }
-#user-profile-modal .guilds .guild, #user-profile-modal .guilds .guild .guild-nick {
+#user-profile-modal .guilds .guild, .guildNick-1oZKE3, .listName-1Xr1Jk {
     color: white;
 }
-#user-profile-modal .guilds .avatar-large {
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.listAvatar-MpHQ5z {
     background-color: black;
     color: #fff;
     border: 3px solid #C8102E;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
-    background-color: black;
+.theme-dark .connectedAccount-3mKaTA {
+    background-color: black  !important;
     color: #fff;
     border: 3px solid #C8102E;
 }
-#user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
    background: linear-gradient(90deg,black 90%,black);
    border: 3px solid #C8102E;
    color: red;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
    color: white;
 }
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -1080,7 +1092,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     top: -2.4pc;
     right: 13pc;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
     color: white;
     font-size: 18px;
 }
@@ -2124,4 +2136,9 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     left: 34px;
     top: 31px;
     position: absolute;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
