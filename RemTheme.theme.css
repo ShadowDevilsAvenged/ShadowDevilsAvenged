@@ -93,11 +93,13 @@
 	background-size: cover;
 	background-position: center;
 }
-.body-3rkFrF,
-.footer-2J5zqP, .headerStreaming-3F-wjT {
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerStreaming-3F-wjT {
 	background: rgba(159, 195, 245, 0.45);
+	border: none;
 }
-
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.2) !important;
+}
 .theme-dark .channel-members-loading .background {
  background-image: linear-gradient(90deg,rgba(47,149,254,0.6),rgba(0, 0, 0, 0));
 }
@@ -131,16 +133,17 @@
  .member-roles .name {
 	color: white;
 }
-
-.bodyTitleIconForeground-itKW-t {
-	fill: #9FC3F5;
-}
-.bodyTitleText-hSiL7d {
+.bodyTitle-yehI7c {
 	color: #9FC3F5;
 	text-transform: Uppercase;
 }
-
-.member-roles .member-role {
+.theme-dark .body-3_tdh6 {
+    background-color: rgba(160, 194, 244,0.4);
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 248,0.3);
+}
+.theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
     color: #bad4f7;
@@ -538,8 +541,7 @@ s:hover, strike:hover, del:hover {
     box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
     border: 2px solid rgb(159, 195, 245);
 }
-#user-profile-modal .guilds .avatar-large {
-   
+.listAvatar-MpHQ5z {
     border-radius: 14px; 
     box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
     border: 4px solid rgb(159, 195, 245);
@@ -717,10 +719,10 @@ u:hover, ins:hover {
 #user-profile-modal .scroller {
 	background: rgba(163, 197, 245,0.4);
 }
-#user-profile-modal .guilds .section+.section {
+.theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
 	border-top-color: #a3c5f5;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
 	color: #a3c5f5;
 	font-size: 22px;
 	font-weight: 700;
@@ -728,12 +730,12 @@ u:hover, ins:hover {
 .note textarea:focus {
 	background: rgba(163, 197, 245,0.4);
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
 	border-radius: 14px;
 	border: 3px solid black;
     background: rgba(94, 154, 237,0.7);
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
 	color: #a3c5f5;
 	font-size: 130%;
 	font-weight: bold;
@@ -770,12 +772,12 @@ u:hover, ins:hover {
 #user-profile-modal .actions .btn.add-friend:hover {
 	background: #8cb7f2;
 }
-#user-profile-modal .header:after {
+.topSectionNormal-2LlRG1 {
 	background-image:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://pre00.deviantart.net/26ee/th/pre/f/2016/288/2/9/rem_minimalist__re_zero__by_bakacowdesu-dal5dr3.jpg) !important;
 	background-size: 120% 120%;
 	background-position: center;
 }
-.theme-dark #user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
 	background: #8cb7f2;
 	color: black !important;
 }
@@ -801,14 +803,7 @@ u:hover, ins:hover {
     border-radius: 14%;
    border: 3px solid #9FC3F5;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-    font-size: 123%;
-    font-weight: bold;
-}
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
-    color: rgba(0,0,0,.7);
-    font-size: 36px;
-}
+
 .button-1aU9q1 {
   background: #8db9f2 no-repeat 50% 50%;
   background-size: 18px 18px;
@@ -937,7 +932,9 @@ u:hover, ins:hover {
   color: white !Important;
   font-weight: bold;
 }
-
+.guildNick-1oZKE3, .listName-1Xr1Jk {
+     color: white;
+}
 [class*="filter"] {
   color: white !important;
   font-weight: bold;
@@ -2009,9 +2006,7 @@ background: rgba(71, 145, 235,0.8) !important;
  .container-iksrDt, form, .member:hover {
     background: rgba(0, 0, 0, 0) !important;
 }
-#user-profile-modal .avatar-wrapper {
-    background-color: transparent;
-}
+
 .note textarea {
 color: white;
 }
@@ -2085,8 +2080,11 @@ color: white;
     background: transparent;
 }
 
-
-
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
+}
 
 
 
