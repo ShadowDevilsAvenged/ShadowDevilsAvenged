@@ -9,32 +9,6 @@
   background-size: cover !important;
 	background-position: center !important;
 }
-/* Nitro Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-premium {
-    background: url(https://discordia.me/uploads/nitro/nitrobadge.png) 84% 84% /cover !important;
-    margin-right: 0;
-    padding-right: 8px;
-}
-/* Hypersquad Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-hypesquad {
-    background-image: url(/assets/23fbc1d621de200e48b165d40a0ea531.svg) !important;
-}
-/* Partner Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-partner {
-    background: url(/assets/c9423f39ad61457cb1125138d8ea1898.svg) !important;
-}
-#user-profile-modal .header .header-info .profile-badge {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 52px;
-    width: 72px;
-    position: absolute;
-    left: -3px !important;
-    top: 4px;
-    margin-bottom: 0px !important;
-    background-size: cover !important;
-}
 .theme-dark .chat,.container-RYiLUQ,.guilds-wrapper .guilds,.typeMacOS-3IiWed,.titleBar-3_fDwJ,.theme-dark #friends,.private-channels {
     background-color: rgba(0,0,0,0.4) !important;
 }
@@ -124,8 +98,14 @@
     background: #53A833;
     border: 2.4px solid #ED1910;
 }
-#user-profile-modal {
+.root-2sNHUF {
     background: url(http://allswalls.com/images/yoshi-wallpaper-4.jpg) 50% 50%/cover !important;
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
 }
 #user-profile-modal .guilds .section+.section {
     border-top: none;
@@ -146,7 +126,7 @@
 #user-profile-modal .tab-bar .tab-bar-item {
     color: rgba(255, 255, 255,.6);
 }
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     border-bottom-color: #ED1910 !important;
     color: white;
     font-weight: bold;
@@ -154,16 +134,19 @@
 #user-profile-modal .guilds .guild .guild-name {
     color: white;
 }
-#user-profile-modal .guilds .avatar-large {
+.listAvatar-MpHQ5z {
     border: 3px solid #53a833;
     background-color: #ED1910;
     color: white;
 }
-#user-profile-modal .guilds .guild:hover {
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.theme-dark .listRow-1wEi-U:hover {
     background: #53A833;
     color: black !important;
 }
-#user-profile-modal .guilds .guild .guild-nick {
+.guildNick-1oZKE3, .listName-1Xr1Jk {
     color: white;
     font-size: 14px;
 }
@@ -233,16 +216,16 @@
     color: white;
     border: 3px inset #ED1910;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
     color: white;
     font-size: 17px;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
     border: 5px outset #ED1910;
     border-radius: 1px;
-    background: #53A833; 
+    background: #53A833  !important; 
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
     color: white;
     font-size: 19px;
     text-shadow: 3px 2px 2px #000;
@@ -259,7 +242,10 @@
 }
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
 .headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
-    background: rgba(83,168,51,0.6);
+    background: rgba(83,168,51,0.6) !important;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .botTagInvert-gorWR_ {
     background: #53A13C;
@@ -587,6 +573,11 @@
 }
 .theme-dark #bd-settingspane-container h3, .theme-dark #bd-settingspane-container .scroller div > h2,.theme-dark #bd-settingspane-container .default > .ui-flex div+div {
     color: white;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
 #bd-settingspane-container .default > .ui-flex {
     border-bottom: none;
@@ -2196,3 +2187,4 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     background-color: rgb(64, 135, 43);
     border: none;
 }
+
