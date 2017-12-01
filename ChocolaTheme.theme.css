@@ -1979,24 +1979,28 @@ form,
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid rgba(255,255,255,0.4);
 }
-#user-profile-modal .guilds .avatar-large {
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.listAvatar-MpHQ5z {
     background-color: #564343;
     color: #fff;
 }
-#user-profile-modal .guilds .guild:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .quick-message,#user-profile-modal .header,.userPopout-4pfA0d {
+.theme-dark .listRow-1wEi-U:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .quick-message,#user-profile-modal .header,.userPopout-4pfA0d {
 	background:transparent!important;
 	border: none!important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
-   background: #564343;
+.theme-dark .connectedAccount-3mKaTA {
+   background: #564343  !important;
    border: 3px solid rgba(255,255,255,0.5);
 }
 .headerNormal-1cioxU, .body-3rkFrF, .footer-2J5zqP {
-   background: rgba(100, 79, 79,0.6);
+   background: rgba(100, 79, 79,0.6) !important;
 }
-.bodyTitleIconForeground-itKW-t {
-    fill: white;
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
+
 
 
 .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade .scroller:hover:hover::-webkit-scrollbar-track-piece, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-thumb, .scroller-wrap.fade:hover:hover::-webkit-scrollbar-track-piece{
@@ -2006,7 +2010,7 @@ form,
 .avatar-profile{
 	border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,#user-profile-modal .tab-bar .tab-bar-item.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,#user-profile-modal .guilds .guild .guild-nick,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,.guildNick-1oZKE3, .listName-1Xr1Jk,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
 	color:var(--Popout-Main-Colour)!important;
 }
 
@@ -2018,9 +2022,15 @@ form,
 	left: -1.5%!important;
 }
 	
-#user-profile-modal,.userPopout-4pfA0d{
+.root-2sNHUF,.userPopout-4pfA0d{
 	background:var(--Popout-Background)50% 50%/cover!important;
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
 }
 #user-profile-modal .actions .btn.add-friend {
     background: #654e58;
@@ -2125,4 +2135,10 @@ form,
 .theme-dark .ui-standard-sidebar-view {
     background: rgba(0,0,0,0.3);
 }
+.mask-2vyqAW {
+    border-radius: 0;
+    -webkit-mask: none;
+    mask: none;
+}
+
 
