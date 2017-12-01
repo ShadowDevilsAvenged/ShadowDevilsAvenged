@@ -271,22 +271,28 @@
     bottom: 2px;
     right: 2px;
 }
-#user-profile-modal .header:after {
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.root-2sNHUF {
    background-size: cover;
      background-attachment: absolute;
     background-position: center; 
     background-repeat: no-repeat;
     background-image: url(http://images.picstatio.com/u/5a5b45/tablet_cute-art-anime-girl-Jabami-Yumeko.jpg)!important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name, #user-profile-modal .tab-bar .tab-bar-item{
+.connectedAccountName-3EFj01, #user-profile-modal .tab-bar .tab-bar-item {
     color: #cc1111;
 }
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     color: #cc1111;
     font-weight: bold;
     border-bottom-color: #cc1111;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
     border-radius: 7px;
     border: 1px solid #cc1111;
 }
@@ -307,7 +313,7 @@
     line-height: 16px;
     background: transparent;
 }
-#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, #user-profile-modal .guilds .section .section-header, ::-webkit-input-placeholder {
+#user-profile-modal .guilds .section .note textarea::-webkit-input-placeholder, .userInfoSectionHeader-pmdPGs, ::-webkit-input-placeholder {
   color: #cc1111 !important;
 }
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
@@ -377,7 +383,7 @@
     color: red;
     font-weight: bold;
 }
-.member-roles .member-role {
+.theme-dark .rolesList-2YHFg5 .member-role {
     cursor: default;
     background-color: #000;
     border-radius: 100px;
@@ -398,9 +404,14 @@
     font-size: 12px;
     text-transform: uppercase;
 }
-.headerNormal-1cioxU {
-    background: url(https://images2.alphacoders.com/854/854421.png);
-    background-size: cover;
+.userPopout-4pfA0d {
+    background: url(https://cdna.artstation.com/p/assets/images/images/006/543/664/large/aoi-ogata-kakeguru.jpg?1499389091) 60% 50%/cover !important;
+}
+.theme-dark .headerNormal-1cioxU,.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+    background-color: rgba(0, 0, 0,0.4);
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarNormal-3luwna {
     border-color: #111111;
@@ -959,7 +970,7 @@
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid rgba(255,0,0,0.5);
 }
-#user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
    background: black;
    border: 3px outset rgba(255,0,0,0.5);
     color: red;
@@ -1638,8 +1649,8 @@ background: red;
 }
 .avatarStatus-1g8f0K {
     border: 3px solid rgba(0, 0, 0, 1) !important;
-    height: 64px !important;
-    width: 64px !important;
+    height: 34px !important;
+    width: 34px !important;
     z-index: 3;
 }
 .wrapper-2xO9RX {
@@ -1650,8 +1661,8 @@ background: red;
     padding: 5px 8px;
  }
  .popout-UKvsJt {
-    height: 190px;
-    width: 190px;
+    height: 110px;
+    width: 110px;
 }
 
 .horizontal-2BEEBe>.flexChild-1KGW5q:last-child, .horizontal-2BEEBe>.flexChild-1KGW5q:first-child {
@@ -1715,10 +1726,12 @@ background: red;
 #user-profile-modal .guilds .guild .status {
     border: 2px solid black !important;
 }
-#user-profile-modal .guilds .avatar-large {
+.listAvatar-MpHQ5z {
    background-color: black;
 }
-
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
 /* Mute Tooltip */
 [class*="tooltip tooltip-top tooltip-black"][style*="left: 190.528px;"] {
     left: 201px !important;
@@ -1744,4 +1757,9 @@ background: red;
 }
 .contentHoveredText-2HYGIY {
     background-color: rgba(0,0,0,.3);
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
