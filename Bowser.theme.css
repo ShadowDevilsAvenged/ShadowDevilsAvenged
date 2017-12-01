@@ -8,32 +8,7 @@
   background-size: cover !important;
 	background-position: center !important;
 }
-/* Nitro Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-premium {
-    background: url(https://discordia.me/uploads/nitro/nitrobadge.png) 84% 84% /cover !important;
-    margin-right: 0;
-    padding-right: 8px;
-}
-/* Hypersquad Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-hypesquad {
-    background-image: url(/assets/23fbc1d621de200e48b165d40a0ea531.svg) !important;
-}
-/* Partner Badge */
-#user-profile-modal .header .header-info .profile-badge.badge-partner {
-    background: url(/assets/c9423f39ad61457cb1125138d8ea1898.svg) !important;
-}
-#user-profile-modal .header .header-info .profile-badge {
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    cursor: pointer;
-    height: 52px;
-    width: 72px;
-    position: absolute;
-    left: -3px !important;
-    top: 4px;
-    margin-bottom: 0px !important;
-    background-size: cover !important;
-}
+
 .theme-dark .chat,.container-RYiLUQ,.guilds-wrapper .guilds,.typeMacOS-3IiWed,.titleBar-3_fDwJ,.theme-dark #friends,.private-channels {
     background-color: rgba(0,0,0,0.4) !important;
 }
@@ -129,8 +104,14 @@
 .context-menu .item.danger:hover {
     color: white!important;
 }
-#user-profile-modal {
+.root-2sNHUF {
     background: url(https://cdn.wallpapersafari.com/28/6/TCtuyN.jpg) 70% 70%/cover !important;
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
 }
 #user-profile-modal .guilds .section+.section {
     border-top: none;
@@ -151,7 +132,7 @@
 #user-profile-modal .tab-bar .tab-bar-item {
     color: white;
 }
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     border-bottom-color: #53B047 !important;
     color: white;
     font-weight: bold;
@@ -159,47 +140,29 @@
 #user-profile-modal .guilds .guild .guild-name {
     color: white;
 }
-#user-profile-modal .guilds .avatar-large {
+.listAvatar-MpHQ5z {
     border: 3px solid #070605;
     background-color: #53B047;
     color: white;
 }
-#user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
     background: #53B047;
     color: black !important;
 }
-#user-profile-modal .guilds .guild .guild-nick {
+.guildNick-1oZKE3, .listName-1Xr1Jk {
     color: white;
     font-size: 14px;
 }
 #user-profile-modal .guilds .guild .status {
-    border: 3px solid black;
+    border: 3px solid black !important;
 }
-#user-profile-modal .guilds .guild:hover .status {
-    border-color: rgba(0, 0, 0,0.8);
-}
+
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid #070605;
 }
 .tab-bar-item:hover {
     background-color: rgba(0,0,0,0) !important;
     box-shadow: none;
-}
-
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-    position: absolute;
-    top: 9px;
-    left: 81px;
-    font-size: 122%;
-    margin-bottom: 0px !important;
-}
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
-    position: absolute;
-    top: 112px;
-    left: 28pc;
-    font-size: 122%;
-    color: black;
-    margin-bottom: 0px !important;
 }
 #user-profile-modal .actions .btn.send-message {
     background: #53B047;
@@ -238,34 +201,30 @@
     color: white;
     border: 3px inset #C43F28;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
     color: white;
     font-size: 17px;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
     border: 5px outset #C43F28;
     border-radius: 1px;
-    background: #53B047; 
+    background: #53B047 !important; 
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
     color: white;
     font-size: 19px;
     text-shadow: 3px 2px 2px #000;
     padding-right: 5px;
     padding-bottom: 3px;
 }
-#user-profile-modal .header .header-info .header-info-inner .activity {
-    color: black;
-    font-size: 23px;
-    margin-bottom: 0px !important;
-    position: absolute; 
-    top: 33px;
-    left: 11pc;
-}
+
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
 .headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
     background: rgba(7,6,5,0.6) !important;
     border: none;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .botTagInvert-gorWR_ {
     background: #070605;
@@ -295,8 +254,11 @@
 .headerTagNormal-KyD3_J {
     color: white;
 }
-.member-roles .member-role {
+.theme-dark .rolesList-2YHFg5 .member-role {
     color: #53B047;
+}
+.headerPlaying-2eYqm9 {
+    background: rgb(114, 137, 218);
 }
 .body-3rkFrF .note-3Zfyi2 textarea {
     padding-top: 8px;
@@ -307,8 +269,8 @@
 #user-profile-modal .guilds .section .note textarea {
    padding: 4px 8px;
 }
-.bodyTitleIconForeground-itKW-t,.headerIconForeground-2QFL0Z {
-    fill: white;
+.bodyTitle-yehI7c {
+    color: white;
 }
 .note textarea:focus {
     background: rgba(7,6,5, 0.6);
