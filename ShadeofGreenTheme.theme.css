@@ -1,6 +1,5 @@
 //META{"name":"Shades_of_Green_Theme","description":"Calm shade of Green Theme","author":"DevilsTheAvenged","version":"1.4"}*//
 
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/ff70c7b0/SomeUnImportantStuff/ShadeofGreenBackup.theme.css);
 
 .bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
@@ -14,7 +13,6 @@
     background-color: transparent !important;
     border-color: transparent !important;
 }
-
 /* For Voice Chat in DM ^ */
 .avatar-large  {
     width: 60px;
@@ -805,10 +803,13 @@ background-size: cover;
 .tooltip.tooltip-black.tooltip-left:after {
     border-left: none;
 }
-#user-profile-modal .guilds .avatar-large {
+.listAvatar-MpHQ5z {
     background-color: rgb(0,45,0);
 }
-#user-profile-modal .guilds .guild:hover {
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.theme-dark .listRow-1wEi-U:hover {
     background: linear-gradient(90deg,rgb(0,75,0) 90%,rgb(0,75,0));
     color: black !important;
 }
@@ -822,11 +823,11 @@ background-size: cover;
 .theme-dark .selectorSelected-2M0IGv { 
     background: rgba(61, 114, 17, 0.6) !important; 
   }
-  .body-3rkFrF, .footer-2J5zqP, .quick-message {
+  .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .quick-message {
     background-color: #1c3506;
     border-radius: 5px;
-   
  }
+
 .popout-UKvsJt {
  width: 120px;
 height: 120px;
@@ -837,7 +838,10 @@ height: 120px;
     background-color: #1c3506 !important;
 }
  .headerNormal-1cioxU {
-     background: #1c3506;
+     background: #1c3506 !important;
+}
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarWrapperNormal-1wU7gX:hover .avatarHint-2i5XWK {
     opacity: 0.6;
@@ -847,17 +851,22 @@ height: 120px;
 #user-profile-modal .scroller, #user-profile-modal .guilds .section {
     background: #1c3506;
  }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
     border-radius: 3px;
     border: 4px outset #2b5408;
-  
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.connectedAccountName-3EFj01 {
     color: white;
     font-style: italic;
     font-weight: bold;
 }
-#user-profile-modal .header:after, #user-profile-modal .tab-bar-container{
+.root-2sNHUF, #user-profile-modal .tab-bar-container{
     content: " ";
     background-image: url(http://www.powerpointhintergrund.com/uploads/background-with-green-leaves-29.jpg) !important;
     background-size: cover;
@@ -1485,5 +1494,10 @@ color: white;
 }
 .titleBar-3_fDwJ {
     background: rgb(0,64,0);
+}
+.mask-2vyqAW {
+    border-radius: 0;
+    -webkit-mask: none;
+    mask: none;
 }
 
