@@ -58,6 +58,9 @@ color: white;
     background: transparent;
     box-shadow: none;
 }
+.bodyTitle-yehI7c {
+   color: white;
+   }
 .theme-dark #friends {
     background-color: transparent;
 }
@@ -1081,7 +1084,7 @@ font-weight: bold;
 #user-profile-modal .guilds .section+.section {
 	border-top-color: #f08eaf;
 }
-#user-profile-modal .guilds .section .section-header {
+.userInfoSectionHeader-pmdPGs {
 	color: #f08eaf;
 	font-size: 22px;
 	font-weight: 700;
@@ -1089,12 +1092,12 @@ font-weight: bold;
 .note textarea:focus {
 	background: rgba(237, 120, 159,0.6);
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account {
+.theme-dark .connectedAccount-3mKaTA {
 	border-radius: 14px;
 	border: 3px solid black;
-    background: #f08eaf;
+    background: #f08eaf  !important;
 }
-#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+.connectedAccountName-3EFj01 {
 	color: #F4ABC3;
 	font-size: 130%;
 	font-weight: bold;
@@ -1120,7 +1123,7 @@ font-weight: bold;
 	color: #f08eaf;
 	padding: 0 5px 20px;
 }
-#user-profile-modal .tab-bar .tab-bar-item.selected {
+.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
 	border-bottom-color: #f08eaf;
 	color: #f08eaf;
 	font-weight: bold;
@@ -1128,15 +1131,21 @@ font-weight: bold;
 #user-profile-modal .actions .btn.add-friend {
 	background: #f08eaf;
 }
+.topSectionPlaying-3jAH9b {
+    background: rgba(0, 0, 255,0.4);
+}
+.topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.1);
+}
 #user-profile-modal .actions .btn.add-friend:hover {
 	background: #f08eaf;
 }
-#user-profile-modal .header:after {
+.root-2sNHUF {
 	background-image:  linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://img00.deviantart.net/6892/i/2016/269/a/9/minimalist_wallpaper___ram__re_zero__by_mrtapoz_kun-daisdq0.jpg) !important;
 	background-size: 120% 120%;
 	background-position: center;
 }
-.theme-dark #user-profile-modal .guilds .guild:hover {
+.theme-dark .listRow-1wEi-U:hover {
 	background: #F4ABC3;
 	color: black !important;
 }
@@ -1325,11 +1334,11 @@ u:hover, ins:hover {
 .emoji {
     min-height: 32px;
     min-width: 32px;
-    border-radius: 14px; 
-    box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
-    border: 2px solid #f08eaf;
 }
-#user-profile-modal .guilds .avatar-large {
+.theme-dark .body-3_tdh6 {
+   background: transparent;
+}
+.listAvatar-MpHQ5z {
     border-radius: 14px; 
     box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
     border: 4px solid #f08eaf;
@@ -1451,12 +1460,15 @@ u:hover, ins:hover {
     letter-spacing: 7px
 }
 .headerNormal-1cioxU {
-	background-image: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(163, 197, 245,0.2) 100%), url(https://img00.deviantart.net/e2fc/i/2017/283/1/e/ram___re_zero_by_arufinbinsento-dbq4ena.png);
+	background-image: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(163, 197, 245,0.2) 100%), url(https://img00.deviantart.net/e2fc/i/2017/283/1/e/ram___re_zero_by_arufinbinsento-dbq4ena.png) !important;
 	background-size: cover;
 }
-.body-3rkFrF,
-.footer-2J5zqP, .headerStreaming-3F-wjT {
+.headerPlaying-2eYqm9 {
+    background: rgba(0, 0, 255,0.3) !important;
+}
+.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerStreaming-3F-wjT {
 	background: rgba(240, 142, 175, 0.45);
+	border: none;
 }
 
 .theme-dark .channel-members-loading .background {
@@ -1501,7 +1513,7 @@ u:hover, ins:hover {
 	text-transform: Uppercase;
 }
 
-.member-roles .member-role {
+.theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
     color: #f08eaf;
@@ -2069,4 +2081,9 @@ background: rgba(234, 98, 143,0.8) !important;
 
 .horizontal-2BEEBe>.flex-lFgbSz {
    background: transparent !important;
+}
+.mask-2vyqAW {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
 }
