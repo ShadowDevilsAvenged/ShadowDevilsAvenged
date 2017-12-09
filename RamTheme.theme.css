@@ -1,5 +1,4 @@
 //META{"name":"Ram_Theme","description":"Team Ram Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/4c0cee44/SomeUnImportantStuff/Ram2.theme.css);
 .app,.callout-backdrop,#pubs-container:before {
 	background-image: url("https://img00.deviantart.net/6892/i/2016/269/a/9/minimalist_wallpaper___ram__re_zero__by_mrtapoz_kun-daisdq0.jpg");
 	background-size: cover !important;
@@ -197,14 +196,17 @@ background: pink;
     font-weight: bold;
 }
 
- .itemDefaultSelected-1UAWLe, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.side-2nYO0F .itemSelected-3XxAMf, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     color: #fff;
-    background-color: transparent;
+    background-color: transparent !important;
     border: 1px outset;
 }
 .theme-dark .itemDefault-3NDwnY:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background-color: #f08eaf;
+    background-color: #f08eaf !important;
     border: 1px outset white;
+}
+.chat .divider>div {
+    display: none;
 }
 /* Channels Badge */
 .wrapper-2xO9RX {
@@ -1090,7 +1092,7 @@ font-weight: bold;
 	font-weight: 700;
 }
 .note textarea:focus {
-	background: rgba(237, 120, 159,0.6);
+	background: rgba(237, 120, 159,0.6) !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
 	border-radius: 14px;
@@ -1246,9 +1248,9 @@ font-weight: bold;
 .avatarHintInner-1JYcVr {
 	background: rgba(0, 0, 0, 0.5);
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
 	background: rgba(232, 74, 127,0.3);
-border: 3px solid #f08eaf;
+    border: 3px solid #f08eaf;
 	border-radius: 14px;
 	color: white;
 	font-size: 14px;
@@ -1496,23 +1498,45 @@ u:hover, ins:hover {
  .theme-dark .input-2YozMi:focus {
 	border-color: #9fc3f5;
 }
-.member-role {
-	background-color: currentColor!important;
-	border: 3.5px solid black !important;
-	border-radius: 9%;
-}
+
  .member-roles .name {
 	color: white;
 }
-
-.bodyTitleIconForeground-itKW-t {
-	fill: white;
-}
-.bodyTitleText-hSiL7d {
+.bodyTitle-yehI7c {
 	color: white;
 	text-transform: Uppercase;
 }
-
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #f08eaf !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
