@@ -1,5 +1,5 @@
-//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.4"}*//{}
- 
+//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.5"}*//{}
+  
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
@@ -371,18 +371,51 @@
     color: #cc1111 !important;
 }
 .note textarea:focus {
-    background: #000;
+    background: #000 !important;
 }
 .note textarea {
     color: red;
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     border: 2px outset #333;
     background: #000;
     border-radius: 13px;
     color: red;
     font-weight: bold;
 }
+.channel-members-loading { display: none }
+
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #cc1111 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .theme-dark .rolesList-2YHFg5 .member-role {
     cursor: default;
     background-color: #000;
@@ -398,7 +431,7 @@
 .body-3rkFrF .note-3Zfyi2 textarea::-webkit-input-placeholder {
     color: #cc1111 !important;
 }
-.bodyTitleText-hSiL7d {
+.bodyTitle-yehI7c {
     color: #cc1111;
     font-weight: 700;
     font-size: 12px;
@@ -433,14 +466,17 @@
     color: #cc1111;
     font-weight: bold;
 }
+.chat .divider>div {
+    display: none;
+}
 .app a, .connecting a {
   color: #cc1111;
     font-weight: bold;
 }
 .theme-dark .itemDefault-3NDwnY:hover {
     border: 5px solid #000;
-    background-color: #121111;
-    color: #cc1111;
+    background-color: #121111 !important;
+    color: #cc1111 !important;
 }
 .barFill-18ABna {
     background: #cc1111;
@@ -500,10 +536,10 @@
     background-color: #000 !important;
     border: solid 4px #cc1111 !important;
 }
-.buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, #bd-settings-sidebar .ui-tab-bar-item.selected {
-    color: #cc1111;
-    background-color: #121111;
-    border: 1px outset gray;
+.buttonBrandFilled-3Mv0Ra, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
+    color: #cc1111 !important;
+    background-color: #121111 !important;
+    border: 1px outset gray !important;
 }
 .buttonBrandFilled-3Mv0Ra:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
     color: #cc1111;
