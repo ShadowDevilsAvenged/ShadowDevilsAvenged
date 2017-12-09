@@ -1,20 +1,19 @@
 //META{"name":"DoritosTheme","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"1.4"}*//{}
-
-
+@import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/edc4ddcb/SomeUnImportantStuff/Doritos2.theme.css);
 /* Backgrounds */
 .app {
 	background-image: url("https://is01.ezphotoshare.com/2017/10/21/shrip0.jpg");
 	background-size: cover !important;
 	background-position: center !important;
-}
+ }
 .bda-backdrop {
 	background: url("https://is01.ezphotoshare.com/2017/10/21/shrip0.jpg");
 	background-size: cover!important;
-}
+	}
 #pubs-container:before {
 	background: url("https://is01.ezphotoshare.com/2017/10/21/shrip0.jpg")!important;
 	background-size: cover!important;
-}
+	}
 .mention-RlZ5F3 {
     background-color: rgba(201, 3, 6,0.8) !important;
     color: #FD5E00;
@@ -307,19 +306,13 @@
 .chat>.title-wrap.title-wrap-dark .topic, .chat>.title-wrap.title-wrap-dark .channel-name, .chat>.title-wrap>.title .channel-name .channel-icon, .name-3gtcmp {
     color: orange;
 }
-.member-role {
-	background-color: currentColor!important;
-	border: 3.5px solid black !important;
-	border-radius: 52px !important;
-}
+
  .member-roles .name {
 	color: #FFBB10;
     text-shadow: 2px 2px 1px black, 2px 2px 1px black;
 }
-.bodyTitleIconForeground-itKW-t {
-	fill:  #FFBB10;
-}
-.bodyTitleText-hSiL7d {
+
+.bodyTitle-yehI7c {
 	color:  #FFBB10;
 	text-transform: Uppercase;
 }
@@ -332,7 +325,39 @@
     font-size: 12px;
     font-weight: bold;
 }
-.quick-message {
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #D90307 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
+ .channel-members-loading { display: none }
+.theme-dark .quickMessage-28pD5Y {
   background: black;
   border-color: #D90307;
   border-style: solid;
@@ -357,7 +382,7 @@
   font-weight: 700;
 }
 .note textarea:focus {
-  background: black;
+  background: black !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
   border-radius: 20px;
@@ -820,13 +845,16 @@ border-color: #FFBB10 !important;
     border-color: rgba(0,0,0,.3);
     color: #FFBB10;
 }
-.itemDefaultSelected-1UAWLe {
-    background-color: #970205;
+.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: #970205 !important;
     color: #FD5E00;
 }
 .theme-dark .itemDefault-3NDwnY:hover {
-    background-color: #7e0204;
-    color: #FFBB10;
+    background-color: #7e0204 !important;
+    color: #FFBB10 !important;
+}
+.chat .divider>div {
+    display: none;
 }
 .itemBrandSelected-3LxxzT {
     background-color: #b00306;
