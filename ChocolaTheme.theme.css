@@ -1,5 +1,4 @@
-//META{"name":"Chocola_Theme","description":"Just an average Chocola Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
- @import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/65c0628a/SomeUnImportantStuff/Nekopara.theme.css);
+//META{"name":"ChocolaTheme","description":"Just an average Chocola Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
 .app,
 .callout-backdrop,
 .bda-backdrop,
@@ -8,6 +7,7 @@
 	background-size: cover !important;
 	background-position: center !important;
 }
+
 /* Main Chat Area */
 
 .theme-dark .chat form,
@@ -236,14 +236,38 @@
 	border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #644f4f !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 
-.member-roles .member-role {
-   color: #644f4f;
-}
-.member-roles .member-role {
-border-color: currentColor !important;
-background-color: currentColor !important;
-}
 .member-roles .member-role>.name {
 color: white !important;
 }
@@ -616,19 +640,21 @@ form,
 	font-weight: bold;
 }
 
-.itemDefaultSelected-1UAWLe,
+.side-2nYO0F .itemSelected-3XxAMf,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
 	color: #fff;
-	background-color: #56434c;
+	background-color: #56434c !important;
 	border: 3px outset rgba(255,255,255,0.7);
 }
 
 .theme-dark .itemDefault-3NDwnY:hover,
 #bd-settings-sidebar .ui-tab-bar-item:hover {
-	background-color: #56434c;
+	background-color: #56434c !important;
 	border: 3px solid rgba(255,255,255,0.2);
 }
-
+.chat .divider>div {
+    display: none;
+}
 
 /* Channels Badge */
 
@@ -1986,7 +2012,7 @@ form,
     background-color: #564343;
     color: #fff;
 }
-.theme-dark .listRow-1wEi-U:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .quick-message,#user-profile-modal .header,.userPopout-4pfA0d {
+.theme-dark .listRow-1wEi-U:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .theme-dark .quickMessage-28pD5Y,#user-profile-modal .header,.userPopout-4pfA0d {
 	background:transparent!important;
 	border: none!important;
 }
@@ -2010,7 +2036,7 @@ form,
 .avatar-profile{
 	border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,.guildNick-1oZKE3, .listName-1Xr1Jk,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitleText-hSiL7d,#user-profile-modal .header .header-info .header-info-inner .activity{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,.guildNick-1oZKE3, .listName-1Xr1Jk,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitle-yehI7c,#user-profile-modal .header .header-info .header-info-inner .activity{
 	color:var(--Popout-Main-Colour)!important;
 }
 
@@ -2140,5 +2166,4 @@ form,
     -webkit-mask: none;
     mask: none;
 }
-
 
