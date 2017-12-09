@@ -1,4 +1,4 @@
-//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.5"}*//{}
+//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.4"}*//{}
   
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
@@ -426,7 +426,60 @@
     color: #cc1111;
     font-weight: bold;   
 }
-
+.theme-dark .inner-3if5cm {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Deafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.5px;"] {
+    left: 222px !important;
+    top: 704px !important;
+}
+/* Mute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 131px;"] {
+    left: 191px !important;
+    top: 704px !important;
+}
+/* UnDeafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 154.5px;"] {
+    left: 215px !important;
+    top: 704px !important;
+}
+/* UnMute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 123px;"] {
+    left: 185px !important;
+    top: 704px !important;
+}
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #cc1111 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 
 .body-3rkFrF .note-3Zfyi2 textarea::-webkit-input-placeholder {
     color: #cc1111 !important;
@@ -541,9 +594,9 @@
     background-color: #121111 !important;
     border: 1px outset gray !important;
 }
-.buttonBrandFilled-3Mv0Ra:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+.buttonBrandFilled-3Mv0Ra:hover, .side-2nYO0F .itemSelected-3XxAMf:hover, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
     color: #cc1111;
-    background-color: #121111;
+    background-color: #121111 !important;
     border: 2px inset gray;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
