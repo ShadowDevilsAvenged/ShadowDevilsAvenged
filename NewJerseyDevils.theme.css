@@ -1,5 +1,5 @@
 //META{"name":"NewJerseyDevils","description":"New Jersey Rules","author":"DevilsTheAvenged","version":"1.4"}*//{}
-@import url(https://gitcdn.xyz/repo/themoonisacheese/themer.js/master/themer.js.css);
+
 .app,
 .callout-backdrop,
 .bda-backdrop,
@@ -8,7 +8,6 @@
    background-size: cover !important;
 	background-position: center !important;
 }
-
 
 .theme-dark .chat form .typing {
   background-color: transparent;
@@ -83,10 +82,10 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
   background: rgba(0,0,0,0.2) !important;
 }
 
-.itemDefaultSelected-1UAWLe,#bd-settings-sidebar .ui-tab-bar-item.selected {
-  background-color: rgba(200, 16, 46, 0.4);
+.side-2nYO0F .itemSelected-3XxAMf,#bd-settings-sidebar .ui-tab-bar-item.selected {
+  background-color: rgba(200, 16, 46, 0.4) !important;
   color: #fff;
-  border: 3px solid rgba(200, 16, 46, 0.7);
+  border: 3px solid rgba(200, 16, 46, 0.7) !important;
 }
 
 .user-settings-connections .connect-account-list {
@@ -139,10 +138,12 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 
 .theme-dark .itemDefault-3NDwnY:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
-  background-color: rgba(200, 16, 46, 0.4);
+  background-color: rgba(200, 16, 46, 0.4) !important;
   color: white;
 }
-
+.chat .divider>div {
+    display: none;
+}
 .buttonBrandFilled-3Mv0Ra {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
@@ -875,12 +876,43 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     background-position: center;
     background-repeat: no-repeat;
 }
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #C8102E !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .member-roles .member-role {
    color: #C8102E;
 }
 .member-roles .member-role>.name{color:#FFF;}
-.member-roles .member-role{background-color:currentColor!important;border: 3px solid black !important;}
-.headerName-2N8Pdz, .headerTagNormal-KyD3_J, .bodyTitleText-hSiL7d, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK, .protip, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
+
+.headerName-2N8Pdz, .headerTagNormal-KyD3_J, .bodyTitle-yehI7c, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK, .protip, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
     color: #C8102E;
 }
 .headerIconForeground-2QFL0Z, .bodyTitleIconForeground-itKW-t {
@@ -892,20 +924,20 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .body-3rkFrF {
   border-bottom: none;
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     color: white;
     background: black;
     border: 3px solid #C8102E;
 }
 .note textarea:focus {
-    background: rgba(0, 0, 0,0.7);
+    background: rgba(0, 0, 0,0.7) !important;
     padding-top: 7px;
     padding-bottom: 7px;
     border: 3px solid #C8102E;
     color: white;
 }
 .note textarea {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.5) !important;
     color: white;
     height: 23px;
     padding-left: 9px !important;
