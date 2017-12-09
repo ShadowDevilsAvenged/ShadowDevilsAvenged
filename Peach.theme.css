@@ -1,7 +1,5 @@
 //META{"name":"Peach","description":"The Great Princess Peach Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
-
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/DevilsLynAvenged/497bc655/Mario%20Crew/SuperPeach.theme.css);
 .app,
 .callout-backdrop,
 .bda-backdrop,
@@ -264,11 +262,10 @@
     background-position: -421px !important;
 }
 .member-roles .member-role>.name{color:#FFF;}
-.member-roles .member-role{background-color:currentColor!important;border:4px solid black !important;}
 .body-3rkFrF {
     border-bottom: none;
 }
-.headerUsernameNoNickname-1iGxNP,.bodyTitleText-hSiL7d {
+.headerUsernameNoNickname-1iGxNP,.bodyTitle-yehI7c {
     color: white;
 }
 .headerDiscriminator-3fLlCR {
@@ -277,6 +274,37 @@
 .headerTagNormal-KyD3_J {
     color: white;
 }
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #F599B2 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .member-roles .member-role {
     color: #F599B2;
 }
@@ -293,20 +321,20 @@
     fill: white;
 }
 .note textarea:focus {
-    background: rgba(243,60,136, 0.6);
+    background: rgba(243,60,136, 0.6) !important;
     border: 3px solid #F599B2;
 }
 .note textarea {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3) !important;
     color: white;
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     background: rgba(243,60,136,0.4);
     border: 3px solid #F599B2;
     border-radius: 1px;
 }
-.quick-message:focus {
-    border: 3px solid #F14E91;
+.theme-dark .quickMessage-28pD5Y:focus {
+    border: 3px solid #F14E91 !important;
     color: white;
 }
 .headerActivityText-3qBQRo {
@@ -423,13 +451,16 @@
     color: white;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .itemDefault-3NDwnY:hover {
-    color: white;
-    background-color: #F599B2;
+    color: white !important;
+    background-color: #F599B2 !important;
     border: 4px solid #F33C88;
 }
-#bd-settings-sidebar .ui-tab-bar-item.selected,.itemDefaultSelected-1UAWLe {
-    background-color: #F599B2;
-    border: 4px outset #F33C88;
+.chat .divider>div {
+    display: none;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected,.side-2nYO0F .itemSelected-3XxAMf{
+    background-color: #F599B2 !important;
+    border: 4px outset #F33C88 !important;
     color: white;
 }
 #bd-settings-sidebar .ui-tab-bar-header,.theme-dark .header-1-f9X5 {
