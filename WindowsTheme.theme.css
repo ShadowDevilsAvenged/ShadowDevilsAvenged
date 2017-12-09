@@ -1,10 +1,36 @@
-//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.5"}*//{}
+//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.4"}*//{}
 /* Backgrounds */
 .app,
 .callout-backdrop,#pubs-container:before,.bda-backdrop {
   background-image: url("https://www.walldevil.com/wallpapers/a45/3245-windows.jpg");
   background-size: cover !important;
   background-position: center !important;
+}
+.theme-dark .inner-3if5cm {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/* Deafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.5px;"] {
+    left: 222px !important;
+    top: 704px !important;
+}
+/* Mute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 131.5px;"] {
+    left: 191px !important;
+    top: 704px !important;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+    background-color: transparent;
+}
+/* UnDeafen Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 154px;"] {
+    left: 215px !important;
+    top: 704px !important;
+}
+/* UnMute Tooltip */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 123px;"] {
+    left: 185px !important;
+    top: 704px !important;
 }
 .bot-tag {
     background: black;
@@ -1100,6 +1126,8 @@ span:not(.spinner-item) {
   font-size: 23px;
   letter-spacing: 13px;
   font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .chat .new-messages-bar button {
