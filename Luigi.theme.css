@@ -9,7 +9,6 @@
   background-size: cover !important;
 	background-position: center !important;
 }
-
 .theme-dark .chat,.container-RYiLUQ,.guilds-wrapper .guilds,.typeMacOS-3IiWed,.titleBar-3_fDwJ,.theme-dark #friends,.private-channels {
     background-color: rgba(0,0,0,0.4) !important;
 }
@@ -263,11 +262,10 @@
     background-position: 513px !important;
 }
 .member-roles .member-role>.name{color:#FFF;}
-.member-roles .member-role{background-color:currentColor!important;border:4px solid black !important;}
 .body-3rkFrF {
     border-bottom: none;
 }
-.headerUsernameNoNickname-1iGxNP,.bodyTitleText-hSiL7d {
+.headerUsernameNoNickname-1iGxNP,.bodyTitle-yehI7c {
     color: white;
 }
 .headerDiscriminator-3fLlCR {
@@ -279,6 +277,37 @@
 .member-roles .member-role {
     color: #019000;
 }
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #019000 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .body-3rkFrF .note-3Zfyi2 textarea {
     padding-top: 8px;
     padding-bottom: 7px;
@@ -292,14 +321,14 @@
     fill: white;
 }
 .note textarea:focus {
-    background: rgba(40,74,18, 0.6);
+    background: rgba(40,74,18, 0.6) !important;
     border: 3px solid #019000;
 }
 .note textarea {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3) !important;
     color: white;
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     background: rgba(67,95,171,0.4);
     border: 3px solid #53B047;
     border-radius: 1px;
@@ -419,15 +448,18 @@
 }
 /* The Discord Settings Stuff */
 .theme-dark .itemDefault-3NDwnY,#bd-settings-sidebar .ui-tab-bar-item {
-    color: white;
+    color: white !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .itemDefault-3NDwnY:hover {
     color: white;
-    background-color: #284A12;
+    background-color: #284A12 !important;
     border: 4px solid #019000;
 }
-#bd-settings-sidebar .ui-tab-bar-item.selected,.itemDefaultSelected-1UAWLe {
-    background-color: #019000;
+.chat .divider>div {
+    display: none;
+}
+#bd-settings-sidebar .ui-tab-bar-item.selected,.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: #019000 !important;
     border: 4px outset #5BA949;
     color: white;
 }
