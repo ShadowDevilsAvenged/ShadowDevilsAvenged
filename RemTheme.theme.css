@@ -67,7 +67,6 @@
 	padding-bottom: 2%;
 	font-size: 124% !important;
 	font-weight: normal;
-	
 }
 .chat .jump-to-present-bar .spinner {
 	padding-right: 7px;
@@ -125,11 +124,7 @@
  .theme-dark .input-2YozMi:focus {
 	border-color: #9fc3f5;
 }
-.member-role {
-	background-color: currentColor!important;
-	border: 3.5px solid black !important;
-	border-radius: 9%;
-}
+
  .member-roles .name {
 	color: white;
 }
@@ -143,6 +138,40 @@
 .topSectionPlaying-3jAH9b {
     background: rgba(0, 0, 248,0.3);
 }
+.bodyTitle-yehI7c {
+    color: white;
+}
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #bad4f7 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
@@ -537,9 +566,6 @@ s:hover, strike:hover, del:hover {
 .emoji {
     min-height: 32px;
     min-width: 32px;
-    border-radius: 14px; 
-    box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
-    border: 2px solid rgb(159, 195, 245);
 }
 .listAvatar-MpHQ5z {
     border-radius: 14px; 
@@ -667,9 +693,9 @@ s:hover, strike:hover, del:hover {
 .avatarHintInner-1JYcVr {
 	background: rgba(0, 0, 0, 0.5);
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
 	background: rgba(94, 154, 237,0.3);
-border: 3px solid #a3c5f5;
+    border: 3px solid #a3c5f5;
 	border-radius: 14px;
 	color: white;
 	font-size: 14px;
@@ -728,7 +754,7 @@ u:hover, ins:hover {
 	font-weight: 700;
 }
 .note textarea:focus {
-	background: rgba(163, 197, 245,0.4);
+	background: rgba(163, 197, 245,0.4) !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
 	border-radius: 14px;
@@ -1690,13 +1716,23 @@ width: 300px;
     font-weight: bold;
 }
 
-.theme-dark .buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark .buttonBrandFilled-3Mv0Ra, .side-2nYO0F .itemSelected-3XxAMf, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     color: #fff;
-    background-color: transparent;
+    background-color: transparent !important;
     border: 3px outset;
 }
+.chat .divider>div {
+    display: none;
+}
+.theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+    background-color: transparent;
+}
+.theme-dark .friends-table .messages .divider.divider-red>div, .theme-dark .messages-wrapper .messages .divider.divider-red>div,.theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
+    background: none;
+    opacity: 0;
+}
 .theme-dark .itemDefault-3NDwnY:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
-    background-color: #1983e6;
+    background-color: #1983e6 !important;
     border: 2px outset white;
 }
 
@@ -2085,27 +2121,3 @@ color: white;
     -webkit-mask: none;
     mask: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
