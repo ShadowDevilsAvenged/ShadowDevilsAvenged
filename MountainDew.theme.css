@@ -1,5 +1,4 @@
 //META{"name":"MountainDew","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"1.4"}*//{}
-
 /* Backgrounds */
 .app,
 .callout-backdrop,#pubs-container:before,.bda-backdrop {
@@ -7,6 +6,7 @@
 	background-size: cover !important;
 	background-position: center !important;
 }
+
 .aka-2Ba14Z {
     background-color: green !important;
     border-color: #00FF00 !important;
@@ -295,21 +295,48 @@
     padding-top: 10px;
 }
 /* Member Role Stuff */
-.member-role {
-	background-color: currentColor!important;
-	border: 3.5px solid black !important;
-	border-radius: 9px;
-}
+
  .member-roles .name {
 	color: #e7e7e7;
 }
 .bodyTitleIconForeground-itKW-t {
 	fill:  #e7e7e7;
 }
-.bodyTitleText-hSiL7d {
+.bodyTitle-yehI7c {
 	color:  #e7e7e7;
 	text-transform: Uppercase;
 }
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: #0e5403 !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
 .theme-dark .rolesList-2YHFg5 .member-role {
     border: 3px solid black;
     border-radius: 12%;
@@ -322,7 +349,8 @@
 .protip {
    display: none;
 }
-.quick-message {
+.channel-members-loading { display: none }
+.theme-dark .quickMessage-28pD5Y {
   background: black;
   border-color: #147b04;
   border-style: solid;
@@ -347,7 +375,7 @@
   font-weight: 700;
 }
 .note textarea:focus {
-  background: black;
+  background: black !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
   border-radius: 20px;
@@ -674,13 +702,16 @@ border-color: rgb(14, 17, 218);
     border-color: rgba(0,0,0,.3);
     color: #e7e7e7;
 }
-.itemDefaultSelected-1UAWLe {
-    background-color: #0e5403;
+.side-2nYO0F .itemSelected-3XxAMf {
+    background-color: #0e5403 !important;
     color: #e7e7e7;
 }
 .theme-dark .itemDefault-3NDwnY:hover {
-    background-color: #116204;
-    color: #e7e7e7;
+    background-color: #116204 !important;
+    color: #e7e7e7 !important;
+}
+.chat .divider>div {
+    display: none;
 }
 .itemBrandSelected-3LxxzT {
     background-color: green;
