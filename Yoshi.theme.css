@@ -1,6 +1,5 @@
 //META{"name":"Yoshi_Theme","description":"The Great Yoshi Theme","author":"DevilsTheAvenged","version":"1.0"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
-@import url(https://cdn.rawgit.com/DevilsLynAvenged/DevilsLynAvenged/ff4df2d1/Mario%20Crew/SuperYoshi.theme.css);
 .app,
 .callout-backdrop,
 .bda-backdrop,
@@ -262,11 +261,10 @@
     background-position: -111px !important;
 }
 .member-roles .member-role>.name{color:#FFF;}
-.member-roles .member-role{background-color:currentColor!important;border:4px solid black !important;}
 .body-3rkFrF {
     border-bottom: none;
 }
-.headerUsernameNoNickname-1iGxNP,.bodyTitleText-hSiL7d {
+.headerUsernameNoNickname-1iGxNP,.bodyTitle-yehI7c {
     color: white;
 }
 .headerDiscriminator-3fLlCR {
@@ -291,14 +289,14 @@
     fill: white;
 }
 .note textarea:focus {
-    background: rgba(0,0,0, 0.6);
+    background: rgba(0,0,0, 0.6) !important;
     border: 3px solid rgba(246,124,30,1);
 }
 .note textarea {
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3) !important;
     color: white;
 }
-.quick-message {
+.theme-dark .quickMessage-28pD5Y {
     background: rgba(0,0,0,0.4);
     border: 1px solid #f67c1e;
     border-radius: 1px;
@@ -416,6 +414,9 @@
 .emoji-picker .categories .item.selected {
     border-bottom: 3px solid #F67C1E;
 }
+.chat .divider>div {
+    display: none;
+}
 /* The Discord Settings Stuff */
 
 .theme-dark .itemDefault-3NDwnY,#bd-settings-sidebar .ui-tab-bar-item {
@@ -423,12 +424,12 @@
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover,.theme-dark .itemDefault-3NDwnY:hover {
     color: white;
-    background-color: #53A13C;
-    border: 2px solid #ED1910;
+    background-color: #53A13C !important;
+    border: 2px solid #ED1910 !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected,.itemDefaultSelected-1UAWLe {
-    background-color: #53A13C;
-    border: 3px solid #F67C1E;
+    background-color: #53A13C !important;
+    border: 3px solid #F67C1E !important;
     color: white;
 }
 #bd-settings-sidebar .ui-tab-bar-header,.theme-dark .header-1-f9X5 {
