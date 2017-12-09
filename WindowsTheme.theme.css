@@ -1,5 +1,4 @@
 //META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.4"}*//{}
-
 /* Backgrounds */
 .app,
 .callout-backdrop,#pubs-container:before,.bda-backdrop {
@@ -220,7 +219,7 @@
 
 .body-3rkFrF,
 .footer-2J5zqP {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8) !important;
 }
 
 .headerStreaming-3F-wjT {
@@ -734,38 +733,7 @@ span:not(.spinner-item) {
 
 /* Mini Popup Bottom Part */
 
-.member-roles .member-role {
-  background-color: black;
-  border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
-  border-style: solid;
-  border-top-width: 5px;
-  border-bottom-width: 5px;
-  border-left-width: 5px;
-  border-right-width: 5px;
-  border-radius: 1px;
-  color: white;
-  cursor: default;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  margin-right: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
 
-.quick-message {
-  background: black;
-  border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
-  border-style: solid;
-  border-top-width: 5px;
-  border-bottom-width: 5px;
-  border-left-width: 5px;
-  border-right-width: 5px;
-  border-radius: 1px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
 
 ::-webkit-input-placeholder {
   color: white !important;
@@ -784,9 +752,7 @@ span:not(.spinner-item) {
   font-weight: 700;
 }
 
-.note textarea:focus {
-  background: black;
-}
+
 
 .theme-dark .connectedAccount-3mKaTA {
   border-radius: 3px;
@@ -1894,17 +1860,20 @@ width: 300px;
     font-weight: bold;
 }
 /* Selected Stuff On User Setting Menu */
-.theme-dark .buttonBrandFilled-3Mv0Ra, .itemDefaultSelected-1UAWLe, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark .buttonBrandFilled-3Mv0Ra, .side-2nYO0F .itemSelected-3XxAMf, .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     color: #fff;
-    background-color: transparent;
+    background-color: transparent !important;
     border: 1px outset gray;
 }
 
 /* Hover Option Colors */
 .theme-dark .itemDefault-3NDwnY:hover, #bd-settings-sidebar .ui-tab-bar-item:hover {
-    color: #f6f6f7;
-    background-color: black;
+    color: #f6f6f7 !important;
+    background-color: black !important;
     border: 2px outset white;
+}
+.chat .divider>div {
+    display: none;
 }
 /* All Invite Codes */
 #instant-invite-modal .clipboard-input-inner input {
@@ -3361,30 +3330,44 @@ span:not(.spinner-item) {
   padding-bottom: 12px;
 }
 
-
+.bodyTitle-yehI7c {
+   color: white;
+}
 /* Mini Popup Bottom Part */
 
-.member-roles .member-role {
-  background-color: black;
-  border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
-  border-style: solid;
-  border-top-width: 5px;
-  border-bottom-width: 5px;
-  border-left-width: 5px;
-  border-right-width: 5px;
-  border-radius: 1px;
-  color: white;
-  cursor: default;
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  margin-right: 4px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
 
-.quick-message {
+.role-3rahR_ {
+  padding: 4px 6px;
+  border-radius: 3px;
+  overflow: hidden; 
+  }
+  .role-3rahR_ .roleCircle-3-vPZq {
+    opacity: .5;
+    height: 22px;
+    width: 5px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    margin-left: -5px;
+    margin-right: -1000px;
+    padding-right: 997px;
+    border-radius: 0; 
+    }
+    /* Secondary Roles */
+    .role-3rahR_[style*="border-color: rgba(185, 187, 190, 0.6)"] .roleCircle-3-vPZq {
+       background: black !important;
+}
+    .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
+      margin-left: 0; 
+      }
+  .role-3rahR_ .roleName-DUQZ9m {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 22px; 
+     color: white !important;
+     position: relative;
+     left: 4px;
+ }
+.theme-dark .quickMessage-28pD5Y {
   background: black;
   border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
   border-style: solid;
@@ -3415,7 +3398,7 @@ span:not(.spinner-item) {
 }
 
 .note textarea:focus {
-  background: black;
+  background: black !important;
 }
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account {
@@ -4375,4 +4358,5 @@ background-size: cover;
 /* Settings(Owner) Icon*/
 [class*='icon-3rMtHF'] {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFwklEQVR4Xu2b67UVRRCFqwLwQQRCAoIJCEQAJuAjAcEIhAgEExBMQIlAMAHBBIQIBA2gXN9dPYc5M11d1TN3hoXn9p/74/T0Y3fV3lXVfVVOvOmJ718uALiwgBNHYDcXMLPLIvJJEu9Xqvoy2XdVt10AMLOvReSnzpV+oaq/dn7T3X0vAB6IyJ3O1d1X1Xud33R33wuApyJyvXN1z1T1Ruc33d33AsC6VybyWlUvLfiu65PNATCzayLyR9eq3na+sjUZ7gGAR4CvRGRgek8hNifCPQDwCPCwOTO7LSK/VKxkcyLsBqDouWRMs/T9TUQ44Wk7mHfp91elDxZys2Ou1LrG83QBUBb6QkQ+FJHnIvJIRJ5MF1j6fS8imH+tvVHVj8c/mNlrEfnI6c88WMNRcFTmuVXmgWv+EZGrGcCGeXoBYCFfVRZ5AENEkK6HBSSP+2YSZ2aRVLI55mau8aanczxWVQ/42XrSAJgZG8Ocz6PNfNvMCHqwmvNouA2Ahq0HAKQMM1vbYP/bqspJHlqRS0LfbL7QWsdTVb2ZWWgKgIWx/Mw0ReTBdOPTTsXSMOGaq2X2NPT5RlVx2WYLATAzyAqGPiKtaODR7/ABG+/K7grB4RZLgYBUURr+ui0DQMs3H2PODnu/gZ3XZnQlRuAkawrBHLiNB1IYRzQBaOgziB4GL4vEbGFnGlKJn89OvVgUiRF8MlgVpwQnoA6zEyvrYKNXy/hPkOAB3IBAm+F0BACsX8vIILJr08WWzbGx55XfCIZascFgpp7mA5Y3Nr8BYI1Am4ToAhDIHqeE1BwxuedoC0k0RWLMWRSEw/J4ypXFFgBefD7sk8DkegTCSn0Pfbhs/lkQeLlJVeQCmVKWe1ILT35qSGvHb1pSRgUA4UcR+aChJvdU9f4ksMHnawlOh4Ieus6IzMzgk1bJ7F8R+TaKBUIARj72ewsEVT0ay8y8vIEhIVHS5IFDILe7jShwFt+bWavKhDzeiNyThaQAGIHApgYpGp8kZexDylvU4G/nqIkd7joKAiiepl8af2NmSGyN9ZFg4o8UQacBKCB4Zk1KDGmetUaBoyqfo+9acnZEZGZGXDDEHWOsj4CK/K0XAC8jPGLrBvN/p6qcstvMDFf4odIhO0c6E+xygXKyWQC8Mli4uEb88VBVAWewMi9ED+cYg7uVBZw8AN7pvPcusJYEYe7PvBS1qAeFl1oR9d2SYAk5ueCsVYVequqVCZt7MoiUYglHWV/ZPOTn1fOmMkiQVQMK+SP6Oz8ZzMTbnYEQllALhGobAtfeQCiVp6RUoMTzUZV35ttBLSGS5+nvtVA4ylMA4c6qUDiZzKxNViIw1o6/LBlKbJ5k4/PI13ZKh5t5ioj0p8NBQSSdbJQAKjLXmhX0FkS4B/BulvoLImXh3m1NVc4Kk5MsvXBKYpkqL8kS6fX0Gow8wRub3zz5bD60iAoirZx+XBQdrqqGhAgJwuy8oighda0oSv3OK4pyezxIMIkQRVGKoyRfrcr18qJoYnA0nU3XanFsBDNe9dCpZJbEH94cjO/FDmFJLcwFillzkp5/RSxerfJGHyVumKMh4KnLqy9GVpDYdIEAQUDTvLQs5EtRJH3D6yCRItHQAkbhbXR9HZ3I8DvWBD/ULkfxcy8azI5Pv/QLsx4ATvt6vLiCV+ikDsdvEBJM/XNQRV7yQILA68tSSIV4cZFafXKbBxIFAMzzz7K5w6adpystzZ+9ATQzskfvZseLDVjPGAxA+rTnJjrtAiMuOPPRzC
+
 
