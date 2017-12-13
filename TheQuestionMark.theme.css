@@ -193,6 +193,10 @@ span:not(.spinner-item){
     padding-left: 4px;
     padding-bottom: 4px;
 }
+.theme-dark .chat .welcome-message a,
+.chat .welcome-message h1 {
+    color: #e53b0a;
+}
 .message-group .mentioned .message-text:after {
     background: none;
     border-left: none;
