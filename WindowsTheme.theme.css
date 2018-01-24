@@ -1,10 +1,18 @@
-//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.4"}*//{}
+//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.7"}*//{}
 /* Backgrounds */
 .app,
 .callout-backdrop,#pubs-container:before,.bda-backdrop {
   background-image: url("https://www.walldevil.com/wallpapers/a45/3245-windows.jpg");
   background-size: cover !important;
   background-position: center !important;
+}
+ /* fix not having a background image anymore */
+.layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
+  background: transparent !important;
+}
+/* optionally adjust background brightness (0: original image, 1: black) */
+.layers-20RVFW {
+  background: rgba(0,0,0, 0.3) !important;
 }
 .theme-dark .inner-3if5cm {
     background-color: rgba(0, 0, 0, 0.3);
@@ -33,8 +41,8 @@
     top: 704px !important;
 }
 .bot-tag {
-    background: black;
-    border: 1px solid white
+    background: black !important;
+    border: 1px solid white;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
@@ -618,22 +626,7 @@ span:not(.spinner-item) {
   background-size: 90%;
 }
 
-.spinner-inner.spinner-wandering-cubes {
-  background-image: url(https://www.pinnaclecart.com/wp-content/themes/Pinnacle/images/gears.gif);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 62px;
-  height: 62px;
-}
 
-.spinner-wandering-cubes .spinner-item {
-  display: none;
-}
-
-[class*="status-text"],
-.status-picker .popout-menu-item .helper {
-  display: none;
-}
 
 
 /*===== Status Stuff Popup =====*/
@@ -684,44 +677,7 @@ span:not(.spinner-item) {
 
 /* Popup Menu for Top and Bottom */
 
-[class*="status-picker popout-menu"].popout-menu {
-  background: black;
-  width: 66px;
-}
-
-.popout-menu {
-  background: #000;
-  border-radius: 5px;
-  width: 256px;
-}
-
-.popout-menu .popout-menu-item {
-  background-color: #000;
-  color: white;
-  opacity: 1;
-  font-size: 110%;
-}
-
-.popout-menu .popout-menu-item:hover {
-  background-color: #222;
-  opacity: 1;
-  color: white;
-}
-
-
 /* More Popup Menu Stuff */
-
-.status-picker .popout-menu-item {
-  display: block;
-  flex-direction: row;
-  background: black;
-  width: 56px;
-}
-
-.popout-menu .popout-menu-separator {
-  border-bottom: 1px solid black;
-}
-
 
 /* Mini Popup Menu */
 
@@ -1146,66 +1102,6 @@ span:not(.spinner-item) {
   border-left-width: 5px;
   border-right-width: 5px;
 }
-
-
-/* Context Menu Stuff */
-
-.theme-dark.context-menu {
-  background: black !important;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(1) {
-  background: #D93F0B;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(2) {
-  background: #8CAC42 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(3) {
-  background: #3371A8 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(4) {
-  background: #D9A200 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(5) {
-  background: #D93F0B !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(6) {
-  background: #8CAC42 !important;
-  color: #fff;
-}
-
-.context-menu .item.danger:hover {
-  color: white !important;
-}
-
-.theme-dark.context-menu .context-menu {
-  background: black;
-  border: 1px solid black;
-}
-
-.theme-dark.context-menu .item-subMenu {
-  background: #000;
-}
-
-.context-menu {
-  background: black;
-}
-
-.context-menu .item:hover {
-  background: black;
-  color: white;
-}
-
 
 /* Search Popup Menu */
 
@@ -1759,34 +1655,38 @@ background-color: #8CAC42 !important;
 .tooltip.tooltip-black.tooltip-right:after {
     border-right-color: transparent;
 }
-/* Mute */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 131.472px;"] {
-    left: 191px !important;
-    top: 629px !important;
-}
-/* Deafen */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.438px;"] {
-    left: 222px !important;
-    top: 629px !important;
-}
-/* UnMute */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 122.972px;"] {
-    left: 181px !important;
-    top: 629px !important;
-}
-/* Undeafen */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.438px;"] {
-    left: 215px !important;
-    top: 629px !important;
-}
+
  /* User Settings */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 242.5px; top: 1008.33px;"] {
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.981px;"] {
  background: #3371A8 !important;
 }
 /* Voice Icons */
 .icon-1NXYub path {
   fill: transparent;
 }
+/* Mute */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 130.991px;"] {
+    left: 191px !important;
+    top: 812px !important;
+}
+/* Deafen */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.481px;"] {
+     left: 222px !important;
+    top: 812px !important;
+}
+/* UnMute */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 122.991px;"] {
+     left: 181px !important;
+    top: 812px !important;
+}
+/* Undeafen */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.981px;"] {
+     left: 214px !important;
+    top: 812px !important;
+  background: black !important;
+    
+}
+
 [class*='icon-1NXYub'] {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAADNklEQVR4Xu2a/VEVMRTFzynAURuQRwVABWIHdKBUoFagViAdKBVQgmIDYgViBYoWcJ27kziPvGTzsdk187KZYfjjsZvcX879fBCdL3ZuP1YAqwI6J7C6QOcCWIPg6gJLu4CIPALwSfclebL0/u5+iypgy/hjA2DR/X2wFzuAa3xXAHzGdwMgZHwXAMaM33sAMeP3GkCK8XsLINX4XAAickzypnbdUDUN5hifA0BEtHA6BfCM5OeaEKoByDU+FYCIfADwwhj9G8ARydtaEKoAKDE+BYBjvLX5pmYJHQUgIu8BDKXryNoA0J/QugPwcKcOJ4P7i8gZgKvAC9+RfFtDBaMARET9bmhcJqxzI+GnmQC0adKgd+DZ+xeAQ5L6e9KaG8A5yY8iooErCYBR3DfznCrvC4AHHiurqGBOAIPxevBUAI7Pn2jaE5FXANQN3aUB8WCqCuYC8M/4VACegHdL8tA8r1Hf5wr39inxhTkA7BwqpgARuQDw0mOAdSFNg5oO3XVJ0qbIEvvHZ4IjQfASwCBvZ2mK2glMCQC8MQLAoAKTZn/6giHJx0WWm4dKFZAVgBIAjGUbGws0Ixx5jB0+L4XQBADj56qo5x5DXpO8EBHN+288n08qj1sCECp8BrX1AEBz/lfPDV+TPBWRUCDMckf3/S0poHsA3btAv0Ew0nTZNKjxwdeV/pc0qLflK4S0iSkphOzEx41RP0huRgqhO5LaNRav0iA4tmEXpXCMeEkz5MaA4fZNkfQ9MHBpshmycEra4W0IsXb4D4AnrbbD9yDEeoFtOZnOUJsqHaSEagN9ZFIBZPecIwa47jFlJKaR3zdr1BnjZurt60FThqLaq6cMRX0DCwtDM8NOtGbrQ9FYpLOfmzSlPb2vXQ2+ZgzASIeoqTZ2IalHjysg9U0lEGIAPBBU+voVWVtfjJQqIQWAgWAnRpN6f99lRmNAqgJKIKQCMBDa/3I0F0IOgNyLSP376grIgbDXAIxsNfUFs8PeA4hB6ALAGIRuAIQgdAXAB6E7AA4E/WfpaiVtatpz/262NFh6oKWfWwEsTby1/VYFtHYjS59nVcDSxFvbb1VAazey9Hn+ArynDl8tDYmdAAAAAElFTkSuQmCC)!important;
 background-size: cover;
@@ -1909,56 +1809,7 @@ width: 300px;
     background: black;
     font-size: 24px;
  }
-#instant-invite-modal .form-header header {
-    color: white;
-    font-size: 18px;
-    line-height: 24px;
-}
-#instant-invite-modal .blurb {
-    font-size: 14px;
-    color: white;
-    opacity: 1;
-}
-#instant-invite-modal .expire-text {
-   font-size: 19px;
-   color: white;
-}
-.form.deprecated .form-inner {
-    background-color: black;
-    color: white;
-}
-.form.deprecated .form-header {
-    background: black;
- }
-#instant-invite-modal .form-actions {
-   color: white;
-    background-color: black;
- }
-#instant-invite-modal .copy {
-   background-color: black;
-}
-.clipboard-input-inner button:first-of-type:before {
-    background: transparent;
-    border-right-color: black;
-}
-.clipboard-input-inner {
-    border: 1px outset white;
-    border-radius: 1px;
- }
-#instant-invite-modal-advanced .form-actions {
-    background-color: black;
-}
-/* Copied Checkmark and Stuff */
-.clipboard-input-copied button {
-    background-color: black !important;
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAADZ0lEQVRoQ+2Zv24TQRDGv02FaDASBRWipMOhoovTUBAj7fkFSJ4gzhMEngDnCQgv4NuIM6LLRaJOnC5llCoFEqZBSIAHzXFn2fdvd+/2bAVl2529/X47szu7cwI3vIkbrh+3AIkHXw29DRLUAdAhoCWA9rx3CRgLYAIgFCTCjz3/xIX3a3ngpS/bAtgVgATQshQ0IUARcPDJU2PLsTPzSgAsfA14x6tddeLUuHAK7FUBsQKQvmz9AvYF0HckfOEzBAxGntqz+bYxQBwu79OxbTOZiS3vFQJ2TL1hBBCHzHGFODfRnGczmQKbJhBagBWIT4CMIEoBVijeGKIQIN6wx03HvC7GeE+MPLVeZFcI0PXlAMCuboIl9R8Enso9+XIB4tA5W5I4o2mmwHreps4F6PqSTxxXScpI4OMHLVx+5ZtGYQsDT22mezMAq1j99qOHkM+e4OzqGkenF4UEeV7IAGz58lAAr42WzYFRIj75VBkEAR9GntqenzYD0PXlt2UlrLT4RNjhl3FROE0CT90vBOj6kuOe47/xViRenV5gfHVdNv9m4KkwMVjwQNeXbwDsN62+hniW9jbwFOuM2iLAUIYQ2GgSoKZ4EOFo1FP8/sgCbPnyrMnMW1c8K05n5nQIkc3qt+7eweTHT6MhLsQnEwWemumuDJAIMth0cCmeIWoDpAWVQbgWXxuAw6b/4nkmbPIgmhBfDjCUYwg81QW1iTATG908uf2E86CnZiWbysdomUCemO826WayX3RQpceobSIrgsgT4UJ8/N2SRFbhKmEC4VA8MxRfJbh3aygnQuCezpXz/WUQLsUT4fuopxYqgM6u03kQLsXHWVh/na7zoJmHcC2eAYweNGzYrXGpYwhumiuxTYT+syWcBD2Veeb+n4/6yAs3uawSJSJftn4T+H2gzcz28WAxIpV50yO1pUVBCG2PVQt5paZ8bP4RaH/21GWRoVFxdxUQLJ4EOroKtRaAyaN/A0v0hKl41mYEkECsEQ4b3xOE86nAtm7lk5AyBphtbIArAk0VfQuLuJX3QN7AKFsTBs4qGISTqUDfdNXnNVl5IA0T/zfrgyBtTyqOc4joN+ugivBKIVR25sVVvQ4oqmq3MnuFcE7ApRDgf8JcaZ5V1+ocu7U8UGdiV2NvAVytZNXv/AVcza9AJzQLCgAAAABJRU5ErkJggg==)!important;
-    border: 1px solid red !important;
-    color: rgba(0, 0, 0, 0)!important;
-    background-size: 50% 70%;
-}
-.clipboard-input-copied .clipboard-input-inner {
-    border-color: red;
-}
+
 /* Unread Block */
 .unread-23Kvxk {
     background-color: rgba(255, 255, 255, 0.6);
@@ -2212,12 +2063,6 @@ width: 300px;
     background-position: 60% center;
 }
 /* Emoji Picker stuff */
-.bda-dark .emoji-picker .category, .emoji-picker .scroller, .bda-dark .emoji-picker {
-    background-color: black;
-}
-.emoji-picker .category {
-    color: white;
- }
 .bda-dark .emoji-picker .scroller .emoji-item.selected {
     background: rgba(123, 123, 123, 0.37);
     background-size: 120% 120%;
@@ -2366,8 +2211,11 @@ width: 300px;
 .theme-dark .message-group .comment .markup pre code {
   width: auto !important;
   background: rgba(0,0,0,0.6);
-    line-height: 23px;
+  line-height: 14px;
    
+}
+.theme-dark .message-group .comment .edited {
+    color: white;
 }
 .theme-dark .hljs {
   color: white;
@@ -2377,32 +2225,7 @@ width: 300px;
     color: gray;
 }
 
-/* Drag and Drop Menu Box */
-.upload-drop-modal .bgScale {
-border-radius: 1px;
-background: black;
-}
-.upload-drop-modal .inner {
-border: 4px dashed white;
-border-radius: 1px;
-}
-/* Drag and Drop Icons*/
-.upload-drop-modal .inner .icon.one {
-display: none;
-}
 
-.upload-drop-modal .inner .icon.three {
-display: none;
-}
-.upload-drop-modal .inner .icon.two {
-background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABoCAYAAAAdHLWhAAADmElEQVR4Xu3d4XETQQwFYKkCXAJ0QAeESqADoBJCB6QSSAd0QEpIKlhmZy6DYezznk56Kznvflu7uvfd5jZ2fFHhkToBTd0dmxMCJb8ICESg5Akkb48riEDJE0jeHlcQgZInkLw9riACJU8geXtXs4JaawcR+bTk/U1VH5NnP9TeVQAtOD9E5O1y1r9E5P01IJUHOoHzfGVeBVJpoBWcq0EqCzSAcxVIJYE24JRHKgdkwCmNVApoB05ZpDJADjglkUoAOeKUQ0oPFIBTCik1UCBOGaS0QACcEkgpgYA46ZHSAU3ASY2UCmgiTlqkNEAJcFIipQBKhJMOaTrQDpw7EXktIu8ufDR5LyIPIvJh6CPMvy9K8XnSVKA9OKr6sbX2cwRIVW9aa98rIk0D2ovTL/QtQMvryyFNAfLAsQBVRIIDeeFYgaohQYE8cfYAVUKCAXnj7AWqgoQEstyg7/pu7dz2eOsm4dQ4xt3dal8bt/OrL0cCjWyJj5u9GIIHkHEl3fetuyfEubGQQP2vPjvSq4ETu4jj8SPuuI8NK+lJRG5Utf8iG37AgJZAR5CGcLyBBlcSFKf3BAUaQBrGiQC6gATHmQK0grQJJwroDNIUnGlAJ5A240QC/Yc0DWcq0BJCfzf6YL3heu3iVrbx/Z75qKr93fApB/we5HmW0UCevVrHIpA1OVAdgUBBW6chkDU5UB2BQEFbpyGQNTlQHYFAQVunIZA1OVAdgUBBW6chkDU5UB2BQEFbpyGQNTlQHYFAQVunIZA1OVAdgUBBW6chkDU5UB2BQEFbpyGQNTlQHYFAQVunIZA1OVAdgUBBW6chkDU5UB2BQEFbpyGQNTlQHYFAQVunIZA1OVAdgUBBW6chkDU5UB2BQEFbpyGQNTlQHYFAQVunIZA1OVAdgUBBW6epDjTycAzT1yutgXrXVQfqX1H8vDzY71Q2/auLt9avWHqHbRmvNJDlhKvVECi5GIFeKlBrrd8bviY/f6/2vqjqrddgx+OEraDW2u+Vm3fEucwc80FV30Q0EAnUIhrOOqaqhmQZMmgPsbVGIIeriUAOIfYhuIKcgowahkBRyTqNWxGo/zf6kcdfOkU0dZgnVT1EdBB5Dxp5IzPinGaMGfaGbBjQspODPBl3hsg/v0yq9oflhhyhQCEdv7BBCZQcnEAESp5A8va4ggiUPIHk7XEFESh5Asnb4woiUPIEkrfHFUSg5Akkb+8PULwsh0KlK4AAAAAASUVORK5CYII=);
-}
-.upload-drop-modal .inner .title {
-color: white;
-}
-.upload-drop-modal .inner .instructions {
-    color: rgba(255, 255, 255, 0.8);
-}
 /* Mentions */
 .theme-dark .message-group .comment .markup .mention:hover {
     border: 1px solid white;
@@ -2413,8 +2236,8 @@ color: white;
     background: black !important;
     border-radius: 1px;
     color: white;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     border: 1px solid rgba(255,255,255,0.4);
 }
 .theme-dark .message-group .mentioned .message-text:after {
@@ -2427,7 +2250,7 @@ color: white;
 }
 /* Link and Stuff */
 .theme-dark .message-group a {
-    color: #D9A200;
+    color: #D9A200 !important;
 }
 .theme-dark .message-group .embed {
     background-color: rgba(46,38,64,0.5);
@@ -2453,43 +2276,14 @@ color: white;
     min-width: auto;
     width: 2rem;
 }
-/* Upload Modal(Easier One to Get)*/
-.upload-modal .inner .file .icon.image {
-    border: 5px solid white;
-    border-radius: 1px;
-    background-size: cover;
-    -webkit-box-shadow: 0 2px 8px rgba(0,0,0,.4);
-    box-shadow: 0 2px 8px rgba(0,0,0,.4);
-}
-.upload-modal .footer { 
-    background-color: black;
-  }
-.upload-modal .footer .button {
-   background-color: black;
-   color: white;
-    font-weight: bold;
-    border: 1px solid white;
-    border-radius: 1px;
-}
+
 .message-group .image {
     vertical-align: bottom;
     max-width: 520px;
     border-radius: 1px;
     border: 2px outset gray;
 }
-.upload-modal .inner {
-    background:  black;
-    border: 2px dashed white;
-    border-radius: 1px;
-    margin: 10px;
-    color: #fff;
-}
-.upload-modal {
-    width: 520px;
-    min-height: 258px;
-    background-color: black;
-    border-radius: 1px;
-}
+
 .theme-brand .inner-3if5cm {
     background-color: black;
     border-radius: 1px;
@@ -2498,45 +2292,12 @@ color: white;
  .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
     background-color: transparent;
 }
-.theme-dark .search-answer, .theme-dark .search-filter, .search-popout .date-picker .date-picker-hint .hint-value {
+.theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd, .search-popout .date-picker .date-picker-hint .hint-value {
     background-color: black;
     border: 1.5px solid white;
 }
 .search-popout .date-picker .date-picker-hint .hint {
 color: white;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
-    background: black;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-light .ui-calendar-picker .react-datepicker__day-name, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__current-month, .theme-light .ui-calendar-picker .react-datepicker__current-month {
-color: white;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day, .theme-light .ui-calendar-picker .react-datepicker__day {
-    border-left-color: rgba(0,0,0,0.6);
-    border-top-color: rgba(0,0,0,0.6);
-    color: rgba(255,255,255,1);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: black;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--disabled:hover {
-    background-color: rgba(0,0,0,.05);
-    color: rgba(255,255,255,.2);
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous, .theme-light .ui-calendar-picker .react-datepicker__navigation.react-datepicker__navigation--previous  {
- background: transparent;
- }
-
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day:hover, .theme-light .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:hover, .theme-light .ui-calendar-picker .react-datepicker__day:hover {
-    background-color: rgba(25,25,25,0.5);
-    color: white;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type, .theme-light .ui-calendar-picker .react-datepicker__week .react-datepicker__day:last-of-type {
-    border-right-color: black;
-}
-.theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-dark .theme-light .ui-calendar-picker .react-datepicker__day--outside-month, .theme-light .ui-calendar-picker .react-datepicker__day--disabled, .theme-light .ui-calendar-picker .react-datepicker__day--outside-month {
-    background-color: rgba(0,0,0,0.3);
-    color: rgba(255,255,255,.6);
 }
 
 .slider-handle {
@@ -3228,9 +2989,6 @@ span:not(.spinner-item) {
   height: 62px;
 }
 
-.spinner-wandering-cubes .spinner-item {
-  display: none;
-}
 
 [class*="status-text"],
 .status-picker .popout-menu-item .helper {
@@ -3523,22 +3281,22 @@ span:not(.spinner-item) {
 }
 
 .theme-dark .listRow-1wEi-U:hover {
-  background: #D93F0B;
+  background: #D93F0B !important;
   color: black !important;
 }
 
 .theme-dark .listRow-1wEi-U:hover:nth-of-type(2n) {
-  background: #8CAC42;
+  background: #8CAC42 !important;
   color: black !important;
 }
 
 .theme-dark .listRow-1wEi-U:hover:nth-of-type(3n) {
-  background: #3371A8;
+  background: #3371A8 !important;
   color: black !important;
 }
 
 .theme-dark .listRow-1wEi-U:hover:nth-of-type(4n) {
-  background: #D9A200;
+  background: #D9A200 !important;
   color: black !important;
 }
 
@@ -3734,64 +3492,6 @@ span:not(.spinner-item) {
   border-right-width: 5px;
 }
 
-
-/* Context Menu Stuff */
-
-.theme-dark.context-menu {
-  background: black !important;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(1) {
-  background: #D93F0B;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(2) {
-  background: #8CAC42 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(3) {
-  background: #3371A8 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(4) {
-  background: #D9A200 !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(5) {
-  background: #D93F0B !important;
-  color: #fff;
-}
-
-.theme-dark.context-menu .item:hover:nth-child(6) {
-  background: #8CAC42 !important;
-  color: #fff;
-}
-
-.context-menu .item.danger:hover {
-  color: white !important;
-}
-
-.theme-dark.context-menu .context-menu {
-  background: black;
-  border: 1px solid black;
-}
-
-.theme-dark.context-menu .item-subMenu {
-  background: #000;
-}
-
-.context-menu {
-  background: black;
-}
-
-.context-menu .item:hover {
-  background: black;
-  color: white;
-}
 
 
 /* Search Popup Menu */
@@ -4059,7 +3759,7 @@ span:not(.spinner-item) {
 }
 
 .spinner {
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.4);
   background-image: url(https://www.canvasprintfactory.com/assets/interface/preloader_red.gif) !important;
   background-size: 140%;
   background-repeat: no-repeat;
@@ -4151,8 +3851,8 @@ span:not(.spinner-item) {
   opacity: 1;
 }
 .theme-dark .message-group h2 span {
-    color: white;
-    font-weight: bold;
+    color: white !important;
+    font-weight: normal;
 }
 /* guild code stuff */
 .guilds-wrapper .guilds .friends-icon {
@@ -4385,6 +4085,436 @@ background-size: cover;
 }
 /* Settings(Owner) Icon*/
 [class*='icon-3rMtHF'] {
-    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFwklEQVR4Xu2b67UVRRCFqwLwQQRCAoIJCEQAJuAjAcEIhAgEExBMQIlAMAHBBIQIBA2gXN9dPYc5M11d1TN3hoXn9p/74/T0Y3fV3lXVfVVOvOmJ718uALiwgBNHYDcXMLPLIvJJEu9Xqvoy2XdVt10AMLOvReSnzpV+oaq/dn7T3X0vAB6IyJ3O1d1X1Xud33R33wuApyJyvXN1z1T1Ruc33d33AsC6VybyWlUvLfiu65PNATCzayLyR9eq3na+sjUZ7gGAR4CvRGRgek8hNifCPQDwCPCwOTO7LSK/VKxkcyLsBqDouWRMs/T9TUQ44Wk7mHfp91elDxZys2Ou1LrG83QBUBb6QkQ+FJHnIvJIRJ5MF1j6fS8imH+tvVHVj8c/mNlrEfnI6c88WMNRcFTmuVXmgWv+EZGrGcCGeXoBYCFfVRZ5AENEkK6HBSSP+2YSZ2aRVLI55mau8aanczxWVQ/42XrSAJgZG8Ocz6PNfNvMCHqwmvNouA2Ahq0HAKQMM1vbYP/bqspJHlqRS0LfbL7QWsdTVb2ZWWgKgIWx/Mw0ReTBdOPTTsXSMOGaq2X2NPT5RlVx2WYLATAzyAqGPiKtaODR7/ABG+/K7grB4RZLgYBUURr+ui0DQMs3H2PODnu/gZ3XZnQlRuAkawrBHLiNB1IYRzQBaOgziB4GL4vEbGFnGlKJn89OvVgUiRF8MlgVpwQnoA6zEyvrYKNXy/hPkOAB3IBAm+F0BACsX8vIILJr08WWzbGx55XfCIZascFgpp7mA5Y3Nr8BYI1Am4ToAhDIHqeE1BwxuedoC0k0RWLMWRSEw/J4ypXFFgBefD7sk8DkegTCSn0Pfbhs/lkQeLlJVeQCmVKWe1ILT35qSGvHb1pSRgUA4UcR+aChJvdU9f4ksMHnawlOh4Ieus6IzMzgk1bJ7F8R+TaKBUIARj72ewsEVT0ay8y8vIEhIVHS5IFDILe7jShwFt+bWavKhDzeiNyThaQAGIHApgYpGp8kZexDylvU4G/nqIkd7joKAiiepl8af2NmSGyN9ZFg4o8UQacBKCB4Zk1KDGmetUaBoyqfo+9acnZEZGZGXDDEHWOsj4CK/K0XAC8jPGLrBvN/p6qcstvMDFf4odIhO0c6E+xygXKyWQC8Mli4uEb88VBVAWewMi9ED+cYg7uVBZw8AN7pvPcusJYEYe7PvBS1qAeFl1oR9d2SYAk5ueCsVYVequqVCZt7MoiUYglHWV/ZPOTn1fOmMkiQVQMK+SP6Oz8ZzMTbnYEQllALhGobAtfeQCiVp6RUoMTzUZV35ttBLSGS5+nvtVA4ylMA4c6qUDiZzKxNViIw1o6/LBlKbJ5k4/PI13ZKh5t5ioj0p8NBQSSdbJQAKjLXmhX0FkS4B/BulvoLImXh3m1NVc4Kk5MsvXBKYpkqL8kS6fX0Gow8wRub3zz5bD60iAoirZx+XBQdrqqGhAgJwuy8oighda0oSv3OK4pyezxIMIkQRVGKoyRfrcr18qJoYnA0nU3XanFsBDNe9dCpZJbEH94cjO/FDmFJLcwFillzkp5/RSxerfJGHyVumKMh4KnLqy9GVpDYdIEAQUDTvLQs5EtRJH3D6yCRItHQAkbhbXR9HZ3I8DvWBD/ULkfxcy8azI5Pv/QLsx4ATvt6vLiCV+ikDsdvEBJM/XNQRV7yQILA68tSSIV4cZFafXKbBxIFAMzzz7K5w6adpystzZ+9ATQzskfvZseLDVjPGAxA+rTnJjrtAiMuOPPRzC
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAFwklEQVR4Xu2b67UVRRCFqwLwQQRCAoIJCEQAJuAjAcEIhAgEExBMQIlAMAHBBIQIBA2gXN9dPYc5M11d1TN3hoXn9p/74/T0Y3fV3lXVfVVOvOmJ718uALiwgBNHYDcXMLPLIvJJEu9Xqvoy2XdVt10AMLOvReSnzpV+oaq/dn7T3X0vAB6IyJ3O1d1X1Xud33R33wuApyJyvXN1z1T1Ruc33d33AsC6VybyWlUvLfiu65PNATCzayLyR9eq3na+sjUZ7gGAR4CvRGRgek8hNifCPQDwCPCwOTO7LSK/VKxkcyLsBqDouWRMs/T9TUQ44Wk7mHfp91elDxZys2Ou1LrG83QBUBb6QkQ+FJHnIvJIRJ5MF1j6fS8imH+tvVHVj8c/mNlrEfnI6c88WMNRcFTmuVXmgWv+EZGrGcCGeXoBYCFfVRZ5AENEkK6HBSSP+2YSZ2aRVLI55mau8aanczxWVQ/42XrSAJgZG8Ocz6PNfNvMCHqwmvNouA2Ahq0HAKQMM1vbYP/bqspJHlqRS0LfbL7QWsdTVb2ZWWgKgIWx/Mw0ReTBdOPTTsXSMOGaq2X2NPT5RlVx2WYLATAzyAqGPiKtaODR7/ABG+/K7grB4RZLgYBUURr+ui0DQMs3H2PODnu/gZ3XZnQlRuAkawrBHLiNB1IYRzQBaOgziB4GL4vEbGFnGlKJn89OvVgUiRF8MlgVpwQnoA6zEyvrYKNXy/hPkOAB3IBAm+F0BACsX8vIILJr08WWzbGx55XfCIZascFgpp7mA5Y3Nr8BYI1Am4ToAhDIHqeE1BwxuedoC0k0RWLMWRSEw/J4ypXFFgBefD7sk8DkegTCSn0Pfbhs/lkQeLlJVeQCmVKWe1ILT35qSGvHb1pSRgUA4UcR+aChJvdU9f4ksMHnawlOh4Ieus6IzMzgk1bJ7F8R+TaKBUIARj72ewsEVT0ay8y8vIEhIVHS5IFDILe7jShwFt+bWavKhDzeiNyThaQAGIHApgYpGp8kZexDylvU4G/nqIkd7joKAiiepl8af2NmSGyN9ZFg4o8UQacBKCB4Zk1KDGmetUaBoyqfo+9acnZEZGZGXDDEHWOsj4CK/K0XAC8jPGLrBvN/p6qcstvMDFf4odIhO0c6E+xygXKyWQC8Mli4uEb88VBVAWewMi9ED+cYg7uVBZw8AN7pvPcusJYEYe7PvBS1qAeFl1oR9d2SYAk5ueCsVYVequqVCZt7MoiUYglHWV/ZPOTn1fOmMkiQVQMK+SP6Oz8ZzMTbnYEQllALhGobAtfeQCiVp6RUoMTzUZV35ttBLSGS5+nvtVA4ylMA4c6qUDiZzKxNViIw1o6/LBlKbJ5k4/PI13ZKh5t5ioj0p8NBQSSdbJQAKjLXmhX0FkS4B/BulvoLImXh3m1NVc4Kk5MsvXBKYpkqL8kS6fX0Gow8wRub3zz5bD60iAoirZx+XBQdrqqGhAgJwuy8oighda0oSv3OK4pyezxIMIkQRVGKoyRfrcr18qJoYnA0nU3XanFsBDNe9dCpZJbEH94cjO/FDmFJLcwFillzkp5/RSxerfJGHyVumKMh4KnLqy9GVpDYdIEAQUDTvLQs5EtRJH3D6yCRItHQAkbhbXR9HZ3I8DvWBD/ULkfxcy8azI5Pv/QLsx4ATvt6vLiCV+ikDsdvEBJM/XNQRV7yQILA68tSSIV4cZFafXKbBxIFAMzzz7K5w6adpystzZ+9ATQzskfvZseLDVjPGAxA+rTnJjrtAiMuOPPRzC);
+}
+    
+/* This Weeks Update Right Now */ 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   background: black;
+   color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
+    background: black;
+    border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--disabled, 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--disabled.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--disabled.react-datepicker__day--weekend {
+    border: none;
+    color: rgba(255,255,255,0.2);
+    background: black;
+}
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, 
+.theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+   background: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
+    background-color: black;
+    border: 2px solid;
+    border-left-color: #ffbb00;
+    border-right-color: #00a1f1;
+    border-top-color: #7cbb00;
+    border-bottom-color: #f65314;
+    color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend {
+    background: black;
+    border: none;
+    color: rgba(255,255,255,0.8);
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend:hover {
+    background: #7cbb00;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__day-names .react-datepicker__day-name {
+   color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+   background: black;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month {
+   color: rgba(255,0,0,0.6);
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover {
+    background: #00a1f1;
+}
+.botTagRegular-288-ZL.botTag-1OwMgs {
+   background: black;
+}
+/* Context Menu New Stuff */
+.theme-dark .itemSubMenu-3ZgIw- {
+   background: #111;
+   border: 0.3px solid white;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover {
+   background: #00a1f1;
+   color: white !important;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover:nth-child(2n){
+   background: #ffbb00;
+   color: white !important;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover:nth-child(3n){
+   background: #7cbb00;
+   color: white !important;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover:nth-child(4n){
+   background:  #f65314;
+   color: white !important;
+}
+.theme-dark .itemSubMenu-3ZgIw-:hover:nth-child(5n){
+   background: #7cbb00;
+   color: white !important;
+}
+.theme-dark .item-1XYaYf:hover {
+   background:  #f65314;
+   color: white !important;
+}
+.theme-dark .item-1XYaYf:hover:nth-child(2n) {
+   background: #ffbb00;
+   color: white !important;
+}
+.theme-dark .item-1XYaYf:hover:nth-child(3n) {
+   background: #00a1f1;
+   color: white !important;
+}
+.theme-dark .item-1XYaYf:hover:nth-child(4n) {
+   background: #7cbb00;
+   color: white !important;
+}
+.theme-dark .item-1XYaYf:hover:nth-child(5n) {
+   background: #ffbb00;
+   color: white !important;
+}
+.theme-dark .contextMenu-uoJTbz {
+    background: black;
+}
+.theme-dark .contextMenu-uoJTbz {
+    box-shadow: none;
+    border: none;
+}
+.theme-dark .itemGroup-oViAgA {
+    border-color: transparent;
+    border-top: none;
+    border-bottom: none;
+}
+.theme-dark .danger-1oUOCl:hover {
+   color: red !important;
+   border: 1px solid red;
+   background: black !important;
+}
+.theme-dark .itemToggle-e7vkml:hover {
+    background: yellow;
+    color: black !important
+}
+.theme-dark .search-results-wrap .search-header {
+    background-color: black;
+}
+.theme-dark .message-group .comment .edited {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Popup Menu */
+.separator-1hpa3S {
+    border-bottom: none;
+}
+.item-rK1j5B:hover {
+    background-color: #f65314;
+    color: white;
+    opacity: 1;
+}
+.item-rK1j5B:hover:nth-child(2) {
+    background-color: #7cbb00;
+    color: white;
+    opacity: 1;
+}
+.item-rK1j5B:hover:nth-child(3) {
+    background-color: #00a1f1;
+    color: white;
+    opacity: 1;
+}
+.item-rK1j5B:hover:nth-child(4){
+    background-color: #ffbb00;
+    color: white;
+    opacity: 1;
+}
+.item-rK1j5B:hover:nth-child(5){
+    background-color: #00a1f1;
+    color: white;
+    opacity: 1;
+}
 
 
+
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
+   color: white;
+}
+.item-rK1j5B {
+    background-color: black;
+    color: white;
+    opacity: 1;
+}
+.bda-slist .bda-footer button {
+    background: black;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+}
+/* Upload Section */
+.uploadModal-2KN6Mm .inner-1-09ZV {
+    border: 2px dashed white;
+    color: rgb(255, 255, 255);
+}
+.uploadModal-2KN6Mm {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    background-color: rgba(255,0,0,0.4);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
+    background-color: rgba(255,0,0,0.8);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    background-color: black;
+    color: white;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
+    background-color: black;
+    color: white;
+    opacity: 1;
+    border: 1px solid white;
+}
+.uploadDropModal-BpFgz7 {
+   background: black;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .bgScale-1i4Cp3  {
+    background: black !important;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV  {
+    background: black !important;
+    border: 2px dashed white;
+}
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+    background-color: transparent;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.theme-dark .mention {
+    background: black !important;
+    border: 2px solid white;
+    color: white;
+}
+.theme-dark .topic-1KFf6J a {
+    color: orange;
+}
+.wanderingCubesItem-35kyMu {
+    background-color: orange !important;
+}
+.spinner-wandering-cubes .spinner-item {
+    display: none;
+}
+/* New Emote Stuff */
+.bda-dark .emoji-picker, 
+.bda-dark .emojiPicker-3g68GS {
+    background-color: black;
+}
+.bda-dark .emoji-picker .header .search-bar, 
+.bda-dark .emojiPicker-3g68GS .header-27dQ-e .search-bar {
+    background-color: black;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 3px!important;
+}
+.bda-dark .emoji-picker .diversity-selector .popout, 
+.bda-dark .emojiPicker-3g68GS .diversitySelector-O3ea2c .popout-2lja3I {
+    background: black;
+    border-color: white;
+}
+.diversitySelector-O3ea2c .popout-2lja3I .item-lsWB-j:hover {
+    background-color: transparent;
+    border: 1px solid orange;
+}
+.bda-dark .emoji-picker .dimmer.visible, 
+.bda-dark .emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+    background-color: rgba(0,0,0,0.65);
+}
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.bda-dark .emoji-picker .category, 
+.bda-dark .emojiPicker-3g68GS .category-3rCtoh {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+    border-bottom-color: white;
+}
+.scroller-fzNley.scroller-2dsok0::-webkit-scrollbar-thumb {
+   background: white !important;
+}
+.theme-dark .filename-13hhfJ {
+    color: rgb(255, 255, 255);
+}
+.progress-32_u4R {
+    background-color: #00a1f1;
+}
+/* New Invite Stuff */
+.wrapper-VSYYTS {
+    background: transparent;
+    border: 1px solid white;
+}
+.form-deprecated .form-header, 
+.form.deprecated .form-header {
+    background: black;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+.form-deprecated .form-inner, 
+.form.deprecated .form-inner {
+    background-color: black;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+    background-color: black;
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: black;
+}
+/* Invite Checkbox*/
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+/* ----------------------- */
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
+    border: 2px solid white;
+}
+.form-deprecated .is-focused:not(.is-open)>.Select-control, .form.deprecated .is-focused:not(.is-open)>.Select-control {
+    border: 1px solid #00a1f1;
+    box-shadow: 1px 1px 36px #00a1f1;
+}
+.form-deprecated .Select.is-disabled .Select-control:hover, .form-deprecated .Select.is-open .Select-control:hover, .form.deprecated .Select.is-disabled .Select-control:hover, .form.deprecated .Select.is-open .Select-control:hover {
+    border-color: #f65314;
+    box-shadow: 1px 1px 36px #f65314;
+}
+.form-deprecated .Select.is-disabled .Select-control, .form-deprecated .Select.is-open .Select-control, .form.deprecated .Select.is-disabled .Select-control, .form.deprecated .Select.is-open .Select-control {
+    border: 1px solid #00a1f1;
+    box-shadow: 1px 1px 36px #00a1f1;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default,
+.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text,
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: white;
+}
+.form-deprecated .Select-option.is-focused, .form.deprecated .Select-option.is-focused {
+    background: #7cbb00;
+    color: white;
+}
+.form-deprecated .Select-option, .form.deprecated .Select-option {
+    color: white;
+    background: black;
+}
+.form-deprecated .btn-primary{
+    background-color: black;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+}
+.form-deprecated .btn-primary:hover {
+    background-color: black;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    border: 1px solid white;
+}
+.clipboardInputInner-oj8y-S {
+    background: black;
+    border: 1px solid;
+    border-left-color: #7cbb00;
+    border-top-color: #f65314;
+    border-right-color: #00a1f1;
+    border-bottom-color: #ffbb00;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: white;
+    background: black;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+    background-color: black;
+    border-left: none;
+}
+/* Copied Invite Button */
+.clipboardInputCopied-UXgFh2 .clipboardInputInner-oj8y-S {
+    border-color: white;
+}
+.clipboardInputCopied-UXgFh2 button {
+    background-color: black!important;
+    background-image: url(/assets/347525ee5c5d59f9217d1c04eb88617d.svg)!important;
+    border-color: white!important;
+    background-size: 50%;
+    color: rgba(0, 0, 0, 0)!important;
+}
+/* -------------------- */
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0),black);
+}
