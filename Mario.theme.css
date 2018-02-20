@@ -240,10 +240,10 @@
     left: 11pc;
 }
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
-.headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
+.theme-dark .headerNormal-3Vn9nT,.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background: rgba(46,49,146,0.6) !important;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
 .botTagInvert-gorWR_ {
@@ -253,7 +253,7 @@
     padding-bottom: 4px;
     border: 3px solid #E4BA4B;
 }
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     border-radius: 33px;
     color: white;
     border: 3px solid #E4BA4B;
@@ -264,7 +264,7 @@
 .body-3rkFrF {
     border-bottom: none;
 }
-.headerUsernameNoNickname-1iGxNP,.bodyTitle-yehI7c {
+.headerUsernameNoNickname-1iGxNP,.bodyTitle-18hsd9 {
     color: white;
 }
 .headerDiscriminator-3fLlCR {
@@ -313,13 +313,11 @@
     font-size: 17px;
     padding-left: 6px;
 }
-#user-profile-modal .guilds .section .note textarea {
+.theme-dark .note-2AtC_s textarea {
    padding: 4px 8px;
 }
-.bodyTitleIconForeground-itKW-t,.headerIconForeground-2QFL0Z {
-    fill: white;
-}
-.note textarea:focus {
+
+.theme-dark .note-2AtC_s textarea:focus {
     background: rgba(46,49,146, 0.6) !important;
     border: 3px solid red;
 }
@@ -348,7 +346,7 @@
 .header-3mZJcV .avatarStatusStreaming-3lGjGk {
     background: #600080;
 }
-.headerStreaming-3F-wjT {
+.headerStreaming-lmgoma {
     background: rgba(89, 54, 149,0.5);
 }
 .headerTagStreaming-2FikoO {
@@ -604,6 +602,11 @@ a {
     background: #E4BA4B;
     height: 100%;
 }
+
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
+}
 .topSectionStreaming-3rIBIm {
     background: rgba(89, 54, 149,0.7);
 }
@@ -701,7 +704,7 @@ a {
 .theme-dark .user-settings-notifications .notifications-sound {
     box-shadow: none;
 }
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{
     background-color: rgba(67,95,171,0.3) !important;
     border: 3px solid #E4BA4B;
 }
@@ -725,17 +728,17 @@ a {
 .user-settings-voice .media-engine-video {
     background-color: transparent;
 }
-.buttonBrandFilled-3Mv0Ra {
+.lookFilled-luDKDo.colorBrand-3PmwCE {
     background-color: #2E3192;
     color: white;
     border: 3px solid #E4BA4B;
 }
-.buttonBrandFilled-3Mv0Ra:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
     background-color: #2E3192;
     color: white;
     border: 3px outset #E4BA4B;
 }
-.buttonBrandFilled-3Mv0Ra:active {
+.lookFilled-luDKDo.colorBrand-3PmwCE:active {
     background-color: #2E3192;
     color: white;
     border: 3px inset #E4BA4B;
@@ -765,19 +768,19 @@ a {
     border-width: 5px;
     border-style: inset;
 }
-.buttonGreenFilled-6QHNrw {
+.lookFilled-luDKDo.colorGreen-22At8E {
     background-color: #2E3192;
     border-color: #E4BA4B;
     border-width: 3px;
     border-style: solid;
 }
-.buttonGreenFilled-6QHNrw:hover {
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
     background-color: #2E3192;
     border-color: #E4BA4B;
     border-width: 3px;
     border-style: outset;
 }
-.buttonGreenFilled-6QHNrw:active {
+.lookFilled-luDKDo.colorGreen-22At8E:active {
     background-color: #2E3192;
     border-color: #E4BA4B;
     border-width: 3px;
@@ -1717,7 +1720,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     font-size: 15px;
     text-shadow: 1px 1px 3px #000,1px 1px 3px #000,1px 1px 3px #000;
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: rgba(255, 255, 255, 1) !important;
     font-size: 14px;
 }
