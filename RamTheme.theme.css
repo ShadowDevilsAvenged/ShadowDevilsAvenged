@@ -12,7 +12,7 @@
 .layers-20RVFW {
   background: rgba(0,0,0, 0.3) !important;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
 color: white;
 }
 .theme-dark .chat form .typing {
@@ -65,7 +65,7 @@ color: white;
     background: transparent;
     box-shadow: none;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
    color: white;
    }
 .theme-dark #friends {
@@ -469,7 +469,7 @@ width: 300px;
     background-color: #111;
     border-radius: 4px;
 }
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{
     background-color: #f08eaf;
     border-color: white;
 }
@@ -748,9 +748,26 @@ font-weight: bold;
   border: 1px solid #e84a7f !important;
   border-radius: 14%;
 }
-
+.theme-dark .checked-2TahvT {
+       background: black !important;
+       border-color:  #F48FB1 !important;
+}
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: white;
+}
+.theme-dark .add-game-popout {
+    background-color: #ff66cc;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, .theme-dark .select-3JqNgs .Select-option:hover {
+    background: rgba(240, 98, 146,0.4);
+}
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: black;
+    border-color: transparent;
+    box-shadow: none;
+}
 [class*="checkbox"] [class*="checked"] polyline {
-  stroke: white !Important;
+  stroke: pink !Important;
 }
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message {
   background-color: #1a1a1a !important;
@@ -766,11 +783,13 @@ font-weight: bold;
   background: black;
 }
 
-.buttonBrandFilled-3Mv0Ra {
+.lookFilled-luDKDo.colorBrand-3PmwCE,
+.lookFilled-luDKDo.colorGreen-22At8E {
   background-color: #f08eaf;
   color: #fff;
 }
-.buttonBrandFilled-3Mv0Ra:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover,
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
   background-color: #f08eaf;
   color: #fff;
 }
@@ -980,7 +999,7 @@ font-weight: bold;
 	font-size: 22px;
 	font-weight: 700;
 }
-.note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
 	background: rgba(237, 120, 159,0.6) !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
@@ -1124,7 +1143,7 @@ font-weight: bold;
     cursor: pointer;
     color: red;
 }
-.avatarHint-2i5XWK {
+.avatarHint-2ohlkz {
 	background: rgba(0, 0, 0, 0.5);
 	border-radius: 14px;
 	box-shadow: none;
@@ -1350,19 +1369,24 @@ u:hover, ins:hover {
     font-weight: normal;
     letter-spacing: 7px
 }
-.headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
 	background-image: linear-gradient(to top, rgba(0,0,0,0.6) 0%, rgba(163, 197, 245,0.2) 100%), url(https://img00.deviantart.net/e2fc/i/2017/283/1/e/ram___re_zero_by_arufinbinsento-dbq4ena.png) !important;
 	background-size: cover;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
-.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .headerStreaming-3F-wjT {
+ .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91, .headerStreaming-lmgoma, .topSectionStreaming-3rIBIm {
 	background: rgba(240, 142, 175, 0.45);
 	border: none;
 }
 .theme-dark .userSettingsAccount-2WOnTW .viewBody-14sCmR {
     color: white;
+}
+
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
 }
 .theme-dark .channel-members-loading .background {
  background-image: linear-gradient(90deg,rgba(47,149,254,0.6),rgba(0, 0, 0, 0));
@@ -1393,7 +1417,7 @@ u:hover, ins:hover {
  .member-roles .name {
 	color: white;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
 	color: white;
 	text-transform: Uppercase;
 }
@@ -1584,7 +1608,7 @@ s:hover, strike:hover, del:hover {
     background: #ed789f;
     border-radius: 14%;
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: white !important;
 	font-size: 13px;
 	background-clip: text;
