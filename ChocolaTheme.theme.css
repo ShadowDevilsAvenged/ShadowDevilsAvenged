@@ -328,6 +328,7 @@ form,
 
 .theme-dark .checked-2TahvT[style*="border-color: rgb(114, 137, 218);"] {
 	border-color: white !important;
+	background: #4E342E !important;
 }
 
 .theme-dark .checked-2TahvT polyline[stroke] {
@@ -354,19 +355,22 @@ form,
 	border-color: rgba(255, 255, 255, 0.3);
 }
 
-.buttonBrandFilled-3Mv0Ra {
+.lookFilled-luDKDo.colorBrand-3PmwCE,
+.lookFilled-luDKDo.colorGreen-22At8E {
 	background-color: #56434b;
 	color: #fff;
 	border: 2px solid rgba(255, 255, 255, 0.4);
 }
 
-.buttonBrandFilled-3Mv0Ra:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover,
+.lookFilled-luDKDo.colorGreen-22At8E {
 	background-color: #56434b;
 	color: #fff;
 	border: 2px outset rgba(255, 255, 255, 0.7);
 }
 
-.buttonBrandFilled-3Mv0Ra:active {
+.lookFilled-luDKDo.colorBrand-3PmwCE:active,
+.lookFilled-luDKDo.colorGreen-22At8E:active {
 	background-color: #56434b;
 	color: #fff;
 	border: 2px inset rgba(255, 255, 255, 0.7);
@@ -802,6 +806,13 @@ form,
     background: rgba(89, 54, 149,0.5);
 }
 
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
+}
+.headerStreaming-lmgoma {
+    background: rgba(84, 47, 157,0.5);
+}
 .theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
 	color: white;
 	border: 3px solid rgba(255, 255, 255, 0.6); !important;
@@ -844,7 +855,11 @@ form,
     color: #fff;
     border: 2px solid rgba(255,255,255,0.6);
 }
-
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+    background-color: #56434c !important;
+    color: #fff;
+    border: 2px outset rgba(255,255,255,0.8);
+}
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
     background-color: #56434c !important;
     color: #fff;
@@ -976,7 +991,7 @@ form,
     color: rgba(255,255,255,0.7);
 }
 
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: white !important;
 }
 
@@ -1428,7 +1443,7 @@ form,
 }
 
 /* Bot Locations */
-.theme-dark .message-group h2 span .bot-tag {
+.theme-dark .message-group h2 .timestamp.bot-tag {
     background: #644f52;
     border-radius: 13px;
     color: white!important;
@@ -1683,7 +1698,7 @@ form,
     border-color: rgba(255,255,255,0.5);
 }
 
-.userPopout-4pfA0d .avatar-1BXaQj {
+.userPopout-11hFKo .avatar-1BXaQj {
     background-clip: padding-box!important;
     position: relative!important;
     background: 50% 50%/cover!important;
@@ -1692,7 +1707,7 @@ form,
     height: 100px!important;
 }
 
-.avatarHint-2i5XWK {
+.avatarHint-2ohlkz {
     position: absolute!important;
     top: 0!important;
     left: 0!important;
@@ -1767,7 +1782,7 @@ form,
 .theme-dark .footer-1PYmcw {
     background-color: #40323c;
 }
-.theme-dark .listRow-1wEi-U:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-4pfA0d, .theme-dark .quickMessage-28pD5Y,#user-profile-modal .header,.userPopout-4pfA0d {
+.theme-dark .listRow-1wEi-U:hover,#user-profile-modal .guilds .section+.section,#user-profile-modal .avatarWrapper-2Gfmp1, #user-profile-modal .scroller,#user-profile-modal .avatar-wrapper,#user-profile-modal .empty,#user-profile-modal .tab-bar-container,#user-profile-modal .header:after,.userPopout-11hFKo, .theme-dark .quickMessage-28pD5Y,#user-profile-modal .header,.userPopout-11hFKo {
 	background:transparent!important;
 	border: none!important;
 }
@@ -1775,10 +1790,10 @@ form,
    background: #564343  !important;
    border: 3px solid rgba(255,255,255,0.5);
 }
-.headerNormal-1cioxU, .body-3rkFrF, .footer-2J5zqP {
+.theme-dark .headerNormal-3Vn9nT, .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
    background: rgba(100, 79, 79,0.6) !important;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
 
@@ -1791,11 +1806,11 @@ form,
 .avatar-profile{
 	border-radius: 0!important;
 }
-#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.note textarea,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,.guildNick-1oZKE3, .listName-1Xr1Jk,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitle-yehI7c,#user-profile-modal .header .header-info .header-info-inner .activity{
+#user-profile-modal .header .header-info .header-info-inner .discord-tag,#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator,.tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected,#user-profile-modal .tab-bar .tab-bar-item,#user-profile-modal .guilds .section .section-header,.theme-dark .note-2AtC_s textarea ,#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name,#user-profile-modal .guilds .guild,.guildNick-1oZKE3, .listName-1Xr1Jk,.headerUsernameNoNickname-1iGxNP,.headerTagNormal-KyD3_J,.headerActivityText-3qBQRo,.bodyTitle-18hsd9,#user-profile-modal .header .header-info .header-info-inner .activity{
 	color:var(--Popout-Main-Colour)!important;
 }
 
-.avatarHint-2i5XWK{
+.avatarHint-2ohlkz{
 	border-radius:0!important;
 	width: 100%!important;
     height: 100%!important;
@@ -1803,7 +1818,7 @@ form,
 	left: -1.5%!important;
 }
 	
-.root-2sNHUF,.userPopout-4pfA0d{
+.root-2sNHUF,.userPopout-11hFKo {
 	background:var(--Popout-Background)50% 50%/cover!important;
 	text-shadow: 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 6px var(--Popout-Text-Shadow-Colour), 0 0 5px var(--Popout-Text-Shadow-Colour), 0 0 4px var(--Popout-Text-Shadow-Colour)!important;
 }
