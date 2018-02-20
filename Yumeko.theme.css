@@ -377,10 +377,10 @@
 .quick-message::-webkit-input-placeholder {
     color: #cc1111 !important;
 }
-.note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
     background: #000 !important;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
     color: red;
 }
 .theme-dark .quickMessage-28pD5Y {
@@ -491,19 +491,19 @@
 .body-3rkFrF .note-3Zfyi2 textarea::-webkit-input-placeholder {
     color: #cc1111 !important;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
     color: #cc1111;
     font-weight: 700;
     font-size: 12px;
     text-transform: uppercase;
 }
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     background: url(https://cdna.artstation.com/p/assets/images/images/006/543/664/large/aoi-ogata-kakeguru.jpg?1499389091) 60% 50%/cover !important;
 }
-.theme-dark .headerNormal-1cioxU,.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+.theme-dark .headerNormal-3Vn9nT, .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background-color: rgba(0, 0, 0,0.4);
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarNormal-3luwna {
@@ -593,19 +593,41 @@
     top: 812px !important;
 }
 .tooltip-right:after {
-    border-right-color: #cc1111 !important;
+    border-right-color: transparent !important;
 }
 .tooltip-top:after {
-    border-top-color: #cc1111 !important;
+    border-top-color: transparent !important;
 }
 .tooltip-bottom:after {
-    border-bottom-color: #cc1111 !important;
+    border-bottom-color: transparent !important;
+}
+.theme-dark .themed-popout .footer {
+    background-color: black;
+}
+.private-channel-recipients-invite .footer button {
+    background-color: black !important;
+    border: 2px solid red; 
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: black;
+    border: 2px solid red;
+}
+.search-bar .search-bar-inner {
+     background: black;
+}
+.app .welcomeMessage-1U7Ntv h1,
+.theme-dark .welcomeMessage-1U7Ntv a {
+    color: red;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: black;
+    color: #fff;
 }
 .tooltip {
   background-color: #000;
-    border: 2px inset #555;
-    border-radius: 10px;
-   color: #cc1111;
+    border: none;
+    border-radius: 0px;
+   color: red;
 }
 [layer-id="user-settings"] input[type="checkbox"]:checked + div polyline {
     stroke: #cc1111;
@@ -616,12 +638,128 @@
     background-color: #000 !important;
     border: solid 4px #cc1111 !important;
 }
-.buttonBrandFilled-3Mv0Ra, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
+.lookFilled-luDKDo.colorBrand-3PmwCE, .lookFilled-luDKDo.colorGreen-22At8E,.side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
     color: #cc1111 !important;
     background-color: #121111 !important;
     border: 1px outset gray !important;
 }
-.buttonBrandFilled-3Mv0Ra:hover, .side-2nYO0F .itemSelected-3XxAMf:hover, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+.spinner-wandering-cubes .spinner-item {
+    background-color: red;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid red;
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+    border: 2px dashed red;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    background-color: black;
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    background-color: black;
+    box-shadow: none;
+}
+.need-help-modal.deprecated .header,
+.need-help-modal.deprecated .footer {
+    background-color: black;
+    border: none;
+}
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: black;
+    border-color: red;
+}
+.theme-dark .search-results-wrap .search-result:before,
+.theme-dark .search-results-wrap .search-result:after {
+    background: transparent;
+}
+.theme-dark .search-results-wrap .channel-separator:before {
+    border-color: transparent
+}
+.theme-dark .search-results-wrap {
+    background-color: black;
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: black;
+    color: #fff;
+}
+.theme-dark .checked-2TahvT {
+    background-color: black !important;
+    border-color: red !important;
+}
+.noticeInfo-3v29SJ {
+    background-color: black;
+    color: #fff;
+}
+.theme-dark .emptyStateNote-_gUBTA,
+.theme-dark .tipsWithoutResults-202oQR, 
+.theme-dark .tipsWithResults-3TVZGE{
+    color: white;
+    border: none;
+}
+.theme-dark .keybindShortcutTipsSelect-2VHe9M:last-of-type:before {
+    background-color: transparent;
+}
+.theme-dark .input-MwQhcX {
+    background-color: black;
+    box-shadow: none;
+    color: #fff;
+}
+.theme-dark .resultFocused-2geRUA {
+    background-color: transparent;
+    border: 1px solid red;
+}
+.theme-dark .input-MwQhcX:focus {
+    border: 1px solid red;
+}
+.dark-2Ll8iS span {
+    background-color: black !important;
+    border-color: red !important;
+    box-shadow: none;
+    color: white !important;
+}
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: white !important;
+}
+a {
+    color: red;
+}
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: black;
+    color: white;
+}
+.need-help-modal.deprecated a {
+    color: red;
+}
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: white;
+}
+.theme-dark .modal-3HOjGZ {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
+    background-color: black;
+    border-color: red !important;
+}
+.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+    color: white;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .header {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover, .lookFilled-luDKDo.colorGreen-22At8E:hover,.side-2nYO0F .itemSelected-3XxAMf:hover, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
     color: #cc1111;
     background-color: #121111 !important;
     border: 2px inset gray;
@@ -984,11 +1122,22 @@
 }
 .theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header, #friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
     border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-    background-color: black;
+    background-color: rgba(0,0,0,0.4);
 }
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
     background-color: black !important;
     border: 4px outset rgba(255,0,0,1);
+}
+.theme-dark .reaction.reaction-me {
+    background: black;
+    border: 2px dashed red;
+}
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: white;
+}
+.theme-dark .message-group .comment .markup pre {
+    background: transparent;
+    border-color: transparent;
 }
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
     background-color: black !important;
@@ -1082,8 +1231,16 @@ color: #c11;
 .topSectionStreaming-3rIBIm {
     background: rgba(89, 54, 149,0.7);
 }
-.headerStreaming-3F-wjT {
+.headerStreaming-lmgoma {
     background: rgba(89, 54, 149,0.7);
+}
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+       background: black;
+       border-color: #c11;
+}
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
 }
 .theme-dark .search .search-bar {
     background-color: rgba(255, 255, 255, 0.1);
@@ -1095,7 +1252,7 @@ color: #c11;
 .theme-dark .message-group a {
     color: red !important;
 }
-.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx,.theme-dark .message-group h2 span {
+.theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx,.theme-dark .message-group h2 .timestamp{
     color: red !important;
 }
 #user-profile-modal .avatar-wrapper {
@@ -1281,7 +1438,11 @@ div[class*="switchEnabled"][class*=valueChecked] {
  .has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, .has-value.Select--single>.Select-control .Select-value .Select-value-label {
     color: red;
 }
-
+.theme-dark .chat .has-more button {
+    background: black;
+    border: 1px solid red;
+    color: red;
+}
 
 .Select-arrow {
     border-color: red rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
