@@ -1,10 +1,6 @@
 //META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.3"}*//{}
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
-  background: transparent !important;
-}
-/* optionally adjust background brightness (0: original image, 1: black) */
-.layers-20RVFW {
   background: rgba(0,0,0, 0.3) !important;
 }
 .channels-3g2vYe {
@@ -16,10 +12,6 @@
 .container-2OU7Cz {
     background-color:  rgba(0,0,0,0);
 }
-.theme-dark .layer, .theme-dark .layers {
-    background: rgba(0,0,0,0.26);
-}
-
 .guilds-wrapper {
     background-color: transparent;
 }
@@ -84,7 +76,7 @@
     width: 123px;
     text-align: center;
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: #e53b0a !important;
 }
 .theme-dark .channel-members h2 {
@@ -353,8 +345,8 @@ span:not(.spinner-item){
     border: none;
 }
 
-.buttonBrandFilled-3Mv0Ra,
-.buttonGreenFilled-6QHNrw,
+.lookFilled-luDKDo.colorBrand-3PmwCE,
+.lookFilled-luDKDo.colorGreen-22At8E,
 .ui-standard-sidebar-view .bda-slist .bda-right button,
 .bd-pfbtn,
 .search-popout .date-picker .date-picker-hint .hint-value {
@@ -364,13 +356,24 @@ span:not(.spinner-item){
     border: 1px solid transparent;
     transition: border .3s ease-in;
 }
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: #e53b0a;
+}
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: black;
+    border-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, .theme-dark .select-3JqNgs .Select-option:hover {
+    background: rgba(255, 115, 71,0.4);
+}
 
 .search.focused .search-bar, .search.open .search-bar, .search.popout-open .search-bar {
     border: 1px solid #e53b0a;
 }
 
-.buttonBrandFilled-3Mv0Ra:hover,
-.buttonGreenFilled-6QHNrw:hover,
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover,
+.lookFilled-luDKDo.colorGreen-22At8E:hover,
 .bd-pfbtn:hover,
 .ui-standard-sidebar-view .bda-slist .bda-right button:hover,
 .search-popout .date-picker .date-picker-hint .hint-value:hover {
@@ -593,7 +596,7 @@ input.inputDefault-Y_U37D.input-2YozMi.size16-3IvaX_{
 .theme-dark .separator-3z7STW,#bd-settings-sidebar .ui-tab-bar-separator {
     background-color: transparent;
 }
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{
     background-color: transparent;
     border-color: transparent;
 }
@@ -1566,8 +1569,14 @@ a {
     background: black;
     color: #e53b0a;
 }
-.headerStreaming-3F-wjT {
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
     background: rgba(45,27,75,0.8);
+}
+
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
 }
 .search-bar-tag {
     border-radius: 2px;
@@ -1722,22 +1731,20 @@ a {
     color: rgb(255, 255, 255);
     content: "?";
 }
- .userPopout-4pfA0d {
+ .userPopout-11hFKo {
     border-radius: 5px;
     box-shadow: none;
     width: 390px;
     background: url(https://cdn.media.gazeteduvar.com/2017/02/soru.jpg) 50% 50%/cover !important;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
     color: #e53b0a;
     text-transform: capitalize;
 }
-.theme-dark .userPopout-4pfA0d .note textarea:focus,
-.theme-dark .root-2sNHUF .note-39NEdV textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
     background-color: rgba(255, 255, 255,0.07);
 }
-.theme-dark .userPopout-4pfA0d .note textarea,
-.theme-dark .root-2sNHUF .note-39NEdV textarea {
+.theme-dark .note-2AtC_s textarea {
     background-color: transparent;
     color: #e53b0a;
     padding-top: 9px;
@@ -1749,7 +1756,7 @@ a {
     padding-top: 9px;
     padding-bottom: 7px;
 }
-.headerPlaying-2eYqm9,
+.headerPlaying-2Q7mBy,
 .topSectionPlaying-3jAH9b {
     background: rgba(229,59,10,0.6);
 }
@@ -1837,12 +1844,12 @@ a {
 .buttonBrandInverted-VFL7Yc:hover {
     border: 1px solid black;
 }
-.root-2sNHUF .buttonGreenFilled-6QHNrw {
+.root-2sNHUF .lookFilled-luDKDo.colorGreen-22At8E {
    position: relative;
    right: 152px;
    top: 28px;
 }
-.root-2sNHUF .buttonGreenFilled-6QHNrw:after {
+.root-2sNHUF .lookFilled-luDKDo.colorGreen-22At8E:after {
    content: "?";
 }
 .profileBadge-kI8nxa {
@@ -1868,10 +1875,10 @@ a {
     height: 220px;
     width: 220px;
 }
-.theme-dark .headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
     background-color: rgba(0, 0, 0,0.4);
 }
-.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+ .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background-color: rgba(0, 0, 0,0.4);
     color: white;
     border: none;
