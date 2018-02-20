@@ -32,6 +32,71 @@
     background: #1B3409;
     border: 3px outset #2f5115;
 }
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+    border: 2px dashed #428000;
+}
+.theme-dark .message-group a {
+    color: #4f9900;
+}
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+    background-color: #1a3300;
+    border-bottom: 2px dashed #4f9900;
+    border-top: 2px dashed #4f9900;
+}
+.theme-dark .search-results-wrap .search-result:before,
+.theme-dark .search-results-wrap .search-result:after {
+    background: transparent;
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    background-color: #284d00;
+    box-shadow: none;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+    border-color: white;
+}
+.messages-popout .message-group .action-buttons {
+    box-shadow: none;
+}
+.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
+    color: white !important;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: black;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Need Help Place */
+.need-help-modal.deprecated .header {
+    background-color: black;
+}
+.need-help-modal.deprecated .footer {
+    background-color: black;
+    border-top: 1px dashed #4f9900;
+    color: #4f9900;
+}
+.need-help-modal.deprecated a {
+    color: #5cb300;
+}
+/* ----------------------------------------------- */
+
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+    background-color: #1B3409;
+    border-color: black;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .themed-popout .header {
+    background-color: #356600 !important;
+    border-color: black;
+}
+.theme-dark .themed-popout {
+    background-color: #1a3300;
+    border: none;
+    box-shadow: none;
+}
 .flex-horizontal>.flex-spacer {
    background: #1B3409; 
     border: 3px outset #2f5115;
@@ -66,11 +131,53 @@
      background: #1B3409;
     border: 8px inset #2f5115;
   }
+  .dark-2Ll8iS span {
+    background-color: black;
+    border-color: #66BB6A;
+    border-style: dashed;
+    box-shadow: none;
+    color: white;
+}
+.dark-2Ll8iS span:active {
+     background-color: black;
+    border-color: #66BB6A;
+    border-style: solid;
+    box-shadow: none;
+    color: white;
+}
+.theme-dark .input-MwQhcX {
+    background-color: #008000;
+    box-shadow: none;
+}
+.theme-dark .resultFocused-2geRUA {
+    background-color: black;
+    border: 1px dashed #00b300;
+}
+.small-popout-box {
+    background: black;
+    border: 1px solid #00b300;
+    border-radius: 0px;
+}
+.option-popout .btn-item {
+    color: white !important;
+}
+.option-popout .btn-item:hover {
+   border-top: 2px solid #00cc00;
+   border-bottom: 2px solid #00cc00;
+}
+.theme-dark .input-MwQhcX:focus {
+    background-color: black;
+    border: 2px dotted #00b300;
+}
+.dark-2Ll8iS span:active .bindArrow-3Mm64N g {
+    fill: white;
+}
 .theme-dark .reaction.reaction-me .reaction-count {
-    color: #7289da;
+    color: white;
 }
 .theme-dark .reaction.reaction-me {
-    background: rgba(92,106,158,.3);
+    background: black;
+    border: 2px dashed green;
 }
 .reaction .emoji {
     width: 41px;
@@ -88,7 +195,7 @@
     color: #fff;
     border: 3px outset #2f5115
  }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
    color: #FFF !important;
     font-weight: bold;
 }
@@ -140,6 +247,18 @@
     border: 2px outset #FF0000 !important;
     box-shadow: -2px 0px 60px 13px rgba(255,117,117,0.4);
     width: 30px;
+}
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
+  background: rgba(73, 41, 137,0.5);
+ }
+ .theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+        background: black;
+        border-color: #43A047;
+ }
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
 }
 .status-streaming {
     background-color: transparent;
@@ -500,13 +619,13 @@ background: #172c07;
 .itemSelected-3XxAMf.item-3879bf.selected-eNoxEK {
     background: green !important;
 }
-.note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
    background: rgba(255,255,255,0.3) !important;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
     background: transparent !important;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
    color: white;
 }
 .theme-dark .itemDefault-3NDwnY[style="color: rgb(114,137, 218);"] {
@@ -641,9 +760,9 @@ background-size: cover;
 .theme-dark .selectorSelected-2M0IGv { 
     background: rgba(61, 114, 17, 0.6) !important; 
   }
-  .theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP, .theme-dark .quickMessage-28pD5Y {
+   .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91, .theme-dark .quickMessage-28pD5Y {
     background-color: #1c3506;
-    border-radius: 5px;
+    border-radius: 0px;
  }
 
 .popout-UKvsJt {
@@ -655,17 +774,27 @@ height: 120px;
 .search-results-wrap .search-header, .search-results-wrap .channel-separator .channel-name, .search-results-wrap .search-result:before  {
     background-color: #1c3506 !important;
 }
- .headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
      background: #1c3506 !important;
 }
-.headerPlaying-2eYqm9 {
-    background: rgba(0, 0, 255,0.3) !important;
+.headerPlaying-2Q7mBy {
+    background: rgba(0, 0, 0,0.6) !important;
 }
-.avatarWrapperNormal-1wU7gX:hover .avatarHint-2i5XWK {
-    opacity: 0.6;
-    border-radius: 7px;
+.avatarHint-2ohlkz {
+    display: none;
 }
-         
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder,
+.theme-dark .description-3MVziF, 
+.theme-dark .labelDescriptor-1BebCl {
+    color: white;
+}
+[style*="border-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: white;
+    stroke-width: 2;
+}
+ .theme-dark .checked-2TahvT {
+    border-color: black !important;
+}
 #user-profile-modal .scroller, #user-profile-modal .guilds .section {
     background: #1c3506;
  }
@@ -696,13 +825,26 @@ height: 120px;
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator, #user-profile-modal .header .header-info .header-info-inner .activity {
     color: #d8d8d8;
 }
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: black;
+    border-color: transparent;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, 
+.theme-dark .select-3JqNgs .Select-option:hover {
+    border: 2px dashed #4f9900;
+}
 ::-webkit-scrollbar-track
 {
-	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: none;
 	border-radius: 10px;
 	background-color: transparent;
  }
-
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
 ::-webkit-scrollbar
 {
 	width: 15px !important;
@@ -741,12 +883,12 @@ background: transparent !important;
     color: gray;
     font-weight: bold;
 }
-.buttonBrandFilled-3Mv0Ra, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
+.lookFilled-luDKDo.colorBrand-3PmwCE,.lookFilled-luDKDo.colorGreen-22At8E, .side-2nYO0F .itemSelected-3XxAMf, #bd-settings-sidebar .ui-tab-bar-item.selected {
     color: #fff;
     background-color: #356600;
     border: 4px outset gray;
 }
-.buttonBrandFilled-3Mv0Ra:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover,.lookFilled-luDKDo.colorGreen-22At8E:hover, .itemDefaultSelected-1UAWLe:hover, #bd-settings-sidebar .ui-tab-bar-item.selected:hover {
     color: #fff;
     background-color: #356600;
     border: 2px inset gray;
@@ -873,8 +1015,69 @@ color: white;
 .chat .jump-to-present-bar .spinner .spinner-item {
     background-color: white;
 }
+.theme-dark .tipsWithoutResults-202oQR, .theme-dark .tipsWithResults-3TVZGE {
+    border-color: rgba(79,84,92,.3);
+    color: white;
+}
+.theme-dark .chat .has-more button {
+    background: #32353a;
+    border: 1px solid #2f3136;
+}
+a {
+    color: #AED581;
+}
 .chat .jump-to-present-bar .spinner {
     background: rgba(0,65,0,1);
+}
+.theme-dark .emptyStateNote-_gUBTA {
+    color: white;
+}
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: #003300;
+    color: white;
+}
+.private-channel-recipients-invite .footer button {
+    background-color: #356600 !important;
+}
+.private-channel-recipients-invite .footer button:hover {
+    border: 2px dashed green;
+}
+.theme-dark .themed-popout .footer {
+    background-color: #284d00;
+}
+.theme-dark .themed-popout .search-bar .search-bar-inner {
+    background: black;
+    border: 1px dashed #66BB6A;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, .theme-dark .private-channel-recipients-invite .friend:hover {
+    background: transparent;
+    border: 2px dashed #4CAF50;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: black;
+    color: #fff;
+}
+.private-channel-recipients-invite .footer button:disabled:hover {
+    background-color: #284d00;
+    border: 2px dotted green;
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.theme-dark .add-game-popout {
+    background-color: green;
+}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: black;
+}
+.theme-dark .accountBtnInner-3zsU2z {
+       background-color: #284d00 !important;
+       border: 2px solid #428000;
+}
+.theme-dark .accountBtnInner-3zsU2z:hover {
+      border: 2px dashed #66BB6A;
 }
 .theme-dark .message-group .edit-message .edit-operation {
     color: green;
