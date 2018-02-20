@@ -732,7 +732,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     font-size: 21px;
     text-shadow: 1px 1px 4px #000,1px 1px 4px #000,1px 1px 4px #000;
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: rgba(255, 255, 255, 1) !important;
     font-size: 17px;
     text-shadow: 1px 2px 2px #000;
@@ -1433,12 +1433,12 @@ color: white !important;
 .theme-dark .ui-standard-sidebar-view .btn-close:hover {
     background: rgba(231, 254, 255, 0.46);
 }
-.buttonGreenFilled-6QHNrw {
+.lookFilled-luDKDo.colorGreen-22At8E {
     background-color: rgba(231, 254, 255, 0.46);
     color: rgb(255, 255, 255);
     border-radius: 50px;
 }
-.buttonGreenFilled-6QHNrw:hover {
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
     background-color: rgba(231, 254, 255, 0.56);
     color: rgb(255, 255, 255);
 }
@@ -1755,14 +1755,14 @@ color: white !important;
 }
 
 /* User Popout and User Profile */
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     background: url(https://orig00.deviantart.net/633e/f/2011/143/8/7/wallpaper_by_extremexcolors-d3h2g6t.png) 80% 40%/ 130% !important;
 }
-.headerNormal-1cioxU,.body-3rkFrF,.footer-2J5zqP {
+.theme-dark .headerNormal-3Vn9nT,.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background: rgba(0,0,0,0.1) !important;   
     border: none;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0,0,255,0.2);
 }
 .body-3rkFrF {
@@ -1816,6 +1816,21 @@ color: white !important;
     color: rgba(231,254,255,0.4);
     box-shadow: inset 6px 5px 5px 0px rgba(255,255,255,0.57);
 }
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+     background: rgba(231,254,255,0.4);
+     box-shadow: inset 6px 5px 5px 0px rgba(255,255,255,0.57);
+     border-color: transparent;
+     border-radius: 50px;
+}
+.lookFilled-luDKDo.colorBrand-3PmwCE {
+      background: rgba(231,254,255,0.4) !important;
+     box-shadow: inset 6px 5px 5px 0px rgba(255,255,255,0.57);
+     border-color: transparent;
+     border-radius: 50px;
+}
+.userSettingsVoice-TvPQ80 .media-engine-video {
+    background-color: transparent;
+}
     .role-3rahR_ .roleCircle-3-vPZq:not(.roleCircleButton-sMOdib) + .roleName-DUQZ9m {
       margin-left: 0; 
       }
@@ -1827,11 +1842,16 @@ color: white !important;
      position: relative;
      left: 4px;
  }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
     color: white;
 }
-.headerStreaming-3F-wjT {
+.headerStreaming-lmgoma {
     background: rgba(89, 54, 149,0.4);
+}
+
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
 }
 .headerLive-2dDMvp:hover {
     background-color: rgba(89, 54, 149,0.5);
@@ -1862,7 +1882,7 @@ color: white !important;
 .body-3rkFrF .note-3Zfyi2 textarea {
     padding: 6px 10px;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
     color: white;
     font-size: 12px;
     line-height: 18px;
