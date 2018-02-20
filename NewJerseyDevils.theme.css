@@ -29,8 +29,19 @@
     border: 2px solid #C8102E;
     color: white;
 }
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
+          background: black;
+          border-color: #C8102E;
+}
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
+    background: rgba(89, 54, 149,0.4);
+}
 
-
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
+}
 .theme-dark .autocomplete-1TnWNR, .theme-dark .ui-select>.Select .Select-menu-outer  {
   background-color: black;
   border: 3px solid #C8102E;
@@ -151,37 +162,37 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .chat .divider>div {
     display: none;
 }
-.buttonBrandFilled-3Mv0Ra {
+.lookFilled-luDKDo.colorBrand-3PmwCE {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px solid rgba(200, 16, 46, 0.7);
 }
 
-.buttonBrandFilled-3Mv0Ra:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px outset rgba(200, 16, 46, 0.7);
 }
 
-.buttonBrandFilled-3Mv0Ra:active {
+.lookFilled-luDKDo.colorBrand-3PmwCE:active {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px inset rgba(200, 16, 46, 0.7);
 }
 
-.buttonGreenFilled-6QHNrw {
+.lookFilled-luDKDo.colorGreen-22At8E {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px solid rgba(200, 16, 46, 0.7);
 }
 
-.buttonGreenFilled-6QHNrw:hover {
+.lookFilled-luDKDo.colorGreen-22At8E:hover {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px outset rgba(200, 16, 46, 0.7);
 }
 
-.buttonGreenFilled-6QHNrw:active {
+.lookFilled-luDKDo.colorGreen-22At8E:active {
     background-color: rgba(200, 16, 46, 0.4);
     color: #fff;
     border: 3px inset rgba(200, 16, 46, 0.7);
@@ -298,10 +309,26 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
    background-color: #000 !important;
    border-width: 3px; 
 }
-
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background: black;
+    border-color: transparent;
+    box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, 
+.theme-dark .select-3JqNgs .Select-option:hover {
+    background: rgba(244, 67, 54,.3);
+}
 .checkbox-1QwaS4[style*="border-color: rgb(114, 137, 218);"] {
    border-color: #C8102E !important;
    border-width: 3px;
+   background: black !important;
+}
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+    color: white;
+}
+.theme-dark .footer-1PYmcw {
+    background-color: black;
+    box-shadow: none;
 }
 .cardPrimaryEditable-2IQ7-V[style*="background-color: rgb(114, 137, 218);"] polyline[stroke] {
     stroke: #C8102E;
@@ -718,7 +745,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     color: #fff!important;
     border: 2px outset #C8102E;
 }
-.theme-dark .message-group .comment .edited, .theme-dark .message-group h2 span {
+.theme-dark .message-group .comment .edited, .theme-dark .message-group h2 .timestamp{
     color: rgb(255, 255, 255) !important;
     font-size: 13px;
 }
@@ -871,13 +898,13 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 
 /* User Popout Stuff */
-.headerNormal-1cioxU, .body-3rkFrF, .footer-2J5zqP {
+.theme-dark .headerNormal-3Vn9nT, .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background: rgba(0,0,0,0.6) !important;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     background-image: url(https://i.pinimg.com/originals/fd/95/97/fd9597f36988ce52bcce119a4d7e52c1.jpg); 
     background-size: cover !important;
     background-position: center;
@@ -919,7 +946,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 .member-roles .member-role>.name{color:#FFF;}
 
-.headerName-2N8Pdz, .headerTagNormal-KyD3_J, .bodyTitle-yehI7c, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK, .protip, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
+.headerName-2N8Pdz, .headerTagNormal-KyD3_J, .bodyTitle-18hsd9, .theme-dark .activityProfile-2pymp0 .content-P9ThHS, .theme-dark .activityProfile-2pymp0 .headerText-2CVBxK, .theme-dark .activityUserPopout-1nmgaw .content-P9ThHS, .theme-dark .activityUserPopout-1nmgaw .headerText-2CVBxK, .theme-light .activityProfile-2pymp0 .content-P9ThHS, .theme-light .activityProfile-2pymp0 .headerText-2CVBxK, .theme-light .activityUserPopout-1nmgaw .content-P9ThHS, .theme-light .activityUserPopout-1nmgaw .headerText-2CVBxK, .protip, .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
     color: #C8102E;
 }
 .headerIconForeground-2QFL0Z, .bodyTitleIconForeground-itKW-t {
@@ -936,14 +963,14 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     background: black;
     border: 3px solid #C8102E;
 }
-.note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
     background: rgba(0, 0, 0,0.7) !important;
     padding-top: 7px;
     padding-bottom: 7px;
     border: 3px solid #C8102E;
     color: white;
 }
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
     background: rgba(0, 0, 0, 0.5) !important;
     color: white;
     height: 23px;
@@ -982,7 +1009,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     background-color: rgba(0,0,0,0.3);
     border-radius: 31px !important;
 }
-.avatarHint-2i5XWK {
+.avatarHint-2ohlkz {
     border-radius: 17% !important;
     bottom: 0;
     box-shadow: inset 0 0 120px rgba(0,0,0,.75);
