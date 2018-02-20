@@ -142,13 +142,13 @@
 	background: transparent;
 	border: 1px solid #FD5E00;
 }
-.headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
 	background: linear-gradient( rgba(217, 3, 7, 0.55), rgba(217, 3, 7, 0.55)), url(https://snowypeaktv.com/wp-content/uploads/2017/01/Doritos-Chip-Flix_Thumb-1920x1080.png) !important;
 	background-size: cover;
 	background-position: center;
 	border-radius: 29px 29px 0px 0px;
 }
-.headerPlaying-2eYqm9 {
+.headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
 .avatarNormal-3luwna {
@@ -158,28 +158,35 @@
 	height: 120px;
 	width: 120px;
 }
-.theme-dark .body-3rkFrF {
+.theme-dark .body-3ljq11 {
 	background: rgba(217, 3, 7,0.4);
 	border-bottom: 2px solid red;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
     color: white;
     text-transform: uppercase;
 }
 .protip {
    display: none;
 }
-.theme-dark .footer-2J5zqP {
+.theme-dark .footer-2wFs91 {
 	background: rgba(217, 3, 7,0.4);
 	border-radius: 0px 0px 29px 29px;
 	border-bottom: 7px solid red;
 }
-.headerStreaming-3F-wjT {
+
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+    background: rgba(76, 175, 80,0.4);
+}
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
 	background-image: linear-gradient( rgba(217, 3, 7, 0.55), rgba(217, 3, 7, 0.55)), url(http://3.bp.blogspot.com/-84HU201rJC8/VDDQCj95q0I/AAAAAAAAL-A/RD65KVDAIEY/s1600/E7.jpg) !important;
 	background-size: cover;
 	background-position: 37%;
 	border-radius: 29px 29px 0px 0px;
 }
+
 .avatarStreaming-1ZydJV {
 	border-color: rgba(217, 3, 7, 1);
 	animation: pulse 1.3s infinite;
@@ -218,7 +225,7 @@
 .headerLive-2dDMvp:hover {
     background-color: red;
 }
-.userPopout-4pfA0d {
+.userPopout-11hFKo {
     border-radius: 3px;
     color: #FFBB10;
     overflow: hidden;
@@ -320,7 +327,7 @@
     text-shadow: 2px 2px 1px black, 2px 2px 1px black;
 }
 
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
 	color:  #FFBB10;
 	text-transform: Uppercase;
 }
@@ -389,7 +396,7 @@
   font-size: 22px;
   font-weight: 700;
 }
-.note textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
   background: black !important;
 }
 .theme-dark .connectedAccount-3mKaTA {
@@ -559,12 +566,7 @@ border-color: #FFBB10 !important;
 .theme-dark .radioGroup-2P3MJo {
     color: #FD5E00;
 }
-/* New Messages Bar */ 
-.theme-dark .chat .divider.divider-red>span {
-    background: rgba(217, 3, 7,0.6) !important;
-    color: #FD5E00  !important;
-    letter-spacing: 12px;
-}
+
 .chat .avatar-large {
    width: 44px;
    height: 44px;
@@ -752,7 +754,7 @@ border-color: #FFBB10 !important;
 }
 
 
-.note textarea {
+.theme-dark .note-2AtC_s textarea {
   color: #7e0204;
 }
 .themeDefault-3M0dJU {
@@ -761,20 +763,20 @@ border-color: #FFBB10 !important;
 .themeDefault-3M0dJU.valueChecked-3Bzkbm {
     background-color: #b00306;
 }
-.buttonBrandFilled-3Mv0Ra {
+.lookFilled-luDKDo.colorBrand-3PmwCE {
     background-color: #970205;
     color: #FD5E00;
 }
-.buttonBrandFilled-3Mv0Ra:hover {
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover {
     background-color: #7e0204;
     color: #FFBB10;
 }
-.buttonBrandFilled-3Mv0Ra:active {
+.lookFilled-luDKDo.colorBrand-3PmwCE:active {
     background-color: #7e0204;
     color: #FD5E00;
     border: 2px inset #FFBB10;
 }
-.theme-dark .message-group h2 span {
+.theme-dark .message-group h2 .timestamp{
     color: #FFBB10 !important;
 }
 .container-3lnMWU {
@@ -838,6 +840,12 @@ border-color: #FFBB10 !important;
     background-color: #7e0204 !important;
     color: #FFBB10 !important;
 }
+/* New Messages Bar */ 
+.theme-dark .chat .divider.divider-red>span {
+    background: rgba(217, 3, 7,0.6) !important;
+    color: #FD5E00  !important;
+    letter-spacing: 12px;
+}
 .chat .divider>div {
     display: none;
 }
@@ -852,8 +860,12 @@ border-color: #FFBB10 !important;
     color: #FD5E00;
     border: 1px solid #FD5E00;
 }
-.buttonGreenFilled-6QHNrw {
-    background-color: #b00306;
+.theme-dark .checked-2TahvT {
+        background: black !important;
+        border-color: #FFBB10 !important;
+}
+.lookFilled-luDKDo.colorGreen-22At8E {
+    background-color: #b00306 !important;
     color: #FFBB10;
 }
 .premium-settings .premium-header .premium-free-months {
@@ -1274,7 +1286,7 @@ width: 300px;
     background-color: #111;
     border-radius: 4px;
 }
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H{
     background-color: #b00306;
     border-color: orange;
 }
