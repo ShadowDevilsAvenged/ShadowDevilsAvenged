@@ -93,7 +93,6 @@
     width: 68px;
     height: 68px;
     background-size: cover;
-    border-radius: 10px;
     opacity: 1 !important;
 }
 .backdrop-2ohBEd {
@@ -105,13 +104,13 @@
     color: rgb(255, 255, 255);
 }
 .uploadModal-2KN6Mm {
-     background: linear-gradient(to bottom, #5b3b96 6%, #000000 100%);
+     background-color: #5b3b96;
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 {
     background-color: black;
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 .button {
-    background: linear-gradient(to bottom, #ff0000 16%, #000000 100%);
+    background-color: #ff0000;
     transition: border .3s ease-out;
     border: 1px solid black; 
     flex: 1;
@@ -120,7 +119,7 @@
     border: 1px solid white; 
 }
 .uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
-    background: linear-gradient(to bottom, #6d47b2 16%, #000000 100%);
+    background-color: #6d47b2;
     color: white;
     transition: border .3s ease-out;
     border: 1px solid black; 
@@ -152,7 +151,7 @@
     background-color: #7752ba;
 }
 .theme-dark .reaction.reaction-me {
-    background: linear-gradient(to bottom, #7b5eb2 36%, #000000 100%);
+    background-color: #7b5eb2;
     border: 1px solid black;
 }
 .theme-dark .reaction.reaction-me .reaction-count {
@@ -345,7 +344,7 @@
     background-color: rgba(91,59,150,0.4);
 }
 .contentSelectedText-3j5CXt {
-    background: linear-gradient(to bottom, #7b5eb2 6%, #000000 100%);
+    background-color: #7b5eb2;
 }
 .nameSelectedText-32NDX5, 
 .nameSelectedVoice-XpjYTw {
@@ -643,29 +642,29 @@
     border-right-color: transparent;
 }
 .lookFilled-luDKDo.colorGreen-22At8E {
-    background: linear-gradient(to bottom, #43a047 36%, #000000 100%);
+    background-color: #43a047;
     color: #fff;
 }
 
 .lookFilled-luDKDo.colorGreen-22At8E:hover {
-    background: linear-gradient(to bottom, #358038 36%, #000000 100%);
+    background-color: #358038;
     color: #fff;
 }
 .lookFilled-luDKDo.colorGreen-22At8E:active {
-    background: linear-gradient(to bottom, #43a047 36%, #000000 100%);
+    background-color: #43a047;
 }
 .lookOutlined-1c5nhl.colorRed-3HTNPV {
     border-color: #e53935;
-    background: linear-gradient(to bottom, #e53935 36%, #000000 100%);
+    background-color: #e53935;
     color: white;
 }
 .lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
     border-color: #d32f2f;
-    background: linear-gradient(to bottom, #d32f2f 36%, #000000 100%);
+    background-color: #d32f2f;
     color: white;
 }
 .lookOutlined-1c5nhl.colorRed-3HTNPV:active {
-    background: linear-gradient(to bottom, #e53935 36%, #000000 100%);
+    background-color: #e53935;
     background: #e53935;
 }
 
@@ -1458,7 +1457,7 @@ a,
 }
 .headerPlaying-2Q7mBy,
 .topSectionPlaying-3jAH9b {
-    background: linear-gradient(to bottom, #303f9f 36%, #000066 100%);
+    background-color: #303f9f;
 }
 .lookInverted-2lPGe7.colorBrand-3PmwCE {
     background-color: #3949AB !important;
@@ -1467,7 +1466,7 @@ a,
 }
 .headerSpotify-26yUf5,
 .topSectionSpotify-3744IX {
-    background: linear-gradient(to bottom, #009900 36%, #006600 100%);
+    background-color: #009900;
 }
 .lookInverted-2lPGe7.colorGreen-22At8E {
     background-color: #2E7D32 !important;
