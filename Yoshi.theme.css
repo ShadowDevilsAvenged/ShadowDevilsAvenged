@@ -1,4 +1,4 @@
-//META{"name":"Yoshi_Theme","description":"The Great Yoshi Theme","author":"DevilsTheAvenged","version":"1.8"}*//{}
+//META{"name":"Yoshi_Theme","description":"The Great Yoshi Theme","author":"DevilsTheAvenged","version":"1.9"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
 .app,
 .callout-backdrop,
@@ -150,7 +150,7 @@
     color: white;
     border: 2px solid red;
 }
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: rgba(0, 0, 0,0.1);
 }
 #user-profile-modal .guilds .section+.section {
@@ -340,12 +340,12 @@
     background: rgba(0, 0, 0, 0.3) !important;
     color: white;
 }
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
     background: rgba(0,0,0,0.4);
     border: 1px solid #f67c1e;
     border-radius: 1px;
 }
-.quick-message:focus {
+.theme-dark .quickMessage-OCo-Q0:focus {
     border: 3px solid #f67c1e;
     color: white;
 }
@@ -1118,7 +1118,7 @@ color: white !important;
 .themeDefault-3M0dJU.sizeDefault-rZbSBU {
     background: #417731 !important;
 }
-.theme-dark .primary-2giqSn,.theme-dark .defaultColor-v22dK1, .theme-dark .title-3i-5G_, .theme-dark .h5-3KssQU, .theme-dark .ui-select>.Select .Select-control .Select-placeholder,.theme-dark .descChecked-KbaI-r, .theme-dark .titleChecked-3Ngoss, .theme-dark .channelName-g_kAQT, .channelNameByline-1v_o14, .icon-3w_81G{
+.theme-dark .primary-2giqSn,.theme-dark .defaultColor-v22dK1, .theme-dark .title-3i-5G_, .theme-dark .h5-3KssQU, .theme-dark .select-3JqNgs .Select-control .Select-placeholder,.theme-dark .descChecked-KbaI-r, .theme-dark .titleChecked-3Ngoss, .theme-dark .channelName-g_kAQT, .channelNameByline-1v_o14, .icon-3w_81G{
     color: white !important;
 }
 .theme-dark .checked-2TahvT[style*="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"] {
@@ -2064,10 +2064,10 @@ a, .theme-dark .emptyStateNote-_gUBTA {
    background: #d88b50;
    color: white !important;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: #53A833;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
     border: none;
 }
