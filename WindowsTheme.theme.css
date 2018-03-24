@@ -1,8 +1,8 @@
-//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.8"}*//{}
+//META{"name":"WindowsTheme","description":"FreshWindowsTheme","author":"DevilsTheAvenged","version":"1.9"}*//{}
 /* Backgrounds */
 .app,
 .callout-backdrop,#pubs-container:before,.bda-backdrop {
-  background-image: url("https://www.walldevil.com/wallpapers/a45/3245-windows.jpg");
+  background-image: url("https://pre00.deviantart.net/a21b/th/pre/i/2015/236/2/3/flow_by_zhalovejun-d972eph.png");
   background-size: cover !important;
   background-position: center !important;
 }
@@ -17,28 +17,195 @@
 .theme-dark .inner-3if5cm {
     background-color: rgba(0, 0, 0, 0.3);
 }
-/* Deafen Tooltip */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.5px;"] {
-    left: 222px !important;
-    top: 704px !important;
-}
-/* Mute Tooltip */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 131.5px;"] {
-    left: 191px !important;
-    top: 704px !important;
-}
+
 .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
     background-color: transparent;
 }
-/* UnDeafen Tooltip */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 154px;"] {
-    left: 215px !important;
-    top: 704px !important;
+.iconCollapsed-1INdMX, 
+.iconDefault-xzclSQ, 
+.nameCollapsed-3_ChMu, 
+.nameDefault-Lnjrwm,
+.nameDefaultText-QoumjC, 
+.nameDefaultVoice-1swZoh, 
+.nameLockedText-2fGz07, 
+.nameLockedVoice-wNOMNa {
+    color: silver;
+}
+
+ /* User Settings */
+ /* Zoom Level 50% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 240px; top: 1328px;"] {
+ background: #3371A8 !important;
+}
+ /* Zoom Level 67% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 240.797px; top: 965.642px;"] {
+ background: #3371A8 !important;
+}
+ /* Zoom Level 75% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 241.167px; top: 850px;"] {
+ background: #3371A8 !important;
+}
+ /* Zoom Level 80% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 240.918px; top: 790.992px;"] {
+ background: #3371A8 !important;
+}
+ /* Zoom Level 90% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 241.186px; top: 690.997px;"] {
+ background: #3371A8 !important;
+}
+ /* Zoom Level 100% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 241.5px; top: 610px;"] {
+ background: #3371A8 !important;
+}
+
+/* Button Tooltips */
+/* Mute Tooltip */
+/* Zoom Level 50% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 130px; top: 1308px;"] {
+       left: 192px !important;
+       top: 1330.866px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 67% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 130.911px; top: 945.679px;"] {
+       left: 192px !important;
+       top: 968.545px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 75% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 130.5px; top: 830px;"] {
+       left: 192px !important;
+       top: 852.866px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 80% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 130.98px; top: 771.012px;"] {
+       left: 192px !important;
+       top: 793.878px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 90% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 130.991px; top: 671.014px;"] {
+       left: 192px !important;
+       top: 693.88px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 100% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 131.5px; top: 590px;"] {
+       left: 192px !important;
+       top: 612.866px !important;
+       background-color: #D93F0B;
+}
+/* Deafen Tooltip */
+/* Zoom Level 50% */
+[class*="tooltip tooltip-top tooltip-black"][style="left: 161px; top: 1308px;"] {
+     left: 222px !important;
+     top: 1330.866px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 67% */
+[class*="tooltip tooltip-top tooltip-black"][style="left: 160.872px; top: 945.679px;"] {
+     left: 222px !important;
+     top: 968.545px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 75% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.5px; top: 830px;"] {
+     left: 222px !important;
+     top: 852.866px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 80% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.457px; top: 771.012px;"] {
+     left: 222px !important;
+     top: 793.878px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 90% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.481px; top: 671.014px;"] {
+     left: 222px !important;
+     top: 693.88px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 100% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.5px; top: 590px;"] {
+     left: 222px !important;
+     top: 612.866px !important;
+     background-color: #D93F0B;
 }
 /* UnMute Tooltip */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 123px;"] {
-    left: 185px !important;
-    top: 704px !important;
+/* Zoom Level 50% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 122px; top: 1308px;"] {
+       left: 181px !important;
+       top: 1330.866px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 67% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 122.411px; top: 945.679px;"] {
+       left: 181px !important;
+       top: 968.545px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 75% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 122.5px; top: 830px;"] {
+       left: 181px !important;
+       top: 852.866px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 80% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 122.48px; top: 771.012px;"] {
+       left: 181px !important;
+       top: 793.878px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 90% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 122.991px; top: 671.014px;"] {
+       left: 181px !important;
+       top: 693.88px !important;
+       background-color: #D93F0B;
+}
+/* Zoom Level 100% */
+[class="tooltip tooltip-top tooltip-black"][style*="left: 123px; top: 590px;"] {
+       left: 181px !important;
+       top: 612.866px !important;
+       background-color: #D93F0B;
+}
+/* UnDeafen Tooltip */
+/* Zoom Level 50% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153px; top: 1308px;"] {
+     left: 215px !important;
+     top: 1330.866px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 67% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.372px; top: 945.679px;"] {
+     left: 215px !important;
+     top: 968.545px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 75% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.5px; top: 830px;"] {
+     left: 215px !important;
+     top: 852.866px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 80% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.457px; top: 771.012px;"] {
+     left: 215px !important;
+     top: 793.878px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 90% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.981px; top: 671.014px;"] {
+     left: 215px !important;
+     top: 693.88px !important;
+     background-color: #D93F0B;
+}
+/* Zoom Level 100% */
+[class*="tooltip tooltip-top tooltip-black"][style*="left: 154px; top: 590px;"] {
+     left: 215px !important;
+     top: 612.866px !important;
+     background-color: #D93F0B;
 }
 .bot-tag {
     background: black !important;
@@ -787,7 +954,7 @@ span:not(.spinner-item) {
   border-bottom: 2px solid #D93F0B;
 }
 .theme-dark .body-3_tdh6 {
-   background: transparent;
+   background: rgba(0,0,0,0.5);
 }
 .tab-bar.TOP .tab-bar-item:hover:nth-child(2) {
   border-bottom: 2px solid #3371A8;
@@ -814,15 +981,15 @@ span:not(.spinner-item) {
 #user-profile-modal .actions .btn.add-friend:hover {
   background: #D93F0B;
 }
-.topSectionNormal-2LlRG1 {
-    background-color: rgba(0, 0, 0,0.1);
+.theme-dark .topSectionNormal-2LlRG1 {
+    background-color: rgba(0, 0, 0,0.5);
 }
 .topSectionPlaying-3jAH9b {
     background: rgba(0, 0, 255,0.4);
 }
 .root-2sNHUF {
   background: linear-gradient(-180deg, rgba(255, 255, 255, 0), #fff);
-  background-image: url(http://www.misucell.com/data/out/9/IMG_301195.png) !important;
+  background-image: url(https://pre00.deviantart.net/a21b/th/pre/i/2015/236/2/3/flow_by_zhalovejun-d972eph.png) !important;
   background-size: cover;
   background-position: center;
 }
@@ -941,6 +1108,7 @@ span:not(.spinner-item) {
   border: 3px solid #f56b3d;
   background: #D93F0B no-repeat 50% 50%;
 }
+
 
 .button-1aU9q1:nth-of-type(3) {
   background: #3371A8 !important;
@@ -1741,36 +1909,9 @@ background-color: #8CAC42 !important;
 .tooltip.tooltip-black.tooltip-right:after {
     border-right-color: transparent;
 }
-
- /* User Settings */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.981px;"] {
- background: #3371A8 !important;
-}
 /* Voice Icons */
 .icon-1NXYub path {
   fill: transparent;
-}
-/* Mute */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 130.991px;"] {
-    left: 191px !important;
-    top: 812px !important;
-}
-/* Deafen */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 161.481px;"] {
-     left: 222px !important;
-    top: 812px !important;
-}
-/* UnMute */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 122.991px;"] {
-     left: 181px !important;
-    top: 812px !important;
-}
-/* Undeafen */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 153.981px;"] {
-     left: 214px !important;
-    top: 812px !important;
-  background: black !important;
-    
 }
 
 [class*='icon-1NXYub'] {
@@ -2577,7 +2718,7 @@ div[class*="switchEnabled"][class*=valueUnchecked] {
     width: 150px;
     margin-bottom: 23px;
 }
-.theme-dark .ui-select>.Select .Select-menu-outer {
+.theme-dark .select-3JqNgs .Select-menu-outer {
     color: orange;
     background: black;
     border-color: rgba(255,255,255,0.3);
@@ -3238,7 +3379,7 @@ span:not(.spinner-item) {
      position: relative;
      left: 4px;
  }
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
   background: black;
   border-color: #D93F0B #8CAC42 #D9A200 #3371A8;
   border-style: solid;
@@ -4106,25 +4247,8 @@ background-color: #8CAC42 !important;
     margin-right: 10px;
     padding: 4px 8px;
 }
-/* Tooltip Stuff */
-.tooltip.tooltip-black {
-    border: 1px solid white;
-}
-/* Tooltip After Stuff */
-.tooltip.tooltip-black.tooltip-top:after {
-    border-top-color: transparent;
-}
-.tooltip.tooltip-black.tooltip-bottom:after {
-    border-bottom-color: transparent;
-}
-.tooltip.tooltip-black.tooltip-right:after {
-    border-right-color: transparent;
-}
 
- /* User Settings */
-[class*="tooltip tooltip-top tooltip-black"][style*="left: 242.5px; top: 1008.33px;"] {
- background: #3371A8 !important;
-}
+
 /* Voice Icons */
 .icon-1NXYub path {
   fill: transparent;
@@ -4307,10 +4431,10 @@ background-size: cover;
    background: #ffbb00;
    color: white !important;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: black;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
     border: none;
 }
