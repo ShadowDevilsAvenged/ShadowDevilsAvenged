@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Green_Theme","description":"Calm shade of Green Theme","author":"DevilsTheAvenged","version":"1.8"}*//
+//META{"name":"Shades_of_Green_Theme","description":"Calm shade of Green Theme","author":"DevilsTheAvenged","version":"1.9"}*//
 
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
@@ -760,7 +760,7 @@ background-size: cover;
 .theme-dark .selectorSelected-2M0IGv { 
     background: rgba(61, 114, 17, 0.6) !important; 
   }
-   .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91, .theme-dark .quickMessage-28pD5Y {
+   .theme-dark .body-3ljq11, .theme-dark .footer-2wFs91, .theme-dark .quickMessage-OCo-Q0 {
     background-color: #1c3506;
     border-radius: 0px;
  }
@@ -802,7 +802,7 @@ height: 120px;
     border-radius: 3px;
     border: 4px outset #2b5408;
 }
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: rgba(0, 0, 0,0.1);
 }
 .topSectionPlaying-3jAH9b {
@@ -972,7 +972,7 @@ background: transparent !important;
   0%,100% { opacity: 0 }
   50% { opacity: 1 }
 }
-.theme-dark .ui-select>.Select .Select-menu-outer {
+.theme-dark .select-3JqNgs .Select-menu-outer {
     background: rgba(0,123,0,0.4);
     border-color: rgba(255,255,255,0.5);
  }
@@ -1554,10 +1554,10 @@ a {
    background: #349A34;
    color: white !important;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: #005900;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
     border: none;
 }
