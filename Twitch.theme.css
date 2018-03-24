@@ -786,6 +786,12 @@ a,
 .ace_hidden-cursors .ace_cursor {
     opacity: 0.6;
 }
+.ui-standard-sidebar-view #editor-detached button {
+    background: #6441a4;
+}
+.ui-standard-sidebar-view #editor-detached h3 {
+    color: white;
+}
 .theme-dark .card-11ynQk:before {
     background-color: #462d72;
     border-color: transparent;
@@ -862,7 +868,7 @@ a,
 .theme-dark .bubble-17BwqU:before {
     border-top-color: transparent;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: black;
     box-shadow: none;
 }
@@ -1021,6 +1027,10 @@ a,
 .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type, 
 .theme-light .calendarPicker-16Q6sl .react-datepicker__week .react-datepicker__day:last-of-type {
     border: none;
+}
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day, 
+.theme-light .calendarPicker-16Q6sl .react-datepicker__week:last-of-type .react-datepicker__day {
+    border-bottom-color: transparent;
 }
 .theme-dark .itemGroup-oViAgA {
     border-color: transparent;
@@ -1498,7 +1508,7 @@ a,
     mask: none;
 }
 .theme-dark .headerNormal-3Vn9nT,
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background: url(https://gamewave.fr/static/images/news/headers/43a82-Twitch-Streamers.jpg) 130%/cover;
 }
 .status-3jUEha {
