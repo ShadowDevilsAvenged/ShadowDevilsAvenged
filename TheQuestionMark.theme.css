@@ -1,4 +1,4 @@
-//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.8"}*//{}
+//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.3"}*//{}
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
   background: rgba(0,0,0, 0.3) !important;
@@ -410,7 +410,7 @@ a img {
     background: transparent;
     border: none;
 }
-.theme-dark .ui-select>.Select .Select-menu-outer {
+.theme-dark .select-3JqNgs .Select-menu-outer {
     background: black;
     border: none;
     box-shadow: none;
@@ -421,8 +421,8 @@ a img {
 .lighten-bXgwKO {
     opacity: .8;
 }
-.theme-dark .ui-select>.Select .Select-option.is-focused, 
-.theme-dark .ui-select>.Select .Select-option:hover {
+.theme-dark .select-3JqNgs .Select-option.is-focused, 
+.theme-dark .select-3JqNgs .Select-option:hover {
     background: black;
     border-left: 1px solid;
     border-right: 1px solid;
@@ -462,7 +462,7 @@ a img {
     background-color: transparent !important;
     border: 1px solid #e53b0a !important;
 }
-.theme-dark .ui-select>.Select .Select-control .Select-placeholder {
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
     color: #e53b0a;
     border: 1px solid #e53b0a;
 }
@@ -530,12 +530,12 @@ a img {
     background-color .3s ease, border .3s ease;
 }
 
-.buttonRedOutlined-2t9fm_ {
+.lookOutlined-1c5nhl.colorRed-3HTNPV{
     border-color: red;
     color: red;
     transition: background .4s ease, color .4s ease;
 }
-.buttonRedOutlined-2t9fm_:hover {
+.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
     background: red;
     color: white;
 }
@@ -1750,7 +1750,7 @@ a {
     padding-top: 9px;
     padding-bottom: 7px;
 }
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
     background-color: transparent;
     color: #e53b0a;
     padding-top: 9px;
@@ -1794,7 +1794,7 @@ a {
     color: white;
     text-transform: capitalize;
 }
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: rgba(0, 0, 0, 0.4);
 }
 .wrapper-2xO9RX,
@@ -1820,10 +1820,10 @@ a {
 .username-24t9uh:after {
     content: "?";
 }
-.avatarHintInner-1JYcVr {
+.avatarHint-2ohlkz {
     font-size: 0px;
 }
-.avatarHintInner-1JYcVr:before {
+.avatarHint-2ohlkz:before {
     font-size: 80px;
     content: "?";
     position: absolute;
@@ -2071,10 +2071,10 @@ a {
    background: #EE7755;
    color: white !important;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: black;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
     border: none;
 }
