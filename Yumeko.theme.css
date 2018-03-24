@@ -1,4 +1,4 @@
-//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.8"}*//{}
+//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"1.9"}*//{}
   
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
@@ -278,7 +278,7 @@
     bottom: 2px;
     right: 2px;
 }
-.topSectionNormal-2LlRG1 {
+.theme-dark .topSectionNormal-2LlRG1 {
     background-color: rgba(0, 0, 0,0.1);
 }
 .topSectionPlaying-3jAH9b {
@@ -374,7 +374,7 @@
     display: inline-block;
     }
 
-.quick-message::-webkit-input-placeholder {
+.theme-dark .quickMessage-OCo-Q0::-webkit-input-placeholder {
     color: #cc1111 !important;
 }
 .theme-dark .note-2AtC_s textarea:focus {
@@ -383,7 +383,7 @@
 .theme-dark .note-2AtC_s textarea {
     color: red;
 }
-.theme-dark .quickMessage-28pD5Y {
+.theme-dark .quickMessage-OCo-Q0 {
     border: 2px outset #333;
     background: #000;
     border-radius: 13px;
@@ -1377,7 +1377,7 @@ background: black;
     border-radius: 53px!important;
 }
 
-.theme-dark .defaultColor-v22dK1, .theme-dark .titleChecked-3Ngoss, .theme-dark .title-3i-5G_, .theme-dark .h5-3KssQU, .theme-dark .ui-select>.Select .Select-control .Select-placeholder, .theme-dark .channelName-g_kAQT, .channelNameByline-1v_o14 {
+.theme-dark .defaultColor-v22dK1, .theme-dark .titleChecked-3Ngoss, .theme-dark .title-3i-5G_, .theme-dark .h5-3KssQU, .theme-dark .select-3JqNgs .Select-control .Select-placeholder, .theme-dark .channelName-g_kAQT, .channelNameByline-1v_o14 {
     color: #c11 !important;
 }
 .theme-dark .roundRemoveButton-1NEXB9 {
@@ -1421,7 +1421,7 @@ div[class*="switchEnabled"][class*=valueChecked] {
 .lighten-bXgwKO {
     opacity: 1;
 }
-.theme-dark .ui-select>.Select .Select-menu-outer {
+.theme-dark .select-3JqNgs .Select-menu-outer {
     background: black;
     border-color: #c11;
 }
@@ -1848,10 +1848,10 @@ background: red;
    background: #A40D0D;
    color: white !important;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     background: black;
 }
-.theme-dark .contextMenu-uoJTbz {
+.theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
     border: none;
 }
