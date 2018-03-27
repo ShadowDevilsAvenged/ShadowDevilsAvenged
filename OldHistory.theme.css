@@ -1,20 +1,10 @@
 //META{"name":"Old_History","description":"Time to go back in time","author":"DevilsTheAvenged","version":"1.0"}*//{}
-* {
- font-family: 'Theano Didot' !important;
- }
-.app {
-	background-image: url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");
-	background-size: cover !important;
-	background-position: center !important;
-}
+*{font-family:'Metamorphous' !important;}
+.app{background-image:url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");background-size:cover !important;background-position:center !important;}
 /* fix not having a background image anymore */
-.layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
-  background: transparent !important;
-}
-/* optionally adjust background brightness (0: original image, 1: black) */
-.layers-20RVFW {
-  background: rgba(0,0,0,.44) !important;
-}
+.layers-20RVFW,.layer-kosS71,.container-2OU7Cz,.typing-3eiiL_{background:transparent !important;}
+/* optionally adjust background brightness (0:original image,1:black) */
+.layers-20RVFW{background:rgba(0,0,0,.54) !important;}
 .channels-3g2vYe,
 .theme-dark .title-qAcLxz,
 .container-RYiLUQ,
@@ -25,23 +15,19 @@
 .theme-dark .chat>.content,
 .theme-dark .chat,
 .chat .messages,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .friends-table,.theme-dark .messages-wrapper,
 .theme-dark .channel-members,
 .theme-dark #friends,
 .theme-dark .headerBar-cxbhPD,
-.theme-dark .ui-standard-sidebar-view {
-    background-color: transparent;
-}
+.theme-dark .ui-standard-sidebar-view{background-color:transparent;}
 .theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region  {
-    background: rgba(0,0,0,0.2);
-}
+.theme-dark .ui-standard-sidebar-view .sidebar-region{background:rgba(0,0,0,0.2);}
 /* Discord Settings */ 
 .lookFilled-luDKDo.colorBrand-3PmwCE {
-    background-image: url(https://i.imgur.com/8dQXmV6.jpg);
-    color: #fff;
-	box-shadow: 0 0 8px black, 0 0 8px black;
-	transition: padding-bottom .2s ease, padding-top .2s ease;
+	background-image: url(https://i.imgur.com/8dQXmV6.jpg);
+	color: #fff;
+	box-shadow: 0 0 8px black,0 0 8px black;
+	transition: padding-bottom .2s ease,padding-top .2s ease;
 }
 .lookFilled-luDKDo.colorBrand-3PmwCE:hover {
 	padding-bottom: 25px;
@@ -49,35 +35,42 @@
 }
 .userInfoEditing-1Juv0S.cardPrimaryEditable-2IQ7-V.card-3DrRmC,
 .userInfoViewing-1jbzEW.cardPrimary-ZVL9Jr.card-3DrRmC,
-.theme-dark .user-settings-games .now-playing, 
+.theme-dark .user-settings-games .now-playing,
 .theme-light .user-settings-games .now-playing {
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.8) 100%), url(https://i.imgur.com/8dQXmV6.jpg);
-    border-color: transparent;
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.8) 100%),url(https://i.imgur.com/8dQXmV6.jpg);
+	border-color: transparent;
 }
 .lookOutlined-1c5nhl.colorBrand-3PmwCE {
-    border-color: transparent !important;
-    color: white;
-	background-image: linear-gradient(to bottom, rgba(0,0,255,0.7) 0%, rgba(0,0,0,0.4) 100%), url(https://i.imgur.com/8dQXmV6.jpg);
+	border-color: transparent !important;
+	color: white;
+	background-image: linear-gradient(to bottom,rgba(0,0,255,0.7) 0%,rgba(0,0,0,0.4) 100%),url(https://i.imgur.com/8dQXmV6.jpg);
+}
+.bar-2cFRGz[style*="background: rgb(251, 184, 72);"] {
+    background-color: #000 !important;
+}
+.barFill-18ABna[style*="background: rgb(105, 196, 154);"] {
+    background-color: #d1aa4c !important;
 }
 .theme-dark .accountBtnInner-3zsU2z {
-    background-color: rgba(0,0,0,0.3);
-    border-color: transparent;
+	background-color: rgba(0,0,0,0.3);
+	border-color: transparent;
 }
 .theme-dark .accountBtnInner-3zsU2z:hover {
-    background-color: rgba(0,0,0,0.7);
+	background-color: rgba(0,0,0,0.7);
 }
 .lookOutlined-1c5nhl.colorRed-3HTNPV,
-[class*="itemDefault-3NDwnY item-3879bf notSelected-PgwTMa"][style*="color: rgb(240, 71, 71);"] {
-    border-color: red !important;
-    color: white !important;
-	transition: padding-bottom .2s ease, padding-top .2s ease;
-	background-image: linear-gradient(to bottom, rgba(255,0,0,0.3) 0%, rgba(0,0,0,0.4) 100%), url(https://i.imgur.com/8dQXmV6.jpg);
+[class*="itemDefault-3NDwnY item-3879bf notSelected-PgwTMa"][style*="color:rgb(240,71,71);"],
+.lookFilled-luDKDo.colorRed-3HTNPV {
+	border-color: red !important;
+	color: white !important;
+	transition: padding-bottom .2s ease,padding-top .2s ease;
+	background-image: linear-gradient(to bottom,rgba(255,0,0,0.3) 0%,rgba(0,0,0,0.4) 100%),url(https://i.imgur.com/8dQXmV6.jpg);
 }
 .lookFilled-luDKDo.colorGreen-22At8E {
-    color: white;
-	transition: padding-bottom .2s ease, padding-top .2s ease;
+	color: white;
+	transition: padding-bottom .2s ease,padding-top .2s ease;
 	border: 1px solid #005500 !important;
-	background-image: linear-gradient(to bottom, rgba(0,255,0,0.3) 0%, rgba(0,0,0,0.4) 100%), url(https://i.imgur.com/8dQXmV6.jpg);
+	background-image: linear-gradient(to bottom,rgba(0,255,0,0.3) 0%,rgba(0,0,0,0.4) 100%),url(https://i.imgur.com/8dQXmV6.jpg);
 }
 .lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
 	padding-bottom: 25px;
@@ -90,150 +83,1283 @@
 .theme-dark .divider-1G01Z9,
 .theme-dark .separator-3z7STW,
 #bd-settings-sidebar .ui-tab-bar-separator {
-    background-color: transparent;
+	background-color: transparent;
 }
-.userInfoViewing-1jbzEW.cardPrimary-ZVL9Jr.card-3DrRmC .avatar-xxlarge, 
+.userInfoViewing-1jbzEW.cardPrimary-ZVL9Jr.card-3DrRmC .avatar-xxlarge,
 .avatar-uploader-inner {
-    background-color: black;
-    background-size: 128px 128px;
-    border: none;
-	filter: sepia(100%);
-    border-radius: 0%;
+	background-color: black;
+	background-size: 128px 128px;
+	border: none;
+	filter: sepia(100%) saturate(60%);
+	border-radius: 0%;
 }
 .theme-dark .avatar-uploader-indicator {
-    display: none;
+	display: none;
 }
 .theme-dark .input-2YozMi.focused-xL_GX6,
 .theme-dark .input-2YozMi:focus {
-    border-color: transparent;
+	border-color: transparent;
 	background-color: rgba(0,0,0,0.4);
 }
-.theme-dark .description-3MVziF, 
+.theme-dark .description-3MVziF,
 .theme-dark .labelDescriptor-1BebCl,
 .theme-dark .ui-standard-sidebar-view .esc-text,
 .theme-dark .faded-1KRDbu,
 .theme-dark .header-1-f9X5,
 #bd-settings-sidebar .ui-tab-bar-header {
-    color: white;
+	color: white;
 }
 /* Special Link */
 a {
-    color: black;
+	color: black;
 }
 .lookLink-3VWONr.colorLink-Ttelix:hover .contents-4L4hQM {
-    background-image: linear-gradient(0deg,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0) 1px,#d1aa4c 0,#d1aa4c 2px,rgba(0, 0, 0, 0) 0);
+	background-image: linear-gradient(0deg,rgba(0,0,0,0),rgba(0,0,0,0) 1px,#d1aa4c 0,#d1aa4c 2px,rgba(0,0,0,0) 0);
+}
+.theme-dark .topic-1KFf6J a,
+.theme-dark .message-group a,
+.theme-dark .embedTitleLink-1IGDvg {
+    color: #d1aa4c !important;
 }
 /* ========== */
 .statusRed-1ZlXmf {
-    display: none;
+	display: none;
 }
 .theme-dark .ui-standard-sidebar-view .btn-close {
-    border-color: transparent;
+	border-color: transparent;
 }
 .side-2nYO0F .itemSelected-3XxAMf,
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-    background-image: url(https://i.imgur.com/8dQXmV6.jpg);
-    color: #fff;
+	background-image: url(https://i.imgur.com/8dQXmV6.jpg);
+	color: #fff;
 }
-[class="itemDefault-3NDwnY item-3879bf notSelected-PgwTMa"][style*="color: rgb(114, 137, 218);"],
+[class="itemDefault-3NDwnY item-3879bf notSelected-PgwTMa"][style*="color: rgb(114, 137, 218);"] {
+  color: #d1aa4c !important;
+}
 .lookLink-3VWONr.colorLink-Ttelix,
 .theme-dark .markValue-235z9M {
 	color: #d1aa4c !important;
 }
 .theme-dark .cardPrimaryEditable-2IQ7-V {
-    background: rgba(32,34,37,0);
-    border-color: transparent;
+	background: rgba(32,34,37,0);
+	border-color: transparent;
 }
 .theme-dark .cardPrimaryOutline-2YyAz2 {
-    border-color: transparent;
+	border-color: transparent;
 }
 .theme-dark .bar-2cFRGz {
-    background-color: black;
+	background-color: black;
 }
-.bar-2cFRGz[style*="background: rgb(251, 184, 72);"] {
-    background-color: black !important;
+.bar-2cFRGz[style*="background:rgb(251,184,72);"] {
+	background-color: black !important;
 }
-.barFill-18ABna[style*="background: rgb(105, 196, 154);"] {
+.barFill-18ABna[style*="background:rgb(105,196,154);"] {
 	background-color: #d1aa4c !important;
 }
 .barFill-18ABna {
 	background-color: #d1aa4c;
 }
 .theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
-    background-color: transparent;
-    border-color: transparent;
+	background-color: transparent;
+	border-color: transparent;
 }
 .theme-dark .card-11ynQk:before {
-    background-color: rgba(0,0,0,0.3);
-    border-color: transparent;
+	background-color: rgba(0,0,0,0.3);
+	border-color: transparent;
 }
 .theme-dark .row-3ZE8bQ,
 .theme-dark .user-settings-games .game,
-.theme-dark .item-3tXG-o {
-    box-shadow: none;
+.theme-dark .item-3tXG-o,
+.theme-dark .modal-3HOjGZ,
+.themeDefault-3M0dJU.sizeDefault-rZbSBU:after {
+	box-shadow: none;
 }
-.theme-dark .user-settings-games .last-played, 
+.theme-dark .user-settings-games .last-played,
 .theme-dark .user-settings-games .overlay-status-text,
-.theme-dark .user-settings-games .now-playing .last-played, 
-.theme-dark .user-settings-games .now-playing .overlay-status-text, 
-.theme-light .user-settings-games .now-playing .last-played, 
+.theme-dark .user-settings-games .now-playing .last-played,
+.theme-dark .user-settings-games .now-playing .overlay-status-text,
+.theme-light .user-settings-games .now-playing .last-played,
 .theme-light .user-settings-games .now-playing .overlay-status-text,
 #bd-settingspane-container .ui-switch-item .style-description {
-    color: silver;
+	color: silver;
 }
 #bd-settingspane-container .ui-switch-item .style-description {
-    border-bottom: none;
+	border-bottom: none;
 }
 .bd-pfbtn {
-    background-image: url(https://i.imgur.com/8dQXmV6.jpg) !important;
+	background-image: url(https://i.imgur.com/8dQXmV6.jpg) !important;
 }
-.theme-dark .user-settings-games .game-name-input:focus, 
+.theme-dark .user-settings-games .game-name-input:focus,
 .theme-dark .user-settings-games .game-name-input:hover {
-    background-color: #d1aa4c;
-    border-color: black;
+	background-color: #d1aa4c;
+	border-color: black;
 }
 .userSettingsVoice-TvPQ80 .media-engine-video,
 .theme-dark .add-game-popout {
-    background-image: url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");
+	background-image: url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");
 	background-size: cover;
 }
 .theme-dark .markDash-3j1QxS {
-    background: black;
+	background: black;
 }
 .icon-3j0iot {
-    display: none;
+	display: none;
 }
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
-    background: rgba(255,255,255,0.16);
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch,
+.themeDefault-3M0dJU {
+	background: rgba(255,255,255,0.16);
+	transition: background .5s linear;
 	border: 1px solid black;
+	border-radius: 0px;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
+.themeDefault-3M0dJU.valueChecked-3Bzkbm {
+	background: rgba(255,255,255,0.46);
+	transition: background .5s linear;
 }
 /* Custom CSS Box Stuff */
-.ui-standard-sidebar-view #bd-customcss-attach-controls button, 
+.ui-standard-sidebar-view #bd-customcss-attach-controls button,
 .bd-detached-css-editor #bd-customcss-attach-controls button {
-    background: #31332b;
-    color: #FFF;
-    height: 26px;
-    font-weight: 600;
-    margin-top: 5px;
-    border-radius: 3px;
+	background: rgba(0,0,0,0.4);
+	margin-right: 5px;
+	transition: background .4s ease;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover,
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+	background: rgba(0,0,0,0.6);
 }
 .ace-monokai {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%);
-    color: white;
+	background: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.6) 100%);
+	color: white;
 }
 .ace-monokai .ace_gutter {
-    background: transparent;
-    color: #8F908A;
+	background: transparent;
+	color: #8F908A;
 }
-.content-region #bd-customcss-attach-controls, 
+.content-region #bd-customcss-attach-controls,
 #bd-customcss-detach-container #bd-customcss-attach-controls {
-    background-image: url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");
+	background-image: url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");
 	background-size: cover;
-    color: #FFF;
-    box-shadow: none;
+	color: #FFF;
+	box-shadow: none;
+}
+.ace-monokai .ace_gutter-active-line {
+	background-color: black;
 }
 /* ====== */
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
-    background: transparent;
+.bda-slist li {
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+	background-size: cover;
+	border: 1px solid black;
+	border-radius: 0px;
+	padding: 1px 7px;
+	margin-bottom: 5px;
+}
+.bda-slist .bda-header {
+	color: #e6e6e7;
+	font-weight: 700;
+	font-size: 12px;
+	overflow: hidden;
+	display: inline-table;
+	border-bottom: none;
+}
+#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before,
+.size-yI1KRe:after {
+	background: transparent;
+	box-shadow: none;
+}
+.bda-slist .bda-description {
+	color: silver;
+}
+.bda-slist .bda-footer button {
+	background: rgba(0,0,0,.3);
+	border-radius: 0px;
+	transition: background .2s ease-in;
+}
+.bda-slist .bda-footer button:hover {
+	background: rgba(0,0,0,.5);
+}
+/* Notification Settings */
+.theme-dark .modal-3HOjGZ {
+	background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+}
+.theme-dark .footer-1PYmcw {
+	background-color: transparent;
+	box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-control {
+	background: rgba(0,0,0,.4);
+	border: 1px solid black;
+}
+.theme-dark .select-3JqNgs .Select-control .Select-placeholder {
+	color: white;
+}
+.theme-dark .select-3JqNgs .Select-menu-outer {
+	background: black;
+	border-color: black;
+	box-shadow: none;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused,
+.theme-dark .select-3JqNgs .Select-option:hover {
+	background: rgba(255,255,255,.09);
+}
+.theme-dark .checkbox-1QwaS4 {
+	border-color: silver;
+}
+.cardPrimaryEditable-2IQ7-V[style*="border-color"][style*="background-color"] {
+	background-color: rgba(0,0,0,0.4) !important;
+	border: none;
+}
+.checked-2TahvT[style*="border-color: rgb(114, 137, 218);"] {
+    background-color: transparent;
+    border: none;
+}
+.checked-2TahvT[style="background-color: rgb(114, 137, 218); border-color: rgb(114, 137, 218);"],
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+   background-color: rgba(0,0,0,0.4) !important;
+	 border: none;
+}
+.checked-2TahvT[style*="border-color: rgb(114, 137, 218);"] polyline[stroke] {
+    stroke: silver;
+    stroke-width: 2;
+}
+.backdrop-2ohBEd {
+	background-color: rgba(0,0,0,0.2) !important;
+}
+.theme-dark .checkboxContainer-1sZ9eo:before {
+	background-color: transparent;
+}
+.theme-dark .button-1qrA-N {
+	background-color: black !important;
+	box-shadow: none;
+}
+.separator-1hpa3S {
+	border-bottom: none;
+}
+.menu-3BZuDT {
+	background-color: black;
+	box-shadow: none;
+}
+.item-rK1j5B:hover {
+	background-color: black;
+	color: white;
+}
+.item-rK1j5B {
+	color: silver;
+	opacity: 1;
+}
+.alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
+	display: none;}
+/* User Profile Popout and Other Part of It */
+.theme-dark .channel-members .member.popout-open, 
+.theme-dark .channel-members .member:hover {
+    background: rgba(0,0,0,0.5);
+}
+.theme-dark .channel-members h2,
+.channel-members .member .member-activity-text,
+.theme-dark .message-group h2 .timestamp {
+   color: white;
+}
+.userPopout-11hFKo {
+    border-radius: 0px;
     box-shadow: none;
+    background: url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg) 50%/cover;
+}
+.theme-dark .body-3ljq11, 
+.theme-dark .footer-2wFs91,
+.theme-dark .body-3_tdh6,
+.theme-dark .topSectionNormal-2LlRG1,
+.theme-dark .headerNormal-3Vn9nT {
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+}
+.headerPlaying-2Q7mBy,
+.topSectionPlaying-3jAH9b {
+    background: rgba(48,63,159,.6);
+}
+.role-3rahR_ {
+    border: none;
+}
+.roleCircle-3-vPZq {
+    border-radius: 0px;
+}
+[class*="roleCircle-3-vPZq"][style*="background-color: rgb(185, 187, 190);"] {
+   background-color: #d1aa4c !important;
+   border: 2px ridge black;
+}
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX  {
+    background: rgba(67,160,71,.6);
+}
+.headerStreaming-lmgoma,
+.topSectionStreaming-3rIBIm {
+    background: rgba(81,45,168,.6);
+}
+.bodyTitle-18hsd9,
+.theme-dark .note-2AtC_s textarea,
+.guildNick-1oZKE3 {
+    color: white;
+}
+.theme-dark .note-2AtC_s textarea:focus,
+.theme-dark .quickMessage-OCo-Q0:focus {
+    background-color: rgba(0,0,0,0.4) !important;
+}
+.theme-dark .quickMessage-OCo-Q0 {
+    background-color: rgba(0,0,0,0.2);
+    border-color: black;
+    color: white;
+}
+.userInfoSectionHeader-pmdPGs {
+    color: silver;
+}
+.theme-dark .userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
+    border-color: transparent;
+}
+.root-2sNHUF {
+    background-image: url(https://wallpapercave.com/wp/wp2244231.jpg) !important;
+	 background-size: cover;
+}
+.userInfoSection-2WJxMm+.userInfoSection-2WJxMm {
+    border-color:  transparent;
+}
+.theme-dark .connectedAccount-3mKaTA {
+    background: url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg) 50%/cover;
+}
+.connectedAccountName-3EFj01 {
+    color: black;
+    font-weight: 500;
+}
+.listAvatar-MpHQ5z {
+    background-color: black;
+    color: #fff;
+}
+/* Friends and DMs */
+.theme-dark .quickswitcher-2NdiGJ {
+    background-color: black;
+    color: white;
+}
+.theme-dark #friends .tab-bar .tab-bar-separator {
+    background-color: transparent;
+}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    background-color: rgba(0,0,0,0.4);
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected {
+    background-color: black;
+    color: #d1aa4c;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: black;
+    color: #fff;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
+    background-color: black;
+    color: #d1aa4c;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+    background-color: #d1aa4c;
+    color: black;
+}
+#friends .btn {
+    background-color: black;
+    border-radius: 0px;
+    color: #d1aa4c;
+    transition: color .6s ease, background-color .6s ease;
+}
+#friends .btn:hover {
+    background-color: #d1aa4c;
+    border-radius: 0px;
+    color: black;
+}
+.theme-dark .tipsWithoutResults-202oQR, 
+.theme-dark .tipsWithResults-3TVZGE {
+    border-color: transparent;
+    color: white;
+}
+.theme-dark .keybindShortcutTipsSelect-2VHe9M:last-of-type:before {
+    background-color: transparent;
+}
+.dark-2Ll8iS span {
+    background-color: #d1aa4c;
+    border-color: transparent;
+    box-shadow: none;
+    color: black;
+}
+.theme-dark .input-MwQhcX {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .input-MwQhcX:focus {
+    border: 1px solid #d1aa4c;
+}
+.theme-dark .contentDefault-EFuBhq {
+    color: white;
+}
+.theme-dark .resultFocused-2geRUA {
+    background-color: transparent;
+    border: 1px solid #d1aa4c;
+}
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: black !important;
+}
+.private-channels .channel.selected a {
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+}
+.private-channels header,
+.private-channels .channel .channel-name {
+    opacity: .5;
+    color: white;
+}
+.private-channels .channel:hover a {
+    background-color: rgba(0,0,0,.4);
+    color: #fff;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: #f8bd55 !important;
+    border-radius: 0px !important;
+}
+.guilds-wrapper .guilds .friends-online,
+.theme-dark #friends .friends-table .friends-table-header .friends-column {
+    color: white;
+}
+.guilds-wrapper .guild-separator:after {
+    display: none;
+}
+.theme-dark #friends .friends-table .friends-table-header {
+    border-bottom: none;
+}
+.theme-dark #friends .friends-table .friends-row+.friends-row {
+    border-top: none;
+}
+.theme-dark #friends .friends-table .friends-row:hover {
+    background: rgba(0,0,0,0.18);
+}
+.theme-dark #friends .friends-table .friends-table-header .friends-column-separator {
+    background-color: transparent;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: rgba(0,0,0,0.48);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: rgba(0,0,0,0.68) !important;
+}
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .header,
+.theme-dark .search-results-wrap .search-header,
+.theme-dark .search-results-wrap {
+    background-color: rgba(0,0,0,0.6);
+    border: none;
+    box-shadow: none;
+}
+.search-bar .search-bar-inner {
+    background: rgba(0,0,0,.5);
+}
+.search-bar-tag {
+    background: #d1aa4c;
+    color: black;
+}
+.private-channel-recipients-invite .footer button {
+    background-color: #d1aa4c !important;
+    color: black;
+}
+.private-channel-recipients-invite .footer button:hover {
+    background-color: #d1aa4c !important;
+    border: 1px solid white;
+}
+.theme-dark .private-channel-recipients-invite .friend {
+    background: black;
+    color: #fff;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: #d1aa4c;
+    color: black;
+}
+.theme-dark .item-1XYaYf:hover {
+    background: #d1aa4c;
+    color: white !important;
+}
+/* Context Menu and Mention Menu and Search */
+.theme-dark.contextMenu-uoJTbz {
+    background: black;
+    box-shadow: none;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: #d1aa4c;
+    color: black;
+}
+.messages-popout .message-group .action-buttons {
+    box-shadow: none !important;
+    background: none !important;
+}
+.theme-dark .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+    background-color: rgba(209, 170, 76,0.4);
+    border-color: transparent;
+}
+.theme-dark .themed-popout .header .subtitle, 
+.theme-dark .themed-popout .text {
+    color: black;
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: rgb(209, 170, 76);
+    border-color: transparent;
+    color: black;
+}
+.theme-dark .search-results-wrap .channel-separator:before {
+    border-color: transparent;
+}
+.theme-dark .search-results-wrap .search-result:before,
+.theme-dark .search-results-wrap .search-result:after{
+    background: transparent;
+}
+.theme-dark .search-results-wrap .search-result .hit {
+    box-shadow: none;
+}
+.theme-dark .message-25xg43 {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+    box-shadow: none;
+}
+.theme-dark .itemSubMenu-3ZgIw- {
+   background-color: #d1aa4c;
+}
+/* Avatar Status */
+.avatar-large, 
+.avatar-profile, 
+.avatar-small, 
+.avatar-xlarge, 
+.avatar-xsmall, 
+.avatar-xxlarge,
+.avatarDefault-3jtQoc {
+    border-radius: 0px;
+    filter: sepia(70%) saturate(50%);
+}
+.avatar-large:hover, 
+.avatar-profile:hover, 
+.avatar-small:hover, 
+.avatar-xlarge:hover, 
+.avatar-xsmall:hover, 
+.avatar-xxlarge:hover,
+.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn,
+.avatarSpeaking-3teDH6 {
+    border-radius: 0px;
+    filter: sepia(0%) saturate(100%);
+}
+/* Main Chat */
+.avatarSpeaking-3teDH6 {
+    box-shadow: 0 0 0 2px #d1aa4c, inset 0 0 0 1.5px #2f3136;
+}
+.theme-dark .friends-table .messages .divider:not(.red) span, 
+.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+    color: silver;
+}
+.theme-dark .friends-table .messages .divider.divider-red>div, 
+.theme-dark .messages-wrapper .messages .divider.divider-red>div,
+.theme-dark .friends-table .messages .divider:not(.red) div, 
+.theme-dark .messages-wrapper .messages .divider:not(.red) div,
+.theme-dark .friends-table .messages .divider:before, 
+.theme-dark .friends-table .messages .divider span, 
+.theme-dark .messages-wrapper .messages .divider:before, 
+.theme-dark .messages-wrapper .messages .divider span{
+    background: transparent;
+}
+.theme-dark .friends-table .messages .divider.divider-red>span, 
+.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+    color: black;
+    background: #d1aa4c;
+    padding: 3px 6px;
+    border-radius: 0px;
+}
+.theme-dark .message-group:not(.has-divider) {
+    border-bottom-color: transparent;
+}
+.theme-dark .scroller-wrap .scroller::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeGhost-10fio9 .scroller-fzNley::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb, 
+.scrollerThemed-19vinI.themeGhostHairlineChannels-2lQojW .scroller-fzNley::-webkit-scrollbar-thumb,
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb,
+.theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
+.bda-dark emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-thumb, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.6) !important;
+    border: none;
+    border-radius: 0px;
+}
+.theme-dark .scroller-wrap .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track,
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
+.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, 
+.bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track, 
+.bda-dark .emojiPicker-3g68GS .scroller-2dsok0::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    border: none;
+}
+.durationBarGrabber-1cFmrd, .durationBarProgress-3sJ7Pt, 
+.durationBarProgress-3sJ7Pt:after, 
+.durationBarProgress-3sJ7Pt:before {
+    background-color: #d1aa4c;
+}
+.theme-dark .selectorSelected-2M0IGv {
+    background-color: transparent;
+    border: 2px solid #d1aa4c;
+}
+.durationBarInteraction-23MVSC:hover .durationBarWrapper-3-wksR, 
+.durationBarInteractionDragging-2t191e:hover .durationBarWrapper-3-wksR {
+    box-shadow: none;
+}
+.durationBarPreview-2q4B-3, 
+.durationBarPreview-2q4B-3:after,
+.durationBarPreview-2q4B-3:before {
+    background-color: rgba(255,255,255,0.7);
+}
+.durationBarInteraction-23MVSC:hover .durationBarGrabber-1cFmrd {
+    background-color: #f8bd55;
+}
+.buffer-3qw5qC, 
+.buffer-3qw5qC:after, 
+.buffer-3qw5qC:before {
+    background-color: black;
+}
+.durationBarWrapper-3-wksR, 
+.durationBarWrapper-3-wksR:after, 
+.durationBarWrapper-3-wksR:before {
+    background-color: black;
+}
+.theme-dark .iconBadge-1FYlQB {
+    border-color: transparent;
+    background-color: black;
+    height: 5px;
+    position: absolute;
+    right: 7px;
+    top: 2px;
+    width: 5px;
+}
+.durationBarInteractionDragging-2t191e .durationBarGrabber-1cFmrd {
+    background-color: #f8bd55;
+}
+
+.guilds-wrapper .guilds-add {
+    background: #f8bd55;
+    border: transparent !important; 
+    border-radius: 0px;
+    color: black;
+}
+.guilds-wrapper .guilds-add:hover {
+    background: #d1aa4c;
+    color: black;
+}
+.small-popout-box {
+    background: black;
+    border: none;
+    border-radius: 0px;
+}
+.option-popout .btn-item {
+    color: white !important;
+}
+.theme-dark .danger-1oUOCl:hover {
+   color: red !important;
+   border: 1px solid red;
+   background: black !important;
+}
+.theme-dark .danger-1oUOCl {
+   color: red !important;
+}
+.option-popout .btn-item:hover {
+    background-color: #d1aa4c;
+    border-radius: 0px;
+    color: black;
+}
+.guilds-wrapper .guilds-error:hover {
+    background: rgba(209, 170, 76,0.4);
+}
+.guilds-wrapper .guilds-error {
+    border: none;
+    color: black;
+    border-radius: 0px;
+    background: rgba(248, 189, 85,0.4)
+    font-size: 29px;
+}
+.theme-dark .message-group .comment .markup pre {
+    background: transparent;
+    border-color: transparent;
+}
+.theme-dark .message-group .comment .markup code.inline, 
+.theme-dark .message-group .comment .markup pre code {
+    background: rgba(255,255,255,0.2);
+}
+.theme-dark .hljs {
+    background: transparent;
+    color: white;
+}
+.theme-dark .channel-members-loading[style*="opacity: 1;"] {
+    background: transparent !important;
+}
+.theme-dark .channel-members-loading .member,
+.theme-dark .channel-members-loading .heading,
+.theme-dark .channel-members-loading .member:nth-child(3n+2), 
+.theme-dark .channel-members-loading .member:nth-child(7n+4),
+.theme-dark .channel-members-loading .member:nth-child(2n-4), 
+.theme-dark .channel-members-loading .member:nth-child(7n-1) {
+    background: transparent;
+}
+.theme-dark .channel-members-loading .background {
+    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(252, 0, 0, 0.3),rgba(0, 0, 0, 0));
+}
+.spinner-wandering-cubes .spinner-item,
+.wanderingCubesItem-35kyMu {
+    background-color: #d1aa4c;
+}
+.theme-dark .autocomplete-1TnWNR {
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: #d1aa4c;
+    color: black;
+}
+.theme-dark #friends .tab-bar .tab-bar-item .badge {
+    background-color: #d1aa4c;
+    color: black;
+    padding: 4px 7px;
+    border-radius: 0px;
+}
+.contentSelectedText-3j5CXt {
+    background-color: rgba(0,0,0,0.7);
+}
+.contentHoveredText-2HYGIY, 
+.contentHoveredVoice-3qGNKh:active, 
+.contentSelectedVoice-gTtYM9:active {
+    background-color: rgba(0,0,0,0.4);
+}
+.container-3lnMWU {
+    border-bottom: none;
+}
+.theme-dark .message-group .comment .markup .mention:hover,
+.theme-dark .mention {
+    background-color: #d1aa4c !important;
+    color: black;
+}
+.theme-dark .description-YnaVYa, 
+.theme-dark .descriptionUsername-1quCGz,
+.marginLeft4-3RAvyQ,
+.marginLeft8-34JoM2,
+.theme-dark .descriptionDiscriminator-3KCIMj {
+    color: white;
+}
+.theme-dark .iconForeground-1U-F96 {
+    fill: white;
+}
+.theme-dark .message-group .comment .markup .mention,
+.theme-dark .mention {
+    background-color: black !important;
+    color: white;
+}
+.theme-dark .reaction.reaction-me {
+    background: #d1aa4c;
+}
+.theme-dark .reaction.reaction-me .reaction-count {
+    color: black;
+}
+.wrapper-2xO9RX,
+.badge,
+.wrapper-2ldvyE {
+    background-color: #d1aa4c;
+    border-radius: 0px;
+    color: black;
+}
+.message-group .mentioned .message-text:after {
+    background: none;
+}
+.theme-dark .message-group .mentioned .message-text {
+    background: rgba(209, 170, 76,.3);
+}
+.botTagRegular-288-ZL,
+.botTagInvert-gorWR_ {
+    background: #d1aa4c;
+    color: black;
+}
+.theme-dark .chat .jump-to-present-bar,
+.chat .new-messages-bar {
+    background-color: #d1aa4c !important;
+}
+.chat .jump-to-present-bar button:last-child,
+.chat .jump-to-present-bar button,
+.chat .new-messages-bar button,
+.chat .new-messages-bar button:last-child {
+    color: black;
+}
+.theme-dark .chat .has-more button {
+    background: rgba(0,0,0,0.6);
+    border: none;
+    color: white;
+}
+/* Badges */
+.unread-2TDDFN,
+.mention-RlZ5F3{
+    background-color: #d1aa4c;
+}
+.unread-2TDDFN:hover,
+.mention-RlZ5F3:hover{
+    background-color: #f8bd55;
+}
+/* ========= */
+/* Emote Menu */
+.bda-dark .emoji-picker .header .search-bar, 
+.bda-dark .emojiPicker-3g68GS .header-27dQ-e .search-bar {
+    background-color: transparent;
+}
+.bda-dark .emoji-picker, 
+.bda-dark .emojiPicker-3g68GS,
+.bda-dark #bda-qem-favourite-container, 
+.bda-dark #bda-qem-twitch-container {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+    border: none;
+    background-size: cover;
+}
+
+.bda-dark .emoji-picker .category, 
+.bda-dark .emojiPicker-3g68GS .category-3rCtoh,
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {
+    background-color: transparent;
+    color: white;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(209, 170, 76,0.32);
+}
+.emojiPicker-3g68GS .categories-jw8z2h .item-lsWB-j.selected-1LQfcZ {
+    border-bottom-color: #d1aa4c;
+}
+.bda-dark #bda-qem {
+    border-bottom: none !important;
+    background: black;
+}
+.bda-dark #bda-qem button.active {
+    background-color: #d1aa4c;
+    color: black;
+}
+.bda-dark #bda-qem button {
+    background: black;
+    border-left: none;
+    box-shadow: none;
+    color: #FFF;
+}
+.bda-dark #bda-qem button:hover {
+    background-color: #f8bd55;
+    color: black;
+}
+.bda-dark .emoji-picker .dimmer.visible, 
+.bda-dark .emojiPicker-3g68GS .dimmer-jySV_v.visible-1CGy1m {
+    background-color: rgba(0,0,0,0.35);
+}
+.bda-dark .emoji-picker .diversity-selector .popout, 
+.bda-dark .emojiPicker-3g68GS .diversitySelector-O3ea2c .popout-2lja3I {
+    background: black;
+    border-color: transparent;
+}
+/* -------- Upload Modal -------- */
+.uploadModal-2KN6Mm .inner-1-09ZV {
+    border: 2px solid #d1aa4c;
+    color: rgb(255, 255, 255);
+}
+.uploadModal-2KN6Mm {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 {
+    background-color: black;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button {
+    background-color: rgba(255,0,0,0.4);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button:hover {
+    background-color: rgba(255,0,0,0.8);
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary {
+    background-color: #d1aa4c !important;
+    color: black;
+    border: none;
+}
+.uploadModal-2KN6Mm .footer-4pOKm8 .button-primary:hover {
+    background-color: #f8bd55 !important;
+    opacity: 1;
+}
+.uploadDropModal-BpFgz7 {
+   background: black;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .bgScale-1i4Cp3  {
+    background: black !important;
+}
+.uploadModalIn-14sS7w .uploadDropModal-BpFgz7 .inner-1-09ZV  {
+    background: black !important;
+    border: none;
+}
+.uploadModal-2KN6Mm .inner-1-09ZV .file-XhJJS_ .icon-19bbE_.image-sUU6Oh {
+    background-color: transparent;
+    background-size: cover;
+    border: none;
+    border-radius: 0px;
+}
+.theme-brand .inner-3if5cm {
+    background-color: rgba(255,255,255,0.14);
+}
+/* -------- Invite Menu -------- */
+/* New Invite Stuff */
+.wrapper-VSYYTS {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+    border: none;
+    height: 260px;
+    width: 460px;
+}
+.form-deprecated .form-header, 
+.form.deprecated .form-header {
+    background: transparent;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    color: white;
+}
+.form-deprecated .Select-control, 
+.form.deprecated .Select-control {
+    border: 1px solid black;
+    background: black;
+}
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label, 
+.has-value.Select--single>.Select-control .Select-value .Select-value-label {
+    color: white;
+}
+.form-deprecated .form-inner, 
+.form.deprecated .form-inner {
+    background-color: transparent;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-actions {
+    background-color: transparent;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh {
+    position: absolute;
+    width: 440px;
+}
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions {
+    background-color: transparent;
+}
+.Select-menu-outer {
+    background-color: transparent;
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-color: transparent;
+    box-shadow: none;
+}
+/* Invite Checkbox*/
+.checkbox .checkbox-inner+span {
+    color: white;
+}
+/* ----------------------- */
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .checkbox .checkbox-inner span,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .checkbox .checkbox-inner span {
+    border: 2px solid #f8bd55;
+}
+.form-deprecated .is-focused:not(.is-open)>.Select-control, 
+.form.deprecated .is-focused:not(.is-open)>.Select-control {
+    border: 1px solid #967a37;
+}
+.form-deprecated .Select.is-disabled .Select-control:hover, 
+.form-deprecated .Select.is-open .Select-control:hover,
+.form.deprecated .Select.is-disabled .Select-control:hover, 
+.form.deprecated .Select.is-open .Select-control:hover {
+    border-color: #f8bd55;
+}
+.form-deprecated .Select.is-disabled .Select-control,
+.form-deprecated .Select.is-open .Select-control, 
+.form.deprecated .Select.is-disabled .Select-control, 
+.form.deprecated .Select.is-open .Select-control {
+    border: 1px solid #967a37;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .form-header header,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .blurb-ArHxCz,
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .expireText-NeAc7v,
+.wrapper-VSYYTS .instantInviteModalAdvanced-38f2M0 .form-actions .btn-default,
+.form-deprecated .control-group .help-text, .form.deprecated .control-group .help-text,
+.form-deprecated .control-group label, .form.deprecated .control-group label {
+    color: white;
+}
+.form-deprecated .Select-option.is-focused, 
+.form.deprecated .Select-option.is-focused {
+    background: #967a37;
+    color: white;
+}
+.form-deprecated .Select-option,
+.form.deprecated .Select-option {
+    color: white;
+    background: black;
+}
+.Select .Select-option.is-selected {
+    background-color: #d1aa4c;
+}
+.form-deprecated .btn-primary, 
+.form.deprecated .btn-primary {
+    background-color: black;
+    border-radius: 0px;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+.form-deprecated .btn-primary:hover, 
+.form.deprecated .btn-primary:hover {
+    background-color: #d1aa4c;
+    color: rgb(255, 255, 255);
+}
+.clipboardInputInner-oj8y-S {
+    background: black;
+    border: 1px solid #d1aa4c;
+    width: 420px;
+    margin-left: -12px;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .clipboardInputInner-dxVheg input {
+    color: white;
+    background: black;
+}
+.wrapper-VSYYTS .instantInviteModal-5L33Qh .copy-2xFKb_ {
+    background-color: black;
+    border-left: none;
+}
+/* Copied Invite Button */
+.clipboardInputCopied-UXgFh2 .clipboardInputInner-oj8y-S {
+    border-color: black;
+}
+/* -------------------- */
+.clipboardInputInner-oj8y-S button:first-of-type:before {
+    background: linear-gradient(90deg,rgba(255, 255, 255, 0), black);
+}
+/* ================ */
+.theme-dark .search-popout {
+    box-shadow: none;
+    background: black;
+}
+.search-popout .results-group:before {
+    border-top: none;
+}
+.search-popout .results-group .header {
+    color: white;
+    text-transform: Capitalize;
+}
+.search-popout .option:after,
+.search-popout .option.selected:after {
+    background: transparent;
+}
+.search-popout .option .filter {
+    color: white;
+}
+.search-popout .option .non-text {
+    color: #3d3d3d;
+}
+.search-popout .option .answer {
+    color: white;
+    font-weight: normal;
+    background-color: rgba(209, 170, 76,0.6);
+    padding: 4px 4px;
+}
+.search-popout .search-option .answer {
+    color: #caccce;
+    font-weight: 400;
+}
+.search-popout .search-query {
+    border: none;
+    border-bottom: none;
+    color: gray;
+}
+.search-popout .option.user .displayed-nick {
+    color: #515151;
+    font-weight: 500;
+    margin: 0 5px;
+}
+.search-popout .option.user .display-username {
+    color: #bfbfbf;
+    background-color: rgba(209, 170, 76,0.6);
+    padding: 4px 4px;
+    font-weight: normal;
+}
+.search-result-channel-icon {
+    color: gray;
+    margin-right: 4px;
+    vertical-align: top;
+}
+.search-popout .option.selected {
+    background-color: black;
+   border: 2px solid #d1aa4c;
+}
+/* This Weeks Update Right Now */ 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   background: black;
+   color: #d1aa4c;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
+    background: black;
+    border: none;
+}
+.search-popout .date-picker,
+.search-popout .date-picker .date-picker-hint {
+    border-top: none;
+}
+.search-popout .date-picker .date-picker-hint .hint-value {
+    background-color: #d1aa4c;
+    border-radius: 0px;
+    border: none;
+}
+.theme-dark .searchAnswer-yD90ey, 
+.theme-dark .searchFilter-1fJ0cd {
+    background-color: #d1aa4c;
+    color: black;
+}
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+    background-color: #f8bd55;
+    border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+    border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--disabled, 
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--disabled,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--disabled.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--disabled.react-datepicker__day--weekend {
+    border: none;
+    color: rgba(255,255,255,0.2);
+    background: black;
+}
+.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, 
+.theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+   background: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
+    background-color: #d1aa4c;
+    color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend {
+    background: black;
+    border: none;
+    color: rgba(255,255,255,0.8);
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend:hover {
+    background: #dba74b;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__day-names .react-datepicker__day-name {
+   color: white;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+   background: black;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month {
+   color: rgba(255,255,255,0.3);
+   border: none;
+}
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover,
+.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover {
+    background: #b58a3e;
+}
+.theme-dark .search-results-wrap .search-header {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap .search-header .tab.selected {
+       background-color: black;
+}
+/* ================== */
+/* Need Help */
+.need-help-modal.deprecated .footer {
+    background-color: black;
+    border-top: none;
+    color: #d1aa4c;
+}
+.need-help-modal.deprecated a {
+    color: #edc156;
+}
+.need-help-modal.deprecated .form-inner {
+    background-image: linear-gradient(to bottom,rgba(0,0,0,0.3) 0%,rgba(0,0,0,0.2) 100%),url(http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg);
+    background-size: cover;
+}
+.need-help-modal.deprecated .header {
+    background-color: black;
+}
+.need-help-modal.deprecated .header h1 {
+    color: #d1aa4c;
+}
+.need-help-modal.deprecated .header input[type=text] {
+    background-color: black;
+    border-radius: 0px;
+    box-shadow: none;
+    color: #d1aa4c;
+    border: none;
+}
+.need-help-modal.deprecated .header input[type=text]:focus {
+    border-bottom: 1px solid #d1aa4c;
 }
