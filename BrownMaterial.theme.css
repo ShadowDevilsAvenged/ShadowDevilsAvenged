@@ -1,4 +1,4 @@
-//META{"name":"BrownMaterial_Theme","description":"Clean Brown Material Theme","author":"DevilsTheAvenged","version":"1.0"}*//{}
+//META{"name":"BrownMaterial_Theme","description":"Clean Brown Material Theme","author":"DevilsTheAvenged","version":"1.1"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Montserrat:200');
 *:not(code) {
     font-family: 'Montserrat' !important;
@@ -191,6 +191,13 @@
 .avatarSpeaking-3teDH6 {
     box-shadow: 0 0 0 2px #6D4C41, inset 0 0 0 1.5px #2f3136;
 }
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq,
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background-color: #111;
+    color: #fff;
+}
+
 .avatar-large, 
 .avatar-profile, 
 .avatar-small,
@@ -689,7 +696,7 @@
     background-color: #6D4C41;
     border-radius: 0px;
 }
-.theme-dark .input-2YozMi:focus,
+.theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6,
 .theme-dark .input-2YozMi.focused-xL_GX6 {
     border-color: #6D4C41;
 }
@@ -1554,7 +1561,7 @@ a,
    background-color: transparent !important;
    border: 2px solid #4E342E;
 }
-.protip-q743VF {
+.theme-dark .protip-q743VF-q743VF {
     display: none;
 }
 .headerPlaying-2Q7mBy,
