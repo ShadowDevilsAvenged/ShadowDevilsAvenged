@@ -1,4 +1,4 @@
-//META{"name":"Old_History","description":"Time to go back in time","author":"DevilsTheAvenged","version":"1.0"}*//{}
+//META{"name":"Old_History","description":"Time to go back in time","author":"DevilsTheAvenged","version":"1.1"}*//{}
 *{font-family:'Metamorphous' !important;}
 .app{background-image:url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");background-size:cover !important;background-position:center !important;}
 /* fix not having a background image anymore */
@@ -97,7 +97,7 @@
 	display: none;
 }
 .theme-dark .input-2YozMi.focused-xL_GX6,
-.theme-dark .input-2YozMi:focus {
+.theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6 {
 	border-color: transparent;
 	background-color: rgba(0,0,0,0.4);
 }
@@ -351,8 +351,7 @@ a {
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
 	display: none;}
 /* User Profile Popout and Other Part of It */
-.theme-dark .channel-members .member.popout-open, 
-.theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: rgba(0,0,0,0.5);
 }
 .theme-dark .channel-members h2,
