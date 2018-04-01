@@ -1,4 +1,4 @@
-//META{"name":"Green_Christmas_Theme","description":"Merry Christmas","author":"DevilsTheAvenged","version":"1.9"}*//{}
+//META{"name":"Green_Christmas_Theme","description":"Merry Christmas","author":"DevilsTheAvenged","version":"2"}*//{}
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
   background: transparent !important;
@@ -346,8 +346,8 @@ span:not(.spinner-item){
     border: none;
 }
 
-.buttonBrandFilled-3Mv0Ra,
-.buttonGreenFilled-6QHNrw,
+.lookFilled-luDKDo.colorBrand-3PmwCE,
+.lookFilled-luDKDo.colorGreen-22At8E,
 .ui-standard-sidebar-view .bda-slist .bda-right button,
 .bd-pfbtn,
 .search-popout .date-picker .date-picker-hint .hint-value {
@@ -365,8 +365,8 @@ span:not(.spinner-item){
     background: linear-gradient(90deg,black 85%,black);
 }
 
-.buttonBrandFilled-3Mv0Ra:hover,
-.buttonGreenFilled-6QHNrw:hover,
+.lookFilled-luDKDo.colorBrand-3PmwCE:hover,
+.lookFilled-luDKDo.colorGreen-22At8E:hover,
 .bd-pfbtn:hover,
 .ui-standard-sidebar-view .bda-slist .bda-right button:hover,
 .search-popout .date-picker .date-picker-hint .hint-value:hover {
@@ -526,16 +526,16 @@ a img {
     background-color .3s ease, border .3s ease;
 }
 
-.buttonRedOutlined-2t9fm_ {
+.lookOutlined-1c5nhl.colorRed-3HTNPV {
     border-color: red;
     color: red;
     transition: background .4s ease, color .4s ease;
 }
-.buttonRedOutlined-2t9fm_:hover {
+.lookOutlined-1c5nhl.colorRed-3HTNPV:hover {
     background: red;
     color: white;
 }
-.theme-dark .input-2YozMi:focus {
+.theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6 {
     border-color: #10b51d !important;
     background: rgba(0,0,0,0.4);
 }
@@ -592,11 +592,11 @@ input.inputDefault-Y_U37D.input-2YozMi.size16-3IvaX_{
 .theme-dark .separator-3z7STW,#bd-settings-sidebar .ui-tab-bar-separator {
     background-color: transparent;
 }
-.theme-dark .user-settings-voice .preview-overlay {
+.theme-dark .userSettingsVoice-TvPQ80 .previewOverlay-2vHj3H {
     background-color: transparent;
     border-color: transparent;
 }
-.user-settings-voice .media-engine-video {
+.userSettingsVoice-TvPQ80 .media-engine-video {
     border: 2px solid #10b51d;
     background-color: rgba(0, 0, 0,0.3);
 }
@@ -849,7 +849,7 @@ a {
 .chat .jump-to-present-bar button:last-child:hover {
     color: #10b51d;
 }
-.channel-members .member .member-activity-icon-foreground {
+.theme-dark .activityIconForeground-1o4t0w {
     fill: white;
 }
 
@@ -1048,7 +1048,7 @@ a {
 .search-popout .date-picker .date-picker-hint .hint {
     color: white;
 }
-.channel-members .member .member-activity strong {
+.activity-1PAe08 strong{
     color: #10b51d;
 }
 .inner-ptMwR- .channel-3YGMy1 {
@@ -1111,7 +1111,7 @@ a {
     border: 1px solid #10b51d;
 }
 .theme-dark .themed-popout .header .title,
-.protip.popout-footer .tip {
+.theme-dark .protip-q743VF.popout-footer .tip {
     color: #10b51d;
 }
 .theme-dark .themed-popout .header {
@@ -1678,22 +1678,20 @@ a {
     position: absolute;
     right: 2px;
 }
- .userPopout-4pfA0d {
+ .userPopout-11hFKo {
     border-radius: 5px;
     box-shadow: none;
     width: 390px;
     background: url(http://flower-wallpaper.org/wp-content/uploads/2016/10/neon-flowers-wallpaper10.jpg) 80% 50%/cover !important;
 }
-.bodyTitle-yehI7c {
+.bodyTitle-18hsd9 {
     color: #10b51d;
     text-transform: capitalize;
 }
-.theme-dark .userPopout-4pfA0d .note textarea:focus,
-.theme-dark .root-2sNHUF .note-39NEdV textarea:focus {
+.theme-dark .note-2AtC_s textarea:focus {
     background-color: rgba(255, 255, 255,0.07);
 }
-.theme-dark .userPopout-4pfA0d .note textarea,
-.theme-dark .root-2sNHUF .note-39NEdV textarea {
+.theme-dark .note-2AtC_s textarea {
     background-color: transparent;
     color: #10b51d;
     padding-top: 9px;
@@ -1705,9 +1703,13 @@ a {
     padding-top: 9px;
     padding-bottom: 7px;
 }
-.headerPlaying-2eYqm9,
+.headerPlaying-2Q7mBy,
 .topSectionPlaying-3jAH9b {
     background: rgba(12,134,21,0.6);
+}
+.headerSpotify-26yUf5,
+.topSectionSpotify-3744IX {
+     background-color: rgba(67,160,71 ,0.4);
 }
 .avatar-1BXaQj.profile-3z9uol.avatar-4g_GO6 .statusProfile-29OBzn {
     width: 143px;
@@ -1806,15 +1808,15 @@ a {
     height: 220px;
     width: 220px;
 }
-.theme-dark .headerNormal-1cioxU {
+.theme-dark .headerNormal-3Vn9nT {
     background-color: rgba(0, 0, 0,0.4);
 }
-.theme-dark .body-3rkFrF, .theme-dark .footer-2J5zqP {
+.theme-dark .body-3ljq11, .theme-dark .footer-2wFs91 {
     background-color: rgba(0, 0, 0,0.4);
     color: white;
     border: none;
 }
-.protip {
+.theme-dark .protip-q743VF {
    display: none;
 }
 .assetsGameIcon-14Ewum {
@@ -2019,7 +2021,7 @@ a {
 .theme-dark .message-group .comment .edited {
     color: rgba(255, 255, 255, 0.6);
 }
-.theme-dark .channel-members .member.popout-open, .theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 85%,#10B51D);
 }
 /* Popup Menu */
