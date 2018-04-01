@@ -1,4 +1,4 @@
-//META{"name":"Twitch_Theme","description":"Regular Twitch Theme","author":"DevilsTheAvenged","version":"1.0"}*//{}
+//META{"name":"Twitch_Theme","description":"Regular Twitch Theme","author":"DevilsTheAvenged","version":"1.1"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Marvel');
 .app {
 	background-image: url("https://images8.alphacoders.com/702/thumb-1920-702959.jpg");
@@ -77,8 +77,7 @@
     color: white;
     text-transform: capitalize;
 }
-.theme-dark .channel-members .member.popout-open, 
-.theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: black;
     border: 2px solid #3c2762;
 }
@@ -593,7 +592,7 @@
     background-color: #5b3b96;
     border-radius: 50px;
 }
-.theme-dark .input-2YozMi:focus,
+.theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6,
 .theme-dark .input-2YozMi.focused-xL_GX6 {
     border-color: #5b3b96;
 }
@@ -1462,7 +1461,7 @@ a,
    background-color: transparent !important;
    border: 2px solid #6441a4;
 }
-.protip-q743VF {
+.theme-dark .protip-q743VF-q743VF {
     display: none;
 }
 .headerPlaying-2Q7mBy,
