@@ -1,4 +1,4 @@
-//META{"name":"MountainDew","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"1.9"}*//{}
+//META{"name":"MountainDew","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"2"}*//{}
 /* Backgrounds */
 .app {
 	background-image: url("https://images6.alphacoders.com/631/631863.jpg");
@@ -126,8 +126,15 @@
 	font-family: 'Arial' !important;
 	font-size: 100%;
 }
+.theme-dark .select-3JqNgs .Select-menu-outer {
+    background-color: green;
+}
+.theme-dark .select-3JqNgs .Select-option.is-focused, 
+.theme-dark .select-3JqNgs .Select-option:hover {
+      background-color: #0e5403;
+}
 /* Popout Menu for the Member List */
-.theme-dark .channel-members .member.popout-open {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq {
 	background: transparent;
 	border: 1px solid white;
 }
@@ -358,7 +365,7 @@
     font-size: 12px;
     font-weight: bold;
 }
-.protip {
+.theme-dark .protip-q743VF {
    display: none;
 }
 .channel-members-loading { display: none }
@@ -718,7 +725,7 @@ border-color: rgb(14, 17, 218);
 .buttonLinkLink-PqcWoA {
     color: green;
 }
-.theme-dark .input-2YozMi:focus {
+.theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6 {
     border-color: #199306;
 }
 .theme-dark .input-2YozMi {
@@ -1084,7 +1091,7 @@ background-color: #0e5403;
     font-weight: 400;
     line-height: 13px;
 }
-.channel-members .member .member-activity strong {
+.activity-1PAe08 strong{
     color:  #e7e7e7;
 }
 .ui-standard-sidebar-view #editor-detached button {
@@ -1461,7 +1468,8 @@ input[type="checkbox" i][value*="on"] {
 	height: 100%;
 	width: 100%;
 }
-.theme-dark .channel-members .member.popout-open {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 85%,#88C333);
 }
 .status.status-invisible {
