@@ -1,4 +1,4 @@
-//META{"name":"Ram_Theme","description":"Team Ram Theme","author":"DevilsTheAvenged","version":"1.9"}*//{}
+//META{"name":"Ram_Theme","description":"Team Ram Theme","author":"DevilsTheAvenged","version":"2"}*//{}
 .app,.callout-backdrop,#pubs-container:before {
 	background-image: url("https://img00.deviantart.net/6892/i/2016/269/a/9/minimalist_wallpaper___ram__re_zero__by_mrtapoz_kun-daisdq0.jpg");
 	background-size: cover !important;
@@ -1311,11 +1311,11 @@ u:hover, ins:hover {
     font-size: 70%;
     text-align: center;
 }
-.channel-members .member .member-activity strong {
+.activity-1PAe08 strong{
 	font-weight: normal;
 	color: #F4ABC3;
 }
-.channel-members .member .member-activity-text {
+.activityText-258pdj{
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
@@ -1354,7 +1354,9 @@ u:hover, ins:hover {
 	padding-right: 7px;
 	background: rgba(240, 142, 175, 0.81);
 }
-.theme-dark .channel-members .member.popout-open {
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
 	background: rgba(240, 142, 175, 0.31);
 	border: 1px solid rgba(255, 255, 255, 0.35);
 }
@@ -1410,7 +1412,7 @@ u:hover, ins:hover {
   opacity: 0;
   }
  } 
- .theme-dark .input-2YozMi:focus {
+ .theme-dark .input-2YozMi:focus, .theme-dark .input-2YozMi.focused-xL_GX6 {
 	border-color: #9fc3f5;
 }
 
@@ -1501,7 +1503,7 @@ s:hover, strike:hover, del:hover {
     margin-bottom: 6%;
 }
 
-.theme-dark .channel-members .member:hover {
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: rgba(240, 142, 175, 0.31);
 	border: 1px solid rgba(255, 255, 255, 0.35);
 }
