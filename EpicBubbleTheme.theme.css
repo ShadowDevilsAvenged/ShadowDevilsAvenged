@@ -1,4 +1,4 @@
-//META{"name":"The_Epic_Bubble_Theme","description":"Neat Bubble Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"The_Epic_Bubble_Theme","description":"Neat Bubble Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 
 .app,
 .callout-backdrop,
@@ -50,7 +50,7 @@
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
@@ -76,13 +76,13 @@
     background-color: transparent;
     border-color: transparent;
 }
-.theme-dark .channel-members-loading[style*="opacity: 1;"] {
+.theme-dark .members-1bid1J-loading[style*="opacity: 1;"] {
     background: transparent !important;
 }
-.theme-dark .channel-members-loading .member,.theme-dark .channel-members-loading .heading,.theme-dark .channel-members-loading .member:nth-child(3n+2), .theme-dark .channel-members-loading .member:nth-child(7n+4),.theme-dark .channel-members-loading .member:nth-child(2n-4), .theme-dark .channel-members-loading .member:nth-child(7n-1) {
+.theme-dark .members-1bid1J-loading .member,.theme-dark .members-1bid1J-loading .heading,.theme-dark .members-1bid1J-loading .member:nth-child(3n+2), .theme-dark .members-1bid1J-loading .member:nth-child(7n+4),.theme-dark .members-1bid1J-loading .member:nth-child(2n-4), .theme-dark .members-1bid1J-loading .member:nth-child(7n-1) {
     background: transparent;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
     background-image: linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(247,0,0,.6),rgba(0, 0, 0, 0));
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
@@ -203,20 +203,20 @@
     border: 2px solid rgba(0, 255 , 0 ,0.5);
     border-radius: 50px;
 }
-.theme-dark .themed-popout {
-    background-color: rgba(231, 254, 255,0.2);
+.theme-dark .popout .messages-popout-wrap {
+    background-color: rgba(231, 254, 255,0.2) !important;
     border: none;
     box-shadow: none;
 }
-.theme-dark .themed-popout .header {
-    background-color: transparent;
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: transparent !important;
     box-shadow: none;
 }
 .theme-dark .themed-popout .header .title,.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: black;
 }
-.theme-dark .themed-popout .footer {
-    background-color: transparent;
+.theme-dark .popout .messages-popout-wrap .footer {
+    background-color: transparent !important;
 }
 .theme-dark .checkbox .checkbox-inner span {
     border-radius: 50px;
@@ -524,10 +524,10 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .theme-dark .friends-table .messages .divider:before, .theme-dark .messages-wrapper .messages .divider:before {
     background: none;
 }
-.channel-members .member {
+.members-1bid1J .member {
     font-weight: 500;
 }
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
     border: 3px solid rgba(231, 254, 255,.6);
     background-color: 3px solid rgba(231, 254, 255,.3);
 }
@@ -737,7 +737,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     font-size: 17px;
     text-shadow: 1px 2px 2px #000;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
    background-color: rgba(231, 254, 255,0.3);
     padding-top: 12px;
@@ -901,7 +901,7 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
 .tooltip.tooltip-black.tooltip-left:after {
     border-left: none;
 }
-.theme-dark .topic-1KFf6J,.channel-members .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
+.theme-dark .topic-1KFf6J,.members-1bid1J .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
     color: white;
 }
 .theme-dark .activityIconForeground-1o4t0w {
@@ -1272,14 +1272,18 @@ color: white !important;
     border: 3px solid rgba(231, 254, 255,0.4);
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: rgba(0, 0, 0,0.4);
-    border-color: rgba(231, 254, 255,0.4);
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: rgba(0, 0, 0,0.4) !important;
+    border-color: rgba(231, 254, 255,0.4) !important;
     border-width: 3px;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
-    border-color: rgba(231, 254, 255,0.6);
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+    border-color: rgba(231, 254, 255,0.6) !important;
     border-width: 4px;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none !important;
+    box-shadow: none !important;
 }
 .buttonRedFilled-1NjJNj {
     background-color: rgba(0, 0, 0,0.4);
@@ -1293,12 +1297,12 @@ color: white !important;
     border-width: 2px;
     border-radius: 50px;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
     background: none;
     box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,.theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: #28283c;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background-color: #28283c !important;
     color: white;
     border: 3px solid rgba(231, 254, 255,0.4);
 }
@@ -1865,7 +1869,7 @@ color: white !important;
 .header-3mZJcV .avatarStatusStreaming-3lGjGk {
     background-color: #660066;
 }
-.channel-members .avatar-small .status-streaming {
+.members-1bid1J .avatar-small .status-streaming {
     background-color: #660066;
 }
 .avatarStatus-1g8f0K {
@@ -2108,10 +2112,7 @@ color: white !important;
 }
 .theme-dark.contextMenu-uoJTbz {
     background: black;
-    border-radius: 30px;
-    width: 145px;
-    padding-left: 12px;
-    padding-right: 12px;
+    border-radius: 0px;
 }
 .theme-dark.contextMenu-uoJTbz {
     box-shadow: none;
