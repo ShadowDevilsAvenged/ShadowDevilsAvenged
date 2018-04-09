@@ -1,4 +1,4 @@
-//META{"name":"Yoshi_Theme","description":"The Great Yoshi Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Yoshi_Theme","description":"The Great Yoshi Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
 .app,
 .callout-backdrop,
@@ -1017,16 +1017,16 @@ color: white !important;
     color: white;
     height: 25px;
 }
-.theme-dark .channel-members-loading {
+.theme-dark .members-1bid1J-loading {
  background-image: url(https://i.pinimg.com/736x/f5/6e/4b/f56e4b599f32e9cce4185a31639fc917--spots-tattoo-ideas.jpg) !important;
  background-size: cover !Important;
  background-position: 50% 10% !important;
  opacity: 0.6 !important;
 }
-.channel-members-loading .heading, .channel-members-loading .member {
+.members-1bid1J-loading .heading, .members-1bid1J-loading .member {
  background: transparent !important;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(83,161,60, 0.5), rgba(0, 0, 0, 0));
 }
 
@@ -1068,7 +1068,7 @@ color: white !important;
     margin: 0 auto;
     color: white;
 }
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap {
     background-color: #53A13C !important;
     border: 3px solid #ED1910;
 }
@@ -1095,10 +1095,14 @@ color: white !important;
     background-color: #53a833;
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background: #53a833;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, 
+.theme-dark .search-results-wrap .action-buttons .jump-button {
+    background: #53a833 !important;
     color: white !important;
-    border: 3px solid #ED1910;
+    border: 3px solid #ED1910 !important;
+}
+.spinner-wandering-cubes .spinner-item {
+    background-color: green;
 }
 .need-help-modal.deprecated .footer {
     background-color: #53a833;
@@ -1228,6 +1232,21 @@ color: white !important;
     padding-bottom: 3px;
     background-color: rgba(83,168,51,.6) !important;
     color: white;
+}
+.private-channels .channel:hover a {
+    padding-top: 6px;
+    padding-bottom: 3px;
+    background-color: rgba(83,168,51,.3) !important;
+    color: white;
+}
+.dark-2Ll8iS span {
+    background-color: green !important;
+    border-color: black;
+    box-shadow: none;
+    color: white !important;
+}
+.dark-2Ll8iS span .bindArrow-3Mm64N g {
+    fill: white !important;
 }
 .theme-dark .quickswitcher-2NdiGJ {
     background-color: #417731;
@@ -1493,11 +1512,11 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 }
 /* Main Chat Area Stuff */
 
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
     border: 2px solid #ED1910;
     background-color: #53A13C;
 }
-.channel-members .avatar-small .status {
+.members-1bid1J .avatar-small .status {
     border: 3px solid black !important;
     bottom: -2px;
     right: -2px;
@@ -1505,7 +1524,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     height: 13px;
     border-radius: 50%;
 }
-.channel-members .avatar-small .status.status-typing {
+.members-1bid1J .avatar-small .status.status-typing {
     border: 3px solid black !important;
     bottom: -2px!important;
     right: -2px !important;
@@ -1574,7 +1593,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .typeMacOS-3IiWed, .titleBar-3_fDwJ, .guilds-wrapper .guilds {
     background: rgba(0,0,0,0.35) !important;
 }
-.scroller-fzNley.channel-members {
+.scroller-fzNley.members-1bid1J {
     background: rgba(0,0,0,0.21) !important;
 }
 .chat .avatar-large {
@@ -1750,7 +1769,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     color: rgba(255, 255, 255, 1) !important;
     font-size: 14px;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
     background: rgba(83,168,51,.5);
     padding-top: 12px;
@@ -1899,7 +1918,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .tooltip.tooltip-black.tooltip-left:after {
     border-left: none;
 }
-.theme-dark .topic-1KFf6J,.channel-members .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
+.theme-dark .topic-1KFf6J,.members-1bid1J .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
     color: white;
 }
 .theme-dark .activityIconForeground-1o4t0w {
@@ -2096,6 +2115,10 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 }
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 85%,#53A833);
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: transparent;
+    box-shadow: none !important;
 }
 /* Popup Menu */
 .separator-1hpa3S {
