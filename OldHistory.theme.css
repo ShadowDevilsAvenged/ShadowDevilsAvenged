@@ -1,4 +1,4 @@
-//META{"name":"Old_History","description":"Time to go back in time","author":"DevilsTheAvenged","version":"1.1"}*//{}
+//META{"name":"Old_History","description":"Time to go back in time","author":"DevilsTheAvenged","version":"1.2"}*//{}
 *{font-family:'Metamorphous' !important;}
 .app{background-image:url("http://www.modafinilsale.com/data/out/826/233366387-wallpaper-old-paper.jpg");background-size:cover !important;background-position:center !important;}
 /* fix not having a background image anymore */
@@ -16,7 +16,7 @@
 .theme-dark .chat,
 .chat .messages,
 .theme-dark .friends-table,.theme-dark .messages-wrapper,
-.theme-dark .channel-members,
+.theme-dark .members-1bid1J,
 .theme-dark #friends,
 .theme-dark .headerBar-cxbhPD,
 .theme-dark .ui-standard-sidebar-view{background-color:transparent;}
@@ -351,11 +351,13 @@ a {
 .alt-2vq4VR .item-rK1j5B .helper-3X2gjI {
 	display: none;}
 /* User Profile Popout and Other Part of It */
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
-    background: rgba(0,0,0,0.5);
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover, 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background: rgba(0,0,0,0.5) !important;
 }
-.theme-dark .channel-members h2,
-.channel-members .member .member-activity-text,
+.theme-dark .membersGroup-3_dP5E,
+.activityText-258pdj,
 .theme-dark .message-group h2 .timestamp {
    color: white;
 }
@@ -543,11 +545,11 @@ a {
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
     background-color: rgba(0,0,0,0.68) !important;
 }
-.theme-dark .themed-popout,
-.theme-dark .themed-popout .header,
+.theme-dark .popout .messages-popout-wrap,
+.theme-dark .popout .messages-popout-wrap .header,
 .theme-dark .search-results-wrap .search-header,
 .theme-dark .search-results-wrap {
-    background-color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.6) !important;
     border: none;
     box-shadow: none;
 }
@@ -584,18 +586,18 @@ a {
     background: black;
     box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: #d1aa4c;
+    background-color: #d1aa4c !important;
     color: black;
 }
 .messages-popout .message-group .action-buttons {
     box-shadow: none !important;
     background: none !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group,
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
-    background-color: rgba(209, 170, 76,0.4);
+    background-color: rgba(209, 170, 76,0.4) !important;
     border-color: transparent;
 }
 .theme-dark .themed-popout .header .subtitle, 
@@ -822,18 +824,18 @@ a {
     background: transparent;
     color: white;
 }
-.theme-dark .channel-members-loading[style*="opacity: 1;"] {
+.theme-dark .members-1bid1J-loading[style*="opacity: 1;"] {
     background: transparent !important;
 }
-.theme-dark .channel-members-loading .member,
-.theme-dark .channel-members-loading .heading,
-.theme-dark .channel-members-loading .member:nth-child(3n+2), 
-.theme-dark .channel-members-loading .member:nth-child(7n+4),
-.theme-dark .channel-members-loading .member:nth-child(2n-4), 
-.theme-dark .channel-members-loading .member:nth-child(7n-1) {
+.theme-dark .members-1bid1J-loading .member,
+.theme-dark .members-1bid1J-loading .heading,
+.theme-dark .members-1bid1J-loading .member:nth-child(3n+2), 
+.theme-dark .members-1bid1J-loading .member:nth-child(7n+4),
+.theme-dark .members-1bid1J-loading .member:nth-child(2n-4), 
+.theme-dark .members-1bid1J-loading .member:nth-child(7n-1) {
     background: transparent;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
     background-image: linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(252, 0, 0, 0.3),rgba(0, 0, 0, 0));
 }
 .spinner-wandering-cubes .spinner-item,
@@ -877,7 +879,8 @@ a {
 .theme-dark .descriptionDiscriminator-3KCIMj {
     color: white;
 }
-.theme-dark .iconForeground-1U-F96 {
+.theme-dark .iconForeground-1U-F96,
+.theme-dark .activityIconForeground-1o4t0w {
     fill: white;
 }
 .theme-dark .message-group .comment .markup .mention,
