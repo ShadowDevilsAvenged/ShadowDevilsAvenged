@@ -1,4 +1,4 @@
-//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Yumeko","description":"Who wants to play some Poker because I know I want to","author":"DevilsTheAvenged","version":"2.1"}*//{}
   
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
@@ -69,7 +69,7 @@
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
@@ -155,15 +155,15 @@
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAACVUlEQVRIS+2UwYsSYRjG33HWCDclFcoQqUARnY4hHUSzOokwItqkf0G1RYcgwbsX6xS1/gXipMKgIB4CI0UQ9pjrDtql0h0vTqS5grJNjGjsDo4zQ3vc9zTD97zP73vm+95BQFmhFEV9UKlUf3Acf6ikFVEgRrvdbt9qtV7leyqVStXv99+X2y8XpO50Oj9sNtsCsqpSqfQZx/G7cmByQGqapnt2u/3KOkOKouqhUMgjBZMCbYSszOXANoG2aJruiyURJpCCiYEUQeQkWwdCaZo+lJtEbjIhCG21Wl8xDLshdbib1svl8qdAIHDvpOYUKJlMvkkkEi//B7LqTaVSr+Px+KvVuzDRBQBwAsDWUnCT47icHDCCIGEA+LbUHgPAPgDMxEBCT4zjuJZMEAYAbTGt1Bydg84/3b+74+Q4jr+mkoUgCD8WB5tu3W0AuAgAXwDgl0B4fTQadbRaLT9fojUej2c6nc4GAN8FossAcAsAjhCGYSYmk0lDkmQ6Go0+FbpVq9U9n8/Hb0a0arXantfrdQkFmUwmHYvFHg8GgyNkOBz+NhgM24VC4X0kEnm2xg2p1+tNh8OBGY3G7ZPrw+Fw0m639z0ezx0A4IS9+Xz+XTgc3mFZdiIHxPfzg30NADTL55XnBAAOxaKeArEsO9br9ZeKxeLbYDD4QvLUFQgoiuI9ny8S9Xo91mw265vN5gHDMB/n8zmqwEtUiqLoscVieeByuZz9fv8nQpLkLkEQT87CXMwjl8vtLn6q2Ww27Xa7H2k0GvVZAqfT6azRaGQJgtj5C5gCAGEzC3tYAAAAAElFTkSuQmCC) !important;
     background-size: cover;
 }
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
     border: 2px solid #cc1111;
     border-radius: 50px;
 }
-.channel-members .avatar-small .status.status-typing {
+.members-1bid1J .avatar-small .status.status-typing {
     right: -4px!important;
     width: 32px!important;
 }
-.theme-dark .channel-members .avatar-small .status {
+.theme-dark .members-1bid1J .avatar-small .status {
     width: 17px !important;
     height: 17px !important;
 }
@@ -171,43 +171,48 @@
     background-color: black !important;
     color: red;
 }
+.statusOnline-1Mp2_H,
 .status-online {
     background-image: url(https://www.chipsandgames.com/images/products/detail/201gr.png) !important;
     background-size: cover;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 100px !important;
    
  }
+.statusIdle-2AQdvu,
 .status-idle {
     background-image: url(https://www.chipsandgames.com/images/products/detail/213yl.png) !important;
     background-size: cover;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 100px !important;
     
  }
+.statusDnd-35xAXU,
 .status-dnd {
     background-image: url(https://www.chipsandgames.com/images/products/detail/209rd.png) !important;
     background-size: cover;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 100px !important;
     
  }
+.statusInvisibleProfile-LRuFr_, .statusOfflineProfile-1wnfgz,
 .status-invisible, .status-offline {
     background-image: url(https://www.chipsandgames.com/images/products/detail/213wt.png) !important;
     background-size: cover;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 100px !important;
     
  }
+.statusStreaming-1bZ3Hq,
 .status-streaming {
     background-image: url(http://www.chipsandgames.com/images/products/detail/209pr.png) !important;
     background-size: cover;
-    width: 20px !important;
-    height: 20px !important;
+    width: 15px !important;
+    height: 15px !important;
     border-radius: 100px !important;
    
  }
@@ -390,7 +395,7 @@
     color: red;
     font-weight: bold;
 }
-.channel-members-loading { display: none }
+.members-1bid1J-loading { display: none }
 
 .role-3rahR_ {
   padding: 4px 6px;
@@ -601,7 +606,7 @@
 .tooltip-bottom:after {
     border-bottom-color: transparent !important;
 }
-.theme-dark .themed-popout .footer {
+.theme-dark .popout .messages-popout-wrap .footer {
     background-color: black;
 }
 .private-channel-recipients-invite .footer button {
@@ -646,9 +651,9 @@
 .spinner-wandering-cubes .spinner-item {
     background-color: red;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: black;
+    background-color: black !important;
     color: rgba(255, 255, 255, 1);
     border: 1px solid red;
 }
@@ -742,20 +747,20 @@ a {
     background-color: black;
     box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: black !important;
     border-color: red !important;
 }
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background-color: transparent;
-    box-shadow: none;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none !important;
+    box-shadow: none !important;
 }
-.theme-dark .themed-popout,
-.theme-dark .themed-popout .header {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap,
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black !important;
     border: none;
     box-shadow: none;
 }
@@ -1014,13 +1019,13 @@ a {
 .guilds-wrapper .guilds .guild.unread:before {
    background: #cc1111;
  }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: #cc1111;
     font-size: 14px; 
     font-weight: bold;
  }
 
-.theme-dark .channel-members .member:hover {
+.theme-dark .members-1bid1J .member:hover {
     background: black !important;
     border: 5px solid #cc1111;
     border-radius: 10px;
@@ -1179,7 +1184,8 @@ a {
 #user-profile-modal .actions .btn.add-friend {
     background: rgba(255,0,0,0.3);
 }
-.theme-dark .iconForeground-1U-F96 {
+.theme-dark .iconForeground-1U-F96,
+.theme-dark .activityIconForeground-1o4t0w {
     fill: rgba(255,0,0,0.7);
 }
 .theme-dark .content-249Pr9, .theme-dark .description-YnaVYa, .theme-dark .descriptionUsername-1quCGz, .theme-dark .contentTitle-sL6DrN  {
@@ -1326,7 +1332,7 @@ color: #c11;
     padding: 5px 5px;
      font-weight: bold;
 }
-.channel-members .bot-tag, .aka-2Ba14Z {
+.members-1bid1J .bot-tag, .aka-2Ba14Z {
     height: 14px;
     line-height: 15px;
     padding: 2px 4px;
@@ -1586,7 +1592,7 @@ background: red;
     line-height: 16px;
     padding: 4px 4px;
 }
-.channel-members .bot-tag {
+.members-1bid1J .bot-tag {
     height: 14px;
     line-height: 15px;
     padding: 2px 4px;
