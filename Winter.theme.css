@@ -1,4 +1,4 @@
-//META{"name":"Winter","description":"Enjoy the 'Cool' Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Winter","description":"Enjoy the 'Cool' Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 
 .app,.bda-backdrop,#pubs-container:before {
 	background-image: url("https://wallpapercave.com/wp/aHXgonf.jpg") !important;
@@ -67,7 +67,7 @@
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
@@ -112,8 +112,9 @@
 .topSectionSpotify-3744IX {
     background: rgba(76, 175, 80,0.4);
 }
-.channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: #4d8ff1 !important;
+    white-space: pre-wrap;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: .04em;
@@ -126,8 +127,9 @@
      background-repeat: no-repeat;
     background-position: center; 
     text-shadow: 3px 3px 7px #000,1px 2px 3px #000,1px 2px 3px #000;
+    
   }
-.channel-members .member {
+.members-1bid1J .member {
   background: rgba(79, 132, 196, 0.3);
    transition:background-color 0.4s ease 0s;
     padding: 5px 16px 5px 30px;
@@ -139,12 +141,12 @@
      background-repeat: no-repeat;
     background-position: center; 
  }
-.theme-dark .channel-members .member:hover {
+.theme-dark .members-1bid1J .member:hover {
     background-color: #7cadf5 !important;
     margin-bottom: .79em;
     border: 1px solid #FFFFFF;
  }
-.theme-dark .channel-members .member:link{
+.theme-dark .members-1bid1J .member:link{
     background-color: #7cadf5 !important;
     margin-bottom: .79em;
     border: 1px solid #FFFFFF;
@@ -160,7 +162,7 @@
 .headerPlaying-2Q7mBy {
     background: rgba(0, 0, 255,0.3) !important;
 }
-.channel-members-loading { display: none }
+.members-1bid1J-loading { display: none }
 
 .avatarNormal-3luwna {
     border-color: transparent;
@@ -207,6 +209,18 @@
     background-color: rgba(0,0,43,0.6) !important;
 }
 .avatar-small .status {
+    width: 21px;
+    height: 21px;
+    right: 22px !important;
+    bottom: 1px !important;
+    top: 1px;
+    transform: rotate(-9deg);
+    border-radius: 1px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    opacity: 0.9;
+    border: 1px solid white !important;
+}
+.theme-dark .status-2Devx1 {
     width: 21px;
     height: 21px;
     right: 22px !important;
@@ -828,7 +842,7 @@ color: white;
     font-size: 16px;
     padding: 5px 5px;
 }
-.channel-members .bot-tag {
+.members-1bid1J .bot-tag {
     height: 14px;
     line-height: 15px;
     padding: 2px 4px;
@@ -1137,12 +1151,12 @@ form, .member:hover {
     background-color: #00006f;
     color: #fff;
 }
-.theme-dark .themed-popout .header {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black !important;
     box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: #000080;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: #000080 !important;
     border-color: black;
 }
 .need-help-modal.deprecated .header {
@@ -1178,20 +1192,24 @@ form, .member:hover {
 .theme-dark .search-results-wrap .channel-separator:before {
     border-color: transparent;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: black;
+    background-color: black !important;
     color: white;
+}
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black;
+    box-shadow: none;
 }
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background-color: transparent;
-    box-shadow: none;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none !important;
+    box-shadow: none !important;
 }
-.theme-dark .themed-popout {
-    background-color: #000066;
+.theme-dark .popout .messages-popout-wrap {
+    background-color: #000066 !important;
     border: black;
     box-shadow: none;
 }
