@@ -1,4 +1,4 @@
-//META{"name":"NoGameNoLife_Theme","description":"I hope you enjoy the theme","author":"DevilsTheAvenged","version":"1.1"}*//{}
+//META{"name":"NoGameNoLife_Theme","description":"I hope you enjoy the theme","author":"DevilsTheAvenged","version":"1.2"}*//{}
 .app {
 	background: url("https://wallpapercave.com/wp/wp1825485.jpg") 0/cover !important;
 }
@@ -21,7 +21,7 @@
 .theme-dark .chat,
 .chat .messages,
 .theme-dark .friends-table, .theme-dark .messages-wrapper,
-.theme-dark .channel-members,
+.theme-dark .members-1bid1J,
 .theme-dark #friends,
 .theme-dark .headerBar-cxbhPD,
 .theme-dark .ui-standard-sidebar-view {
@@ -156,10 +156,10 @@ a,
     background-color: #840058;
     border-color: rgba(0, 0, 0, 0);
 }
-.theme-dark .themed-popout,
-.theme-dark .themed-popout .header,
+.theme-dark .popout .messages-popout-wrap,
+.theme-dark .popout .messages-popout-wrap .header,
 .theme-dark .private-channel-recipients-invite .friend {
-    background-color: #4F1C4F;
+    background-color: #4F1C4F !important;
     border: none;
     box-shadow: none;
 }
@@ -654,7 +654,7 @@ a,
 .theme-dark .activityIconForeground-1o4t0w {
     fill: #4F1C4F;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
 }
 /* --------------------------------- */
@@ -839,20 +839,16 @@ a,
     font-size: 1.2rem;
 }
 /* Pinned Messages */
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
-.theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: black;
-    color: white;
-}
+
 .theme-dark .themed-popout .header .subtitle, 
 .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: #331233;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: #331233 !important;
     border-color: black;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
     border-color: #A8000B;
 }
 .messages-popout .message-group .action-buttons,
@@ -864,8 +860,8 @@ a,
     transition: none;
 }
 /* Search and Calendar */
-.theme-dark .themed-popout .header {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black !important;
     box-shadow: none;
 }
 .theme-dark .search-results-wrap .search-result:before,
@@ -929,7 +925,7 @@ a,
 .barFill-18ABna {
     background: #84003B !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
     background-color: transparent;
     box-shadow: none;
 }
@@ -937,7 +933,7 @@ a,
 .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #4F1C4F;
     color: white;
@@ -1598,8 +1594,10 @@ a,
 }
 /* User Profile Popout and User Modal */
 
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
-    background: #4F1C4F;
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover, 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+    background: #4F1C4F !important;
     border: 2px solid #840058;
 }
 
