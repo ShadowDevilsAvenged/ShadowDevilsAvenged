@@ -1,4 +1,4 @@
-//META{"name":"DoritosTheme","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"DoritosTheme","description":"Enjoy the Video Game Culture","author":"DevilsTheAvenged","version":"2.1"}*//{}
 @import url(https://cdn.rawgit.com/DevilsLynAvenged/Other-Workspace/edc4ddcb/SomeUnImportantStuff/Doritos2.theme.css);
 /* Backgrounds */
 .app {
@@ -37,7 +37,7 @@
     background-color: transparent;
     border: none;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
 	color: rgb(255, 187, 16) !important;
 	font-weight: bold;
 	background: rgba(217, 3, 7, 0.5);
@@ -47,11 +47,11 @@
 	padding-right: 13px;
 	text-shadow: 1px 1px 5px #000, 1px 1px 5px #000;
 }
-.channel-members .member:hover {
+.members-1bid1J .member:hover {
 	background: rgba(217, 3, 7, 0.17) !important;
 }
-.theme-dark .channel-members,
-.channel-members-wrap>div {
+.theme-dark .members-1bid1J,
+.members-1bid1J-wrap>div {
 	background: rgba(0, 0, 0, 0.11) !important;
 }
 
@@ -86,6 +86,14 @@
 	font-weight: bold;
 	border: 3px solid #FD5E00;
 	border-right-color: transparent;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+     background-color: rgb(217,3,7);
+}
+.theme-dark .search-results-wrap .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: rgb(217, 3, 7);
+    color: #FD5E00;
 }
 .chat .jump-to-present-bar button:first-child:after {
 	content: "Crunch!";
@@ -138,7 +146,7 @@
 	font-weight: normal;
 }
 
-.theme-dark .channel-members .member.popout-open {
+.theme-dark .members-1bid1J .member.popout-open {
 	background: transparent;
 	border: 1px solid #FD5E00;
 }
@@ -371,7 +379,7 @@
      position: relative;
      left: 4px;
  }
- .channel-members-loading { display: none }
+ .members-1bid1J-loading { display: none }
 .theme-dark .quickMessage-OCo-Q0 {
   background: black;
   border-color: #D90307;
@@ -976,7 +984,7 @@ background-color: #b00306;
     font-size: 16px;
     padding: 5px 5px;
 }
-.channel-members .bot-tag {
+.members-1bid1J .bot-tag {
     height: 14px;
     line-height: 15px;
     padding: 2px 4px;
@@ -1199,8 +1207,30 @@ background-color: #b00306;
 .theme-dark .search-results-wrap .search-result .hit {
   box-shadow: 0px 2px 19px 3px #202020;
 }
-
-.channel-members .member .member-activity {
+.theme-dark .activityIconForeground-1o4t0w {
+   fill: #FFBB10;
+}
+.theme-dark .popout .messages-popout-wrap {
+    background-color: black;
+    border: 1px solid black
+    box-shadow: none;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap .search-result:after,
+.theme-dark .search-results-wrap .search-result:before {
+    background: transparent;
+}
+.theme-dark .search-results-wrap .channel-separator:before {
+    border-color: transparent;
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: red;
+    color: #fff;
+}
+.activityText-258pdj {
     color: #c90306;
     font-size: 11px;
     font-weight: 400;
@@ -1514,25 +1544,25 @@ input[type="checkbox" i][value*="on"] {
     border-radius: 50px;
 }
 
-.theme-dark .channel-members .avatar-small .status-online {
+.theme-dark .members-1bid1J .avatar-small .status-online {
     border-color: #2f3136;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-.theme-dark .channel-members .avatar-small .status-idle {
+.theme-dark .members-1bid1J .avatar-small .status-idle {
     border-color: #2f3136;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-.theme-dark .channel-members .avatar-small .status-dnd {
+.theme-dark .members-1bid1J .avatar-small .status-dnd {
     border-color: #2f3136;
     width: 10px;
     height: 10px;
     border-radius: 50%;
 }
-.theme-dark .channel-members .avatar-small .status-streaming {
+.theme-dark .members-1bid1J .avatar-small .status-streaming {
     border-color: #2f3136;
     width: 10px;
     height: 10px;
@@ -1689,17 +1719,17 @@ input[type="checkbox" i][value*="on"] {
 #user-profile-modal .empty {
     background: black;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
  background-image: linear-gradient(90deg,rgba(47,149,254,0.6),rgba(0, 0, 0, 0));
 }
 [class*="channel-members-loading"][style*="opacity: 1;"]{
     background: red !important;
     opacity: 0.3 !important;
 }
-.channel-members-loading .heading, .channel-members-loading .member {
+.members-1bid1J-loading .heading, .members-1bid1J-loading .member {
    display: none;
 }
-.channel-members-loading .background {
+.members-1bid1J-loading .background {
    animation: flash 5s ease-in-out infinite;
  }
  @keyframes flash {
