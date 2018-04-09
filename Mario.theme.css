@@ -1,4 +1,4 @@
-//META{"name":"Mario","description":"The Great Mario Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Mario","description":"The Great Mario Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
 .app,
 .callout-backdrop,
@@ -1004,16 +1004,16 @@ color: white !important;
     color: white;
     height: 25px;
 }
-.theme-dark .channel-members-loading {
+.theme-dark .members-1bid1J-loading {
  background-image: url(https://pre00.deviantart.net/d212/th/pre/f/2017/092/6/6/super_mario_run_smartphone_wallpaper_head_only_by_colombeen-db4g95x.jpg) !important;
  background-size: cover !Important;
  background-position: 50% 10% !important;
  opacity: 0.6 !important;
 }
-.channel-members-loading .heading, .channel-members-loading .member {
+.members-1bid1J-loading .heading, .members-1bid1J-loading .member {
  background: transparent !important;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(212,33,40, 0.5), rgba(0, 0, 0, 0));
 }
 
@@ -1055,7 +1055,7 @@ color: white !important;
     margin: 0 auto;
     color: white;
 }
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap {
     background-color: #2E3192 !important;
     border: 3px solid #E4BA4B;
 }
@@ -1079,10 +1079,10 @@ color: white !important;
     background-color: #435FAB;
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background: #435FAB;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
+    background: #435FAB !important;
     color: white !important;
-    border: 3px solid #E4BA4B;
+    border: 3px solid #E4BA4B !important;
 }
 .need-help-modal.deprecated .footer {
     background-color: #2E3192;
@@ -1332,6 +1332,10 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     border-radius: 3px;
     color: white;
 }
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none !important;
+    box-shadow: none !important;
+}
 #friends .friends-table .friends-row .friends-column-status .friend-activity-text, #friends .friends-table .friends-row .friends-column-status .status-text, #friends .friends-table .friends-row .discord-tag .discriminator, #friends .friends-table .friends-row .discord-tag .username  {
     color: white;
 }
@@ -1468,11 +1472,11 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 }
 /* Main Chat Area Stuff */
 
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
     border: 3px solid #E4BA4B;
     background-color: #D42128;
 }
-.channel-members .avatar-small .status {
+.members-1bid1J .avatar-small .status {
     border: 3px solid black !important;
     bottom: -2px;
     right: -2px;
@@ -1483,7 +1487,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 85%,#D42128);
 }
-.channel-members .avatar-small .status.status-typing {
+.members-1bid1J .avatar-small .status.status-typing {
     border: 3px solid black !important;
     bottom: -2px!important;
     right: -2px !important;
@@ -1549,7 +1553,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .typeMacOS-3IiWed, .titleBar-3_fDwJ, .guilds-wrapper .guilds {
     background: rgba(0,0,0,0.35) !important;
 }
-.scroller-fzNley.channel-members {
+.scroller-fzNley.members-1bid1J {
     background: rgba(0,0,0,0.21) !important;
 }
 .chat .avatar-large {
@@ -1724,7 +1728,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     color: rgba(255, 255, 255, 1) !important;
     font-size: 14px;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
     background: rgba(46,49,146,.5);
     padding-top: 12px;
@@ -1870,7 +1874,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .tooltip.tooltip-black.tooltip-left:after {
     border-left: none;
 }
-.theme-dark .topic-1KFf6J,.channel-members .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
+.theme-dark .topic-1KFf6J,.members-1bid1J .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
     color: white;
 }
 .theme-dark .activityIconForeground-1o4t0w {
