@@ -1,4 +1,4 @@
-//META{"name":"Twitch_Theme","description":"Regular Twitch Theme","author":"DevilsTheAvenged","version":"1.1"}*//{}
+//META{"name":"Twitch_Theme","description":"Regular Twitch Theme","author":"DevilsTheAvenged","version":"1.2"}*//{}
 @import url('https://fonts.googleapis.com/css?family=Marvel');
 .app {
 	background-image: url("https://images8.alphacoders.com/702/thumb-1920-702959.jpg");
@@ -29,7 +29,7 @@
 .theme-dark .chat,
 .chat .messages,
 .theme-dark .friends-table, .theme-dark .messages-wrapper,
-.theme-dark .channel-members,
+.theme-dark .members-1bid1J,
 .theme-dark #friends,
 .theme-dark .headerBar-cxbhPD,
 .theme-dark .ui-standard-sidebar-view,
@@ -77,12 +77,15 @@
     color: white;
     text-transform: capitalize;
 }
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
-    background: black;
+.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
+.theme-dark .member-2FrNV0.popout-open:hover, 
+.theme-dark .member-2FrNV0:hover .content-3JzEqq,
+.memberOnline-1xn3V8.member-2FrNV0.popout-open {
+    background: black !important;
     border: 2px solid #3c2762;
 }
 
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
 }
 .theme-dark .iconForeground-1U-F96 {
@@ -472,8 +475,8 @@
        background-image: url(https://png.icons8.com/ultraviolet/40/FFFFFF/pin.png);
        background-size: cover;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: black !important;
     border-color: transparent;
 }
 [class*="iconActive-3K4uxh icon-mr9wAc iconMargin-2Js7V9"][name*="People"],
@@ -808,8 +811,8 @@ a,
     border-radius: 0px;
 }
 /* Search, Mention, Pins and such */
-.theme-dark .themed-popout .header {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black !important;
     box-shadow: none;
 }
 .theme-dark .search-results-wrap .search-result:before,
@@ -842,8 +845,8 @@ a,
     border-top: 2px solid black;
 }
 
-.theme-dark .themed-popout {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap {
+    background-color: black !important;
     border: none;
     box-shadow: none;
 }
@@ -871,17 +874,17 @@ a,
     background: black;
     box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background-color: transparent;
-    box-shadow: none;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none !important;
+    box-shadow: none !important;
 }
 .theme-dark .themed-popout .header .subtitle, 
 .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background-color: #503483;
+    background-color: #503483 !important;
     color: white;
 }
 .theme-dark .searchAnswer-yD90ey, 
@@ -939,6 +942,9 @@ a,
     border-bottom-color: transparent;
     color: white;
     background-color: black;
+}
+[class="guild-inner"][style*="height: 20px;"] {
+    background-color: black !important
 }
 .theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name, 
 .theme-light .calendarPicker-16Q6sl .react-datepicker__day-name {
@@ -1373,7 +1379,7 @@ a,
 .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
     background-color: transparent;
 }
-.theme-dark .themed-popout .footer,
+.theme-dark .popout .messages-popout-wrap .footer,
 .theme-dark .private-channel-recipients-invite .friend {
     background-color: black;
 }
