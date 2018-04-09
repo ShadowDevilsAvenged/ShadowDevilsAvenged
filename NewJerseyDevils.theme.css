@@ -1,4 +1,4 @@
-//META{"name":"NewJerseyDevils","description":"New Jersey Rules","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"NewJerseyDevils","description":"New Jersey Rules","author":"DevilsTheAvenged","version":"2.1"}*//{}
 
 .app,
 .callout-backdrop,
@@ -661,7 +661,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .theme-dark .title-qAcLxz, .container-iksrDt {
    background: rgba(0, 0, 0, 0.4) !important;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
    background: rgba(0, 0, 0, 0.6) !important;
 }
 .theme-dark .iconForeground-2c7s3m, .theme-dark .title-2Ul_Rx {
@@ -877,7 +877,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     right: 4px;
 }
 
-.theme-dark .channel-members h2,
+.theme-dark .membersGroup-3_dP5E,
 .activityText-258pdj{
     color: rgba(255,255,255,0.7);
 }
@@ -1397,24 +1397,41 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .need-help-modal.deprecated a {
    color: #C8102E;
 }
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap {
     background-color: black !important;
     border: 3px solid #C8102E;
 }
-.theme-dark .themed-popout .footer {
+.theme-dark .popout .messages-popout-wrap .footer {
     background-color: rgba(0, 0, 0,.6);
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: black;
-    border: 3px solid #C8102E;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: black !important;
+    border: 3px solid #C8102E !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover {
-    background-color: black;
-    border: 3px solid #C8102E;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background-color: transparent;
+    box-shadow: none;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .search-results-wrap .search-result:before,
+.theme-dark .search-results-wrap .search-result:after {
+    background: transparent;
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
     background-color: black;
-    border: 2px solid #C8102E;
+    color: #fff;
+    border: 1px solid red;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+    background-color: black !important;
+    border: 3px solid #C8102E !important;
+}
+.theme-dark .popout .messages-popout-wrap .header {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: black !important;
+    border: 2px solid #C8102E !important;
 }
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: white;
@@ -1831,7 +1848,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 }
 
 .message-group:not(.compact) .avatar-large[style*="235302947058089984"]~ .comment .message h2 span.username-wrapper::after,
-.channel-members .member .avatar-small[style="235302947058089984"]~ .member-inner .member-username .member-username-inner::after {
+.members-1bid1J .member .avatar-small[style="235302947058089984"]~ .member-inner .member-username .member-username-inner::after {
 	content: "New Jersey Devils Fan" !important;
 	color: #fff !important;
 	border-radius: 3px;
@@ -1882,7 +1899,7 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
