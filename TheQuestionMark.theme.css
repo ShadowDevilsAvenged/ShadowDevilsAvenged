@@ -1,4 +1,4 @@
-//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.4"}*//{}
+//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.5"}*//{}
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
   background: rgba(0,0,0, 0.3) !important;
@@ -33,7 +33,7 @@
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
@@ -79,7 +79,7 @@
 .theme-dark .message-group h2 .timestamp{
     color: #e53b0a !important;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color:  #e53b0a;
     font-size: 14px;
     font-weight: 400;
@@ -114,7 +114,7 @@
     color: silver;
     transition: border .3s ease-in-out, color .6s ease-in-out;
 }
-.channel-members .member .member-username-inner:after {
+.members-1bid1J .member .member-username-inner:after {
     content: "?";
 }
 .theme-dark .mention:after {
@@ -143,7 +143,7 @@ span:not(.spinner-item){
 .theme-dark .topic-1KFf6J a,.channelIcon-1KtcMW {
     color: #e53b0a;
 }
-.theme-dark .channel-members-loading {
+.theme-dark .members-1bid1J-loading {
     display: none;
 }
 .message-group .comment .attachment .upload>.filename {
@@ -480,7 +480,7 @@ a img {
     stroke: white;
     stroke-width: 2;
 }
-.theme-dark .channel-members .member:hover {
+.theme-dark .members-1bid1J .member:hover {
     background: transparent;
     border: 1px solid #e53b0a;
 }
@@ -488,10 +488,14 @@ a img {
     background-color: #e53b0a;
 }
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq,
-.theme-dark .member-2FrNV0.popout-open .content-3JzEqq, 
-.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq {
+.theme-dark .member-2FrNV0.popout-open:hover .content-3JzEqq,
+.memberOnline-1xn3V8.member-2FrNV0.popout-open {
     background: transparent;
-    border: 2px solid #e53b0a;
+    border: 1px solid #e53b0a !important;
+}
+.theme-dark .member-2FrNV0:hover .content-3JzEqq {
+     background: transparent;
+     border: 1px solid #e53b0a !important;
 }
 .theme-dark .message-group .embed {
     background-color: transparent;
@@ -873,7 +877,7 @@ a {
     background-color: transparent;
     border: 2px solid #e53b0a;
 }
-.channel-members .bot-tag {
+.members-1bid1J .bot-tag {
     background: black;
     border: 1px solid #e53b0a;
 }
@@ -1069,7 +1073,7 @@ a {
     background-color: black;
     color: #e53b0a;
 }
-.channel-members .member .member-activity-text,
+.activityText-258pdj,
 .search-popout .date-picker .date-picker-hint .hint {
     color: white;
 }
@@ -1129,18 +1133,18 @@ a {
     color: white;
     border: 1px solid #e53b0a;
 }
-.theme-dark .themed-popout {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap {
+    background-color: black !important;
     border: none;
     box-shadow: none;
-    border: 1px solid #e53b0a;
+    border: 1px solid #e53b0a !important;
 }
 .theme-dark .themed-popout .header .title,
 .theme-dark .protip-q743VF.popout-footer .tip {
-    color: #e53b0a;
+    color: #e53b0a !important;
 }
-.theme-dark .themed-popout .header {
-   background-color: black;
+.theme-dark .popout .messages-popout-wrap .header {
+   background-color: black !important;
 }
 .header-2Lg0Oe {
     padding: 55px;
@@ -1154,15 +1158,16 @@ a {
     padding-bottom: 3px;
     border: 1px solid #e53b0a;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+    background-color: black !important;
     border: 1px solid #e53b0a !important;
 }
 
 .messages-popout .message-group .action-buttons {
-    box-shadow: none;
+    box-shadow: none !important;
+    border: none !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover {
     color: rgb(255, 255, 255);
 }
 .theme-dark .themed-popout .header .subtitle, 
@@ -1170,14 +1175,14 @@ a {
 .theme-dark .recent-mentions-popout .mention-filter .label {
     color: rgb(255, 255, 255) !important;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background-color: black;
-    box-shadow: none;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: black !important;
+    box-shadow: none !important;
 }
 .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
     background-color: black !important;
     color: white;
 }
@@ -1586,8 +1591,8 @@ a {
     border: 1px solid orange;
     background: black;
 }
-.theme-dark .themed-popout .footer {
-    background-color: black;
+.theme-dark .popout .messages-popout-wrap .footer {
+    background-color: black !important;
 }
 .private-channel-recipients-invite .footer button {
     background-color: black;
