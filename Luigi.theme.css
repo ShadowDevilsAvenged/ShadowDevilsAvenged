@@ -1,4 +1,4 @@
-//META{"name":"Luigi","description":"The Great Luigi Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Luigi","description":"The Great Luigi Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 @import url(https://rawgit.com/DevilsLynAvenged/Other-Workspace/master/SomeUnImportantStuff/ThemeFixerv2.theme.css);
 .app,
 .callout-backdrop,
@@ -990,16 +990,16 @@ color: white !important;
     color: white;
     height: 25px;
 }
-.theme-dark .channel-members-loading {
+.theme-dark .members-1bid1J-loading {
  background-image: url(https://cdn.dribbble.com/users/82565/screenshots/1135988/luigi22.png) !important;
  background-size: cover !Important;
  background-position: 50% 10% !important;
  opacity: 0.6 !important;
 }
-.channel-members-loading .heading, .channel-members-loading .member {
+.members-1bid1J-loading .heading, .members-1bid1J-loading .member {
  background: transparent !important;
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0), rgba(212,33,40, 0.5), rgba(0, 0, 0, 0));
 }
 
@@ -1041,7 +1041,7 @@ color: white !important;
     margin: 0 auto;
     color: white;
 }
-.theme-dark .themed-popout {
+.theme-dark .popout .messages-popout-wrap {
     background-color: #284A12 !important /* Darker Color */;
     border: 3px solid #019000 /* Border Color */;
 }
@@ -1063,8 +1063,11 @@ color: white !important;
     background-color: #284A12 /* Darker Color */;
     color: white;
 }
-.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
-    background: #019000 /* Middle Color */;
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+   background-color: green;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
+    background: #019000 !important /* Middle Color */;
     color: white !important;
     border: 3px solid #019000 /* Border Color */;
 }
@@ -1072,6 +1075,10 @@ color: white !important;
     background-color: #284A12 /* Darker Color */;
     border-top: none;
     color: white;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none;
+    box-shadow: none;
 }
 .theme-dark.context-menu .context-menu {
     background: #284A12 /* Darker Color */;
@@ -1453,11 +1460,11 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 }
 /* Main Chat Area Stuff */
 
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
     border: 3px solid #019000;
     background-color: #284A12;
 }
-.channel-members .avatar-small .status {
+.members-1bid1J .avatar-small .status {
     border: 3px solid black !important;
     bottom: -2px;
     right: -2px;
@@ -1465,7 +1472,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     height: 13px;
     border-radius: 50%;
 }
-.channel-members .avatar-small .status.status-typing {
+.members-1bid1J .avatar-small .status.status-typing {
     border: 3px solid black !important;
     bottom: -2px!important;
     right: -2px !important;
@@ -1531,7 +1538,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     font-size: 12px;
     text-align: center;
 }
-.scroller-fzNley.channel-members {
+.scroller-fzNley.members-1bid1J {
     background: rgba(0,0,0,0.21) !important;
 }
 .theme-dark .message-group a {
@@ -1705,7 +1712,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     color: rgba(255, 255, 255, 1) !important;
     font-size: 14px;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .membersGroup-3_dP5E {
     color: white;
     background: rgba(40,74,18,.5);
     padding-top: 12px;
@@ -1851,7 +1858,7 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .tooltip.tooltip-black.tooltip-left:after {
     border-left: none;
 }
-.theme-dark .topic-1KFf6J,.channel-members .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
+.theme-dark .topic-1KFf6J,.members-1bid1J .member .member-activity-text,.theme-dark .channelName-1G03vu, .theme-dark .groupDM-3gzbyG .channelName-1G03vu, .theme-dark .groupDMManaged-2z2S1A .channelName-1G03vu,.channelIcon-1KtcMW,.name-3gtcmp {
     color: white;
 }
 .theme-dark .activityIconForeground-1o4t0w {
