@@ -1,4 +1,4 @@
-//META{"name":"Ram_Theme","description":"Team Ram Theme","author":"DevilsTheAvenged","version":"2"}*//{}
+//META{"name":"Ram_Theme","description":"Team Ram Theme","author":"DevilsTheAvenged","version":"2.1"}*//{}
 .app,.callout-backdrop,#pubs-container:before {
 	background-image: url("https://img00.deviantart.net/6892/i/2016/269/a/9/minimalist_wallpaper___ram__re_zero__by_mrtapoz_kun-daisdq0.jpg");
 	background-size: cover !important;
@@ -58,7 +58,7 @@ color: white;
 .theme-dark .friends-table, .theme-dark .messages-wrapper {
     background-color: transparent;
 }
-.theme-dark .channel-members {
+.theme-dark .members-1bid1J {
     background-color: transparent;
 }
 .theme-dark .title-qAcLxz {
@@ -820,7 +820,7 @@ font-weight: bold;
   background: rgba(0,0,0,0.6);
 }
 .theme-dark .search-results-wrap .search-result .hit {
-  box-shadow: 0px 2px 19px 3px #202020;
+  box-shadow: none;
 }
 .guilds-wrapper .guilds .guild.unread:before {
     background: pink;
@@ -1292,7 +1292,8 @@ u:hover, ins:hover {
     color: #f08eaf;
     text-shadow: 3px 2px 4px black;
 }
-.theme-dark .iconForeground-1U-F96 {
+.theme-dark .iconForeground-1U-F96,
+.theme-dark .activityIconForeground-1o4t0w {
     fill: #f08eaf;
  }
 .theme-dark .attachButtonPlus-2l1NEU {
@@ -1301,7 +1302,11 @@ u:hover, ins:hover {
 .attachButtonPlus-2l1NEU {
     opacity: 1;
 }
-.theme-dark .channel-members h2 {
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+    background: none;
+    box-shadow: none;
+}
+.theme-dark .membersGroup-3_dP5E {
 	color: #F4ABC3 !important;
 	background: rgba(243, 165, 191,0.4);
 	padding-top: 5%;
@@ -1340,6 +1345,29 @@ u:hover, ins:hover {
 }
 .theme-dark .message-group .embed-wrapper .embed-color-pill {
 	background-color: transparent;
+}
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group,
+.need-help-modal.deprecated .header,
+.theme-dark .search-results-wrap {
+    background-color: rgb(240,142,175);
+}
+.theme-dark .search-results-wrap .search-result:before,
+.theme-dark .search-results-wrap .search-result:after {
+    background: transparent;
+}
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+    background-color: black;
+    color: #fff;
+}
+.theme-dark .popout .messages-popout-wrap .header,
+.theme-dark .popout .messages-popout-wrap {
+    background-color: black;
+    box-shadow: none;
+}
+.theme-dark .search-results-wrap .action-buttons .jump-button,
+.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+    background-color: rgb(240, 142, 175);
+    color: white;
 }
 .chat .jump-to-present-bar button {
 	background: rgba(240, 142, 175, 0.81);
@@ -1390,17 +1418,17 @@ u:hover, ins:hover {
 .topSectionSpotify-3744IX {
     background: rgba(76, 175, 80,0.4);
 }
-.theme-dark .channel-members-loading .background {
+.theme-dark .members-1bid1J-loading .background {
  background-image: linear-gradient(90deg,rgba(47,149,254,0.6),rgba(0, 0, 0, 0));
 }
 [class*="channel-members-loading"][style*="opacity: 1;"]{
     background: red !important;
     opacity: 0.3 !important;
 }
-.channel-members-loading .heading, .channel-members-loading .member {
+.members-1bid1J-loading .heading, .members-1bid1J-loading .member {
    display: none;
 }
-.channel-members-loading .background {
+.members-1bid1J-loading .background {
    animation: flash 5s ease-in-out infinite;
  }
  @keyframes flash {
@@ -1491,7 +1519,7 @@ s:hover, strike:hover, del:hover {
     padding: 0;
     width: 7px;
 }
-.channel-members .avatar-small {
+.members-1bid1J .avatar-small {
 	width: 34px;
 	height: 34px;
 	background-size: cover;
@@ -1499,7 +1527,7 @@ s:hover, strike:hover, del:hover {
     border: 3px solid #F4ABC3;
     box-shadow: -9px 11px 26px 0px rgba(0,0,0,0.75);
 }
-.theme-dark .channel-members .member {
+.theme-dark .members-1bid1J .member {
     margin-bottom: 6%;
 }
 
@@ -1543,7 +1571,7 @@ s:hover, strike:hover, del:hover {
    font-variant: small-caps;
 }
 /* Channel Avatar Status */
-.channel-members .avatar-small .status-online {
+.members-1bid1J .avatar-small .status-online {
 	border-radius: 55px;
 	bottom: -3px;
 	height: 17px;
@@ -1552,7 +1580,7 @@ s:hover, strike:hover, del:hover {
     border: 1px solid black !important;
     background: #004d33;
  }
-.channel-members .avatar-small .status-idle {
+.members-1bid1J .avatar-small .status-idle {
 	
 	bottom: -3px;
 	height: 17px;
@@ -1562,7 +1590,7 @@ s:hover, strike:hover, del:hover {
     background: #ee9600;
     border-radius: 14%;
 }
-.channel-members .avatar-small .status-dnd {
+.members-1bid1J .avatar-small .status-dnd {
 	
 	bottom: -3px;
 	height: 17px;
@@ -1572,7 +1600,7 @@ s:hover, strike:hover, del:hover {
     background:	#a6001a;
     border-radius: 14%;
 }
-.channel-members .status-streaming{
+.members-1bid1J .status-streaming{
 	
 	bottom: -3px;
 	height: 17px;
