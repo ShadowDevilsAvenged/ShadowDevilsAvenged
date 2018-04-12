@@ -1,0 +1,51 @@
+//META{"name":"Darker-Than-Red","description":"Coloured Discord Theme Series by Waterin.","author":"Waterin","version":"1.0"}*//
+@import url(https://tinyurl.com/ydz3758d);
+
+/*Contact @Waterin#6451 for further help*/
+
+/*Background*/
+/*Change the Link below to use a background of your own.*/
+:root {
+	--main-bg: url(https://imgur.com/9s5zWxn.jpg) !important;
+}
+/*Adjust background brightness (0: original image, 1: black)*/
+.layers-20RVFW {
+  background: rgba(0,0,0,0.5) !important;
+}
+/*Rainbow Name Animations*/
+/*Change "PUT YOUR DISCORD USER ID HERE" to your discord ID*/
+[style*="avatars/PUT YOUR DISCORD USER ID HERE"].avatar-large+.comment h2 strong {
+    animation: rainbow3 4s linear infinite;
+}
+@keyframes rainbow3 { /* If you have Lag Problems with the theme then delete the "@" in the beggining of this line*/
+    0%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+    20%{text-shadow: 0 0 6px orange, 0 0 6px orange, 0 0 5px orange, 0 0 4px orange;} 
+    40%{text-shadow: 0 0 6px yellow, 0 0 6px yellow, 0 0 5px yellow, 0 0 4px yellow;} 
+    60%{text-shadow: 0 0 6px #00ff00, 0 0 6px #00ff00, 0 0 5px #00ff00, 0 0 4px #00ff00;} 
+    80%{text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff, 0 0 5px #0000ff, 0 0 4px #0000ff;} 
+    90%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;}
+    100%{text-shadow: 0 0 6px #ff0000, 0 0 6px #ff0000, 0 0 5px #ff0000, 0 0 4px #ff0000;} 
+}
+
+
+/*User Edits Zone*/
+/*Here you can make your edits to the theme at your will, pls only do those if you are sure to know what are you doing*/
+
+
+
+
+
+
+
+
+/*********************************************************************************************************************************************************************************************************************/
+/* Created by Waterin#6451
+
+
+Helped by:
+.intrnl#6939 <@177744816665395200>
+modder4869#1150 <@!392498266161414144> (Helped me with code and gave advises to make the theme work smoothly)
+DevilsLynAvenged#6457 <@235302947058089984> (helped me code some hard things that were hard for me as i was still learning CSS)
+Mixter213#5731 <@214478470972047360>
+uri#0001 <@148059412165033984>
+XGN|NFLD99#0001 <@187615613944856576> (Wrote some of the animations for me)
