@@ -1,4 +1,4 @@
-//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.5"}*//{}
+//META{"name":"Question_Mark_Theme","description":"????????","author":"DevilsTheAvenged","version":"1.6"}*//{}
  /* fix not having a background image anymore */
 .layers-20RVFW, .layer-kosS71, .container-2OU7Cz, .typing-3eiiL_ {
   background: rgba(0,0,0, 0.3) !important;
@@ -349,7 +349,7 @@ span:not(.spinner-item){
 .lookFilled-luDKDo.colorGreen-22At8E,
 .ui-standard-sidebar-view .bda-slist .bda-right button,
 .bd-pfbtn,
-.search-popout .date-picker .date-picker-hint .hint-value {
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ {
     background-color: black;
     border-radius: 0px;
     color: #e53b0a;
@@ -376,7 +376,7 @@ span:not(.spinner-item){
 .lookFilled-luDKDo.colorGreen-22At8E:hover,
 .bd-pfbtn:hover,
 .ui-standard-sidebar-view .bda-slist .bda-right button:hover,
-.search-popout .date-picker .date-picker-hint .hint-value:hover {
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hintValue-45YyWZ:hover {
     border-radius: 0px;
     color: #e53b0a;
     border: 1px solid #e53b0a;
@@ -886,15 +886,16 @@ a {
     border: none;
     border-radius: 0px;
 }
-.theme-dark .search-popout {
+.theme-dark .searchPopout-38pRYh {
     box-shadow: none;
     background-color: black;
 }
-.search-popout .option:after,
-.search-popout .option.selected:after {
+.option-1MvVr1:after,
+.option-1MvVr1.selected-_bTXUG:after,
+.theme-dark .option-1MvVr1.selected-_bTXUG {
     background: black;
 }
-.search-popout .results-group .header {
+.theme-dark .resultsGroup-2qzvNj .header-1pJ5N1 {
     color: #e53b0a;
     text-transform: capitalize;
 }
@@ -902,10 +903,11 @@ a {
     border-top: none;
 }
 .search-popout .option.user .display-username,
-.search-popout .option .filter {
+.theme-dark .searchOption-vKNX73 .filter-3kZ3tT, .theme-dark .option-1MvVr1 .filter-3kZ3tT {
+
     color: #e53b0a;
 }
-.search-popout .search-query {
+.theme-dark .searchQuery-3o17HL {
     border-bottom: none;
     color: white;
 }
@@ -915,11 +917,11 @@ a {
 .search-popout .option.user .displayed-nick {
     color: white;
 }
-.search-popout .option strong,
-.search-popout .option .answer {
-    color: white;
+.theme-dark .option-1MvVr1 strong,
+.theme-dark .searchOption-vKNX73 .answer-9L5NhD {
+  color: white;
 }
-.search-popout .option .non-text {
+.theme-dark .option-1MvVr1 .nonText-1oayCI {
     color: #942606;
 }
 .search-popout .option.selected {
@@ -1062,19 +1064,17 @@ a {
 .guilds-wrapper .guilds .guild.selected:before {
     background: #f7663c;
 }
-.search-popout .date-picker .date-picker-hint {
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz {
     border-top: none;
 }
-.search-popout .date-picker {
-    border-top: none;
-}
+
 
 .theme-dark .searchAnswer-yD90ey, .theme-dark .searchFilter-1fJ0cd {
     background-color: black;
     color: #e53b0a;
 }
 .activityText-258pdj,
-.search-popout .date-picker .date-picker-hint .hint {
+.theme-dark .datePicker-1RD4eT .datePickerHint-1iW7Wz .hint-21tC6F {
     color: white;
 }
 .activity-1PAe08 strong{
@@ -1969,96 +1969,55 @@ a {
     mask: none;
 }
 /* This Weeks Update Right Now */ 
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__current-month {
    background: black;
    color: white;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker {
     background: black;
     border: none;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
+.react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled.react-datepicker__day--outside-month {
     border: none;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--disabled,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--disabled,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--disabled, 
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--disabled,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--disabled,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--disabled.react-datepicker__day--weekend,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--disabled.react-datepicker__day--weekend {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled, 
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--disabled:hover {
     border: none;
     color: rgba(255,255,255,0.2);
     background: black;
 }
-.theme-dark .theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after, 
-.theme-light .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:after {
+
    background: none;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--today:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--today:hover {
+.calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected {
+
     background-color: #EB633C;
     border: 1px solid rgba(255,255,255,0.4);
     color: white;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day {
     background: black;
     border: none;
     color: rgba(255,255,255,0.8);
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend:hover {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day:hover {
     background: #EE7755;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__day-names .react-datepicker__day-name {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day-name {
    color: white;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__header {
    background: black;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__header .react-datepicker__current-month {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__current-month {
    border: none;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day--outside-month {
    color: rgba(255,255,255,0.4);
    border: none;
 }
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--mon.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--tue.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--wed.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--thu.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--fri.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sat.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover,
-.theme-light.search-popout .date-picker .calendarPicker-16Q6sl .react-datepicker .react-datepicker__month-container .react-datepicker__month .react-datepicker__week .react-datepicker__day.react-datepicker__day--sun.react-datepicker__day--weekend.react-datepicker__day--outside-month:hover {
+.theme-dark .calendarPicker-16Q6sl .react-datepicker__day--disabled, .theme-dark .calendarPicker-16Q6sl .react-datepicker__day--outside-month:hover { 
     background: #B72F08;
 }
 .botTagRegular-288-ZL.botTag-1OwMgs {
