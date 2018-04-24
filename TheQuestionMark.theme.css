@@ -1133,7 +1133,7 @@ a {
     color: white;
     border: 1px solid #e53b0a;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: black !important;
     border: none;
     box-shadow: none;
@@ -1143,7 +1143,7 @@ a {
 .theme-dark .protip-q743VF.popout-footer .tip {
     color: #e53b0a !important;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
    background-color: black !important;
 }
 .header-2Lg0Oe {
@@ -1158,7 +1158,7 @@ a {
     padding-bottom: 3px;
     border: 1px solid #e53b0a;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: black !important;
     border: 1px solid #e53b0a !important;
 }
@@ -1167,7 +1167,8 @@ a {
     box-shadow: none !important;
     border: none !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button:hover {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+:hover {
     color: rgb(255, 255, 255);
 }
 .theme-dark .themed-popout .header .subtitle, 
@@ -1175,14 +1176,16 @@ a {
 .theme-dark .recent-mentions-popout .mention-filter .label {
     color: rgb(255, 255, 255) !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: black !important;
     box-shadow: none !important;
 }
 .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+ {
     background-color: black !important;
     color: white;
 }
@@ -1474,6 +1477,12 @@ a {
     color: rgba(255, 255, 255, 0.3);
 }
 /* Friend and DMs (Finally) */
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer {
+    background-color: black;
+    box-shadow: none;
+}
 .private-channels .channel.selected a {
     background-color: rgba(0,0,0,.6);
     color: #e53b0a;
@@ -1591,7 +1600,7 @@ a {
     border: 1px solid orange;
     background: black;
 }
-.theme-dark .popout .messages-popout-wrap .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB{
     background-color: black !important;
 }
 .private-channel-recipients-invite .footer button {
