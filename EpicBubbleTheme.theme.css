@@ -76,18 +76,25 @@
     background-color: transparent;
     border-color: transparent;
 }
-.theme-dark .members-1bid1J-loading[style*="opacity: 1;"] {
-    background: transparent !important;
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout .footer {
+    background-color: rgba(231, 254, 255,0.3) !important;
+    box-shadow: none;
 }
-.theme-dark .members-1bid1J-loading .member,.theme-dark .members-1bid1J-loading .heading,.theme-dark .members-1bid1J-loading .member:nth-child(3n+2), .theme-dark .members-1bid1J-loading .member:nth-child(7n+4),.theme-dark .members-1bid1J-loading .member:nth-child(2n-4), .theme-dark .members-1bid1J-loading .member:nth-child(7n-1) {
-    background: transparent;
-}
-.theme-dark .members-1bid1J-loading .background {
-    background-image: linear-gradient(90deg,rgba(0, 0, 0, 0),rgba(247,0,0,.6),rgba(0, 0, 0, 0));
+
+.theme-dark .themed-popout {
+    background-color: rgba(0,0,0,0.3);
+    border: none;
+    border-radius: 30px;
+    box-shadow: none;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: rgba(0,0,0,.3);
+    color: #fff;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,0.5);
@@ -203,19 +210,20 @@
     border: 2px solid rgba(0, 255 , 0 ,0.5);
     border-radius: 50px;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: rgba(231, 254, 255,0.2) !important;
     border: none;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc
+ {
     background-color: transparent !important;
     box-shadow: none;
 }
 .theme-dark .themed-popout .header .title,.theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: black;
 }
-.theme-dark .popout .messages-popout-wrap .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB{
     background-color: transparent !important;
 }
 .theme-dark .checkbox .checkbox-inner span {
@@ -1259,19 +1267,16 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border: 3px solid rgba(231, 254, 255,0.4);
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: rgba(0, 0, 0,0.4) !important;
     border-color: rgba(231, 254, 255,0.4) !important;
     border-width: 3px;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
     border-color: rgba(231, 254, 255,0.6) !important;
     border-width: 4px;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
-    background: none !important;
-    box-shadow: none !important;
-}
+
 .buttonRedFilled-1NjJNj {
     background-color: rgba(0, 0, 0,0.4);
     color: rgb(255, 255, 255);
@@ -1284,11 +1289,13 @@ a, .theme-dark .message-group a,.chat .welcome-message h1,.theme-dark .chat .wel
     border-width: 2px;
     border-radius: 50px;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,.theme-dark .search-results-wrap .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+,.theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #28283c !important;
     color: white;
     border: 3px solid rgba(231, 254, 255,0.4);
