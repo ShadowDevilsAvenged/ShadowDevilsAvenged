@@ -44,6 +44,20 @@
     background: black;
     border: 3px solid rgba(255,0,0,0.6);
 }
+.search-bar-tag {
+   background-color: black;
+   border: 1px solid #c11;
+}
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.theme-dark .messagesPopoutWrap-1VBR-j {
+    background-color: black;
+}
+.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+    border: 1px solid rgb(255,0,0);
+    background-color: transparent;
+}
 .theme-dark .layer, .theme-dark .layers {
     background: rgba(0,0,0,0.25);
 }
@@ -606,7 +620,7 @@
 .tooltip-bottom:after {
     border-bottom-color: transparent !important;
 }
-.theme-dark .popout .messages-popout-wrap .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB{
     background-color: black;
 }
 .private-channel-recipients-invite .footer button {
@@ -651,7 +665,8 @@
 .spinner-wandering-cubes .spinner-item {
     background-color: red;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: black !important;
     color: rgba(255, 255, 255, 1);
@@ -721,13 +736,13 @@
 .theme-dark .input-MwQhcX:focus {
     border: 1px solid red;
 }
-.dark-2Ll8iS span {
+.theme-dark .keybindShortcut-tTramc span {
     background-color: black !important;
     border-color: red !important;
     box-shadow: none;
     color: white !important;
 }
-.dark-2Ll8iS span .bindArrow-3Mm64N g {
+.theme-dark .keybindShortcut-tTramc span .bindArrow-3Mm64N g {
     fill: white !important;
 }
 a {
@@ -747,19 +762,20 @@ a {
     background-color: black;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: black !important;
     border-color: red !important;
 }
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none !important;
     box-shadow: none !important;
 }
 .theme-dark .popout .messages-popout-wrap,
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: black !important;
     border: none;
     box-shadow: none;
