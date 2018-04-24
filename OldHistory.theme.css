@@ -480,7 +480,7 @@ a {
 .theme-dark .keybindShortcutTipsSelect-2VHe9M:last-of-type:before {
     background-color: transparent;
 }
-.dark-2Ll8iS span {
+.theme-dark .keybindShortcut-tTramc span {
     background-color: #d1aa4c;
     border-color: transparent;
     box-shadow: none;
@@ -500,7 +500,7 @@ a {
     background-color: transparent;
     border: 1px solid #d1aa4c;
 }
-.dark-2Ll8iS span .bindArrow-3Mm64N g {
+.theme-dark .keybindShortcut-tTramc span .bindArrow-3Mm64N g {
     fill: black !important;
 }
 .private-channels .channel.selected a {
@@ -545,8 +545,8 @@ a {
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
     background-color: rgba(0,0,0,0.68) !important;
 }
-.theme-dark .popout .messages-popout-wrap,
-.theme-dark .popout .messages-popout-wrap .header,
+.theme-dark .messagesPopoutWrap-1VBR-j,
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc,
 .theme-dark .search-results-wrap .search-header,
 .theme-dark .search-results-wrap {
     background-color: rgba(0,0,0,0.6) !important;
@@ -586,16 +586,31 @@ a {
     background: black;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .themed-popout .header {
+   background-color: #d1aa4c;
+}
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #d1aa4c !important;
     color: black;
 }
-.messages-popout .message-group .action-buttons {
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-thumb {
+   background-color: #d1aa4c !important;
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2 {
     box-shadow: none !important;
     background: none !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
     background-color: rgba(209, 170, 76,0.4) !important;
     border-color: transparent;
