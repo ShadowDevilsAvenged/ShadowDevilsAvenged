@@ -949,6 +949,17 @@ background: transparent;
     background-color: rgba(0,0,255,.6);
     color: white;
 }
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.private-channel-recipients-invite .header .search-bar {
+    background-color: black;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge,
+.search-bar-tag {
+    background-color: #000044;
+    color: #fff;
+}
 .theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
     border: 4px outset rgba(0,0,255,0.6);
     box-shadow: 1px 1px 1px #000, 1px 1px 1px #000, 1px 1px 1px #000;
@@ -1159,11 +1170,11 @@ form, .member:hover {
     background-color: #00006f;
     color: #fff;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: black !important;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: #000080 !important;
     border-color: black;
 }
@@ -1200,23 +1211,25 @@ form, .member:hover {
 .theme-dark .search-results-wrap .channel-separator:before {
     border-color: transparent;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: black !important;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: black;
     box-shadow: none;
 }
 .theme-dark .themed-popout .header .subtitle, .theme-dark .themed-popout .text {
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none !important;
     box-shadow: none !important;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #000066 !important;
     border: black;
     box-shadow: none;
@@ -1582,10 +1595,11 @@ a {
 .theme-dark .keybindShortcutTipsSelect-2VHe9M:last-of-type:before {
     background-color: transparent;
 }
-.dark-2Ll8iS span .bindArrow-3Mm64N g {
+.theme-dark .keybindShortcut-tTramc span .bindArrow-3Mm64N g {
     fill: white !important;
 }
-.dark-2Ll8iS span:active {
+.theme-dark .keybindShortcut-tTramc span:active {
+
     box-shadow: none;
     color: white;
     border-color: #1976D2;
@@ -1618,7 +1632,7 @@ a {
     color: #fff;
     border: 2px solid #1976D2;
 }
-.dark-2Ll8iS span {
+.theme-dark .keybindShortcut-tTramc span {
     background-color: #000099;
     border-color: blue;
     box-shadow: none;
