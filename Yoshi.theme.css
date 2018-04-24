@@ -1053,7 +1053,7 @@ color: white !important;
     margin: 0 auto;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #53A13C !important;
     border: 3px solid #ED1910;
 }
@@ -1080,7 +1080,8 @@ color: white !important;
     background-color: #53a833;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, 
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+, 
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background: #53a833 !important;
     color: white !important;
@@ -1199,7 +1200,32 @@ color: white !important;
 .wanderingCubesItem-35kyMu {
     background-color: #ED1910;
 }
+
 /* Friends/DMs Place */
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+    background-color: #53A833;
+    box-shadow: none;
+}
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.theme-dark .private-channel-recipients-invite .friend,
+.search-bar-tag {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: #53A833;
+    color: #fff;
+}
+.theme-dark .themed-popout .header {
+    background-color: #53A833 !important;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,black 85%,#53A833) !important;
+}
+
 .theme-dark #friends .friends-table .friends-table-header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1224,13 +1250,13 @@ color: white !important;
     background-color: rgba(83,168,51,.3) !important;
     color: white;
 }
-.dark-2Ll8iS span {
+.theme-dark .keybindShortcut-tTramc span {
     background-color: green !important;
     border-color: black;
     box-shadow: none;
     color: white !important;
 }
-.dark-2Ll8iS span .bindArrow-3Mm64N g {
+.theme-dark .keybindShortcut-tTramc span .bindArrow-3Mm64N g {
     fill: white !important;
 }
 .theme-dark .quickswitcher-2NdiGJ {
@@ -2060,7 +2086,8 @@ a, .theme-dark .emptyStateNote-_gUBTA {
 .theme-dark .member-2FrNV0.popout-open .content-3JzEqq, .theme-dark .member-2FrNV0.popout-open:hover, .theme-dark .member-2FrNV0:hover .content-3JzEqq {
     background: linear-gradient(90deg,black 85%,#53A833);
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background-color: transparent;
     box-shadow: none !important;
 }
