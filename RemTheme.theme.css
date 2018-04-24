@@ -68,7 +68,7 @@
 	background-color: transparent;
 } 
 
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
 .theme-dark .search-results-wrap,
 .need-help-modal.deprecated .header {
     background-color: rgb(159,195,245);
@@ -82,12 +82,13 @@
     color: #fff;
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+ {
     background-color: rgb(159, 195, 245);
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .header,
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc,
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: black;
     box-shadow: none;
 }
@@ -512,7 +513,8 @@ s:hover, strike:hover, del:hover {
 .attachButtonPlus-2l1NEU {
     opacity: 1;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none;
     box-shadow: none;
 }
@@ -1412,7 +1414,27 @@ background-color: #9FC3F5 !important;
 .theme-dark .bar-2cFRGz {
     background: #5ea8ed;
 }
-
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge,
+.search-bar-tag,
+.private-channel-recipients-invite .footer button {
+    background-color: #5ea8ed !important;
+    color: #fff;
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,black 85%,#5ea8ed);
+}
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.theme-dark .private-channel-recipients-invite .friend,
+.private-channel-recipients-invite .header .search-bar {
+    background-color: black;
+    box-shadow: none;
+}
 #friends .friends-table .friends-row .friends-column-name .avatar-small {
     width: 36px;
     height: 36px;
