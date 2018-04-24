@@ -704,7 +704,8 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     line-height: 1.3em;
 }
 
-.theme-dark .message-group .comment .markup .mention {
+.theme-dark .message-group .comment .markup .mention,
+.theme-dark .mention {
     background-color: rgba(0,0,0,.4) !important;
     color: white;
     padding-right: 6px;
@@ -712,7 +713,8 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     border: 2px outset #C8102E;
 }
 
-.theme-dark .message-group .comment .markup .mention:hover {
+.theme-dark .message-group .comment .markup .mention:hover,
+.theme-dark .mention {
     background-color: rgba(0,0,0,.4) !important;
     color: #C8102E;
 }
@@ -1198,7 +1200,29 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     border: 2px solid #C8102E;
     font-size: 15px;
 }
-
+.scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-dark .scrollerWrap-2uBjct.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu.scrollerTrack-3hhmU0>.scroller-fzNley::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.private-channel-recipients-invite .header .search-bar,
+.search-bar-tag,
+.theme-dark .private-channel-recipients-invite .friend {
+    background-color: black;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,black 85%,#C8102E);
+}
+.scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb, 
+.theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, 
+.theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb {
+    background-color: #C8102E;
+    border-color: rgba(0, 0, 0, 0);
+}
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
     background-color: black;
     border: 2px solid #C8102E;
@@ -1401,18 +1425,19 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
 .need-help-modal.deprecated a {
    color: #C8102E;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: black !important;
     border: 3px solid #C8102E;
 }
-.theme-dark .popout .messages-popout-wrap .footer {
+.theme-dark .messagesPopoutWrap-1VBR-j .footer-dHccYB{
     background-color: rgba(0, 0, 0,.6);
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: black !important;
     border: 3px solid #C8102E !important;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background-color: transparent;
     box-shadow: none;
 }
@@ -1425,15 +1450,16 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     color: #fff;
     border: 1px solid red;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
     background-color: black !important;
     border: 3px solid #C8102E !important;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: black;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+ {
     background-color: black !important;
     border: 2px solid #C8102E !important;
 }
@@ -2061,8 +2087,9 @@ a, .theme-dark .primary-2giqSn, .user-settings-connections .connection-header .c
     color: white;
     opacity: 1;
 }
-.bda-slist .bda-footer button {
-    background: #C8102E;
+.bda-slist .bda-footer button,
+.private-channel-recipients-invite .footer button {
+    background: #C8102E !important;
     color: rgb(255, 255, 255);
 }
 /* Upload Section */
