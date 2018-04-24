@@ -573,7 +573,31 @@ width: 300px;
     border-color: rgba(0, 0, 0, 0.46) !important;
     margin-top: 22px;
 }
-
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: pink;
+    color: #fff;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge,
+.search-bar-tag,
+.private-channel-recipients-invite .footer button {
+    background-color: pink !important;
+    color: #fff;
+}
+.private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
+    background-color: transparent !important;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,black 85%,pink);
+}
+.theme-dark .themed-popout .header,
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.theme-dark .private-channel-recipients-invite .friend,
+.private-channel-recipients-invite .header .search-bar {
+    background-color: black;
+    box-shadow: none;
+}
 .badge { background: #f08eaf;
   position: relative;
     margin-right: 16px !important;
@@ -1301,7 +1325,8 @@ u:hover, ins:hover {
 .attachButtonPlus-2l1NEU {
     opacity: 1;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none;
     box-shadow: none;
 }
@@ -1345,7 +1370,7 @@ u:hover, ins:hover {
 .theme-dark .message-group .embed-wrapper .embed-color-pill {
 	background-color: transparent;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group,
 .need-help-modal.deprecated .header,
 .theme-dark .search-results-wrap {
     background-color: rgb(240,142,175);
@@ -1358,13 +1383,14 @@ u:hover, ins:hover {
     background-color: black;
     color: #fff;
 }
-.theme-dark .popout .messages-popout-wrap .header,
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc,
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: black;
     box-shadow: none;
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+ {
     background-color: rgb(240, 142, 175);
     color: white;
 }
