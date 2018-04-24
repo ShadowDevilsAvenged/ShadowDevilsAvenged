@@ -458,7 +458,23 @@ form,
 .private-channel-call .toggle-button {
 	opacity: 1;
 }
-
+.theme-dark .themed-popout .header, 
+.theme-dark .themed-popout,
+.private-channel-recipients-invite .footer button {
+   background-color: #6A525D !important;
+}
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,#6A525D 85%,black);
+}
+.private-channel-recipients-invite .header .search-bar {
+    background-color: black;
+}
+.theme-dark .private-channel-recipients-invite .friend,
+.search-bar-tag {
+    background: black;
+    color: #fff;
+}
 [class*="bd-pfbtn bd-updatebtn"][style*="left: 220px;"] {
 	background: #6A525D;
 	border: 2px solid rgba(255, 255, 255, 0.4);
@@ -616,11 +632,12 @@ form,
 .guilds-wrapper .guilds .guild.selected:before {
 	background: transparent;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group {
     background-color: #634545 !important;
 }
 .theme-dark .search-results-wrap .action-buttons .jump-button,
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button,
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+,
 .theme-dark .search-results-wrap {
     background-color: #3a2929;
     color: white;
@@ -636,11 +653,12 @@ form,
     background-color: black;
     color: #fff;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none;
     box-shadow: none;
 }
-.theme-dark .popout .messages-popout-wrap .header {
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
     background-color: #634545 !important;
     box-shadow: none;
 }
@@ -1355,11 +1373,11 @@ form,
 .wanderingCubesItem-35kyMu {
     background-color: #81656d;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #644f55 !important;
     border: 3px solid rgba(255,255,255,.6);
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover {
     border-color: rgba(28,36,43,.8);
 }
 .footer-1PYmcw, .header-3sp3cE {
