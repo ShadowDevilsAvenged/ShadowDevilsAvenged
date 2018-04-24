@@ -1040,7 +1040,7 @@ a {
     margin: 0 auto;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap {
+.theme-dark .messagesPopoutWrap-1VBR-j {
     background-color: #2E3192 !important;
     border: 3px solid #E4BA4B;
 }
@@ -1064,7 +1064,8 @@ a {
     background-color: #435FAB;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button, .theme-dark .search-results-wrap .action-buttons .jump-button {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group .actionButtons-LKmOj2 .jumpButton-1CVJpO
+, .theme-dark .search-results-wrap .action-buttons .jump-button {
     background: #435FAB !important;
     color: white !important;
     border: 3px solid #E4BA4B !important;
@@ -1171,6 +1172,31 @@ a {
 }
 
 /* Friends/DMs Place */
+.theme-dark .messagesPopoutWrap-1VBR-j .header-y_zptc {
+    background-color: #D12D2C;
+    box-shadow: none;
+}
+.theme-dark #friends .tab-bar .tab-bar-item.selected .badge {
+    background-color: #D12D2C;
+    color: #fff;
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected, 
+.theme-dark .private-channel-recipients-invite .friend:hover {
+    background: linear-gradient(90deg,black 85%,#D12D2C) !important;
+}
+.theme-dark .themed-popout .header {
+    background-color: #D12D2C !important;
+}
+.theme-dark .themed-popout,
+.theme-dark .themed-popout .footer,
+.theme-dark .private-channel-recipients-invite .friend,
+.search-bar-tag {
+    background-color: black;
+    border: none;
+    box-shadow: none;
+}
+
 .theme-dark #friends .friends-table .friends-table-header {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
@@ -1317,7 +1343,8 @@ a, .theme-dark .emptyStateNote-_gUBTA {
     border-radius: 3px;
     color: white;
 }
-.theme-dark .popout .messages-popout-wrap .messages-popout .message-group:hover .action-buttons {
+.theme-dark .messagesPopoutWrap-1VBR-j .messagesPopout-MzE43I .message-group:hover .actionButtons-LKmOj2
+ {
     background: none !important;
     box-shadow: none !important;
 }
