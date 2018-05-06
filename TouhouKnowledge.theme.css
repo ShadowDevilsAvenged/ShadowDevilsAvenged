@@ -4,6 +4,7 @@
     background: url("https://images.alphacoders.com/673/673460.jpg") no-repeat 50% 20%;
     background-size: cover !important;
 }
+
 /* fix not having a background image anymore */
 .layers-3iHuyZ,
 .layer-3QrUeG,
@@ -26,7 +27,6 @@
 .chat .messages,
 .theme-dark .friends-table,
 .theme-dark .messages-wrapper,
-.theme-dark .channel-members,
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw,
 .theme-dark .ui-standard-sidebar-view {
@@ -168,7 +168,7 @@
     animation: member 300ms ease;
     transform:translate(0px);
 }
-.activityText-sLG0UL,
+
 .memberInner-2CPc3V {
     opacity:0;
     transition:opacity 300ms ease, margin 100ms ease;
@@ -1399,9 +1399,7 @@ a,
     padding-right: 25px;
 }
 /* Emote Menu */
-.emojiPicker-3m1S-j,
-.bda-dark #bda-qem-favourite-container, 
-.bda-dark #bda-qem-twitch-container {
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
     background-color: black;
     border-radius: 0px;
     border: none;
