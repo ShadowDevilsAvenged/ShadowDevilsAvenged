@@ -109,7 +109,7 @@
     color: rgb(255, 255, 255);
 }
 .uploadModal-2ifh8j {
-     background-color: #5b3b96;
+     background-color: black;
 }
 .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: black;
@@ -399,6 +399,15 @@
     border-radius: 0px;
     padding: 2px 8pc;
     box-shadow: 0 3px 2px black;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+    background: black !important;
+    border-radius: 25px !important;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
 }
 .chat .new-messages-bar {
     background-color: #533688 !important;
@@ -1055,7 +1064,7 @@ a,
     color: white;
 }
 /* Emote Menu */
-.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
     background-color: black;
     border-radius: 0px;
     border: none;
@@ -1067,7 +1076,7 @@ a,
 .emojiPicker-3m1S-j .header-1nkwgG {
     border-bottom: none;
 }
-.emojiPicker-3m1S-j .category-2U57w6 {
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
     background-color: #3c2762;
     color: white;
 }
