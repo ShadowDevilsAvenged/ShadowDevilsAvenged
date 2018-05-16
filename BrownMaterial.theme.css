@@ -87,7 +87,7 @@
     background: #6D4C41;
     color: #fff;
 }
-.button-1aU9q1 {
+.button-2b6hmh {
     border: 1px solid rgba(255,255,255,0.30);
     border-radius: 0px;
     height: 32px;
@@ -130,10 +130,20 @@
 .mediaBarWrapper-3D7r67:before {
     background-color: black;
 }
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
+}
 .progressBar-3u8FBM {
     background-color: black;
 }
-.progress-3Rbvu0 {
+.progress-3Rbvu0,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.progressBar-3u8FBM.small-1CUeBa,
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color: #6D4C41;
 }
 .theme-dark .message-group .mentioned .message-text {
@@ -200,13 +210,13 @@
 }
 
 .avatar-large, 
-.avatar-profile, 
+.avatar-3EQepX, 
 .avatar-small,
 .avatar-xlarge, 
 .avatar-xsmall, 
 .avatar-xxlarge,
 .avatar-large .status, 
-.avatar-profile .status, 
+.avatar-3EQepX .status, 
 .avatar-small .status, 
 .avatar-xlarge .status, 
 .avatar-xsmall .status, 
@@ -891,7 +901,8 @@ a,
 .progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
     background-color: #4E342E !important;
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled {
@@ -1345,13 +1356,33 @@ a,
     color: #fff;
     box-shadow: 0 3px 6px black;
 }
-#friends .btn {
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: #6D4C41;
+}
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #6D4C41;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: #6D4C41;
     border-radius: 0px;
     color: #fff;
     box-shadow: 0 5px 6px black;
 }
-#friends .btn:hover {
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: #4E342E;
     border-radius: 0px;
 }
