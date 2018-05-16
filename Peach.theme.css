@@ -96,30 +96,34 @@
     background-color: #F14E91;
     border-color: rgba(0, 0, 0, 0);
 }
-/* #user-profile stuff */
-#user-profile-modal .scroller,#user-profile-modal .tab-bar-container,#user-profile-modal .header {
-    background: rgba(245,153,178,0.8);
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: #F599B2;
 }
-#user-profile-modal .avatar-wrapper {
-    background: transparent;
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #F599B2;
 }
-.avatar-profile {
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
+.avatar-3EQepX {
     background-color: #F599B2;
     border: 5px solid #F33C88;
 }
-#user-profile-modal .header:after {
-    background-color: transparent;
-    background-image: linear-gradient(-180deg,rgba(255, 255, 255, 0),rgba(245,153,178,0.8));
-}
-.avatar-profile .status {
+.avatar-3EQepX .status {
     border: 4px solid black;
     width: 54px;
     height: 54px;
     top: 79px;
     right: -8px;
-}
-#user-profile-modal .tab-bar-container {
-    border-bottom: none;
 }
 
 .topSectionPlaying-1J5E4n{
@@ -131,9 +135,7 @@
 .root-SR8cQa {
     background: url(http://img03.deviantart.net/4058/i/2011/346/2/9/princess_peach_wallpaper_by_xxxmikanbouyaxxx-d4iy1vj.png) 30% 30%/cover !important;
 }
-#user-profile-modal .guilds .section+.section {
-    border-top: none;
-}
+
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     background-color: #F33C88;
     border: 3px solid black !important;
@@ -147,17 +149,12 @@
 .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
    color: white;
 }
-#user-profile-modal .tab-bar .tab-bar-item {
-    color: white;
-}
 .tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     border-bottom-color: #F33C88 !important;
     color: white;
     font-weight: bold;
 }
-#user-profile-modal .guilds .guild .guild-name {
-    color: white;
-}
+
 .theme-dark .body-3ND3kc {
    background: transparent;
 }
@@ -174,12 +171,7 @@
     color: white;
     font-size: 14px;
 }
-#user-profile-modal .guilds .guild .status {
-    border: 3px solid black;
-}
-#user-profile-modal .guilds .guild:hover .status {
-    border-color: rgba(0, 0, 0,0.8);
-}
+
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid #F14E91;
 }
@@ -188,58 +180,7 @@
     box-shadow: none;
 }
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-    position: absolute;
-    top: 9px;
-    left: 81px;
-    font-size: 122%;
-    margin-bottom: 0px !important;
-}
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
-    position: absolute;
-    top: 112px;
-    left: 28pc;
-    font-size: 122%;
-    color: black;
-    margin-bottom: 0px !important;
-}
-#user-profile-modal .actions .btn.send-message {
-    background: #F14E91;
-    color: white;
-    border: 3px solid #F599B2;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.send-message:hover {
-    background: #F14E91;
-    color: white;
-    border: 3px outset #F599B2;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.send-message:active {
-    background: #F14E91;
-    color: white;
-    border: 3px inset #F599B2;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.add-friend {
-    background: #F14E91;
-    color: white;
-    border: 3px solid #F599B2;
-    height: 34px;
-    position: absolute;
-    bottom: -9px;
-    left: 11.3pc;
-}
-#user-profile-modal .actions .btn.add-friend:hover {
-    background: #F14E91;
-    color: white;
-    border: 3px outset #F599B2;
-}
-#user-profile-modal .actions .btn.add-friend:active {
-    background: #F14E91;
-    color: white;
-    border: 3px inset #F599B2;
-}
+
 .userInfoSectionHeader-CBvMDh {
     color: white;
     font-size: 17px;
@@ -256,14 +197,7 @@
     padding-right: 5px;
     padding-bottom: 3px;
 }
-#user-profile-modal .header .header-info .header-info-inner .activity {
-    color: black;
-    font-size: 23px;
-    margin-bottom: 0px !important;
-    position: absolute; 
-    top: 33px;
-    left: 11pc;
-}
+
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
 .theme-dark .headerNormal-T_seeN,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background: rgba(245,153,178,0.6) !important;
@@ -285,7 +219,7 @@
     background: url(http://img03.deviantart.net/65d1/i/2015/281/6/5/princess_peach_wallpaper_by_theblazypics-d9ceb3f.png) -80px -80px/cover !important;
     background-position: -421px !important;
 }
-.member-roles .member-role>.name{color:#FFF;}
+
 .body-3iLsc4 {
     border-bottom: none;
 }
@@ -329,18 +263,14 @@
      position: relative;
      left: 4px;
  }
-.member-roles .member-role {
-    color: #F599B2;
-}
+
 .body-3iLsc4 .note-3Zfyi2 textarea {
     padding-top: 8px;
     padding-bottom: 7px;
     font-size: 17px;
     padding-left: 6px;
 }
-#user-profile-modal .guilds .section .note textarea {
-   padding: 4px 8px;
-}
+
 .theme-dark .note-3kmerW textarea:focus {
     background: rgba(243,60,136, 0.6) !important;
     border: 3px solid #F599B2;
@@ -2022,6 +1952,10 @@ a, .theme-dark .emptyStateNote-ZYTetQ {
    background: #F372A6;
    color: white !important;
 }
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
+}
 .theme-dark.contextMenu-HLZMGh {
     background: #F14E90;
 }
@@ -2170,10 +2104,16 @@ a, .theme-dark .emptyStateNote-ZYTetQ {
     color: rgb(255, 255, 255);
 }
 .progress-2XXRYo,
-.progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
+.progressBar-3u8FBM.small-1CUeBa,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color: #F484B1 !important;
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 .private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
