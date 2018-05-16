@@ -95,30 +95,34 @@
     background-color: #d42128;
     border-color: rgba(0, 0, 0, 0);
 }
-/* #user-profile stuff */
-#user-profile-modal .scroller,#user-profile-modal .tab-bar-container,#user-profile-modal .header {
-    background: rgba(212,33,40,0.6);
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: #435FAB;
 }
-#user-profile-modal .avatar-wrapper {
-    background: transparent;
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #435FAB;
 }
-.avatar-profile {
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
+.avatar-3EQepX {
     background-color: #435FAB;
     border: 5px solid #E4BA4B;
 }
-#user-profile-modal .header:after {
-    background-color: transparent;
-    background-image: linear-gradient(-180deg,rgba(255, 255, 255, 0),rgba(212,33,40,0.6));
-}
-.avatar-profile .status {
+.avatar-3EQepX .status {
     border: 4px solid black;
     width: 54px;
     height: 54px;
     top: 79px;
     right: -8px;
-}
-#user-profile-modal .tab-bar-container {
-    border-bottom: none;
 }
 
 .topSectionPlaying-1J5E4n{
@@ -130,9 +134,7 @@
 .root-SR8cQa {
     background: url(http://s3.amazonaws.com/factmag-images/wp-content/uploads/2016/09/Super-Mario-9-7-16.jpg) 30% 30%/cover !important;
 }
-#user-profile-modal .guilds .section+.section {
-    border-top: none;
-}
+
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
     background-color: #D42128;
     border: 3px solid black !important;
@@ -146,16 +148,10 @@
 .theme-dark .activityProfile-2pymp0 .details-vSFjFG, .theme-dark .activityProfile-2pymp0 .name-8onsv0, .theme-dark .activityUserPopout-1nmgaw .details-vSFjFG, .theme-dark .activityUserPopout-1nmgaw .name-8onsv0, .theme-light .activityProfile-2pymp0 .details-vSFjFG, .theme-light .activityProfile-2pymp0 .name-8onsv0, .theme-light .activityUserPopout-1nmgaw .details-vSFjFG, .theme-light .activityUserPopout-1nmgaw .name-8onsv0 {
    color: white;
 }
-#user-profile-modal .tab-bar .tab-bar-item {
-    color: rgba(252, 221, 219,.6);
-}
 .tab-bar.tabBar-2z50ux .tabBarItem-1Lg555.selected {
     border-bottom-color: #D42128 !important;
     color: white;
     font-weight: bold;
-}
-#user-profile-modal .guilds .guild .guild-name {
-    color: white;
 }
 .listAvatar-1NlAhb {
     border: 3px solid #E4BA4B;
@@ -173,12 +169,7 @@
     color: white;
     font-size: 14px;
 }
-#user-profile-modal .guilds .guild .status {
-    border: 3px solid black;
-}
-#user-profile-modal .guilds .guild:hover .status {
-    border-color: rgba(0, 0, 0,0.8);
-}
+
 .tab-bar.TOP .tab-bar-item:hover {
     border-bottom: 2px solid #2E3192;
 }
@@ -187,62 +178,6 @@
     box-shadow: none;
 }
 
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
-    position: absolute;
-    top: 9px;
-    left: 81px;
-    font-size: 122%;
-    margin-bottom: 0px !important;
-}
-#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
-    position: absolute;
-    top: 112px;
-    left: 28pc;
-    font-size: 122%;
-    color: black;
-    margin-bottom: 0px !important;
-}
-#user-profile-modal .actions .btn.send-message {
-    background: #2E3192;
-    color: white;
-    border: 3px solid #E4BA4B;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.send-message:hover {
-    background: #2E3192;
-    color: white;
-    border: 3px outset #E4BA4B;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.send-message:active {
-    background: #2E3192;
-    color: white;
-    border: 3px inset #E4BA4B;
-    height: 34px;
-}
-#user-profile-modal .actions .btn.add-friend {
-    background: #2E3192;
-    color: white;
-    border: 3px solid #E4BA4B;
-    height: 34px;
-    position: absolute;
-    bottom: -9px;
-    left: 11.3pc;
-}
-#user-profile-modal .actions .btn.add-friend:hover {
-    background: #2E3192;
-    color: white;
-    border: 3px outset #E4BA4B;
-}
-#user-profile-modal .actions .btn.add-friend:active {
-    background: #2E3192;
-    color: white;
-    border: 3px inset #E4BA4B;
-}
-.userInfoSectionHeader-CBvMDh {
-    color: white;
-    font-size: 17px;
-}
 .theme-dark .connectedAccount-36nQx7 {
     border: 5px outset #E4BA4B;
     border-radius: 1px;
@@ -255,14 +190,7 @@
     padding-right: 5px;
     padding-bottom: 3px;
 }
-#user-profile-modal .header .header-info .header-info-inner .activity {
-    color: black;
-    font-size: 23px;
-    margin-bottom: 0px !important;
-    position: absolute; 
-    top: 33px;
-    left: 11pc;
-}
+
 /* LAST BUT NOT LEAST PART, THE USER POPOUT AND USER PROFILE MODAL */
 .theme-dark .headerNormal-T_seeN,.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
     background: rgba(46,49,146,0.6) !important;
@@ -284,7 +212,7 @@
     background: url(https://i.imgur.com/sLd49Go.png) -90px -80px/cover !important;
     background-position: -111px !important;
 }
-.member-roles .member-role>.name{color:#FFF;}
+
 .body-3iLsc4 {
     border-bottom: none;
 }
@@ -328,9 +256,7 @@
      position: relative;
      left: 4px;
  }
-.member-roles .member-role {
-    color: #2E3192;
-}
+
 .body-3iLsc4 .note-3Zfyi2 textarea {
     padding-top: 8px;
     padding-bottom: 7px;
@@ -1374,19 +1300,22 @@ a, .theme-dark .emptyStateNote-ZYTetQ {
     color: white;
     background: #2E3192;
 }
-#friends .btn {
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: #2E3192;
     border-radius: 3px;
     color: white;
     border: 4px solid #E4BA4B;
 }
-#friends .btn:hover {
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: #2E3192;
     border-radius: 3px;
     color: white;
     border: 4px outset #E4BA4B;
 }
-#friends .btn:active {
+#friends .btn:active,
+.private-channel-recipients-invite .error-state.not-friends .btn:active {
     background-color: #2E3192;
     border-radius: 3px;
     color: white;
@@ -2045,9 +1974,9 @@ a, .theme-dark .emptyStateNote-ZYTetQ {
    border: 1px solid red;
    background: black !important;
 }
-.theme-dark .item-1Yvehc:hover {
-   background: #5C3316;
-   color: white !important;
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
 }
 .theme-dark .itemToggle-e7vkml:hover {
     background: #D42128;
@@ -2184,10 +2113,16 @@ a, .theme-dark .emptyStateNote-ZYTetQ {
     color: rgb(255, 255, 255);
 }
 .progress-2XXRYo,
-.progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
+.progressBar-3u8FBM.small-1CUeBa,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color: #E6BC49 !important;
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 .private-channel-recipients-invite .body .scroller::-webkit-scrollbar-track {
