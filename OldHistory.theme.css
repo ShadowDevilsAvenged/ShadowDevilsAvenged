@@ -460,13 +460,33 @@ a {
     background-color: #d1aa4c;
     color: black;
 }
-#friends .btn {
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: black;
+}
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #d1aa4c;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: black;
     border-radius: 0px;
     color: #d1aa4c;
     transition: color .6s ease, background-color .6s ease;
 }
-#friends .btn:hover {
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: #d1aa4c;
     border-radius: 0px;
     color: black;
@@ -580,6 +600,10 @@ a {
     background: #d1aa4c;
     color: white !important;
 }
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
+}
 /* Context Menu and Mention Menu and Search */
 .theme-dark.contextMenu-HLZMGh {
     background: black;
@@ -642,7 +666,7 @@ a {
 }
 /* Avatar Status */
 .avatar-large, 
-.avatar-profile, 
+.avatar-3EQepX, 
 .avatar-small, 
 .avatar-xlarge, 
 .avatar-xsmall, 
@@ -658,11 +682,12 @@ a {
     mask: none;
     -webkit-mask: none;
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 .avatar-large:hover, 
-.avatar-profile:hover, 
+.avatar-3EQepX:hover, 
 .avatar-16XVId.small-TEeAkX:hover, 
 .avatar-xlarge:hover, 
 .avatar-xsmall:hover, 
@@ -684,7 +709,12 @@ a {
 }
 
 .progress-2XXRYo,
-.progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
+.progressBar-3u8FBM.small-1CUeBa,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color: black !important;
 }
 .theme-dark .friends-table .messages .divider:not(.red) span, 
