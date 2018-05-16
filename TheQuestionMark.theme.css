@@ -1540,11 +1540,31 @@ a {
     color: white;
     border: 1px solid #f54c1c;
 }
-#friends .btn:hover {
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: #e53b0a;
+}
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #e53b0a;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: black;
     border: 1px solid #e53b0a;
 }
-#friends .btn {
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     background-color: black;
     border: 1px solid transparent;
     transition: background-color .3s ease, border .3s ease;
@@ -2019,6 +2039,10 @@ a {
    background: #EE7755;
    color: white !important;
 }
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
+}
 .theme-dark.contextMenu-HLZMGh {
     background: black;
 }
@@ -2167,10 +2191,16 @@ a {
     color: rgb(255, 255, 255);
 }
 .progress-2XXRYo,
-.progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
+.progressBar-3u8FBM.small-1CUeBa,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color: #E53B0A !important;
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 /* New Invite Stuff */
