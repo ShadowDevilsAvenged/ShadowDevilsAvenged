@@ -37,7 +37,8 @@
 .theme-dark .ui-standard-sidebar-view .sidebar-region {
     background: rgba(0, 0, 0, 0.2);
 }
-.video-1FfuMD {
+.video-1FfuMD,
+.theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
 /* Main Chat Section */
@@ -48,7 +49,12 @@
     height: 64px;
 }
 .progress-2XXRYo,
-.progressBar-3u8FBM.small-1CUeBa[style*=“background-color: rgb(114, 137, 218);”] {
+.progressBar-3u8FBM.small-1CUeBa,
+.progressBar-3u8FBM.large-3EPlRk,
+.mediaBarGrabber-1FqnbN, 
+.mediaBarProgress-1xaPtl, 
+.mediaBarProgress-1xaPtl:after, 
+.mediaBarProgress-1xaPtl:before {
     background-color:  #A87E56 !important;
 }
 .theme-dark .chat .has-more button {
@@ -965,14 +971,34 @@ a,
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary,
 .theme-dark #friends .tab-bar .tab-bar-item,
-#friends .btn {
+#friends .btn,
+.private-channel-recipients-invite .error-state.not-friends .btn {
     transition: background-color 1000ms ease;
     background-color: rgba(112, 84, 53,0.3);
     color: #fff;
 }
+.theme-dark .callAvatar-v-u4BM.voice-2D-tt_ .callAvatarStatus-3y6S04 {
+    border-color: black;
+    background-color: #705435;
+}
+.callAvatarBorder-1D_KaE.voice-2D-tt_.speaking-oCqYMI,
+.callAvatarBorder-1D_KaE.video-3GgX2M.speaking-oCqYMI {
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 3px #705435;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan {
+    background-color: rgba(255,0,0,0.23);
+    color: #fff;
+    border: 1px solid red;
+}
+.lookFilled-1Gx00P.colorRed-1TFJan:hover {
+    background-color: rgba(255,0,0,0.63);
+    color: #fff;
+}
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected),
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected),
-#friends .btn:hover {
+#friends .btn:hover,
+.private-channel-recipients-invite .error-state.not-friends .btn:hover {
     background-color: rgba(112, 84, 53,0.7);
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
@@ -1525,6 +1551,10 @@ a,
 .theme-dark .item-1Yvehc:hover {
     background: #A87E56;
     color: white !important;
+}
+.theme-dark .item-1Yvehc {
+    border-radius: 0;
+    padding: 8px;
 }
 /* Pinned, Mention and Search */
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-dHccYB,
