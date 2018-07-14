@@ -173,7 +173,7 @@ span:not(.spinner-item){
 .name-3YKhmS {
     color: #e53b0a;
 }
-.dropdown-button path[stroke] {
+.button-1w5pas path[stroke] {
     stroke: #e53b0a;
 }
 .theme-dark .message-group .mentioned .message-text {
@@ -438,7 +438,8 @@ a img {
 .theme-dark .checked-3_4uQ9 {
     background-color: transparent;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"],
+.theme-dark .checked-3_4uQ9 {
     background-color: transparent !important;
     border: 1px solid #e53b0a !important;
 }
@@ -449,7 +450,8 @@ a img {
 .theme-dark .descChecked-KbaI-r, .theme-dark .titleChecked-3Ngoss {
     color: white;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] polyline[stroke] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] polyline[stroke],
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(79, 84, 92);"] polyline[stroke] {
     stroke: white;
     stroke-width: 2;
 }
@@ -848,7 +850,6 @@ a {
     background: black !important;
     border-radius: 25px !important;
     cursor: pointer;
-    overflow: visible;
 }
 .option-popout .btn-item:hover {
     background-color: transparent;
@@ -922,11 +923,6 @@ a {
     border-radius: 50px;
     background-color: black;
     width: 50px;
-    border: 1px solid transparent;
-    transition: border .4s ease;
-}
-.guilds-wrapper .guilds .guild .guild-inner a:not(.friends-icon):hover {
-    border: 1px solid #00FF00;
 }
 .guilds-wrapper .guilds-error {
     background: black;
@@ -954,7 +950,7 @@ a {
 		color: white;
 	}
 }
-.guilds-wrapper .guilds .friends-icon {
+.guilds-wrapper .guilds .home-icon {
     background-color: #e53b0a;
     border-radius: 50px;
 }
@@ -1115,7 +1111,7 @@ a {
     box-shadow: none;
     border: 1px solid #e53b0a !important;
 }
-.theme-dark .themed-popout .header .title,
+
 .theme-dark .protip-YaFfgO.popout-footer .tip {
     color: #e53b0a !important;
 }
@@ -1125,7 +1121,7 @@ a {
 .header-2Lg0Oe {
     padding: 55px;
 }
-.nameTag-2n-N0D {
+.nameTag-2IFDfL {
     padding-bottom: 2px;
 }
 .botTagRegular-2HEhHi.botTag-2WPJ74 {
@@ -1147,8 +1143,8 @@ a {
 :hover {
     color: rgb(255, 255, 255);
 }
-.theme-dark .themed-popout .header .subtitle, 
-.theme-dark .themed-popout .text,
+.theme-dark .subtitle-2iWJ5y
+, 
 .theme-dark .recent-mentions-popout .mention-filter .label {
     color: rgb(255, 255, 255) !important;
 }
@@ -1453,12 +1449,7 @@ a {
     color: rgba(255, 255, 255, 0.3);
 }
 /* Friend and DMs (Finally) */
-.theme-dark .themed-popout .header,
-.theme-dark .themed-popout,
-.theme-dark .themed-popout .footer {
-    background-color: black;
-    box-shadow: none;
-}
+
 .private-channels .channel.selected a {
     background-color: rgba(0,0,0,.6);
     color: #e53b0a;
@@ -1569,7 +1560,7 @@ a {
     border: 1px solid transparent;
     transition: background-color .3s ease, border .3s ease;
 }
-.private-channel-recipients-invite .header .search-bar {
+.searchBar-2pE3BB .search-bar{
     background: black;
     border: 1px solid #e53b0a;
 }
@@ -1577,17 +1568,16 @@ a {
     background-color: transparent;
     border: 1px solid #e53b0a;
 }
-.theme-dark .private-channel-recipients-invite .friend {
-    background: black;
-    color: #e53b0a;
-}
+
 .headerStreaming-2FjmGz,
 .topSectionStreaming-1Tpf5X {
     background: rgba(45,27,75,0.8);
 }
 
 .headerSpotify-zpWxgT,
-.topSectionSpotify-1lI0-P {
+.topSectionSpotify-1lI0-P,
+.headerXbox-3G-4PF,
+.topSectionXbox-3fWLjS {
     background: rgba(76, 175, 80,0.4);
 }
 .search-bar-tag {
@@ -1599,21 +1589,12 @@ a {
 .theme-dark .messagesPopoutWrap-1MQ1bW .footer-dHccYB{
     background-color: black !important;
 }
-.private-channel-recipients-invite .footer button {
-    background-color: black;
-    color: white;
-}
-.private-channel-recipients-invite .footer button:hover {
-    background-color: black;
-    color: white;
-    border: 2px solid #e53b0a;
-}
-.private-channel-recipients-invite .footer button:disabled:hover {
+
+.disabled-9aF2ug:hover {
     background-color: black;
     border: 1px solid #e53b0a;
 }
-.theme-dark .private-channel-recipients-invite .friend.selected, 
-.theme-dark .private-channel-recipients-invite .friend:hover {
+.theme-dark .friendSelected--wQP3f {
     background: black;
     border: 1px solid #e53b0a;
     padding-right: 5px;
@@ -2299,4 +2280,52 @@ a {
 /* -------------------- */
 .clipboardInputInner-oj8y-S button:first-of-type:before {
     background: linear-gradient(90deg,rgba(255, 255, 255, 0),#EE7755);
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(0,0,0,0.3);
+}
+.arrow-1-DaGi,
+.theme-dark .discriminator-1Kma2g{
+    color: white;
+}
+.theme-dark .card-7JP0BX {
+    background-color: black;
+    color: white;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(238, 119, 85,0.4) /* (Main Color, .4) */;
+}
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(238, 119, 85,.7) /* (Main Color, .7) */;
+}
+.headerButtonColor-G7_f-V,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background: #EE7755 !important;
+    color: #fff;
+}
+.headerButtonColor-G7_f-V:hover {
+    box-shadow: 0 0 16px 4px black;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    box-shadow: 0 0 16px 4px white;
+}
+.theme-dark .body-SKIE6r {
+    background-color: transparent;
+}
+.theme-dark .headerText-2niCs_ {
+    border-top-color: transparent;
+    color: white;
+}
+.theme-dark .player-1kJMbj {
+    border-bottom-color: transparent;
+}
+.theme-dark .sectionLine-JjseS9 {
+    background-color: transparent;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.6);
+    border-color: rgba(0, 0, 0, 0);
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent;
 }
