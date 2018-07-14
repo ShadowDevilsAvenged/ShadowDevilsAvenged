@@ -101,9 +101,6 @@
 .activityText-sLG0UL {
     color: silver;
 }
-.theme-dark .message-group:not(.has-divider) {
-    border-bottom-color: transparent;
-}
 .message-group {
     border-bottom: none;
     margin-bottom: 23px;
@@ -164,7 +161,10 @@
 .theme-dark .membersGroup-v9BXpm {
     color: #EFD9C3;
 }
-
+.message-group .edit-message .edit-container-outer {
+    margin-left: -4px;
+    margin-right: 6px;
+}
 .members-1998pB {
     transform:translate(150px);
     z-index:2;
@@ -244,8 +244,8 @@ a,
 }
 .theme-dark .attachButtonDivider-3Glu60 {
     background-color: rgba(255, 255, 255, 0.1);
-    height: calc(100% - 10px);
-    margin: 6px 8px;
+    height: calc(100% - 20px);
+    margin: 6px 5px;
     width: 2px;
 }
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
@@ -719,11 +719,13 @@ a,
    border-color: transparent!important;
    background-color: #705435 !important;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"],
+.theme-dark .checked-3_4uQ9 {
     background-color: #423523 !important;
     border-color: transparent !important;
 }
-.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] [stroke] {
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] [stroke],
+.theme-dark .checked-3_4uQ9[style*="border-color: rgb(79, 84, 92);"] polyline[stroke] {
     stroke: white;
     stroke-width: 2;
 }
@@ -877,24 +879,8 @@ a,
     background-color: #A87E56;
     color: #fff;
 }
-.theme-dark .themed-popout {
-    background-color: black;
-    border: 1px solid #705435;
-    box-shadow: none;
-}
-.theme-dark .themed-popout .header {
-    background-color: #705435;
-    box-shadow: none;
-}
-.theme-dark .themed-popout .footer {
-    background-color: black;
-}
-.theme-dark .private-channel-recipients-invite .friend {
-    background: black;
-    color: #fff;
-}
-.theme-dark .private-channel-recipients-invite .friend.selected, 
-.theme-dark .private-channel-recipients-invite .friend:hover {
+
+.theme-dark .friendSelected--wQP3f {
     background: transparent;
     border: 1px solid #705435;
     padding-right: 6px;
@@ -905,15 +891,13 @@ a,
     border-radius: 0px;
     background-color: transparent;
 }
-.private-channel-recipients-invite .header .search-bar {
+.searchBar-2pE3BB .search-bar{
     background-color: black;
 }
-.private-channel-recipients-invite .footer button:disabled:hover,
-.private-channel-recipients-invite .footer button:hover {
+.disabled-9aF2ug:hover {
     background-color: #A87E56;
 }
-.private-channel-recipients-invite .footer button:disabled,
-.private-channel-recipients-invite .footer button {
+.disabled-9aF2ug {
     background-color: #705435;
 }
 .noticeInfo-3v29SJ {
@@ -1097,23 +1081,25 @@ a,
     background: #705435;
 }
 /* Status Code */
-.item-1GzJrl .status-idle {
+.idle-3DEnRT {
     background-image: url(https://i.imgur.com/tzCOdYg.png);
     background-size: contain;
 }
-.item-1GzJrl .status-dnd {
+.dnd-1_xrcq {
     background-image: url(https://i.imgur.com/27CekA8.png);
     background-size: contain;
 }
-.item-1GzJrl .status-invisible {
+.invisible-1kp8Z0, 
+.offline-3qoTek, 
+.unknown-Ms2zdV {
     background-image: url(https://i.imgur.com/tgAWxPU.png);
     background-size: contain;
 }
-.item-1GzJrl .status-online {
+.online-2S838R {
     background-image: url(https://i.imgur.com/1PgRNvk.png);
     background-size: contain;
 }
-.item-1GzJrl .status {
+.status-3fQvEa {
     width: 25px;
     height: 25px;
     border-radius: 50%;
@@ -1720,14 +1706,22 @@ a,
 .headerSpotify-zpWxgT ~ .footer-1fjuF6,
 .headerSpotify-zpWxgT ~ .footer-1fjuF6 > .quickMessage-1yeL4E,
 .topSectionSpotify-1lI0-P,
-.topSectionSpotify-1lI0-P ~ .body-3ND3kc {
+.topSectionSpotify-1lI0-P ~ .body-3ND3kc,
+.headerXbox-3G-4PF,
+.headerXbox-3G-4PF ~ .body-3iLsc4 , 
+.headerXbox-3G-4PF ~ .footer-1fjuF6,
+.headerXbox-3G-4PF ~ .footer-1fjuF6 > .quickMessage-1yeL4E,
+.topSectionXbox-3fWLjS,
+.topSectionXbox-3fWLjS  ~ .body-3ND3kc {
     background:rgba(95, 167, 120,0.7);
 }
-.headerSpotify-zpWxgT ~ .footer-1fjuF6 > .quickMessage-1yeL4E:focus  {
+.headerSpotify-zpWxgT ~ .footer-1fjuF6 > .quickMessage-1yeL4E:focus,
+.headerXbox-3G-4PF ~ .footer-1fjuF6 > .quickMessage-1yeL4E:focus {
     background: rgba(95, 167, 120,0.5);
     border: 1px solid #319177;
 }
-.headerSpotify-zpWxgT ~ .body-3iLsc4 > .note-3kmerW textarea:focus  {
+.headerSpotify-zpWxgT ~ .body-3iLsc4 > .note-3kmerW textarea:focus,
+.headerXbox-3G-4PF ~ .body-3iLsc4 > .note-3kmerW textarea:focus  {
     background: 	#3AA655;
 }
 .lookInverted-2D7oAl.colorGreen-29iAKY,
@@ -1768,4 +1762,52 @@ a,
 .roleCircle-3xAZ1j[style*="background-color: rgb(185, 187, 190);"] {
     border: 2px solid black !important;
     background-color: #705435 !important;
+}
+.theme-dark .activityFeed-28jde9 {
+    background-color: rgba(0,0,0,0.3);
+}
+.arrow-1-DaGi,
+.theme-dark .discriminator-1Kma2g{
+    color: white;
+}
+.theme-dark .card-7JP0BX {
+    background-color: black;
+    color: white;
+}
+.theme-dark .header-1RC2Wb {
+    background-color: rgba(112, 84, 53,0.4) /* (Main Color, .4) */;
+}
+.theme-dark .header-1RC2Wb:hover {
+    background-color: rgba(112, 84, 53,.7) /* (Main Color, .7) */;
+}
+.headerButtonColor-G7_f-V,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
+    background: #705435 !important;
+    color: #fff;
+}
+.headerButtonColor-G7_f-V:hover {
+    box-shadow: 0 0 16px 4px black;
+}
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
+    box-shadow: 0 0 16px 4px white;
+}
+.theme-dark .body-SKIE6r {
+    background-color: transparent;
+}
+.theme-dark .headerText-2niCs_ {
+    border-top-color: transparent;
+    color: white;
+}
+.theme-dark .player-1kJMbj {
+    border-bottom-color: transparent;
+}
+.theme-dark .sectionLine-JjseS9 {
+    background-color: transparent;
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,0.6);
+    border-color: rgba(0, 0, 0, 0);
+}
+.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+    background-color: transparent;
 }
