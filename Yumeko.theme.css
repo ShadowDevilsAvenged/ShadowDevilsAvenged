@@ -425,7 +425,8 @@
 [class="user-name"][style*="color: rgb(7, 7, 7);"],
 [class="user-name"][style*="color: rgb(0, 0, 1);"],
 [class="user-name"][style*="color: rgb(0, 0, 2);"],
-[class="user-name"][style*="color: rgb(8, 0, 0);"] {
+[class="user-name"][style*="color: rgb(8, 0, 0);"], 
+[class="user-name"][style*="color: rgb(6, 2, 2);"] {
    text-shadow: 0 0 4px white, 0 0 4px white;
 }
 /* ----- */
@@ -441,14 +442,7 @@
 a {
     color: #ab9ee5 !important;
 }
-.message-group h2 {
-    background-color: rgba(0,0,0,0.4);
-    padding: 3px 7px;
-    border-top: 1px solid rgba(145, 34, 58, .8) /* (Main Color, .8) */;
-    border-left: 1px solid rgba(145, 34, 58, .8) /* (Main Color, .8) */;
-    border-bottom: 1px solid rgba(145, 34, 58, .8) /* (Main Color, .8) */;
-    box-shadow: 2px 0 6px 4px black;
-}
+
 .theme-dark .menu-Sp6bN1 {
     background: #91223A;
     box-shadow: none;
@@ -621,6 +615,9 @@ a {
     background-color: rgba(173, 40, 69,.6) /* (Hover Color, .6) */;
     color: #fff;
     box-shadow: inset 2px 2px 6px rgba(255,255,255,0.6);
+}
+.message-group h2 {
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
 }
 .private-channels .channel:hover a,
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
@@ -1965,3 +1962,6 @@ a {
     background-repeat: no-repeat;
  }
  
+.theme-dark .searchQuery-1B7rtx .searchFor-3W5Vad strong {
+    color: white;
+}
