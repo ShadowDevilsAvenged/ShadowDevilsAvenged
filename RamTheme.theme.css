@@ -165,6 +165,9 @@
   background-color: rgba(230, 163, 208,0.5);
   border: 1px solid rgba(255,255,255,0.3);
 }
+.message-group h2 {
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
 .name-3M0b8v {
     font-size: 12px;
     font-weight: normal;
@@ -407,7 +410,8 @@
 [class="user-name"][style*="color: rgb(7, 7, 7);"],
 [class="user-name"][style*="color: rgb(0, 0, 1);"],
 [class="user-name"][style*="color: rgb(0, 0, 2);"],
-[class="user-name"][style*="color: rgb(8, 0, 0);"] {
+[class="user-name"][style*="color: rgb(8, 0, 0);"], 
+[class="user-name"][style*="color: rgb(6, 2, 2);"] {
    text-shadow: 0 0 4px white, 0 0 4px white;
 }
 /* ----- */
@@ -423,14 +427,7 @@
 a {
     color: #ab9ee5 !important;
 }
-.message-group h2 {
-    background-color: rgba(0,0,0,0.4);
-    padding: 3px 7px;
-    border-top: 1px solid rgba(223, 136, 195, .8) /* (Main Color, .8) */;
-    border-left: 1px solid rgba(223, 136, 195, .8) /* (Main Color, .8) */;
-    border-bottom: 1px solid rgba(223, 136, 195, .8) /* (Main Color, .8) */;
-    box-shadow: 2px 0 6px 4px black;
-}
+
 .theme-dark .menu-Sp6bN1 {
     background: #DF88C3;
     box-shadow: none;
@@ -1757,4 +1754,7 @@ a {
 }
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: transparent;
+}
+.theme-dark .searchQuery-1B7rtx .searchFor-3W5Vad strong {
+    color: white;
 }
