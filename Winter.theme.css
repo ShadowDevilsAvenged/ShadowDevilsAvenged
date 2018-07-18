@@ -1755,6 +1755,18 @@ a {
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
     background-color: transparent;
 }
+.theme-dark .avatarStatus-3jMZl_ {
+   width: 12px;
+    height: 12px;
+    right: 15px !important;
+    bottom: -8px !important;
+    top: -8px;
+    transform: rotate(-9deg);
+    border-radius: 1px;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    opacity: 0.9;
+    border: 1px solid white !important;
+}
 .avatar-small .status {
     width: 21px;
     height: 21px;
