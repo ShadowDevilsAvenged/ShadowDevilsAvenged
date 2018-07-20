@@ -1,8 +1,5 @@
 //META{"name":"BrownMaterial_Theme","description":"Clean Brown Material Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200');
-*:not(code) {
-    font-family: 'Montserrat' !important;
-}
+
 /* Main Area */
 .theme-dark .message-group:not(.has-divider) {
     border-bottom-color: transparent;
@@ -135,14 +132,14 @@
 .progressBar-3u8FBM {
     background-color: black;
 }
-.progress-3Rbvu0,
+.progress-2XXRYo,
+.progressBar-3u8FBM.small-1CUeBa,
 .progressBar-3u8FBM.large-3EPlRk,
 .mediaBarGrabber-1FqnbN, 
-.progressBar-3u8FBM.small-1CUeBa,
 .mediaBarProgress-1xaPtl, 
 .mediaBarProgress-1xaPtl:after, 
-.mediaBarProgress-1xaPtl:before {
-    background-color: #6D4C41;
+.mediaBarProgress-1xaPtl:before{
+    background-color: #D0847A !important;
 }
 .theme-dark .message-group .mentioned .message-text {
     background: #3E2723;
