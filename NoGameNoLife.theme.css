@@ -15,7 +15,7 @@
 .nameCollapsed-34uFWo, 
 .nameDefault-2DI02H,
 .name-3YKhmS,
-.theme-dark .message-group .comment .markup {
+.theme-dark .markup-2BOw-j {
     color: white;
 }
 .channels-Ie2l6A,
@@ -365,28 +365,28 @@ a,
     color: white;
 }
 /* Small Popout Box */
-.small-popout-box {
+.theme-dark .container-3cGP6G {
     background: #4F1C4F;
     border: none;
     border-radius: 0px;
 }
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     color: white;
     cursor: pointer;
 }
 /* Timestamp */
-.theme-dark .message-group h2 .timestamp {
+.theme-dark .timestampCozy-2hLAPV {
     color: silver;
 }
 /* Mention */
-.theme-dark .message-group .comment .markup .mention,
-.theme-dark .mention {
+.theme-dark .markup-2BOw-j .mention,
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: black !important;
     border: 1px solid #84003B;
     color: white !important;
 }
-.theme-dark .message-group .comment .markup .mention:hover,
-.theme-dark .mention:hover {
+.theme-dark .markup-2BOw-j .mention:hover,
+.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapper-3WhCwL:hover {
     border: 2px solid #84003B;
 }
 /* Message Edited */
@@ -419,7 +419,7 @@ a,
     border-radius: 50px;
     height: 9px;
     position: absolute;
-    right: 4px;
+    right: 3px;
     top: 1px;
     width: 9px;
 }
@@ -472,11 +472,11 @@ a,
     color: white !Important;
 }
 /* Mentioned */
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: #4F1C4F;
     padding: 2px 2px;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     background: transparent;
     border-left: none;
 }
@@ -592,7 +592,7 @@ a,
     color: #fff;
 }
 /* Message Group */
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: rgba(255, 255, 255, 0);
 }
 /* Upload Section */
@@ -854,18 +854,22 @@ a,
     background-color: #840058;
 }
 /* Avatars from different Locations */
-.chat .avatar-large {
+.avatar-17mtNa .large-3ChYtB {
     opacity: 1 !important;
     width: 64px;
     height: 64px;
     background-size: cover;
     box-shadow: inset 0 0 26px black, 0 0 6px black;
 }
-.chat .user-name {
+.contentCozy-3XX413 {
+    margin-left: 100px;
+}
+.theme-dark .username-_4ZSMR {
     text-shadow: 0 0 6px transparent;
     transition: text-shadow .2s linear, font-size .2s linear;
+    margin-left: 20px;
 }
-.chat .user-name:hover {
+.theme-dark .username-_4ZSMR:hover {
     text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
     font-size: 1.2rem;
 }
@@ -875,13 +879,13 @@ a,
  {
     color: white;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
+.theme-dark .messageGroupWrapper-o-Zw7G,
 .theme-dark .messagesPopoutWrap-1MQ1bW {
     background-color: #331233 !important;
     border-color: black;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
     border-color: #A8000B;
 }
 .messages-popout .message-group .action-buttons,
@@ -958,13 +962,13 @@ a,
 .barFill-23-gu- {
     background: #84003B !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug
  {
     background-color: transparent;
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_
 ,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #4F1C4F;
@@ -1396,12 +1400,12 @@ a,
     color: #840058;
 }
 /* Code Blocks */
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border-color: transparent;
 }
-.theme-dark .message-group .comment .markup code.inline, 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline {
     background: rgba(0,0,0,0.3);
     text-shadow: 0 0 7px black, 0 0 7px black, 0 0 7px black, 0 0 7px black;
 }
