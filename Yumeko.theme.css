@@ -336,13 +336,16 @@
     background-color: #91223A;
     width: 4px; 
     height: 4px;
-    right: 6px;
+    right: 3px;
 }
-.theme-dark .mention {
+.aka-1mqp34 {
+    background: #91223A;
+}
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: rgba(145, 34, 58,.5) !important; /* (Main Color, .5) */
     color: white !important;
 }
-.theme-dark .mention:hover {
+.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapper-3WhCwL:hover {
     background-color: rgba(173, 40, 69,.5) !important; /* (Hover Color, .5) */
 }
 .app .welcomeMessage-3_Mcht h1 {
@@ -359,7 +362,7 @@
     fill: #91223A;
     opacity: .7;
 }
-.theme-dark .message-group h2 .timestamp,
+.theme-dark .timestampCozy-2hLAPV,
 .theme-dark .topic-2QX7LI {
     color: white;
 }
@@ -373,7 +376,7 @@
     background-color: rgba(0,0,0,0.5);
     border-color: black;
 }
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
 .tooltip.tooltip-red {
@@ -390,13 +393,13 @@
     background-color: transparent;
 }
 .theme-dark .textArea-2Spzkt,
-.theme-dark .message-group .comment .markup {
+.theme-dark .markup-2BOw-j {
     color: white;
 }
 .attachButtonPlus-rUdX-B {
     opacity: .6 !important; 
 }
-.chat .avatar-large {
+.avatar-17mtNa .large-3ChYtB {
     opacity: 1 !important;
     width: 50px;
     height: 50px;
@@ -469,11 +472,11 @@ a {
 .theme-dark .item-1GzJrl.leave-1DRJfn:hover {
     background-color: rgba(255,0,0,0.8) !important;
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(145, 34, 58, .4) /* (Main Color, .8) */;
     padding: 8px;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     display: none;
 }
 .botTagRegular-2HEhHi,
@@ -535,22 +538,22 @@ a {
 .icon-1792kv {
     opacity: 1;
 }
-.theme-dark .container-1rPqdX {
+.theme-dark .container-3cGP6G {
     background: #91223A;
 }
-.theme-dark .button-1ZXqCA {
+.theme-dark .item-2J1YMK {
     color: white;
 }
-.theme-dark .button-1ZXqCA:active, 
-.theme-dark .button-1ZXqCA:hover {
+.theme-dark .item-2J1YMK:active, 
+.theme-dark .item-2J1YMK:hover {
     background-color: #AD2845;
     color: #fff;
 }
-.theme-dark .message-group .comment .markup code.inline, 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline {
     background: rgba(0,0,0,0.4);
 }
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border-color: transparent;
 }
@@ -616,7 +619,7 @@ a {
     color: #fff;
     box-shadow: inset 2px 2px 6px rgba(255,255,255,0.6);
 }
-.message-group h2 {
+.theme-dark .headerCozyMeta-rdohGq {
     text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
 }
 .private-channels .channel:hover a,
@@ -1439,20 +1442,20 @@ a {
     color: white;
     opacity: 1;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     background-color: transparent;
     box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_,
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #91223A;
     color: white;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.theme-dark .messageGroupWrapper-o-Zw7G {
     background-color: rgba(145, 34, 58,0.6);
     border-color: transparent;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
     border-color: black;
     background-color: #AD2845;
 }
