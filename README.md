@@ -12,5 +12,6 @@ About the discontinued themes up there, maybe they will become recreated into a 
 Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and theme bug problems
 
 ---
-
+## Boku No Hero Academia
+![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
 
