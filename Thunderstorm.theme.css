@@ -75,7 +75,7 @@
     background-color: rgba(0,0,0,0.5);
     border-color: black;
 }
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
 
@@ -83,7 +83,7 @@
     fill: #272729;
     opacity: .7;
 }
-.theme-dark .message-group h2 .timestamp {
+.theme-dark .timestampCozy-2hLAPV {
     color: white;
 }
 .iconCollapsed-3hFp_8, 
@@ -175,12 +175,13 @@
 .theme-dark .iconBadge-2dji3k {
     border-color: #272729;
     background-color: black;
+    right: 3px;
 }
-.theme-dark .mention {
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: rgba(39, 39, 41,.3) !important;
     color: white !important;
 }
-.theme-dark .mention:hover {
+.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapper-3WhCwL:hover {
     background-color: rgba(27, 27, 29,.3) !important;
     color: white !important;
 }
@@ -280,10 +281,10 @@
     font-weight: normal;
     padding: 4px 8px;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     display: none;
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(39, 39, 41,0.23);
     padding: 4px 0;
     border: 1px solid rgba(255,255,255,0.23);
@@ -372,18 +373,18 @@ a {
     color: white;
 }
 .theme-dark .item-1GzJrl:hover,
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     background-color: #1B1B1D;
     color: #fff;
     border: 1px solid rgba(255,255,255,0.23);
 }
-.option-popout .btn-item,
+.theme-dark .item-2J1YMK,
 .marginLeft4-3VaXdt,
 .marginLeft8-1YseBe {
     color: white;
 }
 .theme-dark .menu-Sp6bN1,
-.small-popout-box {
+.theme-dark .container-3cGP6G {
     background: black;
     box-shadow: none;
     border: none;
@@ -410,17 +411,17 @@ a {
     background-color: black;
     color: white;
 }
-.chat .avatar-large {
+.avatar-17mtNa .large-3ChYtB {
     width: 54px;
     height: 54px;
     background-size: cover;
 }
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border: none;
 }
-.theme-dark .message-group .comment .markup code.inline, 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline {
     background: rgba(255,255,255,0.12);
     text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black,0 0 5px black;
     box-shadow: 0 0 5px red;
@@ -532,22 +533,22 @@ a {
 .theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN {
     color: white;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
     border: 1px solid #1B1B1D;
 }
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
     background-color: #1B1B1D;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
+.theme-dark .messageGroupWrapper-o-Zw7G,
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
     background-color: black;
     border-color: transparent;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
    background-color: transparent;
    box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_,
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #272729;
     color: white;
