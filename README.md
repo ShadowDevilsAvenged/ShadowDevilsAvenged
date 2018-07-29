@@ -55,19 +55,19 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ![Old History](https://i.imgur.com/LRBSOGe.png)
 
 ## Thunderstorm
-![Thunderstorm](https://i.imgur.com/LRBSOGe.png)
+![Thunderstorm](https://i.imgur.com/LrgOL3i.png)
 
 ## Touhou Knowledge
-![Touhou Knowledge](https://i.imgur.com/LRBSOGe.png)
+![Touhou Knowledge](https://i.imgur.com/uDAGZo7.png)
 
 ## Twitch
-![Twitch](https://i.imgur.com/LRBSOGe.png)
+![Twitch](https://i.imgur.com/0T15EOq.png)
 
 ## Winter
-![Old History](https://i.imgur.com/LRBSOGe.png)
+![Winter](https://i.imgur.com/IXyLw6I.png)
 
 ## Yoshi
-![Old History](https://i.imgur.com/LRBSOGe.png)
+![Yoshi](https://i.imgur.com/5fzPtwE.png)
 
 ## Yumeko
-![Old History](https://i.imgur.com/LRBSOGe.png)
+![Yumeko](https://i.imgur.com/3S2yHP8.png)
