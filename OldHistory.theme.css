@@ -359,7 +359,7 @@ a {
 }
 .theme-dark .membersGroup-v9BXpm,
 .activityText-sLG0UL,
-.theme-dark .message-group h2 .timestamp {
+.theme-dark .timestampCozy-2hLAPV {
    color: white;
 }
 .userPopout-3XzG_A {
@@ -602,17 +602,17 @@ a {
     background: black;
     box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_,
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #d1aa4c !important;
     color: black;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     box-shadow: none !important;
     background: none !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
+.theme-dark .messageGroupWrapper-o-Zw7G,
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
     background-color: rgba(209, 170, 76,0.4) !important;
     border-color: transparent;
@@ -644,14 +644,15 @@ a {
    background-color: #d1aa4c;
 }
 /* Avatar Status */
-.avatar-large, 
+.avatar-17mtNa .large-3ChYtB, 
 .avatar-3EQepX, 
-.avatar-small, 
+.avatar-small,
+.iconSizeLarge-161qtT,
 .avatar-xlarge, 
 .avatar-xsmall, 
 .avatar-xxlarge,
 .avatarDefault-35WC3R,
-.avatar-16XVId.small-TEeAkX {
+.image-33JSyf.small-5Os1Bb {
     border-radius: 0px;
     filter: sepia(70%) saturate(50%);
 }
@@ -665,9 +666,10 @@ a {
 .theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
 }
-.avatar-large:hover, 
+.avatar-17mtNa .large-3ChYtB:hover, 
 .avatar-3EQepX:hover, 
-.avatar-16XVId.small-TEeAkX:hover, 
+.iconSizeLarge-161qtT:hover,
+.image-33JSyf.small-5Os1Bb:hover, 
 .avatar-xlarge:hover, 
 .avatar-xsmall:hover, 
 .avatar-xxlarge:hover,
@@ -717,7 +719,7 @@ a {
     padding: 3px 6px;
     border-radius: 0px;
 }
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
 .theme-dark .scroller-wrap .scroller::-webkit-scrollbar-thumb,
@@ -807,7 +809,7 @@ a {
     background-color: black;
     height: 5px;
     position: absolute;
-    right: 7px;
+    right: 3px;
     top: 2px;
     width: 5px;
 }
@@ -825,12 +827,12 @@ a {
     background: #d1aa4c;
     color: black;
 }
-.small-popout-box {
+.theme-dark .container-3cGP6G {
     background: black;
     border: none;
     border-radius: 0px;
 }
-.option-popout .btn-item {
+.theme-dark .item-2J1YMK {
     color: white !important;
 }
 .theme-dark .danger-1oUOCl:hover {
@@ -841,7 +843,7 @@ a {
 .theme-dark .danger-1oUOCl {
    color: red !important;
 }
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     background-color: #d1aa4c;
     border-radius: 0px;
     color: black;
@@ -856,12 +858,12 @@ a {
     background: rgba(248, 189, 85,0.4)
     font-size: 29px;
 }
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border-color: transparent;
 }
-.theme-dark .message-group .comment .markup code.inline, 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline {
     background: rgba(255,255,255,0.2);
 }
 .theme-dark .hljs {
@@ -899,8 +901,8 @@ a {
 .container-1UB9sr {
     border-bottom: none;
 }
-.theme-dark .message-group .comment .markup .mention:hover,
-.theme-dark .mention {
+.theme-dark .markup-2BOw-j .mention:hover,
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: #d1aa4c !important;
     color: black;
 }
@@ -915,8 +917,8 @@ a {
 .theme-dark .activityIconForeground-qYIPPg {
     fill: white;
 }
-.theme-dark .message-group .comment .markup .mention,
-.theme-dark .mention {
+.theme-dark .markup-2BOw-j .mention,
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: black !important;
     color: white;
 }
@@ -933,10 +935,10 @@ a {
     border-radius: 0px;
     color: black;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     background: none;
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(209, 170, 76,.3);
 }
 .botTagRegular-2HEhHi,
