@@ -73,7 +73,7 @@
     width: 123px;
     text-align: center;
 }
-.theme-dark .message-group h2 .timestamp{
+.theme-dark .timestampCozy-2hLAPV{
     color: #e53b0a !important;
 }
 .theme-dark .membersGroup-v9BXpm {
@@ -100,10 +100,10 @@
     border-right: 1px solid #e53b0a;
     border-left: 1px solid #e53b0a;
 }
-.theme-dark .message-group h2 strong:after {
+.theme-dark .theme-dark .headerCozyMeta-rdohGq strong:after {
    content: "?";
 }
-.theme-dark .mention {
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: rgba(0,0,0,0.1) !important;
     padding-right: 7px;
     padding-left: 7px;
@@ -114,14 +114,14 @@
 .usernameOnline-3jr_0Y:after {
     content: "?";
 }
-.theme-dark .mention:after {
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL:after {
     content: "?";
 }
-.theme-dark .mention:hover {
+.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapper-3WhCwL:hover {
     border: 1px solid #e53b0a !important;
     color: white !important;
 }
-.theme-dark .message-group .comment .markup {
+.theme-dark .markup-2BOw-j {
     color: white;
     line-height: 1.4em;
 }
@@ -176,13 +176,13 @@ span:not(.spinner-item){
 .button-1w5pas path[stroke] {
     stroke: #e53b0a;
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(0,0,0,0.2);
     border: 1px solid #e53b0a;
     padding-left: 4px;
     padding-bottom: 4px;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     background: none;
     border-left: none;
 }
@@ -200,7 +200,7 @@ span:not(.spinner-item){
 .theme-dark .divider-2JwdCF {
     background-color: transparent;
 }
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom: none;
 }
 .nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s,.colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb {
@@ -265,7 +265,7 @@ span:not(.spinner-item){
    color: #e53b0a;
    opacity: .6;
 }
-.theme-dark .message-group a {
+.theme-dark .markup-2BOw-j a {
    color: #e53b0a !important;
 }
 .contentSelectedText-3wUhMi,.contentSelectedVoice-1WDIBM {
@@ -807,7 +807,7 @@ a {
 .theme-dark .iconBadge-2dji3k {
     border-color: black;
     background: #e53b0a;
-    right: 4px;
+    right: 3px;
     top: 1px;
 }
 .wanderingCubesItem-WPXqao,
@@ -851,11 +851,11 @@ a {
     border-radius: 25px !important;
     cursor: pointer;
 }
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     background-color: transparent;
     color: #e53b0a;
 }
-.option-popout .btn-item:active{
+.theme-dark .item-2J1YMK:active{
     background-color: transparent;
     border: 2px solid #e53b0a;
 }
@@ -863,7 +863,7 @@ a {
     background: black;
     border: 1px solid #e53b0a;
 }
-.small-popout-box {
+.theme-dark .container-3cGP6G {
     background: black;
     border: none;
     border-radius: 0px;
@@ -1130,7 +1130,7 @@ a {
     padding-bottom: 3px;
     border: 1px solid #e53b0a;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.theme-dark .messageGroupWrapper-o-Zw7G {
     background-color: black !important;
     border: 1px solid #e53b0a !important;
 }
@@ -1139,7 +1139,7 @@ a {
     box-shadow: none !important;
     border: none !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_
 :hover {
     color: rgb(255, 255, 255);
 }
@@ -1148,7 +1148,7 @@ a {
 .theme-dark .recent-mentions-popout .mention-filter .label {
     color: rgb(255, 255, 255) !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug
  {
     background: black !important;
     box-shadow: none !important;
@@ -1156,7 +1156,7 @@ a {
 .theme-dark .messages-popout-wrap .messages-popout .channel-separator .guild-name {
     color: white;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_
  {
     background-color: black !important;
     color: white;
@@ -1337,7 +1337,7 @@ a {
 }
 
 /* Code Block Section */
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border-color: transparent;
 }
@@ -1345,12 +1345,12 @@ a {
     background-color: transparent;
     border-color: transparent;
 } 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j pre code {
     background: black;
     border: 1px solid #e53b0a;
     color: white;
 }
-.theme-dark .message-group .comment .markup code.inline {
+.theme-dark .markup-2BOw-j code.inline {
     background: black;
     border: 1px solid #e53b0a;
     padding-top: 4px;
@@ -2115,7 +2115,7 @@ a {
     border: 2px solid #E53B0A;
     border-radius: 30px;
 }
-.theme-dark .mention {
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background: black !important;
     border: 2px solid #E53B0A !important;
     color: white;
