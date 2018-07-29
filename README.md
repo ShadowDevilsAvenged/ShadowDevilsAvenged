@@ -28,7 +28,7 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ![Bubble](https://i.imgur.com/AimbfEC.png)
 
 ## Luigi
-![Luigi](https://i.imgur.com/bJjqBLK.png)
+![Luigi](https://i.imgur.com/9p62va3.png)
 
 ## Mario
 ![Mario](https://i.imgur.com/DC626HA.png)
