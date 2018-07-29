@@ -1,7 +1,7 @@
 //META{"name":"BrownMaterial_Theme","description":"Clean Brown Material Theme","author":"DevilsTheAvenged","version":"1.4"}*//{}
 
 /* Main Area */
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
 .guilds-wrapper .guilds .guild .guild-inner {
@@ -19,12 +19,12 @@
 .theme-dark .reaction.reaction-me .reaction-count {
     color: silver;
 }
-.small-popout-box {
+.theme-dark .container-3cGP6G {
     background: #242629;
     border: none;
     border-radius: 0px;
 }
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     color: white;
     cursor: pointer;
 }
@@ -70,14 +70,14 @@
     margin-bottom: 1px;
     padding: 20px 10px;
 }
-.theme-dark .message-group .comment .markup .mention,
-.theme-dark .mention{
+.theme-dark .markup-2BOw-j .mention,
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL{
     background-color: black !important;
     border: 1px solid #8D6E63;
     color: white !important;
 }
-.theme-dark .message-group .comment .markup .mention:hover,
-.theme-dark .mention:hover {
+.theme-dark .markup-2BOw-j .mention:hover,
+.theme-dark .isMentioned-N-h9aa .mention:hover, .theme-dark .wrapper-3WhCwL:hover {
     border: 2px solid #6D4C41;
 }
 .botTagRegular-2HEhHi {
@@ -141,11 +141,11 @@
 .mediaBarProgress-1xaPtl:before{
     background-color: #D0847A !important;
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: #3E2723;
     padding: 2px 2px;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     background: transparent;
     border-left: none;
 }
@@ -258,12 +258,14 @@
     padding: 12px;
     border-radius: 0px;
 }
-.messages-popout .message-group .comment {
+.contentCozy-3XX413 {
      background: rgba(33, 33, 33,0.6);
-    padding: 12px;
+    padding: 16px;
+    margin-top: -30px;
+    margin-left: 72px;
     border-radius: 0px;
 }
-.messages-popout .message-group .comment:before {
+.contentCozy-3XX413:before {
       content: '';
     position: relative;
     border-style: dashed;
@@ -272,7 +274,7 @@
     display: block;
     width: 0;
     bottom: -5px;
-    left: -23px;
+    left: -30px;
     transform: rotate(90deg);
 }
 .messages-popout .message-group .avatar-large {
@@ -290,11 +292,11 @@
     left: -23px;
     transform: rotate(90deg);
 }
-.chat .avatar-large {
+.avatar-17mtNa .large-3ChYtB {
     opacity: 1 !important;
     border-radius: 0px;
-    left: 4px;
-    top: 8px;
+    left: -7px;
+    top: 2px;
 }
 
 @keyframes fadeIn {
@@ -419,39 +421,39 @@
     left: 21px;
     border-radius: 0px;
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="NotificationBell"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="NotificationBell"] {
        background-image: url(https://png.icons8.com/material/24/cccccc/appointment-reminders.png);
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="Pin"],
-[class*="iconInactive-g2AXfB icon-1R19_H popout-open iconMargin-2YXk4F"][name*="Pin"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="Pin"],
+[class*="iconInactive-g2AXfB icon-1R19_H popout-open"][name*="Pin"] {
        background-image: url(https://png.icons8.com/material/24/cccccc/pin.png);
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group {
+.theme-dark .messageGroupWrapper-o-Zw7G {
     background-color: black !important;
     border-color: transparent;
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="PersonPlus"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="PersonPlus"] {
     background-image: url(https://png.icons8.com/material/40/FFFFFF/person-male.png);
     background-size: cover;
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="Phone"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="Phone"] {
     background-image: url(https://png.icons8.com/material/40/FFFFFF/cell-phone.png);
     background-size: cover;
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="VideoCamera"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="VideoCamera"] {
     background-image: url(https://png.icons8.com/material/40/FFFFFF/camcorder-pro.png);
     background-size: cover;
 }
-[class*="iconActive-AKd_jq icon-1R19_H iconMargin-2YXk4F"][name*="People"],
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="People"] {
+[class*="iconActive-AKd_jq icon-1R19_H"][name*="People"],
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="People"] {
        background-image: url(https://i.pinimg.com/originals/72/75/5a/72755a0272c5f87266c80e3a28b85c76.png);
        background-size: cover;
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="Mention"],
-[class*="iconInactive-g2AXfB icon-1R19_H popout-open iconMargin-2YXk4F"][name*="Mention"]{
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="Mention"],
+[class*="iconInactive-g2AXfB icon-1R19_H popout-open"][name*="Mention"]{
        background-image: url(https://png.icons8.com/material/24/cccccc/email.png);
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="QuestionMark"] {
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="QuestionMark"] {
        background-image: url(https://png.icons8.com/material/24/cccccc/question-mark.png);
 }
 .theme-dark .path2-1q7bG_ {
@@ -833,7 +835,7 @@ a,
     background: #1d1f23;
     box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug
  {
     background: none !important;
     box-shadow: none !important;
@@ -842,7 +844,7 @@ a,
  {
     color: white;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_
 ,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: #5D4037 !important;
@@ -1284,8 +1286,8 @@ a,
     background: #212121;
     border-color: rgba(0, 0, 0, 0);
 }
-[class*="iconInactive-g2AXfB icon-1R19_H iconMargin-2YXk4F"][name*="Compose"],
-[class*="iconInactive-g2AXfB icon-1R19_H popout-open iconMargin-2YXk4F"][name*="Compose"]{
+[class*="iconInactive-g2AXfB icon-1R19_H"][name*="Compose"],
+[class*="iconInactive-g2AXfB icon-1R19_H popout-open"][name*="Compose"]{
       background-image: url(https://png.icons8.com/material/48/cccccc/moleskine.png);
       background-size: cover;
 }
