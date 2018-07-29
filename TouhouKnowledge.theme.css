@@ -42,7 +42,7 @@
     background-color: rgba(0,0,0,0.4);
 }
 /* Main Chat Section */
-.chat .avatar-large {
+.avatar-17mtNa .large-3ChYtB {
     opacity: 1 !important;
     background-size: cover;
     width: 64px;
@@ -90,7 +90,7 @@
     border-style: solid;
     background: black;
 }
-.theme-dark .message-group:not(.has-divider) {
+.theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
 .spinner-wandering-cubes-1eyF3t,
@@ -101,16 +101,15 @@
 .activityText-sLG0UL {
     color: silver;
 }
-.message-group {
+.containerCozy-jafyvG {
     border-bottom: none;
     margin-bottom: 23px;
-    padding: 5px 0;
-    word-wrap: normal;
+    padding-bottom: 40px;
     background-color: rgba(0,0,0,0.2);
-    padding-left: 43px;
+    padding-left: 3px;
     border-radius: 30px;
 }
-.theme-dark .message-group h2 .timestamp {
+.theme-dark .timestampCozy-2hLAPV {
     color: white;
 }
 .mention:hover {
@@ -119,7 +118,7 @@
     cursor: pointer;
     box-shadow: 0 0 6px 2px black;
 }
-.theme-dark .mention {
+.theme-dark .isMentioned-N-h9aa .mention, .theme-dark .wrapper-3WhCwL {
     background-color: rgba(0,0,0,0.4) !important;
     color: silver;
     font-weight: normal;
@@ -222,7 +221,7 @@
 a,
 .theme-dark .topic-2QX7LI a,
 .marginLeft8-1YseBe,
-.theme-dark .message-group a,
+.theme-dark .markup-2BOw-j a,
 .need-help-modal.deprecated a,
 .need-help-modal.deprecated a:hover {
     color: #EFD9C3;
@@ -231,14 +230,19 @@ a,
     font-weight: normal;
     color: #EFD9C3;
 }
-
+.contentCozy-3XX413 {
+    margin-left: 100px;
+}
+.theme-dark .username-_4ZSMR {
+    margin-left: 20px;
+}
 .theme-dark .iconBadge-2dji3k {
     border: 1px solid black;
     background-color: #705435;
     border-radius: 50px;
     box-shadow: none;
     height: 6px;
-    right: 8px;
+    right: 3px;
     top: 3px;
     width: 6px;
 }
@@ -337,7 +341,7 @@ a,
     background-color: #705435 !important;
     color: #EFD9C3;
 }
-.theme-dark .message-group .comment .markup {
+.theme-dark .markup-2BOw-j {
     color: white;
 }
 .chat .new-messages-bar button,
@@ -416,13 +420,13 @@ a,
 .icon-3ICDZz {
     display: none;
 }
-.small-popout-box,
+.theme-dark .container-3cGP6G,
 .theme-dark .menu-Sp6bN1 {
     background: black;
     border: none;
     border-radius: 0px;
 }
-.option-popout .btn-item:hover {
+.theme-dark .item-2J1YMK:hover {
     background-color: rgba(255,255,255,.15);
     color: silver;
 }
@@ -486,10 +490,10 @@ a,
     box-shadow: none;
     color: #fff;
 }
-.message-group .mentioned .message-text:after {
+.theme-dark .isMentioned-N-h9aa:after {
     display: none
 }
-.theme-dark .message-group .mentioned .message-text {
+.theme-dark .isMentioned-N-h9aa {
     background: rgba(112, 84, 53,.4);
 }
 .theme-dark .alt-3btY0e .helper-2c73HK {
@@ -498,12 +502,12 @@ a,
 .theme-dark .item-1GzJrl {
     color: white;
 }
-.theme-dark .message-group .comment .markup pre {
+.theme-dark .markup-2BOw-j pre {
     background: transparent;
     border-color: transparent;
 }
-.theme-dark .message-group .comment .markup code.inline, 
-.theme-dark .message-group .comment .markup pre code {
+.theme-dark .markup-2BOw-j code, 
+.theme-dark .markup-2BOw-j code.inline {
     background: rgba(0,0,0,0.3);
 }
 .message-group .edit-message .edit-operation>a {
@@ -1558,10 +1562,10 @@ a,
 .theme-dark .search-results-wrap .search-result:before {
     display: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover {
     border-color: #A87E56;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group,
+.theme-dark .messageGroupWrapper-o-Zw7G,
 .theme-dark .search-results-wrap .search-result .search-result-message.hit {
     background-color: black;
     border-color: #423523;
@@ -1580,11 +1584,11 @@ a,
     border: 2px solid #43A047;
     border-radius: 30px;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group:hover .actionButtons-1sUUug {
+.theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     background: none !important;
     box-shadow: none !important;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .message-group .actionButtons-1sUUug .jumpButton-3DTcS_,
+.theme-dark .messageGroupWrapper-o-Zw7G .actionButtons-1sUUug .jumpButton-3DTcS_,
 .theme-dark .search-results-wrap .action-buttons .jump-button {
     background-color: black;
     color: white;
