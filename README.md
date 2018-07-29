@@ -33,15 +33,41 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ## Mario
 ![Mario](https://i.imgur.com/DC626HA.png)
 
-## Boku No Hero Academia
-![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+## New Jersey Devils
+![New Jersey Devils](https://i.imgur.com/mScUSBP.png)
 
-## Boku No Hero Academia
-![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+## Peach
+![Peach](https://i.imgur.com/Acqc9Gt.png)
 
-## Boku No Hero Academia
-![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+## Ram
+![Ram](https://i.imgur.com/QBCIKaT.png)
 
-## Boku No Hero Academia
-![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+## Rem
+![Rem](https://i.imgur.com/wL3tbpD.png)
 
+## Question Mark
+![Question Mark](https://i.imgur.com/7NYnOxL.png)
+
+## No Game No Life
+![No Game No Life](https://i.imgur.com/QZFJcB6.png)
+
+## Old History
+![Old History](https://i.imgur.com/LRBSOGe.png)
+
+## Thunderstorm
+![Thunderstorm](https://i.imgur.com/LRBSOGe.png)
+
+## Touhou Knowledge
+![Touhou Knowledge](https://i.imgur.com/LRBSOGe.png)
+
+## Twitch
+![Twitch](https://i.imgur.com/LRBSOGe.png)
+
+## Winter
+![Old History](https://i.imgur.com/LRBSOGe.png)
+
+## Yoshi
+![Old History](https://i.imgur.com/LRBSOGe.png)
+
+## Yumeko
+![Old History](https://i.imgur.com/LRBSOGe.png)
