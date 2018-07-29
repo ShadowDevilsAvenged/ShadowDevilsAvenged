@@ -15,3 +15,33 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ## Boku No Hero Academia
 ![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
 
+## Bowser
+![Bowser](https://i.imgur.com/nm853VK.jpg)
+
+## Brown Material
+![Brown Material](https://i.imgur.com/CcmFff2.jpg)
+
+## Danganronpa
+![Danganronpa](https://i.imgur.com/DyeV9Ri.jpg)
+
+## Bubble
+![Bubble](https://i.imgur.com/AimbfEC.png)
+
+## Luigi
+![Luigi](https://i.imgur.com/BFKvPj2.png)
+
+## Mario
+![Mario](https://i.imgur.com/CcmFff2.jpg)
+
+## Boku No Hero Academia
+![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+
+## Boku No Hero Academia
+![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+
+## Boku No Hero Academia
+![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+
+## Boku No Hero Academia
+![Boku No Hero Academia](https://i.imgur.com/CcmFff2.jpg)
+
