@@ -20,7 +20,7 @@
 .theme-dark .title-3qD0b-,
 .container-PNkimc,
 .container-2lgZY8,
-.guilds-wrapper,
+.theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .chat form,
 .theme-dark .chat>.content,
 .theme-dark .chat,
@@ -61,10 +61,10 @@
     background: black;
     border: none;
 }
-.guilds-wrapper .guilds-error:hover {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
     background: black;
 }
-.guilds-wrapper .guilds-error {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error {
     border-color: #A87E56;
     color: white;
     border-width: 1px;
@@ -77,13 +77,13 @@
     background-color: black;
     color: white;
 }
-.guilds-wrapper .guilds-add {
+.theme-dark .guildsAdd-21_IdK {
     border-color: #705435;
     color: white;
     border-width: 2px;
     background: black;
 }
-.guilds-wrapper .guilds-add:hover {
+.theme-dark .guildsAdd-21_IdK:hover {
     border-color: #A87E56;
     color: white;
     border-width: 1px;
@@ -435,11 +435,11 @@ a,
     background: #705435;
     color: #fff;
 }
-.guilds-wrapper .guilds .guild.unread:before {
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     background: silver;
     border-radius: 0px;
 }
-.guilds-wrapper .guilds .guild.selected:before {
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
     background: #EFD9C3;
     border-radius: 0px;
 }
@@ -910,7 +910,7 @@ a,
 }
 .theme-dark #friends .tab-bar .tab-bar-separator,
 .theme-dark #friends .friends-table .friends-table-header .friends-column-separator,
-.guilds-wrapper .guild-separator:after,
+.theme-dark .guildSeparator-1X4GQ1:after,
 .theme-dark .keybindShortcutTipsSelect-HDyfe8:last-of-type:before {
     background: none;
 }
@@ -922,7 +922,7 @@ a,
 #friends .friends-table .friends-row .friends-column-status .status-text,
 .theme-dark #friends .friends-table .friends-table-header .friends-column,
 #friends .friends-table .friends-row .discord-tag .username,
-.guilds-wrapper .guilds .friends-online,
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM,
 .theme-dark .emptyStateNote-ZYTetQ,
 .theme-dark .contentDefault-16dKSY .note-1VhFgQ,
 .misc-1CT3G7,
@@ -937,11 +937,11 @@ a,
     color: white;
     opacity: 0.7;
 }
-.guilds-wrapper .guilds .guild .guild-inner {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background: #705435 !important;
     border-radius: 50px !important;
 }
-.guilds-wrapper .guilds .friends-icon {
+.theme-dark .guildsWrapper-5TJh6A .guilds .friends-icon {
     background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -949,7 +949,7 @@ a,
     height: 50px;
     width: 50px;
 }
-.guilds-wrapper .guilds .friends-icon:hover {
+.theme-dark .guildsWrapper-5TJh6A .guilds .friends-icon:hover {
     background-image: url(/assets/89576a4bb71f927eb20e8aef987b499b.svg);
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1420,7 +1420,7 @@ a,
     border-radius: 0px;
     border: none;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar-light .searchBarInner-1_Tg2R {
     background-color: #705435;
     border: none;
 }
