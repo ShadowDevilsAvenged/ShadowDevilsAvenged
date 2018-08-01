@@ -4,12 +4,12 @@
 .theme-dark .dividerEnabled-2TTlcf {
     border-bottom-color: transparent;
 }
-.guilds-wrapper .guilds .guild .guild-inner {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background: #2f3136 !important;
     border-radius: 0px !important;
     overflow: visible;
 }
-.guilds-wrapper .guilds .guild.unread:before {
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     border-radius: 0px;
 }
 .theme-dark .reaction.reaction-me {
@@ -180,7 +180,11 @@
     width: 22px;
     margin-left: 3px;
 }
-.unread-mentions-indicator-bottom, .unread-mentions-indicator-top {
+.unreadMentionsIndicatorBottom-BXS58x, .unreadMentionsIndicatorTop-gA6RCh {
+    overflow: visible;
+}
+.unreadMentionsIndicatorBottom-BXS58x, 
+.unreadMentionsIndicatorTop-gA6RCh {
     overflow: visible;
 }
 .wrapper-232cHJ{
@@ -1090,7 +1094,7 @@ a,
     border-radius: 0px;
     border: none;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar-light .searchBarInner-1_Tg2R {
     background-color: #212121;
     border: none;
 }
@@ -1268,7 +1272,7 @@ a,
     background-size: 36px 36px;
 }
 /* Friends and DMs */
-.guilds-wrapper .guilds .friends-icon {
+.theme-dark .guildsWrapper-5TJh6A .guilds .friends-icon {
     background-image: url(https://png.icons8.com/material/48/FFFFFF/chat.png);
 }
 
@@ -1422,10 +1426,10 @@ a,
 box-shadow: none;
     color: silver;
 }
-.guilds-wrapper .guilds-error {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error {
     border-radius: 0px;
 }
-.guilds-wrapper .guilds-add {
+.theme-dark .guildsAdd-21_IdK {
     border-radius: 0px;
 }
 .create-guild-container.deprecated .create-or-join .form-inner {
