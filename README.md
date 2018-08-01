@@ -27,6 +27,9 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ## Bubble
 ![Bubble](https://i.imgur.com/AimbfEC.png)
 
+## Chocola
+![Chocola](https://i.imgur.com/hxuGT3y.png)
+
 ## Luigi
 ![Luigi](https://i.imgur.com/9p62va3.png)
 
