@@ -22,7 +22,7 @@
 .theme-dark .title-3qD0b-,
 .container-PNkimc,
 .container-2lgZY8,
-.guilds-wrapper,
+.theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .chat form,
 .theme-dark .chat>.content,
 .theme-dark .chat,
@@ -272,17 +272,17 @@ a,
     color: #fff;
     border: 1px solid #A8000B;
 }
-.guilds-wrapper .guild-separator:after {
+.theme-dark .guildSeparator-1X4GQ1:after {
     background: transparent;
 }
-.guilds-wrapper .guilds .friends-online {
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
     color: white;
 }
-.guilds-wrapper .guilds .friends-icon {
+.theme-dark .guildsWrapper-5TJh6A .guilds .friends-icon {
     background-image: url(http://nogame-nolife.ru/uploads/monthly_2016_07/256.png.6a820b52248af79ada57ee876332fa65.png);
     background-size: cover;
 }
-.guilds-wrapper .guilds .guild .guild-inner {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background: #4F1C4F !important;
     border-radius: 50px !important;
 }
@@ -352,7 +352,7 @@ a,
     border-radius: 0px;
 }
 /* Unread Channel Guilds */
-.guilds-wrapper .guilds .guild.unread:before {
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     border-radius: 0px;
     background-color: #84003B;
 }
@@ -689,8 +689,8 @@ a,
 }
 /* --------------------------------- */
 /* Audio Icon */
-.guilds-wrapper .guilds .guild.audio .guild-inner:after, 
-.guilds-wrapper .guilds .guild.video .guild-inner:after {
+.theme-dark .guildsWrapper-5TJh6A .guilds .guild.audio .guild-inner:after, 
+.theme-dark .guildsWrapper-5TJh6A .guilds .guild.video .guild-inner:after {
     background-color: #4F1C4F;
 }
 /* ------------------- */
@@ -1173,7 +1173,7 @@ a,
     border-radius: 0px;
     border: none;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar-light .searchBarInner-1_Tg2R {
     background-color: #4F1C4F;
     border: none;
 }
@@ -1364,21 +1364,21 @@ a,
     background-size: 36px 36px;
 }
 /* Guild Error and Add */
-.guilds-wrapper .guilds-error {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error {
     border-radius: 50px;
     background-color: rgba(79, 28, 79,0.4);
 }
-.guilds-wrapper .guilds-error:hover {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
     border-radius: 50px;
     background-color: rgba(132, 0, 88,0.4);
 }
-.guilds-wrapper .guilds-add {
+.theme-dark .guildsAdd-21_IdK {
     border-radius: 50px;
     background-color: #4F1C4F;
     border: 2px dashed black !important;
     color: white;
 }
-.guilds-wrapper .guilds-add:hover {
+.theme-dark .guildsAdd-21_IdK:hover {
     border-radius: 50px;
     background-color: #840058;
     color: white;
