@@ -16,7 +16,7 @@
 .theme-dark .title-3qD0b-,
 .container-PNkimc,
 .container-2lgZY8,
-.guilds-wrapper,
+.theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .chat form,
 .theme-dark .chat>.content,
 .theme-dark .chat,
@@ -38,8 +38,8 @@
 .avatarSpeaking-1wJCNq {
     box-shadow: 0 0 0 2px #1559B7, inset 0 0 0 1.5px transparent;
 }
-.guilds-wrapper .guilds .guild.selected:before,
-.guild.selected.unread:before {
+.theme-dark .guild-1EfMGQ.selected-ML3OIq:before,
+.guild-1EfMGQ.selected.unread-qLkInr:before {
     background: #1559B7;
     border-radius: 30px;
     box-shadow: inset 0 0 6px white, inset 0 0 6px white, 0 0 6px white, 0 0 6px white, 0 0 6px white, inset 0 0 6px white;
@@ -49,7 +49,7 @@
     margin-top: -32px !important;
     z-index: 1;
 }
-.guilds-wrapper .guilds .guild.unread:before {
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before {
     background: #1559B7;
     border-radius: 30px;
     height: 15px;
@@ -58,10 +58,10 @@
     margin-top: -26px;
     z-index: 1;
 }
-.guilds-wrapper .guilds-add:hover {
+.theme-dark .guildsAdd-21_IdK:hover {
     border: 1px solid white;
 }
-.guilds-wrapper .guilds-add {
+.theme-dark .guildsAdd-21_IdK {
     background: #1559B7;
     border: 1px dashed white;
     color: white;
@@ -98,20 +98,20 @@
     padding: 5px 9px;
     text-shadow: 0 0 6px rgba(0,0,0,1), 0 0 6px rgba(0,0,0,1);
 }
-.guilds-wrapper .guilds .guild .guild-inner {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background: transparent !important;
     border-radius: 25px !important;
 }
-.unread-mentions-indicator-bottom .unread-mentions-bar, 
-.unread-mentions-indicator-top .unread-mentions-bar {
+.unreadMentionsIndicatorBottom-BXS58x .unreadMentionsBar-1VrBNe, 
+.unreadMentionsIndicatorTop-gA6RCh .unreadMentionsBar-1VrBNe {
     box-shadow: none;
     height: 56px;
 }
-.unread-mentions-indicator-bottom, 
-.unread-mentions-indicator-top {
+.unreadMentionsIndicatorBottom-BXS58x, 
+.unreadMentionsIndicatorTop-gA6RCh {
     overflow: visible;
 }
-.unread-mentions-indicator-bottom {
+.unreadMentionsIndicatorBottom-BXS58x {
    margin-bottom: 42px;
 }
 .mention-1f5kbO {
@@ -213,10 +213,10 @@
 .iconUnread-2eGkvX {
     display: none;
 }
-.guilds-wrapper .guilds-error:hover {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
     background-color: rgba(21, 89, 183,0.4); 
 }
-.guilds-wrapper .guilds-error {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error {
     background: transparent;
     border: 2px solid #1559B7;
     color: #fff!important;
@@ -550,10 +550,10 @@ a {
     margin-left: -6px;
 }
 /* Friends and DMs */
-.guilds-wrapper .guild-separator:after {
+.theme-dark .guildSeparator-1X4GQ1:after {
     display: none;
 }
-.guilds-wrapper .guilds .friends-online,
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM,
 .theme-dark .emptyStateNote-ZYTetQ {
     color: white;
 }
@@ -1339,7 +1339,7 @@ a {
     border-radius: 0px;
     border: none;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar-light .searchBarInner-1_Tg2R {
     background-color: #1559B7;
     border: none;
 }
@@ -1419,7 +1419,7 @@ a {
     border: none;
     box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN,
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN, .themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ ,
 .theme-dark .primary-jw0I4K {
     color: white;
     opacity: 1;
