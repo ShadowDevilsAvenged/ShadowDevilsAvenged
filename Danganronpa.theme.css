@@ -17,7 +17,7 @@
 .theme-dark .title-3qD0b-,
 .container-PNkimc,
 .container-2lgZY8,
-.guilds-wrapper,
+.theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .chat form,
 .theme-dark .chat>.content,
 .theme-dark .chat,
@@ -294,11 +294,11 @@
 a {
     color: #8EC2C2 !important;
 }
-.guilds-wrapper .guilds-error {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error {
     background: rgba(0,0,0,0.4);
     border: none;
 }
-.guilds-wrapper .guilds-error:hover {
+.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
     background: rgba(0,0,0,1);
 }
 .theme-dark .reaction {
@@ -318,7 +318,7 @@ a {
     background: #5088A3;
     color: #fff;
 }
-.guilds-wrapper .guilds .guild .guild-inner {
+.theme-dark .guild-1EfMGQ .guildInner-3DSoA4 {
     background-color: #5088A3 !important;
     border-radius: 25px;
     cursor: pointer;
@@ -329,7 +329,7 @@ a {
 }
 .unread-1xRYoj,
 .mention-1f5kbO,
-.guilds-wrapper .guilds .guild.unread:before,
+.theme-dark .guild-1EfMGQ.unread-qLkInr:before,
 [style*="line-height: 20px; font-size: 12px;"] {
     background-color: #5088A3 !important;
 }
@@ -337,10 +337,10 @@ a {
 .mention-1f5kbO:hover {
     background-color: #8EC2C2 !important;
 }
-.guilds-wrapper .guild-separator:after {
+.theme-dark .guildSeparator-1X4GQ1:after {
     display: none;
 }
-.guilds-wrapper .guilds .friends-online {
+.theme-dark .friendsOnline-_wi_fM, .theme-light .friendsOnline-_wi_fM {
     color: white;
 }
 .theme-dark .membersGroup-v9BXpm {
@@ -396,11 +396,11 @@ a {
     border: 1px solid black;
     color: white;
 }
-.guilds-wrapper .guilds-add:hover {
+.theme-dark .guildsAdd-21_IdK:hover {
     border-color: white;
     color: white;
 }
-.guilds-wrapper .guilds-add {
+.theme-dark .guildsAdd-21_IdK {
     border-color:  transparent;
     color: white;
     background-color: #5088A3;
@@ -529,7 +529,7 @@ a {
     border: none;
     box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN {
+.theme-dark .messagesPopoutWrap-1MQ1bW .messagesPopout-24nkyi .emptyPlaceholder-1zh-Eu .body-bvcIjN, .themedPopout-25DgLi .header-SsaQ8X .title-23FrqZ  {
     color: white;
 }
 .theme-dark .messageGroupWrapper-o-Zw7G:hover {
@@ -782,7 +782,7 @@ a {
 .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
     background-color: transparent;
 }
-.search-bar.search-bar-light .search-bar-inner {
+.search-bar-light .searchBarInner-1_Tg2R {
     background-color: rgba(0,0,0,.3);
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 0px!important;
