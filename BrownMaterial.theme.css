@@ -49,14 +49,14 @@
 .theme-dark .item-1GzJrl {
     transition: background-color .3s ease;
 }
-.theme-dark .chat>.content,
+.theme-dark .content-yTz4x3,
 .theme-dark .title-3qD0b-,
 .header-2o-2hj,
 .theme-dark .friends-table,
-.theme-dark .messages-wrapper,
+.theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .members-1998pB,
 .theme-dark .typing-2GQL18,
-.theme-dark .chat form,
+.theme-dark .chat-3bRxxu form,
 .scroller-NXV0-d,
 .channels-Ie2l6A,
 .theme-dark .headerBar-UHpsPw,
@@ -360,58 +360,55 @@
 .alt-3btY0e .item-1GzJrl .helper-2c73HK {
     display: none;
 }
-.theme-dark .friends-table .messages .divider:before, 
-.theme-dark .friends-table .messages .divider span, 
-.theme-dark .messages-wrapper .messages .divider:before, 
-.theme-dark .messages-wrapper .messages .divider span {
+.theme-dark .divider-3gKybi:before {
     background: none;
     box-shadow: none;
     border-radius: 0px;
     color: white !important;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: #1e2124;
     border-color: transparent;
     border-radius: 0px;
 }
 .theme-dark .friends-table .messages .divider:not(.red) div,
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+.theme-dark .messagesWrapper-3lZDfY .messages .divider:not(.red) div {
     background: transparent;
 }
 .theme-dark .friends-table .messages .divider.divider-red>div, 
-.theme-dark .messages-wrapper .messages .divider.divider-red>div {
+.theme-dark .messagesWrapper-3lZDfY .messages .divider.divider-red>div {
     background: transparent;
 }
 .chat .divider:before {
     background-color: transparent !important;
 }
 .theme-dark .friends-table .messages .divider.divider-red>span, 
-.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+.theme-dark .messagesWrapper-3lZDfY .messages .divider.divider-red>span {
     color: white;
     background: #6D4C41;
     border-radius: 0px;
     padding: 2px 8pc;
     box-shadow: 0 3px 2px black;
 }
-.chat .new-messages-bar {
+.newMessagesBar-mujexs {
     background-color: #6D4C41 !important;
     border-radius: 0px;
 }
-.chat .new-messages-bar button:last-child {
+.newMessagesBar-mujexs button:last-child {
     color: white !important;
 } 
-.theme-dark .chat .has-more button {
+.theme-dark .hasMore-3e72_v button {
     background: #1f2123;
     border: 1px solid black;
     color: white;
 }
-.theme-dark .chat .jump-to-present-bar {
+.theme-dark .jumpToPresentBar-9P20AM {
     background-color: #1f2123 !important;
 }
 .chat .jump-to-present-bar button:last-child {
@@ -422,7 +419,7 @@
 }
 .theme-dark .iconBadge-2dji3k {
     border-color: black;
-    left: 21px;
+    left: 16px;
     border-radius: 0px;
 }
 [class*="iconInactive-g2AXfB icon-1R19_H"][name*="NotificationBell"] {
