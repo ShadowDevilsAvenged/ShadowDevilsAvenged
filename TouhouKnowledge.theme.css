@@ -21,12 +21,12 @@
 .container-PNkimc,
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .chat form,
-.theme-dark .chat>.content,
-.theme-dark .chat,
+.theme-dark .chat-3bRxxu, 
+.theme-dark .chat-3bRxxu form, 
+.theme-dark .content-yTz4x3,
 .chat .messages,
 .theme-dark .friends-table,
-.theme-dark .messages-wrapper,
+.theme-dark .messagesWrapper-3lZDfY,
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw,
 .theme-dark .ui-standard-sidebar-view {
@@ -57,7 +57,7 @@
 .mediaBarProgress-1xaPtl:before {
     background-color:  #A87E56 !important;
 }
-.theme-dark .chat .has-more button {
+.theme-dark .hasMore-3e72_v button {
     background: black;
     border: none;
 }
@@ -104,7 +104,7 @@
 .containerCozy-jafyvG {
     border-bottom: none;
     margin-bottom: 23px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
     background-color: rgba(0,0,0,0.2);
     padding-left: 3px;
     border-radius: 30px;
@@ -132,26 +132,21 @@
     background-color: rgba(0, 0, 0,.3) !important;
 }
 
-.theme-dark .friends-table .messages .divider:not(.red) div, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
     background: transparent;
 }
-.theme-dark .friends-table .messages .divider:not(.red) span,
-.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
     color: white;
     background-color: rgba(0,0,0,0.3);
     border-radius: 0px;
     bottom: 12px;
     padding: 3px 152px; 
 }
-.theme-dark .friends-table .messages .divider.divider-red>div, 
-.theme-dark .messages-wrapper .messages .divider.divider-red>div {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
     background-color: transparent;
 }
-.theme-dark .friends-table .messages .divider:before,
-.theme-dark .friends-table .messages .divider span,
-.theme-dark .messages-wrapper .messages .divider:before,
-.theme-dark .messages-wrapper .messages .divider span {
+.theme-dark .divider-3gKybi span,
+.theme-dark .divider-3gKybi:before {
     background-color: transparent;
 }
 .theme-dark .members-1998pB {
@@ -336,16 +331,16 @@ a,
     border: 1px solid rgba(255,255,255,0.3);
     background-color: rgb(112, 84, 53);
 }
-.chat .new-messages-bar,
-.theme-dark .chat .jump-to-present-bar {
+.newMessagesBar-mujexs,
+.theme-dark .jumpToPresentBar-9P20AM {
     background-color: #705435 !important;
     color: #EFD9C3;
 }
 .theme-dark .markup-2BOw-j {
     color: white;
 }
-.chat .new-messages-bar button,
-.chat .jump-to-present-bar button {
+.newMessagesBar-mujexs button,
+.jumpToPresentBar-9P20AM button {
     color:  #EFD9C3 !important;
 }
 .channelName-1G03vu svg {
@@ -514,7 +509,7 @@ a,
     color: #EFD9C3;
 }
 .theme-dark .message-group .edit-message .edit-operation,
-.theme-dark .message-group .comment .edited {
+.theme-dark .edited-DL9ECl {
     color: white;
 }
 .theme-dark .hljs-comment,
