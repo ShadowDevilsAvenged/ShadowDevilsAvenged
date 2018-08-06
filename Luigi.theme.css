@@ -17,11 +17,11 @@
 .container-PNkimc,
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .chat form,
-.theme-dark .chat>.content,
-.theme-dark .chat,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3,
+.theme-dark .chat-3bRxxu,
 .chat .messages,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .members-1998pB,
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw,
@@ -227,20 +227,20 @@
     font-weight: normal;
 }
 .tooltip.tooltip-black.tooltip,
-.chat .new-messages-bar,
-.theme-dark .chat .jump-to-present-bar {
+.newMessagesBar-mujexs,
+.theme-dark .jumpToPresentBar-9P20AM {
     background-color: #28790E;
 }
-.chat .new-messages-bar:hover,
-.theme-dark .chat .jump-to-present-bar:hover {
+.newMessagesBar-mujexs:hover,
+.theme-dark .jumpToPresentBar-9P20AM:hover {
     background-color: #389316;
 }
-.theme-dark .chat .has-more button {
+.theme-dark .hasMore-3e72_v button {
     background: #28790E;
     border: none;
     color: white;
 }
-.chat .new-messages-bar button {
+.newMessagesBar-mujexs button {
     color: #fff !important;
 }
 .tooltip.tooltip-red.tooltip-right:after {
@@ -290,7 +290,7 @@
 .theme-dark .description-11DmNu, 
 .theme-dark .descriptionUsername-J_75O8,
 .theme-dark .message-group .edit-message .edit-operation,
-.theme-dark .message-group .comment .edited{
+.theme-dark .edited-DL9ECl{
     color: white;
 }
 .theme-dark .iconForeground-1w5n7R {
@@ -300,20 +300,15 @@
     background-color: #28790E;
     color: #fff;
 }
-.theme-dark .friends-table .messages .divider:not(.red) div, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
     background-color: transparent;
 }
-.theme-dark .friends-table .messages .divider:not(.red) span, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
     color: white;
     background: #28790E;
     padding: 4px 65px;
 }
-.theme-dark .friends-table .messages .divider:before, 
-.theme-dark .friends-table .messages .divider span, 
-.theme-dark .messages-wrapper .messages .divider:before, 
-.theme-dark .messages-wrapper .messages .divider span {
+.theme-dark .divider-3gKybi:before {
      background: transparent;
 }
 .theme-dark .iconBadge-2dji3k {
@@ -354,12 +349,12 @@
     color: white;
 }
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
- .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+ .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,0.5);
     border-color: black;
 }
@@ -373,7 +368,7 @@
 .header-2o-2hj:hover {
     background-color: rgba(56, 147, 22,.3) !important; /* (Hover Color, .3) */
 }
-.theme-dark .chat form {
+.theme-dark .chat-3bRxxu form {
     box-shadow: none;
 }
 .theme-dark .inner-zqa7da {
