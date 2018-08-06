@@ -23,18 +23,18 @@
 .container-PNkimc,
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .chat form,
-.theme-dark .chat>.content,
-.theme-dark .chat,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3,
+.theme-dark .chat-3bRxxu,
 .chat .messages,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .members-1998pB,
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw,
 .theme-dark .ui-standard-sidebar-view {
     background-color: transparent;
 }
-.theme-dark .chat form {
+.theme-dark .chat-3bRxxu form {
     box-shadow: none;
     margin: 0 0;
     top: 19px;
@@ -149,7 +149,7 @@ a,
 }
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
 }
@@ -157,7 +157,7 @@ a,
 .theme-dark .scrollerWrap-2uBjct .scroller-fzNley::-webkit-scrollbar-thumb, 
 .theme-light .scrollerThemed-19vinI.themeDark-BdSAwu .scroller-fzNley::-webkit-scrollbar-thumb,
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb,
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb,
 .theme-dark .scrollerThemed-19vinI.themeGhostHairline-2H8SiW .scroller-fzNley::-webkit-scrollbar-thumb {
     background-color: #840058;
     border-color: rgba(0, 0, 0, 0);
@@ -313,41 +313,35 @@ a,
     background-color: rgba(79, 28, 79, 0.7);
 }
 /* Divider */
-.theme-dark .friends-table .messages .divider.divider-red>div, 
-.theme-dark .messages-wrapper .messages .divider.divider-red>div {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
     background: transparent;
 }
-.theme-dark .friends-table .messages .divider.divider-red>span, 
-.theme-dark .messages-wrapper .messages .divider.divider-red>span {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
     color: #A8000B;
     background: #4F1C4F;
     border-radius: 0px;
     padding: 2px 22px;
     border: 1px solid #4CAF50;
 }
-.theme-dark .friends-table .messages .divider:before, 
-.theme-dark .friends-table .messages .divider span, 
-.theme-dark .messages-wrapper .messages .divider:before, 
-.theme-dark .messages-wrapper .messages .divider span {
+.theme-dark .divider-3gKybi:before, .theme-dark .divider-3gKybi span {
     background-color: transparent;
 }
-.theme-dark .friends-table .messages .divider:not(.red) div, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
     background: transparent;
 }
 /* Chat Message Bars */
-.chat .new-messages-bar {
+.newMessagesBar-mujexs {
     background-color: #4F1C4F !important;
     border-radius: 0 0 0px 0px;
     color: #fff;
     font-weight: normal;
 }
-.theme-dark .chat .has-more button {
+.theme-dark .hasMore-3e72_v button {
     background: #84003B;
     border: 1px solid #A8000B;
     color: white;
 }
-.theme-dark .chat .jump-to-present-bar {
+.theme-dark .jumpToPresentBar-9P20AM{
     background-color: #840058 !important;
     border-radius: 0px;
 }
@@ -390,7 +384,7 @@ a,
     border: 2px solid #84003B;
 }
 /* Message Edited */
-.theme-dark .message-group .comment .edited {
+.theme-dark .edited-DL9ECl {
     color: rgb(255, 255, 255);
 }
 .message-group .edit-message .edit-container-outer {
