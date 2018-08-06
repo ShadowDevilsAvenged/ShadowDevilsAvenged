@@ -246,56 +246,27 @@
     height: 45px;
     border-radius: 0px;
     left: -3px;
-    top: 12px;
+    top: -1px;
     background-size: cover;
 }
 .container-2Thooq .status-2kJpnA {
-     bottom: -16px;
+     bottom: -4px;
 }
 .wanderingCubesItem-WPXqao,
 .spinner-wandering-cubes-1eyF3t,
 .spinner-wandering-cubes .spinner-item {
     background-color: #6D4C41;
 }
-.comment {
-    background: rgba(33, 33, 33,0.6);
-    padding: 12px;
-    border-radius: 0px;
-}
 .contentCozy-3XX413 {
      background: rgba(33, 33, 33,0.6);
     padding: 16px;
-    margin-top: -30px;
-    margin-left: 72px;
     border-radius: 0px;
 }
-.contentCozy-3XX413:before {
-      content: '';
-    position: relative;
-    border-style: dashed;
-    border-width: 10px 10px 0;
-    border-color:  #1f2021 transparent;
-    display: block;
-    width: 0;
-    bottom: -5px;
-    left: -30px;
-    transform: rotate(90deg);
-}
+
 .messages-popout .message-group .avatar-large {
     border-radius: 0px;
 }
-.comment::before {
-    content: '';
-    position: relative;
-    border-style: dashed;
-    border-width: 10px 10px 0;
-    border-color:  #1f2021 transparent;
-    display: block;
-    width: 0;
-    bottom: -10px;
-    left: -23px;
-    transform: rotate(90deg);
-}
+
 .avatar-17mtNa .large-3ChYtB {
     opacity: 1 !important;
     border-radius: 0px;
@@ -377,19 +348,16 @@
     border-color: transparent;
     border-radius: 0px;
 }
-.theme-dark .friends-table .messages .divider:not(.red) div,
-.theme-dark .messagesWrapper-3lZDfY .messages .divider:not(.red) div {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
     background: transparent;
 }
-.theme-dark .friends-table .messages .divider.divider-red>div, 
-.theme-dark .messagesWrapper-3lZDfY .messages .divider.divider-red>div {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>div {
     background: transparent;
 }
 .chat .divider:before {
     background-color: transparent !important;
 }
-.theme-dark .friends-table .messages .divider.divider-red>span, 
-.theme-dark .messagesWrapper-3lZDfY .messages .divider.divider-red>span {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr>span {
     color: white;
     background: #6D4C41;
     border-radius: 0px;
