@@ -17,11 +17,11 @@
 .container-PNkimc,
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
-.theme-dark .chat form,
-.theme-dark .chat>.content,
-.theme-dark .chat,
+.theme-dark .chat-3bRxxu form,
+.theme-dark .content-yTz4x3,
+.theme-dark .chat-3bRxxu,
 .chat .messages,
-.theme-dark .friends-table, .theme-dark .messages-wrapper,
+.theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .members-1998pB,
 .theme-dark #friends,
 .theme-dark .headerBar-UHpsPw,
@@ -60,7 +60,7 @@
     z-index: 1;
     box-shadow: inset 3px 6px 6px rgba(255,255,255,0.87), inset 0 0 123px rgba(255,255,255,0.47);
 }
-.messageCozy-2JPAPA {
+.containerCozy-jafyvG {
     box-shadow: inset 5px 4px 6px rgba(255,255,255,0.37), inset 0 0 123px rgba(255,255,255,0.47);
     margin-bottom: 13px;
     padding-left: 12px;
@@ -255,8 +255,8 @@
     color: white;
     box-shadow: inset 3px 6px 6px rgba(255,255,255,0.5), inset 0 0 123px rgba(255,255,255,0.50);
 }
-.chat .new-messages-bar,
-.theme-dark .chat .jump-to-present-bar {
+.newMessagesBar-mujexs,
+.theme-dark .jumpToPresentBar-9P20AM {
     background-color: transparent;
     color: white !important;
     box-shadow: inset 5px 7px 6px rgba(255,255,255,0.5), inset 0px 0px 86px rgba(255,255,255,0.6);
@@ -265,18 +265,18 @@
 .chat .jump-to-present-bar button:last-child {
     color: white !important;
 }
-.chat .new-messages-bar:hover,
-.theme-dark .chat .jump-to-present-bar:hover {
+.newMessagesBar-mujexs:hover,
+.theme-dark .jumpToPresentBar-9P20AM:hover {
     background-color: transparent;
     box-shadow: inset 5px 7px 6px rgba(255,255,255,0.7), inset 0px 0px 86px rgba(255,255,255,0.3)
 }
-.theme-dark .chat .has-more button {
+.theme-dark .hasMore-3e72_v button {
     box-shadow: inset 5px 7px 6px rgba(255,255,255,0.5), inset 0px 0px 86px rgba(255,255,255,0.3);
     border: none;
     color: white;
     border-radius: 30px;
 }
-.chat .new-messages-bar button {
+.newMessagesBar-mujexs button {
     color: white !important;
 }
 .tooltip.tooltip-red.tooltip-right:after {
@@ -326,7 +326,7 @@
 }
 
 .theme-dark .message-group .edit-message .edit-operation,
-.theme-dark .message-group .comment .edited{
+.theme-dark .edited-DL9ECl{
     color: white;
 }
 .theme-dark .contentTitle-2tG_sM,
@@ -345,22 +345,17 @@
     background-color: #E7FEFF;
     color: black;
 }
-.theme-dark .friends-table .messages .divider:not(.red) div, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) div {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) div {
     background-color: transparent;
 }
-.theme-dark .friends-table .messages .divider:not(.red) span, 
-.theme-dark .messages-wrapper .messages .divider:not(.red) span {
+.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
     color: white;
     background: transparent;
     padding: 4px 65px;
     border-radius: 40px;
     box-shadow: inset 3px 6px 6px rgba(255,255,255,0.5), inset 0 0 123px rgba(255,255,255,0.30);
 }
-.theme-dark .friends-table .messages .divider:before, 
-.theme-dark .friends-table .messages .divider span, 
-.theme-dark .messages-wrapper .messages .divider:before, 
-.theme-dark .messages-wrapper .messages .divider span {
+.theme-dark .divider-3gKybi:before {
      background: transparent;
 }
 .theme-dark .iconBadge-2dji3k {
@@ -405,12 +400,12 @@
     color: white;
 }
  .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-track-piece, 
- .theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-track-piece {
+ .theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
     background-color: transparent;
     border-color: transparent;
 }
 .theme-dark .friends-table .scroller-wrap ::-webkit-scrollbar-thumb, 
-.theme-dark .messages-wrapper .scroller-wrap ::-webkit-scrollbar-thumb {
+.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,0.5);
     border-color: black;
 }
@@ -429,7 +424,7 @@
 .header-2o-2hj {
   border-radius: 30px 30px 0 0;
 }
-.theme-dark .chat form {
+.theme-dark .chat-3bRxxu form {
     box-shadow: none;
 }
 .theme-dark .inner-zqa7da {
@@ -446,6 +441,7 @@
     opacity: 1 !important;
     width: 50px;
     height: 50px;
+    margin-top: -12px;
     background-size: cover;
     box-shadow: inset 3px 7px 6px rgba(255,255,255,0.5), inset 0px 0px 86px rgba(255,255,255,0.3);
 }
