@@ -74,3 +74,7 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 
 ## Yumeko
 ![Yumeko](https://i.imgur.com/3S2yHP8.png)
+
+## Chocola
+![Chocola](https://i.imgur.com/98tTNZK.png)
+
