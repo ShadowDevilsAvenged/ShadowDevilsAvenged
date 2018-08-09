@@ -78,3 +78,19 @@ Visit [Devil's Land of Themes Here](https://discord.gg/CZCbtRq) for support and 
 ## Chocola
 ![Chocola](https://i.imgur.com/98tTNZK.png)
 
+---------------------------------------------------
+
+### Newest Themes
+
+## Kemono Friends
+![Kemono Friends](https://i.imgur.com/7MpV8qs.png)
+
+## Kitty Cat Love
+![Kitty Cat Love](https://i.imgur.com/axxdxb3.png)
+
+## Gumi
+![Gumi](https://i.imgur.com/rJsdnby.png)
+
+## Fanta
+![Fanta](https://i.imgur.com/IKYbIZR.png)
+
