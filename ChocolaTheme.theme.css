@@ -556,13 +556,13 @@ a,
    border:none;
    background-color: rgba(0,0,0,0.23);
 }
-.theme-dark .reaction {
+.theme-dark .reaction-1ELvT8 {
     background: rgba(255, 255, 255, 0.14);
 }
-.theme-dark .reaction.reaction-me {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
     background: rgba(255, 255, 255,.19);
 }
-.theme-dark .reaction.reaction-me .reaction-count {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
     color: white;
 }
 .theme-dark .markup-2BOw-j {
@@ -702,7 +702,7 @@ a,
     margin-left: -24px;
     width: 32px;
 }
-.unreadBar-17qm9c {
+.unreadBar-3YD_k9 {
     display: none;
 }
 .theme-dark .guildsAdd-21_IdK {
@@ -926,11 +926,11 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
 .tooltip.tooltip-red {
     background-color: rgba(0,0,0,0.4);
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error {
+.theme-dark .guildsError-3cFMtY {
     background: rgba(0,0,0,0.4);
     border: none;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
+.theme-dark .guildsError-3cFMtY:hover {
     background: rgba(0,0,0,1);
 }
 .theme-dark .divider-3gKybi:not(.red-1YQ4s7) div,
@@ -1812,11 +1812,9 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     box-sizing: border-box;
     opacity: 1;
   }
-  .roleCircle-3xAZ1j {
-    display: none;
-}
 .roleName-32vpEy {
-    margin-left: 4px;
+    margin-left: 14px;
+    margin-top: -12px;
     color: white;
 }
 .addButton-pcyyf6 {
@@ -1825,15 +1823,22 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     box-sizing: border-box;
     height: 22px;
 }
-
+.roleCircleButton-377y0l  {
+border-radius: 0;
+opacity: 0;
+bottom: -2px;
+position: relative;
+transition: opacity .2s ease-in;
+}
+.role-2irmRk:hover .roleCircleButton-377y0l  {
+border-radius: 0;
+opacity: 1;
+}
 .roleRemoveIcon-2-TeGW {
     display: block;
+    z-index: 2;
 }
 
-.role-2irmRk:hover .roleCircleButton-377y0l  {
-    transition: transform 0.2s;
-    transform: translateX(0);
-}
 
 .addButtonIcon-1NMJ8u {
     height: 7px;

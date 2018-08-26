@@ -911,10 +911,10 @@ a {
     border-left: 1px solid #e53b0a;
     border-right: 1px solid #e53b0a;
 }
-.theme-dark .operations-36ENbA>a {
+.message-group .edit-message .edit-operation>a {
     color: #e53b0a;
 }
-.theme-dark .theme-dark .operations-36ENbA,.theme-dark .edited-DL9ECl {
+.theme-dark .message-group .edit-message .edit-operation,.theme-dark .edited-DL9ECl {
     color: white;
 }
 .theme-dark .guild-1EfMGQ .guildInner-3DSoA4 a {
@@ -924,14 +924,14 @@ a {
     background-color: black;
     width: 50px;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error {
+.theme-dark .guildsError-3cFMtY {
     background: black;
     border: none;
     font-size: 0px;
     border: 2px solid transparent;
     transition: border .3s ease;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error:before {
+.theme-dark .guildsError-3cFMtY:before {
     font-size: 20px;
     content: "?";
     animation: color 2s linear infinite;
@@ -955,7 +955,7 @@ a {
     border-radius: 50px;
 }
 
-.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
+.theme-dark .guildsError-3cFMtY:hover {
     background-color: black;
     border: 2px solid #e53b0a;
 }
@@ -1435,17 +1435,17 @@ a {
     color: #e53b0a;
 }
 /* Reaction Section */
-.theme-dark .reaction.reaction-me {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
     background: black;
     border: 1px solid #e53b0a;
 }
-.theme-dark .reaction.reaction-me .reaction-count {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
     color: white;
 }
-.theme-dark .reaction {
+.theme-dark .reaction-1ELvT8 {
     background: rgba(255, 255, 255, 0.04);
 }
-.theme-dark .reaction .reaction-count {
+.theme-dark .reaction-1ELvT8Count-2ddRoS {
     color: rgba(255, 255, 255, 0.3);
 }
 /* Friend and DMs (Finally) */

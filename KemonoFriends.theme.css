@@ -257,10 +257,10 @@
     position: relative;
      left: -13px;
 }
-.unreadBar-17qm9c {
+.unreadBar-3YD_k9 {
     display: none;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds .guild .badge {
+.badge-1GsMF2 {
     bottom: 26px;
     right: -7px;
     padding: 7px 10px;
@@ -377,10 +377,10 @@
     overflow: visible;
     transition: margin-left .2s, background-color .2s;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error:hover {
+.theme-dark .guildsError-3cFMtY:hover {
     background-color: #174C3E;
 }
-.theme-dark .guildsWrapper-5TJh6A .guilds-error {
+.theme-dark .guildsError-3cFMtY {
     background: rgba(0,0,0,0.2);
     border: 2px solid #174C3E;
     border-radius: 50%;
@@ -563,10 +563,6 @@
 .mediaBarProgress-1xaPtl:before {
     background-color: #174C3E !important;
 }
-.theme-dark .private-channel-call.minimum .private-channel-call-actions .center, .theme-dark .wrapper-29NfPK {
-    background-color: transparent;
-    border-color: transparent;
-}
 .video-1FfuMD,
 .theme-dark .private-channel-call {
     background-color: rgba(0,0,0,0.4);
@@ -605,7 +601,7 @@
     background-color: rgba(255,0,0,1) !important;
     color: #fff !important;
 }
-.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center, .theme-dark .wrapper-29NfPK {
     background-color: transparent;
     border-color: transparent;
 }
@@ -623,7 +619,7 @@
 /* ----- */
 .theme-dark .timestampCozy-2hLAPV,
 .theme-dark .topic-2QX7LI,
-.theme-dark .reaction.reaction-me .reaction-count {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf .reactionCount-2ddRoS {
     color: white;
 }
 .theme-dark .markup-2BOw-j {
@@ -729,7 +725,7 @@ a,
 .theme-dark .item-2J1YMK {
     color: white !important;
 }
-.theme-dark .reaction {
+.theme-dark .reaction-1ELvT8 {
     background: rgba(255, 255, 255, 0.08);
     border-radius: 0;
     border: 1px outset rgba(255, 255, 255, 0.18);
@@ -738,7 +734,7 @@ a,
     right: -19px;
     position: relative;
 }
-.theme-dark .reaction.reaction-me {
+.theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
     background: rgba(23,76,62,.5);
     border: 1px outset rgba(23,76,62, 0.58);
 }
@@ -2094,7 +2090,7 @@ a,
     border-radius: 50px; 
     box-shadow: inset 0 0 0 3px #174C3E;
 }
-.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center, .theme-dark .wrapper-29NfPK {
     background-color: transparent;
     border-color: transparent;
 }
