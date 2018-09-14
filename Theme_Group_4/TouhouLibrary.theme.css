@@ -252,7 +252,7 @@ a,
     width: 2px;
 }
 .theme-dark .member-3W1lQa:hover .content-OzHfo4,
-.private-channels .channel:hover a {
+.channel-2QD9_O:hover a {
     background-color: rgba(168, 126, 86,0.28);
     color: #EFD9C3;
 }
@@ -273,7 +273,7 @@ a,
 }
 .theme-dark .member-3W1lQa.popout-open .content-OzHfo4, 
 .theme-dark .member-3W1lQa.popout-open:hover .content-OzHfo4,
-.private-channels .channel.selected a {
+.channel-2QD9_O.selected-1HYmZZ a {
     background-color: rgba(168, 126, 86,.6);
     color: #EFD9C3;
 }
@@ -865,7 +865,7 @@ a,
 .bda-slist .bda-footer button:disabled {
     border: none !important;
 }
-.bda-slist li {
+.theme-dark .bda-slist li {
     background: rgba(0,0,0,.3);
     border: none;
 }
@@ -894,7 +894,8 @@ a,
     border-radius: 0px;
     background-color: transparent;
 }
-.searchBar-2pE3BB .search-bar{
+.searchBar-2pE3BB .search-bar,
+.search-bar {
     background-color: black;
 }
 .disabled-9aF2ug:hover {
@@ -1370,7 +1371,7 @@ a,
     padding: 64px;
 }
 /* Need Help Menu */
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
     background-color: #705435;
     border-radius: 0px;
 }
@@ -1378,16 +1379,16 @@ a,
 .form.deprecated .form-inner {
     background-color: black;
 }
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
     background-color: black;
     border-radius: 0px;
     border-top: none;
     color: white;
 }
-.need-help-modal.deprecated .header input[type=text]:focus {
+.need-help-modal.form.deprecated .header input[type=text]:focus {
     border-bottom: none;
 }
-.need-help-modal.deprecated .header input[type=text] {
+.need-help-modal.form.deprecated .header input[type=text] {
     background-color: black;
     box-shadow: none;
     color: white;
