@@ -477,7 +477,7 @@ a,
     background: #855857;
     border: 2px solid rgba(255,255,255,0.13) !important;
 }
-.bda-slist li {
+.theme-dark .bda-slist li {
     background: rgba(89, 59, 58,.6);
     border: none;
     padding-left: 8px;
@@ -1105,8 +1105,8 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
 .avatar-17mtNa .large-3ChYtB {
     width: 70px;
     height: 70px;
+    box-shadow: inset 0 0 16px black, inset 0 0 6px black;
     margin-top: -12px;
-    box-shadow: inset 0 0 16px black, inset 0 0 6px black, inset 0 0 16px black, inset 0 0 16px black, inset 0 0 16px black, inset 0 0 16px black;
 }
 .markup-2BOw-j,
 .headerCozyMeta-rdohGq {
@@ -1201,7 +1201,7 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     padding: 64px;
 }
 /* Need Help Menu */
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
     background-color: #593B3A; /* Main Color */
     border-radius: 0px;
 }
@@ -1209,16 +1209,16 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
 .form.deprecated .form-inner {
     background-color: #593B3A; /* Main Color */
 }
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
     background-color: #593B3A; /* Main Color */
     border-radius: 0px;
     border-top: none;
     color: white;
 }
-.need-help-modal.deprecated .header input[type=text]:focus {
+.need-help-modal.form.deprecated .header input[type=text]:focus {
     border-bottom: none;
 }
-.need-help-modal.deprecated .header input[type=text] {
+.need-help-modal.form.deprecated .header input[type=text] {
     background-color: black;
     box-shadow: none;
     color: white;
@@ -1573,10 +1573,10 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     background: #593B3A !important; /* Main Color */
     border-radius: 25px !important;
 }
-.private-channels .channel:hover a {
+.channel-2QD9_O:hover a {
     background-color: rgba(91, 55, 58, 0.43); /* RGB Hover Color */
 }
-.private-channels .channel.selected a {
+.channel-2QD9_O.selected-1HYmZZ a {
     background-color: #593B3A; /* Main Color */
     border: 2px outset #855857; /* Selected Color */
 }
@@ -1977,4 +1977,7 @@ opacity: 1;
 }
 .reactions-1xb2Ex .reactionBtn-2na4rd {
     margin-left: 23px;
+}
+.search-bar-tag {
+    background: black;
 }
