@@ -258,7 +258,7 @@ a,
     border-radius: 50px;
     font-weight: normal;
 }
-.private-channels .channel.selected a {
+.channel-2QD9_O.selected-1HYmZZ a {
     background-color: rgba(79, 28, 79, .6);
     color: #84003B;
 }
@@ -267,7 +267,7 @@ a,
     font-weight: normal;
     opacity: .6;
 }
-.private-channels .channel:hover a {
+.channel-2QD9_O:hover a {
     background-color: rgba(79, 28, 79, .6);
     color: #fff;
     border: 1px solid #A8000B;
@@ -1128,7 +1128,7 @@ a,
     border-color: transparent;
 }
 /* Need Help Menu */
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
     background-color: #4F1C4F;
     border-radius: 0px;
 }
@@ -1136,16 +1136,16 @@ a,
 .form.deprecated .form-inner {
     background-color: black;
 }
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
     background-color: black;
     border-radius: 0px;
     border-top: none;
     color: white;
 }
-.need-help-modal.deprecated .header input[type=text]:focus {
+.need-help-modal.form.deprecated .header input[type=text]:focus {
     border-bottom: none;
 }
-.need-help-modal.deprecated .header input[type=text] {
+.need-help-modal.form.deprecated .header input[type=text] {
     background-color: black;
     box-shadow: none;
     color: white;
@@ -1608,7 +1608,7 @@ a,
     color: white;
 }
 /* Plugins and Themes */
-.bda-slist li {
+.theme-dark .bda-slist li {
     background: rgba(0,0,0,0.3);
     border: 1px solid #840058;
 }
@@ -1821,4 +1821,9 @@ a,
 
 .backdrop-1ocfXc {
     background-color: rgba(0,0,0,0.3) !important;
+}
+.theme-dark .quickMessage-1yeL4E {
+    background-color: rgba(0,0,0,0.5);
+    border-color: transparent;
+    color: white;
 }
