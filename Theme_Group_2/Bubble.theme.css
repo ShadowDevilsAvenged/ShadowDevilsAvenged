@@ -581,7 +581,7 @@ a {
 .theme-dark .activityIconForeground-qYIPPg {
     fill: white;
 }
-.theme-dark .search .search-bar {
+.theme-dark .search-bar {
     background-color: rgba(255,255,255,0.24);
     border-radius: 30px;
 }
@@ -711,14 +711,14 @@ a {
     border-radius: 20px;
     box-shadow: inset 0 0 7px rgba(255,255,255,0.6);
 }
-.private-channels .channel.selected a,
+.channel-2QD9_O.selected-1HYmZZ a,
 .theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: rgba(206, 233, 234,.6) /* (Hover Color, .6) */;
     border-radius: 20px;
     color: #fff;
     box-shadow: inset 2px 2px 6px rgba(255,255,255,0.6);
 }
-.private-channels .channel:hover a,
+.channel-2QD9_O:hover a,
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
     background-color: rgba(206, 233, 234,.4) /* (Hover Color, .4) */;
     box-shadow: inset 2px 2px 6px rgba(255,255,255,0.6);
@@ -1356,7 +1356,7 @@ a {
     color: silver !important;
     font-weight: 200;
 }
-.bda-slist li {
+.theme-dark .bda-slist li {
     background: rgba(231, 254, 255,.4) /* (Main Color, .4) */;
     border-color: transparent;
     box-shadow: inset 4px 4px 6px 1px rgba(255,255,255,0.54);
@@ -1504,7 +1504,7 @@ a {
     border-radius: 50px;
     background-color: rgba(0,0,0,0.7);
 }
-.need-help-modal.deprecated .header {
+.need-help-modal.form.deprecated .header {
     background-color: transparent;
     border-radius: 0px;
 }
@@ -1512,16 +1512,16 @@ a {
 .form.deprecated .form-inner {
     background-color: transparent;
 }
-.need-help-modal.deprecated .footer {
+.need-help-modal.form.deprecated .footer {
     background-color: transparent;
     border-radius: 0px;
     border-top: none;
     color: white;
 }
-.need-help-modal.deprecated .header input[type=text]:focus {
+.need-help-modal.form.deprecated .header input[type=text]:focus {
     border-bottom: none;
 }
-.need-help-modal.deprecated .header input[type=text] {
+.need-help-modal.form.deprecated .header input[type=text] {
     background-color: black;
     box-shadow: none;
     color: white;
