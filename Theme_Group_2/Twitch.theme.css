@@ -1253,13 +1253,14 @@
   background-color: transparent;
 }
 
-.theme-dark .divider-3gKybi:not(.red-1YQ4s7) span {
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI {
   color: white;
   background: #6441a5;
   /*Primary Color*/
   padding: 5px 6px;
   border-radius: 0;
 }
+
 
 .theme-dark .divider-3gKybi:before {
   background: transparent;
@@ -1309,6 +1310,12 @@
 .operations-36ENbA>a {
   color: silver;
 }
+
+.theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi.dividerRed-MKoLlr .dividerContent-2L12VI:before,
+.theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:after, .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI:before {
+    border-color: transparent;
+}
+
 
 .theme-dark .selectorSelected-1_M1WV {
   background-color: rgba(255, 255, 255, 0.26);
@@ -1997,11 +2004,16 @@
 /***** --- *****/
 
 .theme-dark .container-3ayLPN {
-  background-color: #6441a5 !important;
+  background-color: #6441a5;
   /*Primary Color*/
   border: none;
   box-shadow: none;
 }
+
+.theme-dark .option-96V44q:after {
+    background: transparent;
+}
+
 
 .theme-dark .option-96V44q.selected-rZcOL- {
   background-color: #4e3380;
