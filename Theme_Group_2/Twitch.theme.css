@@ -19,12 +19,12 @@
 .theme-dark .typing-2GQL18,
 .theme-dark #friends,
 .container-2lgZY8,
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .standardSidebarView-3F1I7i {
   background-color: transparent;
 }
 
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region {
+.theme-dark .contentRegion-3nDuYy,
+.theme-dark .sidebarRegion-VFTUkN{
   background-color: rgba(0, 0, 0, 0.32);
 }
 
@@ -141,7 +141,7 @@
 }
 
 .side-8zPYf6 .itemSelected-1qLhcL,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
+.theme-dark .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
 #pubslayer .ui-tab-bar-item.selected {
   background-color: #6441a5 !important;
   /*Primary Color*/
@@ -313,7 +313,7 @@
 .lookLink-9FtZy-.colorLink-35jkBc,
 .content-8biNdB a,
 .bda-slist .bda-footer a,
-.ui-standard-sidebar-view a,
+.standardSidebarView-3F1I7i a,
 .theme-dark .welcomeMessage-3_Mcht a,
 .theme-dark .topic-2QX7LI a,
 .theme-dark .markup-2BOw-j a {
@@ -591,12 +591,12 @@
   border: none;
 }
 
-.ui-standard-sidebar-view #editor-detached h3 {
+.standardSidebarView-3F1I7i #editor-detached h3 {
   color: silver;
 }
 
 .bd-pfbtn,
-.ui-standard-sidebar-view #editor-detached button,
+.standardSidebarView-3F1I7i #editor-detached button,
 .bda-slist .bda-footer button {
   background: #6441a5;
   /*Primary Color*/
@@ -636,9 +636,9 @@
   box-shadow: none;
 }
 
-.ui-standard-sidebar-view #bd-customcss-attach-controls button,
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button,
 .bd-detached-css-editor #bd-customcss-attach-controls button,
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover,
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover,
 .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
   background: #6441a5;
   /*Primary Color*/
@@ -647,7 +647,7 @@
   border: none !important;
 }
 
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:active,
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active,
 .bd-detached-css-editor #bd-customcss-attach-controls button:active {
   border: 2px solid rgba(255, 255, 255, 0.34) !important;
 }
@@ -2535,7 +2535,7 @@
 
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     background-color: #0652DD !important;
-    color: white;
+    color: white !important;
     border: 1px solid rgba(255,255,255,0.33);
 }
 
@@ -2660,4 +2660,58 @@
 
 .userInfoSectionHeader-CBvMDh {
     color: white;
+}
+
+
+/* New Stuff */
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: transparent
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0, 0, 0, 0),black),linear-gradient(90deg,black 0,rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%,black),linear-gradient(0deg,black 0,rgba(0, 0, 0, 0) 25%)
+}
+
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: #6441a5
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+    color: white
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+    border-color: transparent;
+    color: #6441a5
+}
+
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent
+}
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,0.34);
+    box-shadow: none
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0,0,0,0.84);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0),black 45%,black)
+}
+
+/* --- */
+.theme-dark .focused-2bY0OD {
+    background-color: rgba(255,255,255,0.23);
+}
+
+
+.theme-dark .queryContainer-RKFJW- {
+    border-bottom-color: transparent;
+    color: white
 }

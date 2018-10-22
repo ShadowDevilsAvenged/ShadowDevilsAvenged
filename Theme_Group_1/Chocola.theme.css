@@ -57,11 +57,11 @@
 }
 /* ----- */
 /* Discord and BD Settings */
-.theme-dark .ui-standard-sidebar-view {
+.theme-dark .standardSidebarView-3F1I7i {
    background-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region  {
+.theme-dark .contentRegion-3nDuYy,
+.theme-dark .sidebarRegion-VFTUkN {
     background: rgba(0,0,0,0.4);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -82,7 +82,7 @@
 .theme-dark .faded-3bns_w,
 .theme-dark .h5-18_1nd,
 .theme-dark .avatar-uploader .remove-button,
-.theme-dark .ui-standard-sidebar-view .esc-text,
+.theme-dark .standardSidebarView-3F1I7i .esc-text,
 .theme-dark .inputPrefix-2VAOGg,
 .theme-dark .select-2TCrqx .Select-control .Select-placeholder {
     color: white;
@@ -118,10 +118,10 @@
 #bd-settings-sidebar .ui-tab-bar-separator {
     background-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close {
+.theme-dark .standardSidebarView-3F1I7i .btn-close {
     border-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+.theme-dark .standardSidebarView-3F1I7i .btn-close:hover {
     border-color: #855857; /* Selected Color */
     background-color: #593B3A; /* Main Color */
 }
@@ -177,7 +177,7 @@
     background-color: rgba(120, 214, 98, 0.6);
 }
 .side-8zPYf6 .itemSelected-1qLhcL,
-#bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: #855857 !important; /* Selected Color */
     color: #fff;
 }
@@ -423,17 +423,17 @@ a,
 }
 #bd-settingspane-container .bd-pfbtn,
 .bda-slist .bda-footer button,
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
     background: rgba(89, 59, 58,.5); /* RGB Main Color */
     color: #FFF;
     border-radius: 0;
 }
 #bd-settingspane-container .bd-pfbtn:hover,
 .bda-slist .bda-footer button:hover,
-.ui-standard-sidebar-view #editor-detached button:hover{
+.standardSidebarView-3F1I7i #editor-detached button:hover{
     background: rgba(91, 55, 58,.7); /* RGB Hover Color */
 }
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
    font-size: 27px;
 }
 #bd-settingspane-container .bd-pfbtn:active {
@@ -462,18 +462,18 @@ a,
     background: #593B3A;
     box-shadow: none;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
     background: #593B3A;
     border: 2px dashed rgba(255,255,255,0.13) !important;
     font-weight: normal;
     margin-right: 5px;
     border-radius: 0;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
     background: #5B373A;
     border: 2px dashed rgba(255,255,255,0.13) !important;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:active, .bd-detached-css-editor #bd-customcss-attach-controls button:active {
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active, .bd-detached-css-editor #bd-customcss-attach-controls button:active {
     background: #855857;
     border: 2px solid rgba(255,255,255,0.13) !important;
 }
@@ -1276,11 +1276,7 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     background: black;
     border-color: transparent;
 }
-<<<<<<< HEAD
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
-=======
-.scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
->>>>>>> c4df53773be6b8912de6d414b7da45b251492f69
     background-color: transparent !important;
     border-color: transparent !important;
 }
@@ -1479,7 +1475,7 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
     border-bottom: 2px solid #F77923;
     line-height: 23px;
 }
-.theme-dark .searchQuery-1B7rtx.selected-rZcOL- {
+.theme-dark .focused-2bY0OD {
     background-color: #5B373A; /* Hover Color */ 
     border: 1px solid #855857; /* Selected Color */
 }
@@ -1731,8 +1727,8 @@ text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px
    box-shadow: inset 0 0 56px rgb(20,17,139);
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-    background-color: rgb(20,17,139);
-    color: white;
+    background-color: rgb(20,17,139) !important;
+    color: white !important;
 }
 .headerSpotify-zpWxgT,
 .headerXbox-3G-4PF,
@@ -1976,3 +1972,47 @@ opacity: 1;
 .search-bar-tag {
     background: black;
 }
+
+/* New Stuff */
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: transparent
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0, 0, 0, 0),black),linear-gradient(90deg,black 0,rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%,black),linear-gradient(0deg,black 0,rgba(0, 0, 0, 0) 25%)
+}
+
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: #593B3A
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+    color: white
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+    border-color: transparent;
+    color: #593B3A
+}
+
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent
+}
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,0.34);
+    box-shadow: none
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0,0,0,0.84);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0),black 45%,black)
+}
+
+/* --- */

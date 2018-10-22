@@ -30,12 +30,12 @@
 .chat .messages,
 .theme-dark .friends-table,
 .theme-dark .headerBar-UHpsPw,
-.theme-dark .ui-standard-sidebar-view,
+.theme-dark .standardSidebarView-3F1I7i,
 .theme-dark .attachButtonDivider-3Glu60 {
     background-color: transparent;
 }
-.theme-dark .ui-standard-sidebar-view .content-region,
-.theme-dark .ui-standard-sidebar-view .sidebar-region  {
+.theme-dark .contentRegion-3nDuYy,
+.theme-dark .sidebarRegion-VFTUkN {
     background: rgba(0,0,0,0.4);
 }
 .flex-horizontal>.flex-spacer,
@@ -61,9 +61,13 @@
 .theme-dark .resultsGroup-r_nuzN:before {
     border-top: none;
 }
-.theme-dark .option-96V44q.selected-rZcOL-:not(.searchQuery-1B7rtx) {
+.theme-dark .option-96V44q.selected-rZcOL-:not(.focused-2bY0OD) {
     margin-left: 17px;
     background-color: #A99CD0;
+}
+.theme-dark .queryContainer-RKFJW- {
+    border-bottom-color: transparent;
+    color: white
 }
 .theme-dark .option-96V44q {
     transition: margin-left .2s;
@@ -104,7 +108,7 @@
     border-bottom: 2px solid #F77923;
     line-height: 23px;
 }
-.theme-dark .searchQuery-1B7rtx.selected-rZcOL- {
+.theme-dark .focused-2bY0OD {
     background-color: #A99CD0;
     margin: 0;
 }
@@ -1050,17 +1054,17 @@ a,
     font-weight: normal;
     text-transform: capitalize;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close:hover {
+.theme-dark .standardSidebarView-3F1I7i .btn-close:hover {
     background-color: #493979;
 }
-.theme-dark .ui-standard-sidebar-view .btn-close {
+.theme-dark .standardSidebarView-3F1I7i .btn-close {
     border-color: transparent;
     border-radius: 0; 
 }
-.theme-dark .ui-standard-sidebar-view .btn-close path[fill] {
+.theme-dark .standardSidebarView-3F1I7i .btn-close path[fill] {
     fill: white;
 }
-.theme-dark .ui-standard-sidebar-view .esc-text,
+.theme-dark .standardSidebarView-3F1I7i .esc-text,
 .theme-dark .desc-2Dttbk {
     color: white;
 }
@@ -1076,7 +1080,7 @@ a,
     stroke: white;
 }
 .side-8zPYf6 .itemSelected-1qLhcL,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: #A99CD0;
     color: #fff;
     border-radius: 0;
@@ -1262,9 +1266,9 @@ a,
     box-shadow: none; 
     border-radius: 0;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button, 
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, 
 .bd-detached-css-editor #bd-customcss-attach-controls button,
-.ui-standard-sidebar-view #editor-detached button {
+.standardSidebarView-3F1I7i #editor-detached button {
     margin: 0;
     width: 100px;
     background: rgba(73, 57, 121,0.43) !important;
@@ -1273,9 +1277,9 @@ a,
     border-radius: 0;
     border: none !important;
 }
-.ui-standard-sidebar-view #bd-customcss-attach-controls button:active, 
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:active, 
 .bd-detached-css-editor #bd-customcss-attach-controls button:active,
-.ui-standard-sidebar-view #editor-detached button:active {
+.standardSidebarView-3F1I7i #editor-detached button:active {
     background: rgb(73, 57, 121) !important;
 }
 .ace-monokai,
@@ -1857,8 +1861,8 @@ a,
    background-color: rgba(20,17,139,0.44);
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
-    background-color: rgb(20,17,139);
-    color: white;
+    background-color: rgb(20,17,139) !important;
+    color: white !important;
 }
 .headerSpotify-zpWxgT,
 .headerXbox-3G-4PF,
@@ -2076,3 +2080,47 @@ a,
 .reactions-1xb2Ex .reactionBtn-2na4rd {
     margin-left: 23px;
 }
+
+/* New Stuff */
+.theme-dark .gameLibrary-TTDw4Y,
+.theme-dark .applicationStore-1pNvnv,
+.theme-dark .itemBackground-1jfD8p {
+    background-color: transparent
+}
+
+.theme-dark .itemBackground-1jfD8p:before {
+    background: radial-gradient(ellipse at top,rgba(0, 0, 0, 0),black),linear-gradient(90deg,black 0,rgba(0, 0, 0, 0) 40%,rgba(0, 0, 0, 0) 60%,black),linear-gradient(0deg,black 0,rgba(0, 0, 0, 0) 25%)
+}
+
+.theme-dark .overlappingBorder-1ysb12 {
+    border-color: #5e4a9c
+}
+
+.theme-dark .announcingNitro-3Ptg6m:hover {
+    color: white
+}
+
+.theme-dark .announcingNitro-3Ptg6m {
+    border-color: transparent;
+    color: #5e4a9c
+}
+
+.theme-dark .distributionApplicationsActions-3D2_kD, .theme-dark .premiumApplicationsHeader-Zmkm5e {
+    border-color: transparent
+}
+
+.theme-dark .tileWrapper-2khh-w {
+    background-color: rgba(0,0,0,0.34);
+    box-shadow: none
+}
+
+.theme-dark .tileWrapper-2khh-w:hover {
+    background-color: rgba(0,0,0,0.84);
+    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
+}
+
+.theme-dark .mediaDescription-31GsyQ {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0),black 45%,black)
+}
+
+/* --- */
