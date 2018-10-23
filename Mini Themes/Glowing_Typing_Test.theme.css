@@ -1,0 +1,126 @@
+//META{"name":"Glowing_Typing","description":"Color Glows on Typing depending on Status ","author":"DevilsTheAvenged","version":"1"}*//{}
+
+.typingSpinnerItem-35chrT {
+    background-color: transparent;
+    height: 4px;
+    width: 4px;
+}
+
+.typing-1KJk_j {
+    border-radius: 50px;
+    height: 30px!important;
+    overflow: visible;
+    top: 0;
+    right: -4px!important;
+    width: 32px!important;
+}
+
+.status-2s6iDp {
+    height: 30px!important;
+    top: 0;
+    border-radius: 50px;
+    right: -2.3px!important;
+    width: 32px!important;
+    background-color: transparent;
+    border: 2px solid black !important;
+}
+
+.channel-2QD9_O .status {
+    height: 28px!important;
+    top: 0;
+    bottom: 12px;
+    border-radius: 50px;
+    right: -2.6px!important;
+    width: 32px!important;
+    background-color: transparent;
+    border: 2px solid black !important;
+}
+
+.online-2S838R.typing-1KJk_j {
+    animation: pulseonline 2s infinite;
+}
+
+.idle-3DEnRT.typing-1KJk_j {
+    box-shadow: 0 0 14px green;
+    animation: pulseidle 2s infinite;
+}
+
+.dnd-1_xrcq.typing-1KJk_j {
+    box-shadow: 0 0 14px green;
+    animation: pulsednd 2s infinite;
+}
+
+.streaming-2_dnHe.typing-1KJk_j {
+    box-shadow: 0 0 14px green;
+    animation: pulsestreaming 2s infinite;
+}
+
+.status-2s6iDp.online-2S838R {
+    background-color: transparent;
+}
+
+@keyframes pulsestreaming {
+  0% {
+    box-shadow: 0 0 2px 3px rgba(101, 18, 199, 0.4);
+  }
+  70% {
+      box-shadow: 0 0 2px 5px rgba(101, 18, 199, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 2px 3px rgba(101, 18, 199, 0.4);
+  }
+}
+
+@keyframes pulsednd {
+  0% {
+    box-shadow: 0 0 2px 3px rgba(233, 23, 23, 0.4);
+  }
+  70% {
+      box-shadow: 0 0 2px 5px rgba(233, 23, 23, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 2px 3px rgba(233, 23, 23, 0.4);
+  }
+}
+
+@keyframes pulseidle {
+  0% {
+    box-shadow: 0 0 2px 3px rgba(217, 217, 39, 0.4);
+  }
+  70% {
+      box-shadow: 0 0 2px 5px rgba(217, 217, 39, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 2px 3px rgba(217, 217, 39, 0.4);
+  }
+}
+
+@keyframes pulseonline {
+  0% {
+    box-shadow: 0 0 2px 3px rgba(63, 182, 62, 0.4);
+  }
+  70% {
+      box-shadow: 0 0 2px 5px rgba(63, 182, 62, 0.7);
+  }
+  100% {
+      box-shadow: 0 0 2px 3px rgba(63, 182, 62, 0.4);
+  }
+}
+.avatar-small .status {
+    border-radius: 50px;
+}
+
+.mask-3OgeRz {
+    border-radius: 1;
+    -webkit-mask: none;
+    mask: none;
+}
+
+.member-3W1lQa .small-5Os1Bb {
+    height: 34px;
+    width: 31px;
+}
+
+.member-3W1lQa {
+    margin-right: -12px;
+}
