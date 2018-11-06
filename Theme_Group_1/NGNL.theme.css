@@ -1170,7 +1170,7 @@ a,
     color: white;
 }
 /* Emote Menu */
-#bda-qem-favourite-container, #bda-qem-twitch-container, .emoji-picker, .emojiPicker-3m1S-j {
+.bda-dark #bda-qem-favourite-container, .bda-dark #bda-qem-twitch-container, .bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
     background-color: black;
     border-radius: 0px;
     border: none;
@@ -1180,62 +1180,53 @@ a,
     background: transparent;
 }
 
-.search-bar-light .searchBarInner-1_Tg2R {
+.search-bar.search-bar-light .search-bar-inner {
     background-color: #4F1C4F;
     border: none;
 }
 .emojiPicker-3m1S-j .header-1nkwgG {
     border-bottom: none;
 }
-.emoji-picker .category, .emojiPicker-3m1S-j .category-2U57w6 {
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
     background-color: #4F1C4F;
     color: white;
 }
-.emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
     background-color: transparent;
 }
-.emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ  {
+.bda-dark .emoji-picker .dimmer.visible, .bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ  {
     background-color: rgba(0,0,0,0.65);
 }
-.diversitySelector-tmmMv0 .popout-2nUePc {
+.bda-dark .emoji-picker .diversity-selector .popout-3sVMXz, .bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
     background: black;
     border-color: transparent;
 }
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece, .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: transparent !important;
     border-color: transparent !important;
 }
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG:: -webkit-scrollbar-thumb,.theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG:: -webkit-scrollbar-thumb,.theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG:: -webkit-scrollbar-thumb,
-#bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, 
-#bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, 
-.bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, 
-.bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-thumb, 
-.bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background-color: #840058 !important;
     border-color: transparent !important;
     border-radius: 0px;
 }
-.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-thumb {
-    background-color: #840058 !important;
-    border-color: transparent !important;
-    border-radius: 0px;
-}
+
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
     border-bottom-color: #840058;
 }
-#bda-qem {
+.bda-dark #bda-qem
     border-bottom: none !important;
     background: transparent;
 }
-#bda-qem button {
+.bda-dark #bda-qem button {
     background: black;
     border-left: none;
     box-shadow: none;
 }
-#bda-qem button:hover {
+.bda-dark #bda-qem button:hover {
     background-color: #4F1C4F;
 }
-#bda-qem button.active {
+.bda-dark #bda-qem button.active {
     background-color: #840058;
 }
 /* Invite Menu */
