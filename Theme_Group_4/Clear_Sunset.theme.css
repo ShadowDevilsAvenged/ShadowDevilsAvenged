@@ -223,7 +223,6 @@
 
 .tooltip {
     border-radius: 4px;
-    box-shadow: 0 0 1px 2px rgba(0,0,0,.4);
     text-shadow: 0 0 2px black,0 0 2px black,0 0 2px black;
     color: white;
     font-size: 13px;
@@ -334,7 +333,6 @@
     opacity: 1 !important;
     height: 60px;
     width: 60px;
-    box-shadow: 0 0 8px black;
     background-size: cover;
 }
 
@@ -344,7 +342,6 @@
     margin-top: -7px;
     height: 60px;
     width: 60px;
-    box-shadow: 0 0 8px black;
     background-size: cover;
 }
 
@@ -354,7 +351,6 @@
     margin-top: -2px;
     height: 60px;
     width: 60px;
-    box-shadow: 0 0 8px black;
     background-size: cover;
 }
 
@@ -372,7 +368,6 @@
 .need-help-modal.form.deprecated .header input[type=text] {
     background-color: rgba(0,0,0,0.4);
     border-radius: 7px;
-    box-shadow: 0 0 5px rgba(0,0,0,.6);
     color: white;
 }
 
@@ -610,7 +605,6 @@
 .lookFilled-1Gx00P.colorRed-1TFJan:hover,
 .lookOutlined-3sRXeN.colorRed-1TFJan:hover {
     background-color: rgba(217, 33, 33, .8);
-    box-shadow: -3px 3px 4px 0 black;
 }
 
 .lookFilled-1Gx00P.colorRed-1TFJan,
@@ -627,14 +621,12 @@
 
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"], .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"] {
     background-color: rgba(217, 33, 33, .8) !important;
-    box-shadow: -3px 3px 4px 0 black;
 }
 
 /* */
 
 .theme-dark .itemSubMenu-1vN_Yn:hover {
     background: rgba(138, 40, 73, 0.83) !important;
-    box-shadow: 0 0 16px 2px rgb(138, 40, 73) !important;
 }
 
 .theme-dark .item-1Yvehc:hover {
@@ -643,7 +635,6 @@
 
 .theme-dark .itemSubMenu-1vN_Yn {
     background: rgba(138, 40, 73, 0.43);
-    box-shadow:  0 0 3px 2px rgba(138, 40, 73 0.83);
 }
 
 .theme-dark.contextMenu-HLZMGh {
@@ -690,7 +681,7 @@
     background-color: #8a2849;
     border: none;
     border-radius: 0;
-    box-shadow: 0 0 3px black;
+    box-shadow: none;
     margin-left: -4px;
     margin-top: -8px;
     top: 20%;
@@ -769,7 +760,6 @@
 
 .emote-container:hover {
     background: rgba(255,255,255,.47);
-    box-shadow: 0 0 3px white;
 }
 
 .emote-container {
@@ -778,7 +768,6 @@
 
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: rgba(255,255,255,.57);
-    box-shadow: 0 0 3px white;
     border-radius: 0;
 }
 
@@ -831,7 +820,7 @@
     color: white;
 }
 
-.bda-dark #bda-qem
+.bda-dark #bda-qem {
     border-radius: 0;
     background: transparent;
     border-bottom: none !important;
@@ -1026,7 +1015,6 @@
 
 .theme-dark .selectorSelected-1_M1WV {
     background-color: rgba(255,255,255,0.12);
-    box-shadow: 0 3px 5px black;
 }
 
 .theme-dark .autocomplete-1vrmpx {
@@ -1054,7 +1042,6 @@
 .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: rgba(138, 40, 73, 0.5);
     border-radius: 0;
-    box-shadow: 0 0 13px 2px black;
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo {
@@ -1064,21 +1051,19 @@
 }
 
 .textArea-2Spzkt {
-    text-shadow: 0 3px 2px black,0 3px 2px black,0 3px 2px black;
+    text-shadow: 0 3px 2px black;
     font-size: 0.8375rem;
     line-height: 1.55rem;
 }
 
 .theme-dark .inner-zqa7da {
     background-color: rgba(255,255,255,.13);
-    box-shadow: 0 3px 2px black;
 }
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     background-color: transparent;
     border: none;
     border-radius: 0;
-    box-shadow: 3px 5px 8px rgba(0,0,0,.6);
     height: 174px;
     margin-top: -84px;
     width: 174px;
@@ -1422,7 +1407,6 @@
     color: white;
     border-color: transparent;
     border-radius: 0;
-    box-shadow: 0 0 4px black;
 }
 
 .closeButton-1tv5uR:hover {
@@ -1534,7 +1518,6 @@
 .theme-dark .cardPrimaryOutline-29Ujqw {
     background: rgba(0,0,0,.6);
     border-color: transparent;
-    box-shadow: 0 0 4px 3px black;
 }
 
 .theme-dark .cardPrimaryEditable-3KtE4g {
@@ -1589,7 +1572,7 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .lookOutlined-3sRXeN.colorBrand-3pXr91:hover,
 .form-deprecated .btn-primary:hover, 
-.form.deprecated .btn-primary:hove,
+.form.deprecated .btn-primary:hover,
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
     background-color: #0059b3;
 }
@@ -2097,7 +2080,6 @@
 
 .theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
     background-color: #8a2849;
-    box-shadow: -3px 0 5px black;
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action {
@@ -2107,12 +2089,10 @@
 .theme-dark #friends .tab-bar .tab-bar-item.selected {
     background-color: rgba(138, 40, 73, 0.6);
     color: white;
-    box-shadow: -3px 2px 5px black;
 }
 
 .theme-dark #friends .friends-table .friends-row:hover {
     background: rgba(0,0,0,.3);
-    box-shadow: 0 2px 5px black;
 }
 
 .theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
