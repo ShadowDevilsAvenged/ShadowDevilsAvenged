@@ -1,4 +1,4 @@
-//META{"name":"Winter","description":"A Special Type of Winter","author":"DevilsTheAvenged","version":"1"}*//{}
+//META{"name":"Winter","description":"A Special Type of Winter","author":"DevilsLynAvenged","version":"1"}*//{}
 
 .app {
    background-image: url(https://images7.alphacoders.com/802/802381.jpg);
@@ -8,7 +8,6 @@
 .theme-dark .title-3qD0b-,
 .theme-dark .headerBar-UHpsPw {
    background: rgba(0, 0, 0, 0.4);
-   box-shadow: 0 4px 12px rgba(0, 0, 0, .7);
 }
 
 .typeMacOS-3EmCyP,
@@ -19,7 +18,6 @@
 
 .header-2o-2hj {
    background: rgba(0, 0, 0, 0.4);
-   box-shadow: 0 4px 12px rgba(0, 0, 0, .7);
 }
 
 .container-PNkimc,
@@ -78,7 +76,6 @@
    background-image: url(https://cdn4.iconfinder.com/data/icons/weather-29/256/snowflake-512.png);
    border: 1px solid rgba(255, 255, 255, 0.35);
    background-size: cover;
-   box-shadow: inset 4px 3px 5px rgba(255, 255, 255, 0.35);
 }
 
 .theme-dark .guild-1EfMGQ.selected-ML3OIq:before {
@@ -163,10 +160,10 @@
 .nameMuted-1MCOt4,
 .nameUnread-njOjIS {
    font-size: 12px;
-   font-weight: 400;
+   font-weight: 500;
    text-transform: capitalize;
    text-align: center;
-   text-shadow: 0 0 6px black, 0 0 6px black, 0 0 6px black, 0 0 6px black;
+   text-shadow: 0 0 4px black;
 }
 
 .nameCollapsed-34uFWo {
@@ -225,7 +222,7 @@
 }
 
 .unreadBar-3YD_k9 {
-   box-shadow: 0 0 13px rgba(0, 0, 0, .5), 0 0 13px rgba(0, 0, 0, .5), 0 0 13px rgba(0, 0, 0, .5), 0 0 13px rgba(0, 0, 0, .5);
+   box-shadow: none;
    border-radius: 0;
 }
 
@@ -391,7 +388,6 @@
 
 .theme-dark .inviteRow-2L02ae:hover {
    background-color: rgba(255, 255, 255, .2);
-   box-shadow: 0 0 12px rgba(255, 255, 255, .2);
 }
 
 .inviteRow-2L02ae {
@@ -558,7 +554,6 @@
 .theme-dark .select-2TCrqx .Select-menu-outer {
    background: linear-gradient(340deg, rgba(0, 0, 0, 1) 0%, rgba(240, 240, 240, 0.6) 100%);
    border-color: transparent;
-   box-shadow: 0 0 15px 2px rgba(0, 0, 0, .6), 0 0 15px 2px rgba(0, 0, 0, .6);
 }
 
 .theme-dark .select-2TCrqx .Select-option.is-selected {
@@ -655,7 +650,7 @@
    padding: 8px 11px;
    border-radius: 50px;
    background-color: rgba(255, 255, 255, 0.45);
-   box-shadow: 0 0 12px rgba(0, 0, 0, .45), 0 0 12px rgba(0, 0, 0, .45), 0 0 12px rgba(0, 0, 0, .45), 0 0 12px rgba(0, 0, 0, .45);
+   box-shadow: none;
    color: black;
    right: -5px;
    font-size: 14px;
@@ -689,8 +684,7 @@
    color: white;
    border: 2px solid rgba(255, 255, 255, 0.42);
    border-radius: 0;
-   text-shadow: rgba(0, 0, 0, 0.69) 1px 1px 5px, rgba(0, 0, 0, 0.69) 1px 1px 5px;
-   box-shadow: rgba(0, 0, 0, 0.79) 1px 1px 12px 2px;
+   text-shadow: rgba(0, 0, 0, 0.69) 1px 1px 5px;
 }
 
 .tooltip.tooltip-red.tooltip {
@@ -865,7 +859,6 @@
 
 .theme-dark .itemSubMenu-1vN_Yn:hover {
     background: rgba(255, 255, 255, 0.63) !important;
-    box-shadow: 0 0 16px 2px rgb(255, 255, 255) !important;
 }
 
 .theme-dark .item-1Yvehc:hover {
@@ -874,7 +867,6 @@
 
 .theme-dark .itemSubMenu-1vN_Yn {
     background: rgba(255, 255, 255, 0.43);
-    box-shadow:  0 0 16px 2px rgba(255, 255, 255, 0.83);
 }
 
 .theme-dark.contextMenu-HLZMGh {
@@ -996,7 +988,6 @@
 
 .theme-dark .option-96V44q.selected-rZcOL- {
     background-color: rgba(255,255,255,0.23);
-    box-shadow: 0 0 13px 2px rgba(255,255,255,0.44);
     border-radius: 0;
 }
 
@@ -1084,7 +1075,7 @@
 
 .theme-dark .hljs {
     color: white;
-    text-shadow: 0 0 4px black, 0 0 4px black;
+    text-shadow: 0 0 4px black;
 }
 
 .markup-2BOw-j code.inline {
@@ -1166,8 +1157,7 @@
 }
 
 .emojiPicker-3m1S-j .categories-1feg4n .item-16cXuq.selected-39BZ4S {
-    border-bottom-color: transparent;
-    box-shadow: 0 0 12px rgba(255,255,255,0.65);
+    border-bottom-color: black;
 }
 
 
@@ -1212,7 +1202,7 @@
     background-color: rgba(255,255,255,.2);
 }
 
-.bda-dark #bda-qem
+.bda-dark #bda-qem {
     border-radius: 0;
     background: transparent;
     border-bottom: none !important;
@@ -2116,7 +2106,7 @@
 .userPopout-3XzG_A {
     border-radius: 0;
     box-shadow: none;
-    background-image: url(http://mbtwty.co/wp-content/uploads/2018/09/mobile-winter-trees-wallpaper-tree-live-birch-alley-sky-snow-road-pine-desktop.jpg);
+    background-image: url(https://www.mordeo.org/files/uploads/2017/08/Winter-Snowflake-HD-Mobile-Wallpaper-950x1520.jpg);
     background-size: cover;
 }
 
@@ -2230,7 +2220,6 @@
 
 .theme-dark .tileWrapper-2khh-w:hover {
     background-color: rgba(0,0,0,0.84);
-    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
 }
 
 .theme-dark .mediaDescription-31GsyQ {
