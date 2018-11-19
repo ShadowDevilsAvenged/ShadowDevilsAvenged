@@ -1,4 +1,4 @@
-//META{"name":"Danganronpa_Theme","description":"A theme dedicated to Danganronpa","author":"DevilsTheAvenged","version":"1"}*//{}
+//META{"name":"Danganronpa_Theme","description":"A theme dedicated to Danganronpa","author":"DevilsLynAvenged","version":"1"}*//{}
 .app {
 	background-image: url("https://u.imageresize.org/51924e45-24ae-410a-9229-9080ce48b3ae.jpeg");
    background-size: cover !important;
@@ -49,7 +49,6 @@
     background: rgba(80, 136, 163,.7);
     font-weight: normal;
     border-radius: 0px;
-    box-shadow: inset 0 0 6px .2pc;
 }
 .container-2Thooq .avatar-3JE4B3 {
     padding: 6px;
@@ -297,7 +296,10 @@
 .theme-dark .message-group a,
 .theme-dark .topic-2QX7LI a,
 .content-8biNdB a,
-a {
+.emptyStateCTA-veJ2Cu a,
+.standardSidebarView-3F1I7i a,
+.theme-dark .markup-2BOw-j a,
+.bda-slist .bda-footer a {
     color: #8EC2C2 !important;
 }
 .theme-dark .embedTitleLink-1Zla9e {
@@ -434,8 +436,7 @@ a {
 .theme-dark .markup-2BOw-j code, 
 .theme-dark .markup-2BOw-j code.inline {
     background: rgba(255,255,255,0.12);
-    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black,0 0 5px black;
-    box-shadow: 0 0 5px red;
+    text-shadow: 0 0 5px black;
     color: white;
 }
 .theme-dark .hljs-comment, .theme-dark .hljs-quote {
@@ -739,7 +740,7 @@ a {
 }
 /* Invite Button */
 /* Emote Menu */
-.bda-dark #bda-qem
+.bda-dark #bda-qem {
     border-bottom: none !important;
     background: transparent;
 }
@@ -931,7 +932,7 @@ a {
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
     background-color: #5088A3;
     color: #fff;
-     text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black;
+     text-shadow: 0 0 4px black;
 }
 .theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary:hover:not(.selected) {
     background-color: #8EC2C2;
@@ -991,7 +992,7 @@ a {
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
       background-color: #5088A3;
 }
-.searchBarTag-2xRzm8 {
+.search-bar-tag {
     background: #5088A3;
     border-radius: 0px;
 }
@@ -1066,11 +1067,11 @@ a {
 .theme-dark .standardSidebarView-3F1I7i .esc-text {
     color: white;
 }
-.theme-dark .standardSidebarView-3F1I7i .btn-close {
+.theme-dark .closeButton-1tv5uR {
     border-color: transparent;
     border-radius: 0;
 }
-.theme-dark .standardSidebarView-3F1I7i .btn-close:hover,
+.theme-dark .closeButton-1tv5uR:hover,
 .avatar-uploader-inner {
     background-color: #5088A3;
 }
@@ -1356,11 +1357,6 @@ a {
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
     background-color: #2D37B2 !important;
     color: white !important;
-    box-shadow: 0 0 0 0 black;
-    transition: box-shadow .2s linear;
-}
-.lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-    box-shadow: 0 0 6px 0 black, 0 0 6px 0 black, 0 0 6px 0 black;
 }
 /* Header Playing */
 /* Spotify Playing */
@@ -1394,14 +1390,9 @@ a {
 .headerXbox-3G-4PF ~ .body-3iLsc4 > .note-3kmerW textarea:focus {
     background-color: rgba(59, 175, 65,0.4);
 }
-.lookInverted-2D7oAl.colorGreen-29iAKY:hover {
-    box-shadow: 0 0 6px 0 black, 0 0 6px 0 black, 0 0 6px 0 black;
-}
 .lookInverted-2D7oAl.colorGreen-29iAKY {
     background-color: #007C08 !important;
     color: white;
-    box-shadow: 0 0 0 0 black;
-    transition: box-shadow .2s linear;
 }
 /* Spotify Playing */
 /* Streaming Playing */
@@ -1430,12 +1421,8 @@ a {
 .buttonInvertedPurple-WtBglX {
     background-color: #4B0082 !important;
     color: white;
-    box-shadow: 0 0 0 0 black;
-    transition: box-shadow .2s linear;
 }
-.buttonInvertedPurple-WtBglX:hover {
-    box-shadow: 0 0 6px 0 black, 0 0 6px 0 black, 0 0 6px 0 black;
-}
+
 /* Streaming Playing */
 .listAvatar-1NlAhb {
     color: #fff;
@@ -1513,12 +1500,7 @@ a {
     background: #5088A3 !important;
     color: #fff;
 }
-.headerButtonColor-G7_f-V:hover {
-    box-shadow: 0 0 16px 4px black;
-}
-.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover {
-    box-shadow: 0 0 16px 4px white;
-}
+
 .theme-dark .body-SKIE6r {
     background-color: transparent;
 }
@@ -1593,7 +1575,6 @@ a {
 
 .theme-dark .tileWrapper-2khh-w:hover {
     background-color: rgba(0,0,0,0.84);
-    box-shadow: 0 9px 20px 0 rgba(0,0,0,.32);
 }
 
 .theme-dark .mediaDescription-31GsyQ {
