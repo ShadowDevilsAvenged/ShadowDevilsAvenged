@@ -45,11 +45,9 @@
 .theme-dark .title-3qD0b-,
 .theme-dark .headerBar-UHpsPw {
   background: transparent;
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
 }
 
 .header-2o-2hj {
-  box-shadow: 0 4px 0 rgba(0, 0, 0, 0.2);
   font-weight: 300;
 }
 
@@ -85,7 +83,6 @@
   background: rgba(0, 0, 0, .6);
   border-color: transparent;
   border-radius: 0;
-  box-shadow: 0px 8px 5px 2px rgba(0, 0, 0, 0.75);
 }
 
 .authedApp-mj2Hmd {
@@ -95,8 +92,6 @@
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
   background-color: #6441a5;
   /*Primary Color*/
-  box-shadow: 0px 6px 1px 1px rgba(100, 65, 165, 0.75);
-  /*Primary Transparent Color*/
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
@@ -104,17 +99,9 @@
   /*Secondary Color*/
 }
 
-.lookFilled-1Gx00P.colorBrand-3pXr91:active {
-  background-color: #6441a5;
-  /*Primary Color*/
-  box-shadow: 0px 1px 1px 1px rgba(100, 65, 165, 0.75);
-  /*Primary Transparent Color*/
-  top: 7px;
-}
 
-.userSettingsAccount-2eMFVR .userInfoViewingButton-2-jbH9:active {
-  top: 24px !important;
-}
+
+
 
 .theme-dark .faded-3bns_w {
   color: rgb(255, 255, 255);
@@ -141,19 +128,17 @@
 }
 
 .side-8zPYf6 .itemSelected-1qLhcL,
-.theme-dark .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
 #pubslayer .ui-tab-bar-item.selected {
   background-color: #6441a5 !important;
   /*Primary Color*/
-  border: 2px solid rgba(255, 255, 255, 0.44);
-  box-shadow: 0px 2px 1px 1px rgba(0, 0, 0, 1);
+  border: 2px solid rgba(255, 255, 255, 0.24);
 }
 
 .theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover,
 .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
   background-color: rgba(185, 187, 190, .23);
-  box-shadow: 0 0 12px 2px rgba(255, 255, 255, 0.24);
   color: white;
 }
 
@@ -223,21 +208,15 @@
 
 .lookFilled-1Gx00P.colorGreen-29iAKY {
   background-color: #4cd137;
-  box-shadow: 0px 6px 1px 1px rgba(76, 209, 55, 0.75);
 }
 
-.lookFilled-1Gx00P.colorGreen-29iAKY:active {
-  background-color: #4cd137;
-  box-shadow: 0px 1px 1px 1px rgba(76, 209, 55, 0.75);
-  top: 4px;
-}
+
 
 =.lookOutlined-3sRXeN.colorRed-1TFJan:hover,
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71);"]:hover,
 .lookFilled-1Gx00P.colorRed-1TFJan:hover {
   border-color: transparent;
   background-color: #ac0c0c !important;
-  box-shadow: 0px 6px 1px 1px rgba(212, 15, 15, 0.75);
 }
 
 .lookOutlined-3sRXeN.colorRed-1TFJan,
@@ -246,39 +225,22 @@
   border-color: transparent;
   color: white !important;
   background-color: #d40f0f !important;
-  box-shadow: 0px 6px 1px 1px rgba(212, 15, 15, 0.75);
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button:hover {
   border-color: transparent;
   background-color: #ac0c0c;
-  box-shadow: 0px 6px 1px 1px rgba(212, 15, 15, 0.75);
 }
 
 .uploadModal-2ifh8j .footer-3mqk7D .button {
   border-color: transparent;
   color: white;
   background-color: #d40f0f;
-  box-shadow: 0px 6px 1px 1px rgba(212, 15, 15, 0.75);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .button:active {
-  border-color: transparent;
-  color: white;
-  background-color: #d40f0f;
-  box-shadow: 0px 1px 1px 1px rgba(212, 15, 15, 0.75);
-  top: 4px;
-}
 
-.lookOutlined-3sRXeN.colorRed-1TFJan:active,
-.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71);"]:active,
-.lookFilled-1Gx00P.colorRed-1TFJan:active {
-  border-color: transparent;
-  color: white;
-  background-color: #d40f0f !important;
-  box-shadow: 0px 1px 1px 1px rgba(212, 15, 15, 0.75) !important;
-  top: 4px;
-}
+
+
 
 .lookOutlined-3sRXeN.colorBrand-3pXr91:hover {
   border-color: transparent;
@@ -289,16 +251,8 @@
   border-color: transparent;
   color: white;
   background-color: #3867d6;
-  box-shadow: 0px 6px 1px 1px rgba(56, 103, 214, 0.75);
 }
 
-.lookOutlined-3sRXeN.colorBrand-3pXr91:active {
-  border-color: transparent;
-  color: white;
-  background-color: #3867d6;
-  box-shadow: 0px 1px 1px 1px rgba(56, 103, 214, 0.75);
-  top: 4px;
-}
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
@@ -433,13 +387,11 @@
 .theme-dark .checkbox-1ix_J3 {
   border-color: transparent;
   background-color: rgba(255, 255, 255, 0.16);
-  box-shadow: 0 0 7px 0 rgba(255, 255, 255, 0.43);
 }
 
 .theme-dark .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
   background: rgba(0, 0, 0, .3) !important;
   border-color: transparent !important;
-  box-shadow: 0 0 22px 2px #6441a5;
 }
 
 .theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"],
@@ -472,7 +424,6 @@
 .theme-dark .select-2TCrqx .Select-option.is-focused,
 .theme-dark .select-2TCrqx .Select-option:hover {
   background: rgba(255, 255, 255, .13);
-  box-shadow: inset 0 0 4px 2px rgba(255, 255, 255, 0.09);
 }
 
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
@@ -515,12 +466,10 @@
 
 .theme-dark .button-mM-y8i {
   background-color: rgba(255, 255, 255, 0.23);
-  box-shadow: 0 0 12px 3px rgba(0, 0, 0, 0.4), 0 0 12px 3px rgba(0, 0, 0, 0.4);
 }
 
 .theme-dark .button-mM-y8i:hover {
   background-color: rgba(255, 255, 255, 0.23);
-  box-shadow: 0 0 12px 3px rgb(0, 0, 0), 0 0 12px 3px rgb(0, 0, 0);
 }
 
 .theme-dark .user-settings-games .last-played,
@@ -532,7 +481,6 @@
 
 .theme-dark .user-settings-games .now-playing {
   background-color: rgba(255, 255, 255, 0.34);
-  box-shadow: 0 0 12px 3px rgb(0, 0, 0);
 }
 
 .theme-dark .select-2TCrqx .Select-control .Select-placeholder {
@@ -556,7 +504,6 @@
 .theme-dark .user-settings-games .now-playing .game-name-input:hover {
   background-color: rgba(255, 255, 255, 0.34);
   border-color: transparent;
-  box-shadow: 0 0 12px 3px rgba(255, 255, 255, 0.34);
 }
 
 .theme-dark .markValue-2DwdXI {
@@ -569,8 +516,7 @@
 }
 
 .theme-dark .modal-3HD5ck {
-  background-color: rgba(0, 0, 0, 0.34);
-  box-shadow: 0 0 22px 4px rgba(255, 255, 255, 0.34), 0 0 22px 4px rgba(255, 255, 255, 0.34), 0 0 22px 4px rgba(255, 255, 255, 0.34);
+  background-color: rgba(0, 0, 0, 0.74);
 }
 
 .theme-dark .footer-2yfCgX {
@@ -655,7 +601,6 @@
 .theme-dark .bda-slist li {
   background-color: rgba(0, 0, 0, .6);
   color: white;
-  box-shadow: 0 0 22px 4px rgba(0, 0, 0, 0.34), 0 0 22px 4px rgba(0, 0, 0, 0.34);
   border-color: #6441a5;
   /*Primary Color*/
 }
@@ -691,7 +636,6 @@
   margin-top: 2px;
   z-index: 1;
   top: 43%;
-  box-shadow: 2px -4px 16px rgba(0, 0, 0, 0.6), 2px -4px 16px rgba(0, 0, 0, 0.6);
   transform: rotate(2deg);
 }
 
@@ -707,22 +651,20 @@
 .wrapper-232cHJ:not(.betterfriendcount-badge) {
   background-color: #6441a5;
   /*Primary Color*/
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.3), 0 0 4px 2px rgba(0, 0, 0, 0.3), 0 0 4px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
   color: #fff;
-  display: block;
-  font-weight: 900;
-  line-height: 14px;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 1), 0 0 3px rgba(0, 0, 0, 1), 0 0 3px rgba(0, 0, 0, 1), 0 0 3px rgba(0, 0, 0, 1), 0 0 3px rgba(0, 0, 0, 1), 0 0 3px rgba(0, 0, 0, 1);
+  font-weight: 600;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 1);
   padding: 6px 11px;
   border-radius: 25px;
 }
 
 .guild-1EfMGQ .badge-1GsMF2 {
   position: relative;
-  left: 26px;
-  bottom: 54px;
   border-radius: 25px;
   padding: 6px 11px;
+  top: -17px;
+  right: -24px;
 }
 
 .header-2o-2hj:hover {
@@ -759,7 +701,6 @@
 
 .popout-3sVMXz {
   border-radius: 0;
-  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 1), 0 1px 4px 2px rgba(0, 0, 0, 1);
 }
 
 .icon-2doZ3q {
@@ -1349,6 +1290,10 @@
   opacity: 1 !important;
 }
 
+.messageGroupWrapper-o-Zw7G .avatar-17mtNa .large-3ChYtB {
+  margin-top: -6px;
+}
+
 .theme-dark .dividerEnabled-2TTlcf {
   border-bottom-color: transparent;
 }
@@ -1467,9 +1412,11 @@
 .bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
   color: white;
   text-align: center;
+  background-color: transparent;
 }
 
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
+.emojiPicker-3m1S-j .stickyHeader-1SS0JU,
+.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
   background: transparent;
 }
 
@@ -1485,8 +1432,14 @@
 }
 
 .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
-  background-color: transparent;
-  border: none;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,
+.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+    border-color: transparent!important;
+    background-color:  black!important;
 }
 
 .emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
@@ -1923,7 +1876,9 @@
   background-color: #6441a5;
   /*Primary Color*/
 }
-
+.theme-dark .option-96V44q.selected-rZcOL-:after {
+    background: none;
+}
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: #6441a5;
   /*Primary Color*/
