@@ -16,7 +16,7 @@
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
 .theme-dark .typing-2GQL18,
-.theme-dark #friends,
+.theme-dark .container-3gCOGc,
 .theme-dark .chat-3bRxxu,
 .theme-dark .chat-3bRxxu form,
 .theme-dark .content-yTz4x3,
@@ -33,7 +33,7 @@
    background: rgba(0, 0, 0, 0.4);
 }
 
-.app {
+#app-mount {
    background-image: url(https://images8.alphacoders.com/743/743146.jpg);
    background-size: cover;
    background-position: center;
@@ -41,13 +41,13 @@
 
 /* Friends */
 
-.search-bar {
+.searchBar-2_Yu-C {
    background-color: transparent;
    border-radius: 0;
    box-shadow: none!important
 }
 
-.search-bar .search-bar-inner {
+.searchBar-2_Yu-C .searchBarInner-1_Tg2R {
    background: rgba(0, 0, 0, .7);
    border: none;
    border-radius: 0
@@ -168,16 +168,16 @@
 
 .theme-dark .text-GwUZgS,
 .theme-dark .title-2BxgL2,
-.theme-dark #friends .friends-table .friends-table-header .friends-column {
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ {
    color: #fff
 }
 
-.theme-dark #friends .friends-table .friends-table-header {
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d {
    border: none
 }
 
-.theme-dark #friends .friends-table .friends-table-header .friends-column-separator,
-.theme-dark #friends .tab-bar .tab-bar-separator {
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA,
+.theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA {
    background-color: transparent
 }
 
@@ -186,7 +186,7 @@
    letter-spacing: 2px
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item {
+.theme-dark .container-3gCOGc .tab-bar .tab-bar-item {
    color: #fff
 }
 
@@ -195,12 +195,12 @@
    padding: 7px 13px
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item:hover:not(.selected) {
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
    background-color: rgba(255, 255, 255, 0.22);
    border: 2px solid rgba(255, 255, 255, 0.34)
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item.selected {
+.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
    background-color: rgba(255, 255, 255, 0.22);
    color: #fff
 }
@@ -223,12 +223,12 @@
    border-radius: 50px
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary {
+.tabBar-1E2ExX .primary-3j8BhM {
    background-color: #68b0f1 !important;
 }
 
-.theme-dark #friends .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
-   color: white;
+.tabBar-1E2ExX .primarySelected-3uHKZn {
+   color: white  !important;
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled,
@@ -240,11 +240,11 @@
    background-color: #1f52e0
 }
 
-.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableSuggestionsHeader-2zSnpD {
    border-bottom: none
 }
 
-.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-add-header {
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
    background: rgba(0, 0, 0, 0.07);
    border-bottom: none
 }
@@ -346,16 +346,16 @@
    background-size: cover
 }
 
-.theme-dark #friends .friends-table .friends-row+.friends-row {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
    border-top: none
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-status,
-.theme-dark #friends .friends-table .friends-row .friends-column-name {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2,
+.theme-dark .container-3gCOGc .friends-table .friends-row .friends-column-name {
    color: #fff
 }
 
-.theme-dark #friends .friends-table .friends-row:hover {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud:hover {
    background: rgba(0, 0, 0, .5);
 }
 
@@ -363,25 +363,25 @@
    background-color: transparent
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn:hover {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover {
    border-color: transparent;
    background-color: rgba(104, 176, 241, 0.5)
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-guilds .more-mutual-guilds-btn {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
    border-color: transparent;
    color: #fff
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
    background-color: #68b0f1
 }
 
-.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+.theme-dark .friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
    background-color: rgba(104, 176, 241, 0.6)
 }
 
-#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9.friendsActionRemove-qu8nnl:hover {
    background-color: #da2c43!important
 }
 
@@ -405,7 +405,7 @@
    border-radius: 0
 }
 
-.search-bar-tag {
+.searchBarTag-2xRzm8 {
    background: rgba(255, 255, 255, 0.20);
    border-radius: 0;
    font-weight: 500;
@@ -505,7 +505,7 @@
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,
-.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-track-piece {
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
    background-color: transparent;
    border: none
 }
@@ -517,7 +517,7 @@
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.theme-dark .messagesWrapper-3lZDfY .scroller-wrap ::-webkit-scrollbar-thumb {
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
    background-color: rgba(0, 0, 0, 0.45);
    border-radius: 0;
    border: none
@@ -1093,7 +1093,7 @@
   font-weight: 400;
 }
 
-.tooltip.tooltip-black {
+.tooltip-1OS-Ti.black-2bmmnj {
   background: linear-gradient(155deg, #000000, #68b0f1);
   /*Primary Color*/
 }
@@ -1102,7 +1102,7 @@
     display: none
 }
 
-.tooltip {
+.tooltip-1OS-Ti {
   position: absolute;
   text-align: center;
   color: white;
@@ -1111,27 +1111,27 @@
   text-shadow: rgba(0, 0, 0, 0.69) 1px 1px 5px;
 }
 
-.tooltip.tooltip-red.tooltip {
+.tooltip-1OS-Ti.red-m6f4-H.tooltip-1OS-Ti {
   background-color: rgba(255, 0, 0, 0.32);
 }
 
-.tooltip.tooltip-red.tooltip-right:after {
+.tooltip-1OS-Ti.red-m6f4-H.right-KM_vfY:after {
   border-right: none;
 }
 
-.tooltip.tooltip-black.tooltip-top:after {
+.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
   border-top: none;
 }
 
-.tooltip.tooltip-black.tooltip-bottom:after {
+.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after {
   border-bottom: none;
 }
 
-.tooltip.tooltip-black.tooltip-left:after {
+.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after {
   border-left: none;
 }
 
-.tooltip.tooltip-black.tooltip-right:after {
+.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
   border-right: none;
 }
 
@@ -1434,8 +1434,8 @@
     background: transparent
 }
 
-.search-bar.search-bar-light,
-.bda-dark .emoji-picker .header .search-bar, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .search-bar {
+.searchBar-2_Yu-C.searchBarLight-1NxoDG,
+.bda-dark .emoji-picker .header .searchBar-2_Yu-C, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2_Yu-C {
     background-color: transparent
 }
 
@@ -1455,12 +1455,12 @@
     background-color: rgba(255,255,255,.2)
 }
 
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #pubs-container .scroller::-webkit-scrollbar, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track, .bda-dark #pubs-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece,.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,.bda-dark .emoji-picker .scroller::-webkit-scrollbar, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
   background-color: transparent !important;
   border: none !important;
 }
 
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emoji-picker .scroller::-webkit-scrollbar-thumb, .bda-dark emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb, .bda-dark #pubs-container .scroller::-webkit-scrollbar-thumb,.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
   background-color: #68b0f1 !important;
   /*Primary Color*/
   border-radius: 0;
@@ -1473,13 +1473,13 @@
     color: white
 }
 
-.search-bar.search-bar-light .search-bar-inner {
+.searchBar-2_Yu-C.searchBarLight-1NxoDG .searchBarInner-1_Tg2R {
     background-color: rgba(0,0,0,.3);
     border: none;
     border-radius: 0!important
 }
 
-.search-bar.search-bar-light input {
+.searchBar-2_Yu-C.searchBarLight-1NxoDG input {
     color: white
 }
 
@@ -1630,13 +1630,13 @@
 }
 
 .theme-dark .header-ykumBX,
-.theme-dark .search-results-wrap .search-header {
+.theme-dark .searchHeader-1l-wpR {
     background: transparent;
     box-shadow: none
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .search-results-wrap {
+.theme-dark .searchResultsWrap-2DKFzt {
     background: linear-gradient(75deg, #000000, #68b0f1);
     border: none;
     box-shadow: none;
@@ -1647,35 +1647,35 @@
     background-color: rgba(0,0,0,0.7)
 }
 
-.theme-dark .search-results-wrap .channel-separator:before {
+.theme-dark .channelSeparator-1X1FuH:before {
     border-color: transparent
 }
 
-.theme-dark .search-results-wrap .search-result:before,
-.theme-dark .search-results-wrap .search-result:after {
+.theme-dark .searchResult-3pzFAB:before,
+.theme-dark .searchResult-3pzFAB:after {
     background: none
 }
 
-.theme-dark .search-results-wrap .channel-separator .channel-name {
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
     background-color: rgba(0,0,0,0.4);
     padding: 12px 5px
 }
 
-.theme-dark .search-results-wrap .search-result .search-result-message.hit {
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA {
     border: none
 }
 
 
-.theme-dark .search-results-wrap .search-result .hit {
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB .hit-NLlWXA {
     background-color: rgba(0,0,0,0.3);
     box-shadow: none
 }
 
-.theme-dark .search-results-wrap .search-result.expanded {
+.theme-dark .searchResultsWrap-2DKFzt .searchResult-3pzFAB.expanded-v2Szsz  {
     border: none
 }
 
-.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+.theme-dark .searchResultsWrap-2DKFzt .expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
     background-color: rgba(0,0,0,0.7);
     border: none
 }
@@ -1686,7 +1686,7 @@
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .search-results-wrap .action-buttons .jump-button {
+.theme-dark .jumpButton-Ia2hRJ {
     background-color: #68b0f1;
     color: white
 }
@@ -1889,7 +1889,7 @@
     color: white
 }
 
-.search-results-wrap .search-result .search-result-message.hit .avatar-17mtNa .large-3ChYtB {
+.searchResultsWrap-2DKFzt .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA .avatar-17mtNa .large-3ChYtB {
    margin-top: -7px
 }
 
