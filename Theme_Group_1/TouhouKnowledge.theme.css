@@ -17,7 +17,6 @@
     background: rgba(0, 0, 0, .5) !important;
 }
 .channels-Ie2l6A,
-.theme-dark .title-3qD0b-,
 .container-PNkimc,
 .container-2lgZY8,
 .theme-dark .guildsWrapper-5TJh6A,
@@ -28,9 +27,15 @@
 .theme-dark .friends-table,
 .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .container-3gCOGc,
-.theme-dark .headerBar-UHpsPw,
 .theme-dark .standardSidebarView-3F1I7i {
     background-color: transparent;
+}
+
+.theme-dark .title-3qD0b-,
+.theme-dark .headerBar-UHpsPw,
+.header-2o-2hj {
+        background: black;
+        box-shadow: none;
 }
 
 .theme-dark .contentRegion-3nDuYy,
@@ -861,7 +866,7 @@ a,
     color: white;
 }
 /* Checkbox Place */
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
     background-color: #705435;
     border-color: transparent;
 }
