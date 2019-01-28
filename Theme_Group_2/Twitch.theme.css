@@ -555,7 +555,7 @@
   color: white;
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:checked+span {
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
   background-color: #6441a5;
   /*Primary Color*/
   border-color: transparent;
@@ -1416,7 +1416,7 @@
 }
 
 .emojiPicker-3m1S-j .stickyHeader-1SS0JU,
-.bda-dark .emoji-picker .header .searchBar-2_Yu-C, .bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2_Yu-C {
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
   background: transparent;
 }
 
@@ -2150,8 +2150,8 @@
   text-shadow: 0 0 4px black;
 }
 
-.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableSuggestionsHeader-2zSnpD,
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d,
+.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableSuggestionsHeader-2zSnpD,
 .theme-dark .friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
   border: none;
 }
@@ -2183,11 +2183,11 @@
     text-transform: capitalize;
 }
 
-.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.itemSelected-1qLhcL) {
+.theme-dark .topPill-30KHOu .item-PXvHYJ:hover:not(.selected) {
     background-color: rgba(0,0,0,0.67);
 }
 
-.theme-dark .container-3gCOGc .tab-bar .tab-bar-item,
+.theme-dark .topPill-30KHOu .item-PXvHYJ,
 .theme-dark .container-3gCOGc .friends-empty p {
     color: white;
 }
@@ -2264,20 +2264,20 @@
     text-shadow: 0 0 4px rgba(0,0,0,1),0 0 4px rgba(0,0,0,1);
 }
 
-.tabBar-1E2ExX .primary-3j8BhM:hover:not(.selected) {
-    background-color: #4e3380  !important;
+.theme-dark .tabBar-1E2ExX .primary-3j8BhM:hover:not(.selected) {
+    background-color: #4e3380 !important;
     /*Secondary Color*/
 }
 
-.tabBar-1E2ExX .primary-3j8BhM {
-    background-color: #6441a5  !important;
+.theme-dark .tabBar-1E2ExX .primary-3j8BhM {
+    background-color: #6441a5 !important;
     /*Primary Color*/
-    color: #fff  !important;
+    color: #fff;
 }
 
 .tabBar-1E2ExX .primarySelected-3uHKZn {
-    background-color: #470080  !important;
-    color: white  !important;
+    background-color: #470080 !important;
+    color: white !important;
 }
 
 /* Channel Members */ 
