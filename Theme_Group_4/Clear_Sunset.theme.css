@@ -1294,14 +1294,12 @@
 
 .nameDefaultText-24KCy5, 
 .nameDefaultVoice-3WUH7s {
-    color: white;
-    border-right: 1px solid silver;
+    color: silver;
 }
 
 .nameLockedText-3pqQcL, 
 .nameLockedVoice-26MhB1 {
-    color: white;
-    border-right: 1px solid #e60000;
+    color: #e60000;
 }
 
 .colorLockedText-1VRkPt, 
@@ -1321,8 +1319,7 @@
 
 .nameUnreadText-DfkrI4, 
 .nameUnreadVoice-EVo-wI {
-    color: white;
-    border-right: 1px solid #ff9933;
+    color: #ff9933;
 }
 
 .colorUnreadText-2t7XRb, 
@@ -1555,7 +1552,7 @@
     color: white;
 }
 
-.theme-dark .user-settings-games .not-detected {
+.theme-dark .notDetected-33MY4s {
     background-color: rgba(0,0,0,0.5);
 }
 
@@ -2255,4 +2252,7 @@
 .guildNick-3uAm3i, 
 .listName-3w10cx {
     color: white;
+}
+.theme-dark .messageGroupBlocked-3wrQQX {
+        display: none;
 }
