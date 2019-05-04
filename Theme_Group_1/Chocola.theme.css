@@ -385,7 +385,7 @@
 .theme-dark .markup-2BOw-j a,
 .standardSidebarView-3F1I7i a,
 .bda-slist .bda-footer a,
-.theme-dark .topic-2QX7LI a,
+.theme-dark .topic-TCb_qw a,
 .need-help-modal.form.deprecated a,
 .need-help-modal.form.deprecated a:hover {
     color: #83B2FF;
@@ -745,14 +745,15 @@
 .content-3at_AU {
     border-radius: 0px;
 }
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU {
     background-color: rgba(91, 55, 58,0.38); /* RGB Hover Color */
 }
 .userHovered-2_fT4Z:active {
     background-color: rgba(91, 55, 58,.14); /* RGB Hover Color */
     border-radius: 0;
 }
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: rgba(89, 59, 58,0.4); /* RGB Main Color */
     border: 1px solid #855857;
 }

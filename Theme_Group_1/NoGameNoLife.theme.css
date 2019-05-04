@@ -563,16 +563,14 @@
     border: none;
 }
 /* Channel List */
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:active {
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU {
     background-color: rgba(79, 28, 79,0.4);
 }
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: #4F1C4F;
 }
-.nameSelectedText-sp_EUw, 
-.nameSelectedVoice-1qSph5 {
-    color: white;
-}
+
 /* Notice Info */
 .noticeInfo-3v29SJ {
     background-color: #4a90e2;

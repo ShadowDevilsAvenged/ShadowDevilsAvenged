@@ -708,7 +708,7 @@
 /* Link */
 .operations-36ENbA>a,
 .fileNameLink-9GuxCo,
-.theme-dark .topic-2QX7LI a,
+.theme-dark .topic-TCb_qw a,
 .theme-dark .welcomeMessage-3_Mcht a,
 .standardSidebarView-3F1I7i a,
 .bda-slist .bda-footer a,
@@ -1238,12 +1238,13 @@
     overflow: visible;
 }
 
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
+.theme-dark .wrapper-1ucjTd:hover .content-3at_AU {
     background-color: rgba(138, 40, 73,.4);
     border: 2px solid #8a2849;
 }
 
-.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU,
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
     background: linear-gradient(90deg, rgba(138,40,73,0.6) 41%, transparent 100%);
     border: 1px solid #8a2849;
 }
