@@ -1,13 +1,13 @@
 //META{"name":"Rem","description":"Go For Team Rem","author":"DevilsLynAvenged","version":"1"}*//{}
 
 .theme-dark .title-3qD0b-,
-.theme-dark .headerBar-UHpsPw {
+.theme-dark .container-1r6BKw {
    background: transparent;
    box-shadow: none;
 }
 
 .header-2o-2hj,
-.searchBar-6Kv8R2 {
+.darkTheme-3uETC4.container-2XeR5Z {
    box-shadow: none;
 }
 
@@ -200,7 +200,7 @@
    border: 2px solid rgba(255, 255, 255, 0.34)
 }
 
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
    background-color: rgba(255, 255, 255, 0.22);
    color: #fff
 }
@@ -209,11 +209,16 @@
    background: transparent
 }
 
-#friends .tab-bar-item .wrapper-232cHJ {
-   background-color: #68b0f1;
+#friends .tab-bar-item .wrapper-232cHJ,
+.numberBadge-2s8kKX[style*="background-color: rgb(240, 71, 71);"]{
+   background-color: #68b0f1 !important;
    padding: 3px;
    border: 1px outset #fff;
    border-radius: 0
+}
+.base-PmTxvP {
+        margin-right: -5px;
+        min-width: 26px;
 }
 
 .channel-2QD9_O a .wrapper-232cHJ {
@@ -334,7 +339,7 @@
    background-color: rgba(112, 195, 60, 0.8)
 }
 
-.theme-dark .wrapper-2lTRaf {
+.theme-dark .wrapper-25eVIn {
    background: #68b0f1!important;
    border-radius: 50px!important
 }
@@ -456,8 +461,7 @@
    border-color: transparent
 }
 
-.theme-dark .guild-1EfMGQ.audio-3vVhBi .guildInner-3DSoA4:after,
-.theme-dark .guild-1EfMGQ.video-15yGu3 .guildInner-3DSoA4:after {
+.theme-dark .iconBadge-qZ4Ksk {
    background-color: rgba(0, 0, 0, 0.48);
    top: -1px;
    right: -1px
@@ -533,11 +537,9 @@
 }
 
 
-.theme-dark .friendsOnline-2JkivW {
-  color: white
-}
 
-.theme-dark .guildSeparator-3s64Iy:after {
+
+.guildSeparator-3s64Iy {
     background: transparent
 }
 
@@ -609,7 +611,7 @@
     box-shadow: none
 }
 
-.theme-dark .divider-3573oO {
+.theme-dark .divider-3FBTu8 {
     background-color: transparent
 }
 
@@ -703,7 +705,7 @@
    background-color: rgba(104, 176, 241, 0.19) !important
 }
 
-.side-8zPYf6 .itemSelected-1qLhcL[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.item-PXvHYJ.da-item[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
     color: #fff !important;
 }
 #bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked,
@@ -746,7 +748,7 @@
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, .theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
    background-color: rgba(255, 255, 255, .4);
     color: white
 }
@@ -938,7 +940,7 @@
 }
 /* Main Chat and Last Big Area */
 
-.avatarSpeaking-1wJCNq {
+.avatarSpeaking-3MqCHL {
     box-shadow: 0 0 0 2px #BEE64B, inset 0 0 0 1.5px black;
     border-radius: 12px
 }
@@ -980,17 +982,6 @@
     background: linear-gradient(17deg, rgba(0,0,0,1) 0%, #68b0f1 100%)
 }
 
-.theme-dark .unread-2OHH1w:before {
-    background: #68b0f1
-}
-
-.unread-2OHH1w:before {
-    border-radius: 0
-}
-
-.theme-dark .selected-nT-gM3:before {
-    background: #88d13a
-}
 
 .header-2o-2hj:hover {
     background-color: rgba(0,0,0,.4)
@@ -1094,17 +1085,14 @@
   font-weight: 400;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj {
+.tooltip-2QfLtc.tooltipBlack-PPG47z {
   background: linear-gradient(155deg, #000000, #68b0f1);
   /*Primary Color*/
 }
 
-.iconCollapsed-3hFp_8, .iconDefault-3Gr8d2, .iconHovered-2L3-fB, .iconHoveredCollapsed-3caIIZ, .iconMuted-1HVBGH, .iconUnread-2eGkvX {
-    display: none
-}
 
-.tooltip-1OS-Ti {
-  position: absolute;
+
+.tooltip-2QfLtc {
   text-align: center;
   color: white;
   border: 2px solid rgba(255, 255, 255, 0.72);
@@ -1112,122 +1100,89 @@
   text-shadow: rgba(0, 0, 0, 0.69) 1px 1px 5px;
 }
 
-.tooltip-1OS-Ti.red-m6f4-H.tooltip-1OS-Ti {
+.theme-dark .tooltipRed-8-9NeP.tooltip-2QfLtc {
   background-color: rgba(255, 0, 0, 0.32);
 }
 
-.tooltip-1OS-Ti.red-m6f4-H.right-KM_vfY:after {
+.theme-dark .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
   border-right: none;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
-  border-top: none;
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border: none;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after {
-  border-bottom: none;
-}
-
-.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after {
-  border-left: none;
-}
-
-.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
-  border-right: none;
-}
-
-.nameCollapsed-34uFWo {
+.wrapper-CU3qI5.collapsed-4WdoJ7 {
     font-weight: 400;
     text-align: center; 
     color: #cccccc
 }
 
-.nameDefault-2DI02H {
+.wrapper-CU3qI5 {
     font-weight: 400;
     text-align: center;
     color: #b3b3b3
 }
 
-.nameHovered-1gxhWH {
+.wrapper-CU3qI5:hover {
     font-weight: 400;
     text-align: center;
     color: #d9d9d9;
 }
 
-.nameHoveredCollapsed-2orEWB {
+.wrapper-CU3qI5.collapsed-4WdoJ7:hover {
     font-weight: 400;
     text-align: center;
     color: #f2f2f2
 }
 
-.nameMuted-1MCOt4 {
+.muted-1NRuDm {
     font-size: 10px;
     font-weight: 400;
     text-align: center;
     color: #ff3333
 }
 
-.nameUnread-njOjIS {
-    font-weight: 400;
-    text-align: center;
-    color: #33cccc
-}
+
 
 .lookOutlined-3sRXeN.colorGreen-29iAKY {
     border-color: rgba(112, 195, 60,.3);
     color: #70c33c
 }
 
-.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
-    color: white
-}
 
-.icon-sxakjD,
-.foreground-2W-aJk,
+
 .actionIcon-2Hi9ZG {
     opacity: 1
 }
 
-.unread-1Dp-OI {
+.unread-3zKkbm {
    display: none
 }
 
-.background-2OVjk_ {
-    opacity: .7
-}
 
-.nameDefaultText-24KCy5, .nameDefaultVoice-3WUH7s {
+.theme-dark .name-3_Dsmg {
     color: #b3b3b3
 }
 
-.nameLockedText-3pqQcL, .nameLockedVoice-26MhB1,
-.nameMutedText-3Vj4bM, 
-.nameMutedVoice-3oxyQZ,
-.colorMutedText-36M8WR, .colorMutedVoice-3ghIuw {
-    color: #ff3333
-}
 
-.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F {
-   color: #00ccff
-}
 
-.nameHoveredText-1uO31y, .nameHoveredVoice-YJ1Vfd {
+
+.theme-dark .wrapper-1ucjTd:hover .name-3_Dsmg {
    color: #d9d9d9
 }
 
-.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
-   color: #70db70
-}
 
-.nameUnreadText-DfkrI4, .nameUnreadVoice-EVo-wI {
+
+.theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .name-3_Dsmg {
     color: #ffcc66
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
     background-color: rgba(255,255,255,.3)
 }
 
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
     background-color: rgba(255,255,255,.13)
 }
 
@@ -1334,7 +1289,7 @@
     background-color: rgb(0,0,0);
 }
 
-.wrapper-2NJDcI {
+.users-i_3-kL, .total-3tKGEB {
     background-color: #68b0f1;
     border-radius: 4px;
     color: white;
@@ -1526,12 +1481,12 @@
     width: 720px;
 }
 
-.theme-dark .iconBadge-2dji3k {
+.theme-dark .iconBadge-qZ4Ksk {
     border-color: black
 }
 
 
-.iconBadge-2dji3k {
+.theme-dark .iconBadge-qZ4Ksk {
     background-color: #68b0f1
 }
 
@@ -1545,7 +1500,7 @@
 
 .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .description-2ug5H_ .filename-ovv3c5 {
     position: absolute;
-    top: 298px;
+    top: 98px;
     left: 0;
     z-index: 1;
 }
@@ -2157,4 +2112,8 @@
     border-radius: 0;
     background-image: url(https://pre00.deviantart.net/53bd/th/pre/f/2016/211/3/f/re_zero___rem_wallpaper_by_adiim-dabynnh.jpg);
     background-size: cover
+}
+
+.theme-dark .button-OhfaWu {
+     background-color: transparent !important;
 }

@@ -12,8 +12,8 @@
 }
 .iconCollapsed-3hFp_8, 
 .iconDefault-3Gr8d2, 
-.nameCollapsed-34uFWo, 
-.nameDefault-2DI02H,
+.wrapper-CU3qI5.collapsed-4WdoJ7, 
+.wrapper-CU3qI5,
 .name-3YKhmS,
 .theme-dark .markup-2BOw-j {
     color: white;
@@ -30,7 +30,7 @@
 .theme-dark .friends-table, .theme-dark .messagesWrapper-3lZDfY,
 .theme-dark .members-1998pB,
 .theme-dark .container-3gCOGc,
-.theme-dark .headerBar-UHpsPw,
+.theme-dark .container-1r6BKw,
 .theme-dark .standardSidebarView-3F1I7i {
     background-color: transparent;
 }
@@ -207,7 +207,7 @@
 .theme-dark .friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumnSeparator-3MqtMA {
     background-color: transparent;
 }
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
     background-color: #84003B;
     color: white;
 }
@@ -273,18 +273,16 @@
     color: #fff;
     border: 1px solid #A8000B;
 }
-.theme-dark .guildSeparator-3s64Iy:after {
+.guildSeparator-3s64Iy {
     background: transparent;
 }
-.theme-dark .friendsOnline-2JkivW, .theme-light .friendsOnline-2JkivW {
-    color: white;
-}
+
 .theme-dark .homeIcon-1FoKUJ {
     background-image: url(http://nogame-nolife.ru/uploads/monthly_2016_07/256.png.6a820b52248af79ada57ee876332fa65.png);
     background-size: cover;
     color: transparent;
 }
-.theme-dark .wrapper-2lTRaf {
+.theme-dark .wrapper-25eVIn {
     background: #4F1C4F !important;
     border-radius: 50px !important;
 }
@@ -351,11 +349,7 @@
     background-color: #840058 !important;
     border-radius: 0px;
 }
-/* Unread Channel Guilds */
-.theme-dark .unread-2OHH1w:before {
-    border-radius: 0px;
-    background-color: #84003B;
-}
+
 /* Reactions */
 .theme-dark .reaction-1ELvT8.reactionMe-23mbRf {
     background-color: #4F1C4F;
@@ -413,7 +407,7 @@
     background: #4F1C4F;
     color: #fff;
 }
-.theme-dark .iconBadge-2dji3k {
+.theme-dark .iconBadge-qZ4Ksk {
     border-color: black;
     background-color: #840058;
     border-radius: 50px;
@@ -505,8 +499,12 @@
     border-radius: 0px;
     color: #fff;
 }
-.badge {
-    background-color: #4F1C4F;
+.base-PmTxvP {
+        margin-right: -5px;
+        min-width: 26px;
+}
+.numberBadge-2s8kKX[style*="background-color: rgb(240, 71, 71);"] {
+    background-color: #4F1C4F !important;
     border-radius: 0px;
     box-shadow: none;
     color: #fff;
@@ -515,7 +513,7 @@
     background-color: rgba(9, 28, 79, 0.6);
     color: white !important;
 }
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL .badge {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover .badge {
     background-color: #840058;
     color: #fff;
 }
@@ -529,11 +527,11 @@
     background: rgba(79, 28, 79,.3);
     border-bottom: none;
 }
-.avatarSpeaking-1wJCNq {
+.avatarSpeaking-3MqCHL {
     box-shadow: 0 0 0 2px #840058, inset 0 0 0 2px black;
 }
 /* Unread Mark */
-.unread-1Dp-OI {
+.unread-3zKkbm {
     background-color: #84003B;
     border-radius: 0 0px 0px 0;
     height: 4px;
@@ -550,36 +548,25 @@
     background-color: #84003B;
 }
 /* Tooltip */
-.tooltip-1OS-Ti.red-m6f4-H {
+.theme-dark .tooltipRed-8-9NeP {
     background-color: #A8000B;
     border: 1px solid #black;
 }
-.tooltip-1OS-Ti.black-2bmmnj {
+.tooltip-2QfLtc.tooltipBlack-PPG47z {
     background-color: #4F1C4F;
     border: 1px solid black;
 }
-.tooltip-1OS-Ti.red-m6f4-H.right-KM_vfY:after {
+.theme-dark .tooltipRed-8-9NeP .tooltipPointer-3ZfirK {
     border-right: none;
 }
-.tooltip-1OS-Ti.black-2bmmnj.top-1pTh1F:after {
-    border-top: none;
-}
-.tooltip-1OS-Ti.black-2bmmnj.right-KM_vfY:after {
-    border-right: none;
-}
-.tooltip-1OS-Ti.black-2bmmnj.bottom-19kp6S:after {
-    border-bottom: none;
-}
-.tooltip-1OS-Ti.black-2bmmnj.left-1wV7VO:after {
-    border-left: none;
+.theme-dark .tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
+    border: none;
 }
 /* Channel List */
-.contentHoveredText-2D9B-x, 
-.contentHoveredVoice-3p_NEO:active, 
-.contentSelectedVoice-1WDIBM:active {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU:active {
     background-color: rgba(79, 28, 79,0.4);
 }
-.contentSelectedText-3wUhMi {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
     background-color: #4F1C4F;
 }
 .nameSelectedText-sp_EUw, 
@@ -666,13 +653,7 @@
     fill: white;
 }
 /* --------------------------------------- */
-.nameMutedText-3Vj4bM, 
-.nameMutedVoice-3oxyQZ,
-.colorMutedText-36M8WR, 
-.colorMutedVoice-3ghIuw {
-    color: red;
-    opacity: 1;
-}
+
 .activityText-sLG0UL strong{
     background: #4F1C4F;
     padding: 3px 4px;
@@ -689,8 +670,7 @@
 }
 /* --------------------------------- */
 /* Audio Icon */
-.theme-dark .wrapper-1Rf91z .guilds .guild.audio .guild-inner:after, 
-.theme-dark .wrapper-1Rf91z .guilds .guild.video .guild-inner:after {
+.theme-dark .iconBadge-qZ4Ksk {
     background-color: #4F1C4F;
 }
 /* ------------------- */
@@ -787,7 +767,7 @@
     stroke: white;
     stroke-width: 2;
 }
-.theme-dark .divider-3573oO {
+.theme-dark .divider-3FBTu8 {
     background-color: transparent;
 }
 .theme-dark .description-3_Ncsb, 
@@ -1443,7 +1423,7 @@
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
    color: #840058 !important;
 }
-.side-8zPYf6 .itemSelected-1qLhcL[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.item-PXvHYJ.da-item[style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
    color: white !important;
    background-color: #840058 !important;
 }
@@ -1835,4 +1815,8 @@
 .theme-dark .queryContainer-RKFJW- {
     border-bottom-color: transparent;
     color: white
+}
+
+.theme-dark .button-OhfaWu {
+     background-color: transparent !important;
 }

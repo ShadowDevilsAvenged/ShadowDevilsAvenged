@@ -39,12 +39,12 @@
 }
 
 .theme-dark .title-3qD0b-,
-.theme-dark .headerBar-UHpsPw {
+.theme-dark .container-1r6BKw {
     background: transparent;
     box-shadow: none;
 }
 
-.searchBar-6Kv8R2 {
+.darkTheme-3uETC4.container-2XeR5Z {
    box-shadow: none;
    height: 62px;
     padding: 0 4px 0 23px;
@@ -92,12 +92,17 @@
     background-color: #6a1312;
 }
 
-.wrapper-232cHJ {
-    background: linear-gradient(190deg, #610809 13%, black 80%);
+.wrapper-232cHJ,
+.numberBadge-2s8kKX[style*="background-color: rgb(240, 71, 71);"]{
+    background: linear-gradient(190deg, #610809 13%, black 80%) !important;
     border-radius: 4px;
     box-shadow: none;
-    padding: 4px 10px;
+    padding: 4px 3px;
     text-shadow: none;
+}
+.base-PmTxvP {
+        margin-right: -5px;
+        min-width: 26px;
 }
 @keyframes opacity {
   0% { opacity: 0; }
@@ -245,21 +250,21 @@
     font-weight: 500;
 }
 
-.tooltip-1OS-Ti.red-m6f4-H {
+.theme-dark .tooltipRed-8-9NeP {
     background-color: #e00d0b;
     color: white;
 }
 
-.tooltip-1OS-Ti.black-2bmmnj {
+.tooltip-2QfLtc.tooltipBlack-PPG47z {
     background-color: #610809;
 }
 
-.tooltip-1OS-Ti {
+.tooltip-2QfLtc {
     border-radius: 8px;
     color: white;
 }
 
-.tooltip-1OS-Ti:after {
+.tooltipBlack-PPG47z .tooltipPointer-3ZfirK {
     border: none;
 }
 
@@ -329,7 +334,7 @@
     text-align: left;
 }
 
-.theme-dark .topPill-30KHOu .itemSelected-1qLhcL {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
     background-color: rgba(0,0,0,0.6);
     color: white;
 }
@@ -647,22 +652,20 @@
     color: white;
 }
 
-.theme-dark .wrapper-2lTRaf {
+.theme-dark .wrapper-25eVIn {
     background: #610809 !important;
 }
 
 
-.wrapper-2lTRaf {
+.wrapper-25eVIn {
     border-radius: 20% !important;
 }
 
-.theme-dark .guildSeparator-3s64Iy:after {
+.guildSeparator-3s64Iy {
     background: transparent;
 }
 
-.theme-dark .friendsOnline-2JkivW {
-    color: white;
-}
+
 
 .aka-1mqp34 {
     background: #610809;
@@ -812,8 +815,8 @@
     color: white !important;
 }
 
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"], 
-.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"] {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"], 
+.theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.0980392);"] {
         background-color: #F50707 !important;
         color: white !important;
 }
@@ -1078,32 +1081,7 @@
         font-weight: 500;
 }
 
-.theme-dark .unread-2OHH1w:before {
-        background: rgba(255,255,255,.25);
-        border-right: 2px solid black;
-}
 
-
-.unread-2OHH1w:before {
-        border-radius: 3px;
-        height: 15px;
-        margin-top: -6px;
-}
-
-.theme-dark .selected-nT-gM3:before {
-        border-right: none;
-        background-color: #610809;
-}
-
-.selected-nT-gM3:before {
-        border-radius: 30px;
-        height: 30px;
-        left: -11px;
-        margin-top: -15px;
-        position: absolute;
-        top: 50%;
-        width: 7px;
-}
 
 .theme-dark .item-1GzJrl.leave-1DRJfn {
         color: #db0006;
@@ -1177,7 +1155,7 @@
         background-color: rgb(255,255,255);
 }
 
-.theme-dark .divider-3573oO {
+.theme-dark .divider-3FBTu8 {
         background-color: transparent;
 }
 
@@ -1265,21 +1243,13 @@
         box-shadow: none !important;
 }
 
-.iconCollapsed-3hFp_8, 
-.iconDefault-3Gr8d2, 
-.iconHovered-2L3-fB, 
-.iconHoveredCollapsed-3caIIZ, 
-.iconMuted-1HVBGH, 
-.iconUnread-2eGkvX {
-       display: none;
-}
 
-.nameCollapsed-34uFWo, 
-.nameDefault-2DI02H, 
-.nameHovered-1gxhWH, 
-.nameHoveredCollapsed-2orEWB, 
-.nameMuted-1MCOt4, 
-.nameUnread-njOjIS {
+
+.wrapper-CU3qI5.collapsed-4WdoJ7, 
+.wrapper-CU3qI5, 
+.wrapper-CU3qI5:hover, 
+.wrapper-CU3qI5.collapsed-4WdoJ7:hover, 
+.muted-1NRuDm {
         font-size: 12px;
         font-weight: 500;
         text-align: center;
@@ -1287,44 +1257,32 @@
         border-radius: 5px;
 }
 
-.nameCollapsed-34uFWo {
+.wrapper-CU3qI5.collapsed-4WdoJ7 {
    background-color: rgba(0,0,0,0.2);
 }
 
-.nameDefault-2DI02H {
+.wrapper-CU3qI5 {
     background-color: rgba(230, 230, 230, 0.3);
 }
 
-.nameHovered-1gxhWH {
+.wrapper-CU3qI5:hover {
     background-color: rgba(204, 204, 204, 0.6);
 }
 
-.nameHoveredCollapsed-2orEWB {
+.wrapper-CU3qI5.collapsed-4WdoJ7:hover {
     background-color: rgba(204, 204, 204, 0.3);
 }
 
-.nameMuted-1MCOt4 {
+.muted-1NRuDm {
     background-color: rgba(166, 0, 26, 0.4);
 }
 
-.nameUnread-njOjIS {
-     background-color: rgba(114, 132, 183, 0.4);
-}
 
-.colorConnectedText-1c_uzY, .colorConnectedVoice-3kyvUN, .colorDefaultText-oas-QM, .colorDefaultVoice-3wYlhb, .colorHoveredText-OZnAgu, .colorHoveredVoice-1kucsK, .colorLockedText-1VRkPt, .colorLockedVoice-2UlBjl, .colorSelectedText-1y4Wvs, .colorSelectedVoice-Xcb_9R, .colorUnreadText-2t7XRb, .colorUnreadVoice-137o4S {
-        color: white;
-}
 
-.icon-sxakjD,
-.foreground-2W-aJk {
-        opacity: 1;
-}
 
-.background-2OVjk_ {
-        opacity: .6
-}
 
-.unread-1Dp-OI {
+
+.unread-3zKkbm {
         background-color: rgba(255, 255, 255, 0.4);
         border-radius: 0;
         height: 5px;
@@ -1332,7 +1290,7 @@
         top: 60%;
 }
 
-.avatarDefault-35WC3R {
+.avatar-3elDyV {
         border-radius: 30px;
         box-shadow: none;
         transition: border-radius .5s ease, border-right .5s ease, border-left .5s ease;
@@ -1340,7 +1298,7 @@
         border-left: 3px solid #a0333a;
 }
 
-.avatarSpeaking-1wJCNq {
+.avatarSpeaking-3MqCHL {
         border-radius: 7px;
         transition: border-radius .5s ease, border-right .5s ease, border-left .5s ease;
         box-shadow: none;
@@ -1348,11 +1306,11 @@
         border-left: 3px solid #C7FF2F;
 }
 
-.contentConnectedVoice-qL-YrL:active, .contentHoveredText-2D9B-x, .contentHoveredVoice-3p_NEO:active, .contentSelectedVoice-1WDIBM:active {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU {
         background-color: rgba(255, 255, 255, 0.14);
 }
 
-.contentSelectedText-3wUhMi, .contentSelectedVoice-1WDIBM {
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU {
         background-color: rgba(0,0,0,.6);
         border-right: 2px solid #610809;
         border-left: 2px solid #610809;
@@ -1406,7 +1364,7 @@
         border-color: transparent;
 }
 
-.wrapper-2NJDcI {
+.users-i_3-kL, .total-3tKGEB {
         background-color: #610809;
         border-radius: 4px;
         color: white;
@@ -1806,7 +1764,7 @@
         border-color: transparent;
 }
 
-.theme-dark .iconBadge-2dji3k {
+.theme-dark .iconBadge-qZ4Ksk {
         border-color: white;
         background-color: #610809;
 }
@@ -1983,8 +1941,8 @@
         text-align: center;
 }
 
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover, 
-.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, 
+.theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
         background-color: rgba(255,255,255,.1);
         color: white;
 }
@@ -2003,8 +1961,8 @@
         color: white !important;
 }
 
-.theme-dark .side-8zPYf6 .itemDefault-3Jdr52:hover[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"], 
-.theme-dark .side-8zPYf6 .itemHover-EnbcjT:hover[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"] {
+.theme-dark .side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"], 
+.theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.0980392);"] {
         background-color: rgba(97, 8, 9,.4) !important;
         color: rgb(255, 255, 255) !important;
 }
@@ -2256,4 +2214,7 @@
 
 .theme-dark .bda-slist .bda-footer {
         border-top-color: transparent;
+}
+.theme-dark .button-OhfaWu {
+     background-color: transparent !important;
 }
