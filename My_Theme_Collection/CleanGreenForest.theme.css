@@ -1931,6 +1931,32 @@
   border-radius: 9px;
 }
 
+
+/* Emotes Picker */
+.bda-dark #bda-qem button {
+  background: black;
+  border-left: none;
+  box-shadow: none;
+}
+
+.bda-dark #bda-qem button:hover {
+  background-color: #04820C;
+}
+
+.bda-dark #bda-qem-favourite-container, 
+.bda-dark #bda-qem-twitch-container {
+  background-color: black;
+}
+
+.bda-dark #bda-qem button.active {
+  background-color: #129b1a;
+}
+
+.bda-dark #bda-qem {
+  border-bottom: none!important;
+  background: transparent;
+}
+
 /* ONLY ONE COLOR AND HOVER COLOR CHALLENGE */
 /* Main Color: #129b1a - 18, 155, 26 */
 /* Hover Color: #04820C - 4, 130, 12 */

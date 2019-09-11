@@ -1926,6 +1926,31 @@
   height: 49px;
 		border-radius: 0px;
 }
+
+/* Emotes Picker */
+.bda-dark #bda-qem button {
+  background: black;
+  border-left: none;
+  box-shadow: none;
+}
+
+.bda-dark #bda-qem button:hover {
+  background-color: #6f9dc8;
+}
+
+.bda-dark #bda-qem-favourite-container, 
+.bda-dark #bda-qem-twitch-container {
+  background-color: black;
+}
+
+.bda-dark #bda-qem button.active {
+  background-color: #789dbf;
+}
+.bda-dark #bda-qem {
+  border-bottom: none!important;
+  background: transparent;
+}
+
 /* RANDOM COLORS with BLACK OPACITY */
 /* Main Color: Black with Opacity */
 /* Random Colors if Possible */
