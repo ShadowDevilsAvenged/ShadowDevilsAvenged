@@ -1006,34 +1006,8 @@
 .containerCozyBounded-1rKFAn {
      overflow: visible;
 }
-/* Moves chat message */
-.markup-2BOw-j,
-.containerCozy-B4noqO>*{
-  position: relative;
-  left: 3px;
-  bottom: -11px;
-}
-/* Moves Embed Title */
-.embedContentInner-FBnk7v {
-  position: relative;
-  bottom: 3px;
-  left: 3px;
-}
-/* Move Mentioned Messages */
-.isMentioned-N-h9aa {
-  position: relative;
-  right: -10px;
-  padding-left: 1px;
-  padding-bottom: 2px;
-  bottom: -13px;
-}
-/* Move Markup Mentioned Messages */
-.isMentioned-N-h9aa .markup-2BOw-j  {
-  position: relative;
-  left: -10px;
-  top: 1px;
-  padding-left: 13px;
-}
+
+
 /* DON'T TOUCH */
 .theme-dark .dividerEnabled-2TTlcf {
   border: none;
@@ -1056,16 +1030,42 @@
 .avatar-VxgULZ {
     border-radius: 40px;
 }
-.buttonContainer-37UsAw>* {
-  z-index: 2000;
+
+.containerCozy-B4noqO>* {
+  position: relative;
+  top: 12px;
+  right: -7px;
+}
+.embedContent-3fnYWm .markup-2BOw-j {
+  position: relative;
+  top: 2px;
+  right: -1px;
+}
+.isMentioned-N-h9aa .mention {
+  top: -2px;
+  position: relative;
+}
+
+.markup-2BOw-j {
+  position: relative;
+  color: white;
+  top: 12px;
+  right: -7px;
+  text-shadow: 0 0 23px black,0 0 23px black,0 0 23px black,0 0 23px black;
+}
+.isMentioned-N-h9aa .markup-2BOw-j {
+  position: relative;
+  top: 2px;
+}
+
+.isMentioned-N-h9aa {
+  position: relative;
+  top: 12px;
 }
 
 .theme-dark .headerCozyMeta-rdohGq {
   color: white;
-  margin-top: 5px;
   background-color: rgba(0,0,0,.24);
-  padding: 6px 10px;
-  margin-left: -7px;
 }
 .username-_4ZSMR {
   font-size: 1.2rem;
@@ -1077,19 +1077,8 @@
   position: relative;
   top: 12px;
 }
-.content-3dzVd8 {
-  background-color: rgba(0,0,0,0.2);
-  padding-bottom: 18px;
-  padding-left: 7px;
-  margin-top: 21px;
-  position: relative;
-  margin-bottom: -6px;
-  border-radius: 5px;
-}
-.buttonContainer-KtQ8wc>* {
-   left: -12px;
-   position: relative;
-}
+
+
 
 .localBotMessage-1cGMdw {
   margin-top: 14px;
@@ -1276,55 +1265,7 @@
   border-color: transparent;
   border-radius: 4px;
 }
-/* Unsetting the Avatar Size and such in Pinned Messages and Search Result */
-.messageGroupWrapper-o-Zw7G .avatar-17mtNa .wrapper-3t9DeA,
-.searchResultsWrap-2DKFzt .avatar-17mtNa .wrapper-3t9DeA {
-    width: unset !important;
-    height: unset !important;
-}
 
-.searchResultsWrap-2DKFzt .markup-2BOw-j {
-  position: unset;
-  left: unset;
-  bottom: unset;
-}
-
-.searchResultsWrap-2DKFzt .headerCozyMeta-rdohGq,
-.searchResultsWrap-2DKFzt .username-_4ZSMR,
-.messageGroupWrapper-o-Zw7G .headerCozyMeta-rdohGq,
-.messageGroupWrapper-o-Zw7G .username-_4ZSMR {
-     font-size: unset;
-}
-
-
-.searchResultsWrap-2DKFzt .embedContentInner-FBnk7v,
-.searchResultsWrap-2DKFzt .containerCozy-B4noqO>* {
-  position: unset;
-  bottom: unset;
-  left: unset;
-}
-.messageGroupWrapper-o-Zw7G .embedContentInner-FBnk7v,
-.messageGroupWrapper-o-Zw7G .containerCozy-B4noqO>*,
-.messageGroupWrapper-o-Zw7G .content-3dzVd8 {
-     position: relative;
-     left: 2px;
-     top: -1px;
-}
-.messageGroupWrapper-o-Zw7G .message-1PNnaP {
-    position: relative;
-     left: 2px;
-     top: -12px;
-}
-.messageGroupWrapper-o-Zw7G .markup-2BOw-j {
-     position: relative;
-     left: 2px;
-     top: 8px;
-}
-.messageGroupWrapper-o-Zw7G .imageWrapper-2p5ogY {
-    position: relative;
-     left: 2px;
-     top: 10px;
-}
 
 /* --- */
 
