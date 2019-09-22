@@ -4,27 +4,35 @@
   background-size: cover;
 } 
 
-.theme-dark .layer-3QrUeG, 
 .theme-dark .layers-3iHuyZ {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.7);
 }
 .theme-dark .typing-2GQL18,
+.theme-dark .layer-3QrUeG,
 .theme-dark .messagesWrapper-3lZDfY,
+.messages-3amgkR,
 .container-PNkimc,
 .sidebar-2K8pFh,
 .theme-dark .wrapper-1Rf91z,
+.theme-dark .scroller-2TZvBN,
 .container-2lgZY8,
 .theme-dark .chat-3bRxxu, 
 .theme-dark .chat-3bRxxu form, 
 .theme-dark .content-yTz4x3,
-.theme-dark .sidebarRegion-VFTUkN,
 .theme-dark .contentRegion-3nDuYy,
+.contentRegionScroller-26nc1e,
+.theme-dark .sidebarRegion-VFTUkN,
+.sidebarRegionScroller-3MXcoP,
 .theme-dark .standardSidebarView-3F1I7i,
 .theme-dark .container-3gCOGc,
+.friendsTable-133bsv .friendsTableBody-1ZhKif,
 .theme-dark .applicationStore-1pNvnv,
+.scroller-9moviB,
 .theme-dark .gameLibrary-TTDw4Y,
+.scroller-1IIF0A,
 .theme-dark .activityFeed-1C0EmJ,
-.theme-dark .root-1BQpZw {
+.theme-dark .root-1BQpZw,
+.scroller-5bBood {
   background-color: transparent;
 }
 .theme-dark .container-1r6BKw {
@@ -889,7 +897,8 @@
   border-radius: 0;
   background-color: transparent;
 }
-.theme-dark .body-3iLsc4, 
+.theme-dark .body-3iLsc4,
+.theme-dark .bodyInner-245q0L,
 .theme-dark .footer-1fjuF6,
 .theme-dark .body-3ND3kc {
   background-color: rgba(0,0,0,0.9);
@@ -983,7 +992,8 @@
   background-color: transparent;
   box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.theme-dark .messagesPopout-24nkyi {
   background: linear-gradient(50deg, rgba(0,0,0,0.6993172268907564) 30%, rgba(18, 155, 27,1) 100%);
   border: none;
   box-shadow: 0 7px 10px 0 rgba(0,0,0,.8);
@@ -1573,6 +1583,11 @@
   background-color: rgba(0,0,0,0.9);
   color: white;
 }
+
+.scroller-zPkAnE {
+  background-color: transparent;
+}
+
 .quickswitcher-3JagVE {
   right: 12pc;
   width: 1070px;
@@ -1680,7 +1695,8 @@
   border: 1px solid #129b1a;
 }
 .theme-dark .container-cMG81i,
-.privateChannels-1nO12o {
+.privateChannels-1nO12o,
+.scroller-1JbKMe {
   background-color: transparent;
 }
 .theme-dark .itemBackground-2vEldQ:before {
@@ -1768,10 +1784,10 @@
 .theme-dark .subtitle-2P4u9v {
   color: white;
 }
-.theme-dark .friendSelected-3J_Uh8 {
+.theme-dark .friendSelected-1sa4bG {
   background-color: rgba(0,0,0,.3);
 }
-.theme-dark .friend-2E0q2S {
+.theme-dark .friend-3KALPe {
   color: silver;
 }
 .theme-dark .checked-3_4uQ9[style*="border-color: rgb(79, 84, 92);"] {
