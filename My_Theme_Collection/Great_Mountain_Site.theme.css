@@ -673,6 +673,11 @@
   background-color: #ca9e73;
 }
 
+ .clickable-11uBi-:hover, 
+.selected-BYpGTS {
+  background:#ca9e73;
+}
+
 .theme-dark .item-1Yvehc:hover {
   background: #d59e68;
   color: #fff !important;
@@ -988,12 +993,16 @@
   background-color: transparent;
   box-shadow: none;
 }
-.theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .messagesPopout-24nkyi {
+.theme-dark .messagesPopoutWrap-1MQ1bW {
   background: linear-gradient(50deg, rgba(0,0,0,0.6993172268907564) 30%, rgba(202,158,115,1) 100%);
   border: none;
   box-shadow: 0 7px 10px 0 rgba(0,0,0,.8);
 }
+
+.theme-dark .messagesPopout-24nkyi {
+   background-color: transparent;
+}
+
 .botTagInvert-18-95s,
 .botTagRegular-2HEhHi {
   background: #ca9e73 !important;
@@ -1908,6 +1917,28 @@
   border-bottom: none!important;
   background: transparent;
 }
+
+.theme-dark .resultsGroup-r_nuzN:before {
+  border-top: none;
+}
+
+.h5-18_1nd {
+  color: silver;
+}
+
+.theme-dark .focused-2bY0OD,
+.panels-j1Uci_ {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.theme-dark .queryContainer-RKFJW- {
+  color: white;
+  border-bottom-color: transparent;
+}
+
+
+
+
 
 /* ONLY ONE COLOR AND HOVER COLOR CHALLENGE */
 /* Main Color: #ca9e73 - 202, 159, 115 */
