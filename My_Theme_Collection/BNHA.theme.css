@@ -370,16 +370,16 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .theme-dark .checkbox-1ix_J3 {
-    border-color: transparent;
-    background-color: rgba(0, 0, 0, 0.15);
-}
-
-.theme-dark .checkbox-1ix_J3[style*="border-color: rgb(114, 137, 218);"] {
     border-color: transparent !important;
     background-color: rgba(0, 0, 0, 0.45) !important;
 }
 
-.theme-dark .checkbox-1ix_J3[style*="border-color: rgb(114, 137, 218);"] polyline[stroke] {
+.theme-dark .checked-3_4uQ9[style*="border-color"] {
+    border-color: black !important;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.theme-dark .checked-3_4uQ9[style*="border-color"] polyline {
     stroke: white;
 }
 
@@ -1992,16 +1992,6 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.16);
     color: white;
-}
-
-.theme-dark .checkbox-1ix_J3[style*="border-color"] {
-    border-color: black !important;
-    border-width: 2px;
-    background-color: rgba(0, 0, 0, 0.36) !important;
-}
-
-.theme-dark .checkbox-1ix_J3[style*="border-color"] polyline[stroke] {
-    stroke: white;
 }
 
 .theme-dark .friendSelected-1sa4bG {
