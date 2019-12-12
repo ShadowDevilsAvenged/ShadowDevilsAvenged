@@ -536,6 +536,9 @@
     background-color: transparent;
     padding: 13px;
 }
+.theme-dark .footer-3mqk7D {
+    box-shadow: none;
+}
 
 .uploadModal-2ifh8j .inner-3nWsbo {
     border: none;
@@ -1357,9 +1360,16 @@
 }
 
 .chat-3bRxxu,
-.messages-3amgkR,
+.messages-3amgkR {
+    background-color: transparent;
+}
+
 .theme-dark .messagesPopout-24nkyi {
     background-color: transparent;
+}
+
+.themedPopout-1TrfdI .header-2Kf7Yu+:after {
+    box-shadow: none;
 }
 
 .theme-dark .jumpToPresentBar-9P20AM {
@@ -1694,6 +1704,11 @@
     margin-right: 3px;
     background-color: rgba(255,255,255,.089);
 }
+.placeholder-P6ptfj, 
+.slateTextArea-1bp44y .hljs-comment, 
+.slateTextArea-1bp44y .hljs-quote {
+    color: white;
+}
 
 .markup-2BOw-j,
 .headerCozyMeta-rdohGq {
@@ -1726,7 +1741,7 @@
 }
 
 .theme-dark .attachment-33OFj0,
-.theme-dark .embedInner-1-fpTo {
+.theme-dark .embedFull-2tM8-- {
     border-color: transparent;
     background-color: rgba(0,0,0,0.3);
 }
@@ -1737,7 +1752,8 @@
 
 
 .channelTextArea-rNsIhG,
-.dividerEnabled-2TTlcf {
+.dividerEnabled-2TTlcf,
+.form-2fGMdU {
     border: none;
 }
 
@@ -1748,11 +1764,16 @@
     border-color: transparent;
 }
 
-.attachButtonDivider-3Glu60 {
-    background-color: transparent;
+.attachWrapper-1_D-pj {
+	border: none;
 }
 
+
 .theme-dark .inner-zqa7da {
+    background-color: transparent;
+}
+  
+.scrollableContainer-38zsVD {
     background: linear-gradient(to right, rgba(107, 130, 206, 0.44) 0%, rgba(0, 0, 0, 0.25) 100%);
 }
 
@@ -1967,7 +1988,7 @@
     background-color: rgba(0, 0, 0, 0.33);
 }
 
-.activity-E-0FeD {
+.activity-2Gy-9S {
     color: white;
 }
 
@@ -2066,51 +2087,56 @@
 }
 
 /* Emote Section */
-.bda-dark #bda-qem {
+#bda-qem {
     border-bottom: none!important;
     background: transparent;
 }
 
-.bda-dark #bda-qem button {
+#bda-qem button {
     background: rgba(0, 0, 0, 0.79);
     border-left: none;
     box-shadow: none;
 }
 
-.bda-dark #bda-qem button:hover {
+#bda-qem button:hover {
     background-color: #6b82ce;
 }
 
-.bda-dark #bda-qem button.active {
-    background-color: #6b82ce;
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background: none;
+}
+
+
+#bda-qem button.active {
+    background-color: #6b82ce !important;
     border: 2px solid rgba(255, 255, 255, 0.15);
 }
 
-.bda-dark .emojiPicker-3m1S-j,
-.bda-dark #bda-qem-favourite-container, 
-.bda-dark #bda-qem-twitch-container {
+.emojiPicker-3m1S-j,
+#bda-qem-favourite-container, 
+#bda-qem-twitch-container {
     background: linear-gradient(135deg, #6b82ce 0%, #000000 100%);
 }
-
-.bda-dark .emojiPicker-3m1S-j .dimmer-3iH-5D.visible-3k45bQ {
-    background-color: rgba(0, 0, 0, 0.65);
-    height: 92%;
+.infoBar-U6oBFk {
+    background: none;
 }
+
 
 .emojiPicker-3m1S-j .header-1nkwgG {
     border: none;
+    box-shadow: none;
 }
 
-.bda-dark .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
     background-color: transparent;
 }
 
-.bda-dark .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
+.emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
     background: transparent;
     border-color: transparent;
 }
 
-.bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+.emojiPicker-3m1S-j .category-2U57w6 {
     background-color: transparent;
     color: white;
     text-align: center;
@@ -2121,7 +2147,7 @@
     display: none;
 }
 
-.bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, .bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .bda-dark .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+#bda-qem-favourite-container .scroller::-webkit-scrollbar, #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece, #bda-qem-twitch-container .scroller::-webkit-scrollbar, #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: transparent!important;
     border-color: transparent!important;
 }
@@ -2130,7 +2156,7 @@
     border-bottom-color: white;
 }
 
-.bda-dark #bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, .bda-dark #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb {
+#bda-qem-twitch-container .scroller::-webkit-scrollbar-thumb, #bda-qem-favourite-container .scroller::-webkit-scrollbar-thumb, .bda-dark .emojiPicker-3g68GS .scroller-3vODG7::-webkit-scrollbar-thumb {
     background: black !important;
     border: none;
     border-radius: 4px;
