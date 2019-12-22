@@ -1088,7 +1088,7 @@
     border: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
     border: none;
 }
 
@@ -1120,7 +1120,7 @@
 	margin-bottom: 7px;
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
 	border: none;
 }
 
@@ -1138,7 +1138,7 @@
 	background-color: transparent;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
 	 background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
     border: 2px solid rgba(204, 227, 246, 0.60);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
@@ -1202,13 +1202,13 @@
 	border-color: transparent!important;
 }
 
-.infoBar-U6oBFk {
-	background: none;
-}
-
 #bda-qem {
 	border-bottom: none!important;
 	background: transparent;
+}
+
+.infoBar-U6oBFk {
+	background: none;
 }
 
 .emojiPicker-3m1S-j,
@@ -1259,6 +1259,7 @@
 #bda-qem-emojis {
 	border-radius: 0 15px 0 0;
 }
+
 
 
 .emojiPicker-3m1S-j .diversitySelector-tmmMv0 .popout-2nUePc {
@@ -1514,19 +1515,22 @@
 	box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW,
+.theme-dark .messagesPopoutWrap-1MQ1bW
 .theme-dark .searchResultsWrap-2DKFzt {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg) !important;
 	border: none;
 }
 
-.theme-dark .footer-1kmXd4,
 .theme-dark .messagesPopout-24nkyi {
 	background-color: transparent;
 }
 
 .themedPopout-1TrfdI .header-2Kf7Yu+:after {
 	box-shadow: none;
+}
+
+.theme-dark .footer-1kmXd4 {
+	background-color: transparent;
 }
 
 .tip-2ab612 {
@@ -1799,7 +1803,6 @@
 	color: white;
 	text-shadow: 0 0 12px black,0 0 16px black,0 0 16px black;
 }
-
 .placeholder-P6ptfj, 
 .slateTextArea-1bp44y .hljs-comment, 
 .slateTextArea-1bp44y .hljs-quote {
@@ -1911,16 +1914,15 @@
     border-color: transparent;
     background-color: rgba(0,0,0,0.3);
 }
-
-.uploadModal-2ifh8j .footer-3mqk7D {
-	background-color: transparent;
-}
-
 .theme-dark .footer-3mqk7D {
 	box-shadow: none;
 }
 
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
+	background-color: transparent;
+}
+
+.theme-dark .uploadModal-2ifh8j {
 	background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.633)100%);
     border: 2px solid rgba(204, 227, 246, 0.468);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.523);
@@ -1933,22 +1935,18 @@
 	background-color: transparent;
 }
 
-.theme-brand .scrollableContainer-38zsVD {
-	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
-	 border: 2px solid rgba(204, 227, 246, 0.60);
-	 box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
-	 background-color: rgba(65, 95, 132, 0.256);
+.theme-brand .scrollableContainer-2NUZem {
+	background-color: rgba(65, 95, 132, 0.58);
 }
 
-
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
 	background-color: rgba(0, 0, 0, 0.6);
 	border: none;
 	box-shadow: none;
 	border-radius: 50%;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j::after {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j::after {
 	content: "";
 	background-image: url(https://opengameart.org/sites/default/files/styles/medium/public/BubbleSimple.png);
 	background-size: cover;
@@ -2591,10 +2589,10 @@
   }
   .emptyStateCTA-veJ2Cu {
 	opacity: 1;
-  }
-  
-	/* ---- */
+	}
 	
 	.bg-h5JY_x {
 		background-color: transparent;
 	}
+  
+  /* ---- */

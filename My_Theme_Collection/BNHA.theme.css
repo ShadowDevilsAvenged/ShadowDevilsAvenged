@@ -618,8 +618,14 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background: transparent;
 }
 
-.attachWrapper-1_D-pj {
-    border: none;
+.slateTextArea-1Mkdgw {
+    caret-color: white;
+    position: absolute;
+    left: -16px;
+}
+
+.attachWrapper-2TRKBi {
+	border: none;
 }
 
 .divider-32i8lo,
@@ -799,26 +805,25 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border: none;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: transparent;
     padding: 13px;
 }
-
-.uploadModal-2ifh8j .inner-3nWsbo {
-    border: none;
-}
-
 .theme-dark .footer-3mqk7D {
     box-shadow: none;
 }
+
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
+    border: none;
+}
   
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j {
     background-image: linear-gradient(45deg, rgba(0, 140, 153, 0.633) 0%, rgba(0, 0, 0, 0.646) 100%), url(https://images3.alphacoders.com/744/744194.png);
     background-size: cover;
     border-radius: 5px;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     background-color: rgba(0, 140, 153, 0.4);
     border: 3px solid black;
     border-radius: 10%;
@@ -836,12 +841,12 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .theme-dark .inner-zqa7da {
     background-color: transparent;
 }
-
-.scrollableContainer-38zsVD {
+  
+.scrollableContainer-2NUZem {
     background-color: rgba(33, 31, 31, 0.804);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
     background-color: rgba(255,0,0,0.6);
 }
 
@@ -1238,7 +1243,6 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     box-shadow: none;
 }
 
-
 .theme-dark .searchHeader-1l-wpR .tab-2Ixsn0, 
 .theme-dark .searchHeader-1l-wpR .totalResults-gxvzgw,
 .theme-dark .header-ykumBX .title-3pkaKd,
@@ -1376,7 +1380,11 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     position: relative;
     top: -6px;
 }
-
+.placeholder-P6ptfj, 
+.slateTextArea-1bp44y .hljs-comment, 
+.slateTextArea-1bp44y .hljs-quote {
+    color: white;
+}
 .markup-2BOw-j {
     font-size: 0.823rem;
     color: white;
@@ -1384,12 +1392,6 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     position: relative;
     text-shadow: 0 0 5px black,0 0 25px black,0 0 25px black,0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black,0 0 5px black;
     margin-left: calc(var(--avatar-size) + -39px);
-}
-
-.placeholder-P6ptfj, 
-.slateTextArea-1bp44y .hljs-comment, 
-.slateTextArea-1bp44y .hljs-quote {
-    color: white;
 }
 
 .containerCozy-B4noqO>*,
@@ -1504,15 +1506,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 
 /* Emotes Code */
 
-#bda-qem-favourite-container .scroller::-webkit-scrollbar, 
-#bda-qem-favourite-container .scroller::-webkit-scrollbar-track, 
-#bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece, 
-#bda-qem-twitch-container .scroller::-webkit-scrollbar, 
-#bda-qem-twitch-container .scroller::-webkit-scrollbar-track, 
-#bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, 
-.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, 
-.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, 
-.emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
+#bda-qem-favourite-container .scroller::-webkit-scrollbar, #bda-qem-favourite-container .scroller::-webkit-scrollbar-track, #bda-qem-favourite-container .scroller::-webkit-scrollbar-track-piece, #bda-qem-twitch-container .scroller::-webkit-scrollbar, #bda-qem-twitch-container .scroller::-webkit-scrollbar-track, #bda-qem-twitch-container .scroller::-webkit-scrollbar-track-piece, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track, .emojiPicker-3m1S-j .scroller-3vODG7::-webkit-scrollbar-track-piece {
     background-color: transparent!important;
     border-color: transparent!important;
 }
@@ -1536,6 +1530,10 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background: none;
 }
 
+.infoBar-U6oBFk {
+    background: none;
+}
+
 #bda-qem {
     border-bottom: none!important;
     background: none;
@@ -1552,19 +1550,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 #bda-qem button.active {
-    background-color: #008c99;
-}
-
-.emojiPicker-3m1S-j .categories-1feg4n {
-    background: none;
-}
-
-.slateTextArea-1bp44y {
-    caret-color: white;
-    position: absolute;
-    left: -6px;
-    right: 10px;
-    top: 14px;
+    background-color: #008c99 !important;
 }
 
 
@@ -1573,7 +1559,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     box-shadow: none;
 }
 
-.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_
+.emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_,
 .emojiPicker-3m1S-j .category-2U57w6 {
     background-color: transparent;
 }
@@ -1599,6 +1585,17 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border-bottom-color: black;
 }
 
+.emojiPicker-3m1S-j .categories-1feg4n {
+    background: none;
+}
+
+.slateTextArea-1bp44y {
+    caret-color: white;
+    position: absolute;
+    left: -6px;
+    right: 10px;
+    top: 14px;
+}
 
 
 /* Discord and BetterDiscord Settings */
@@ -2045,6 +2042,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: white;
 }
 
+
 .theme-dark .friendSelected-1sa4bG {
     background-color: rgba(0, 140, 153, 0.28);
     color: #fff;
@@ -2184,7 +2182,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 
 .bg-h5JY_x {
     background-color: transparent;
-  }
+}
 
 
 

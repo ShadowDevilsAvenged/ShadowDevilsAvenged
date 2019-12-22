@@ -10,6 +10,12 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     --avatar-size: 55px;
 }
 
+.slateTextArea-1Mkdgw {
+    caret-color: white;
+    left: -16px;
+    top: 3px !important;
+  }
+
 .hljs,
 .inline,
 .hljs :-webkit-any(ol, li, span),
@@ -617,7 +623,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background: transparent;
 }
 
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
 	border: none;
 }
 
@@ -798,7 +804,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border: none;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
     background-color: transparent;
     padding: 13px;
 }
@@ -806,17 +812,17 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     box-shadow: none;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
     border: none;
 }
   
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j {
     background-image: linear-gradient(45deg, rgba(114, 142, 61, 0.633) 0%, rgba(0, 0, 0, 0.646) 100%), url(https://images6.alphacoders.com/992/992307.jpg);
     background-size: cover;
     border-radius: 5px;
 }
 
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
     background-color: rgba(114, 142, 61, 0.4);
     border: 3px solid black;
     border-radius: 10%;
@@ -835,11 +841,11 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: transparent;
 }
   
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
     background-color: rgba(33, 31, 31, 0.804);
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D .lookLink-9FtZy-.colorWhite-rEQuAQ:hover {
     background-color: rgba(255,0,0,0.6);
 }
 
@@ -1378,7 +1384,6 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .slateTextArea-1bp44y .hljs-quote {
     color: white;
 }
-
 .markup-2BOw-j {
     font-size: 0.823rem;
     color: white;
@@ -1517,6 +1522,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .emojiPicker-3m1S-j {
     background: linear-gradient(45deg, #728e3d 0%, #212121 67%);
 }
+
 .infoBar-U6oBFk {
     background: none;
 }
@@ -1552,7 +1558,6 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     right: 10px;
     top: 14px;
 }
-
 
 .emojiPicker-3m1S-j .header-1nkwgG {
     border: none;
@@ -2173,12 +2178,12 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .welcomeMessage-3_Mcht p {
     color: white;
 }
-
-.bg-h5JY_x {
-    background-color: transparent;
-  }
   
   /* ---- */
+
+  .bg-h5JY_x {
+    background-color: transparent;
+  }
 
 /* Main Color */
 .color-primary { #728e3d  rgba(114, 142, 61, 1.0); }

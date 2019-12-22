@@ -4,11 +4,20 @@
   background-size: cover;
 } 
 
+
+.slateTextArea-1Mkdgw {
+  caret-color: white;
+  left: -1px;
+  top: 2px !important;
+}
+
+ 
 .theme-dark .layers-3iHuyZ {
   background: rgba(0, 0, 0, 0.7);
 }
 .theme-dark .typing-2GQL18,
 .theme-dark .layer-3QrUeG,
+.scroller-305q3I,
 .theme-dark .messagesWrapper-3lZDfY,
 .messages-3amgkR,
 .container-PNkimc,
@@ -32,8 +41,7 @@
 .scroller-1IIF0A,
 .theme-dark .activityFeed-1C0EmJ,
 .theme-dark .root-1BQpZw,
-.scroller-5bBood,
-.scroller-305q3I {
+.scroller-5bBood {
   background-color: transparent;
 }
 .theme-dark .container-1r6BKw {
@@ -183,12 +191,8 @@
   border-radius: 9px;
 }
 
-.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover{
+.side-8zPYf6 .themed-OHr7kt.item-PXvHYJ:hover, .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
   background-color: rgba(4, 130, 12, 0.357);
-}
-
-.panels-j1Uci_ {
-  background-color: transparent;
 }
 
 .emptyStateCTA-veJ2Cu {
@@ -198,9 +202,6 @@
 .tabBar-1E2ExX .item-3HpYcP[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
   background-color: transparent!important;
   color: #fff!important;
-}
-.theme-dark .topPill-30KHOu .themed-OHr7kt.item-PXvHYJ:hover {
-  background-color: #149300 !important;
 }
 
 .tabBar-1E2ExX .item-3HpYcP[style*="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
@@ -1034,34 +1035,6 @@
      overflow: visible;
 }
 
-/* Moves chat message */
-.markup-2BOw-j,
-.containerCozy-B4noqO>*{
-  position: relative;
-  left: 3px;
-  bottom: -11px;
-}
-/* Moves Embed Title */
-.embedContentInner-FBnk7v {
-  position: relative;
-  bottom: 3px;
-  left: 3px;
-}
-/* Move Mentioned Messages */
-.isMentioned-N-h9aa {
-  position: relative;
-  right: -10px;
-  padding-left: 1px;
-  padding-bottom: 2px;
-  bottom: -13px;
-}
-/* Move Markup Mentioned Messages */
-.isMentioned-N-h9aa .markup-2BOw-j  {
-  position: relative;
-  left: -10px;
-  top: 1px;
-  padding-left: 13px;
-}
 /* DON'T TOUCH */
 .theme-dark .dividerEnabled-2TTlcf {
   border: none;
@@ -1104,7 +1077,6 @@
 .slateTextArea-1bp44y .hljs-quote {
     color: white;
 }
-
 .markup-2BOw-j {
   position: relative;
   color: white;
@@ -1218,14 +1190,14 @@
   border-radius: 10px 10px 0 0;
   overflow: visible;
 }
-.attachWrapper-1_D-pj {
+.attachWrapper-2TRKBi {
 	border: none;
 }
 .theme-dark .inner-zqa7da {
   background-color: transparent;
 }
 
-.scrollableContainer-38zsVD {
+.scrollableContainer-2NUZem {
   background-color: rgba(0,0,0,.3);
 }
 .theme-dark .textArea-2Spzkt {
@@ -1235,22 +1207,21 @@
   border-radius: 12px;
 }
 
-.uploadModal-2ifh8j .footer-3mqk7D {
+.theme-dark .uploadModal-2ifh8j .footer-3mqk7D {
   background-color: transparent;
 }
-
 .theme-dark .footer-3mqk7D {
   box-shadow: none;
 }
 
-.uploadModal-2ifh8j {
+.theme-dark .uploadModal-2ifh8j {
   background-color: rgba(0,0,0,0.5);
   border: 2px solid black;
 }
-.uploadModal-2ifh8j .inner-3nWsbo {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo {
   border: none;
 }
-.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
+.theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
   background-color: transparent;
   border: 2px solid #129b1a;
   border-radius: 14px;
@@ -1273,6 +1244,7 @@
   border: none;
   box-shadow: none;
 }
+
 .infoBar-U6oBFk {
   background: none;
 }
@@ -1619,6 +1591,7 @@
   background-color: transparent;
 }
 
+
 .quickswitcher-3JagVE {
   right: 12pc;
   width: 1070px;
@@ -1626,6 +1599,7 @@
   padding: 120px 120px 0;
   box-shadow: 0 4px 10px rgba(0,0,0,.7), 0 0 0 1px rgba(28,36,43,.6);
 }
+
 
 .theme-dark .input-2VB9rf {
   box-shadow: none;
@@ -1720,6 +1694,12 @@
 .name-2WpE7M {
   color: silver;
 }
+
+.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+  color: white;
+}
+
+
 
 .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
   background-color: rgba(0,0,0,0.8) !important;
@@ -1881,6 +1861,13 @@
   border: 1px solid rgba(255,255,255,.12);
 }
 
+.panels-j1Uci_ {
+  background-color: transparent;
+}
+
+.clickable-11uBi-:hover, .selected-BYpGTS {
+  background-color: rgba(48, 48, 48, 0.66);
+}
 
 /* Links */
 
@@ -1942,6 +1929,9 @@
   border-radius: 9px;
 }
 
+.clickable-11uBi-:hover, .selected-BYpGTS {
+  background-color: rgba(48, 48, 48, 0.66);
+}
 
 /* Emotes Picker */
 #bda-qem button {
@@ -1959,18 +1949,16 @@
   background-color: black;
 }
 
+.emojiPicker-3m1S-j .categories-1feg4n {
+  background: none;
+}
+
 .slateTextArea-1bp44y {
   caret-color: white;
   position: absolute;
   left: 11px;
   right: 10px;
   top: 13px;
-}
-
-
-
-.emojiPicker-3m1S-j .categories-1feg4n {
-  background: none;
 }
 
 #bda-qem button.active {
@@ -1986,7 +1974,6 @@
   border-top: none;
 }
 
-
 .h5-18_1nd {
   color: silver;
 }
@@ -1999,6 +1986,14 @@
   color: white;
   border-bottom-color: transparent;
 }
+
+.bg-h5JY_x {
+  background-color: transparent;
+}
+
+
+
+
 
 
 /* ONLY ONE COLOR AND HOVER COLOR CHALLENGE */
@@ -2095,7 +2090,3 @@
     border-radius: 10px;
 }
 */
-
-.bg-h5JY_x {
-  background-color: transparent;
-}
