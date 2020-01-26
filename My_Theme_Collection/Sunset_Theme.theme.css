@@ -593,8 +593,15 @@
     border-radius: 12px;
 }
 
-.backdrop-1wrmKB {
-    background-color: rgba(0, 0, 0, 0.22) !important;
+
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+  background-color: rgba(0,0,0,0.22) !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 
 .theme-dark #bd-settingspane-container .ui-switch-item .style-description {
@@ -840,7 +847,7 @@
 .dividerRed-MKoLlr .dividerContent-2L12VI:before,
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-    background-color: transparent;
+    border: none;
 }
 
 .dividerRed-MKoLlr {
@@ -1346,7 +1353,8 @@
     background: none;
 }
 
-.theme-dark .jumpButton-3DTcS_ {
+.theme-dark .jumpButton-3DTcS_,
+.theme-dark .collapseButton-oSNpPX {
     background-color: #731838;
     border: 1px solid #7f2542;
     color: white;

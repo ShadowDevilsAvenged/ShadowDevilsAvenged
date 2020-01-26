@@ -104,8 +104,14 @@
     color: white;
 }
 
-.backdrop-1wrmKB {
-    background-color: rgba(0,0,0,0.2) !important;
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+  background-color: rgba(0,0,0,0.2) !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 
 .searchBar-6Kv8R2 {
@@ -630,7 +636,8 @@
     background: none;
 }
 
-.theme-dark .jumpButton-3DTcS_ {
+.theme-dark .jumpButton-3DTcS_,
+.theme-dark .collapseButton-oSNpPX {
     background-color: #582060;
     color: white;
 }
@@ -1089,7 +1096,7 @@
 .dividerRed-MKoLlr .dividerContent-2L12VI:before,
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-    background-color: transparent;
+    border: none;
 }
 
 .divider-3gKybi,

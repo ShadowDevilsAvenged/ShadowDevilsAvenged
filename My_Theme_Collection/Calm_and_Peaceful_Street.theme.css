@@ -490,9 +490,15 @@
   box-shadow: none;
 }
 
-.backdrop-1wrmKB {
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
   background-color: rgba(0,0,0,0.2) !important;
   opacity: 0.3 !important;
+}
+
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
 }
 
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
@@ -606,7 +612,7 @@
 
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-  background-color: transparent !important;
+  border: none; !important;
 }
 .theme-dark .divider-3gKybi:not(.dividerRed-MKoLlr) .dividerContent-2L12VI {
   color: silver;
@@ -1045,7 +1051,7 @@
 /* DON'T TOUCH */
 .dividerContent-2L12VI:after, 
 .dividerContent-2L12VI:before {
-  background-color: transparent !important;
+  border: none; !important;
 }
 /* DON'T TOUCH  */
 .mask-1l8v16 {
@@ -1403,7 +1409,8 @@
   background: none;
 }
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ {
+.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .collapseButton-oSNpPX {
   background-color: #789dbf; 
   color: white;
 }

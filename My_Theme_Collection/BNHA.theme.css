@@ -104,7 +104,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .guildsError-b7zR5H,
-.theme-dark .guildIconUnavailable-5PMHDN  {
+.theme-dark .guildIconUnavailable-5PMHDN {
     background: #721100;
     border-color: #fa0500;
 }
@@ -612,9 +612,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: #008c99;
 }
 
-.divider-3FBTu8,
-.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
-.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+.divider-3FBTu8 {
     background: transparent;
 }
 
@@ -788,8 +786,10 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .dividerContent-2L12VI:after, 
-.dividerContent-2L12VI:before {
-    background-color: transparent;
+.dividerContent-2L12VI:before,
+.dividerRed-MKoLlr .dividerContent-2L12VI:after, 
+.dividerRed-MKoLlr .dividerContent-2L12VI:before {
+    border: none;
 }
 
 .uploadArea-3QgLtW {
@@ -1318,7 +1318,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .theme-dark .jumpButton-Ia2hRJ,
-.theme-dark .jumpButton-3DTcS_ {
+.theme-dark .jumpButton-3DTcS_,
+.theme-dark .collapseButton-oSNpPX {
     background-color: #1a1919;
     color: #008c99 !important;
 }
@@ -2184,7 +2185,16 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: transparent;
 }
 
+.backdrop-1wrmKB,
+.backdropWithLayer-3_uhz4 {
+    background-color: rgba(0, 0, 0, 0.25) !important;
+    opacity: .5 !important;
+}
 
+.theme-dark .root-1gCeng {
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: none;
+}
 
 
 /* Main Color */
