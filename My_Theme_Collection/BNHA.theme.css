@@ -1922,7 +1922,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .privateChannels-1nO12o,
 .scroller-1JbKMe,
 .children-19S4PO:after,
-.scroller-zPkAnE {
+.scroller-zPkAnE,
+.scroller-2XE8rp {
     background: none;
 }
 
@@ -1968,59 +1969,16 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     opacity: 0 !important;
 }
 
-.activityFeed-1C0EmJ,
+
 .theme-dark .root-1BQpZw,
 .scroller-5bBood,
 .gameLibrary-TTDw4Y,
 .scroller-1IIF0A,
+.theme-dark .container-1D34oG,
+.theme-dark .peopleList-3c4jOR,
 .applicationStore-1pNvnv,
-.scroller-9moviB,
-.theme-dark .container-3gCOGc,
-.friendsTable-133bsv .friendsTableBody-1ZhKif {
+.scroller-9moviB {
     background-color: transparent;
-}
-
-.outer-2IVh5n,
-.theme-dark .recentlyPlayedContainer-2F3MqS {
-    background-color: rgb(48, 48, 48);
-}
-
-.theme-dark .inset-GQDQYw,
-.theme-dark .memberListItem-2ZX2pl:not(.popoutDisabled-xucru2):hover {
-    background-color: #008c99;
-}
-
-.theme-dark .recentlyPlayedContainer-2F3MqS,
-.theme-dark .separator-2c4hi3,
-.theme-dark .overlappingBorder-3aFng4 {
-    border: 2px solid #008c99;
-}
-
-.theme-dark .wrapper-9ppXpy {
-    box-shadow: none;
-}
-
-.theme-dark .categoryHeader-1D7Tqy, 
-.theme-dark .premiumApplicationsHeader-Zmkm5e {
-    border: none;
-}
-
-.pagination-1omm9k {
-    margin-left: 172px;
-}
-
-.itemBackground-2vEldQ:before {
-    background: radial-gradient(ellipse at top,transparent,black),linear-gradient(90deg,black 0,transparent 40%,transparent 60%,black),linear-gradient(0deg,black 0,transparent 25%);
-}
-
-.gradientOverlayLeft-3w159C,
-.gradientOverlayRight-3vMuS8 {
-    background: none;
-}
-
-.theme-dark .genreTag-3QLRUJ {
-    background: #008c99;
-    color: white;
 }
 
 .theme-dark .subtitle-2P4u9v {
@@ -2049,18 +2007,11 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: #fff;
 }
   
-.theme-dark .friendsTable-133bsv .friendTableAddWrapper-nHHZtK .friendTableAddHeader-m9bzFr {
-    border-bottom: none;
-    background-color: rgba(0, 0, 0, 0.12);
-}
+.nowPlayingColumn-2sl4cE {
+    background: transparent;
+  }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO {
-    border: 2px solid #008c99;
-    color: white;
-    font-size: 13px;
-}
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnGuilds-2we6jb .moreMutualGuildsBtn-2VwbkO:hover,
 .callAvatarStatus-3vMeXZ.voice-3bPYC- {
     background-color: #008c99;
 }
@@ -2115,30 +2066,31 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     padding-top: 4px !important;
 }
 
-.friendsTable-133bsv .friendsTableHeader-32yE7d .friendsColumn-eVHFqJ,
-.friendsTable-133bsv .friendsTableHeader-32yE7d,
-.friendsTable-133bsv .friendsRow-2yicud+.friendsRow-2yicud {
+
+
+.peopleListItem-2nzedh {
     border: none;
 }
 
 .container-2ax-kl,
-.friendsTable-133bsv .friendsRow-2yicud .discordTag-1Hozyw .username-1r0gCl,
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnStatus-ZH4ho2 .statusText-2F9zIF {
+.peopleListItem-2nzedh .discordTag-1Hozyw .username-1r0gCl,
+.subtext-24R4-w,
+.title-30qZAO {
     color: rgb(218, 218, 218);
 }
 
-.friendsTable-133bsv .friendsRow-2yicud:hover {
+.peopleListItem-2nzedh:hover {
     background: rgba(0, 140, 153, 0.3);
     border-radius: 15px;
     padding: 16px 20px;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9 {
+.actionButton-uPB8Fs {
     border-radius: 30%;
     color: white !important;
 }
 
-.friendsTable-133bsv .friendsRow-2yicud .friendsColumnActions-1LT3_M .friendsAction-__WNE9:hover {
+.actionButton-uPB8Fs:hover {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
