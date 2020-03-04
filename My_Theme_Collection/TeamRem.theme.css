@@ -17,7 +17,8 @@
 
 .theme-dark .layer-3QrUeG,
 .sidebar-2K8pFh,
-.scroller-305q3I {
+.scroller-305q3I,
+.scroller-9moviB {
     background: transparent;
 }
 
@@ -287,7 +288,8 @@
   .lookLink-9FtZy-.colorBrand-3pXr91,
   .emptyStateSubtext-2njjqg a,
   .theme-dark .container-2x5lvQ section a,
-  .fakeLink-26oLcc {
+  .fakeLink-26oLcc,
+  .metadataContent-3c_ZXw a {
       color: #e5c634;
 }
 
@@ -382,7 +384,10 @@
     border-color: transparent;
 }
 
-.pageActions-1SVAnA * {
+.pageActions-1SVAnA *,
+.theme-dark .sectionAccountCredit-1uNhnJ, 
+.theme-dark .subscriptionDetails-1dUmjl,
+.marketingRefreshTier2Cta-bw9Vyc {
     border: none;
 }
 
@@ -1192,12 +1197,9 @@
     color: silver;
 }
 
-.bda-dark .theme-dark .or-3THJsp {
-    background: rgba(0, 0, 0, 0.53);
-    border: 2px solid rgba(255,255,255,.189);
-}
 
-.bda-dark .theme-dark .action-1lSjCi {
+
+.theme-dark .theme-light .action-1lSjCi {
     background-color: rgba(0, 0, 0, 0.32);
     border: 2px solid rgba(255,255,255,.189);
     border-radius: 10px;
@@ -1497,6 +1499,7 @@
 
 .theme-dark .searchResult-3pzFAB.expanded-v2Szsz {
     border: none;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .tab-2Ixsn0, 
@@ -1568,9 +1571,9 @@
     background-color: #8da0e0;
 }
 
-.theme-dark .edited-DL9ECl,
+.theme-dark .edited-3sfAzf,
 .theme-dark .operations-36ENbA,
-.timestampCozy-1HNQR2 {
+.cozy-3raOZG .timestamp-3ZCmNB {
     color: white;
 } 
 
@@ -1691,12 +1694,14 @@
 }
 
 .theme-dark .attachment-33OFj0,
-.theme-dark .embedFull-2tM8-- {
+.theme-dark .embedFull-2tM8--,
+.theme-dark .wrapperAudio-1jDe0Q {
     border-color: transparent;
     background-color: rgba(0,0,0,0.3);
 }
 
-.container-3FojY8 {
+.zalgo-jN1Ica .messageContent-2qWWxC,
+.zalgo-jN1Ica.cozy-3raOZG .header-23xsNx {
     overflow: visible;
 }
 
@@ -1999,8 +2004,14 @@
 
 .markup-2BOw-j code {
     font-size: 0.975rem;
+    border: none;
     background: linear-gradient(135deg, rgba(142, 161, 224, 0.51) 0%, rgba(0, 0, 0, 0.77) 100%);
 }
+
+.detailsBlock-FoDTGA {
+    background: none;
+}
+
 
 .hljs {
     padding: .5em;
@@ -2040,7 +2051,7 @@
 
 .timestamp-1E3uAL,
 .container-3-pyIM,
-.timestampCompact-29LLPQ {
+.cozy-3raOZG .timestamp-3ZCmNB.alt-1uNpEt {
     color: white;
 }
 
