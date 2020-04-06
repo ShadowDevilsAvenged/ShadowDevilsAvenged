@@ -1125,7 +1125,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border: 1px solid rgba(0, 140, 153, 0.16);
 }
 
-.lowMotionItem-1DvHia {
+.lowMotionItem-1DvHia,
+.wanderingCubesItem-WPXqao {
     background-color: #008c99;
     width: 14px;
     border-radius: 10px;
@@ -2031,7 +2032,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
   }
 
 
-.callAvatarStatus-3vMeXZ.voice-3bPYC- {
+.status-1WEaea.voice-3bPYC- {
     background-color: #008c99;
 }
 
@@ -2040,17 +2041,37 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: white;
 }
 
-.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi {
+.border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
+.border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi {
     box-shadow: inset 0 0 22px 3px #008c99;
 }
 
-.theme-dark .wrapper-29NfPK {
+.videoAvatar-1ohPSC, 
+.voiceAvatar-14IynY {
+    border-radius: 4px;
+}
+
+.border-Jn5IOt {
+    border: 4px solid #008c99;
+}
+
+.controlButton-2MhVEL.leaveButton-2YnTyt {
+    background: #dc2727;
+}
+
+.centerButton-3CaNcJ {
+    background: rgba(0, 0, 0, .2);
+}
+  
+.centerButton-3CaNcJ:hover {
+    background: rgba(0, 0, 0, .7);
+}
+
+.theme-dark .wrapper-2qzCYF {
     background-color: rgba(0, 140, 153, 0.19);
 }
 
-.video-1FfuMD {
-    background-color: transparent;
-}
+
 
 .theme-dark .quickSelect-3BxO0K,
 .theme-dark .regionSelectName-c5qL8O {
@@ -2065,7 +2086,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: rgba(0, 0, 0, 0.15);
 }
 
-.theme-dark .quickSelectPopout-X1hvgV {
+.theme-dark .quickSelectPopoutOption-opKBx9 {
     background: rgba(0, 140, 153, 0.45);
     color: white;
 }
@@ -2074,10 +2095,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     filter: hue-rotate(90deg) brightness(3);
 }
 
-.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
-    border-color: transparent;
-    background-color: transparent;
-}
+
 
 [class*="role-3wi9Tf item-PXvHYJ selected-3s45Ha themed-OHr7kt"],
 [class*="role-3wi9Tf item-PXvHYJ themed-OHr7kt"],

@@ -989,7 +989,8 @@
   border: none;
 }
 
-.lowMotionItem-1DvHia {
+.lowMotionItem-1DvHia,
+.wanderingCubesItem-WPXqao {
   background-color: #805d4c;
   width: 14px;
   border-radius: 4px;
@@ -1772,7 +1773,7 @@
 .partyMember-1CzxeX foreignObject,
 .memberListItem-31QoHj foreignObject, 
 .friend-3KALPe .avatar-vr5NCN foreignObject,
-.avatar-3W3CeO foreignObject, .callAvatarWrapper-3Ax_xH foreignObject {
+.avatar-3W3CeO foreignObject {
   mask: none;
 }
 
@@ -1781,8 +1782,7 @@
 .partyMember-1CzxeX .avatar-VxgULZ,
 .memberListItem-31QoHj .avatar-VxgULZ,
 .friend-3KALPe .avatar-vr5NCN .avatar-VxgULZ,
-.avatar-3W3CeO .avatar-VxgULZ,
-.callAvatarWrapper-3Ax_xH .avatar-VxgULZ {
+.avatar-3W3CeO .avatar-VxgULZ {
   border-radius: 4px;
 }
 
@@ -1925,27 +1925,37 @@
   background-color: #d31f1f;
 }
 
-.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi {
+.border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
+.border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi {
   border-radius: 4px;
   border: 4px solid #805d4c;
   box-shadow: none;
 }
 
-.callAvatarBorder-uWp8Ga.video-3SrWSI.speaking-B2MXPi {
+.border-Jn5IOt {
   border: 4px solid #805d4c;
-  box-shadow: none;
-}
-
-.callAvatarBorder-uWp8Ga.video-3SrWSI.selected-2tLJQ6.notSpeaking-a3bIkW.notSoundsharing-2sYlLk {
-  border: 4px solid #39ad54;
-  box-shadow: none;
-}
-
-.callAvatarVoice-29N_wG {
   border-radius: 4px;
 }
 
-.theme-dark .quickSelectPopout-X1hvgV {
+.videoAvatar-1ohPSC, 
+.voiceAvatar-14IynY {
+  border-radius: 4px;
+}
+
+.controlButton-2MhVEL.leaveButton-2YnTyt {
+  background: #dc2727;
+}
+
+.centerButton-3CaNcJ {
+  background: rgba(0, 0, 0, .2);
+}
+
+.centerButton-3CaNcJ:hover {
+  background: rgba(0, 0, 0, .7);
+}
+
+
+.theme-dark .quickSelectPopoutOption-opKBx9 {
   background: rgba(0, 0, 0, .26);
   color: white;
 }
@@ -1958,20 +1968,13 @@
   background-color: #946f5e;
 }
 
-.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
-  border-color: transparent;
-  background-color: rgba(0, 0, 0, .3);
-}
 
-.video-1FfuMD {
-  background-color: transparent;
-}
 
-.theme-dark .wrapper-29NfPK {
+.theme-dark .wrapper-2qzCYF {
   background-color: rgba(0, 0, 0, .2);
 }
 
-.callAvatarStatus-3vMeXZ.voice-3bPYC- {
+.status-1WEaea.voice-3bPYC- {
   background-color: #805d4c;
   border-radius: 4px;
 }

@@ -2103,7 +2103,8 @@
     border-radius: 7px;
 }
 
-.lowMotionItem-1DvHia {
+.lowMotionItem-1DvHia,
+.wanderingCubesItem-WPXqao {
     background-color: #731838;
     width: 14px;
     border-radius: 50px;
@@ -2156,34 +2157,44 @@
     color: white;
 }
 
-.callAvatarWrapper-3Ax_xH foreignObject {
-    mask: none;
-}
 
-.callAvatarVoice-29N_wG {
-    border-radius: 20%;
-}
 
-.callAvatarBorder-uWp8Ga.voice-3bPYC-.speaking-B2MXPi {
+.border-Jn5IOt.video-3SrWSI.speaking-B2MXPi,
+.border-Jn5IOt.voice-3bPYC-.speaking-B2MXPi {
     border-radius: 20%;
     box-shadow: none;
     border: 5px solid #731838;
 }
 
-.theme-dark .wrapper-29NfPK {
+.border-Jn5IOt {
+    border: 5px solid #731838;
+    border-radius: 20%;
+}
+
+.videoAvatar-1ohPSC, 
+.voiceAvatar-14IynY {
+    border-radius: 20%;
+}
+
+.theme-dark .wrapper-2qzCYF {
     background-color: transparent;
 }
 
-.video-1FfuMD {
-    background-color: rgba(0, 0, 0, .49);
+.controlButton-2MhVEL.leaveButton-2YnTyt {
+    background: #dc2727;
 }
 
-.theme-dark .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
-    border-color: transparent;
-    background-color: rgba(0, 0, 0, .19);
+.centerButton-3CaNcJ {
+    background: rgba(0, 0, 0, .2);
+}
+  
+.centerButton-3CaNcJ:hover {
+    background: rgba(0, 0, 0, .7);
 }
 
-.callAvatarStatus-3vMeXZ.voice-3bPYC- {
+
+
+.status-1WEaea.voice-3bPYC- {
     border-radius: 7px;
     background-color: #731838;
 }
@@ -2197,7 +2208,7 @@
     opacity: .7;
 }
 
-.theme-dark .quickSelectPopout-X1hvgV {
+.theme-dark .quickSelectPopoutOption-opKBx9 {
     background-color: rgba(0, 0, 0, .39);
     color: white;
 }
