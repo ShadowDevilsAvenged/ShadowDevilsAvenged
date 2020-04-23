@@ -400,12 +400,12 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .themeDefault-24hCdX,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+.bd-switch {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+.bd-switch-checked {
     background-color: #728e3d;
 }
 
@@ -1684,7 +1684,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
-.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ {
+.topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
     background-color: rgba(114, 142, 61, 0.57);
     border: 2px solid #617d2d; /* 2nd Color of Monochromatic Colors */
 }
@@ -1763,6 +1764,28 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 .pageActions-1SVAnA * {
     color: white !important;
     border: none !important;
+}
+
+.secondary-dIudih,
+.tertiary-aMXF0g {
+    background-color: #728e3d !important;
+    color: white;
+}
+
+.messageContainer-gbhlwo {
+    background-color: rgba(0, 0, 0, .53);
+}
+  
+.message-2DieIs {
+    overflow: visible;
+}
+  
+.messageContainer-gbhlwo .avatar-1BDn8e {
+    top: -1px;
+}
+
+.channelHeader-3Gd2xq {
+    background-color: rgba(0, 0, 0, .33);
 }
 
 .separator-gCa7yv,

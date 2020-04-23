@@ -275,7 +275,8 @@
 	opacity: 0.65;
 }
 .theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, 
-.theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover {
+.theme-dark .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ:hover,
+.theme-dark .header-2-Imhb .tabBar-1kuXvJ .tab-ck0077.active-1MbGPa {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
 	background-size: cover;
 	opacity: 1;
@@ -809,12 +810,12 @@
 }
 
 .themeDefault-24hCdX,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch {
+.bd-switch {
 	background-color: rgba(255, 255, 255, 0.19);
 }
 
 .size-3rFEHg:after,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch:before {
+.bd-switch::after {
 	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%) !important;
 	box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
 	background-color: rgba(65, 95, 132, 0.701) !important;
@@ -822,7 +823,7 @@
 }
 
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
-#bd-settingspane-container .ui-switch-item .ui-switch-wrapper .ui-switch.checked {
+.bd-switch-checked {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
 	background-size: 90px;
 }
@@ -2373,6 +2374,29 @@
   background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
   background-size: cover;
   opacity: 1;
+}
+
+.channelHeader-3Gd2xq {
+	background-color: rgba(0, 0, 0, .33);
+}
+
+.messageContainer-gbhlwo {
+	background-color: rgba(0, 0, 0, .53);
+}
+
+.message-2DieIs {
+	overflow: visible;
+}
+
+.messageContainer-gbhlwo .avatar-1BDn8e {
+	top: -1px;
+}
+
+.secondary-dIudih,
+.tertiary-aMXF0g {
+	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg) !important;
+  background-size: cover;
+	color: white;
 }
 
 .side-8zPYf6 .item-PXvHYJ,
