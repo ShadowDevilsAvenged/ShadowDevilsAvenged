@@ -1469,69 +1469,56 @@
   border-radius: 4px;
 }
 
-#bda-qem {
-  border-radius: 7px 7px 0 0;
-  background: transparent;
-  border-bottom: none!important;
-}
 
-#bda-qem button {
+
+.navButtonActive-3RPAJy {
   border-left: none;
   background: #212121;
   box-shadow: none;
 }
 
-#bda-qem-twitch {
-  border-radius: 7px 0 0 0;
-}
-
-#bda-qem button:hover {
+.navButtonActive-3RPAJy:hover {
   background: #946f5e;
 }
 
-#bda-qem-emojis {
-  border-radius: 0 7px 0 0;
-}
-
-#bda-qem button.active, #bda-qem button.active:hover {
+.navButtonActive-3RPAJy.active, .navButtonActive-3RPAJy.active:hover {
   background-color: #805d4c;
 }
 
-.emojiPicker-3m1S-j, #bda-qem-twitch-container, #bda-qem-favourite-container {
+.contentWrapper-2txmjs {
   border-radius: 0 0 7px 7px;
   background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #805d4c 100%);
 }
 
-.emojiPicker-3m1S-j .header-1nkwgG {
+.emojiPicker-3PwZFl .header-8ilj5e {
   box-shadow: none;
 }
 
-.diversitySelector-tmmMv0 .popout-2nUePc {
+.diversitySelectorPopout-3FiGaM {
   background-color: rgba(0, 0, 0, .56);
   border-radius: 7px;
   border: none;
 }
 
-.diversitySelector-tmmMv0 .popout-2nUePc .item-16cXuq:hover {
+.diversityEmojiItem-L6_IXw:hover {
   background-color: black;
 }
 
-.emojiPicker-3m1S-j .stickyHeader-1SS0JU {
-  display: none;
+
+
+.categoryWrapper-UZ5YNj {
+  background-color: rgba(0, 0, 0, .3);
 }
 
-.emojiPicker-3m1S-j .category-2U57w6 {
-  color: white;
-  text-align: center;
-  font-size: small;
-}
-
-.infoBar-U6oBFk, .emojiPicker-3m1S-j .categories-1feg4n {
+.inspector-sdLnLS, .wrapper-2N7X54 {
   background: none;
 }
 
-.emojiPicker-3m1S-j .categories-1feg4n .selected-39BZ4S {
+.categoryItemDefaultCategorySelected-_HCKoz, .categoryItemDefaultCategorySelected-_HCKoz:hover {
   border-bottom-color: #805d4c;
+  border-bottom-width: 3px;
+  border-style: solid;
+  background: none;
 }
 
 .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
