@@ -189,7 +189,8 @@
 
 
 
-.selected-aXhQR6 .layout-2DM8Md {
+.selected-aXhQR6 .layout-2DM8Md,
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
 	background-size: cover;
 	border: 2px solid rgba(0, 0, 0, 0.66);
@@ -785,22 +786,22 @@
 	background-color: transparent;
 }
 
-.menu-Sp6bN1 {
+.styleFixed-sX-yHV {
 	border-radius: 14px;
 	box-shadow: none;
 	background-image: linear-gradient(45deg, rgba(204, 227, 246, 0.215) 0%, rgba(72, 88, 101, 0.461) 100%), url(https://images.alphacoders.com/151/151713.jpg) !important;
 	background-size: cover;
 }
 
-.separator-2zcjq8 {
+.separator-2I32lJ {
 	border-bottom: none;
 }
 
-.itemBase-1Qj4z6 {
+.colorDefault-2K3EoJ {
 	color: white;
 }
 
-.itemBase-1Qj4z6:hover {
+.colorDefault-2K3EoJ.focused-3afm-j {
 	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%) !important;
     border: 2px solid rgba(204, 227, 246, 0.60);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
@@ -1180,7 +1181,8 @@
 	background: none;
 }
 
-.contentWrapper-2txmjs {
+.contentWrapper-2txmjs,
+.emojiPicker-3PwZFl {
 	background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.626) 100%);
     border: 2px solid rgba(204, 227, 246, 0.468);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.557);
@@ -1213,6 +1215,16 @@
 	background-color: rgba(65, 95, 132, 0.776);
 	border: 2px solid rgba(204, 227, 246, 0.468);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.557);
+}
+
+.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+	color: rgba(0, 0, 0, .26) !important;
+	border-radius: 50px;
+}
+
+.colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
+  color: white;
 }
 
 .navButtonActive-3RPAJy {
@@ -1296,8 +1308,9 @@
 	background-color: rgba(222, 222, 222, 0.3);
 }
 
-.contextMenu-HLZMGh,
-.container-3cGP6G {
+.styleFlexible-wGDiIL,
+.container-3cGP6G,
+.submenu-2-ysNh {
 	border-radius: 20px;
 	background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.626) 100%);
     border: 2px solid rgba(204, 227, 246, 0.468);
@@ -1470,13 +1483,13 @@
 }
 
 .theme-dark .header-ykumBX,
-.theme-dark .searchHeader-1l-wpR {
+.theme-dark .searchHeader-1EzJGH {
 	background-color:  transparent;
 	box-shadow: none;
 }
 
 .theme-dark .messagesPopoutWrap-1MQ1bW,
-.theme-dark .searchResultsWrap-2DKFzt {
+.theme-dark .searchResultsWrap-3-pOjs {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg) !important;
 	border: none;
 }
@@ -1522,45 +1535,45 @@
   margin-top: 2px;
 }
 
-.searchResultsWrap-2DKFzt .avatar-1BDn8e {
+.searchResultsWrap-3-pOjs .avatar-1BDn8e {
 	margin-top: -9px;
 }
 
-.searchResult-3pzFAB.expanded-v2Szsz {
+.searchResult-2N9RV4.expanded-ovgtuV {
 	background: none;
 }
 
 
 
 
-.searchResultMessage-2VxO12 {
+.searchResultMessage-30QnSN {
 	padding: 7px 0;
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz .searchResultMessage-2VxO12.hit-NLlWXA {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
 	border: none;
 	background-color: transparent;
 }
 
-.theme-dark .searchResult-3pzFAB.expanded-v2Szsz,
-.theme-dark .searchResult-3pzFAB .searchResultMessage-2VxO12.hit-NLlWXA,
-.channelSeparator-1X1FuH:before {
+.theme-dark .searchResult-2N9RV4.expanded-ovgtuV,
+.theme-dark .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT,
+.channelSeparator-dTqJ4K:before {
 	border: none;
 }
 
-.theme-dark .searchResult-3pzFAB .hit-NLlWXA,
+.theme-dark .searchResult-2N9RV4 .hit-NLlWXA,
 .theme-dark .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
 	background: none;
 	box-shadow: none;
 }
 
-.theme-dark .searchResult-3pzFAB:before,
-.theme-dark .searchResult-3pzFAB:after {
+.theme-dark .searchResult-2N9RV4:before,
+.theme-dark .searchResult-2N9RV4:after {
 	background-image: none;
 }
 
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .jumpButton-Ia2hRJ,
+.theme-dark .jumpButton-1ol35X,
 .theme-dark .collapseButton-oSNpPX {
 	background-color: rgba(0, 0, 0, 0.56);
 	color: white !important;
@@ -1572,8 +1585,7 @@
 	margin-right: 12px;
 }
 
-.tab-2Ixsn0, 
-.totalResults-gxvzgw {
+.tab-EiCZG6, .totalResults-1yK_Ym {
 	opacity: .6;
 }
 
@@ -1737,7 +1749,7 @@
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.557);
 }
 
-.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf {
+.theme-dark .channelSeparator-1X1FuH .channelName-wvgELL {
 	color: #fff;
 	background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.40) 100%);
     border: 2px solid rgba(204, 227, 246, 0.468);
@@ -2507,7 +2519,7 @@
 .bd-pfbtn,
 .bda-slist .bda-footer button,
 .standardSidebarView-3F1I7i #editor-detached button,
-.theme-dark .bda-slist li {
+.theme-dark .bd-addon-list .bd-addon-card {
   background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.633)100%);
   border: 2px solid rgba(204, 227, 246, 0.468);
   box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.523);
@@ -2516,7 +2528,7 @@
   color: white;
 }
 
-.theme-dark .bda-slist li {
+.theme-dark .bd-addon-list .bd-addon-card {
 	background: linear-gradient(5deg, transparent 62%, rgba(204, 227, 246, 0.633)100%);
 	border: 2px solid rgba(204, 227, 246, 0.468);
 	box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.523);
