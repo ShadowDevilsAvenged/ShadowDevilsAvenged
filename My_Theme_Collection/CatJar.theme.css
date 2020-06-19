@@ -327,7 +327,7 @@
   border: 2px solid #805d4c;
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-2gL1pp {
   background-color: #0b0b0b;
   box-shadow: none;
 }
@@ -1332,7 +1332,12 @@
   overflow: visible;
 }
 
-.jumpButton-1ol35X, .jumpButton-3DTcS_ {
+.emptyChannelIcon-3IXV5M {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .26);
+}
+
+.jumpButton-1ol35X, .jumpButton-3DTcS_, .jumpButton-2dvRSC {
   border-radius: 6px;
   padding: 4px 13px;
   background-color: #805d4c;
@@ -1407,11 +1412,18 @@
   opacity: 1;
 }
 
-.messagesPopoutWrap-1MQ1bW {
+.messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
   background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #805d4c 100%);
   box-shadow: none;
   border-radius: 6px;
 }
+
+.messages-3G3erD {
+  background-color: rgba(0,0,0,.5);
+  border-radius: 4px;
+}
+
 
 .guildName-1Bc3Ta, .mentionFilter-1PQ6ey .label-12YslM {
   color: silver;
@@ -1481,13 +1493,13 @@
 
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
   border-left: none;
   background: #212121;
   box-shadow: none;
 }
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
   background: #946f5e;
 }
 
@@ -1501,11 +1513,11 @@
 }
 
 
-.navButtonActive-3RPAJy.active, .navButtonActive-3RPAJy.active:hover {
+.navButtonActive-1MkytQ.active, .navButtonActive-1MkytQ.active:hover {
   background-color: #805d4c;
 }
 
-.contentWrapper-2txmjs,
+.contentWrapper-SvZHNd,
 .emojiPicker-3PwZFl {
   border-radius: 0 0 7px 7px;
   background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #805d4c 100%);
@@ -1527,11 +1539,11 @@
 
 
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
   background-color: rgba(0, 0, 0, .3);
 }
 
-.inspector-sdLnLS, .wrapper-2N7X54 {
+.inspector-sdLnLS, .wrapper-2Gsate {
   background: none;
 }
 
@@ -1642,7 +1654,7 @@
 
 .headerXbox-3G-4PF, .topSectionXbox-3fWLjS, .body-3ND3kc, .headerSpotify-zpWxgT, .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .topSectionSpotify-1lI0-P, .theme-dark .headerNormal-T_seeN, .topSectionNormal-2-vo2m,
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X {
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz, .topSectionPlaying-1J5E4n, .topSectionStreaming-1Tpf5X, .body-3iLsc4 {
   background: rgba(0, 0, 0, .16);
 }
 
@@ -2118,7 +2130,7 @@
   box-shadow: none;
 }
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
   background-color: rgba(0, 0, 0, 0.76);
   box-shadow: none;
   color: white;
@@ -2171,7 +2183,8 @@
 .standardSidebarView-3F1I7i a, .primary-jw0I4K a, .footer-3rDWdC a, .lookLink-9FtZy-.colorLink-35jkBc,
 .bda-slist .bda-footer a, .markup-2BOw-j a, .topic-TCb_qw a, .theme-dark .filenameLinkWrapper-1-14c5, .theme-dark .filenameLinkWrapper-1-14c5 a,
 .fakeLink-26oLcc, .operations-36ENbA>a, .colorStandard-2KCXvj a, .checkboxLabel-1zn0UC a, .markup-2BOw-j a, .welcomeMessage-ULm0mo a, .emptyStateCTA-veJ2Cu a,
-.helpText-h3r3wC a, .colorStandard-2KCXvj a {
+.helpText-h3r3wC a, .colorStandard-2KCXvj a,
+.editChannelButton-1dYN-G {
   color: lightgreen;
 }
 

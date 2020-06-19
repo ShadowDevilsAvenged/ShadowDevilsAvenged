@@ -294,7 +294,8 @@
   .emptyStateSubtext-2njjqg a,
   .theme-dark .container-2x5lvQ section a,
   .fakeLink-26oLcc,
-  .metadataContent-3c_ZXw a {
+  .metadataContent-3c_ZXw a,
+  .editChannelButton-1dYN-G {
       color: #e5c634;
 }
 
@@ -649,7 +650,7 @@
     box-shadow: none;
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-2gL1pp {
     background-color: transparent;
     box-shadow: none;
 }
@@ -1129,7 +1130,7 @@
     box-shadow: none;
 }
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
     background-color: rgba(0, 0, 0, 0.13);
     box-shadow: none;
     color: white;
@@ -1422,10 +1423,16 @@
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
     background: linear-gradient(45deg, #000000 0%, #6b82ce 51%, #000000 100%);
     border: none;
     box-shadow: none;
+}
+
+.messages-3G3erD {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 4px;
 }
 
 .theme-dark .messageGroupWrapper-o-Zw7G {
@@ -1445,9 +1452,15 @@
 
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .jumpButton-1ol35X,
-.theme-dark .collapseButton-oSNpPX {
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
     background-color: #6b82ce;
     color: white !important;
+}
+
+.emptyChannelIcon-3IXV5M {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .26);
 }
 
 
@@ -2086,27 +2099,27 @@
 
 /* Emote Section */
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
     background: rgba(0, 0, 0, 0.79);
     border-left: none;
     box-shadow: none;
 }
 
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
     background: none;
 }
 
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
     background-color: #6b82ce;
 }
 
-.navButtonActive-3RPAJy.active {
+.navButtonActive-1MkytQ.active {
     background-color: #6b82ce !important;
     border: 2px solid rgba(255, 255, 255, 0.15);
 }
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
     background: linear-gradient(135deg, #6b82ce 0%, #000000 100%);
 }
 
@@ -2130,12 +2143,12 @@
     background-color: transparent;
 }
 
-.contentWrapper-2txmjs .diversitySelectorPopout-3FiGaM {
+.contentWrapper-SvZHNd .diversitySelectorPopout-3FiGaM {
     background: transparent;
     border-color: transparent;
 }
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
     background-color: transparent;
 }
 

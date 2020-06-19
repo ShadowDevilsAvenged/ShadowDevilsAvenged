@@ -10,11 +10,6 @@
     background-color: rgba(0, 0, 0, 0.52);
 }
 
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-    background-color: rgba(0, 0, 0, .33);
-    color: #fff;
-}
-
 .standardSidebarView-3F1I7i,
 .theme-dark .layer-3QrUeG,
 .contentRegionScroller-26nc1e,
@@ -28,6 +23,10 @@
     background: none;
 }
 
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: rgba(0, 0, 0, .33);
+    color: #fff;
+}
 .theme-dark .closeButton-1tv5uR {
     border-color:black;
 }
@@ -597,7 +596,7 @@
 }
 
  .theme-dark .searchResultsContainer-1ma_dc,
- .theme-dark .footer-3rDWdC {
+ .theme-dark .footer-2gL1pp {
     background-color: transparent;
     box-shadow: none;
 }
@@ -1036,10 +1035,16 @@
     box-shadow: none;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
     background-color: #4d1627;
     border: none;
     box-shadow: 3px 5px 10px 0 rgba(115, 24, 56,.6),3px 5px 10px 0 rgba(115, 24, 56,.6),3px 5px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.messages-3G3erD {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 4px;
 }
 
 .theme-dark .footer-1kmXd4,
@@ -1367,8 +1372,14 @@
     background: none;
 }
 
+.emptyChannelIcon-3IXV5M {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .26);
+}
+
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .collapseButton-oSNpPX {
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
     background-color: #731838;
     border: 1px solid #7f2542;
     color: white;
@@ -1434,26 +1445,26 @@
 
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
     background: #4d1627; 
     border-left: none;
     box-shadow: none;
 }
 
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
     background: none;
 }
 
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
     background-color: #7f2542;
 }
 
-.navButtonActive-3RPAJy.active {
+.navButtonActive-1MkytQ.active {
     background-color: #731838 !important;
 }
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
 	background-color: #4d1627;
 }
 
@@ -1469,27 +1480,27 @@
   color: white;
 }
 
-.contentWrapper-2txmjs {
+.contentWrapper-SvZHNd {
 	border: none;
 	box-shadow: none;
 	border-radius: 2px;
 }
 
 
-.contentWrapper-2txmjs .diversitySelectorPopout-3FiGaM {
+.contentWrapper-SvZHNd .diversitySelectorPopout-3FiGaM {
     background: #731838;
     border-color: transparent;
 }
 
 .diversityEmojiItem-L6_IXw:hover,
-.contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
+.contentWrapper-SvZHNd .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S,
 .emote-container:hover {
     background-color: rgba(127, 37, 65, 0.44);
 }
 
 
 
-.categoryWrapper-UZ5YNj,
+.wrapper-1-Fsb8,
 .emojiPicker-3PwZFl .header-8ilj5e .searchBar-2pWH0_ {
 	background-color: hsla(0, 0%, 0%, .20);
 }
@@ -1645,7 +1656,8 @@
 }
 
 .theme-dark .bodyInner-245q0L, 
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .body-3iLsc4 {
     background-color: rgba(0, 0, 0, .7);
     color: white;
 }
@@ -1953,7 +1965,7 @@
 }
 
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
     background-color: rgba(0,0,0,0.5);
     box-shadow: none;
     color: white;
@@ -2297,7 +2309,7 @@
 
 .theme-dark .embedTitleLink-1Zla9e {color: #F29022 !important;}
 
-.standardSidebarView-3F1I7i a,.theme-dark .card-3Qj_Yx a,.bda-slist .bda-footer a,.content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .metadataContent-3c_ZXw a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
+.standardSidebarView-3F1I7i a,.theme-dark .card-3Qj_Yx a,.bda-slist .bda-footer a, .editChannelButton-1dYN-G, .content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .metadataContent-3c_ZXw a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
 
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {background-image: linear-gradient(0deg, transparent, transparent 1px, #F29022 0, #F29022 2px, transparent 0);}
 

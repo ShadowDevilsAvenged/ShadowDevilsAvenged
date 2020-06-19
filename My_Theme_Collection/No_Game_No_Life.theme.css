@@ -18,15 +18,14 @@
 .theme-dark .children-19S4PO:after {
     background: none;
 }
+.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
+    background-color: rgba(0, 0, 0, .33);
+    color: #fff;
+}
 
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, 
 .wrapper-1BJsBx:hover .childWrapper-anI2G9 {
     background-color: #901E50;
-}
-
-.colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O) {
-    background-color: rgba(0, 0, 0, .33);
-    color: #fff;
 }
 
 .svg-1X37T1>mask {
@@ -366,7 +365,8 @@
 }
 
 .theme-dark .bodyInner-245q0L, 
-.theme-dark .footer-1fjuF6 {
+.theme-dark .footer-1fjuF6,
+.theme-dark .body-3iLsc4 {
     background-color: rgba(0,0,0,0.75);
     color: white;
 }
@@ -503,7 +503,13 @@
 	color: white;
 }
 
-.theme-dark .messagesPopoutWrap-1MQ1bW {
+.messages-3G3erD {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 4px;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW,
+.container-enaOkj {
     background-color: #3D1E59;
     border: 1px solid black;
     box-shadow: none;
@@ -577,8 +583,14 @@
     background: none;
 }
 
+.emptyChannelIcon-3IXV5M {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .26);
+}
+
 .theme-dark .jumpButton-3DTcS_,
-.theme-dark .collapseButton-oSNpPX {
+.theme-dark .collapseButton-oSNpPX,
+.jumpButton-2dvRSC {
     background-color: #582060;
     color: white;
 }
@@ -1264,26 +1276,26 @@
 
 
 
-.navButtonActive-3RPAJy {
+.navButtonActive-1MkytQ {
     background: #3D1E59;
     border-left: none;
     box-shadow: none;
 }
 
-.wrapper-2N7X54 {
+.wrapper-2Gsate {
     background: none;
 }
 
 
-.navButtonActive-3RPAJy:hover {
+.navButtonActive-1MkytQ:hover {
     background-color: #582060;
 }
 
-.navButtonActive-3RPAJy.active {
+.navButtonActive-1MkytQ.active {
     background-color: #901E50 !important;
 }
 
-.contentWrapper-2txmjs, .emojiPicker-3PwZFl {
+.contentWrapper-SvZHNd, .emojiPicker-3PwZFl {
     background-color: #3D1E59;
 }
 
@@ -1309,7 +1321,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-.contentWrapper-2txmjs .diversitySelectorPopout-3FiGaM {
+.contentWrapper-SvZHNd .diversitySelectorPopout-3FiGaM {
     background: #3D1E59;
     border-color: #901E50;
 }
@@ -1318,7 +1330,7 @@
     background-color: #582060;
 }
 
-.categoryWrapper-UZ5YNj {
+.wrapper-1-Fsb8 {
     background-color: #582060;
 }
 
@@ -1331,7 +1343,7 @@
 
 
 .emote-container:hover,
-.contentWrapper-2txmjs .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
+.contentWrapper-SvZHNd .scroller-3vODG7 .emojiItem-109bjA.selected-39BZ4S {
     background-color: rgb(144, 30, 80, 0.4);
 }
 
@@ -1543,7 +1555,7 @@
     color: white;
 }
 
-.css-1rckt42-menu {
+.css-n57xjs-menu {
     background-color: #3D1E59;
     box-shadow: none;
     color: white;
@@ -1822,7 +1834,7 @@
     opacity: 1;
 }
 
-.theme-dark .footer-3rDWdC {
+.theme-dark .footer-2gL1pp {
     box-shadow: none;
     background: none;
 }
@@ -2289,7 +2301,7 @@
 
 .theme-dark .embedTitleLink-1Zla9e {color: #F29022 !important;}
 
-.standardSidebarView-3F1I7i a, .metadataContent-3c_ZXw a,  .theme-dark .card-3Qj_Yx a,.bda-slist .bda-footer a,.content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
+.standardSidebarView-3F1I7i a, .metadataContent-3c_ZXw a,  .theme-dark .card-3Qj_Yx a, .editChannelButton-1dYN-G, .bda-slist .bda-footer a,.content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
 
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {background-image: linear-gradient(0deg, transparent, transparent 1px, #F29022 0, #F29022 2px, transparent 0);}
 
