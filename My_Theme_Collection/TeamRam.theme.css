@@ -603,7 +603,7 @@
 }
 
 .theme-dark .uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j {
-    background-color: #f4acc5
+    background-color: #f4acc5;
     border: 3px solid black;
     border-radius: 10%;
     box-shadow: 5px 9px 8px rgba(0, 0, 0, 0.42),5px 4px 8px rgba(0, 0, 0, 0.42),0 0 18px rgba(0, 0, 0, 0.7);
@@ -2199,7 +2199,7 @@
     background-color: transparent;
   }
 /* Main Color */
-.color-primary { #f4acc5  rgba(244, 172, 197, 1.0); }
+.color-primary {color:#f4acc5  rgba(244, 172, 197, 1.0)}
 /* Main Color */ 
 
 .unreadPill-2HyYtt {
@@ -2213,7 +2213,7 @@
     fill: #f4acc5;
 }
   
-.form-2fGMdU:before,
+.theme-dark .form-2fGMdU:before,
 .separator-42rNt0 {
     background: none;}
   
@@ -2254,4 +2254,9 @@
     height: 1.7rem;
     width: 1.7rem;
     margin-left: 6px;
+}
+
+.akaBadge-1M-1Gw {
+    background-color: #f4acc5;
+    color: white;
 }
