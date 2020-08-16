@@ -196,9 +196,7 @@
     border-radius: 4px;
 }
 
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track,.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, 
-.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: transparent !important;
     border: none !important;
 }
@@ -265,12 +263,12 @@
     color: white !important;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: rgba(0,0,0,0.35);
     border-color: transparent;
 }
 
-.scroller-2FKFPG::-webkit-scrollbar {
+.auto-Ge5KZx::-webkit-scrollbar {
     width: 18px;
 }
 
@@ -930,7 +928,7 @@
     border-radius: 8px;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.37);
     border-color: transparent;
 }
@@ -2305,7 +2303,7 @@
 
 .theme-dark .embedTitleLink-1Zla9e {color: #F29022 !important;}
 
-.standardSidebarView-3F1I7i a, .metadataContent-3c_ZXw a,  .theme-dark .card-3Qj_Yx a, .editChannelButton-1dYN-G, .bda-slist .bda-footer a,.content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
+.standardSidebarView-3F1I7i a, .imageDetails-1t6Zms a, .metadataContent-3c_ZXw a,  .theme-dark .card-3Qj_Yx a, .editChannelButton-1dYN-G, .bda-slist .bda-footer a,.content-8biNdB a,.footer-3rDWdC a,.lookLink-9FtZy-.colorLink-35jkBc,.theme-dark .markup-2BOw-j a,.quickswitcher-3JagVE a,.theme-dark .topic-TCb_qw a,.filenameLinkWrapper-1-14c5 a,.operations-36ENbA>a,.theme-dark .welcomeMessage-ULm0mo a,.localBotMessage-1cGMdw a,.theme-dark .container-3-pyIM .content-2M3n_H a,.helpText-h3r3wC a,.lookLink-9FtZy-.colorBrand-3pXr91,.emptyStateSubtext-2njjqg a,.theme-dark .container-2x5lvQ section a,.colorStandard-2KCXvj a, .description-3_Ncsb a, .giftBlurb-4VKZWm a, .theme-dark .filenameLinkWrapper-1-14c5, .fakeLink-26oLcc {color: #F29022;}
 
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {background-image: linear-gradient(0deg, transparent, transparent 1px, #F29022 0, #F29022 2px, transparent 0);}
 
@@ -2318,6 +2316,18 @@
 .unreadPillCapStroke-7rkHbg {
     color: #582060;
     fill: #582060;
+}
+
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+  overflow: visible;
+}
+
+.attachment-33OFj0,
+.wrapper-35wsBm {
+    border-color: transparent;
+    background-color: rgba(0, 0, 0, .26);
 }
   
 .form-2fGMdU:before,

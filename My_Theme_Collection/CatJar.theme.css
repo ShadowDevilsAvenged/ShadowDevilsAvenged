@@ -1448,7 +1448,7 @@
   background-color: rgb(128, 93, 76, .5);
 }
 
-.scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar, .scrollerThemed-2oenus.themeGhostHairlineChannels-3G0x9_ .scroller-2FKFPG::-webkit-scrollbar {
+.auto-Ge5KZx::-webkit-scrollbar {
   width: 0;
 }
 
@@ -1476,20 +1476,17 @@
   width: 21px;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background-color: rgba(128, 93, 76, .7);
   border-color: transparent;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: rgba(128, 93, 76, .7);
-}
 
-.scroller-2FKFPG::-webkit-scrollbar-thumb, .scroller-2FKFPG::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-thumb, .auto-Ge5KZx::-webkit-scrollbar-track {
   border-radius: 4px;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.auto-Ge5KZx::-webkit-scrollbar-track {
   background-color: transparent;
   border: none;
   border-radius: 4px;
@@ -1558,10 +1555,7 @@
   background: none;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, 
-.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, 
-.theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track {
   background-color: transparent;
 }
 
@@ -2180,11 +2174,17 @@
   background-color: rgba(0, 0, 0, .26);
 }
 
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+  overflow: visible;
+}
+
 .main-color {color: #805d4c rgb(128, 93, 76)}
 .hover-color {color: #946f5e rgb(148, 111, 94)}
 
 /* Links */
-.standardSidebarView-3F1I7i a, .primary-jw0I4K a, .footer-3rDWdC a, .lookLink-9FtZy-.colorLink-35jkBc,
+.standardSidebarView-3F1I7i a, .imageDetails-1t6Zms a, .primary-jw0I4K a, .footer-3rDWdC a, .lookLink-9FtZy-.colorLink-35jkBc,
 .bda-slist .bda-footer a, .markup-2BOw-j a, .topic-TCb_qw a, .theme-dark .filenameLinkWrapper-1-14c5, .theme-dark .filenameLinkWrapper-1-14c5 a,
 .fakeLink-26oLcc, .operations-36ENbA>a, .colorStandard-2KCXvj a, .checkboxLabel-1zn0UC a, .markup-2BOw-j a, .welcomeMessage-ULm0mo a, .emptyStateCTA-veJ2Cu a,
 .helpText-h3r3wC a, .colorStandard-2KCXvj a,

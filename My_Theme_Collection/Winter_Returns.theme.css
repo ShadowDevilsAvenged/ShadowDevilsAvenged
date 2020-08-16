@@ -336,6 +336,12 @@
     background-color: rgba(0, 0, 0, .36);
 }
 
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+  overflow: visible;
+}
+
 /* Links */
 
 .theme-dark .embedTitleLink-1Zla9e {
@@ -343,6 +349,7 @@
 }
   
   .standardSidebarView-3F1I7i a,
+  .imageDetails-1t6Zms a,
   .theme-dark .card-3Qj_Yx a,
   .bda-slist .bda-footer a,
   .content-8biNdB a,
@@ -878,7 +885,7 @@
     color: white !important;
 }
 
-.scrollerThemed-2oenus.themeGhost-28MSn0.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
@@ -991,8 +998,7 @@
 
 
 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track,
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece {
+.auto-Ge5KZx::-webkit-scrollbar-track  {
     background-color: transparent;
     border: none;
 }
@@ -1827,9 +1833,7 @@
     border: none;
 }
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, 
-.theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: black;
     border-color: transparent;
 }

@@ -892,7 +892,7 @@
   border-color: transparent;
   background: linear-gradient(270deg, transparent 53%, rgba(202,158,115,0.7) 100%);
 }
-.scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background-color: #ca9e73;
 }
 .guildNick-3uAm3i, 
@@ -981,10 +981,10 @@
   display: none;
 }
 
-.scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-dark .scrollerWrap-2lJEkd.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scroller-2FKFPG::-webkit-scrollbar-track, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp.scrollerTrack-1ZIpsv>.scrollerStore-390omS::-webkit-scrollbar-track {
+.auto-Ge5KZx::-webkit-scrollbar-track {
   background-color: transparent;
 }
-.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background-color: black;
 }
 .theme-dark .divider-3FBTu8,
@@ -1324,17 +1324,13 @@
 .theme-dark .mentioned-xhSam7 .mention:hover {
   background: rgba(0,0,0,0.7) !important;
 }
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
   background: rgba(202,158,115, 0.5);
   border: 2px solid rgba(202,158,115, 0.7);
   border-radius: 4px;
 }
 
-.scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerThemed-2oenus.themeLight-1_DWyY .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: #ca9e73;
-  border-color: transparent;
-  border-radius: 4px;
-}
+
 
 
 /* NEXT SECTION */
@@ -1863,6 +1859,11 @@
   border: 1px solid rgba(255,255,255,.12);
 }
 
+.wrapper-3vR61M,
+.wrapper-1F5TKx {
+  background-color: transparent;
+  overflow: visible;
+}
 
 /* Links */
 
@@ -1871,6 +1872,7 @@
 }
 
 .standardSidebarView-3F1I7i a,
+.imageDetails-1t6Zms a,
 .theme-dark .card-3Qj_Yx a,
 .bda-slist .bda-footer a,
 .content-8biNdB a,
