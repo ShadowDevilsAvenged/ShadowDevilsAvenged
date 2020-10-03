@@ -103,6 +103,14 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: #008c99;
 }
 
+.protip-1b9XPC {
+    border-top: none;
+}
+
+.autocompleteQuerySymbol-1kyGZ5 {
+    background-color: #008c99;
+}
+
 
 .wrapper-sa6paO {
     overflow: visible;
@@ -341,7 +349,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border-radius: 7px 7px 0 0;
 }
 
-.css-n57xjs-menu {
+.css-3vaxre-menu {
     background-color: rgba(0, 0, 0, 0.46);
     box-shadow: none;
     color: white;
@@ -349,12 +357,12 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border-top: none;
 }
 
-.css-1gnr91b-option {
+.css-rzbxvl-option {
     background-color: rgba(0, 0, 0, 0.6);
     color: #008c99;
 }
 
-.css-12o7ek3-option {
+.css-1yz4bi9-option {
     background-color: #008c99;
     color: white;
 }
@@ -395,8 +403,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: rgba(0, 0, 0, 0.75) !important;
 }
 
-.theme-dark .checked-3_4uQ9[style*="border-color"] polyline {
-    stroke: white;
+.theme-dark .checked-3_4uQ9[style*="border-color"] path {
+    fill: white;
 }
 
 
@@ -420,14 +428,14 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: white;
 }
 
-.css-mhi7q3-placeholder {
+.css-o3gndj-placeholder {
     color: white;
     opacity: 1;
 }
 
 .css-15ejc46-control,
-.css-2yldzf-control,
-.css-1yegjoj-control {
+.css-gvi9bl-control,
+.css-6fzn47-control {
     background-color: rgba(0, 0, 0, 0.34);
     border-color: transparent;
 }
@@ -874,7 +882,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     fill: white;
 }
 
-.theme-dark .selectorSelected-1_M1WV {
+.theme-dark .selected-1Tbx07 {
     background: linear-gradient(45deg, #008c99 0%, transparent 40%);
 }
 
@@ -1240,9 +1248,14 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     border-radius: 6px;
 }
 
-.theme-dark .searchHeader-1EzJGH,
+
 .theme-dark .header-ykumBX {
     background-color: transparent;
+    box-shadow: none;
+}
+
+.theme-dark .searchHeader-2XoQg7 {
+    color: white; 
     box-shadow: none;
 }
 
@@ -1265,8 +1278,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     box-shadow: none;
 }
 
-.theme-dark .searchHeader-1EzJGH .tab-EiCZG6, 
-.theme-dark .searchHeader-1EzJGH .totalResults-1yK_Ym,
+.theme-dark .searchHeader-2XoQg7 .tab-EiCZG6, 
+.theme-dark .searchHeader-2XoQg7 .totalResults-1yK_Ym,
 .theme-dark .header-ykumBX .title-3pkaKd,
 .theme-dark .channelName-3kBz6H,
 .theme-dark .mentionFilter-1PQ6ey .value-2k8Drt,
@@ -1302,7 +1315,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 
 
 
-.theme-dark .searchHeader-1EzJGH .tab-EiCZG6.selected-16te-P, .theme-dark .searchHeader-1EzJGH .tab-EiCZG6:hover {
+.theme-dark .searchHeader-2XoQg7 .tab-EiCZG6.selected-16te-P, .theme-dark .searchHeader-2XoQg7 .tab-EiCZG6:hover {
     border-bottom: 2px solid #008c99;
 }
 
@@ -1310,38 +1323,38 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     opacity: .7;
 }
 
-.channelSeparator-dTqJ4K:before {
+.channelSeparator-1DOiGt:before {
     border-bottom: none;
 }
 
-.theme-dark .channelSeparator-1X1FuH .channelName-wvgELL {
+.theme-dark .channelSeparator-1X1FuH .channelName-1JRO3C {
     background-color: #008c99;
 }
   
-.channelName-wvgELL {
+.channelName-1JRO3C {
     padding: 12px;
 }
 
-.searchResult-2N9RV4:after, 
-.searchResult-2N9RV4:before {
+.searchResult-9tQ1uo:after, 
+.searchResult-9tQ1uo:before {
     display: none;
 }
 
-.theme-dark .searchResult-2N9RV4 .searchResultMessage-30QnSN.hit-1CXhXT {
+.theme-dark .searchResult-9tQ1uo .searchResultMessage-1fxgXh.hit-1fVM9e {
     border: none;
 }
   
-.theme-dark .searchResult-2N9RV4 .hit-NLlWXA {
+.theme-dark .searchResult-9tQ1uo .hit-NLlWXA {
     background-color: #1e2024;
     box-shadow: none;
 }
   
-.theme-dark .searchResult-2N9RV4.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
+.theme-dark .searchResult-9tQ1uo.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
     border: none;
     background-color: black;
 }
 
-.theme-dark .jumpButton-1ol35X,
+.theme-dark .jumpButton-JkYoYK,
 .theme-dark .jumpButton-3DTcS_,
 .theme-dark .collapseButton-oSNpPX,
 .jumpButton-2dvRSC {
@@ -1354,17 +1367,17 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: rgba(0, 0, 0, .26);
 }
 
-.theme-dark .jumpToPresentBar-9P20AM {
+.theme-dark .jumpToPresentBar-G1R9s6 {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
  
-.newMessagesBar-mujexs {
+.theme-dark .newMessagesBar-265mhP {
     border-radius: 0 0 11px 11px;
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
  
-.newMessagesBar-mujexs button:last-child,
-.jumpToPresentBar-9P20AM button:last-child {
+.theme-dark .newMessagesBar-265mhP button:last-child,
+.jumpToPresentBar-G1R9s6 button:last-child {
     color: white;
 }
 
@@ -1416,7 +1429,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     margin-left: 75px;
 }
 
-.searchResult-2N9RV4.expanded-ovgtuV {
+.searchResult-9tQ1uo.expanded-w_LCGl {
     border: none;
     background: none;
 }
@@ -1571,17 +1584,20 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: #008c99;
 }
 
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+    background-color: rgba(0, 0, 0, .4);
+}
 
 .contentWrapper-SvZHNd,
 .emojiPicker-3PwZFl {
     background: linear-gradient(45deg, #008c99 0%, #212121 67%);
 }
 
-.inspector-sdLnLS {
+.inspector-S2gM3e {
     background: none;
 }
 
-.inspector-sdLnLS {
+.inspector-S2gM3e {
     background: none;
 }
 
@@ -1590,6 +1606,11 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background: #0e0e0e;
     border-left: none;
     box-shadow: none;
+}
+
+.guildIcon-3h-1IH {
+    background-color: transparent;
+    color: white;
 }
   
 .navButtonActive-1MkytQ:hover {
@@ -2272,10 +2293,24 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     box-shadow: none;
 }
 
+.colorHeaderSecondary-3Sp3Ft {
+    color: white;
+}
+
 .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
     border-radius: 0;
     background-color: rgba(0, 0, 0, .33);
     color: white;
+}
+
+.input--jS-j2 {
+	background-color: transparent;
+}
+  
+.container-UC8Ug1 {
+	border-radius: 4px;
+	border: 1px solid #008c99;
+	background-color: rgba(0, 0, 0, .4);
 }
 
 .unreadPill-2HyYtt {
@@ -2289,7 +2324,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     fill: #008c99;
 }
   
-.form-2fGMdU:before,
+.theme-dark .form-2fGMdU:before,
 .separator-42rNt0 {
     background: none;
 }

@@ -67,9 +67,31 @@
   background-color: rgba(0, 0, 0, .76);
 }
 
+.protip-1b9XPC {
+  border-top: none;
+}
+
+.autocompleteQuerySymbol-1kyGZ5 {
+  background-color: #805d4c;
+}
+
 .theme-dark .root-1gCeng {
   background-color: rgba(0, 0, 0, .76);
   box-shadow: none;
+}
+
+.colorHeaderSecondary-3Sp3Ft {
+  color: white;
+}
+
+.input--jS-j2 {
+	background-color: transparent;
+}
+  
+.container-UC8Ug1 {
+	border-radius: 4px;
+	border: 1px solid #805d4c;
+	background-color: rgba(0, 0, 0, .4);
 }
 
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4 {
@@ -97,8 +119,8 @@
   border-radius: 6px;
 }
 
-.css-1yegjoj-control,
-.css-2yldzf-control {
+.css-6fzn47-control,
+.css-gvi9bl-control {
   background-color: rgba(0, 0, 0, 0.4);
   border-color: #805d4c;
 }
@@ -111,7 +133,7 @@
   border-color: #805d4c;
 }
 
-.css-12o7ek3-option,
+.css-1yz4bi9-option,
 .theme-dark .optionActive-KkAdqq {
   background-color: #805d4c;
   color: white;
@@ -122,7 +144,7 @@
   color: white;
 }
 
-.css-1gnr91b-option {
+.css-rzbxvl-option {
   background-color: rgba(128, 93, 76, .7);
   color: white;
 }
@@ -170,8 +192,8 @@
   border-color: #939393;
 }
 
-.theme-dark .checked-3_4uQ9[style*="border-color"] polyline {
-  stroke: white;
+.theme-dark .checked-3_4uQ9[style*="border-color"] path {
+  fill: white;
 }
 
 .lookFilled-1Gx00P.colorGreen-29iAKY, .lookFilled-1Gx00P.colorGreen-29iAKY:disabled,
@@ -351,7 +373,7 @@
   color: white !important;
 }
 
-.css-mhi7q3-placeholder {
+.css-o3gndj-placeholder {
   color: white;
   opacity: 1;
 }
@@ -869,7 +891,7 @@
   background-color: #805d4c !important;
 }
 
-.barBase-39XTcM {
+.newMessagesBar-265mhP {
   opacity: .85;
   background-color: #805d4c;
 }
@@ -940,6 +962,10 @@
 .reaction-1hd86g .emoji {
   width: 1.3rem;
   height: 1.3rem;
+}
+
+.emojiItem-14v6tW.emojiItemSelected-1aLkfV {
+  background-color: rgba(0, 0, 0, .4);
 }
 
 .moreUsers-7v8yWY {
@@ -1134,7 +1160,7 @@
   color: white;
 }
 
-.children-19S4PO:after, .form-2fGMdU:before, .theme-dark .option-96V44q.selected-rZcOL-:after,
+.children-19S4PO:after, .theme-dark .form-2fGMdU:before, .theme-dark .option-96V44q.selected-rZcOL-:after,
 .theme-dark .option-96V44q:after, .divider-3FBTu8 {
   background: none;
 }
@@ -1290,7 +1316,7 @@
   color: white;
 }
 
-.searchHeader-1EzJGH {
+.searchHeader-2XoQg7 {
   color: #9b9b9b;
   box-shadow: none;
 }
@@ -1304,11 +1330,11 @@
   color: white;
 }
 
-.channelSeparator-dTqJ4K:before {
+.channelSeparator-1DOiGt:before {
   border: none;
 }
 
-.channelName-wvgELL {
+.channelName-1JRO3C {
   padding: 10px 17px;
   color: white;
   background: #805d4c;
@@ -1317,18 +1343,18 @@
   margin-top: 5px;
 }
 
-.searchResult-2N9RV4:before, .searchResult-2N9RV4:after {
+.searchResult-9tQ1uo:before, .searchResult-9tQ1uo:after {
   background: none;
 }
 
-.searchResultMessage-30QnSN.hit-1CXhXT {
+.searchResultMessage-1fxgXh.hit-1fVM9e {
   box-shadow: none;
   background-color: rgba(0, 0, 0, .23);
   border: none;
   border-radius: 6px;
 }
 
-.searchResultMessage-30QnSN {
+.searchResultMessage-1fxgXh {
   overflow: visible;
 }
 
@@ -1337,7 +1363,7 @@
   background-color: rgba(0, 0, 0, .26);
 }
 
-.jumpButton-1ol35X, .jumpButton-3DTcS_, .jumpButton-2dvRSC {
+.jumpButton-JkYoYK, .jumpButton-3DTcS_, .jumpButton-2dvRSC {
   border-radius: 6px;
   padding: 4px 13px;
   background-color: #805d4c;
@@ -1345,12 +1371,12 @@
   color: white;
 }
 
-.searchResult-2N9RV4.expanded-ovgtuV {
+.searchResult-9tQ1uo.expanded-w_LCGl {
   border: none;
   background: none;
 }
 
-.expanded-ovgtuV .searchResultMessage-30QnSN.hit-1CXhXT {
+.expanded-w_LCGl .searchResultMessage-1fxgXh.hit-1fVM9e {
   background-color: rgba(0, 0, 0, .46);
   border-color: transparent;
 }
@@ -1492,6 +1518,10 @@
   border-radius: 4px;
 }
 
+.guildIcon-3h-1IH {
+  background-color: transparent;
+  color: white;
+}
 
 
 .navButtonActive-1MkytQ {
@@ -1544,7 +1574,7 @@
   background-color: rgba(0, 0, 0, .3);
 }
 
-.inspector-sdLnLS, .wrapper-2Gsate {
+.inspector-S2gM3e, .wrapper-2Gsate {
   background: none;
 }
 
@@ -1595,7 +1625,7 @@
   border-radius: 4px;
 }
 
-.theme-dark .selectorSelected-1_M1WV {
+.theme-dark .selected-1Tbx07 {
   background-color: #946f5e;
 }
 
@@ -2128,7 +2158,7 @@
   box-shadow: none;
 }
 
-.css-n57xjs-menu {
+.css-3vaxre-menu {
   background-color: rgba(0, 0, 0, 0.76);
   box-shadow: none;
   color: white;
