@@ -1767,9 +1767,19 @@
     opacity: 1;
 }
 
+/* Dividers */
+
 .divider-JfaTT5 {
     border: none;
 }
+
+/* For new unread messages */
+/*
+.divider-JfaTT5.da-isUnread {
+	border: 1px solid #f4acc5;
+}
+*/
+
 
 #app-mount .content-1o0f9g {
     color: white;
@@ -2363,3 +2373,16 @@
     background-color: #f4acc5;
     color: white;
 }
+
+
+/* Sidenav */
+
+.container-3w7J-x {
+	background-color: transparent;
+	/*background: rgba(0, 0, 0, 0.392);*/
+}
+
+.container-1taM1r {
+	background: rgba(0, 0, 0, 0.392);
+}
+
