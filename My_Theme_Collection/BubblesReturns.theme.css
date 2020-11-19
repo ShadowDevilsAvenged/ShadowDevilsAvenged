@@ -807,7 +807,7 @@
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg) !important;
 }
 
-.container-PNkimc,
+.container-3w7J-x,
 .messages-3amgkR {
 	background-color: transparent;
 }
@@ -836,12 +836,24 @@
 	color: white;
 }
 
-.themeDefault-24hCdX,
 .bd-switch {
 	background-color: rgba(255, 255, 255, 0.19);
+	border-radius: 5px;
 }
 
-.size-3rFEHg:after,
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.19) !important;
+}
+
+.container-3auIfb rect {
+	fill: red;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+
 .bd-switch::after {
 	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%) !important;
 	box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
@@ -849,22 +861,34 @@
 	border-radius: 50px;
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
+	background-size: 90px;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: #11df3d;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+
 .bd-switch-checked {
 	background-image: linear-gradient(45deg, rgba(4, 8, 120, 0.66) 0%, rgba(118, 13, 11, 0.54) 100%), url(https://images8.alphacoders.com/782/782017.jpg);
 	background-size: 90px;
 }
+
 
 .theme-dark .footer-2gL1pp {
 	background-color: transparent;
 	box-shadow: none;
 }
 
-.theme-dark .separator-3gy7tq {
+.theme-dark .separator-2-RRj_ {
 	box-shadow: none;
 }
 
-.avatarSpeaking-3MqCHL::after {
+.avatarSpeaking-2IGMRN::after {
 	  content: "";
 	  background-color: transparent !important;
 	  background-image: url(https://opengameart.org/sites/default/files/styles/medium/public/BubbleSimple.png);
@@ -960,25 +984,25 @@
 	background-color: rgba(0, 0, 0, 0.37);
 }
 
-.avatarSpeaking-3MqCHL {
+.avatarSpeaking-2IGMRN {
 	box-shadow: none;
 }
 
-.modeUnread-1zpFdA .name-3_Dsmg, 
-.modeUnread-1zpFdA:hover .name-3_Dsmg,
-.modeUnread-1zpFdA .icon-1_QxNX, 
-.modeUnread-1zpFdA:hover .icon-1_QxNX {
+.modeUnread-1qO3K1 .name-23GUGE, 
+.modeUnread-1qO3K1:hover .name-23GUGE,
+.modeUnread-1qO3K1 .icon-1DeIlz, 
+.modeUnread-1qO3K1:hover .icon-1DeIlz {
 	 color: white;
 	 margin-left: 12px;
 }
-.modeSelected-1zApJ_ .icon-1_QxNX, 
-.modeSelected-1zApJ_:hover .icon-1_QxNX,
-.modeSelected-1zApJ_ .name-3_Dsmg, 
-.modeSelected-1zApJ_:hover .name-3_Dsmg {
+.modeSelected-346R90 .icon-1DeIlz, 
+.modeSelected-346R90:hover .icon-1DeIlz,
+.modeSelected-346R90 .name-23GUGE, 
+.modeSelected-346R90:hover .name-23GUGE {
 	color: white;
 }
 
-.unread-3zKkbm {
+.unread-2lAfLh {
 	background-image: url(https://opengameart.org/sites/default/files/styles/medium/public/BubbleSimple.png);
 	margin-left: -1px;
 	margin-top: -10px;
@@ -989,7 +1013,7 @@
 	background-color: transparent;
 }
 
-.wrapper-1ucjTd:hover .content-3at_AU {
+.wrapper-2jXpOf:hover .content-1x5b-n {
   background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
   border: 2px solid rgba(204, 227, 246, 0.25);
   box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.17);
@@ -998,12 +1022,12 @@
 }
 
 
-.content-3at_AU {
+.content-1x5b-n {
 	border-radius: 30px;
 }
 
-.modeSelected-1zApJ_ .content-3at_AU, 
-.modeSelected-1zApJ_:hover .content-3at_AU {
+.modeSelected-346R90 .content-1x5b-n, 
+.modeSelected-346R90:hover .content-1x5b-n {
   background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
   border: 2px solid rgba(204, 227, 246, 0.60);
   box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.40);
@@ -1033,18 +1057,18 @@
   padding: 0;
 }
 
-.total-3tKGEB {
+.total-i6us2n {
 	width: 28px;
 	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
     box-shadow: inset 0 0 6px 1px rgba(204, 227, 246, 0.17);
     background-color: rgba(65, 95, 132, 0.32);
 }
 
-.total-3tKGEB:after {
+.total-i6us2n:after {
 	border: none;
 }
 
-.users-i_3-kL {
+.users-3kndPl {
 	width: 28px;
 	padding: 0 12px 0 7px;
 	background: linear-gradient(5deg, transparent 52%, rgba(204, 227, 246, 0.8) 100%);
@@ -1052,16 +1076,16 @@
     background-color: rgba(65, 95, 132, 0.32);
 }
 
-.wrapper-pZmgj4 {
+.wrapper-2tAnRe {
 	color: white;
 }
 
-.wrapper-1ucjTd.modeLocked-SZJhTy .name-3_Dsmg,
-.wrapper-1ucjTd.modeLocked-SZJhTy .icon-1_QxNX {
+.wrapper-2jXpOf.modeLocked-SZJhTy .name-23GUGE,
+.wrapper-2jXpOf.modeLocked-SZJhTy .icon-1DeIlz {
     color: red;
 }
 
-.wrapper-1ucjTd.modeLocked-SZJhTy:hover .content-3at_AU {
+.wrapper-2jXpOf.modeLocked-SZJhTy:hover .content-1x5b-n {
 	background: linear-gradient(5deg, transparent 52%, rgba(198, 18, 18, 0.8) 100%);
     box-shadow: inset 0 0 6px 1px rgba(201, 6, 6, 0.434);
     background-color: rgba(223, 46, 46, 0.32);
