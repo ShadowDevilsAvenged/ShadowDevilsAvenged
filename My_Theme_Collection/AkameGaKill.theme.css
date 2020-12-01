@@ -1,4 +1,9 @@
-//META{"name":"Akame_Ga_Kill", "version":"1", "description":"Akame from Akame No Kill", "author":"DevilsLynAvenged"}*//
+/**
+ * @name Akame_Ga_Kill
+ * @author ShadowDevilsAvenged
+ * @description Akame from Akame No Kill
+ * @version 4
+ */
 
 #app-mount .app-2rEoOp {
   background-color: transparent;
@@ -123,7 +128,7 @@
 }
 
 .css-181m2lf-menu,
-.theme-dark .popout-2sKjHu {
+.theme-dark .popout-VcNcHB {
   background-color: #101010;
   box-shadow: none;
   color: white;
@@ -131,8 +136,17 @@
 }
 
 .css-1yz4bi9-option,
-.theme-dark .optionActive-KkAdqq {
+.theme-dark .option-3KoAJB[aria-selected=true] {
   background-color: #9b2742;
+  color: white;
+}
+
+.option-3KoAJB:focus, .option-3KoAJB:hover {
+  background-color: rgba(155, 39, 66, .5);
+  color: white;
+}
+
+.option-3KoAJB {
   color: white;
 }
 
@@ -146,37 +160,73 @@
   color: white;
 }
 
-.themeDefault-24hCdX, .themeDefault-24hCdX.valueChecked-m-4IJZ, .bd-switch,
+/* Regular Switch Deactivated */
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, .56) !important;
+}
+
+.container-3auIfb rect {
+	fill: #9b2742;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+/* Regular Switch Deactivated */
+
+
+/* Regular Switch Activated */
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: #4096e1;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: green;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+/* Regular Switch Activated */
+
+.bd-switch,
 .bd-switch-checked {
   background-color: rgba(0, 0, 0, .56);
 }
 
 
-.themeDefault-24hCdX.sizeDefault-2YlOZr:after, .bd-switch::after {
+.bd-switch::after {
   background-color: #9b2742;
 }
 
-.valueChecked-m-4IJZ.sizeDefault-2YlOZr:after, .bd-switch-checked:before {
+.bd-switch-checked:before {
   background-color: #ad3950;
 }
 
-.sizeDefault-2YlOZr,
-.sizeDefault-2YlOZr:after, .sizeMini-1ii40f,
+.sizeMini-1ii40f,
 .bd-switch::after,
 .bd-switch {
   border-radius: 5px;
 }
 
-.cardPrimaryEditable-3KtE4g {
+.radioBar-bMNUI- path[fill] {
+  fill: #ad3950;
+}
+.radioIconForeground-XwlXQN {
+  color: white;
+  r:7;
+}
+
+.item-26Dhrx {
   background: rgba(0, 0, 0, .46);
 }
 
-.cardPrimaryEditable-3KtE4g[style*="background-color"] {
+.item-26Dhrx[aria-checked=true] {
   background: #9b2742 !important;
   border: none !important;
 }
 
-.cardPrimary-1Hv-to, .cardPrimaryEditable-3KtE4g {
+.cardPrimary-1Hv-to, .item-26Dhrx {
   border-color: #9b2742;
 }
 
@@ -322,7 +372,7 @@
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover, .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookOutlined-3sRXeN.colorBrand-3pXr91:hover, .theme-dark .create-3jownz:hover .actionButton-2PeQbJ {
-  background-color: #3443ea;
+  background-color: #3443ea !important;
 }
 
 .theme-dark .card-FDVird:before {
@@ -480,11 +530,22 @@
   background-color: rgba(0, 0, 0, .46);
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:focus {
+.selectedIcon-3uS11H {
+  color: white;
+  width: 23px;
+  height: 23px;
+}
+
+.lookFilled-22uAsw.select-2fjwPw {
+  background-color: #101010;
   border-color: #9b2742;
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+.lookFilled-22uAsw.select-2fjwPw:focus {
+  border-color: #9b2742;
+}
+
+.lookFilled-22uAsw.select-2fjwPw:hover.open-kZ53_U, .theme-dark .lookFilled-22uAsw.open-kZ53_U {
   border-color: #9b2742 #9b2742 rgba(0,0,0,.3);
 }
 
@@ -510,14 +571,6 @@
   background-color: #9b2742;
   border: none;
   box-shadow: none;
-}
-
-.theme-dark .bubble-3we2di {
-  background-color: #ad3950;
-}
-
-.theme-dark .bubble-3we2di:before {
-  border-top-color: #ad3950;
 }
 
 .barFill-23-gu- {
@@ -894,7 +947,7 @@
   background-color: rgb(0, 0, 0, .5);
 }
 
-.newMessagesBar-265mhP {
+.newMessagesBar-265mhP, .container-2fRDfG {
   opacity: .85;
   background-color: #9b2742;
 }
@@ -2220,3 +2273,27 @@
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
   background-image: linear-gradient(0deg,transparent,transparent 1px,lightgreen 0,lightgreen 2px,transparent 0);
 }
+
+/* New Things Here */
+.background-1QDuV2, .accountList-33MS45, .connection-1fbD7X {
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.fieldList-21DyL8, .connectionHeader-2MDqhu, .integration-3kMeY4 {
+	background-color: transparent;
+}
+
+.phoneField-38N1bJ {
+	background-color: transparent;
+	border: none;
+}
+
+.phoneField-38N1bJ .inputField-aNPXsv {
+	background-color: transparent;
+	color: white;
+}
+
+.bda-slist .bda-footer button[style*="background-color: rgb(114, 137, 218);"] {
+  background-color: #9b2742 !important;
+}
+/* New Things Here */

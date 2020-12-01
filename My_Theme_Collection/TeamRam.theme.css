@@ -1,5 +1,9 @@
-//META{"name":"Ram_Returns","description":"Say Hello to Team Ram once again","author":"DevilsLynAvenged","version":"1"}*//{}
-
+/**
+ * @name Ram Returns
+ * @author ShadowDevilsAvenged
+ * @description Say Hello to Team Ram once again
+ * @version 4
+ */
 
 .app-2rEoOp {
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.694) 33%, rgba(0, 0, 0, 0.598) 65%), url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2bbad678-25db-4953-aed1-24f458d9e85b/daisdq0-98bf44d5-91d2-4024-8584-5bd7d079a249.jpg/v1/fill/w_1600,h_900,q_75,strp/minimalist_wallpaper___ram__re_zero__by_mrtapoz_kun_daisdq0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvMmJiYWQ2NzgtMjVkYi00OTUzLWFlZDEtMjRmNDU4ZDllODViXC9kYWlzZHEwLTk4YmY0NGQ1LTkxZDItNDAyNC04NTg0LTViZDdkMDc5YTI0OS5qcGciLCJ3aWR0aCI6Ijw9MTYwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uuMpcOxbvtR2pZqKQq0tajcW4bLILhqd1nuUUY3KMQQ);
@@ -141,7 +145,7 @@
 }
 
 .cardPrimary-1Hv-to, 
-.cardPrimaryEditable-3KtE4g {
+.theme-dark .item-26Dhrx {
     border-color: #f4acc5;
 }
 
@@ -153,7 +157,9 @@
     background-color: #f4acc5;
 }
 
-.cardPrimary-1Hv-to {
+.cardPrimary-1Hv-to,
+.theme-dark .item-26Dhrx,
+.theme-dark .item-26Dhrx:hover {
     background: rgba(244, 172, 197, 0.345);
 }
 
@@ -368,7 +374,7 @@
   .imageDetails-1t6Zms a,
   .theme-dark .card-3Qj_Yx a,
   .bda-slist .bda-footer a,
-  .content-8biNdB a,
+  .content-s2SEQO a,
   .footer-3rDWdC a,
   .lookLink-9FtZy-.colorLink-35jkBc,
   .theme-dark .markup-2BOw-j a,
@@ -400,30 +406,53 @@
   
   /* ---- */
 
-.themeDefault-24hCdX.sizeDefault-2YlOZr {
-    box-shadow: none;
-}
-
-.themeDefault-24hCdX,
 .bd-switch {
     background-color: rgba(208, 208, 208, 0.30);
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
 .themeClear-1EjkE4 {
-    border-radius: 6px;
+    border-radius: 5px;
 }
 
-.sizeDefault-2YlOZr:after, 
+
 .sizeMini-1ii40f,
 .bd-switch::after {
     border-radius: 4px;
 }
 
-.bd-switch-checked,
-.themeDefault-24hCdX.valueChecked-m-4IJZ {
+.bd-switch-checked {
     background: #f4acc5;
 }
+
+/* Regular Switch Deactivated */
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: rgba(208, 208, 208, 0.30) !important;
+}
+
+.container-3auIfb rect {
+	fill: red;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+/* Regular Switch Deactivated */
+
+
+/* Regular Switch Activated */
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: #f4acc5 !important;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: #11df3d;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+/* Regular Switch Activated */
 
 .cardPrimaryOutline-29Ujqw {
     border-color: black;
@@ -536,40 +565,44 @@
     box-shadow: none;
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4,
+.lookFilled-22uAsw.select-2fjwPw,
 .css-gvi9bl-control {
     background-color: rgba(0,0,0,.5);
     border-color: transparent;
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, 
-.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+.lookFilled-22uAsw.select-2fjwPw:hover.open-kZ53_U, 
+.theme-dark .lookFilled-22uAsw.open-kZ53_U {
     border-color: black black rgba(0,0,0,.3);
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover,
+.lookFilled-22uAsw.select-2fjwPw:hover,
 .css-15ejc46-control:hover,
 .css-gvi9bl-control:hover {
     border-color: black;
 }
 
-.theme-dark .select-1Pkeg4 {
+.theme-dark .select-2fjwPw {
     color: white;
 }
 
-.theme-dark .popout-2sKjHu,
+.theme-dark .popout-VcNcHB,
 .css-181m2lf-menu {
     border-color: transparent;
     background: rgba(18, 19, 21, 0.667);
 }
 
-.theme-dark .optionActive-KkAdqq,
+.theme-dark .option-3KoAJB[aria-selected=true],
 .css-1yz4bi9-option {
     color: white;
     background: rgba(0,0,0,.4);
 }
 
-.theme-dark .optionNormal-12VR9V:hover,
+.selectedIcon-3uS11H {
+    color: #f4acc5;
+}
+
+.theme-dark .option-3KoAJB:hover,
 .css-rzbxvl-option {
     background-color: rgba(0,0,0,.23);
 }
@@ -585,13 +618,7 @@
     box-shadow: none;
 }
 
-.theme-dark .bubble-3we2di {
-    background-color: #242424;
-}
 
-.bubble-3we2di:before {
-    border: none;
-}
 
 .barFill-23-gu- {
     background: #f4acc5;
@@ -610,7 +637,16 @@
     background: rgba(0, 0, 0, 0.407) !important;
 }
 
-.cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+.radioBar-bMNUI- path[fill] {
+    fill: #e7729b;
+}
+  
+.radioIconForeground-XwlXQN {
+    color: white;
+    r:7;
+}
+
+.item-26Dhrx[aria-checked=true] {
     background-color: #f4acc5 !important;
     border: 2px solid rgba(0, 0, 0, 0.52) !important;
 }
@@ -1467,7 +1503,8 @@
     box-shadow: none;
 }
 
-.theme-dark .jumpToPresentBar-G1R9s6 {
+.theme-dark .jumpToPresentBar-G1R9s6,
+.container-2fRDfG {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
  
@@ -1917,7 +1954,7 @@
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
     color: white;
-    background-color: #4570e6;
+    background-color: #4570e6 !important;
 }
 
 .lookInverted-2D7oAl.colorGreen-29iAKY {
@@ -1928,7 +1965,7 @@
 
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
     color: white;
-    background-color: #127635;
+    background-color: #127635 !important;
 }
 
 .liveRed-lUmv1v {
@@ -2256,8 +2293,7 @@
     background-color: transparent;
 }
 
-.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
-.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+.colorDefault-2K3EoJ .checkbox-3s5GYZ {
   color: rgba(0, 0, 0, .26) !important;
 }
 
@@ -2363,3 +2399,42 @@
     background-color: #f4acc5;
     color: white;
 }
+
+/* New Things Here */
+.channelName-1JRO3C {
+	color: white;
+	background: rgba(0, 0, 0, .3);
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: #f4acc5 !important;
+}
+
+.live-vBWnV6 {
+    background-color: #f4acc5 !important;
+    padding: 5px 9px;
+}
+
+.background-1QDuV2,
+.accountList-33MS45,
+.connection-1fbD7X {
+	background-color: rgba(0, 0, 0, .26);
+}
+
+.fieldList-21DyL8 {
+    background-color: transparent;
+}
+
+.connectionHeader-2MDqhu {
+    background: none;
+}
+
+.integration-3kMeY4 {
+    background-color: transparent;
+}
+/* New Things Here */

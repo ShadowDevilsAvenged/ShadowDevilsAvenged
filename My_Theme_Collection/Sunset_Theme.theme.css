@@ -1,5 +1,9 @@
-//META{"name":"Sunset_Theme","description":"Sunset theme has returned","author":"DevilsLynAvenged","version":"1"}*//{}
-
+/**
+ * @name Sunset Theme
+ * @author ShadowDevilsAvenged
+ * @description Sunset theme has returned
+ * @version 4
+ */
 .app-2rEoOp {
     background-color: transparent;
     background-image: url(https://c.wallhere.com/photos/b3/e3/aircraft_sunset_minimalism_mountains_Moon_digital_art-84654.png!d);
@@ -49,11 +53,13 @@
 }
 
 .cardPrimary-1Hv-to,
-.cardPrimaryEditable-3KtE4g {
+.theme-dark .item-26Dhrx {
 	border-color: black;
 }
 
-.cardPrimary-1Hv-to {
+.cardPrimary-1Hv-to,
+.theme-dark .item-26Dhrx,
+.theme-dark .item-26Dhrx:hover {
 	background: rgba(115, 24, 56, 0.52);
 }
 
@@ -283,22 +289,21 @@
     background-color: rgba(0, 0, 0, .33);
 }
 
-.themeDefault-24hCdX.sizeDefault-2YlOZr,
 .bd-switch {
     box-shadow:  0 2px 2px 2px rgba(0, 0, 0, 0.824);
 }
 
-.themeDefault-24hCdX,
+
 .bd-switch {
 	background-color: #4d1627;
 }
 
-.sizeDefault-2YlOZr,
+
 .bd-switch {
 	border-radius: 8px;
 }
 
-.sizeDefault-2YlOZr:after, 
+
 .sizeMini-1ii40f,
 .bd-switch::after {
     border-radius: 6px;
@@ -308,10 +313,39 @@
     border-radius: 4px;
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
+
 .bd-switch-checked {
     background-color: #7f2542;
 }
+
+/* Regular Switch Deactivated */
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: #4d1627 !important;
+}
+
+.container-3auIfb rect {
+	fill: red;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+/* Regular Switch Deactivated */
+
+
+/* Regular Switch Activated */
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: #7f2542 !important;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: #11df3d;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+/* Regular Switch Activated */
 
 .cardPrimaryOutline-29Ujqw {
     border-color: black;
@@ -427,20 +461,43 @@
     border-top-right-radius: 12px;
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4,
-.theme-dark .popout-2sKjHu {
+.lookFilled-22uAsw.select-2fjwPw,
+.theme-dark .popout-VcNcHB {
 	background-color: #4d1627;
 	border-color: black;
 }
 
-.theme-dark .select-1Pkeg4,
-.theme-dark .optionNormal-12VR9V {
+.theme-dark .select-2fjwPw,
+.theme-dark .option-3KoAJB,
+.billingInformation-1MZXzx {
 	color: white;
 }
 
-.theme-dark .optionActive-KkAdqq {
+.theme-dark .option-3KoAJB[aria-selected=true] {
     color: white;
-    background: rgba(127, 37, 66, .3);
+    background: rgba(127, 37, 65, .6);
+}
+
+.selectedIcon-3uS11H {
+	color: white;
+	width: 23px;
+	height: 23px;
+}
+
+.detailsBlock-FoDTGA {
+    background-color: rgba(0, 0, 0, .33);
+}
+
+.option-3KoAJB:focus, .option-3KoAJB:hover {
+    background-color: rgba(115, 24, 56, .3);
+    color: white;
+}
+
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
+    background-color: #731838;
+}
+.auto-Ge5KZx::-webkit-scrollbar-track {
+    background-color: transparent;
 }
 
 .theme-dark .modal-yWgWj- {
@@ -519,10 +576,18 @@
     border-radius: 6px;
 }
 
-.cardPrimaryEditable-3KtE4g[style*="background-color"] {
+.item-26Dhrx[aria-checked=true] {
     border-color: black !important;
     background-color: #731838 !important;
     border-style: solid;
+}
+
+.radioBar-bMNUI- path[fill] {
+	fill: #4d1627;
+}
+.radioIconForeground-XwlXQN {
+	color: white;
+	r:7;
 }
 
 .theme-dark .checked-3_4uQ9[style*="border-color"] {
@@ -935,12 +1000,14 @@
 }
 
 .theme-dark .newMessagesBar-265mhP,
-.jumpToPresentBar-G1R9s6 {
+.jumpToPresentBar-G1R9s6,
+.container-2fRDfG {
     background-color: rgba(0,0,0,0.33);
 }
 
 .theme-dark .newMessagesBar-265mhP:hover,
-.jumpToPresentBar-G1R9s6:hover {
+.jumpToPresentBar-G1R9s6:hover,
+.container-2fRDfG:hover {
     background-color: rgba(0,0,0,0.73);
 }
 
@@ -2358,3 +2425,44 @@
 .color-hover-1 { background-color: #7f2542 rgb(127, 37, 66) }  /* Hover Color(Last Color of the Monochromatic Colors)  */
 
 .color-dark-1 { background-color: #4d1627 }  /* Dark Color(3rd Color of the Darker Color Shades)  */
+
+/* New Things Here */
+.reactionMe-wv5HKu .reactionCount-2mvXRV, 
+.reactionMe-wv5HKu:hover .reactionCount-2mvXRV {
+    color: #63d851;
+}
+
+.reactionCount-2mvXRV {
+    color: white;
+}
+
+.channelName-1JRO3C {
+	color: white;
+	background: rgba(0, 0, 0, .33);
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, .36);
+}
+
+.textarea-2r0oV8:focus {
+	background-color: rgba(0, 0, 0, .33);
+}
+
+.bda-slist .bda-footer button[style*="background-color: rgb(114, 137, 218);"] {
+    background-color: #731838 !important;
+}
+
+.connectionHeader-2MDqhu {
+    background-color: transparent;
+}
+
+.accountList-33MS45, .connection-1fbD7X {
+	background-color: rgba(0, 0, 0, .2);
+}
+
+.integration-3kMeY4 {
+    background-color: transparent;
+}
+/* New Things Here */

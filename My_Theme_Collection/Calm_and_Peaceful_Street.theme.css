@@ -1,11 +1,25 @@
-//META{"name":"Calm_and_Peaceful_Street","description":"Girl walking on a Calm and Peaceful street","author":"DevilsLynAvenged","version":"1"}*//{}
+/**
+ * @name Calm and Peaceful Street
+ * @author ShadowDevilsAvenged
+ * @description Girl walking on a Calm and Peaceful street
+ * @version 4
+ */
 #app-mount .app-2rEoOp {
   background-image: url(https://images6.alphacoders.com/102/1029037.jpg);
   background-size: cover;
 } 
 
+.cozy-3raOZG .repliedMessage-VokQwo {
+  margin-bottom: var(--reply-spacing);
+}
 
-
+.repliedMessage-VokQwo {
+  --reply-spacing: 10px;
+}
+.repliedTextPreview-2NBljf {
+  overflow: visible;
+  margin-bottom: 20px;
+}
 
 .slateTextArea-1Mkdgw {
   caret-color: white;
@@ -103,7 +117,8 @@
   color: silver;
 }
 .theme-dark .cardPrimary-1Hv-to,
-.theme-dark .cardPrimaryEditable-3KtE4g {
+.theme-dark .item-26Dhrx,
+.theme-dark .item-26Dhrx:hover {
   background: rgba(0, 0, 0, 0.4);
   border-color: black;
 }
@@ -232,25 +247,47 @@
   border: 1px solid rgba(255, 255, 255, 0.45);
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
+
 .bd-switch-checked {
   background-color: #789dbf;
 }
-.themeDefault-24hCdX.sizeDefault-2YlOZr {
-  box-shadow: none;
-}
-.sizeDefault-2YlOZr,
 .bd-switch {
   border-radius: 5px;
 }
-.themeDefault-24hCdX,
 .bd-switch {
   background-color: #6f9dc8;
 }
-.sizeDefault-2YlOZr:after,
 .bd-switch::after {
   border-radius: 5px;
 }
+/* Regular Switch Deactivated */
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: #6f9dc8 !important;
+}
+
+.container-3auIfb rect {
+	fill: red;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+/* Regular Switch Deactivated */
+
+
+/* Regular Switch Activated */
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: #789dbf !important;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: #11df3d;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+/* Regular Switch Activated */
 .theme-dark .checkbox-1ix_J3 {
   border-color: rgba(255, 255, 255, 0.35);
 }
@@ -359,6 +396,31 @@
   color: white;
 }
 
+.theme-dark .popout-VcNcHB {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.selectedIcon-3uS11H {
+	color: rgba(0, 0, 0, .6);
+	width: 23px;
+	height: 23px;
+}
+  
+.lookFilled-22uAsw.select-2fjwPw {
+  background-color: black;
+  border-color: #789dbf;
+}
+
+.option-3KoAJB[aria-selected=true] {
+	color: white;
+	background-color: #789dbf !important;
+}
+
+.option-3KoAJB:focus, .option-3KoAJB:hover {
+	background-color: #6f9dc8;
+	color: white;
+}
+
 .theme-dark .userSettingsVoice-iwdUCU .previewOverlay-2O7_KC {
   background-color: transparent;
   border-color: transparent;
@@ -412,9 +474,17 @@
   border: none;
 }
 
-.theme-dark .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+.item-26Dhrx[aria-checked=true] {
   background: #789dbf !important;
   border-color: black !important;
+}
+
+.radioBar-bMNUI- path[fill] {
+	fill: #3a5a77;
+}
+.radioIconForeground-XwlXQN {
+	color: white;
+	r:7;
 }
 
 .theme-dark .checked-3_4uQ9[style*="border-color: rgb(114, 137, 218);"] {
@@ -875,7 +945,7 @@
   border: 2px solid #4f5fe0;
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
-  background-color: #4f5fe0;
+  background-color: #4f5fe0 !important;
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91 {
   color: white !important;
@@ -1164,7 +1234,8 @@
 }
 
 .theme-dark .jumpToPresentBar-G1R9s6,
-.theme-dark .newMessagesBar-265mhP button {
+.theme-dark .newMessagesBar-265mhP button, 
+.container-2fRDfG {
   background-color: rgba(0,0,0,.9) !important;
 }
 
@@ -1288,9 +1359,12 @@
   background: none;
 }
 
-.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
-.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+.colorDefault-2K3EoJ .checkbox-3s5GYZ {
   color: rgba(0, 0, 0, .26) !important;
+}
+
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+	color: #6f9dc8 !important;
 }
 
 .colorDefault-2K3EoJ.focused-3afm-j .check-1JyqgN {
@@ -2091,3 +2165,47 @@ Hover Color: #6f9dc8 - 111, 157, 200
 
 /* ---- */
 
+/* New Things Here */
+.tip-2ab612 {
+	opacity: 1;
+}
+.colorStandard-2KCXvj, .actionButton-uPB8Fs, .header-19cWci, .theme-dark .activityIcon-c4ew_N {
+	color: white;
+}
+
+.background-1QDuV2, .accountList-33MS45, .connection-1fbD7X {
+	background-color: rgba(0, 0, 0, .4);
+}
+
+.fieldList-21DyL8, .connectionHeader-2MDqhu, .integration-3kMeY4 {
+	background-color: transparent;
+}
+
+.phoneField-38N1bJ {
+	background-color: transparent;
+	border: none;
+}
+
+.phoneField-38N1bJ .inputField-aNPXsv {
+	background-color: transparent;
+	color: white;
+}
+
+.bda-slist .bda-footer button[style*="background-color: rgb(114, 137, 218);"] {
+	background: #789dbf !important;
+}
+
+.channelName-1JRO3C {
+	color: white;
+	background: transparent;
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+	box-shadow: none;
+	background-color: rgba(255,255,255,.2);
+}
+
+.integration-3kMeY4 {
+  background-color: transparent;
+}
+/* New Things Here */

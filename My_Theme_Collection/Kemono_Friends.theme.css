@@ -1,5 +1,9 @@
-//META{"name":"KemonoFriends_Returns","description":"Say Hello to the Animals as they make a return","author":"DevilsLynAvenged","version":"1"}*//{}
-
+/**
+ * @name Kemono Friends Returns
+ * @author ShadowDevilsAvenged
+ * @description Say Hello to the Animals as they make a return
+ * @version 4
+ */
 @import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
 
 body, div, span, textarea, ::-webkit-input-placeholder {
@@ -409,7 +413,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: #728e3d;
 }
 
-.theme-dark .cardPrimaryEditable-3KtE4g {
+.theme-dark .item-26Dhrx:hover {
     background: rgba(114, 142, 61, 0.26);
     border-color: #728e3d;
 }
@@ -433,20 +437,57 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 
-.theme-dark .cardPrimaryEditable-3KtE4g[style*="border-color: rgb(114, 137, 218); background-color: rgb(114, 137, 218);"] {
+.item-26Dhrx[aria-checked=true] {
     background: #728e3d !important;
     border-color: black !important;
 }
 
-.themeDefault-24hCdX,
+.radioBar-bMNUI- path[fill] {
+	fill: #a5c962;
+}
+.radioIconForeground-XwlXQN {
+	color: white;
+	r:7;
+}
+
+
 .bd-switch {
     background-color: rgba(0, 0, 0, 0.25);
 }
 
-.themeDefault-24hCdX.valueChecked-m-4IJZ,
+
 .bd-switch-checked {
     background-color: #728e3d;
 }
+
+/* Regular Switch Deactivated */
+.container-3auIfb {
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.25) !important;
+}
+
+.container-3auIfb rect {
+	fill: red;
+	rx: 5;
+}
+.container-3auIfb path {
+	fill: white;
+}
+/* Regular Switch Deactivated */
+
+
+/* Regular Switch Activated */
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+	background-color: #728e3d !important;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
+	fill: #11df3d;
+	rx: 5;
+}
+.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+	fill: white;
+}
+/* Regular Switch Activated */
 
 
 .theme-dark .h5-18_1nd {
@@ -965,7 +1006,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover {
     color: white;
-    background-color: #4570e6;
+    background-color: #4570e6 !important;
 }
 
 .button-38aScr {
@@ -1391,7 +1432,8 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: #728e3d !important;
 }
 
-.theme-dark .jumpToPresentBar-G1R9s6 {
+.theme-dark .jumpToPresentBar-G1R9s6,
+.container-2fRDfG {
     background-color: rgba(0, 0, 0, 0.4) !important;
 }
  
@@ -1619,8 +1661,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background: none;
 }
 
-.colorDefault-2K3EoJ .checkbox-3s5GYZ, 
-.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+.colorDefault-2K3EoJ .checkbox-3s5GYZ {
   color: rgba(0, 0, 0, .26) !important;
 }
 
@@ -1766,7 +1807,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
 }
 
 .cardPrimary-1Hv-to, 
-.cardPrimaryEditable-3KtE4g {
+.theme-dark .item-26Dhrx {
     border-color: black;
     border: 2px solid black;
 }
@@ -1875,21 +1916,38 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     background-color: transparent;
 }
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4 {
+.lookFilled-22uAsw.select-2fjwPw,
+.detailsBlock-FoDTGA {
     background-color: rgba(0,0,0,.3);
     border-color: rgba(0, 0, 0, 0.78);
 }  
 
-.theme-dark .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, 
-.theme-dark .lookFilled-1h1y05.selectOpen-hQuR6b {
+.lookFilled-22uAsw.select-2fjwPw:hover.open-kZ53_U, 
+.theme-dark .lookFilled-22uAsw.open-kZ53_U {
     border-color: black;
 }
 
-.theme-dark .select-1Pkeg4 {
+.theme-dark .select-2fjwPw,
+.option-3KoAJB,
+.billingInformation-1MZXzx {
     color: white;
 }
 
-.theme-dark .popout-2sKjHu {
+.option-3KoAJB:focus, .option-3KoAJB:hover {
+    background-color: rgba(0,0,0,.1);
+    color: white;
+}
+
+.option-3KoAJB[aria-selected=true] {
+    color: white;
+    background-color: #617d2d;
+}
+
+.selectedIcon-3uS11H {
+    color: white;
+}
+
+.theme-dark .popout-VcNcHB {
     border-color: transparent;
     background: #728e3d;
 }
@@ -2272,7 +2330,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
   .imageDetails-1t6Zms a,
   .theme-dark .card-3Qj_Yx a,
   .bda-slist .bda-footer a,
-  .content-8biNdB a,
+  .content-s2SEQO a,
   .footer-3rDWdC a,
   .lookLink-9FtZy-.colorLink-35jkBc,
   .theme-dark .markup-2BOw-j a,
@@ -2309,7 +2367,7 @@ body, div, span, textarea, ::-webkit-input-placeholder {
   }
 
 /* Main Color */
-.color-primary { #728e3d  rgba(114, 142, 61, 1.0); }
+/*.color-primary { #728e3d  rgba(114, 142, 61, 1.0); }
 /* Main Color */ 
 
 .unreadPill-2HyYtt {
@@ -2365,3 +2423,42 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     width: 1.7rem;
     margin-left: 6px;
 }
+
+/* New Things Here */
+.colorDefault-2K3EoJ .radioSelection-1HmrQS {
+    color: #728e3d !important;
+}
+
+.channelName-1JRO3C {
+    color: white;
+    background: transparent;
+}
+
+.searchResultMessage-1fxgXh.hit-1fVM9e {
+	box-shadow: none;
+	background-color: rgba(0, 0, 0, .26);
+}
+
+.bda-slist .bda-footer button[style*="background-color: rgb(114, 137, 218);"] {
+    background-color: #728e3d !important;
+}
+
+.background-1QDuV2,
+.accountList-33MS45,
+.connection-1fbD7X {
+	background-color: rgba(0, 0, 0, .23);
+}
+
+.fieldList-21DyL8 {
+    background-color: transparent;
+}
+
+.connectionHeader-2MDqhu {
+    background: none;
+}
+
+.integration-3kMeY4 {
+    background-color: transparent;
+}
+
+/* New Things Here */
