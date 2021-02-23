@@ -37,6 +37,137 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
 }
 
+.option-3KoAJB.focused-1T6PE5 {
+    color: white; 
+    background-color: rgba(0, 0, 0, .53) !important;
+}
+
+.tutorialIcon-3f1miQ {
+    background-color: #728e3d;
+    color: white;
+    border-radius: 30px;
+}
+
+.emptyChannelIcon-cc932w {
+    border-radius: 30px;
+    background-color: #728e3d;
+}
+
+.theme-dark .item-3T2z1R {
+  border-color: transparent;
+}
+
+.item-3T2z1R:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.selectorButton-EEUWed {
+  background-color: rgba(114, 142, 61, .3);
+}
+
+#app-mount .selectorButtonSelected-t5V9On {
+  background-color: #728e3d;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: rgba(114, 142, 61, .6);
+}
+
+.card-2Mz_4z {
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #728e3d;
+    background-color: rgba(114, 142, 61, .3);
+}
+.border-3dQmSY.speaking-WDn8Wm {
+  box-shadow: inset 0 0 0 2px #728e3d, inset 0 0 0 3px #000;
+}
+.background-ujHpbY {
+  background-color: transparent !important;
+}
+.tile-2naSqK {
+    background-color: transparent;
+}
+.card-3RzMcx {
+    background-color: rgba(0, 0, 0, .30) !important;
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #4f545c;
+}
+
+.wrapper-39oAo3 {
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.sourceThumbnail-27dolk {
+    background-color: transparent;
+}
+  
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+    box-shadow: inset 0 0 0 2px #728e3d;
+}
+
+.tutorial-3w5I9h {
+    background-color: rgba(0, 0, 0, .26);
+  }
+
+.settingCard-3w2mVL.active-1ytUzX {
+    background: rgba(0, 0, 0, .7);
+}
+
+.settingCard-3w2mVL {
+    background: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+}
+
+.cardFolder-28dwxo {
+    background-color: transparent;
+}
+
+.wrapper-2Gsate {
+    background: #262424;
+}
+
+.selected-3xBBKs, .selected-3xBBKs:hover {
+    background-color: rgba(0, 0, 0, .23);
+}
+  
+.selected-3xBBKs .icon-2VCx8O, .selected-3xBBKs:hover .icon-2VCx8O, .icon-2VCx8O {
+    color: white;
+}
+
+.button-F9qN4n {
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, .17) !important;
+}
+
+  .customItem-a8hq58 {
+    border-color: transparent;
+    color: white;
+}
+
+.theme-dark .barBase-1c2Rfb {
+    background-color:rgba(0, 0, 0, .34);
+    opacity: .75;
+}
+
+.theme-dark .activeButton-rvKcqq, .theme-dark .activeButton-rvKcqq:hover {
+    background-color: #728e3d;
+}
+   
+.pageButton-2ruNwd:hover {
+     color: white;
+     background-color: rgba(0, 0, 0, .33);
+}
+   
+.roundButton-CEHyUp {
+     border-radius: 50px;
+}
+
 #app-mount .app-2rEoOp {
     background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.77) 0%, rgba(82, 82, 82, 0.605) 80%), url(https://images4.alphacoders.com/800/800588.png);
     background-size: cover;
@@ -256,7 +387,10 @@ body, div, span, textarea, ::-webkit-input-placeholder {
     color: white;
 }
 
-.theme-dark .header-3ZP1MY {
+.theme-dark .header-3ZP1MY,
+.colorHeaderPrimary-26Jzh-,
+.container-UC8Ug1 .colorStandard-2KCXvj,
+.footer-2gL1pp .colorStandard-2KCXvj {
     color: white;
 }
 
@@ -2328,12 +2462,14 @@ body, div, span, textarea, ::-webkit-input-placeholder {
   .localBotMessage-1cGMdw a,
   .theme-dark .container-3-pyIM .content-2M3n_H a,
   .helpText-h3r3wC a,
+  .button-18p_f6,
   .lookLink-9FtZy-.colorBrand-3pXr91,
   .emptyStateSubtext-2njjqg a,
   .theme-dark .container-2x5lvQ section a,
   .fakeLink-26oLcc,
   .metadataContent-3c_ZXw a,
-  .editChannelButton-1dYN-G {
+  .editChannelButton-1dYN-G,
+  .footerText-2a7NxZ a {
       color: #66cff9;
 }
 

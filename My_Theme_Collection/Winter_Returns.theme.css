@@ -15,6 +15,19 @@
     background-color: rgba(0,0,0,.3);
 }
 
+.settingCard-3w2mVL.active-1ytUzX {
+    background: rgba(0, 0, 0, .7);
+}
+
+.settingCard-3w2mVL {
+    background: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+}
+
+.cardFolder-28dwxo {
+    background-color: transparent;
+}
+
 .placeholder-37qJjk, 
 .slateTextArea-1Mkdgw .hljs-comment, 
 .slateTextArea-1Mkdgw .hljs-quote {
@@ -138,11 +151,6 @@
   border-radius: 5px;
 }
 
-.cardPrimary-1Hv-to, 
-.theme-dark .item-26Dhrx {
-    border-color: #6b82ce;
-}
-
 .protip-1b9XPC {
     border-top: none;
 }
@@ -151,10 +159,141 @@
     background-color: #6b82ce;
 }
 
-.cardPrimary-1Hv-to,
-.theme-dark .item-26Dhrx,
-.theme-dark .item-26Dhrx:hover {
-    background: rgba(107, 130, 206, 0.345);
+.tutorialIcon-3f1miQ {
+    background-color:  #6b82ce;
+    color: white;
+    border-radius: 30px;
+}
+
+.emptyChannelIcon-cc932w {
+  border-radius: 30px;
+  background-color: #6b82ce;
+}
+
+.wrapper-39oAo3 {
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid #4f545c;
+}
+
+.sourceThumbnail-27dolk {
+    background-color: transparent;
+  }
+  
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+    box-shadow: inset 0 0 0 2px #6b82ce;
+}
+.background-ujHpbY {
+  background-color: transparent !important;
+}
+.tile-2naSqK {
+    background-color: transparent;
+}
+.card-3RzMcx {
+    background-color: rgba(0, 0, 0, .30) !important;
+}
+
+.card-2Mz_4z {
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #6b82ce;
+    background-color: rgba(107, 130, 206, .3);
+}
+.border-3dQmSY.speaking-WDn8Wm {
+	box-shadow: inset 0 0 0 2px #6b82ce, inset 0 0 0 3px #000;
+} 
+.cardPrimary-1Hv-to {
+    background: rgba(116, 137, 231, 0.345);
+}
+
+.theme-dark .item-3T2z1R {
+  border-color: transparent;
+}
+
+.item-3T2z1R:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.selectorButton-EEUWed {
+  background-color: rgba(107, 130, 206, .3);
+}
+
+#app-mount .selectorButtonSelected-t5V9On {
+  background-color: #6b82ce;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: rgba(107, 130, 206, .6);
+}
+
+.item-26Dhrx:hover:not([aria-checked=true]) {
+    border-color: #6b82ce !important;
+    border-width: 3px;
+    color: white;
+    background-color: transparent;
+}
+
+.theme-dark .item-26Dhrx {
+    background-color: transparent;
+    color: white;
+    border: 1px solid #6b82ce;
+}
+
+.option-3KoAJB.focused-1T6PE5 {
+    color: white;
+    background-color: #6b82ce !important;
+}
+
+.option-3KoAJB {
+    color: white;
+}
+
+.button-F9qN4n {
+    background-color: transparent;
+}
+
+.customItem-a8hq58 {
+    color: white;
+    border-color: transparent;
+}
+
+.button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+    background-color: #6b82ce;
+}
+
+.tutorial-3w5I9h {
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.wrapper-uf3cnO {
+    background-color: transparent;
+}
+
+.selected-3xBBKs, .selected-3xBBKs:hover {
+    background-color: rgba(0, 0, 0, .23);
+}
+
+.selected-3xBBKs .icon-2VCx8O, .selected-3xBBKs:hover .icon-2VCx8O, .icon-2VCx8O, .pageButton-2ruNwd {
+    color: white;
+}
+
+.pageButton-2ruNwd:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, .21);
+}
+
+.theme-dark .activeButton-rvKcqq, .theme-dark .activeButton-rvKcqq:hover {
+    background-color: #6b82ce;
+}
+
+.theme-dark .barBase-1c2Rfb {
+    background-color:rgba(0, 0, 0, .34);
+    opacity: .75;
 }
 
 .h5-18_1nd,
@@ -383,7 +522,9 @@
   .theme-dark .container-2x5lvQ section a,
   .fakeLink-26oLcc,
   .metadataContent-3c_ZXw a,
-  .editChannelButton-1dYN-G {
+  .editChannelButton-1dYN-G, 
+  .button-18p_f6,
+  .footerText-2a7NxZ a {
       color: #e5c634;
 }
 
@@ -683,9 +824,12 @@
   box-shadow: none;
 }
 
-.colorHeaderSecondary-3Sp3Ft {
+.colorHeaderSecondary-3Sp3Ft,
+.container-UC8Ug1 .colorStandard-2KCXvj,
+.colorHeaderPrimary-26Jzh-,
+.footer-2gL1pp .colorStandard-2KCXvj {
     color: white;
-}
+} 
 
 .input--jS-j2 {
 	background-color: transparent;

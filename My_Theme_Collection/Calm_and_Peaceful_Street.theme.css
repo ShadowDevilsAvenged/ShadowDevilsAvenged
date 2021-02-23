@@ -19,6 +19,155 @@
 .repliedTextPreview-2NBljf {
   overflow: visible;
   margin-bottom: 20px;
+  position: relative;
+  top: -3px;
+}
+
+.repliedTextPreview-2NBljf .repliedTextPlaceholder-dmN7D1 {
+  overflow: visible;
+  margin-bottom: 0px;
+  position: relative;
+  top: 13px;
+}
+
+.settingCard-3w2mVL.active-1ytUzX {
+  background: rgba(0, 0, 0, .7);
+}
+
+.settingCard-3w2mVL {
+  background: rgba(0, 0, 0, .7);
+  border-radius: 5px;
+}
+
+.cardFolder-28dwxo {
+  background-color: transparent;
+}
+
+.tutorialIcon-3f1miQ {
+  background-color: #789dbf;
+  color: white;
+  border-radius: 30px;
+}
+
+.emptyChannelIcon-cc932w {
+  border-radius: 30px;
+  background-color: #789dbf;
+}
+.background-ujHpbY {
+  background-color: transparent !important;
+}
+.tile-2naSqK {
+  background-color: transparent;
+}
+.card-3RzMcx {
+  background-color: rgba(0, 0, 0, .30) !important;
+}
+
+.card-2Mz_4z {
+  border-radius: 5px;
+  color: white;
+  border: 1px solid #789dbf;
+  background-color: rgba(120, 157, 191, .3);
+}
+.border-3dQmSY.speaking-WDn8Wm {
+  box-shadow: inset 0 0 0 2px #789dbf, inset 0 0 0 3px #000;
+}
+
+.theme-dark .item-3T2z1R {
+  border-color: transparent;
+}
+
+.item-3T2z1R:last-child {
+  border-radius: 0 5px 5px 0;
+}
+
+.selectorButton-EEUWed {
+  background-color: rgba(120, 157, 191, .3);
+}
+
+#app-mount .selectorButtonSelected-t5V9On {
+  background-color: #789dbf;
+}
+
+.selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover {
+  background-color: rgba(120, 157, 191, .6);
+}
+
+.wrapper-39oAo3 {
+  background-color: rgba(0, 0, 0, .23);
+}
+
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+  color: white;
+  background-color: transparent;
+  border: 1px solid #4f545c;
+}
+
+.sourceThumbnail-27dolk {
+  background-color: transparent;
+}
+
+.tile-2w4k5N:hover .sourceThumbnail-27dolk,
+.sourceThumbnail-27dolk.selected-1nOkyc {
+  box-shadow: inset 0 0 0 2px #789dbf;
+}
+
+.option-3KoAJB.focused-1T6PE5  {
+    background-color: #789dbf !important;
+}
+
+.button-F9qN4n {
+  background-color: #789dbf;
+}
+
+.button-F9qN4n:hover, .keyboard-mode .button-F9qN4n.focused-3ZzkKr {
+  background-color: #6f9dc8;
+}
+
+.theme-dark .activeButton-rvKcqq, .theme-dark .activeButton-rvKcqq:hover {
+  background-color: #789dbf;
+}
+
+.pageButton-2ruNwd {
+  color: white;
+}
+
+.pageButton-2ruNwd:hover {
+  color: white;
+  background-color: #6f9dc8;
+}
+
+.tutorial-3w5I9h {
+  background-color: rgba(0, 0, 0, .22);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.messages-3G3erD .markup-2BOw-j {
+  top: -3px;
+  left: -1px;
+}
+
+.live-vBWnV6 {
+  background-color: #789dbf  !important;
+}
+
+.wrapper-uf3cnO {
+  background-color: transparent;
+}
+
+.selected-3xBBKs, .selected-3xBBKs:hover {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.theme-dark .barBase-1c2Rfb {
+  background-color:rgba(0, 0, 0, .34);
+  opacity: .75;
+}
+
+.selected-3xBBKs .icon-2VCx8O, .selected-3xBBKs:hover .icon-2VCx8O, .icon-2VCx8O {
+  color: white;
 }
 
 .slateTextArea-1Mkdgw {
@@ -594,7 +743,8 @@
     box-shadow: none;
 }
 
-.colorHeaderSecondary-3Sp3Ft {
+.colorHeaderSecondary-3Sp3Ft,
+.colorHeaderPrimary-26Jzh- {
   color: white;
 }
 
@@ -1642,8 +1792,7 @@
 }
 
 .theme-dark .searchHeader-2XoQg7 {
-  color: white; 
-  box-shadow: none;
+  background-color: transparent;
 }
 
 .detailsBlock-FoDTGA {
@@ -1956,7 +2105,9 @@
 .colorStandard-2KCXvj a,
 .fakeLink-26oLcc,
 .metadataContent-3c_ZXw a,
-.editChannelButton-1dYN-G {
+.editChannelButton-1dYN-G,
+.button-18p_f6,
+.footerText-2a7NxZ a {
     color: #6670ED;
 }
 .lookLink-9FtZy-.colorLink-35jkBc:hover .contents-18-Yxp {
