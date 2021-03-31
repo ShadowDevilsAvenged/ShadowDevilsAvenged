@@ -16,6 +16,10 @@
 .selected-3xBBKs, .selected-3xBBKs:hover {
     background-color: rgba(0, 0, 0, .23);
 }
+.wrapper-2a6GCs > .repliedMessage-VokQwo .emoji { /* Fixes reply space while keeping emoji size */
+    width: 0;
+    height: 0;
+  }
 
 .settingCard-3w2mVL.active-1ytUzX {
     background: rgba(0, 0, 0, .7);
@@ -1790,7 +1794,7 @@
     color: #582060;
 }
 
-.circleIconButton-1QV--U.selected-ugP_am {
+.circleIconButton-1QV--U.selected-1JjBPm {
     color: #fff;
     background-color: #582060;
 }
