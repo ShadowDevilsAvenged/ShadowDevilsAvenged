@@ -372,17 +372,17 @@
     background-color: rgba(0, 0, 0, .33);
 }
 
-.bd-switch {
+.bd-{
     box-shadow:  0 2px 2px 2px rgba(0, 0, 0, 0.824);
 }
 
 
-.bd-switch {
+.bd-{
 	background-color: #4d1627;
 }
 
 
-.bd-switch {
+.bd-{
 	border-radius: 8px;
 }
 
@@ -401,7 +401,7 @@
     background-color: #7f2542;
 }
 
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 .container-3auIfb {
 	border-radius: 5px;
 	background-color: #4d1627 !important;
@@ -414,21 +414,21 @@
 .container-3auIfb path {
 	fill: white;
 }
-/* Regular Switch Deactivated */
+/* Regular Deactivated */
 
 
-/* Regular Switch Activated */
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] {
+/* Regular Activated */
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] {
 	background-color: #7f2542 !important;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] rect {
-	fill: #11df3d;
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] rect {
+	fill: #11df3d !important;
 	rx: 5;
 }
-.container-3auIfb[style*="background-color: rgb(67, 181, 129);"] path {
+.container-3auIfb[style*="background-color: rgb(59, 165, 92);"] path {
 	fill: white;
 }
-/* Regular Switch Activated */
+/* Regular Activated */
 
 .cardPrimaryOutline-29Ujqw {
     border-color: black;
@@ -605,7 +605,7 @@
     border-radius: 6px 6px 0 0;
 }
 
-.css-181m2lf-menu {
+.css-3vaxre-menu {
     background-color: rgba(115, 24, 56, 0.87);
     box-shadow: none;
     color: white;
@@ -657,6 +657,16 @@
 .theme-dark .checkbox-1ix_J3 {
     border-color: rgba(143, 143, 143, 0.833);
     border-radius: 6px;
+}
+
+.container-lRFx4q {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.bd-addon-list .bd-addon-header {
+    color: white;
+    background: transparent;
+    overflow: visible
 }
 
 .item-26Dhrx[aria-checked=true] {
@@ -1282,10 +1292,16 @@
     border: 1px solid rgba(128, 218, 114, 0.40);
 }
 
+.reaction-1hd86g:hover {
+    border-color: #7f2542;
+    background: rgba(0, 0, 0, .5);
+}
+
 .reactionMe-wv5HKu .reactionCount-2mvXRV, 
 .reactionMe-23mbRf:hover .reactionCount-2mvXRV {
     color: #63d851;
 }
+
 
 .theme-dark .container-3ayLPN {
     background-color: #4d1627;
@@ -1498,7 +1514,7 @@
 }
 
 .markup-2BOw-j .mention,
-.wrapper-3WhCwL {
+.theme-dark .wrapper-3WhCwL {
     padding: 2px 5px;
     border-radius: 6px;
 }
@@ -1979,17 +1995,17 @@
     border-top: none;
 }
 
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255); "] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(59, 165, 92); color: rgb(255, 255, 255); "] {
     background-color: #239851 !important;
     color: white !important;
 }
 
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgb(59, 165, 92); color: rgb(255, 255, 255);"] {
     background-color: #239851 !important;
     color: white !important;
 }
 
-.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
+.tabBar-ZmDY9v .item-3HknzM[style*="background-color: rgba(67, 181, 129, 0.2); color: rgb(59, 165, 92);"] {
     background-color: rgba(35, 152, 82, 0.57) !important;
     color: white !important;
 }
@@ -2006,7 +2022,20 @@
 }
 
 .wrapper-3D2qGf {
-    background-color: transparent;
+    background-color: transparent !important;
+    border: none;
+}
+
+.section-2gLsgF {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.header-2mZ9Ov, .titleContainer-2CXtJo {
+    background: none;
+}
+
+.top-28JiJ- .brand-1Zl8en.item-PXvHYJ:active, .top-28JiJ- .brand-1Zl8en.selected-3s45Ha.item-PXvHYJ {
+    border-bottom-color: #731838;
 }
 
 .theme-dark .inset-3sAvek {
