@@ -19,6 +19,17 @@
   top: -1px;
 }
 
+.reactionTooltipText-iAWHhX a {
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  padding: 2px;
+}
+
+.preview-3SR4Rd {
+  color: white;
+}
+
 .settingCard-xZSDjS.active-3EK-ed {
   background: rgba(0, 0, 0, .7);
 }
@@ -1119,21 +1130,21 @@
   color: white;
 }
 
-.reaction-2A2y9y {
+.reaction-3vwAF2 {
   border-radius: 4px;
   background-color: rgba(155, 39, 66, .6);
 }
 
-.reaction-2A2y9y:hover {
+.reaction-3vwAF2:hover {
   background-color: rgba(155, 39, 66, .9);
   border-color: transparent;
 }
 
-.reactionCount-1zkLcN {
+.reactionCount-26U4As {
   color: white !important;
 }
 
-.reaction-2A2y9y.reactionMe-3I9gFK {
+.reaction-3vwAF2.reactionMe-1PwQAc {
   background-color: rgba(155, 39, 66, .3);
   border-color: #ad3950;
 }
@@ -1142,7 +1153,7 @@
   color: white;
 }
 
-.reaction-2A2y9y .emoji {
+.reaction-3vwAF2 .emoji {
   width: 1.3rem;
   height: 1.3rem;
 }
@@ -1855,7 +1866,7 @@
   mask: none;
 }
 
-.theme-dark .selected-3H3-RC {
+.theme-dark .clickable-2V8YKY[aria-disabled=false]>.base-2v-uc0:hover, .clickable-2V8YKY[aria-selected=true]>.base-2v-uc0 {
   background-color: #ad3950;
 }
 
@@ -2421,6 +2432,16 @@
 .search-25t1e9 .searchBox-31Zv9h .searchIcon-3X4BYL,
 .search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
   color: white;
+}
+
+.search-25t1e9 .searchBox-31Zv9h {
+  background-color: transparent;
+}
+
+.text-md-normal-304U3g,
+.text-xs-normal-3SiVjE,
+.text-sm-normal-3Zj3Iv {
+  color: white !important;
 }
 
 
