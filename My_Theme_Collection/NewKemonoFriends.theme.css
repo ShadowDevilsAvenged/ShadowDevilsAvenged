@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 1.3
+ * @version 1.4
  */
 
 /* Main Background */
@@ -2339,6 +2339,7 @@ background-color: transparent  !important;
 }
 
 .container-3XgAHv, .container-18GwIk {
+    background-attachment: fixed;
     background-image: -webkit-radial-gradient(50% 53%, ellipse cover, #292929 15%, #000000 71%);
 }
 
@@ -2525,6 +2526,237 @@ background-color: transparent  !important;
 
 .input-2g-os5 {
     background-color: transparent;
+}
+
+.textBadge-1fdDPJ[style*="background-color:"] {
+    background-color: #F44 !important;
+    border-radius: 4px;
+}
+
+/* Active Post */
+.theme-dark .container-3wLKDe {
+    background-color: transparent;
+}
+.dots-2_b2Mn {
+    background-color: #F44;
+    border: 3px solid transparent;
+}
+.container-2qVG6q:hover {
+    background-color: rgba(204, 102, 119, .6);
+    border-color: #C67;
+    box-shadow: none;
+}
+.dots-1BwzZQ.themed-3T-OPr {
+    color: white;
+}
+.interactiveCard-2iMtdk.selected-sszUNx, 
+.interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {
+    border: 2px solid black;
+}
+.reactionTooltipText-3OhRFp a {
+    color: gold;
+}
+/* Active Post Boxes */
+.mainCard-3KBsBI {
+    background-color: rgba(255, 68, 68, .5);
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
+    border: 2px solid #C67;
+}
+.chat-25x62K:before {
+    box-shadow: none;
+}
+.container-2qVG6q.isOpen-2OXbFs {
+    background-color: rgba(255, 68, 68, .8);
+    -webkit-transform: none;
+    transform: none;
+}
+.headerBorder-jrk0Ic {
+    box-shadow: none;
+}
+/* Getting rid of the input background */
+.mainCard-3KBsBI .input-2g-os5 {
+    background-color: transparent;
+}
+/* Tag Holder */
+.container-2IhveL {
+    background-color: rgba(255, 68, 68, .4);
+    border-radius: 5px;
+}
+/* Tags */
+.pill-3pRQlO {
+    border-radius: 5px;
+    background-color: rgba(255, 68, 68, .6);
+    border: 2px solid transparent;
+}
+.pill-3pRQlO.clickable-3YTfAq:not(.disabled-3Rezaw):hover {
+    background-color: rgba(204, 102, 119, .6);
+}
+.pill-3pRQlO.selected-24z1Ou {
+    border-color: #F44;
+}
+/* Title of Post */
+.heading-lg-medium-3gUJeM[style*="color:"] {
+    color: white !important;
+}
+/* Newest Reactions */
+#app-mount .reactionCount-SWXh9W {
+    color: white;
+}
+.reaction-102jx9 {
+    border-radius: 3px;
+    background: rgba(255, 68, 68, .4);
+}
+.reaction-102jx9:hover {
+    background-color: rgba(255, 68, 68, .8);
+    border-color: transparent;
+}
+.reaction-102jx9.reactionMe-2zhiyZ {
+    background-color: #C67;
+    border-color: transparent;
+}
+.newMessageCount-jqlY9z[style*="color:"] {
+    color: gold !important;
+}
+/* Megathread Stuff */
+.header-1RJoTb {
+    box-shadow: none;
+    border-top-color: transparent;
+}
+.container-3YcgdM {
+    background-color: rgba(0, 0, 0, .3);
+}
+.addReactButton-3bSQb6, 
+.buttonInner-3aRbcx {
+    color: silver;
+    background-color: rgba(255, 68, 68, .4);
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+.addReactButton-3bSQb6:hover, 
+.buttonInner-3aRbcx:hover {
+    background-color: rgba(204, 102, 119, .4);
+    border-color: #C67;
+}
+.sectionDivider-189lqb {
+    background-color: transparent;
+}
+/* Home Channel List Tab */
+/* Home Channel List Background */
+.theme-dark .background-fkKrXt {
+    background-color: transparent;
+}
+/* When Typing */
+.typingIndicator-KF8hGa {
+    background-color: #F44;
+}
+/* Server Boxes */
+.container-2Hi7Km, 
+.container-xwOzwi {
+    background-color: rgba(255, 68, 68, .5);
+}
+/* Current Server Icon */
+.icon-2IDTxf {
+    background-color: transparent;
+    border: 4px solid transparent;
+}
+.container-xwOzwi, .container-2Hi7Km {
+    border-radius: 5px;
+}
+/* Channel Feeds */
+.feedItemHeader-txJq98 {
+    border-bottom: none;
+}
+.interactiveCard-2iMtdk {
+    border: 2px solid #F44;
+    box-shadow: none;
+}
+.card-3x20HF {
+    border-radius: 5px;
+    background-color: rgba(255, 68, 68, .4);
+}
+.loadingCard-3pIp9h {
+    background-color: rgba(0, 0, 0, .24);
+}
+.iconWrapper-3FqQ75 {
+    border-radius: 5px;
+    background-color: #F44;
+}
+.icon-3gfzEo {
+    color: var(--header-primary);
+}
+.iconContainer-2R-3M1 {
+    border-radius: 5px;
+    background-color: #F44;
+    color: white;
+}
+.container-3HMTms {
+    border-radius: 4px;
+}
+.container-3HMTms:hover {
+    background-color: rgba(0,0,0,.2);
+}
+/* Active Thread List */
+.header-3cSJjT {
+    background-color: transparent;
+}
+.container-3GP6AV {
+    background-color: transparent;
+    border-radius: 8px;
+}
+/* More Active Threads Box */
+.popout-TdhJ6Z {
+    background-color: black;
+}
+.more-2c3Z-T {
+    border-top: none;
+    color: gold;
+}
+.root-g14mjS.modal-ZdazA8 {
+    background-attachment: fixed;
+    background-image: -webkit-radial-gradient(50% 53%, ellipse cover, #292929 15%, #000000 71%);
+}
+
+.button-12Fmur.enabled-9OeuTA:hover {
+    color: white;
+    background-color: #F44;
+}
+
+.icon-2Zyj6B {
+	background-color: #F44;
+	border-radius: 5px;
+}
+
+.reactionBtn-3I19bq.forceShowLook-1zmTr- {
+    background-color: rgba(255, 68, 68, .4);
+    border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.reactionBtn-3I19bq.forceShowLook-1zmTr-:hover {
+    background-color: rgba(204, 102, 119, .4);
+    border-color: #C67;
+}
+
+.icon-1q31jb,
+.reactionBtn-3I19bq {
+	color: white !important;
+}
+
+.row-1qtctT:hover {
+	background-color: #F44;
+	color: white;
+}
+
+.row-1qtctT {
+	border-radius: 4px;
+	color: white;
+}
+
+.emptyStateContainer-xWOMPJ {
+	background-color: transparent;
 }
 
 

@@ -2,7 +2,7 @@
  * @name Bubble Theme v2
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 2
+ * @version 2.1
  */
 
  .app-2CXKsg {
@@ -2553,4 +2553,287 @@
     top: -7px;
     position: relative;
     margin-top: 5px !important;
+}
+
+.textBadge-1fdDPJ[style*="background-color:"] {
+    background-color: darkblue !important;
+    border-radius: 30px;
+}
+
+/* Active Post */
+.theme-dark .container-3wLKDe {
+    background-color: transparent;
+}
+.reactionTooltipText-3OhRFp a {
+    color: gold;
+}
+.dots-2_b2Mn {
+    background-color: darkblue;
+    border: 3px solid transparent;
+}
+.container-2qVG6q:hover {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 45px 30px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.39) 100%, rgba(0,0, 139, 0.39) 100%);
+    border-color: transparent;
+}
+.interactiveCard-2iMtdk.selected-sszUNx, 
+.interactiveCard-2iMtdk:active, .interactiveCard-2iMtdk:hover {
+    border: 2px solid black;
+}
+.dots-1BwzZQ.themed-3T-OPr {
+    color: white;
+}
+.chat-25x62K:before {
+    box-shadow: none;
+}
+/* Active Post Boxes */
+.mainCard-3KBsBI {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 45px 30px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
+    border-color: transparent;
+    border-radius: 50px;
+    padding: 15px 12px;
+    height: 140px;
+}
+
+.header-1Uy0p6 {
+    padding: 15px 12px;
+    height: 50px;
+}
+
+.header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
+    border: 1px solid transparent;
+}
+.container-2qVG6q.isOpen-2OXbFs {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 45px 30px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);
+    border-color: transparent;
+}
+.headerBorder-jrk0Ic {
+    box-shadow: none;
+}
+/* Getting rid of the input background */
+.mainCard-3KBsBI .input-2g-os5 {
+    background: none;
+    box-shadow: none;
+    border: none;
+}
+/* Tag Holder */
+.container-2IhveL {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 25px 21px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
+    border-color: transparent;
+    border-radius: 50px;
+}
+/* Tags */
+.pill-3pRQlO {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 9px 10px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);
+    border-color: transparent;
+}
+.pill-3pRQlO.selected-24z1Ou {
+    border-color: black;
+}
+/* Title of Post */
+.heading-lg-medium-3gUJeM[style*="color:"] {
+    color: white !important;
+}
+/* Newest Reactions */
+#app-mount .reactionCount-SWXh9W {
+    color: white;
+}
+.reaction-102jx9 {
+    border-radius: 50pc;
+    background: rgb(0, 0, 0, .2);
+    border: 1px solid black;
+}
+.reaction-102jx9:hover {
+    background-color: rgba(54, 57, 120, .8);
+    border-color: transparent;
+}
+.reaction-102jx9.reactionMe-2zhiyZ {
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -2px 9px -16px rgba(231, 254, 255, 0.33);
+    background-image: radial-gradient(circle closest-side at 9px 9px, rgba(255, 255, 255, .65) 10%, rgba(56, 0, 211, 0.29) 100%, rgba(56, 0, 211, 0.29) 100%);
+    border-color: transparent;
+}
+.newMessageCount-jqlY9z[style*="color:"] {
+    color: gold !important;
+}
+/* Megathread Stuff */
+.header-1RJoTb {
+    box-shadow: none;
+    border-top-color: transparent;
+}
+.container-3YcgdM {
+    background-color: rgba(0, 0, 0, .3);
+}
+.addReactButton-3bSQb6, 
+.buttonInner-3aRbcx {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 25px 21px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
+    border-color: transparent;
+    border-radius: 50px;
+}
+.addReactButton-3bSQb6:hover, 
+.buttonInner-3aRbcx:hover {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 9px 10px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);
+    border-color: transparent;
+}
+.sectionDivider-189lqb {
+    background-color: transparent;
+}
+
+/* Home Channel List Tab */
+/* Home Channel List Background */
+.theme-dark .background-fkKrXt {
+    background-color: transparent;
+}
+/* When Typing */
+.typingIndicator-KF8hGa {
+    background-color: darkblue;
+}
+/* Server Boxes */
+.container-2Hi7Km, 
+.container-xwOzwi {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 85px 81px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
+    border-color: transparent;
+}
+/* Current Server Icon */
+.icon-2IDTxf {
+    background-color: transparent;
+}
+.container-xwOzwi, 
+.container-2Hi7Km {
+    border-radius: 50pc;
+    padding: 23% 23%;
+    width: 400px;
+    height: 400px;
+}
+/* Channel Feeds */
+.feedItemHeader-txJq98 {
+    border-bottom: none;
+}
+.interactiveCard-2iMtdk {
+    border: 2px solid darkblue;
+    box-shadow: none;
+}
+.card-3x20HF {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 39px 50px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, .39) 100%, rgba(0,0, 139, 0.39) 100%);
+    border-color: transparent;
+    border-radius: 60px / 70px;
+    padding: 12px 26px;
+}
+
+.loadingCard-3pIp9h {
+    background-color: rgba(0, 0, 0, .24);
+}
+.iconWrapper-3FqQ75 {
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 39px 50px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, .39) 100%, rgba(0,0, 139, 0.39) 100%);
+    border-color: transparent;
+}
+.icon-3gfzEo {
+    color: var(--header-primary);
+}
+.iconContainer-2R-3M1 {
+    border-radius: 50%;
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 10px 9px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, .39) 100%, rgba(0,0, 139, 0.39) 100%);
+    border-color: transparent;
+    color: white;
+}
+.container-3HMTms {
+    border-radius: 50px;
+}
+.container-3HMTms:hover {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 39px 50px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, .39) 100%, rgba(0,0, 139, 0.39) 100%);
+    border-color: transparent;
+    border-radius: 60px;
+}
+/* Active Thread List */
+.header-3cSJjT {
+    background-color: transparent;
+}
+.container-3GP6AV {
+    background-color: transparent;
+}
+/* More Active Threads Box */
+.popout-TdhJ6Z {
+    background-color: black;
+}
+.more-2c3Z-T {
+    border-top: none;
+    color: gold;
+}
+.root-g14mjS.modal-ZdazA8 {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
+    background-image: radial-gradient(circle closest-side at 180px 180px, rgba(95, 95, 95, 0.75) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%) !important;
+    border-radius: 50pc;
+    padding: 84px 83px;
+}
+
+.root-g14mjS.modal-ZdazA8 .container-18GwIk {
+    background-color: transparent !important;
+    box-shadow: none;
+    background-image: none;
+}
+
+.icon-2Zyj6B {
+	background-color: darkblue;
+	border-radius: 50px;
+}
+
+.reactionBtn-3I19bq.forceShowLook-1zmTr- {
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 25px 21px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
+    border-color: transparent;
+    border-radius: 50px;
+}
+
+.reactionBtn-3I19bq.forceShowLook-1zmTr-:hover {
+    background-color: transparent !important;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
+    background-image: radial-gradient(circle closest-side at 9px 10px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);
+    border-color: transparent;
+}
+
+.icon-1q31jb,
+.reactionBtn-3I19bq {
+	color: white !important;
+}
+
+.row-1qtctT:hover {
+    background-image: radial-gradient(circle closest-side at 9px 9px, rgba(255, 255, 255, .85) 10%, rgba(0, 103, 165, 0.49) 100%, rgba(0, 103, 165, 0.49) 100%);
+    background-color: transparent;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -14px 9px -16px rgba(231, 254, 255, 0.33);
+    border-radius: 50px;
+	color: white;
+}
+
+.row-1qtctT {
+	border-radius: 50px;
+	color: white;
+}
+
+.emptyStateContainer-xWOMPJ {
+	background-color: transparent;
 }
