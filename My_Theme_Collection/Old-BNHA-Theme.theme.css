@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 1.4
+ * @version 3
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -1581,16 +1581,41 @@
  .theme-dark .userSettingsAccount-2eMFVR .viewBody-2Qz-jg {
      color: white;
  }
- 
- .accountBtn-3pgcgr .accountBtnInner-3ttD-i {
-     background-color: rgba(0, 140, 153, 0.28);
- }
- 
- .accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
-     background-color: rgba(0, 140, 153, 0.58);
-     border: 2px solid rgba(0, 124, 137, 0.93);
-     /* 2nd Color of Monochromatic Colors */;
- }
+
+ .connectContainer-1hylYM {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.connectContainer-1hylYM a {
+    color: #66cff9;
+    font-weight: 700;
+}
+
+.dropsHelpText-1HyiYF,
+.promotionCard-mo7ClH {
+    background: rgba(0, 0, 0, .3);
+}
+
+.dropsHelpText-1HyiYF a,
+.promotionCard-mo7ClH a {
+    color: #66cff9;
+    font-weight: 700;
+}
+
+.accountAddInner-2y9WLL {
+    color: white;
+}
+
+.accountButtonInner-33vCDY {
+    background-color: rgba(0, 140, 153, 0.28);
+}
+
+.accountButtonInner-33vCDY:hover {
+    background-color: rgba(0, 140, 153, 0.58);
+    border: 2px solid rgba(0, 124, 137, 0.93);
+    /* 2nd Color of Monochromatic Colors */
+    ;
+}
  
  .theme-dark .bottomDivider-ZmTm-j {
      border-bottom-color: transparent;
@@ -2176,7 +2201,6 @@
 }
  
  .background-3d_SjE,
- .accountList-Wii_T5,
  .connection-YOVI9j {
      background-color: rgba(0, 0, 0, 0.23);
  }

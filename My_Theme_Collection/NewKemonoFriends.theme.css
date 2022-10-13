@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 1.4
+ * @version 3
  */
 
 /* Main Background */
@@ -416,7 +416,7 @@
     background-color: rgba(0,0,0,.3);
 }
 
-.accountList-Wii_T5, .connection-YOVI9j {
+.connection-YOVI9j {
     background-color: transparent;
     border: 1px solid #F44;
 }
@@ -425,11 +425,31 @@
     background: transparent;
 }
 
-.accountBtn-3pgcgr .accountBtnInner-3ttD-i {
+.connectContainer-1hylYM {
+    background-color: transparent;
+    border: 1px solid #F44;
+}
+
+.connectContainer-1hylYM a {
+    color: lightsalmon;
+    font-weight: 700;
+}
+
+.dropsHelpText-1HyiYF {
+    background: rgba(0, 0, 0, .3);
+}
+
+.dropsHelpText-1HyiYF a,
+.promotionCard-mo7ClH a {
+    color: lightsalmon;
+    font-weight: 700;
+}
+
+.accountButtonInner-33vCDY {
     background-color: rgba(0,0,0,.3);
 }
 
-.accountBtn-3pgcgr .accountBtnInner-3ttD-i:hover {
+.accountButtonInner-33vCDY:hover {
     background-color: rgba(0,0,0,.5);
     border: 1px solid #C67;
 }
