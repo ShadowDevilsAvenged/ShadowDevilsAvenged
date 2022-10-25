@@ -6,8 +6,8 @@ I have finally finished creating my newest themes and I would like to thank ever
 
 So the rules are:
 1. Make sure that if something is weird about my theme(aka an area is gray instead of transparent or if it's gray and it's suppose to have a color) then contact me 
-2. **DO NOT WAIT UNTIL EVERYTHING IS GRAYED OUT. I WILL BE MAD AT YOU AND I MAY OR MAY NOT FIX THE THEME AND I'LL MAKE A NEW ONE INSTEAD** 
-3. If you have suggestions to the future theme designs, put it in **#theme-design-suggestions-here**
+2. Don't wait until the last minute when everything is greyed out because I'll just make a new one instead
+3. If you have suggestions to the future theme designs like animate a certain button or add animation to the memberlist, put it in **#theme-design-suggestions-here**
 4. No cursing in my server
 5. No gore or any other inappropriate pictures in the server
 6. No racism in the server we are a peaceful server and it should say like that
