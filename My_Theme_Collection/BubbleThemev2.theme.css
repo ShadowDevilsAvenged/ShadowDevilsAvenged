@@ -2,7 +2,7 @@
  * @name Bubble Theme v2
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 2.1
+ * @version 2.3
  */
 
  .app-2CXKsg {
@@ -1363,11 +1363,52 @@
     padding: 4px 12px;
 }
 
-.userPopout-2j1gM4, .profileBannerPreview-3mLIdO {
+.profileBadges-31rDHI {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+
+.userProfileOuterUnthemed-2b2rsv {
+    background-color: transparent;
+}
+
+.overlayBackground-1KgwVi {
+    background-color: transparent;
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: transparent;
+}
+
+.userPopoutOuter-3AVBmJ {
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.83), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.83);
+}
+
+.messageInputContainer-2rGDH8 {
+    border: 1px solid transparent;
+}
+
+.userProfileOuter-1K_BYU {
+    border-radius: 50px;
+}
+
+.userProfileInnerNonPremium-1XjSjn {
     background-image: radial-gradient(circle closest-side at 35px 35px, rgba(255, 255, 255, .85) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%);
     background-color: transparent;
-    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.83), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.83);
-    border-radius: 50px;
+}
+
+.userProfileInnerWithBanner-3CJ1Og {
+    background-image: radial-gradient(circle closest-side at 35px 35px, rgba(255, 255, 255, .85) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%);
+    background-color: transparent;
+}
+
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+    background: none;
+}
+
+.userProfileInner-3F03PX {
+    border-radius: 50px 50px 0 0;
 }
 
 .popoutBanner-3cqRD9,
@@ -1376,9 +1417,7 @@
     opacity: .5;
 }
 
-.bodyInnerWrapper-2bQs1k, .footer-3naVBw {
-    background-color: transparent;
-}
+
 
 .avatar-2Vndt_ {
     border: 6px solid #000070;
@@ -1394,7 +1433,7 @@
     padding: 4px 12px;
 }
 
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-3aLMHJ {
     background-image: radial-gradient(circle closest-side at 43px 43px, rgba(255, 255, 255, .85) 10%, rgba(42, 1, 155, 0.29) 100%, rgba(42, 1, 155, 0.29) 100%);
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -32px 9px -16px rgba(231, 254, 255, 0.33);
@@ -2604,7 +2643,7 @@
 .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
     border: 1px solid transparent;
 }
-.container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
     background-image: radial-gradient(circle closest-side at 45px 30px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);

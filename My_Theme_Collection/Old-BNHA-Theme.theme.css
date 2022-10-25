@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 3
+ * @version 3.1
  */
 
  @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -865,11 +865,7 @@
  }
  
  
- .theme-dark .bodyInnerWrapper-2bQs1k,
- .theme-dark .footer-3naVBw {
-     background-color: #1f1f21;
-     color: white;
- }
+
  
  .body-1Ukv50 {
      background-color: rgba(31, 31, 33, 0.79);
@@ -927,11 +923,11 @@
      top: -1px;
  }
 
- .tabBarContainer-sCZC4w {
+ .tabBarContainer-2UG0vy {
      border-top: none;
  }
  
- .userInfoSection-2u2hir+.userInfoSection-2u2hir {
+ .userInfoSection-1gptv0+.userInfoSection-1gptv0 {
      border-top: none;
  }
  
@@ -939,16 +935,16 @@
      margin-top: -40px;
  }
  
- .connectedAccountContainer-SlCC-S {
+ .connectedAccountContainer-3aLMHJ {
      border-radius: 12px;
      border: 2px solid black;
  }
  
- .connectedAccountContainer-SlCC-S {
+ .connectedAccountContainer-3aLMHJ {
      background-color: rgba(0, 0, 0, 0.324);
  }
  
- .listRow-2nO1T6 {
+ .listRow-Y5zoF8 {
      color: white;
      border-radius: 11px;
      margin: 1px 0 12px 12px;
@@ -963,7 +959,7 @@
   color: white;
 }
  
- .listRow-2nO1T6:hover {
+ .listRow-Y5zoF8:hover {
      background-color: rgba(0, 140, 153, 0.208);
      border: 3px solid rgba(0, 140, 153, 0.16);
  }
@@ -2325,9 +2321,49 @@
 }
 /* --- */
 
-.userPopout-2j1gM4 {
+.profileBadges-31rDHI {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.userProfileOuterUnthemed-2b2rsv {
+    background-color: transparent;
+}
+
+.overlayBackground-1KgwVi {
+    background-color: transparent;
+}
+
+.messageInputContainer-2rGDH8 {
+    border: 1px solid transparent;
+}
+
+.userPopoutOuter-3AVBmJ {
     box-shadow: none;
-    background-color: #1f1f21;
+}
+
+.userProfileOuter-1K_BYU {
+    border-radius: 6px;
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: transparent;
+}
+
+.userProfileInnerNonPremium-1XjSjn {
+    background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #008c99 100%);
+}
+
+.userProfileInnerWithBanner-3CJ1Og {
+    background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #008c99 100%);
+}
+
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+    background: none;
+}
+
+.userProfileInner-3F03PX {
+    border-radius: 6px 6px 0 0;
 }
 
 .hljs {
@@ -2402,7 +2438,7 @@
 .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
     border: 2px solid #008c99;
 }
-.container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: rgba(0, 140, 153, .8);
 }
 .headerBorder-jrk0Ic {

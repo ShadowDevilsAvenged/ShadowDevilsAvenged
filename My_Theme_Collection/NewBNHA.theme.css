@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 3
+ * @version 3.1
  */
 
 /* Main Background */
@@ -614,6 +614,10 @@
     background-color: #2AB;
 }
 
+.imageUploaderInner-IIRaFr:not(.banner-1rJmju) {
+    border-radius: 50px;
+}
+
 .theme-dark .imageUploaderIcon-2OHmFu {
     background-color: #2AB;
     border-radius: 6px;
@@ -819,9 +823,50 @@
     font-weight: bold;
 }
 
-.userPopout-2j1gM4 {
-    background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
+.profileBadges-31rDHI {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.overlayBackground-1KgwVi {
+    background-color: transparent;
+}
+
+
+.userProfileOuterUnthemed-2b2rsv {
+    background-color: transparent;
+}
+
+.userPopoutOuter-3AVBmJ {
     box-shadow: none;
+}
+
+.messageInputContainer-2rGDH8 {
+    border: 1px solid transparent;
+}
+
+.userProfileOuter-1K_BYU {
+    border-radius: 6px;
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: transparent;
+}
+
+.userProfileInnerNonPremium-1XjSjn {
+    background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
+}
+
+.userProfileInnerWithBanner-3CJ1Og {
+    background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
+}
+
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+    background: none;
+}
+
+.userProfileInner-3F03PX {
+    border-radius: 6px 6px 0 0;
 }
 
 .childWrapper-1j_1ub {
@@ -1465,10 +1510,7 @@
     background-color: rgba(0,0,0,.5);
 }
 
-.bodyInnerWrapper-2bQs1k, .footer-3naVBw {
-    background-color: transparent;
-    color: white;
-}
+
 
 .avatarHint-k7pYop {
     border-radius: 5px;
@@ -1506,7 +1548,7 @@
     background-color: rgba(0,0,0,.5);
 }
 
-.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root, .icon-18rqoe, .listRow-2nO1T6 {
+.search-2Mwzzq .DraftEditor-root .public-DraftEditorPlaceholder-root, .icon-18rqoe, .listRow-Y5zoF8 {
     color: white;
 }
 
@@ -1519,15 +1561,15 @@
     background-color: transparent;
 }
 
-.listRow-2nO1T6:hover {
+.listRow-Y5zoF8:hover {
     background-color: rgba(0,0,0,.2);
 }
 
-.userInfoSection-2u2hir+.userInfoSection-2u2hir {
+.userInfoSection-1gptv0+.userInfoSection-1gptv0 {
     border-top: none;
 }
 
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-3aLMHJ {
     background-image: -webkit-linear-gradient(90deg, #000000 5%, #22a9bb 100%);
     border-radius: 7px;
     border: 1px outset;
@@ -2310,7 +2352,7 @@
 .chat-25x62K:before {
     box-shadow: none;
 }
-.container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: rgba(34, 170, 187, .8);
 }
 .headerBorder-jrk0Ic {

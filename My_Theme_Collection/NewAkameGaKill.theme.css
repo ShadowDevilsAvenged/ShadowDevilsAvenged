@@ -2,7 +2,7 @@
  * @name New Akame Ga Kill! Theme
  * @author ShadowDevilsAvenged
  * @description Newer Akame Ga Kill! theme for my return
- * @version 3
+ * @version 3.1
  */
 
 /* Main Background */
@@ -202,6 +202,10 @@
 .imageUploaderInner-IIRaFr {
     border-radius: 6px;
     background-color: #912;
+}
+
+.imageUploaderInner-IIRaFr:not(.banner-1rJmju) {
+    border-radius: 50px;
 }
 
 .theme-dark .imageUploaderIcon-2OHmFu {
@@ -953,12 +957,51 @@
     font-weight: bold;
 }
 
-.userPopout-2j1gM4 {
-    background-color: transparent !important;
-    border-radius: 5px;
+.profileBadges-31rDHI {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.overlayBackground-1KgwVi {
+    background-color: transparent;
+}
+
+.userProfileOuterUnthemed-2b2rsv {
+    background-color: transparent;
+}
+
+.userPopoutOuter-3AVBmJ {
     box-shadow: none;
-    border: 2px solid #912;
+}
+
+.messageInputContainer-2rGDH8 {
+    border: 1px solid transparent;
+}
+
+.userProfileOuter-1K_BYU {
+    border-radius: 5px;
+}
+
+.userProfileInner-3F03PX:before {
+    background-color: transparent;
+}
+
+.userProfileInnerNonPremium-1XjSjn {
+    background-color: transparent !important;
     background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
+}
+
+.userProfileInnerWithBanner-3CJ1Og {
+    background-color: transparent !important;
+    background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
+}
+
+.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
+.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+    background: none;
+}
+
+.userProfileInner-3F03PX {
+    border-radius: 5px 5px 0 0;
 }
 
 .updateIconForeground-2V_zo4 {
@@ -1622,10 +1665,7 @@
     border-radius: 4px;
 }
 
-.bodyInnerWrapper-2bQs1k {
-    background-color: transparent;
-    color: white;
-}
+
 
 .base-21yXnu.muted-eZM05q {
     color: white;
@@ -1639,7 +1679,7 @@
     background-color: transparent;
 }
 
-.listRow-2nO1T6:hover {
+.listRow-Y5zoF8:hover {
     background-color: rgba(0,0,0,.3);
 }
 
@@ -1648,7 +1688,7 @@
 }
 
 
-.connectedAccountContainer-SlCC-S {
+.connectedAccountContainer-3aLMHJ {
     border: 2px ridge #C13;
     background-color: rgba(153, 17, 33, .77);
     border-radius: 6px;
@@ -2382,7 +2422,7 @@
 .header-1Uy0p6:hover:not(.headerBorder-jrk0Ic) {
     border: 2px solid #C13;
 }
-.container-2qVG6q.isOpen-2OXbFs {
+.theme-dark .container-2qVG6q.isOpen-2OXbFs {
     background-color: rgba(153, 17, 34, .7);
 }
 .headerBorder-jrk0Ic {
