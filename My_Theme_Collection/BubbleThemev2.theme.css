@@ -2,7 +2,7 @@
  * @name Bubble Theme v2
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 2.4
+ * @version 2.5
  */
 
  .app-2CXKsg {
@@ -1050,7 +1050,12 @@
     background-color: transparent;
 }
 
-.icon-mJhEWn {
+.clear-2gkgln {
+    color: gold;
+}
+
+.icon-mJhEWn,
+.icon-2yhmi8 {
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
     background-image: radial-gradient(circle closest-side at 19px 19px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
     background-color: transparent;
@@ -1401,7 +1406,8 @@
     background-color: transparent;
 }
 
-.userProfileInnerThemedWithBanner-2624Yx {
+.userProfileInnerThemedWithBanner-2624Yx,
+.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
     background-image: radial-gradient(circle closest-side at 35px 35px, rgba(255, 255, 255, .85) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%);
     background-color: transparent;
 }
@@ -3227,4 +3233,30 @@
 
 .accountButtonInner-33vCDY:hover {
     box-shadow: inset 3px 3px 4px 3px rgba(243, 250, 254, 0.63), inset -8px -11px 9px -16px rgba(243, 250, 254, 0.53);
+}
+
+.sortButton-n-cIAH {
+    border-radius: 4px;
+    background-color: #1c1c1c;
+}
+
+.sortButtonInner-kKNTP9 {
+    color: white;
+}
+
+.container-2d0jMv {
+    background-color: rgba(0,0,0,.8);
+    box-shadow: none;
+}
+
+.selectedIcon-rQFEab {
+    color: darkblue;
+}
+
+.optionText-_ulaHG[style*="color:"] {
+    color: white !important;
+}
+
+.tag-3Upstw {
+    background-color: rgba(255,255,255,.08) !important;
 }
