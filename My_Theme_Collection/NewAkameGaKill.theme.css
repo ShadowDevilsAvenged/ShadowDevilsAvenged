@@ -2,7 +2,7 @@
  * @name New Akame Ga Kill! Theme
  * @author ShadowDevilsAvenged
  * @description Newer Akame Ga Kill! theme for my return
- * @version 3.4
+ * @version 3.5
  */
 
 /* Main Background */
@@ -1690,6 +1690,11 @@
     background-color: rgba(0,0,0,.3);
 }
 
+.listRow-Y5zoF8 {
+    color: white;
+    border-radius: 4px;
+}
+
 .iconActiveMedium-27_R5B {
     border-radius: 4px;
 }
@@ -1947,7 +1952,8 @@
     background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
 }
 
-.clear-2gkgln {
+.clear-2gkgln,
+.clear-wwSgAl {
     color: gold;
 }
 
@@ -2396,7 +2402,7 @@
 .textBadge-1fdDPJ[style*="background-color:"] {
     background-color: #912 !important;
     border-radius: 4px;
-    color: white;
+    color: white !important;
 }
 
 /* Active Post */
@@ -2940,6 +2946,150 @@
 
 .tag-3Upstw {
     background-color: rgba(255,255,255,.08) !important;
+}
+
+.optionRow-1wYi0s:hover {
+    background-color: rgba(255, 255, 255, .12);
+}
+
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] + rect,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] + rect {
+  fill: black;
+}
+
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj {
+  mask: url("#svg-mask-status-online-mobile");
+  fill: #3BA53B !important;
+}
+
+.avatarWrapper-3y0KZ1 circle, .avatar-1YsFQ1.wrapper-1VLyxH circle {
+    fill: black;
+    opacity: 1 !important;
+}
+
+.selected-g-kMVV.item-3XjbnG, 
+.selected-g-kMVV.item-3XjbnG:hover {
+  color: white!important;
+}
+
+.badgeList-2pMvZX {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.customStatus-3Bvsdb,
+.userTagUsernameNoNickname-2e_xaO,
+.discordIcon-JXet1k,
+.roleName-2ZJJYR,
+.username-28Thtk,
+.actionButton-1YKTU0 {
+    color: white;
+}
+
+.discrimBase-KriZSj,
+.discriminator-3_S3CG {
+    color: #d4d4d4;
+}
+
+/* Newest or Classes That I Have Not Collected Yet */
+.theme-dark .directoryModal-YJsOMv {
+    background-color: transparent;
+}
+
+.content-3C5Io5 a {
+    color: #EECDC8;
+    font-weight: 600;
+}
+
+.search-2RHhW6 {
+    background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.theme-dark .searchIcon-34RNw9,
+#app-mount .clearIcon-TMIIUa {
+    color: white;
+}
+
+.theme-dark .category-2OvQ93,
+.theme-dark .card-2xymMp,
+#app-mount .container-2NdZr9,
+.theme-dark .container-SidGiM {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+.divider-1bpIoX,
+.tabBar-11FwuO {
+    border-bottom: none;
+}
+
+.icon-3uOoI3 {
+    border: none;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.scroller-38C5lh {
+    background-color: transparent;
+}
+
+.content-23DqaR:before {
+    box-shadow: none;
+}
+
+.benefitsSection-2VIuyT:not(:last-child) {
+    border-bottom: none;
+}
+
+.theme-dark .card-8UsK4b {
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
+}
+
+.rsvpIcon-1R5Esx {
+    color: white;
+}
+
+.loadingCard-1-3lgb7R {
+    opacity: .2;
+}
+
+.pencilIcon-1d4fcw, 
+.searchIcon-2Nw0OL {
+  color: white;
+}
+
+.matchingPostsRow-2IiEQ1 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.newPostsButton-UaBhcU>[style*="color:"] {
+    color: #8FF2EA !important;
+}
+
+.divider-2bkesd {
+    background-color: transparent;
+}
+
+.tag-19iIl1 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.container-3kfp0r {
+    background-color: #181818;
+    box-shadow: none;
+}
+
+.countContainer-3uQ087 {
+    background-color: #912;
+}
+
+.divider-AZrXIA {
+    background-color: transparent;
+}
+
+.active-OdlCV-,
+.theme-dark .active-OdlCV-:hover {
+  color: #d4d4d4;
 }
 
 /* Main Color */

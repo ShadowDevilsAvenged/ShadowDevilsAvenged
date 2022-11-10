@@ -2,7 +2,7 @@
  * @name Team Rem
  * @author ShadowDevilsAvenged
  * @description Team Rem is back once again(big request to bring this back)
- * @version 1.1
+ * @version 1.2
 */
 
 /* Rem Main Picture */
@@ -2734,7 +2734,8 @@
     border-bottom: none;
 }
 
-.clear-2gkgln {
+.clear-2gkgln,
+.clear-wwSgAl {
     color: #6cb4fe;
 }
 
@@ -2945,4 +2946,90 @@
 
 .tag-3Upstw {
     background-color: rgba(255, 255, 255, .08) !important;
+}
+
+.optionRow-1wYi0s:hover {
+    background-color: rgba(255, 255, 255, .12);
+}
+
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] + rect,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] + rect {
+  fill: black;
+}
+
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj {
+  mask: url("#svg-mask-status-online-mobile");
+  fill: #3BA53B !important;
+}
+
+.avatarWrapper-3y0KZ1 circle, .avatar-1YsFQ1.wrapper-1VLyxH circle {
+    fill: black;
+    opacity: 1 !important;
+}
+
+.badgeList-2pMvZX {
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.selected-g-kMVV.item-3XjbnG, 
+.selected-g-kMVV.item-3XjbnG:hover {
+  color: white!important;
+}
+
+.customStatus-3Bvsdb,
+.discordIcon-JXet1k,
+.username-28Thtk {
+    color: white;
+}
+
+.discriminator-3_S3CG {
+    color: #d4d4d4;
+}
+
+/* Newest or Classes That I Have Not Collected Yet */
+.content-3C5Io5 a {
+    color: #6cb4fe;
+    font-weight: 600;
+}
+
+.theme-dark .category-2OvQ93,
+.theme-dark .card-2xymMp,
+#app-mount .container-2NdZr9,
+.theme-dark .container-SidGiM {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+.icon-3uOoI3 {
+    border: none;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.theme-dark .card-8UsK4b {
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
+}
+
+.container-3rZ3XA {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.showMore-22xKD3 {
+    color: #6cb4fe;
+    font-weight: 600;
+}
+
+.pencilIcon-1d4fcw, 
+.searchIcon-2Nw0OL {
+  color: white;
+}
+
+.matchingPostsRow-2IiEQ1 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.iconWrapper-3FqQ75,
+.countContainer-3uQ087 {
+    background-color: #6cb4fe;
 }

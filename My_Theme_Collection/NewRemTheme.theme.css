@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 3.4
+ * @version 3.5
  */
 
  .app-2CXKsg {
@@ -628,7 +628,8 @@
     color: white;
 }
 
-.clear-2gkgln {
+.clear-2gkgln,
+.clear-wwSgAl {
     color: gold;
 }
 
@@ -1290,6 +1291,11 @@
 
 .listRow-Y5zoF8:hover {
     background-color: rgba(26, 26, 26, .6);
+}
+
+.listRow-Y5zoF8 {
+    color: white;
+    border-radius: 4px;
 }
 
 .guildNick-fe8oPN {
@@ -2448,7 +2454,7 @@
 .textBadge-1fdDPJ[style*="background-color:"] {
     background-color: #61A5D8 !important;
     border-radius: 4px;
-    color: white;
+    color: white !important;
 }
 
 /* Active Post */
@@ -2815,12 +2821,190 @@
     background-color: rgba(255,255,255,.08) !important;
 }
 
+.optionRow-1wYi0s:hover {
+    background-color: rgba(255, 255, 255, .12);
+}
 
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] + rect,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] + rect {
+  fill: black;
+}
 
+#app-mount .avatarWrapper-3y0KZ1 .wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj,
+#app-mount .avatar-1YsFQ1.wrapper-1VLyxH foreignObject[mask*=mobile] ~ .pointerEvents-9SZWKj {
+  mask: url("#svg-mask-status-online-mobile");
+  fill: #3BA53B !important;
+}
 
+.avatarWrapper-3y0KZ1 circle, .avatar-1YsFQ1.wrapper-1VLyxH circle {
+    fill: black;
+    opacity: 1 !important;
+}
 
+.selected-g-kMVV.item-3XjbnG, 
+.selected-g-kMVV.item-3XjbnG:hover {
+  color: white!important;
+}
 
+.badgeList-2pMvZX {
+    background-color: rgba(0, 0, 0, .6);
+}
 
+.customStatus-3Bvsdb,
+.userTagUsernameNoNickname-2e_xaO,
+.discordIcon-JXet1k,
+.roleName-2ZJJYR,
+.username-28Thtk,
+.actionButton-1YKTU0 {
+    color: white;
+}
+
+.discrimBase-KriZSj,
+.discriminator-3_S3CG {
+    color: #d4d4d4;
+}
+
+/* Newest or Classes That I Have Not Collected Yet */
+.theme-dark .directoryModal-YJsOMv {
+    background-color: transparent;
+}
+
+.content-3C5Io5 a {
+    color: #EECDC8;
+    font-weight: 600;
+}
+
+.search-2RHhW6 {
+    background-color: rgba(0, 0, 0, .6) !important;
+}
+
+.theme-dark .searchIcon-34RNw9,
+#app-mount .clearIcon-TMIIUa {
+    color: white;
+}
+
+.theme-dark .category-2OvQ93,
+.theme-dark .card-2xymMp,
+#app-mount .container-2NdZr9,
+.theme-dark .container-SidGiM {
+  background-color: rgba(0, 0, 0, .5);
+  color: white;
+}
+
+.divider-1bpIoX,
+.tabBar-11FwuO {
+    border-bottom: none;
+}
+
+.icon-3uOoI3 {
+    border: none;
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.scroller-38C5lh {
+    background-color: transparent;
+}
+
+.content-23DqaR:before {
+    box-shadow: none;
+}
+
+.tierInfoContainer-3o77tj,
+.subscriptionPerks-17BiNa {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.benefitsSection-2VIuyT:not(:last-child) {
+    border-bottom: none;
+}
+
+.roleMessagePreview-NUi2Ri {
+    background-color: rgba(196, 0, 0, .4);
+    border: none;
+}
+
+.theme-dark .card-8UsK4b {
+    background-color: rgba(0, 0, 0, .6);
+    border: none;
+}
+
+.divider-2zyEHJ {
+    background-color: transparent;
+}
+
+.rsvpCount-iCkObl {
+    background-color: #61a5d8;
+    border-radius: 4px;
+}
+
+.rsvpIcon-1R5Esx {
+    color: white;
+}
+
+.container-3rZ3XA {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.showMore-22xKD3 {
+    color: #8FF2EA;
+    font-weight: 600;
+}
+
+.loadingCard-1-3lgb7R {
+    opacity: .2;
+}
+
+.pencilIcon-1d4fcw, 
+.searchIcon-2Nw0OL {
+  color: white;
+}
+
+.matchingPostsRow-2IiEQ1 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.pinIcon-zVODC5,
+.tagsButton-4pwOKH {
+    background-color: #61A5D8;
+}
+
+.channelName-3KPsGw[style*="color:"] {
+    color: #8FF2EA !important;
+}
+
+.newPostsButton-UaBhcU>[style*="color:"] {
+    color: #8FF2EA !important;
+}
+
+.divider-2bkesd {
+    background-color: transparent;
+}
+
+.tag-19iIl1 {
+    background-color: rgba(0, 0, 0, .4);
+}
+
+.tagsButton-4pwOKH .tagsButtonInner-2pvSm1 {
+    color: white;
+}
+
+.container-3kfp0r {
+    background-color: #181818;
+    box-shadow: none;
+}
+
+.divider-AZrXIA {
+    background-color: transparent;
+}
+
+.active-OdlCV-,
+.theme-dark .active-OdlCV-:hover {
+  color: #d4d4d4;
+}
+
+.countContainer-3uQ087 {
+    background-color: #61A5D8;
+}
 
 /* Main Color */
 .main-color {color: #61A5D8;}
