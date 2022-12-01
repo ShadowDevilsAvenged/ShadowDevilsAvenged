@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 3.5
+ * @version 3.6
 */
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -941,12 +941,12 @@ textarea,
     margin-top: -40px;
 }
 
-.connectedAccountContainer-3aLMHJ {
+.connectedAccountContainer-2TWiXT {
     border-radius: 12px;
     border: 2px solid black;
 }
 
-.connectedAccountContainer-3aLMHJ {
+.connectedAccountContainer-2TWiXT {
     background-color: rgba(0, 0, 0, 0.324);
 }
 
@@ -999,8 +999,18 @@ textarea,
     background-color: transparent !important;
 }
 
-.small-1bZsRQ[style*="background-color: rgb(114, 137, 218);"] {
+.progressBar-1T6LYX[style*="background-color: var(--brand-500);"] {
     background-color: #008c99 !important;
+}
+
+.active-136ioF, 
+.hover-3OQb9Y:hover {
+    background-color: rgba(0,0,0,.2);
+}
+
+.active-136ioF .icon-3g7qdA, 
+.hover-3OQb9Y:hover .icon-3g7qdA {
+    color: white;
 }
 
 .theme-dark .attachment-1PZZB2 {
@@ -2177,7 +2187,8 @@ textarea,
     border-radius: 0;
 }
 
-.button-3bklZh:hover {
+.button-3bklZh:hover,
+.button-3bklZh.selected-69H4ua {
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
 }
@@ -3072,7 +3083,7 @@ textarea,
 
 /* Newest or Classes That I Have Not Collected Yet */
 .theme-dark .directoryModal-YJsOMv {
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, .4);
 }
 
 .content-3C5Io5 a {
@@ -3169,4 +3180,461 @@ textarea,
 .active-OdlCV-,
 .theme-dark .active-OdlCV-:hover {
   color: #d4d4d4;
+}
+
+.mulitplePlaceholderUsername-2T3DCI,
+.placeholderAvatar-1qAcRZ,
+.placeholderUsername-3iQi_D,
+.memberGroupsPlaceholder-9tqX9V {
+  background-color: #008c99;
+  border-radius: 2px;
+}
+
+.table-17_dGF {
+    background-color: rgba(0,0,0,.6);
+    border-radius: 4px;
+}
+
+.checkboxLabel-3VTAjH {
+    color: white;
+}
+
+.checkboxLabel-3VTAjH a {
+    color: #F8F0C4;
+}
+
+.circle-1g-jMn, 
+.listRowCircle-Yp4XyP {
+  background-color: #008c99;
+  border-radius: 30px;
+}
+
+.groupContainer-x_RNHs,
+.backgroundModifierContainer-WjXgb2:hover:not(.disabled-3Q7kTN) {
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.category-3LanTP {
+    background-color: rgba(0,0,0,.4);
+    border-radius: 6px;
+}
+
+.category-3LanTP:hover {
+    background-color: rgba(0,0,0,.6);
+}
+
+.headerContent-1ruWaB, 
+.headerSidebar-q66Sut,
+.separator-3iCpOF {
+    border-bottom: none;
+}
+
+.divider-2-bAb9 {
+    border-top: none;
+}
+
+.card-sX105p,
+.list-1bztb- {
+    background-color: rgba(0,0,0,.4);
+    border-radius: 4px;
+}
+
+.commandName-SDgdgz {
+    background-color: rgba(0,0,0,.7);
+    border: none;
+}
+
+.headerIcon-4CEo5y {
+    border: 7px solid transparent;
+    background-color: transparent;
+}
+
+#app-mount .childButton-3o_dlg {
+    background-color: rgba(0,0,0,.4);
+}
+
+.theme-dark .optionPillKey-2JyeoP {
+    background-color: rgba(0,0,0,.3);
+}
+
+.theme-dark .optionPill-2kmuZR {
+    background-color: rgba(0,0,0,.1);
+    border-color: transparent;
+}
+
+.theme-dark .tierHeaderLocked-30MLlO, 
+.theme-dark .tierHeaderUnlocked-1OpOLf {
+    background-color: rgba(0,0,0,.6);
+}
+
+.theme-dark .tierBody-1d3UiS {
+    background-color: rgba(0,0,0,.3);
+    color: white;
+}
+
+.theme-dark .copyInputDefault-3jiMHw {
+    border-color: transparent;
+}
+
+.copyInput-3AbKWB {
+    background-color: rgba(0,0,0,.6);
+}
+
+.guildFeatureAvailabilityIndicator-1-B8Jv {
+    background-color: rgba(0,0,0,.7);
+}
+
+.featureIcon-3rvFkz {
+    color:  white;
+}
+
+.item-14XeNr,
+.item-4m-12I,
+.item-4m-12I:hover {
+    background-color: #2D2D2D;
+}
+
+.layoutStyle-3d1mjU .item-4m-12I[aria-label="Passthrough"] {
+    color: #FFDB4D;
+}
+
+.passthrough--fbdFR.selected-3jieYB {
+    background-color: #FFDB4D !important;
+    color: black !important;
+}
+
+.deny-2VqAyZ,
+.cross-vHLzBr,
+.deny-1GO6vI {
+    color: #F42626;
+}
+
+.deny-2VqAyZ.selected-I4nkOo,
+.deny-1GO6vI.selected-3jieYB {
+    background-color: #F42626 !important; 
+    color: white;
+}
+
+.allow-q9kwjz,
+.check-3Fp8pO,
+.allow-1h61-Z {
+    color: #3DD828;
+}
+
+.allow-q9kwjz.selected-I4nkOo,
+.allow-1h61-Z.selected-3jieYB {
+    background-color: #3DD828 !important;
+    color: white;
+}
+
+.syncIcon-3lhuwS path {
+    fill: #5AF426;
+}
+
+.perkDescription--074QX a {
+    color: #FFFF90;
+}
+
+.divider-2UxUgG {
+    background: transparent;
+}
+
+.theme-dark .inviteSettingsInviteRow-FAjfDN {
+    box-shadow: none;
+}
+
+
+.theme-dark .perk-19D_HN {
+    background-color: rgba(0,0,0,.4);
+}
+
+.divider-1MSaR9 {
+    background: none;
+}
+
+.theme-dark .barBackground-unEPDT {
+    background-color: transparent;
+}
+
+.barSecondary-VouwoY {
+    background-color: rgba(255,255,255,.12);
+}
+
+.theme-dark .elevationBorderLow-3_3rXL {
+    box-shadow: none;
+}
+
+.theme-dark .popoutList-10IFAa {
+    background: #141414;
+}
+
+.theme-dark .selectableItem-3-fmiM {
+    color: white;
+}
+
+.theme-dark .selectableItem-3-fmiM:focus, 
+.theme-dark .selectableItem-3-fmiM:hover {
+    background-color: rgba(0,0,0,.6);
+}
+
+
+.divider-2JN8Vy {
+    background-color: transparent;
+}
+
+.guildSubscriptionSlots-1i_C21 {
+    background-color: #141414;
+}
+
+
+.guildSubscriptionSlot-1mef6n {
+    border-bottom: none;
+}
+
+.guildSubscriptionDuration-1JI19A, 
+.guildSubscriptionSlotMenuIcon-3UcQXW {
+    color: white;
+}
+
+.cardWrapper-1bSePP {
+    background: #141414;
+}
+
+.theme-dark .gemIndicatorContainer-PqApbX {
+    background-color: transparent;
+}
+
+.circleBackgroundAlt-32_kWx {
+    fill: transparent;
+}
+
+#app-mount .banReasonOtherClickable-8EKPlQ {
+    background-color: rgba(0,0,0,.4);
+    color: white;
+}
+
+.selected-3B2w1z .icon-1kx1ir, 
+.selected-3B2w1z:hover .icon-1kx1ir, 
+#app-mount .icon-1kx1ir,
+.wrapper-1wwiGV:hover .icon-1kx1ir {
+    color: white;
+}
+
+.breadcrumbWrapper-3rpYiO {
+    color: white;
+}
+
+.wrapper-3z7DuG {
+    background-color: transparent;
+}
+
+.theme-dark .option-Tt7anD {
+    background-color: rgba(0,0,0,.3);
+}
+
+.memberRow-1FhJgR:hover,
+.item-2rTrrd:hover {
+    background-color: rgba(255,255,255,.2);
+}
+
+.placeholder-2XdCpg {
+    color: white;
+}
+
+.theme-dark .card-3JmxsM {
+    border-color: transparent;
+}
+
+.cardPrimaryEditable-2mz_3i {
+    background: rgba(0,0,0,.6);
+}
+
+.theme-dark .headerClickable-zGQJz3, 
+.theme-dark .headerDefault-1e6yjj {
+    background-color: rgba(0,0,0,.5);
+    color: white;
+}
+
+.theme-dark .auditLog-1NVAY0 {
+    border-color: transparent;
+    color: white;
+}
+
+.theme-dark .tierBody-3ju-rc {
+    background-color: transparent;
+    color: white;
+}
+
+.body-1JxAWB a,
+.text-2iTkaw a {
+    color: #FFFF90;
+}
+
+.featureIcon-2sTnDK {
+    background-color: rgba(255,255,255,.12);
+    border-radius: 7px;
+}
+
+.stickyHeaderElevated-dNSSrJ {
+    box-shadow: none;
+}
+
+.ctaBar-Nhk8yY {
+    background-color: rgba(0,0,0,.6);
+}
+
+.theme-dark .tierMarkerBackground-G8FoN4 {
+    background-color: transparent;
+}
+
+.theme-dark .elevationLow-26BbEG {
+    box-shadow: none;
+}
+
+.learnMoreLink-2JwgbJ {
+    color: #84E7FF;
+}
+
+.divider-1wnNcY {
+    background-color: transparent;
+}
+
+.guildsSection-30CJxX {
+    border-top: none;
+}
+
+.wrapper-2SplAX {
+    background-color: rgba(0,0,0,.5);
+}
+
+.messagePreviewContainer-1oR1Oc {
+    border: 1px solid black;
+}
+
+.box-2iMsQm {
+    background-color: #181818;
+}
+
+.box-2iMsQm:after {
+    border-top: 10px solid #181818;
+}
+
+.maskBackground-F7QD-A {
+    background-color: rgba(255,255,255,.12);
+}
+
+.containerBackground-Ang24O {
+    background-color: rgba(0,0,0,.6);
+    border: none;
+    box-shadow: none;
+}
+
+.textDivider-34kVsR {
+    background-color: transparent;
+}
+
+.tile-2TcwiO {
+    background-color: transparent;
+}
+
+.scrollTierBackground-BnWR8k,
+.modalHeader-3X0A4K {
+    background-color: transparent;
+}
+
+.activityItem-1Z9CTr {
+    background: rgba(0,0,0,.6) !important;
+    box-shadow: none;
+}
+
+.activityTag-3C3YK5 {
+    background-color: #141414;
+    color: white !important;
+}
+
+.sourceThumbnail-ERDcZE {
+    background-color: transparent;
+}
+
+.tile-3POX2m:hover .sourceThumbnail-ERDcZE {
+    box-shadow: inset 0 0 0 2px #008c99;
+}
+
+.container-1zzFcN {
+    border-bottom: none;
+}
+
+.emojiPickerHeader-2mWh2T {
+    background: #141414;
+}
+
+
+.noiseCancellationPopout-2-e5Xz {
+    background: #141414;
+    box-shadow: none;
+}
+
+.noiseCancellationPopout-2-e5Xz a {
+    color: #63F3FD;
+}
+
+#app-mount .participantsButton-1WBdFP {
+    background: #141414;
+    box-shadow: none;
+}
+
+.overlayTitle-2efoIF {
+    border-radius: 4px;
+    background: rgba(0,0,0,.6);
+    color: white;
+}
+
+.status-15kcmy,
+.unreadCount-eHeIkt {
+    color: white;
+    background-color: #008c99;
+}
+
+.theme-dark .previewContainer-35LFgt,
+.theme-dark .streamPreview-I7itZ6,
+.container-8Futzw {
+    background-color: #141414;
+}
+
+.container-8Futzw {
+    box-shadow: none;
+}
+
+.channelIcon-3Oew8h,
+.activityVoiceChannel-2vojOH .headerText-3g1XK9 {
+    color: white;
+}
+
+.headerDivider-N-jIGV {
+    background-color: transparent;
+}
+
+.scroller-3b1p7z {
+    background-color: transparent;
+}
+
+.theme-dark .memberListItem-3V-x8Q:not(.popoutDisabled-PP2QdB):hover {
+    background-color: rgba(255,255,255,.13);
+}
+
+.textBlock-3rqvcj a {
+    color: #FFF88D;
+}
+
+.note-3TX9O7 textarea:focus {
+    background-color: rgba(0, 0, 0, .09);
+}
+
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG, 
+.top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+    border-bottom-color: #EAD2C6;
+}
+
+.top-K_jibn .themed-2-lozF.item-3XjbnG:hover {
+    border-bottom-color: silver;
 }
