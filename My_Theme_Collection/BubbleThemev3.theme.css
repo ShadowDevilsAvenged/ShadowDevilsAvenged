@@ -1,8 +1,8 @@
 /**
- * @name Bubble Theme v2
+ * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 2.9
+ * @version 3
  */
 
  .app-2CXKsg {
@@ -252,9 +252,9 @@
     background-color: transparent;
 }
 
-.text-md-normal-304U3g,
-.text-xs-normal-3SiVjE,
-.text-sm-normal-3Zj3Iv {
+.text-md-normal-2rFCH3,
+.text-xs-normal-3O7EaX,
+.text-sm-normal-AEQz4v {
   color: white !important;
 }
 
@@ -2446,7 +2446,7 @@
 }
 
 
-.selected-3veCBZ {
+.selected-26oxtA {
 	background-image: radial-gradient(circle closest-side at 17px 17px, rgba(255, 255, 255, .85) 10%, rgba(46, 59, 132,0.49) 100%, rgba(46, 59, 132,0.49) 100%);
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -14px 9px -16px rgba(231, 254, 255, 0.33);
@@ -2456,13 +2456,13 @@
     border-radius: 50px;
 }
 
-.interactive-1vLZ_I,
+.interactive-26HRN_,
 .interactive-iyXY_x,
 .interactiveSelected-29CP8y {
 	color: white;
 }
 
-.interactive-1vLZ_I:focus-within, .interactive-1vLZ_I:hover {
+.interactive-26HRN_:focus-within, .interactive-26HRN_:hover {
     color: silver;
     background-color: rgba(0, 0, 0, 0.09);
 }
@@ -4042,8 +4042,8 @@
     background-color: transparent;
 }
 
-.text-md-normal-304U3g a,
-.text-sm-normal-3Zj3Iv a {
+.text-md-normal-2rFCH3 a,
+.text-sm-normal-AEQz4v a {
     color: #C5E384;
 }
 
@@ -4393,4 +4393,47 @@
 
 .theme-dark .keyboardShortcutsModal-2CRmCm {
     background-color: transparent;
+}
+
+.stageListenerPill-1_QAPA,
+.audienceIconContainer-1xndyK {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+
+.audienceIcon-2HoEJ2 {
+    color: white;
+}
+
+.textBadge-v9EW9y {
+    border: 4px solid transparent;
+}
+
+.container-3i3IzO {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.cta-1XhfrG {
+    color: #3ea6ff;
+}
+
+.checkIcon-3eAeN_, 
+.memberCount-2G9rxE {
+    border: 1px solid rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.optionButton-1W9f7G.selected-KQBgNS {
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.container-1jQZ2U {
+    box-shadow: none;
+    background-color: #282828;
+    border: 1px solid rgba(255, 255, 255, .1);
+}
+
+.hljs {
+    background: rgba(255,255,255,.12);
 }
