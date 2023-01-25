@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 1.1
+ * @version 1.2
 */
 
 .app-2CXKsg, 
@@ -187,7 +187,8 @@
     color: #F1F1F1;
 }
 
-.markup-eYLPri a {
+.markup-eYLPri a,
+.mutedChannelsHook-3uTdkn {
     color: #3ea6ff;
 }
 
@@ -425,24 +426,20 @@
     color: white !important;
 }
 
-.mainCard-3KBsBI .input-2g-os5 {
-    background: none;
-    border: none;
-}
 
-.input-2g-os5 {
+.input-3O04eu {
     font-size: 14px;
     color: #F1F1F1;
     background-color: rgba(255, 255, 255, .1);
 }
 
-.input-2g-os5:hover {
+.input-3O04eu:hover {
     background-color: rgba(255, 255, 255, .2);
 }
 
 .note-6O4w9y textarea:focus,
-.input-2g-os5.focused-1AtTHC, 
-.input-2g-os5:focus,
+.input-3O04eu.focused-16iuXg, 
+.input-3O04eu:focus,
 .note-3TX9O7 textarea:focus {
     background-color: rgba(255, 0, 0, .3);
 }
@@ -533,9 +530,9 @@
     box-shadow: none;
 }
 
-.h5-2RwDNl, 
-.label-2bTGzo, 
-.legend-1TXTJO,
+.h5-2feg8J, 
+.label-7akf7-, 
+.legend-3BgtI3,
 .cozy-VmLDNB .timestamp-p1Df1m {
     color: #F1F1F1;
 }
@@ -545,55 +542,55 @@
     color: white;
 }
 
-.select-1Ia3hD {
+.select-Zz0IcO {
     border: 1px solid transparent;
     border-radius: 10px;
 }
 
-.open-1FRZsK {
+.open-LeyjhI {
     border-radius: 10px 10px 0 0;
     border-bottom-color: transparent;
 }
 
-.select-1Ia3hD, 
-.wrapper-1b33hy {
+.select-Zz0IcO, 
+.wrapper-mJT04A {
     color: #F1F1F1;
     font-weight: 500;
 }
 
-.lookFilled-1GseHa.select-1Ia3hD {
+.lookFilled-GPyucw.select-Zz0IcO {
     background-color: #121212;
     border-color: rgba(255, 255, 255, .4);
 }
 
-.popout-1KHNAq[style] {
+.popout-15UxD6[style] {
     border: 1px solid transparent;
     background: #FFFFFF;
     border-radius: 0 0 10px 10px;
 }
 
-.option-2eIyOn * {
+.option-Uc12mm * {
     color: #222;
     font-weight: 500;
 }
 
-.option-2eIyOn[aria-selected=true]:not(.option-2eIyOn.multi-1HXDiv) {
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
     color: #222;
     background-color: #c5c5c5;
 }
 
-.option-2eIyOn.focused-ODgjnC, 
-.option-2eIyOn:focus, 
-.option-2eIyOn:hover {
+.option-Uc12mm.focused-10mbp-, 
+.option-Uc12mm:focus, 
+.option-Uc12mm:hover {
     color: #222;
     background-color: #eee;
 }
 
-.selectedIcon-19TbzU {
+.selectedIcon-122rMx {
     color: #222;
 }
 
-.divider-_0um2u {
+.divider-3nqZNm {
     border-top: none;
 }
 
@@ -1151,11 +1148,11 @@
     fill: white;
 }
 
-.popout-1KHNAq.popoutPositionTop-1GenHR {
+.popout-15UxD6.popoutPositionTop-3Uhefd {
     border-radius: 10px 10px 0 0;
 }
 
-.box-BHImcZ {
+.box-qwm0Q_ {
     border-radius: 40px;
 }
 
@@ -1167,18 +1164,18 @@
     background-color: transparent;
 }
 
-.theme-dark .checkbox-f1HnKB {
+.theme-dark .checkbox-1LuCGM {
     border-color: rgba(255, 255, 255, .1);
 }
 
-.theme-dark .checkbox-f1HnKB[style*="border-color:"] {
+.theme-dark .checkbox-1LuCGM[style*="border-color:"] {
     border-color: rgba(255, 255, 255, .8) !important;
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_play_button_icon_%282013%E2%80%932017%29.svg/1200px-YouTube_play_button_icon_%282013%E2%80%932017%29.svg.png);
     background-size: cover;
     background-position: center;
 }
 
-.theme-dark .checkbox-f1HnKB[style*="border-color:"] path {
+.theme-dark .checkbox-1LuCGM[style*="border-color:"] path {
     fill: transparent;
 }
 
@@ -1340,26 +1337,26 @@
     background: none;
 }
 
-.markValue-2U_-UG {
+.markValue-21gAVC {
     color: #F1F1F1;
 }
 
-.description-30xx7u, 
-.labelDescriptor-34wZ-z {
+.description-foE_WP, 
+.labelDescriptor-2top7R {
     color: #F1F1F1;
 }
 
-.description-30xx7u a, 
-.labelDescriptor-34wZ-z a {
+.description-foE_WP a, 
+.labelDescriptor-2top7R a {
     color: #3ea6ff;
     font-weight: 600;
 }
 
-.theme-dark .markDash-yk2kJ- {
+.theme-dark .markDash-1ATsxA {
     background: none;
 }
 
-.bar-1Bhnl9 {
+.bar-2H7Q9u {
     height: 12px;
     border-radius: 50px;
 }
@@ -1374,39 +1371,39 @@
     box-shadow: 0 0 8px 0 black;
 }
 
-.theme-dark .bar-1Bhnl9 {
+.theme-dark .bar-2H7Q9u {
     background: rgba(113, 113, 113, .5);
 }
 
-.barFill-2Bh7CX {
+.barFill-3RgCsY {
     background: #3ea6ff;
     opacity: 1 !important;
 }
 
-.container-2nx-BQ[style] {
+.container-1QtPKm[style] {
     height: 14px;
 }
 
-.container-2nx-BQ .slider-32CRPX {
+.container-1QtPKm .slider-HJFN2i {
     left: -13px !important;
     top: -13px;
     width: 34px;
     height: 34px;
 }
 
-.container-2nx-BQ.checked-25WXMf .slider-32CRPX {
+.container-1QtPKm.checked-16gMAN .slider-HJFN2i {
     left: 13px !important;
     top: -13px;
     width: 34px;
     height: 34px;
 }
 
-.container-2nx-BQ {
+.container-1QtPKm {
     background-color: rgba(113, 113, 113, .5) !important;
 }
 
 
-.container-2nx-BQ .slider-32CRPX rect {
+.container-1QtPKm .slider-HJFN2i rect {
     fill: white;
     x: 4 !important;
     y: 0 !important;
@@ -1414,15 +1411,15 @@
     width: 20px !important;
 }
 
-.container-2nx-BQ .slider-32CRPX path {
+.container-1QtPKm .slider-HJFN2i path {
     fill: white;
 }
 
-.container-2nx-BQ.checked-25WXMf .slider-32CRPX rect {
+.container-1QtPKm.checked-16gMAN .slider-HJFN2i rect {
     fill: #3ea6ff;
 }
 
-.container-2nx-BQ.checked-25WXMf .slider-32CRPX path {
+.container-1QtPKm.checked-16gMAN .slider-HJFN2i path {
     fill: #3ea6ff;
 }
 
@@ -1764,7 +1761,7 @@
     background-color: #282828;
 }
 
-.emojiButtonContainer-1n1BNw {
+.container-ZSFRqx {
     background-color: transparent;
     border: none;
 }
@@ -2014,30 +2011,30 @@
     border: 2px solid rgba(255, 255, 255, .1);
 }
 
-.itemFilled-1cPbtg[aria-checked=true] {
+.itemFilled-2Fo7lr[aria-checked=true] {
     background-color: #FFFFFF !important;
 }
-.item-2idW98[aria-checked=true] {
+.item-1TA5qI[aria-checked=true] {
     color: #0F0F0F !important;
 }
 
-.item-2idW98[aria-checked=true] .text-sm-normal-AEQz4v {
+.item-1TA5qI[aria-checked=true] .text-sm-normal-AEQz4v {
     font-weight: 600;
 }
 
-.itemFilled-1cPbtg {
+.itemFilled-2Fo7lr {
     background-color: rgba(255, 255, 255, .1);
 }
 
-.item-2idW98 {
+.item-1TA5qI {
     color: #F1F1F1;
 }
 
-.itemFilled-1cPbtg:hover:not([aria-checked=true]):not(.disabled-3tqE8r) {
+.itemFilled-2Fo7lr:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
     background-color: rgba(255, 255, 255, .2);
 }
 
-.item-2idW98:hover:not([aria-checked=true]):not(.disabled-3tqE8r) {
+.item-1TA5qI:hover:not([aria-checked=true]):not(.disabled-WBmOu_) {
     color: #F1F1F1;
 }
 
@@ -2046,7 +2043,7 @@
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.input-2g-os5.focused-1AtTHC, .input-2g-os5:focus {
+.input-3O04eu.focused-16iuXg, .input-3O04eu:focus {
     border-color: rgba(255, 255, 255, .2);
 }
 
@@ -2092,7 +2089,7 @@
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.search-2RHhW6 .input-2g-os5 {
+.search-2RHhW6 .input-3O04eu {
     background: none;
 }
 
@@ -2548,14 +2545,14 @@
     background-color: rgba(255, 255, 255, .1);
 }
 
-.item-2idW98[aria-checked=true] .icon-1ykL9s {
+.item-1TA5qI[aria-checked=true] .icon-1ykL9s {
     opacity: 1;
     fill: #0F0F0F;
 }
 
-.item-2idW98[aria-checked=true] .text-sm-normal-AEQz4v,
-.item-2idW98[aria-checked=true] .defaultColor-1EVLSt,
-.item-2idW98[aria-checked=true] .text-sm-normal-AEQz4v a {
+.item-1TA5qI[aria-checked=true] .text-sm-normal-AEQz4v,
+.item-1TA5qI[aria-checked=true] .defaultColor-1EVLSt,
+.item-1TA5qI[aria-checked=true] .text-sm-normal-AEQz4v a {
     color: #0F0F0F !important;
 }
 
@@ -2937,13 +2934,14 @@
     background-color: transparent;
 }
 
-.mainCard-3KBsBI {
+.mainCard-3KBsBI,
+.increasedActivityMainCard-2ry6hI {
     background-color: transparent !important;
     border-radius: 20px;
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.mainCard-3KBsBI .input-2g-os5 {
+.mainCard-3KBsBI .input-3O04eu {
     background: none;
     border: none;
 }
@@ -3325,8 +3323,8 @@
     background-color: rgba(0, 0, 0, .1);
 }
 
-.search-25t1e9 .searchBox-31Zv9h .input-2g-os5,
-.theme-dark .searchBox-pyIJJj .input-2g-os5 {
+.search-25t1e9 .searchBox-31Zv9h .input-3O04eu,
+.theme-dark .searchBox-pyIJJj .input-3O04eu {
     background: none;
     border: none;
 }
@@ -3571,7 +3569,7 @@
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.addFriendInputWrapper-kkoSV9 .input-2g-os5 {
+.addFriendInputWrapper-kkoSV9 .input-3O04eu {
     background: none;
     border: none;
 }
