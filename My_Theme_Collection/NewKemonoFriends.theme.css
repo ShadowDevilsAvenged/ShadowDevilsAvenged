@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 4.1
+ * @version 4.2
  */
 
 /* Main Background */
@@ -53,8 +53,8 @@
 .nowPlayingColumn-1eCBCN {
     background: transparent;
 }
-.bg-1QIAus, .wrapper-1_HaEi, .members-3WRCEx, .members-3WRCEx>div, .container-1NXEtd, .scroller-3X7KbA, 
-.contentRegionScroller-2_GT_N, .standardSidebarView-E9Pc3j, .layer-86YKbF, .privateChannels-oVe7HL, .scroller-WSmht3, .theme-dark .container-2cd8Mz,
+.bg-1QIAus, .wrapper-1_HaEi, .members-3WRCEx, .members-3WRCEx>div, .theme-dark .container-1NXEtd, .theme-dark .scroller-3X7KbA, 
+.contentRegionScroller-2_GT_N, .standardSidebarView-E9Pc3j, .layer-86YKbF, .privateChannels-oVe7HL, .theme-dark .scroller-WSmht3, .theme-dark .container-2cd8Mz,
 .container-1oAagU {
     background-color: transparent;
 }
@@ -1408,7 +1408,7 @@ background-color: transparent  !important;
     border-radius: 6px 6px 0 0;
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     background-color: rgba(0,0,0,.2);
     border-radius: 4px;
 }
@@ -3705,6 +3705,7 @@ border-top-color: #f44;
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .emojiPickerHeader-2mWh2T {
@@ -4356,6 +4357,18 @@ border-top-color: #f44;
 
 .hljs {
     background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
 }
 /* Main Color */
 .main-color{color: #F44;}

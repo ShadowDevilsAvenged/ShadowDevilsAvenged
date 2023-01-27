@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 4.1
+ * @version 4.2
  */
 
  #app-mount .app-2CXKsg {
@@ -1043,7 +1043,7 @@
   fill: #9b2742;
 }
 
-.container-1NXEtd, .sidebar-1tnWFu, .panels-3wFtMD, .chat-2ZfjoI, .messages-3amgkR {
+.theme-dark .container-1NXEtd, .sidebar-1tnWFu, .panels-3wFtMD, .chat-2ZfjoI, .messages-3amgkR {
   background-color: transparent;
 }
 
@@ -1059,6 +1059,7 @@
 .container-1zzFcN {
   color: white;
   border-bottom: none;
+  background: none;
 }
 
 .button-12Fmur.enabled-9OeuTA:hover {
@@ -1860,7 +1861,7 @@
   background: linear-gradient(342deg, rgba(0,0,0,1) 10%, #9b2742 100%);
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
   background-color: transparent;
 }
 
@@ -2052,7 +2053,7 @@
   box-shadow: none;
 }
 
-.privateChannels-oVe7HL, .scroller-WSmht3, .theme-dark .container-2cd8Mz,
+.privateChannels-oVe7HL, .theme-dark .scroller-WSmht3, .theme-dark .container-2cd8Mz,
 .nowPlayingColumn-1eCBCN, .scroller-2XLwLg, .scroller-1TOeMq, .applicationStore-2nk7Lo,
 .scroller-29cQFV {
   background: none;
@@ -2370,7 +2371,7 @@
   border-radius: 4px;
 }
 
-.guildSeparator-33mFX6, .scroller-3X7KbA, .wrapper-1_HaEi {
+.guildSeparator-33mFX6, .theme-dark .scroller-3X7KbA, .wrapper-1_HaEi {
   background: none;
 }
 
@@ -4714,4 +4715,16 @@ border-top-color: #9b2742;
 
 .hljs {
   background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+  background: none;
+}
+
+.formTitle-2YQyhj {
+  color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+  background-color: transparent;
 }

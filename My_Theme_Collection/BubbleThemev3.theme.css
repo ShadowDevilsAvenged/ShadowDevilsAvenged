@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 3.2
+ * @version 3.3
  */
 
  .app-2CXKsg {
@@ -64,7 +64,7 @@
     background-color: rgba(0,0,0,.3);
 }
 
-.scroller-3X7KbA {
+.theme-dark .scroller-3X7KbA {
     background-color: transparent;
 }
 
@@ -288,7 +288,7 @@
     box-shadow: none;
 }
 
-.container-1NXEtd,
+.theme-dark .container-1NXEtd,
 .chat-2ZfjoI {
     background-color: transparent;
 }
@@ -844,7 +844,7 @@
     background-color: transparent;
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
     background-image: radial-gradient(circle closest-side at 12px 12px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
     background-color: transparent;
@@ -2360,7 +2360,7 @@
 .theme-dark .container-2cd8Mz, 
 .applicationStore-2nk7Lo,
 .scroller-29cQFV,
-.scroller-WSmht3 {
+.theme-dark .scroller-WSmht3 {
     background-color: transparent;
 }
 
@@ -3787,6 +3787,7 @@
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .emojiPickerHeader-2mWh2T {
@@ -4438,4 +4439,16 @@
 
 .hljs {
     background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
 }

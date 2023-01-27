@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 1.6
+ * @version 1.7
 */
 
 .app-2CXKsg {
@@ -333,7 +333,7 @@
     border-radius: 20px;
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     background-color: transparent;
 }
 
@@ -2356,7 +2356,7 @@
     background: none;
 }
 
-.container-1NXEtd {
+.theme-dark .container-1NXEtd {
     background-color: transparent;
 }
 
@@ -2932,7 +2932,7 @@
     background-color: rgba(0, 0, 0, .5);
 }
 
-.scroller-3X7KbA,
+.theme-dark .scroller-3X7KbA,
 .wrapper-1_HaEi {
     background-color: transparent;
 }
@@ -3129,7 +3129,7 @@
 }
 
 .privateChannels-oVe7HL,
-.scroller-WSmht3 {
+.theme-dark .scroller-WSmht3 {
     background-color: transparent;
 }
 
@@ -3694,6 +3694,7 @@
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .text-md-semibold-3xVVGu[style*="color:"] {
@@ -4323,4 +4324,16 @@
 
 .hljs {
     background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
 }

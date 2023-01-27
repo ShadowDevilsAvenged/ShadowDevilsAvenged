@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 4.1
+ * @version 4.2
  */
 
 /* Main Background */
@@ -57,8 +57,8 @@
 .nowPlayingColumn-1eCBCN {
     background: transparent;
 }
-.bg-1QIAus, .wrapper-1_HaEi, .members-3WRCEx, .members-3WRCEx>div, .container-1NXEtd, .scroller-3X7KbA, 
-.contentRegionScroller-2_GT_N, .standardSidebarView-E9Pc3j, .layer-86YKbF, .privateChannels-oVe7HL, .scroller-WSmht3, .theme-dark .container-2cd8Mz,
+.bg-1QIAus, .wrapper-1_HaEi, .members-3WRCEx, .members-3WRCEx>div, .theme-dark .container-1NXEtd, .theme-dark .scroller-3X7KbA, 
+.contentRegionScroller-2_GT_N, .standardSidebarView-E9Pc3j, .layer-86YKbF, .privateChannels-oVe7HL, .theme-dark .scroller-WSmht3, .theme-dark .container-2cd8Mz,
 .container-1oAagU {
     background-color: transparent;
 }
@@ -1069,7 +1069,7 @@
     background: none;
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     background-color: transparent;
     border-radius: 5px;
 }
@@ -3409,6 +3409,7 @@
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .emojiPickerHeader-2mWh2T {
@@ -4069,6 +4070,18 @@
 
 .hljs {
     background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
 }
 /* Main Color */
 .main-color{color: #2AB;}

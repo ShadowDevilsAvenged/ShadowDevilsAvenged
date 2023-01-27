@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 4.1
+ * @version 4.2
  */
 
  .app-2CXKsg {
@@ -63,7 +63,7 @@
 }
 
 .container-ZMc96U.themed-Hp1KC_, .chat-2ZfjoI, .members-3WRCEx, .members-3WRCEx>div,
-.chat-2ZfjoI, .container-2o3qEW, .container-1NXEtd, .sidebar-1tnWFu, .scroller-3X7KbA, .wrapper-1_HaEi {
+.chat-2ZfjoI, .container-2o3qEW, .theme-dark .container-1NXEtd, .sidebar-1tnWFu, .theme-dark .scroller-3X7KbA, .wrapper-1_HaEi {
     background: transparent;
 }
 
@@ -725,7 +725,7 @@
     border: none;
 }
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     background-color: transparent;
 }
 
@@ -2267,7 +2267,7 @@
     box-shadow: none;
 }
 
-.privateChannels-oVe7HL, .scroller-WSmht3 {
+.privateChannels-oVe7HL, .theme-dark .scroller-WSmht3 {
     background-color: transparent;
 }
 
@@ -3411,6 +3411,7 @@
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .text-md-semibold-3xVVGu[style*="color:"] {
@@ -4053,6 +4054,17 @@
     background: rgba(255,255,255,.12);
 }
 
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
+}
 
 /* Main Color */
 .main-color {color: #61A5D8;}

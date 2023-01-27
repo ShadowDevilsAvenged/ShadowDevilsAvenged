@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 4.1
+ * @version 4.2
 */
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -75,7 +75,7 @@ textarea,
 .theme-dark .layer-86YKbF,
 .theme-dark .wrapper-1_HaEi,
 .theme-dark .scroller-3X7KbA,
-.container-1NXEtd,
+.theme-dark .container-1NXEtd,
 .theme-dark .chat-2ZfjoI,
 .theme-dark .content-1jQy2l,
 .scroller-3_YDR2,
@@ -766,7 +766,7 @@ textarea,
 }
 
 
-.scrollableContainer-15eg7h {
+.theme-dark .scrollableContainer-15eg7h {
     background-color: rgba(33, 31, 31, 0.804);
 }
 
@@ -1845,7 +1845,7 @@ textarea,
 }
 
 .privateChannels-oVe7HL,
-.scroller-WSmht3,
+.theme-dark .scroller-WSmht3,
 .children-3xh0VB:after,
 .scroller-2qwVWY,
 .scroller-1TOeMq {
@@ -3564,6 +3564,7 @@ textarea,
 
 .container-1zzFcN {
     border-bottom: none;
+    background: none;
 }
 
 .emojiPickerHeader-2mWh2T {
@@ -4232,4 +4233,16 @@ textarea,
 
 .hljs {
     background: rgba(255,255,255,.12);
+}
+
+.chatContent-3KubbW {
+    background: none;
+}
+
+.formTitle-2YQyhj {
+    color: #c0c0c0;
+}
+
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
 }
