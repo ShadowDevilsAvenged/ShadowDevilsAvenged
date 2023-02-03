@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 1.7
+ * @version 1.8
 */
 
 .app-2CXKsg {
@@ -53,39 +53,13 @@
     border-radius: 20px;
 }
 
-.accountProfileCard-lbN7n- .avatar-3mTjvZ {
-    position: absolute;
-    top: 9px;
-    width: 200px !important;
-    height: 200px !important;
-}
 
-.accountProfileCard-lbN7n- .avatar-3mTjvZ .mask-1FEkla {
-    width: 230px;
-    height: 230px;
-}
 
 .avatar-3mTjvZ {
     border: 7px solid #95A8B0;
     background-color: black;
 }
 
-.accountProfileCard-lbN7n- .avatar-3mTjvZ foreignObject {
-    mask: none;
-}
-
-.accountProfileCard-lbN7n- .avatar-3mTjvZ .avatar-b5OQ1N {
-    border-radius: 50px;
-}
-
-.settingsBanner-1eDJ5w {
-    height: 240px;
-}
-
-.profileCardUsernameRow-1bb6fi {
-    position: relative;
-    left: -100px;
-}
 
 .background-3d_SjE {
     border-radius: 20px;
@@ -4076,7 +4050,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-.staticToolbar-x12NJC,
+.theme-dark .staticToolbar-x12NJC,
 .forumGuidelines-1U9ThN {
     background-color: rgba(0, 0, 0, .2);
 }
@@ -4336,4 +4310,27 @@
 
 .theme-dark .container-YkUktl  {
     background-color: transparent;
+}
+
+.analyticsCard-2fnrVG {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.friendRequestsButton-77veU7 {
+    background-color: rgba(255, 255, 255, .15);
+    color: white;
+}
+
+.friendRequestsButton-77veU7:hover {
+    background-color: rgba(255, 255, 255, .25);
+
+}
+
+.container-_dQaft,
+.container-1A0qQO {
+    background-color: #212121;
+}
+
+.row-7jGzPR:hover {
+    background-color: rgba(255, 255, 255, .15);
 }

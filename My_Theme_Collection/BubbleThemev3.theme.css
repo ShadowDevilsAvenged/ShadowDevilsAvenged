@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 3.3
+ * @version 3.4
  */
 
  .app-2CXKsg {
@@ -535,9 +535,6 @@
    background-image: radial-gradient(circle closest-side at 10px 10px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.19) 100%, rgba(42, 1, 155, 0.19) 100%);
 }
 
-.header-3cSJjT {
-    background-color: transparent;
-}
 
 .container-3GP6AV {
     background-color: transparent;
@@ -2824,9 +2821,6 @@
 .header-3cSJjT {
     background-color: transparent;
 }
-.container-3GP6AV {
-    background-color: transparent;
-}
 /* More Active Threads Box */
 .popout-TdhJ6Z {
     background-color: black;
@@ -2835,7 +2829,7 @@
     border-top: none;
     color: gold;
 }
-.root-g14mjS.modal-ZdazA8 {
+.root-g14mjS.modal-3fnj3y {
     background-color: transparent !important;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
     background-image: radial-gradient(circle closest-side at 180px 180px, rgba(95, 95, 95, 0.75) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%) !important;
@@ -2843,7 +2837,7 @@
     padding: 84px 83px;
 }
 
-.root-g14mjS.modal-ZdazA8 .container-18GwIk {
+.root-g14mjS.modal-3fnj3y .container-18GwIk {
     background-color: transparent !important;
     box-shadow: none;
     background-image: none;
@@ -4186,7 +4180,7 @@
     background-color: rgba(0, 0, 0, .3);
 }
 
-.staticToolbar-x12NJC,
+.theme-dark .staticToolbar-x12NJC,
 .forumGuidelines-1U9ThN {
     background-color: rgba(0, 0, 0, .2);
 }
@@ -4451,4 +4445,27 @@
 
 .theme-dark .container-YkUktl  {
     background-color: transparent;
+}
+
+.analyticsCard-2fnrVG {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.friendRequestsButton-77veU7 {
+    background-color: rgba(255, 255, 255, .15);
+    color: white;
+}
+
+.friendRequestsButton-77veU7:hover {
+    background-color: rgba(255, 255, 255, .25);
+
+}
+
+.container-_dQaft,
+.container-1A0qQO {
+    background-color: #212121;
+}
+
+.row-7jGzPR:hover {
+    background-color: rgba(255, 255, 255, .15);
 }
