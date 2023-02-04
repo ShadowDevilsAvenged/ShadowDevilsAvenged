@@ -2,16 +2,15 @@
  * @name New Akame Ga Kill! Theme
  * @author ShadowDevilsAvenged
  * @description Newer Akame Ga Kill! theme for my return
- * @version 4.3
+ * @version 4.4
  */
 
 /* Main Background */
 .app-2CXKsg {
-    background-image: url(https://images5.alphacoders.com/598/598858.jpg);
+    background-image: url(https://images.alphacoders.com/850/850831.jpg);
     background-size: cover;
     background-color: transparent;
 }
-
 
 
 .countContainer-3DOo5v {
@@ -31,16 +30,16 @@
     background-color: transparent;
 }
 
+.preview-3SR4Rd {
+    color: white;
+}
+
 .withTagAsButton-OsgQ9L:hover, 
 .withTagless-10ooWt:hover {
   background-color: rgba(0, 0, 0, .3);
   border-radius: 4px;
   border: 1px solid #912;
   color: white;
-}
-
-.preview-3SR4Rd {
-    color: white;
 }
 
 .previewContainer-1GxmBJ {
@@ -471,6 +470,7 @@
 .auto-2K3UW5::-webkit-scrollbar-track {
     background-color: transparent;
 }
+
 
 .accountBtn-3pgcgr {
     margin-right: 0px;
@@ -968,20 +968,20 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.overlayBackground-1KgwVi {
+.userProfileOuterUnthemed-2b2rsv {
     background-color: transparent;
 }
 
-.userProfileOuterUnthemed-2b2rsv {
+.messageInputContainer-2rGDH8 {
+    border: 1px solid transparent;
+}
+
+.overlayBackground-1KgwVi {
     background-color: transparent;
 }
 
 .userPopoutOuter-3AVBmJ {
     box-shadow: none;
-}
-
-.messageInputContainer-2rGDH8 {
-    border: 1px solid transparent;
 }
 
 .userProfileOuter-1K_BYU {
@@ -2020,6 +2020,10 @@
     background-color: transparent;
 }
 
+.theme-dark .container-YkUktl  {
+    background-color: transparent;
+}
+
 .container-YkUktl .avatar-1EWyVD foreignObject,
 .inviteRowAvatar-3ETE3i foreignObject {
     mask: none;
@@ -2327,6 +2331,10 @@
 
 .container-1QtPKm[style*="background-color: hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%);"], .bd-switch input:checked+.bd-switch-body {
     background-color: #188b01 !important;
+}
+
+.chatContent-3KubbW {
+    background: none;
 }
 
 .svg-2zuE5p > foreignObject {
@@ -2863,38 +2871,39 @@
     color: white;
 }
 
+
 .modal-1BeEFO a {
     color: gold;
     font-weight: 600;
 }
-  
+
 .entryIcon-2bcrKV, 
 .entryInner-1tOOER {
     color: white;
 }
-  
+
 .text-xs-medium-2LRpEj[style*="color:"] {
     color: white !important;
 }
-  
+ 
 .entryInner-1tOOER a {
     color: gold;
     font-weight: 600;
 }
-  
+
 .scopes-uCLYQv {
     border-bottom: none;
 }
-  
+
 .getXboxApp-1kBRKG {
     background: rgba(0, 0, 0, .6);
 }
-  
+
 .getXboxApp-1kBRKG a {
     color: gold;
     font-weight: 800;
 }
-  
+
 .container-1jn5D- {
         background: rgba(0,0,0,.2);
 }
@@ -2918,19 +2927,19 @@
     background-color: transparent;
     border-radius: 4px;
 }
-  
-  
+
+
 .chatHeaderBar-2fUORh {
-  background-color: transparent;
+background-color: transparent;
 }
-  
+
 .theme-dark .tooltipBrand-20XsMA {
     color: white;
     background-color: #912;
 }
-  
+
 .theme-dark .tooltipBrand-20XsMA .tooltipPointer-3L49xb {
-  border-top-color: #912;
+border-top-color: #912;
 }
 
 .sortDropdown-hY93nR {
@@ -2979,15 +2988,6 @@
     opacity: 1 !important;
 }
 
-.selected-g-kMVV.item-3XjbnG, 
-.selected-g-kMVV.item-3XjbnG:hover {
-  color: white!important;
-}
-
-.badgeList-2pMvZX {
-    background-color: rgba(0, 0, 0, .6);
-}
-
 .customStatus-3Bvsdb,
 .userTagUsernameNoNickname-2e_xaO,
 .discordIcon-JXet1k,
@@ -2995,6 +2995,15 @@
 .username-28Thtk,
 .actionButton-1YKTU0 {
     color: white;
+}
+
+.selected-g-kMVV.item-3XjbnG, 
+.selected-g-kMVV.item-3XjbnG:hover {
+  color: white!important;
+}
+
+.badgeList-2pMvZX {
+    background-color: rgba(0, 0, 0, .6);
 }
 
 .discrimBase-KriZSj,
@@ -3502,6 +3511,14 @@
 .container-1zzFcN {
     border-bottom: none;
     background: none;
+}
+
+.textContainer-36wgKK {
+    background-color: transparent;
+}
+
+.footer-GXWBBp {
+    background-color: rgba(255, 255, 255, .12);
 }
 
 .emojiPickerHeader-2mWh2T {
@@ -4164,16 +4181,8 @@
     background: rgba(255,255,255,.12);
 }
 
-.chatContent-3KubbW {
-    background: none;
-}
-
 .formTitle-2YQyhj {
     color: #c0c0c0;
-}
-
-.theme-dark .container-YkUktl  {
-    background-color: transparent;
 }
 
 .analyticsCard-2fnrVG {
@@ -4198,6 +4207,7 @@
 .row-7jGzPR:hover {
     background-color: rgba(255, 255, 255, .15);
 }
+
 /* Main Color */
 .main-color{color: #912;}
 
