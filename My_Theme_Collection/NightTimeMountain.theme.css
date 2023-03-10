@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 1.9
+ * @version 2
 */
 
 .app-2CXKsg {
@@ -184,7 +184,7 @@
 }
 
 .side-1lrxIh .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl),
-.topPill-3DJJNV .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
+.topPill-2vcLsa .themed-qqoYp3.item-2GWPIy:hover:not(.disabled-2G98Nl) {
     background-color: transparent;
     border-bottom: 2px solid transparent;
 }
@@ -196,7 +196,7 @@
 }
 
 .side-1lrxIh .themed-qqoYp3.selected-1sf9UK.item-2GWPIy,
-.topPill-3DJJNV .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
     background-color: transparent;
     border-bottom: 2px solid #95A8B0 !important;
 }
@@ -273,12 +273,12 @@
     border-bottom: none;
 }
 
-.top-K_jibn .brand-2EKq3J.item-2GWPIy:hover {
+.top-Ktfr_T .brand-2EKq3J.item-2GWPIy:hover {
     border-bottom-color: #4B5569;
 }
 
-.top-K_jibn .brand-2EKq3J.item-2GWPIy:active,
-.top-K_jibn .brand-2EKq3J.selected-1sf9UK.item-2GWPIy {
+.top-Ktfr_T .brand-2EKq3J.item-2GWPIy:active,
+.top-Ktfr_T .brand-2EKq3J.selected-1sf9UK.item-2GWPIy {
     border-bottom-color: #95A8B0;
 }
 
@@ -678,7 +678,7 @@
     background: rgba(0, 0, 0, .5);
 }
 
-.card-16VQ8C {
+.card-2guEcY {
     border-width: 2px;
     border-style: solid;
     border-radius: 12px;
@@ -920,37 +920,37 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.keybindShortcut-3zF1P9 {
+.combo-3PNrpQ {
     font-size: 11px;
     font-weight: 600;
 }
 
-.theme-dark .keybindShortcut-3zF1P9, 
-.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
+.theme-dark .combo-3PNrpQ, 
+.theme-dark .combo-3PNrpQ .key-RP8gj3 {
     color: #e2e2e2;
 }
 
-.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
+.theme-dark .combo-3PNrpQ .key-RP8gj3 {
     box-shadow: inset 0 -4px 0 black;
 }
 
-.key-N5VmHN {
+.key-RP8gj3 {
     background-color: rgba(149, 168, 176, .8);
     border: 1px solid black;
     border-radius: 5px;
 }
 
-.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN:active {
+.theme-dark .combo-3PNrpQ .key-RP8gj3:active {
     color: white;
     border: 1px solid black;
     background-color: #4B5569;
 }
 
-.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN .bindArrow-EmK4SC g {
+.theme-dark .combo-3PNrpQ .key-RP8gj3 .bindArrow-L3Mvw5 g {
     fill: #e2e2e2;
 }
 
-.theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN:active .bindArrow-EmK4SC g {
+.theme-dark .combo-3PNrpQ .key-RP8gj3:active .bindArrow-L3Mvw5 g {
     fill: white;
 }
 
@@ -1229,8 +1229,8 @@
     color: #e2e2e2;
 }
 
-.top-K_jibn .selected-1sf9UK.themed-qqoYp3.item-2GWPIy, 
-.top-K_jibn .themed-qqoYp3.item-2GWPIy:active {
+.top-Ktfr_T .selected-1sf9UK.themed-qqoYp3.item-2GWPIy, 
+.top-Ktfr_T .themed-qqoYp3.item-2GWPIy:active {
     border-bottom-color: white;
 }
 
@@ -1594,7 +1594,7 @@
 }
 
 /* | Progress Fill Line | */
-.progressBar-1T6LYX[style*="background-color: var(--brand-500);"] {
+.progressBar-1T6LYX[style*="background-color: rgb(88, 101, 242);"] {
     background-color: #95A8B0 !important;
 }
 
@@ -2044,7 +2044,7 @@
 
 .clickable-28SzVr.container-1oeRFJ:hover, 
 .clickable-28SzVr.container-1oeRFJ:hover .muted-14PyqW,
-.clickable-28SzVr:hover .layout-1qmrhw .username-u-ebrn,
+.clickable-28SzVr:hover .layout-1qmrhw .username-3_PJ5r,
 .clickable-28SzVr:hover .layout-1qmrhw .activity-2EQDZv {
     color: #e2e2e2 !important;
 }
@@ -2056,7 +2056,7 @@
 .clickable-28SzVr.container-1oeRFJ:active, 
 .highlighted-3PcOfB.container-1oeRFJ, 
 .selected-1-Z6gm.container-1oeRFJ,
-.selected-1-Z6gm .layout-1qmrhw .username-u-ebrn,
+.selected-1-Z6gm .layout-1qmrhw .username-3_PJ5r,
 .selected-1-Z6gm .layout-1qmrhw .activity-2EQDZv {
     color: white !important;
 }
@@ -2202,7 +2202,7 @@
     border-bottom-color: transparent;
 }
 
-.theme-dark .dim-2Uxgxb .key-N5VmHN {
+.theme-dark .dim-GXxpGm .key-RP8gj3 {
     background-color: rgba(149, 168, 176, .8);
 }
 
@@ -2490,7 +2490,7 @@
 }
 
 .avatarSpeaking-2pCGrZ,
-.avatarSpeaking-33RRJU,
+.avatarSpeaking-36V2PN,
 .border-2Vy6FN.speaking-7QZEkv {
     box-shadow: inset 0 0 0 2px #95A8B0,inset 0 0 0 3px black;
 }
@@ -2768,7 +2768,7 @@
     background-color: rgba(0, 0, 0, .12);
 }
 
-.pinIcon-zVODC5 {
+.pinIcon-3I5-gm {
     background-color: #95A8B0;
 }
 
@@ -3737,7 +3737,7 @@
     color: #FFF88D;
 }
 
-.top-K_jibn .themed-qqoYp3.item-2GWPIy:hover {
+.top-Ktfr_T .themed-qqoYp3.item-2GWPIy:hover {
     border-bottom-color: silver;
 }
 
@@ -4378,4 +4378,25 @@
 
 .resizeHandle-PBRzPC {
     background: none;
+}
+
+.stageUpsell-hekoJb {
+    border: 2px solid rgba(255, 255, 255, .2);
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.stageUpsellImage-2C_WNd {
+    background-color: transparent;
+}
+
+.permissionV3BannerContainer-3_4aSa {
+    background-color: black;
+}
+
+.permissionV3BannerContainer-3_4aSa a {
+    color: #B8E8E0;
+}
+
+.footer-IubaaS {
+    background-color: transparent;
 }
