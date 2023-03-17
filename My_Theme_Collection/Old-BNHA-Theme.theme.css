@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 4.5
+ * @version 4.6
 */
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -23,9 +23,6 @@ textarea,
     background-color: transparent;
 }
 
-.theme-dark .perksModal-CLcR1c {
-    background-color: transparent;
-}
 
 .preview-3SR4Rd {
     color: white;
@@ -3350,23 +3347,6 @@ textarea,
     box-shadow: none;
 }
 
-
-.theme-dark .perk-19D_HN {
-    background-color: rgba(0,0,0,.4);
-}
-
-.divider-1MSaR9 {
-    background: none;
-}
-
-.theme-dark .barBackground-unEPDT {
-    background-color: transparent;
-}
-
-.barSecondary-VouwoY {
-    background-color: rgba(255,255,255,.12);
-}
-
 .theme-dark .elevationBorderLow-3_3rXL {
     box-shadow: none;
 }
@@ -3467,11 +3447,6 @@ textarea,
     color: white;
 }
 
-.theme-dark .tierBody-3ju-rc {
-    background-color: transparent;
-    color: white;
-}
-
 .body-1JxAWB a,
 .text-2iTkaw a {
     color: #FFFF90;
@@ -3484,14 +3459,6 @@ textarea,
 
 .stickyHeaderElevated-dNSSrJ {
     box-shadow: none;
-}
-
-.ctaBar-Nhk8yY {
-    background-color: rgba(0,0,0,.6);
-}
-
-.theme-dark .tierMarkerBackground-G8FoN4 {
-    background-color: transparent;
 }
 
 .theme-dark .elevationLow-26BbEG {
@@ -3751,29 +3718,6 @@ textarea,
 
 .selectPlanDivider-1j8LTI {
     background-color: transparent;
-}
-
-.badgeIconWithSubscribers-2WYJsQ,
-.theme-dark .tierMarkerInProgress-2Tdxjz .currentTierIcon-2rq-bv.tier3Icon-959FdD,
-.theme-dark .icon-3dkE_X,
-.tierMarkerLabelPlusIcon-2zLkr7 {
-    color: #FF2EB9;
-}
-
-.tierMarkerInProgress-2Tdxjz[style*="background:"] {
-    background: #21252B !important;
-}
-
-.tierMarkerAccomplished-1SkbEJ[style*="background:"] {
-    background: #FF2EB9 !important;
-}
-
-.barForeground-2kwBa_ {
-    background-color: #FF2EB9;
-}
-
-.tierMarkerLabelText-1wk8KK:not(.isAccomplished-2NcqRT):hover {
-    background-color: rgba(255, 46, 185, .3);
 }
 
 .premiumIcon-3qxLdX {
@@ -4048,10 +3992,10 @@ textarea,
     background-color: rgba(0, 0, 0, .3);
 }
 
-.theme-dark .tierHeaderLocked-3ItHYn {
-    background-color: rgba(0, 0, 0, .4);
-    color: rgba(255, 255, 255, .4);
-}
+
+
+
+
 
 .theme-dark .content-3nJg0c:before {
     background-color: transparent;
@@ -4343,4 +4287,8 @@ textarea,
 
 .footer-IubaaS {
     background-color: transparent;
+}
+
+.bd-sidebar-header h2 {
+    color: white;
 }
