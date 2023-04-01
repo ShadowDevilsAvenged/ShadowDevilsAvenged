@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 4.7
+ * @version 4.8
 */
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
@@ -305,9 +305,17 @@ textarea,
     fill: #11646b;
 }
 
+.itemFilled-2Fo7lr[aria-checked=true] {
+    background-color: black;
+}
+
 .radioIconForeground-2BMavi {
     color: white;
     r: 7;
+}
+
+.item-1TA5qI[aria-checked=true] {
+    color: white !important;
 }
 
 /* Regular Switch Deactivated */
@@ -1711,6 +1719,10 @@ textarea,
     border-color: rgba(0, 0, 0, 0.78);
 }
 
+.wrapper-mJT04A {
+    color: white;
+}
+
 .lookFilled-GPyucw.select-Zz0IcO:hover.open-LeyjhI,
 .theme-dark .lookFilled-GPyucw.open-LeyjhI {
     border-color: black;
@@ -1723,7 +1735,8 @@ textarea,
 }
 
 .option-Uc12mm:focus,
-.option-Uc12mm:hover {
+.option-Uc12mm:hover,
+.option-Uc12mm.focused-10mbp- {
     background-color: rgba(0, 0, 0, 0.1);
     color: white;
 }
@@ -4266,23 +4279,6 @@ textarea,
 
 .resizeHandle-PBRzPC {
     background: none;
-}
-
-.stageUpsell-hekoJb {
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.stageUpsellImage-2C_WNd {
-    background-color: transparent;
-}
-
-.permissionV3BannerContainer-3_4aSa {
-    background-color: black;
-}
-
-.permissionV3BannerContainer-3_4aSa a {
-    color: #B8E8E0;
 }
 
 .footer-IubaaS {

@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 3.8
+ * @version 3.9
  */
 
  .app-2CXKsg {
@@ -89,18 +89,10 @@
     color: white;
 }
 
-
-
-
-
-
-
-
-
- 
-
-
-
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    color: white !important;
+    background-color: black !important;
+}
 
 .wrapper-3kah-n::after, .circleIconButton-1VxDrg::after {
     content: "";
@@ -4470,21 +4462,25 @@
     background: none;
 }
 
-.stageUpsell-hekoJb {
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: rgba(0, 0, 0, .3);
+.checkbox-1LuCGM {
+    border-width: 2px;
 }
 
-.stageUpsellImage-2C_WNd {
-    background-color: transparent;
+.box-qwm0Q_ {
+    border-radius: 3px;
 }
 
-.permissionV3BannerContainer-3_4aSa {
-    background-color: black;
+.theme-dark .checkbox-1LuCGM {
+    border-color: silver;
 }
 
-.permissionV3BannerContainer-3_4aSa a {
-    color: #B8E8E0;
+.theme-dark .checkbox-1LuCGM[style*="border-color:"] {
+    background-color: rgba(106, 13, 173, .7) !important;
+    border-color: #6a0dad !important;
+}
+
+.theme-dark .checkbox-1LuCGM[style*="border-color:"] path {
+    fill: white;
 }
 
 .footer-IubaaS {
@@ -4502,4 +4498,8 @@
 
 .bd-sidebar-header h2 {
     color: white;
+}
+
+.divider-3nqZNm {
+    border: none;
 }

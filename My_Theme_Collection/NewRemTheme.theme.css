@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 4.7
+ * @version 4.8
  */
 
  .app-2CXKsg {
@@ -228,9 +228,18 @@
     border-color: transparent;
 }
 
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    color: white !important;
+    background-color: black !important;
+}
+
 .theme-dark .calendarPicker-sDhzdi .react-datepicker__current-month {
     border-bottom-color: transparent;
     color: white;
+}
+
+.divider-3nqZNm {
+    border: none;
 }
 
 .calendarPicker-sDhzdi .react-datepicker__current-month {
@@ -4079,23 +4088,6 @@
 
 .resizeHandle-PBRzPC {
     background: none;
-}
-
-.stageUpsell-hekoJb {
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.stageUpsellImage-2C_WNd {
-    background-color: transparent;
-}
-
-.permissionV3BannerContainer-3_4aSa {
-    background-color: black;
-}
-
-.permissionV3BannerContainer-3_4aSa a {
-    color: #B8E8E0;
 }
 
 .footer-IubaaS {

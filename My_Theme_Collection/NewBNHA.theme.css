@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 4.7
+ * @version 4.8
  */
 
 /* Main Background */
@@ -96,6 +96,16 @@
 
 .auto-2TJ1RH::-webkit-scrollbar {
     width: 19px;
+}
+
+.description-foE_WP, 
+.labelDescriptor-2top7R {
+  color: white;
+}
+
+.description-foE_WP a, 
+.labelDescriptor-2top7R a {
+  color: #B8E8E0;
 }
 
 .auto-2TJ1RH::-webkit-scrollbar-thumb {
@@ -243,6 +253,10 @@
     color: white;
 }
 
+.divider-3nqZNm {
+    border: none;
+}
+
 .bd-select .bd-select-options {
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
     box-shadow: none;
@@ -278,6 +292,11 @@
 
 .buttonContainer-28osRq, .separator-2N511j {
     background-color: transparent;
+}
+
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    color: white !important;
+    background-color: black !important;
 }
 
 .header-2F5_LB {
@@ -4092,23 +4111,6 @@
 
 .resizeHandle-PBRzPC {
     background: none;
-}
-
-.stageUpsell-hekoJb {
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.stageUpsellImage-2C_WNd {
-    background-color: transparent;
-}
-
-.permissionV3BannerContainer-3_4aSa {
-    background-color: black;
-}
-
-.permissionV3BannerContainer-3_4aSa a {
-    color: #B8E8E0;
 }
 
 .theme-dark .message-G6O-Wv {

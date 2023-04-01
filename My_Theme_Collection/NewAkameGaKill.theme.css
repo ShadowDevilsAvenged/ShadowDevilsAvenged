@@ -2,7 +2,7 @@
  * @name New Akame Ga Kill! Theme
  * @author ShadowDevilsAvenged
  * @description Newer Akame Ga Kill! theme for my return
- * @version 5.1
+ * @version 5.2
  */
 
 /* Main Background */
@@ -247,6 +247,11 @@
     padding-top: 8px;
 }
 
+.option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
+    color: white !important;
+    background-color: black !important;
+}
+
 .emojiPicker-6YCk8a {
     background-color: transparent !important;
     background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
@@ -300,6 +305,10 @@
 
 .headerLabel-1g790w {
     text-transform: capitalize;
+}
+
+.divider-3nqZNm {
+    border: none;
 }
 
 .emojiItem-277VFM.emojiItemSelected-2Lg50V {
@@ -4192,23 +4201,6 @@ border-top-color: #912;
 
 .resizeHandle-PBRzPC {
     background: none;
-}
-
-.stageUpsell-hekoJb {
-    border: 2px solid rgba(255, 255, 255, .2);
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.stageUpsellImage-2C_WNd {
-    background-color: transparent;
-}
-
-.permissionV3BannerContainer-3_4aSa {
-    background-color: black;
-}
-
-.permissionV3BannerContainer-3_4aSa a {
-    color: #B8E8E0;
 }
 
 .theme-dark .message-G6O-Wv {
