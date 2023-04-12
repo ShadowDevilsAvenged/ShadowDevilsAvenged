@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 3.9
+ * @version 4
  */
 
  .app-2CXKsg {
@@ -713,7 +713,8 @@
     caret-color: white;
 }
 
-.contentWrapper-3vHNP2 {
+.contentWrapper-3vHNP2,
+.contentWrapper-2f9yME {
     border-radius: 50px;
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
@@ -781,7 +782,8 @@
     color: white;
 }
 
-.navButtonActive-1EqC5l {
+.navButtonActive-1EqC5l,
+.navButtonActive-fwiUKp {
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
     background-image: radial-gradient(circle closest-side at 8px 8px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
     background-color: transparent;
@@ -1352,24 +1354,24 @@
     padding: 4px 12px;
 }
 
-.profileBadges-31rDHI {
+.profileBadges-2pItdR {
     background-color: rgba(0, 0, 0, .2);
 }
 
 
-.userProfileOuterUnthemed-2b2rsv {
+.userProfileOuterUnthemed-11rPfA {
     background-color: transparent;
 }
 
-.overlayBackground-1KgwVi {
+.overlayBackground-2aa7wt {
     background-color: transparent;
 }
 
-.userProfileInner-3F03PX:before {
+.userProfileInner-1ngKnf:before {
     background-color: transparent;
 }
 
-.userPopoutOuter-3AVBmJ {
+.userPopoutOuter-1OHwPL {
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.83), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.83);
 }
 
@@ -1381,23 +1383,23 @@
     border-radius: 50px;
 }
 
-.userProfileInnerThemedNonPremium-1gT-zY {
+.userProfileInnerThemedNonPremium-2AJg-H {
     background-image: radial-gradient(circle closest-side at 35px 35px, rgba(255, 255, 255, .85) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%);
     background-color: transparent;
 }
 
-.userProfileInnerThemedWithBanner-2624Yx,
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
+.userProfileInnerThemedWithBanner-25XGmz,
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp {
     background-image: radial-gradient(circle closest-side at 35px 35px, rgba(255, 255, 255, .85) 10%, rgba(0, 0, 0, 0.49) 100%, rgba(0, 0, 0, 0.49) 100%);
     background-color: transparent;
 }
 
-.userProfileOuterThemed-3EfHmv.userPopoutOuter-3AVBmJ, 
-.userProfileOuterThemed-3EfHmv.userProfileOuter-1K_BYU {
+.userProfileOuterThemed-2BgJCM.userPopoutOuter-1OHwPL, 
+.userProfileOuterThemed-2BgJCM.userProfileOuter-1K_BYU {
     background: none;
 }
 
-.userProfileInner-3F03PX {
+.userProfileInner-1ngKnf {
     border-radius: 50px 50px 0 0;
 }
 
@@ -1423,7 +1425,7 @@
     padding: 4px 12px;
 }
 
-.connectedAccountContainer-2TWiXT {
+.connectedAccountContainer-3aLMHJ {
     background-image: radial-gradient(circle closest-side at 43px 43px, rgba(255, 255, 255, .85) 10%, rgba(42, 1, 155, 0.29) 100%, rgba(42, 1, 155, 0.29) 100%);
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -32px 9px -16px rgba(231, 254, 255, 0.33);
@@ -3247,27 +3249,27 @@
     background-color: rgba(255, 255, 255, .12);
 }
 
-#app-mount .avatarWrapper-3y0KZ1 .wrapper-3Un6-K foreignObject[mask*=mobile] + rect,
-#app-mount .avatar-1YsFQ1.wrapper-3Un6-K foreignObject[mask*=mobile] + rect {
+#app-mount .avatarWrapper-eenWra .wrapper-3Un6-K foreignObject[mask*=mobile] + rect,
+#app-mount .avatar-3QF_VA.wrapper-3Un6-K foreignObject[mask*=mobile] + rect {
   fill: black;
 }
 
-#app-mount .avatarWrapper-3y0KZ1 .wrapper-3Un6-K foreignObject[mask*=mobile] ~ .pointerEvents-2KjWnj,
-#app-mount .avatar-1YsFQ1.wrapper-3Un6-K foreignObject[mask*=mobile] ~ .pointerEvents-2KjWnj {
+#app-mount .avatarWrapper-eenWra .wrapper-3Un6-K foreignObject[mask*=mobile] ~ .pointerEvents-2KjWnj,
+#app-mount .avatar-3QF_VA.wrapper-3Un6-K foreignObject[mask*=mobile] ~ .pointerEvents-2KjWnj {
   mask: url("#svg-mask-status-online-mobile");
   fill: #3BA53B !important;
 }
 
-.avatarWrapper-3y0KZ1 circle, .avatar-1YsFQ1.wrapper-3Un6-K circle {
+.avatarWrapper-eenWra circle, .avatar-3QF_VA.wrapper-3Un6-K circle {
     fill: black;
     opacity: 1 !important;
 }
 
-.customStatus-3Bvsdb,
-.userTagUsernameNoNickname-2e_xaO,
-.discordIcon-JXet1k,
+.customStatus-19KW6v,
+.userTagUsernameNoNickname-2lKUnI,
+.discordIcon-32mgeP,
 .roleName-2ZJJYR,
-.username-28Thtk,
+.username-3dP0mA,
 .actionButton-1YKTU0 {
     color: white;
 }
@@ -3277,21 +3279,21 @@
   color: white!important;
 }
 
-.listRow-Y5zoF8 {
+.listRow-2nO1T6 {
     color: white;
     border-radius: 50px;
 }
 
-.listRow-Y5zoF8:hover {
+.listRow-2nO1T6:hover {
     background-color: rgba(255, 255, 255, .06);
 }
 
-.badgeList-2pMvZX {
+.badgeList-2aoHPw {
     background-color: rgba(0, 0, 0, .6);
 }
 
-.discrimBase-KriZSj,
-.discriminator-3_S3CG {
+.discrimBase-v65kTs,
+.discriminator-hnHkyt {
     color: #d4d4d4;
 }
 
@@ -3811,7 +3813,7 @@
     color: #FFF88D;
 }
 
-.note-3TX9O7 textarea:focus {
+.note-3M15gE textarea:focus {
     background-color: rgba(0, 0, 0, .09);
 }
 
@@ -4417,7 +4419,7 @@
 }
 
 .wrapper-wOVKdL,
-.paymentNote-1JTD1J {
+.paymentNote-3dcb-Z {
   background-color: transparent;
 }
 
@@ -4502,4 +4504,49 @@
 
 .divider-3nqZNm {
     border: none;
+}
+
+.changelog-2zmJ4c,
+.safetyChecklist-3kgSZf,
+.simpleItemWrapper-1Zwc4I {
+  background-color: rgba(0, 0, 0, .7);
+  border: 2px solid rgba(255, 255, 255, .4);
+}
+
+.divider-3gqVNH {
+  background-color: transparent;
+}
+
+
+.valuePill-3nbVvY {
+  background-color: rgba(0, 0, 0, .5);
+  border: 2px solid rgba(255, 255, 255, .4);
+  color: white !important;
+}
+
+.itemBodyInner-3iVT92,
+.rulesScreeningItems-24b_s9>div {
+  border: none;
+}
+
+.bar-1GpknY {
+  background-color: transparent;
+}
+
+.themed-1LCNAV .barInner-3dHef4 {
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.themed-1LCNAV .textLeft-1Noen0, 
+.themed-1LCNAV .textRight-2IW704 {
+  color: white;
+}
+
+.noIcon-3gSX9V {
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
+}
+
+.theme-dark .activityUserPopoutV2-3eKqzY .headerText-3g1XK9 {
+    color: white;
 }

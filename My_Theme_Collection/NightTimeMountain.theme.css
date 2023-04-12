@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 2.3
+ * @version 2.4
 */
 
 .app-2CXKsg {
@@ -326,7 +326,8 @@
     color: #D0DFFF;
 }
 
-.contentWrapper-3vHNP2 {
+.contentWrapper-3vHNP2,
+.contentWrapper-2f9yME {
     background-image: linear-gradient(63deg, #4b5569 0%, #2d353f 89%);
     border-radius: 10px;
     box-shadow: none;
@@ -531,7 +532,7 @@
     color: white;
 }
 
-.profileBadges-31rDHI {
+.profileBadges-2pItdR {
     background-color: black;
 }
 
@@ -544,52 +545,52 @@
     border-left: none;
 }
 
-.userProfileOuterThemed-3EfHmv {
+.userProfileOuterThemed-2BgJCM {
     background: none;
 }
 
-.userProfileInnerThemedWithBanner-2624Yx,
-.userProfileInnerThemedNonPremium-1gT-zY,
-.userProfileInnerThemedPremiumWithoutBanner-1yMS1H {
+.userProfileInnerThemedWithBanner-25XGmz,
+.userProfileInnerThemedNonPremium-2AJg-H,
+.userProfileInnerThemedPremiumWithoutBanner-lZ9inp {
     background: linear-gradient(63deg, #4b5569 0%, #2d353f 89%);
 }
 
-.userPopoutOuter-3AVBmJ {
+.userPopoutOuter-1OHwPL {
     box-shadow: none;
 }
 
-.userProfileInner-3F03PX:before {
+.userProfileInner-1ngKnf:before {
     background-color: transparent;
 }
 
-.bannerSVGWrapper-qc0szY > mask {
+.bannerSVGWrapper-2CLfzN > mask {
     display: none;
 }
 
-.overlayBackground-1KgwVi {
+.overlayBackground-2aa7wt {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.userTagUsernameNoNickname-2e_xaO {
+.userTagUsernameNoNickname-2lKUnI {
     color: white;
 }
 
-.discrimBase-KriZSj,
-.discordIcon-JXet1k,
+.discrimBase-v65kTs,
+.discordIcon-32mgeP,
 .userTagUsernameBase-3Nfr5j {
     color: #e2e2e2;
 }
 
-.divider-1tWBgZ {
+.divider-2dDziJ {
     background-color: transparent;
 }
 
-.rolePillBorder-RiRiuN {
+.rolePillBorder-3R4Bb5 {
     border: 1px solid;
     border-color: #95A8B0 !important;
 }
 
-.rolePill-2IJ1vo {
+.rolePill-78LFtg {
     background-color: rgba(149, 168, 176, .5);
 }
 
@@ -605,7 +606,7 @@
     color: white;
 }
 
-.note-6O4w9y textarea:focus {
+.note-1NN2aP textarea:focus {
     background-color: rgba(0, 0, 0, .2);
 }
 
@@ -1156,8 +1157,8 @@
     color: white;
 }
 
-.avatarWrapper-3y0KZ1 .svg-1G_H_8 > circle,
-.avatar-1YsFQ1 .svg-1G_H_8 > circle {
+.avatarWrapper-eenWra .svg-1G_H_8 > circle,
+.avatar-3QF_VA .svg-1G_H_8 > circle {
     fill: black;
 }
 
@@ -1193,39 +1194,39 @@
     border: 1px solid rgba(0, 0, 0, .4);
 }
 
-.tabBarContainer-2UG0vy {
+.tabBarContainer-sCZC4w {
     border-bottom: none;
 }
 
-.userInfoSection-1gptv0+.userInfoSection-1gptv0 {
+.userInfoSection-2u2hir+.userInfoSection-2u2hir {
     border-top: 1px solid #95A8B0;
 }
 
-.connectedAccountContainer-2TWiXT {
+.connectedAccountContainer-3aLMHJ {
     border-radius: 7px;
     border: 1px solid rgba(149, 168, 176, .3);
     background-color: rgba(149, 168, 176, .2);
 }
 
-#app-mount .connectedAccountOpenIcon-OngaxI,
-.listRow-Y5zoF8 {
+#app-mount .connectedAccountOpenIcon-3i81Tz,
+.listRow-2nO1T6 {
     color: white;
 }
 
-.listRow-Y5zoF8:hover {
+.listRow-2nO1T6:hover {
     background-color: rgba(75, 85, 105, .3);
 }
 
-.badgeList-2pMvZX {
+.badgeList-2aoHPw {
     background-color: black;
 }
 
 .additionalActionsIcon-1IPuHI,
-.username-28Thtk {
+.username-3dP0mA {
     color: white;
 }
 
-.discriminator-3_S3CG {
+.discriminator-hnHkyt {
     color: #e2e2e2;
 }
 
@@ -1238,7 +1239,7 @@
     color: white !important;
 }
 
-.note-3TX9O7 textarea:focus {
+.note-3M15gE textarea:focus {
     background-color: rgba(0, 0, 0, .2);
 }
 
@@ -1599,11 +1600,14 @@
 }
 
 .navButtonActive-1EqC5l, 
-.navButtonActive-1EqC5l:hover {
+.navButtonActive-1EqC5l:hover,
+.navButtonActive-fwiUKp, 
+.navButtonActive-fwiUKp:hover {
     color: white !important;
 }
 
-.navButtonActive-1EqC5l {
+.navButtonActive-1EqC5l,
+.navButtonActive-fwiUKp {
     background-color: #95A8B0;
 }
 
@@ -4289,7 +4293,7 @@
 }
 
 .wrapper-wOVKdL,
-.paymentNote-1JTD1J {
+.paymentNote-3dcb-Z {
   background-color: transparent;
 }
 
@@ -4340,4 +4344,45 @@
 
 .modalFooter-Ywt9Jo {
     background-color: transparent!important;
+}
+
+.changelog-2zmJ4c,
+.safetyChecklist-3kgSZf,
+.simpleItemWrapper-1Zwc4I {
+  background-color: rgba(0, 0, 0, .7);
+  border: 2px solid rgba(255, 255, 255, .4);
+}
+
+.divider-3gqVNH {
+  background-color: transparent;
+}
+
+
+.valuePill-3nbVvY {
+  background-color: rgba(0, 0, 0, .5);
+  border: 2px solid rgba(255, 255, 255, .4);
+  color: white !important;
+}
+
+.itemBodyInner-3iVT92,
+.rulesScreeningItems-24b_s9>div {
+  border: none;
+}
+
+.bar-1GpknY {
+  background-color: transparent;
+}
+
+.themed-1LCNAV .barInner-3dHef4 {
+  background-color: rgba(255, 255, 255, .6);
+}
+
+.themed-1LCNAV .textLeft-1Noen0, 
+.themed-1LCNAV .textRight-2IW704 {
+  color: white;
+}
+
+.noIcon-3gSX9V {
+    background-color: rgba(0, 0, 0, .2);
+    color: white;
 }
