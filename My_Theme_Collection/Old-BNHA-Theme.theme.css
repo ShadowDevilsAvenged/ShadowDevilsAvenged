@@ -2,8 +2,20 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 4.9
+ * @version 5
 */
+
+.avatarDecoration-34OC0G {
+    width: calc(var(--avatar-size) + 10px) !important;
+    height: calc(var(--avatar-size) + 10px) !important;
+    margin-top: 0;
+    margin-left: -12px;
+}
+  
+.message-2CShn3[class*="hasReply-2Cr4KE"] > .contents-2MsGLg .avatar-2e8lTP + .avatarDecoration-34OC0G {
+    margin-top: -20px;
+    margin-left: -12px;
+}
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
 
