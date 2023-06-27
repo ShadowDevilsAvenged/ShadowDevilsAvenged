@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 4
+ * @version 4.1
  */
 
  .app-2CXKsg {
@@ -738,7 +738,9 @@
 }
 
 .categoryItemDefaultCategorySelected-2YeRUu, .categoryItemDefaultCategorySelected-2YeRUu:hover,
-.premiumCategorySelected-2KWLhN, .premiumCategorySelected-2KWLhN:hover, .stickerCategoryGenericSelected-DnO2K8, .stickerCategoryGenericSelected-DnO2K8:hover {
+.premiumCategorySelected-2KWLhN, .premiumCategorySelected-2KWLhN:hover, .stickerCategoryGenericSelected-DnO2K8, .stickerCategoryGenericSelected-DnO2K8:hover,
+.firstPartyCategorySelected-2zQ3yM,
+.firstPartyCategorySelected-2zQ3yM:hover {
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
     background-image: radial-gradient(circle closest-side at 10px 10px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
@@ -2832,7 +2834,7 @@
 	border-radius: 50px;
 }
 
-.reactionBtn-3I19bq.forceShowLook-1zmTr- {
+.reactionBtn-fVdJIx.forceShowLook-1zmTr- {
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
     background-image: radial-gradient(circle closest-side at 25px 21px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
@@ -2840,15 +2842,15 @@
     border-radius: 50px;
 }
 
-.reactionBtn-3I19bq.forceShowLook-1zmTr-:hover {
+.reactionBtn-fVdJIx.forceShowLook-1zmTr-:hover {
     background-color: transparent !important;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
     background-image: radial-gradient(circle closest-side at 9px 10px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 139, 0.59) 100%, rgba(0,0, 139, 0.59) 100%);
     border-color: transparent;
 }
 
-.icon-1q31jb,
-.reactionBtn-3I19bq {
+.icon-fX2J7U,
+.reactionBtn-fVdJIx {
 	color: white !important;
 }
 
@@ -3298,7 +3300,7 @@
 }
 
 /* Newest or Classes That I Have Not Collected Yet */
-.theme-dark .directoryModal-YJsOMv {
+.theme-dark .directoryContainer-z-0pgp {
     background-color: rgba(0, 0, 0, .5);
 }
 
