@@ -2,7 +2,7 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 4.4
+ * @version 4.5
  */
 
  .app-2CXKsg {
@@ -544,10 +544,6 @@
 .icon-2W8DHg,
 .name-28HaxV {
     color: silver;
-}
-
-.name-28HaxV {
-    text-transform: capitalize;
 }
 
 .unread-36eUEm {
@@ -1888,17 +1884,20 @@
     background-image: radial-gradient(circle closest-side at 25px 25px, rgba(255, 255, 255, .65) 10%, rgba(108, 92, 255, 0.29) 100%, rgba(108, 92, 255, 0.29) 100%);
 }
 
-.theme-dark .tooltipPrimary-2466a2 {
+.theme-dark .tooltipPrimary-2466a2,
+.reactionTooltip-3IOBwg {
     background-color: transparent;
     background-image: radial-gradient(circle closest-side at 18px 9px, rgba(255, 255, 255, .85) 10%, rgba(20, 0, 131, 0.79) 100%, rgba(20, 0, 131, 0.79) 100%);
 }
 
-.theme-dark .tooltip-33Jwqe {
+.theme-dark .tooltip-33Jwqe,
+.reactionTooltip-3IOBwg {
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
     color: white;
 }
 
-.tooltip-33Jwqe {
+.tooltip-33Jwqe,
+.reactionTooltip-3IOBwg {
     border-radius: 30px;
 }
 
