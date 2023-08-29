@@ -2,10 +2,10 @@
  * @name Bubble Theme v3
  * @author ShadowDevilsAvenged
  * @description Bubbles, Bubbles and more Bubbles.
- * @version 4.3
+ * @version 4.4
  */
 
-.app-2CXKsg {
+ .app-2CXKsg {
     background-size: cover;
     background-color: transparent;
     background-image: url(https://images.alphacoders.com/263/263303.jpg);
@@ -127,15 +127,10 @@
     color: white;
 }
 
-
-
-
-
 .option-Uc12mm[aria-selected=true]:not(.option-Uc12mm.multi-2vPqc4) {
     color: white !important;
     background-color: black !important;
 }
-
 
 .wrapper-3kah-n::after,
 .circleIconButton-1VxDrg::after {
@@ -196,7 +191,8 @@
     background: transparent;
 }
 
-.panels-3wFtMD {
+.panels-3wFtMD,
+.container-3kfp0r {
     background-color: transparent;
     border-radius: 30px;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -21px 9px -16px rgba(231, 254, 255, 0.93);
@@ -250,7 +246,6 @@
     background-image: radial-gradient(circle closest-side at 8px 8px, white 10%, rgba(19, 9, 65, 0.79) 100%, rgba(19, 9, 65, 0.79) 100%) !important;
     background-color: transparent !important;
 }
-
 
 .lookLink-13iF2K.colorLink-34zig_ {
     color: limegreen;
@@ -307,7 +302,6 @@
     color: white !important;
     border-color: transparent;
 }
-
 
 .item-5ApiZt {
     border-radius: 50px;
@@ -547,7 +541,6 @@
     background-image: radial-gradient(circle closest-side at 135px 135px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.59) 100%, rgba(0, 0, 0, 0.59) 100%);
 }
 
-
 .icon-2W8DHg,
 .name-28HaxV {
     color: silver;
@@ -583,7 +576,6 @@
     background-image: radial-gradient(circle closest-side at 10px 10px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.19) 100%, rgba(42, 1, 155, 0.19) 100%);
 }
 
-
 .container-3GP6AV {
     background-color: transparent;
 }
@@ -603,7 +595,6 @@
     width: 400px;
     padding: 24px 144px;
 }
-
 
 .container-ZMc96U.themed-Hp1KC_,
 .members-3WRCEx,
@@ -671,7 +662,6 @@
     border-radius: 50pc;
     padding: 124px 83px;
 }
-
 
 .browser-mnQ1T7 {
     min-height: 90vh;
@@ -907,7 +897,6 @@
     background-color: transparent;
 }
 
-
 .repliedMessage-3Z6XBG:before {
     border-left: 4px solid white;
     border-top: 4px solid white;
@@ -1033,7 +1022,6 @@
     background-image: radial-gradient(circle closest-side at 56px 56px, rgba(255, 255, 255, .65) 10%, rgba(0, 0, 0, 0.29) 100%, rgba(0, 0, 0, 0.29) 100%);
 }
 
-
 #app-mount .tertiary-1e-lAP {
     background-color: transparent;
     color: white;
@@ -1076,7 +1064,6 @@
     border: 2px inset blue;
 }
 
-
 #app-mount .jumpButton-1V_1FA {
     background-color: black;
     border-radius: 50px;
@@ -1112,8 +1099,39 @@
 }
 
 .clear-2gkgln,
-.clear-wwSgAl {
-    color: gold;
+.clear-wwSgAl,
+.clear-2gkgln [style*="color:"] {
+    color: gold !important;
+}
+
+.container-3kfp0r .headerText-35XLOt {
+    color: white !important;
+}
+
+.separator-13F3xT {
+    border-top: none;
+}
+
+.akaBadge-3i7V3p,
+.nicknames-10Sg6e {
+    color: white;
+}
+
+.akaBadge-3i7V3p {
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
+    background-image: radial-gradient(circle closest-side at 19px 19px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
+    background-color: transparent;
+}
+
+.bar-wDIGjg {
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
+    background-image: radial-gradient(circle closest-side at 9px 9px, rgba(255, 255, 255, .65) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
+    background-color: transparent;
+}
+
+.unreadIcon-3dqgX9,
+.barText-1eIsLx {
+    color: white !important;
 }
 
 .icon-mJhEWn,
@@ -1180,6 +1198,9 @@
 .markup-eYLPri code.inline {
     padding: 1px 14px;
     border-radius: 50px;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
+    background-image: radial-gradient(circle closest-side at 9px 6px, rgba(255, 255, 255, .85) 10%, rgba(42, 1, 155, 0.49) 100%, rgba(42, 1, 155, 0.49) 100%);
+    background-color: transparent;
 }
 
 #app-mount .role-23oyrw {
@@ -1282,7 +1303,6 @@
     background-image: radial-gradient(circle closest-side at 10px 10px, rgba(255, 255, 255, .85) 10%, rgba(114, 132, 183, 0.49) 100%, rgba(114, 132, 183, 0.49) 100%);
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.53), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.33);
-
 }
 
 .theme-dark .calendarPicker-sDhzdi .react-datepicker {
@@ -1444,7 +1464,6 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-
 .userProfileOuterUnthemed-11rPfA {
     background-color: transparent;
 }
@@ -1494,8 +1513,6 @@
 .bannerUploaderInnerSquare-2c2J8_ {
     opacity: .5;
 }
-
-
 
 .avatar-2Vndt_ {
     border: 6px solid #000070;
@@ -1567,8 +1584,8 @@
     border-radius: 50px;
 }
 
-
 /* Discord and BetterDiscord Settings */
+
 .contentRegionScroller-2_GT_N,
 .contentRegion-3HkfJJ,
 .sidebarRegionScroller-FXiQOh,
@@ -1765,7 +1782,6 @@
     color: white;
 }
 
-
 .avatarUploaderInnerSquareDisabled-3M9eJS {
     background-color: rgba(0, 0, 0, .3);
 }
@@ -1773,7 +1789,6 @@
 .avatarUploaderInnerSquare-2J8lU8 {
     border-radius: 50px;
 }
-
 
 .side-1lrxIh .item-2GWPIy {
     border-radius: 50px;
@@ -1786,7 +1801,6 @@
     color: white !important;
     background-color: transparent !important;
 }
-
 
 .description-foE_WP,
 .labelDescriptor-2top7R {
@@ -1842,7 +1856,6 @@
     color: white;
     text-transform: capitalize;
 }
-
 
 .primary-38Hs-h:hover:not(.disabled-184-il),
 .secondary-2bzKEX {
@@ -2008,8 +2021,6 @@
     font-size: 15px;
 }
 
-
-
 .tag-15nL6B {
     color: white;
 }
@@ -2017,7 +2028,6 @@
 .colorDefault-2_rLdz.focused-3LIdPu .check-3-73a4 {
     color: #00aba9;
 }
-
 
 .colorDefault-2_rLdz .checkbox-397WsK,
 .colorDefault-2_rLdz .radioSelection-3PDNAQ {
@@ -2117,7 +2127,6 @@
     height: 120px !important;
 }
 
-
 .userInfo-regn9W .avatar-3mTjvZ foreignObject {
     mask: none;
 }
@@ -2130,7 +2139,6 @@
 .userInfo-regn9W .avatar-3mTjvZ .avatar-31d8He {
     border-radius: 50%;
 }
-
 
 .cardPrimary-pAe8Ed,
 .cardPrimary-pAe8Ed.editable-2xfXMr {
@@ -2431,6 +2439,7 @@
 }
 
 /* Friends and DMS(Last Spot) */
+
 .scroller-RfJjkV,
 .container-1wv6C6 {
     background-color: transparent;
@@ -2582,7 +2591,6 @@
 .peopleListItem-u6dGxF {
     border-top: none;
 }
-
 
 .selected-26oxtA {
     background-image: radial-gradient(circle closest-side at 17px 17px, rgba(255, 255, 255, .85) 10%, rgba(46, 59, 132, 0.49) 100%, rgba(46, 59, 132, 0.49) 100%);
@@ -2751,6 +2759,7 @@
 }
 
 /* Active Post */
+
 .theme-dark .container-3wLKDe {
     background-color: transparent;
 }
@@ -2786,6 +2795,7 @@
 }
 
 /* Active Post Boxes */
+
 .container-q2_DnH:not(.card-2JNtco.mainCard-3KBsBI) {
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
@@ -2793,6 +2803,7 @@
     border-color: transparent;
     border-radius: 50px;
     height: 140px;
+    padding: 8px 20px;
 }
 
 .card-2JNtco .mainCard-3KBsBI {
@@ -2846,6 +2857,7 @@
 }
 
 /* Getting rid of the input background */
+
 .mainCard-3KBsBI .input-3O04eu {
     background: none;
     box-shadow: none;
@@ -2854,6 +2866,7 @@
 }
 
 /* Tag Holder */
+
 .container-2IhveL {
     background-color: transparent;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
@@ -2863,6 +2876,7 @@
 }
 
 /* Tags */
+
 .pill-3pRQlO {
     background-color: transparent !important;
     box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px -11px 9px -16px rgba(231, 254, 255, 0.53);
@@ -2875,11 +2889,13 @@
 }
 
 /* Title of Post */
+
 .heading-lg-medium-3gUJeM[style*="color:"] {
     color: white !important;
 }
 
 /* Newest Reactions */
+
 #app-mount .reactionCount-SWXh9W {
     color: white;
 }
@@ -2906,6 +2922,7 @@
 }
 
 /* Megathread Stuff */
+
 .header-1RJoTb {
     box-shadow: none;
     border-top-color: transparent;
@@ -2937,17 +2954,21 @@
 }
 
 /* Home Channel List Tab */
+
 /* Home Channel List Background */
+
 .theme-dark .background-fkKrXt {
     background-color: transparent;
 }
 
 /* When Typing */
+
 .typingIndicator-KF8hGa {
     background-color: darkblue;
 }
 
 /* Server Boxes */
+
 .container-2Hi7Km,
 .container-xwOzwi {
     background-color: transparent;
@@ -2957,6 +2978,7 @@
 }
 
 /* Current Server Icon */
+
 .icon-2IDTxf {
     background-color: transparent;
 }
@@ -2970,6 +2992,7 @@
 }
 
 /* Channel Feeds */
+
 .feedItemHeader-txJq98 {
     border-bottom: none;
 }
@@ -3026,11 +3049,13 @@
 }
 
 /* Active Thread List */
+
 .header-3cSJjT {
     background-color: transparent;
 }
 
 /* More Active Threads Box */
+
 .popout-TdhJ6Z {
     background-color: black;
 }
@@ -3097,6 +3122,7 @@
 }
 
 /* Newest Hidden Classes */
+
 .container-3rZ3XA {
     background-color: rgba(0, 0, 0, .2);
 }
@@ -3235,7 +3261,6 @@
     background: rgba(0, 0, 0, .15);
     border-radius: 4px;
 }
-
 
 .descriptionBox-SKGNgB {
     /* Delete After */
@@ -3383,7 +3408,6 @@
     border-radius: 4px;
 }
 
-
 .chatHeaderBar-2fUORh {
     background-color: transparent;
 }
@@ -3449,9 +3473,12 @@
     box-shadow: inset 3px 3px 4px 3px rgba(243, 250, 254, 0.63), inset -8px -11px 9px -16px rgba(243, 250, 254, 0.53);
 }
 
-.sortDropdown-hY93nR {
-    border-radius: 4px;
-    background-color: #1c1c1c;
+.sortDropdown-hY93nR,
+.tagsButton-4pwOKH {
+    background-color: transparent;
+    border-radius: 30px;
+    box-shadow: inset 3px 3px 9px 3px rgba(231, 254, 255, 0.63), inset -8px 0px 9px -16px rgba(231, 254, 255, 0.93);
+    background-image: radial-gradient(circle closest-side at 9px 9px, white 10%, rgba(19, 9, 65, 0.79) 100%, rgba(19, 9, 65, 0.79) 100%);
 }
 
 .sortButtonInner-kKNTP9 {
@@ -3529,6 +3556,7 @@
 }
 
 /* Newest or Classes That I Have Not Collected Yet */
+
 .theme-dark .directoryContainer-z-0pgp {
     background-color: rgba(0, 0, 0, .5);
 }
@@ -3609,11 +3637,6 @@
 
 .tag-19iIl1 {
     background-color: rgba(0, 0, 0, .4);
-}
-
-.container-3kfp0r {
-    background-color: #181818;
-    box-shadow: none;
 }
 
 .countContainer-3uQ087 {
@@ -3800,23 +3823,6 @@
     box-shadow: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .theme-dark .elevationBorderLow-3_3rXL {
     box-shadow: none;
 }
@@ -3834,7 +3840,6 @@
     background-color: rgba(0, 0, 0, .6);
 }
 
-
 .divider-2JN8Vy {
     background-color: transparent;
 }
@@ -3842,7 +3847,6 @@
 .guildSubscriptionSlots-1i_C21 {
     background-color: #141414;
 }
-
 
 .guildSubscriptionSlot-1mef6n {
     border-bottom: none;
@@ -4003,7 +4007,6 @@
     background: #141414;
 }
 
-
 .noiseCancellationPopout-2-e5Xz {
     background: #141414;
     box-shadow: none;
@@ -4108,7 +4111,6 @@
 
 .theme-dark .container-2McqkF .calendarPicker-sDhzdi .react-datepicker {
     background-color: #140E14;
-
 }
 
 .theme-dark .activityProfile-1712BN .activityName-3YXl6e,
@@ -4589,7 +4591,6 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-
 .audienceIcon-2HoEJ2 {
     color: white;
 }
@@ -4650,7 +4651,6 @@
 
 .friendRequestsButton-77veU7:hover {
     background-color: rgba(255, 255, 255, .25);
-
 }
 
 .container-_dQaft,
@@ -4736,7 +4736,6 @@
     background-color: transparent;
 }
 
-
 .valuePill-3nbVvY {
     background-color: rgba(0, 0, 0, .5);
     border: 2px solid rgba(255, 255, 255, .4);
@@ -4770,88 +4769,15 @@
     color: white;
 }
 
-.root-8LYsGj .userProfileModalOuter-2wdWjU {
-    width: 1000px;
-    height: 1000px;
-    padding: 0;
+.theme-dark .root-1CAIjD:has(.art-1TvEXv) {
+    padding: 90px;
+    width: 600px;
 }
 
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .avatar-3QF_VA {
-    position: absolute;
-    top: -55px;
-    left: 142px;
+.theme-dark .panel-2ZFCRb {
+    background: none;
 }
 
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .badgeList-2aoHPw {
-    transform: translateX(120px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .lookFilled-1H2Jvj.colorGreen-jIPCAS {
-    transform: translateX(-70px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .container-3g15px {
-    transform: translateX(40px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .note-3M15gE textarea {
-    width: 90%;
-    transform: translateX(0px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .note-3M15gE textarea {
-    width: 80%;
-    transform: translateX(0px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedNonPremium-2AJg-H .userInfoSection-2u2hir {
-    transform: translateX(20px);
-    padding-bottom: 20px;
-}
-
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .bannerSVGWrapper-2CLfzN foreignObject,
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .bannerSVGWrapper-2CLfzN foreignObject {
-    mask: none;
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .badgeList-2aoHPw {
-    transform: translateX(40px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .badgeList-2aoHPw {
-    transform: translateX(120px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .avatar-3QF_VA {
-    transform: translateX(40px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .avatar-3QF_VA {
-    transform: translateX(120px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .container-3g15px {
-    transform: translateX(10px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .container-3g15px {
-    transform: translateX(30px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedWithBanner-25XGmz .userInfoSection-2u2hir {
-    transform: translateX(90px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .userInfoSection-2u2hir {
-    transform: translateX(50px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .lookFilled-1H2Jvj.colorGreen-jIPCAS {
-    transform: translateX(-50px);
-}
-
-.root-8LYsGj .userProfileModalOuter-2wdWjU .userProfileInnerThemedPremiumWithoutBanner-lZ9inp .note-3M15gE textarea {
-    width: 80%;
-    transform: translateX(0px);
+.activityPanel-9icbyU {
+    border: none;
 }
