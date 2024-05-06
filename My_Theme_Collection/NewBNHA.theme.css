@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 5.4
+ * @version 5.5
  */
 
 /* Main Background */
@@ -307,7 +307,8 @@
     border-radius: 8px;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #2AB;
     color: white;
 }
@@ -919,16 +920,16 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: transparent;
 }
 
 
-.userProfileOuterUnthemed_e14365 {
+.userProfileOuterUnthemed__9741c {
     background-color: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
@@ -936,29 +937,29 @@
     border: 1px solid transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 6px;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%);
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
     border-radius: 6px 6px 0 0;
 }
 
@@ -1715,6 +1716,10 @@
     border-radius: 7px;
     border: 1px outset;
     border-color: #2AB;
+}
+
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
 }
 
 .panels__58331 {
@@ -3151,6 +3156,8 @@
     color: white !important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }

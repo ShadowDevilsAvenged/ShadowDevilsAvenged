@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 5.6
+ * @version 5.7
  */
 
 /* Main Background */
@@ -173,7 +173,8 @@
     font-size: 15px;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #F44;
     color: white;
     text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
@@ -1448,19 +1449,19 @@
     background: none;
 }
 
-.userProfileOuterUnthemed_e14365 {
+.userProfileOuterUnthemed__9741c {
     background-color: transparent;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
@@ -1468,26 +1469,26 @@
     border: 1px solid transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 6px;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
     background-color: rgba(0, 0, 0, .5);
     background: none;
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background: rgba(0, 0, 0, .5);
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
     border-radius: 6px 6px 0 0;
 }
 
@@ -1694,6 +1695,10 @@
     border-radius: 6px;
     border: 2px solid;
     border-color: #F44;
+}
+
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
 }
 
 .avatarHint__15059 {
@@ -3431,6 +3436,8 @@ button.button_ae40a4.enabled__214db:hover {
     color: white !important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }

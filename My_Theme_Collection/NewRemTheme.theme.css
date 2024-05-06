@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 5.5
+ * @version 5.6
  */
 
  .app_de4237 {
@@ -598,7 +598,8 @@
     background-color: rgba(31, 61, 255, .89);
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #61A5D8;
 }
 
@@ -1324,11 +1325,11 @@
 }
 
 
-.userProfileOuterUnthemed_e14365 {
+.userProfileOuterUnthemed__9741c {
     background-color: transparent;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: transparent;
 }
 
@@ -1336,15 +1337,15 @@
     border: 1px solid transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 3px;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
@@ -1352,21 +1353,21 @@
     mask: none;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
     background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%);
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
     border-radius: 3px 3px 0 0;
 }
 
@@ -1420,6 +1421,10 @@
     background-color: rgba(97, 165, 216, .32);
     border-radius: 6px;
     border: 1px solid #61A5D8;
+}
+
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
 }
 
 .flowerStar_fa5ad8 path {
@@ -3118,6 +3123,8 @@ button.button_ae40a4.enabled__214db:hover {
     color: white !important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }

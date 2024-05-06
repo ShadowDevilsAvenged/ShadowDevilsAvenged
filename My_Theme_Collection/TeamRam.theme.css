@@ -2,7 +2,7 @@
  * @name Team Ram
  * @author ShadowDevilsAvenged
  * @description Team Ram is back once again(big request to bring this back)
- * @version 3.2
+ * @version 3.3
 */
 
 /* Ram Main Picture */
@@ -257,28 +257,28 @@
     border-radius: 3px;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedNonPremium_ed9022,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedNonPremium_b64fb4,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background-image: linear-gradient(30deg, rgba(0,0,0,.6), rgba(0,0,0,.4)), url(https://images7.alphacoders.com/711/711890.png);
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.userProfileOuterUnthemed_e14365,
+.userProfileOuterUnthemed__9741c,
 .userProfileOuterThemed__1fbd7 {
     background: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 3px;
 }
 
@@ -297,7 +297,7 @@
     border-radius: 4px;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: rgba(0,0,0,.7);
     border-radius: 4px;
 }
@@ -434,7 +434,8 @@
     font-size: 14px;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #f3acc5;
 }
 
@@ -1664,6 +1665,10 @@ button.button_ae40a4.enabled__214db:hover {
     border-radius: 6px;
     background-color: rgba(243, 172, 197, .45);
     border: 1px solid #f3acc5;
+}
+
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
 }
 
 #app-mount .connectedAccountOpenIcon__23b1a {
@@ -3042,6 +3047,8 @@ button.button_ae40a4.enabled__214db:hover {
   color: white!important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }

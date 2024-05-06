@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 3
+ * @version 3.1
 */
 
 .app_de4237 {
@@ -259,7 +259,8 @@
     border-top-color: #95A8B0;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #95A8B0;
 }
 
@@ -556,17 +557,17 @@
     background: none;
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedNonPremium_ed9022,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedNonPremium_b64fb4,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background: linear-gradient(63deg, #4b5569 0%, #2d353f 89%);
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
@@ -574,7 +575,7 @@
     display: none;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: rgba(0, 0, 0, .3);
 }
 
@@ -1203,6 +1204,10 @@
     background-color: rgba(149, 168, 176, .2);
 }
 
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
+}
+
 #app-mount .connectedAccountOpenIcon__23b1a,
 .listRow__50619 {
     color: white;
@@ -1212,6 +1217,8 @@
     background-color: rgba(75, 85, 105, .3);
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: black;
 }

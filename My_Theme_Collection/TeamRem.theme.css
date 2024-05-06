@@ -2,7 +2,7 @@
  * @name Team Rem
  * @author ShadowDevilsAvenged
  * @description Team Rem is back once again(big request to bring this back)
- * @version 3.2
+ * @version 3.3
 */
 
 /* Rem Main Picture */
@@ -262,26 +262,26 @@
     border-radius: 3px;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedNonPremium_ed9022,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedNonPremium_b64fb4,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background: url(https://images5.alphacoders.com/734/734070.png) 50%/cover;
 }
 
-.userProfileOuterUnthemed_e14365,
+.userProfileOuterUnthemed__9741c,
 .userProfileOuterThemed__1fbd7 {
     background: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 3px;
 }
 
@@ -300,7 +300,7 @@
     border-radius: 4px;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: rgba(0,0,0,.7);
     border-radius: 4px;
 }
@@ -438,7 +438,8 @@
     font-size: 14px;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #6cb4fe;
 }
 
@@ -1633,6 +1634,10 @@ button.button_ae40a4.enabled__214db:hover {
     border-radius: 6px;
     background-color: rgba(108, 180, 254, .45);
     border: 1px solid #6cb4fe;
+}
+
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
 }
 
 #app-mount .connectedAccountOpenIcon__23b1a {
@@ -3001,6 +3006,8 @@ button.button_ae40a4.enabled__214db:hover {
     opacity: 1 !important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }

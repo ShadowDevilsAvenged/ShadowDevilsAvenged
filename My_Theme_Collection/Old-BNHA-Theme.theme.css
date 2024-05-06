@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 5.5
+ * @version 5.6
 */
 
 .avatarDecoration__8a0c2 {
@@ -496,7 +496,8 @@ textarea,
     display: none;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background: linear-gradient(1deg, #000000 0%, #008c99 47%, #000000 100%);
 }
 
@@ -966,6 +967,10 @@ textarea,
     border: 2px solid black;
 }
 
+.connectedAccountNameText__7abc2[style*="color:"] {
+    color: white !important;
+}
+
 .connectedAccountContainer__5972d {
     background-color: rgba(0, 0, 0, 0.324);
 }
@@ -975,6 +980,8 @@ textarea,
   color: white!important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .6);
 }
@@ -2377,15 +2384,15 @@ textarea,
     background-color: rgba(0, 0, 0, .2);
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
     background-color: transparent;
 }
 
-.userProfileOuterUnthemed_e14365 {
+.userProfileOuterUnthemed__9741c {
     background-color: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
@@ -2393,20 +2400,20 @@ textarea,
     border: 1px solid transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 6px;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
     background-color: transparent;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
     background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #008c99 100%);
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #008c99 100%);
 }
 
@@ -2421,12 +2428,12 @@ textarea,
     color: white;
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
     border-radius: 6px 6px 0 0;
 }
 

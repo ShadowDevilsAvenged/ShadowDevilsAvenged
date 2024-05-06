@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 2.8
+ * @version 2.9
 */
 
 .app_de4237, 
@@ -43,7 +43,8 @@
     background-color: #FF0000;
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
     background-color: #616161;
 }
 
@@ -349,41 +350,42 @@
 }
 
 .profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.userProfileOuterUnthemed_e14365,
-.userProfileInner__61cc1:before,
-.overlayBackground__2666e {
+.userProfileOuterUnthemed__9741c,
+.userProfileInner__8ff35:before,
+.overlayBackground__345c9 {
     background-color: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     box-shadow: none;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
     border-radius: 8px;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
     background-color: #282828;
     background: #282828;
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
     background-color: #282828;
     background: #282828;
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83, 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59, 
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
     background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
     border-radius: 8px 8px 0 0;
 }
 

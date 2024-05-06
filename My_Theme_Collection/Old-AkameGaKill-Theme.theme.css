@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 5.4
+ * @version 5.5
  */
 
  #app-mount .app_de4237 {
@@ -1150,7 +1150,8 @@ button.button_ae40a4.enabled__214db:hover {
   background-color: rgba(155, 39, 66, .4);
 }
 
-.theme-dark .tooltipPrimary__51b23 {
+.theme-dark .tooltipPrimary__51b23,
+.theme-dark .tooltipNested_ee18f0 {
   background-color: #9b2742;
 }
 
@@ -2240,6 +2241,10 @@ button.button_ae40a4.enabled__214db:hover {
   border-radius: 5px;
 }
 
+.connectedAccountNameText__7abc2[style*="color:"] {
+  color: white !important;
+}
+
 .listRow__50619:hover {
   background-color: rgba(0, 0, 0, .3);
 }
@@ -3200,11 +3205,11 @@ button.button_ae40a4.enabled__214db:hover {
 }
 
 
-.userProfileOuterUnthemed_e14365 {
+.userProfileOuterUnthemed__9741c {
   background-color: transparent;
 }
 
-.overlayBackground__2666e {
+.overlayBackground__345c9 {
   background-color: transparent;
 }
 
@@ -3212,33 +3217,33 @@ button.button_ae40a4.enabled__214db:hover {
   border: 1px solid transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
   box-shadow: none;
 }
 
-.userProfileInner__61cc1:before {
+.userProfileInner__8ff35:before {
   background-color: transparent;
 }
 
-.userProfileOuter__4ac83 {
+.userProfileOuter__35e59 {
   border-radius: 6px;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 {
+.userProfileInnerThemedNonPremium_b64fb4 {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
 
-.userProfileInnerThemedWithBanner__2152d,
-.userProfileInnerThemedPremiumWithoutBanner__3705a {
+.userProfileInnerThemedWithBanner_e9e7c5,
+.userProfileInnerThemedPremiumWithoutBanner_ee8277 {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
 
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83,
-.userProfileOuterThemed__1fbd7.userProfileOuter__4ac83 {
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59,
+.userProfileOuterThemed_a425f3.userProfileOuter__35e59 {
   background: none;
 }
 
-.userProfileInner__61cc1 {
+.userProfileInner__8ff35 {
   border-radius: 6px 6px 0 0;
 }
 
@@ -3900,6 +3905,8 @@ button.button_ae40a4.enabled__214db:hover {
   color: white !important;
 }
 
+.profileBadges__1f2ab,
+.badgeList__6b2c7,
 .badgeList__126b0 {
   background-color: rgba(0, 0, 0, .6);
 }
