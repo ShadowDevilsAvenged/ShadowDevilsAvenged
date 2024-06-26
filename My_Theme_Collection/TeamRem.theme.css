@@ -2,7 +2,7 @@
  * @name Team Rem
  * @author ShadowDevilsAvenged
  * @description Team Rem is back once again(big request to bring this back)
- * @version 3.5
+ * @version 3.6
 */
 
 /* Rem Main Picture */
@@ -268,7 +268,13 @@
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedNonPremium_c69a7b,
-.userProfileInnerThemedPremiumWithoutBanner_c69a7b {
+.biteSizeInnerThemed_c69a7b,
+.fullSizeInnerThemed_c69a7b,
+.userProfileInnerThemedPremiumWithoutBanner_c69a7b,
+.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+.custom-profile-theme .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+.custom-profile-theme .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background: url(https://images5.alphacoders.com/734/734070.png) 50%/cover;
 }
 
@@ -300,7 +306,8 @@
     border-radius: 4px;
 }
 
-.overlayBackground_c69a7b {
+.overlayBackground_c69a7b,
+#app-mount .fullSizeOverlayBackground_c69a7b {
     background-color: rgba(0,0,0,.7);
     border-radius: 4px;
 }
@@ -1191,7 +1198,7 @@
     padding: 0 6px;
 }
 
-.theme-dark .wrapper_a7c28c {
+.theme-dark .wrapper_bf1b19 {
     background: rgba(108, 180, 254, .7) !important;
     color: white;
     text-decoration: none !important;
@@ -1199,7 +1206,7 @@
     border: 2px solid rgba(255, 255, 255, .37);
 }
 
-.theme-dark .wrapper_a7c28c:hover {
+.theme-dark .wrapper_bf1b19:hover {
     background: #6cb4fe;
     color: white;
 }
@@ -1611,7 +1618,7 @@ button.button_f67531.enabled_f67531:hover {
     border-radius: 4px;
 }
 
-.tabBarContainer_b9fccc {
+.tabBar_c1519f {
     border-bottom: none;
 }
 
@@ -2313,7 +2320,8 @@ button.button_f67531.enabled_f67531:hover {
     background-color: #6cb4fe;
 }
 
-.role_e4010c {
+.role_e4010c,
+#app-mount .role_f9575e {
     font-size: 13px;
     background: rgba(108, 180, 254, .5);
     height: 24px;
@@ -2321,6 +2329,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 .roleName_e4010c,
+.roleName_f9575e,
 .actionButton_e4010c {
     color: white;
 }
@@ -3011,7 +3020,8 @@ button.button_f67531.enabled_f67531:hover {
 
 .profileBadges_f89da9,
 .badgeList_b69b77,
-.badgeList_ec3b75 {
+.badgeList_ec3b75,
+#app-mount .container_e5a42d {
     background-color: rgba(0, 0, 0, .6);
 }
 

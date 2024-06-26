@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 5.7
+ * @version 5.8
  */
 
  #app-mount .app_a01fb1 {
@@ -631,7 +631,8 @@
   background: rgba(0, 0, 0, .34);
 }
 
-.role_e4010c {
+.role_e4010c,
+#app-mount .role_f9575e {
   border-radius: 4px;
   padding: 5px;
 }
@@ -1080,7 +1081,7 @@
   background-color: rgba(0, 0, 0, .46) !important;
 }
 
-.theme-dark .wrapper_a7c28c {
+.theme-dark .wrapper_bf1b19 {
   border-radius: 3px;
   color: white !important;
   background: rgba(155, 39, 66, .7);
@@ -1091,7 +1092,7 @@
   border-bottom-color: #9b2742;
 }
 
-.theme-dark .wrapper_a7c28c:hover {
+.theme-dark .wrapper_bf1b19:hover {
   background: rgba(155, 39, 66, .4);
 }
 
@@ -2233,7 +2234,7 @@ button.button_f67531.enabled_f67531:hover {
   display: none;
 }
 
-.tabBarContainer_b9fccc,
+.tabBar_c1519f,
 .userInfoSection_a24910+.userInfoSection_a24910 {
   border: none;
 }
@@ -2360,7 +2361,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.tabBarContainer_b9fccc {
+.tabBar_c1519f {
   border-bottom: none;
 }
 
@@ -3137,7 +3138,8 @@ button.button_f67531.enabled_f67531:hover {
   mask: none;
 }
 
-.role_e4010c {
+.role_e4010c,
+#app-mount .role_f9575e {
   background: rgba(0, 0, 0, .4);
 }
 
@@ -3212,7 +3214,8 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.overlayBackground_c69a7b {
+.overlayBackground_c69a7b,
+#app-mount .fullSizeOverlayBackground_c69a7b {
   background-color: transparent;
 }
 
@@ -3232,12 +3235,18 @@ button.button_f67531.enabled_f67531:hover {
   border-radius: 6px;
 }
 
-.userProfileInnerThemedNonPremium_c69a7b {
+.userProfileInnerThemedNonPremium_c69a7b,
+.biteSizeInnerThemed_c69a7b,
+.fullSizeInnerThemed_c69a7b {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
-.userProfileInnerThemedPremiumWithoutBanner_c69a7b {
+.userProfileInnerThemedPremiumWithoutBanner_c69a7b,
+.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+.custom-profile-theme .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+.custom-profile-theme .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
 
@@ -3899,6 +3908,7 @@ button.button_f67531.enabled_f67531:hover {
 .userTagWithNickname_c9ccf6,
 .discordIcon_b06bc5,
 .roleName_e4010c,
+.roleName_f9575e,
 .username_be84f0 {
   color: white;
 }
@@ -3910,7 +3920,8 @@ button.button_f67531.enabled_f67531:hover {
 
 .profileBadges_f89da9,
 .badgeList_b69b77,
-.badgeList_ec3b75 {
+.badgeList_ec3b75,
+#app-mount .container_e5a42d {
   background-color: rgba(0, 0, 0, .6);
 }
 

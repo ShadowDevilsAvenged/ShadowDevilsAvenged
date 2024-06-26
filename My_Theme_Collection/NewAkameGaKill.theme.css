@@ -1164,7 +1164,8 @@
     border: 1px solid transparent;
 }
 
-.overlayBackground_c69a7b {
+.overlayBackground_c69a7b,
+#app-mount .fullSizeOverlayBackground_c69a7b {
     background-color: transparent;
 }
 
@@ -1180,13 +1181,19 @@
     background-color: transparent;
 }
 
-.userProfileInnerThemedNonPremium_c69a7b {
+.userProfileInnerThemedNonPremium_c69a7b,
+.biteSizeInnerThemed_c69a7b,
+.fullSizeInnerThemed_c69a7b {
     background-color: transparent !important;
     background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
-.userProfileInnerThemedPremiumWithoutBanner_c69a7b {
+.userProfileInnerThemedPremiumWithoutBanner_c69a7b,
+.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+.custom-profile-theme .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+.custom-profile-theme .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background-color: transparent !important;
     background-image: -webkit-linear-gradient(56deg, #000000 20%, rgb(153, 17, 33, .8) 75%);
 }
@@ -1397,13 +1404,13 @@
     color: white !important;
 }
 
-.theme-dark .wrapper_a7c28c {
+.theme-dark .wrapper_bf1b19 {
     background: #912 !important;
     color: white !important;
     border: 2px outset #912;
 }
 
-.theme-dark .wrapper_a7c28c:hover {
+.theme-dark .wrapper_bf1b19:hover {
     background: #C13 !important;
     border: 2px inset #912;
 }
@@ -2057,7 +2064,7 @@ span.button_f67531.enabled_f67531:hover path {
     border-radius: 4px;
 }
 
-.tabBarContainer_b9fccc,
+.tabBar_c1519f,
 .userInfoSection_a24910+.userInfoSection_a24910 {
     border: none;
 }
@@ -2328,7 +2335,8 @@ span.button_f67531.enabled_f67531:hover path {
     color: white;
 }
 
-.role_e4010c {
+.role_e4010c,
+#app-mount .role_f9575e {
     border: 1px solid rgba(255, 255, 255, .2);
     background: rgba(0, 0, 0, .2);
     border-radius: 2px;
@@ -3408,6 +3416,7 @@ span.button_f67531.enabled_f67531:hover path {
 .userTagWithNickname_c9ccf6,
 .discordIcon_b06bc5,
 .roleName_e4010c,
+.roleName_f9575e,
 .username_be84f0,
 .actionButton_e4010c {
     color: white;
@@ -3420,7 +3429,8 @@ span.button_f67531.enabled_f67531:hover path {
 
 .profileBadges_f89da9,
 .badgeList_b69b77,
-.badgeList_ec3b75 {
+.badgeList_ec3b75,
+#app-mount .container_e5a42d {
     background-color: rgba(0, 0, 0, .6);
 }
 
