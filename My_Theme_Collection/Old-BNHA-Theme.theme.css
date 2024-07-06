@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 5.9
+ * @version 6
 */
 
 .avatarDecoration_ec86aa {
@@ -16,6 +16,201 @@
     margin-top: -20px;
     margin-left: -12px;
 }
+
+.theme-dark .activityUserPopoutV2_d5089b .headerText_d5089b, .theme-light .activityUserPopoutV2_d5089b .headerText_d5089b, .theme-dark .activityBiteSizePopout_d5089b .headerText_d5089b, .theme-light .activityBiteSizePopout_d5089b .headerText_d5089b {
+    color: white;
+}
+
+/* (*NEW*) Members List */
+.page_d20375 /* (Members List *NEW*) */ {
+    background: none!important;
+  }
+  
+  .mainTableContainer_e23072  /* (Members List Background *NEW*) */ {
+    background: rgba(0, 0, 0, .6);
+    box-shadow: none;
+  }
+  
+  .memberRowContainer_a39fe9:hover td {
+    background-color: black;
+  }
+  
+  .container_f51af4 /* Mod View Menu */,
+  .header_f51af4 /* Mod View Header */ {
+    box-shadow: none;
+    background-color: black !important;
+  }
+  
+  .keyComboInner_f51af4,
+  .keyComboInner_c11c02 /* (When opening the messages) */ {
+    color: white!important;
+  }
+  
+  .memberRowContainer_a39fe9.memberSelected_a39fe9 td {
+    background: rgba(255, 255, 255, .1);
+  }
+  
+  .headerContainer_a507b4 .eyebrow_dc00ef {
+    color: white !important;
+  }
+  
+  .viewAllPermissions_a507b4 path {
+    fill: white;
+  }
+  
+  .innerContainer_d2194f /* Word Color Change inside the menu */ {
+    color: white;
+  }
+  
+  .container_d936aa /* Top Row Layer */ {
+    border-radius: 3px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid rgba(205, 205, 205, .3);
+  }
+  
+  .topRow_d936aa,
+  .bottomRowAction_d936aa {
+    background-color: rgba(205, 205, 205, .1) !important;
+  }
+  
+  #app-mount .bottomRowAction_d936aa,
+  #app-mount .bottomRowAction_d936aa .text-sm\/normal_dc00ef {
+    color: white;
+  }
+  
+  #app-mount .bottomRowAction_d936aa path {
+    fill: white;
+  }
+  
+  .topRow_d936aa :where([style*="color:"]) {
+    color: white !important;
+  }
+  
+  .memberRowContainer_a39fe9 td:after {
+    background: none;
+  }
+  
+  .paginationContainer_cb152b {
+    border-top: none;
+  }
+  
+  .modInfoAction_ce9fb9 {
+    color: white;
+    box-shadow: none;
+  }
+  
+  .modInfoItemContainer_ce9fb9 {
+    border-radius: 3px;
+    box-shadow: none;
+  }
+  
+  #app-mount .modInfoAction_ce9fb9 {
+    color: white;
+  }  
+  
+  .theme-dark .modInfoItem_ce9fb9 :where(.text-sm\/semibold_dc00ef, .text-sm\/medium_dc00ef) {
+    color: white !important;
+  }
+  
+  .modInfoItem_ce9fb9 path {
+    fill: white;
+  }
+  
+  .modInfoItem_ce9fb9 {
+    background-color: rgba(205, 205, 205, .2) !important;
+    border: 1px solid rgba(205, 205, 205, .3);
+    box-shadow: none;
+  }
+  
+  .backButton_c11c02 path /* (When opening the messages) */ {
+    fill: white;
+  }
+  
+  .channelNameIcon_a9e225,
+  .channelNameText_a9e225,
+  .parentChannelNameIcon_a9e225 /* (When opening the messages) */ {
+    color: white;
+  }
+  
+  #app-mount .searchResult_ddc613 /* (When opening the messages) */ {
+    background-color: rgba(205, 205, 205, .2) !important;
+    border: 1px solid rgba(205, 205, 205, .3);
+    border-radius: 3px;
+  }
+  
+  .innerContainer_f328ee li>div {
+    background-color: transparent!important;
+    box-shadow: none;
+  }
+  
+  .otherRoles_a39fe9,
+  #app-mount .button_a39fe9 {
+    border-radius: 3px;
+    background-color: rgba(205, 205, 205, .2);
+    border: 1px solid rgba(205, 205, 205, .3);
+  }
+  
+  .addRoleIcon_a39fe9,
+  #app-mount .actionCell_a39fe9 {
+    color: white;
+  }
+  
+  #app-mount .selected_eef3ef {
+    background-color: black;
+  }
+  
+  #app-mount .button_edead5 {
+    background: rgba(205, 205, 205, .2);
+    color:white;
+    border: 2px outset rgba(205, 205, 205, .3);
+  }
+  
+  .section_ba4d80 .defaultColor_e9e35f {
+    color: white !important;
+  }
+  
+  .emptyText_e4be58 {
+    color: white;
+  }
+  
+  .theme-dark .statusBubble_d0a252 {
+    background-color: #151A23;
+  }
+  
+  .theme-dark .statusBubbleOuter_d0a252:before,
+  .theme-dark .statusBubbleOuter_d0a252:after,
+  .theme-dark .statusBubbleOuter_d0a252 {
+    background-color: #151A23;
+    box-shadow: none;
+    border: 1px solid black;
+  }
+  
+  .actionIcon_f6f816 path {
+    fill: white;
+  }
+  
+  .theme-dark .color_a80370 /* (Add Note) */,
+  .userTagUsername_c32acf {
+    color: white;
+  }
+  
+  .pronouns_c32acf {
+    color: white !important;
+  }
+  
+  #app-mount .activity_cd74cc {
+    background: rgba(205, 205, 205, .3);
+    border-radius: 3px;
+    border: 2px outset rgba(205, 205, 205, .5);
+  }
+  
+  .permissionChiplet_a507b4 .text-xs\/medium_dc00ef,
+  .modInfoItem_ce9fb9 .text-sm\/normal_dc00ef {
+    color: white !important;
+  }
+  /* (*NEW*) Members List */
+  
 
 @import url("https://fonts.googleapis.com/css?family=Livvic&display=swap");
 
@@ -3720,7 +3915,8 @@ textarea,
 .theme-dark .activityUserPopoutV2_d5089b .details_d5089b,
 .theme-dark .activityUserPopoutV2_d5089b .name_d5089b,
 .theme-dark .activityUserPopoutV2_d5089b .nameNormal_d5089b,
-.theme-dark .activityUserPopoutV2_d5089b .nameWrap_d5089b {
+.theme-dark .activityUserPopoutV2_d5089b .nameWrap_d5089b,
+.theme-dark .activityUserPopout_d5089b [class*="content_"], .theme-dark .activityUserPopout_d5089b [class*="name_"], .theme-dark .activityUserPopout_d5089b [class*="details_"], .theme-dark .activityUserPopout_d5089b [class*="activityName_"], .theme-dark .activityUserPopout_d5089b [class*="nameNormal_"], .theme-dark .activityUserPopout_d5089b [class*="nameWrap_"], .theme-dark .activityProfile_d5089b [class*="content_"], .theme-dark .activityProfile_d5089b [class*="name_"], .theme-dark .activityProfile_d5089b [class*="details_"], .theme-dark .activityProfile_d5089b [class*="activityName_"], .theme-dark .activityProfile_d5089b [class*="nameNormal_"], .theme-dark .activityProfile_d5089b [class*="nameWrap_"], .theme-dark .activityProfileV2_d5089b [class*="content_"], .theme-dark .activityProfileV2_d5089b [class*="name_"], .theme-dark .activityProfileV2_d5089b [class*="details_"], .theme-dark .activityProfileV2_d5089b [class*="activityName_"], .theme-dark .activityProfileV2_d5089b [class*="nameNormal_"], .theme-dark .activityProfileV2_d5089b [class*="nameWrap_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="content_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="name_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="details_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="activityName_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="nameNormal_"], .theme-dark .activitySimplifiedProfile_d5089b [class*="nameWrap_"], .theme-dark .activityUserPopoutV2_d5089b [class*="content_"], .theme-dark .activityUserPopoutV2_d5089b [class*="name_"], .theme-dark .activityUserPopoutV2_d5089b [class*="details_"], .theme-dark .activityUserPopoutV2_d5089b [class*="activityName_"], .theme-dark .activityUserPopoutV2_d5089b [class*="nameNormal_"], .theme-dark .activityUserPopoutV2_d5089b [class*="nameWrap_"], .theme-dark .activityBiteSizePopout_d5089b [class*="content_"], .theme-dark .activityBiteSizePopout_d5089b [class*="name_"], .theme-dark .activityBiteSizePopout_d5089b [class*="details_"], .theme-dark .activityBiteSizePopout_d5089b [class*="activityName_"], .theme-dark .activityBiteSizePopout_d5089b [class*="nameNormal_"], .theme-dark .activityBiteSizePopout_d5089b [class*="nameWrap_"] {
     color: white;
 }
 
