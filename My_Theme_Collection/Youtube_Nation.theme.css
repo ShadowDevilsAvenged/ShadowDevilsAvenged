@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 3.3
+ * @version 3.4
 */
 
 .app_a01fb1, 
@@ -361,11 +361,11 @@
     background-color: transparent;
 }
 
-.divider_fc5f50 {
+.divider_c2654d {
     border: none;
 }
 
-#app-mount .content_fc5f50 {
+#app-mount .content_c2654d {
     color: white;
     background-color: rgba(0, 0, 0, .8);
     padding: 4px 6px;
@@ -382,13 +382,13 @@
     font-weight: 600;
 }
 
-.markup_d6076c,
+.markup_f8f345,
 .container_e62b38,
-.username_ec86aa {
+.username_f9f2ca {
     color: #F1F1F1;
 }
 
-.markup_d6076c a,
+.markup_f8f345 a,
 .mutedChannelsHook_f1ed13 {
     color: #3ea6ff;
 }
@@ -434,13 +434,13 @@
     color: #3ea6ff;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     border-radius: 0 30px 30px 0;
     color: white;
     background-color: #FF0000;
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
     color: #FF0000;
     fill: #FF0000;
 }
@@ -483,7 +483,7 @@
     color: white;
 }
 
-.cozy_ec86aa .header_ec86aa {
+.cozy_f9f2ca .header_f9f2ca {
     color: #F1F1F1;
 }
 
@@ -745,7 +745,7 @@
 .h5_c46f6a, 
 .label_c46f6a, 
 .legend_c46f6a,
-.cozy_ec86aa .timestamp_ec86aa {
+.cozy_f9f2ca .timestamp_f9f2ca {
     color: #F1F1F1;
 }
 
@@ -811,8 +811,8 @@
     color: #3ea6ff !important
 }
 
-.compact_ec86aa .timestamp_ec86aa, 
-.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
+.compact_ec86aa .timestamp_f9f2ca, 
+.cozy_f9f2ca .timestamp_f9f2ca.alt_ec86aa {
     background: transparent;
     color: #F1F1F1;
 }
@@ -910,7 +910,7 @@
     color: #aaa;
 }
 
-.markup_d6076c code {
+.markup_f8f345 code {
     background: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .1);
 }
@@ -1007,18 +1007,18 @@
     opacity: 1;
 }
 
-.mediaBarWrapper_f7877e, 
-.mediaBarWrapper_f7877e:after, 
-.mediaBarWrapper_f7877e:before {
+.mediaBarWrapper_d12f5a, 
+.mediaBarWrapper_d12f5a:after, 
+.mediaBarWrapper_d12f5a:before {
     background-color: transparent;
 }
 
 .mediaBarGrabber_f7877e, 
-.mediaBarProgress_f7877e, 
-.mediaBarProgress_f7877e:after, 
-.mediaBarProgress_f7877e:before,
-.mediaBarInteraction_f7877e:hover .mediaBarGrabber_f7877e,
-.mediaBarInteractionDragging_f7877e .mediaBarGrabber_f7877e {
+.mediaBarProgress_d12f5a, 
+.mediaBarProgress_d12f5a:after, 
+.mediaBarProgress_d12f5a:before,
+.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_f7877e,
+.mediaBarInteractionDragging_d12f5a .mediaBarGrabber_f7877e {
     background-color: #FF0000;
 }
 
@@ -1204,11 +1204,11 @@
 
 .filenameLinkWrapper_a4623d,
 .filenameLinkWrapper_a4623d a,
-.metadataContent_f316dd a {
+.metadataContent_f72aac a {
     color: #3ea6ff;
 }
 
-.theme-dark .wrapperAudio_f316dd {
+.theme-dark .wrapperAudio_f72aac {
     border-color: rgba(255, 255, 255, .1);
     background-color: #282828;
 }

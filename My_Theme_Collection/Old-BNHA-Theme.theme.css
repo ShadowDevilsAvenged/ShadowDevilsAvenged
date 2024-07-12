@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 6
+ * @version 6.1
 */
 
 .avatarDecoration_ec86aa {
@@ -755,7 +755,7 @@ textarea,
 
 
 
-#app-mount .isUnread_fc5f50 .content_fc5f50 {
+#app-mount .isUnread_fc5f50 .content_c2654d {
     color: white;
     background: linear-gradient(225deg,
             rgba(0, 140, 153, 0.722) 0%,
@@ -913,13 +913,13 @@ textarea,
     border: 1px solid rgba(255, 255, 255, 0.63);
 }
 
-#app-mount .content_fc5f50 {
+#app-mount .content_c2654d {
     color: silver;
     padding: 4px 7px;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.divider_fc5f50 {
+.divider_c2654d {
     border: none;
 }
 
@@ -1211,10 +1211,10 @@ textarea,
 }
 
 .mediaBarGrabber_f7877e,
-.mediaBarProgress_f7877e,
-.mediaBarProgress_f7877e:after,
-.mediaBarProgress_f7877e:before,
-.mediaBarInteraction_f7877e:hover .mediaBarGrabber_f7877e {
+.mediaBarProgress_d12f5a,
+.mediaBarProgress_d12f5a:after,
+.mediaBarProgress_d12f5a:before,
+.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_f7877e {
     background-color: #008c99;
 }
 
@@ -1436,7 +1436,7 @@ textarea,
 .activity_a31c43,
 .membersGroup_cbd271,
 .container_e9f61e,
-.cozy_ec86aa .timestamp_ec86aa {
+.cozy_f9f2ca .timestamp_f9f2ca {
     color: white;
 }
 
@@ -1450,7 +1450,7 @@ textarea,
 }
 
 .zalgo_ec86aa .messageContent_ec86aa,
-.zalgo_ec86aa.cozy_ec86aa .header_ec86aa {
+.zalgo_ec86aa.cozy_f9f2ca .header_f9f2ca {
     overflow: visible;
 }
 
@@ -1458,13 +1458,13 @@ textarea,
     background: none;
 }
 
-.cozy_ec86aa .header_ec86aa {
+.cozy_f9f2ca .header_f9f2ca {
     color: white;
     left: 5px;
     position: relative;
 }
 
-.mentioned_d5deea .header_ec86aa {
+.mentioned_d5deea .header_f9f2ca {
     left: 75px;
     position: relative;
 }
@@ -1484,11 +1484,11 @@ textarea,
 .placeholder_a552a6,
 .slateTextArea_e52116 .hljs-comment,
 .slateTextArea_e52116 .hljs-quote,
-.cozy_ec86aa .timestamp_ec86aa.alt_ec86aa {
+.cozy_f9f2ca .timestamp_f9f2ca.alt_ec86aa {
     color: white;
 }
 
-.markup_d6076c {
+.markup_f8f345 {
     font-size: 0.823rem;
     color: white;
     top: 3px;
@@ -1498,7 +1498,7 @@ textarea,
     position: relative;
 }
 
-.editor_a552a6.markup_d6076c {
+.editor_a552a6.markup_f8f345 {
     left: -3px;
 }
 
@@ -1508,19 +1508,19 @@ textarea,
     position: relative;
 }
 
-.mentioned_d5deea .markup_d6076c {
+.mentioned_d5deea .markup_f8f345 {
     left: 51px;
     top: revert;
 }
 
-.embedContentInner-FBnk7v.markup_d6076c {
+.embedContentInner-FBnk7v.markup_f8f345 {
     left: 6px !important;
     position: relative;
     top: -3px;
 }
 
 .theme-dark .embedFull_ad0b71,
-.theme-dark .wrapperAudio_f316dd {
+.theme-dark .wrapperAudio_f72aac {
     background-color: rgba(0, 0, 0, 0.3);
     border-color: transparent;
 }
@@ -1592,12 +1592,12 @@ textarea,
     color: #fff;
 }
 
-.markup_d6076c pre {
+.markup_f8f345 pre {
     border: none;
     background: none;
 }
 
-.markup_d6076c code {
+.markup_f8f345 code {
     line-height: 1.4rem;
     background-color: rgba(0, 0, 0, 0.324);
     padding: 8px 5px;
@@ -2304,7 +2304,7 @@ textarea,
 .content-s2SEQO a,
 .footer_c33701 a,
 .lookLink_dd4f85.colorLink_dd4f85,
-.theme-dark .markup_d6076c a,
+.theme-dark .markup_f8f345 a,
 .mutedChannelsHook_f1ed13,
 .quickswitcher_f4e139 a,
 .theme-dark .topic_bf3bbb a,
@@ -2318,7 +2318,7 @@ textarea,
 .emptyStateSubtext-2njjqg a,
 .theme-dark .container__13b2a section a,
 .fakeLink_cdb578,
-.metadataContent_f316dd a,
+.metadataContent_f72aac a,
 .editChannelButton-1dYN-G {
     color: #66cff9;
 }
@@ -2372,13 +2372,13 @@ textarea,
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     border-radius: 0;
     color: #fff;
     background-color: #008c99;
 }
 
-.unreadPillCapStroke_fc5f50 {
+.unreadPillCapStroke_c2654d {
     color: #008c99;
     fill: #008c99;
 }
