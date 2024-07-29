@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 3.8
+ * @version 3.9
 */
 
 .app_a01fb1 {
@@ -617,7 +617,7 @@
     color: white !important;
 }
 
-.guildCategorySeparator_a7a485 {
+.guildCategorySeparator_dfa278 {
     border: none;
 }
 
@@ -1710,7 +1710,7 @@
     background-color: transparent;
 }
 
-.wrapper_b211c6 {
+.wrapper_b75bb9 {
     background-color: transparent;
 }
 
@@ -1718,9 +1718,9 @@
     background-color: rgba(0, 0, 0, .4);
 }
 
-.attachment_b211c6,
-.avatar_b211c6, 
-.blob_b211c6 {
+.attachment_b75bb9,
+.avatar_b75bb9, 
+.blob_b75bb9 {
     background-color: #95A8B0;
     opacity: .4 !important;
 }
@@ -1767,13 +1767,13 @@
     color: #D0DFFF !important;
 }
 
-.theme-dark .autocomplete_f23da8 {
+.theme-dark .autocomplete_bcc24e {
     background-image: linear-gradient(63deg, #4b5569 0%, #2d353f 89%);
     box-shadow: 0 0 9px 3px rgba(0, 0, 0, .6), 0 0 4px 0 rgba(0, 0, 0, .6);
 }
 
-.clickable_f23da8[aria-disabled=false]>.base_f23da8:hover, 
-.clickable_f23da8[aria-selected=true]>.base_f23da8 {
+.clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover, 
+.clickable_bcc24e[aria-selected=true]>.base_bcc24e {
     background-color: #4B5569;
 }
 
@@ -2005,7 +2005,7 @@
     background-color: transparent;
 }
 
-.botTagRegular_a02df3 {
+.botTagRegular_a9e77f {
     background: #95A8B0 !important;
     color: white !important;
     border: 1px solid black;
@@ -2291,20 +2291,20 @@
     color: white;
 }
 
-.textContainer_ad9cbd {
+.textContainer_d8e2d0 {
     background-color: rgba(149, 168, 176, .2);
     border: 1px solid rgba(149, 168, 176, .4);
     border-radius: 9px 9px 0 0;
     border-bottom: none;
 }
 
-.footer_ad9cbd {
+.footer_d8e2d0 {
     background-color: rgba(149, 168, 176, .2);
     border: 1px solid rgba(149, 168, 176, .4);
     border-radius: 0 0 9px 9px;
 }
 
-.embedFull_ad0b71 {
+.embedFull_b0068a {
     background: rgba(0, 0, 0, .09);
 }
 
@@ -2317,13 +2317,13 @@
     color: #e2e2e2;
 }
 
-.wrapper_b9fe76 {
+.wrapper_a71a1c {
     background-color: rgba(149, 168, 176, .25);
     border: 1px solid #95A8B0;
     border-radius: 7px;
 }
 
-.guildIcon_b9fe76,
+.guildIcon_a71a1c,
 .theme-dark .guildIconImage_b9fe76 {
     background-color: rgba(149, 168, 176, .4);
 }
@@ -2729,8 +2729,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: #4B5569;
 }
 
-.withTagAsButton_b2ca13:hover, 
-.withTagless_b2ca13:hover {
+.avatarWrapper_b2ca13:hover {
     background-color: rgba(0, 0, 0, .3);
     color: white;
 }
@@ -2836,7 +2835,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: rgba(0, 0, 0, .10);
 }
 
-.moreUsers_c47562 {
+.moreUsers_d03bba {
     background-color: #4B5569;
     color: white;
 }
@@ -3111,8 +3110,8 @@ button.button_f67531.enabled_f67531:hover {
     background-color: #4B5569;
 }
 
-#app-mount .card_eb1ca6, 
-#app-mount .iconMask_eb1ca6 {
+#app-mount .card_e90879, 
+#app-mount .iconMask_e90879 {
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -3121,7 +3120,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: transparent;
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
     background-color: #95A8B0;
 }
 
@@ -3457,7 +3456,7 @@ button.button_f67531.enabled_f67531:hover {
     border-top: none;
 }
 
-.akaBadge__27cd4 {
+.akaBadge_d6c26f {
     background-color: #95A8B0;
 }
 
@@ -3465,7 +3464,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: rgba(0, 0, 0, .15);
 }
 
-.border_a5cd29.speaking_a5cd29 {
+.border_db83a2.speaking_db83a2 {
     box-shadow: inset 0 0 0 2px #95A8B0,inset 0 0 0 3px black;
 }
 
@@ -3494,6 +3493,14 @@ button.button_f67531.enabled_f67531:hover {
 .iconWrapper_e378b3 {
     border-radius: 3px;
     background-color: #95A8B0;
+}
+
+.icon_e378b3 {
+    color: white;
+}
+    
+.icon_e378b3 path {
+    fill: currentColor;
 }
 
 .mulitplePlaceholderUsername_fb03e5,
@@ -3611,40 +3618,40 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 .item_b05c08,
-.item_e3c4bb,
-.item_e3c4bb:hover {
+.item_d25d19,
+.item_d25d19:hover {
     background-color: #2D2D2D;
 }
 
-.layoutStyle_a49993 .item_e3c4bb[aria-label="Passthrough"] {
+.layoutStyle_a49993 .item_d25d19[aria-label="Passthrough"] {
     color: #FFDB4D;
 }
 
-.passthrough_e3c4bb.selected_e3c4bb {
+.passthrough_d25d19.selected_d25d19 {
     background-color: #FFDB4D !important;
     color: black !important;
 }
 
 .deny_b05c08,
 .cross_a06168,
-.deny_e3c4bb {
+.deny_d25d19 {
     color: #F42626;
 }
 
 .deny_b05c08.selected_b05c08,
-.deny_e3c4bb.selected_e3c4bb {
+.deny_d25d19.selected_d25d19 {
     background-color: #F42626 !important; 
     color: white;
 }
 
 .allow_b05c08,
 .check_a06168,
-.allow_e3c4bb {
+.allow_d25d19 {
     color: #3DD828;
 }
 
 .allow_b05c08.selected_b05c08,
-.allow_e3c4bb.selected_e3c4bb {
+.allow_d25d19.selected_d25d19 {
     background-color: #3DD828 !important;
     color: white;
 }
@@ -4589,4 +4596,12 @@ button.button_f67531.enabled_f67531:hover {
 .noIcon_f11207 {
     background-color: rgba(0, 0, 0, .2);
     color: white;
+}
+
+.container_b56bbc {
+    background-color: transparent;
+}
+
+.theme-dark .sidebarContainer_a3a4ce {
+    background: none;
 }

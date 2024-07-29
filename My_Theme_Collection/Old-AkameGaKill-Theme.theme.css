@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 6.2
+ * @version 6.3
  */
 
  #app-mount .app_a01fb1 {
@@ -1464,7 +1464,7 @@ button.button_f67531.enabled_f67531:hover {
   height: 1.3rem;
 }
 
-.moreUsers_c47562 {
+.moreUsers_d03bba {
   background-color: rgba(0, 0, 0, .3);
   color: white;
   border-radius: 4px;
@@ -1481,7 +1481,7 @@ button.button_f67531.enabled_f67531:hover {
   border-radius: 4px;
 }
 
-#app-mount .botTagRegular_a02df3 {
+#app-mount .botTagRegular_a9e77f {
   padding: 3px 7px;
   background-color: #9b2742;
   color: white;
@@ -1574,9 +1574,9 @@ button.button_f67531.enabled_f67531:hover {
   background-color: #9b2742 !important;
 }
 
-.theme-dark .attachment_a4623d,
-.embedFull_ad0b71,
-.wrapper_b9fe76 {
+.theme-dark .attachment_b52bef,
+.embedFull_b0068a,
+.wrapper_a71a1c {
   border-color: transparent;
   background-color: rgba(0, 0, 0, 0.3);
 }
@@ -2222,7 +2222,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.theme-dark .autocomplete_f23da8,
+.theme-dark .autocomplete_bcc24e,
 .theme-dark .uploadModal_f82cc7 {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
@@ -2261,8 +2261,8 @@ button.button_f67531.enabled_f67531:hover {
   mask: none;
 }
 
-.theme-dark .clickable_f23da8[aria-disabled=false]>.base_f23da8:hover,
-.clickable_f23da8[aria-selected=true]>.base_f23da8 {
+.theme-dark .clickable_bcc24e[aria-disabled=false]>.base_bcc24e:hover,
+.clickable_bcc24e[aria-selected=true]>.base_bcc24e {
   background-color: #ad3950;
 }
 
@@ -2451,8 +2451,8 @@ button.button_f67531.enabled_f67531:hover {
 
 /* ------------ Last Section ------------ */
 
-.akaBadge__27cd4,
-.nicknames__12efb,
+.akaBadge_d6c26f,
+.nicknames_d6c26f,
 .welcomeMessage-ULm0mo p,
 .header_f14193,
 .contentDefault_f14193,
@@ -2743,7 +2743,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 .border_a5cd29.video-3SrWSI.speaking_a5cd29,
-.border_a5cd29.speaking_a5cd29 {
+.border_db83a2.speaking_db83a2 {
   border-radius: 4px;
   border: 4px solid #9b2742;
   box-shadow: none;
@@ -2827,7 +2827,7 @@ button.button_f67531.enabled_f67531:hover {
   overflow: visible;
 }
 
-.item_fd07a3 {
+.item_c4cd66 {
   position: absolute;
   width: 22px;
   height: 22px !important;
@@ -2851,7 +2851,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: #9b2742;
 }
 
-.item_fd07a3[style*="height: 40px;"] {
+.item_c4cd66[style*="height: 40px;"] {
   background-color: #ad3950 !important;
   opacity: 1 !important;
 }
@@ -2917,8 +2917,8 @@ button.button_f67531.enabled_f67531:hover {
 .bda-slist .bda-footer a,
 .markup_f8f345 a,
 .welcomeMessage-ULm0mo a,
-.theme-dark .filenameLinkWrapper_a4623d,
-.theme-dark .filenameLinkWrapper_a4623d a,
+.theme-dark .filenameLinkWrapper_b52bef,
+.theme-dark .filenameLinkWrapper_b52bef a,
 .topic_bf3bbb a,
 .emptyStateCTA_f4e139 a,
 .helpText-h3r3wC a,
@@ -3196,8 +3196,8 @@ button.button_f67531.enabled_f67531:hover {
 
 /* BD-Related Classes Done */
 
-#app-mount .card_eb1ca6,
-#app-mount .iconMask_eb1ca6 {
+#app-mount .card_e90879,
+#app-mount .iconMask_e90879 {
   background-color: transparent;
 }
 
@@ -3239,7 +3239,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.wrapper_b211c6 {
+.wrapper_b75bb9 {
   background-color: transparent;
 }
 
@@ -3247,14 +3247,14 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.avatar_b211c6 {
+.avatar_b75bb9 {
   opacity: 1 !important;
   border-radius: 4px;
 }
 
-.attachment_b211c6,
-.avatar_b211c6,
-.blob_b211c6 {
+.attachment_b75bb9,
+.avatar_b75bb9,
+.blob_b75bb9 {
   background-color: #9b2742;
 }
 
@@ -3369,12 +3369,12 @@ button.button_f67531.enabled_f67531:hover {
   color: #a29e93;
 }
 
-.textContainer_ad9cbd {
+.textContainer_d8e2d0 {
   background-color: rgba(120, 21, 46, .50);
   border: none;
 }
 
-.footer_ad9cbd {
+.footer_d8e2d0 {
   background-color: #380d0d;
   border: none;
 }
@@ -3679,6 +3679,10 @@ button.button_f67531.enabled_f67531:hover {
 .icon_e378b3 {
   color: var(--header-primary);
 }
+.icon_e378b3 path {
+  fill: currentColor;
+}
+
 
 .iconContainer__1b9f0 {
   border-radius: 5px;
@@ -4329,40 +4333,40 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 .item_b05c08,
-.item_e3c4bb,
-.item_e3c4bb:hover {
+.item_d25d19,
+.item_d25d19:hover {
   background-color: #2D2D2D;
 }
 
-.layoutStyle_a49993 .item_e3c4bb[aria-label="Passthrough"] {
+.layoutStyle_a49993 .item_d25d19[aria-label="Passthrough"] {
   color: #FFDB4D;
 }
 
-.passthrough_e3c4bb.selected_e3c4bb {
+.passthrough_d25d19.selected_d25d19 {
   background-color: #FFDB4D !important;
   color: black !important;
 }
 
 .deny_b05c08,
 .cross_a06168,
-.deny_e3c4bb {
+.deny_d25d19 {
   color: #F42626;
 }
 
 .deny_b05c08.selected_b05c08,
-.deny_e3c4bb.selected_e3c4bb {
+.deny_d25d19.selected_d25d19 {
   background-color: #F42626 !important;
   color: white;
 }
 
 .allow_b05c08,
 .check_a06168,
-.allow_e3c4bb {
+.allow_d25d19 {
   color: #3DD828;
 }
 
 .allow_b05c08.selected_b05c08,
-.allow_e3c4bb.selected_e3c4bb {
+.allow_d25d19.selected_d25d19 {
   background-color: #3DD828 !important;
   color: white;
 }
@@ -5333,4 +5337,12 @@ button.button_f67531.enabled_f67531:hover {
 
 .theme-dark .activityUserPopoutV2_d5089b .headerText_d5089b {
   color: white;
+}
+
+.container_b56bbc {
+  background-color: transparent;
+}
+
+.theme-dark .sidebarContainer_a3a4ce {
+  background: none;
 }
