@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 3.6
+ * @version 3.7
 */
 
 .app_a01fb1, 
@@ -818,45 +818,45 @@
 }
 
 
-.membersGroup_cbd271.container_cc72c1 {
+.membersGroup_cbd271.container_a5ad5c {
     color: #F1F1F1;
     font-size: 16px;
 }
 
-.layout_e9f61e,
-.container_e9f61e {
+.layout_d808b0,
+.container_d808b0 {
    border-radius: 7px;
 }
 
-.container_e9f61e {
+.container_d808b0 {
     color: #c5c5c5;
 }
 
-.clickable_e9f61e.container_e9f61e:hover, 
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e,
-.clickable_e9f61e:hover .layout_e9f61e .username_d272d6,
-.clickable_e9f61e:hover .layout_e9f61e .activity_a31c43 {
+.clickable_d808b0.container_d808b0:hover, 
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e,
+.clickable_d808b0:hover .layout_d808b0 .name_a31c43,
+.clickable_d808b0:hover .layout_d808b0 .activity_a31c43 {
     color: #F1F1F1 !important;
 }
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
     background-color: rgba(255, 255, 255, .1);
 }
 
-.selected_e9f61e .layout_e9f61e {
+.selected_d808b0 .layout_d808b0 {
     background-color: #FFFFFF;
 }
 
-.clickable_e9f61e.container_e9f61e:active, 
-.highlighted_e9f61e.container_e9f61e, 
-.selected_e9f61e.container_e9f61e,
-.selected_e9f61e .layout_e9f61e .username_d272d6,
-.selected_e9f61e .layout_e9f61e .activity_a31c43 {
+.clickable_d808b0.container_d808b0:active, 
+.highlighted_d808b0.container_d808b0, 
+.selected_d808b0.container_d808b0,
+.selected_d808b0 .layout_d808b0 .name_a31c43,
+.selected_d808b0 .layout_d808b0 .activity_a31c43 {
     color: #0F0F0F !important;
     font-weight: 600;
 }
 
-.selected_e9f61e .layout_e9f61e .botTagRegular_a9e77f {
+.selected_d808b0 .layout_d808b0 .botTagRegular_a9e77f {
     background: rgba(0, 0, 0, .1) !important;
     color: #0F0F0F !important;
     font-weight: 600;
@@ -1070,30 +1070,30 @@
     background-color: #FF0000 !important;
 }
 
-#app-mount .role_deddac {
+#app-mount .role_d70de6 {
     background: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .1);
     border-radius: 30px;
     padding: 3px 7px;
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
     background-color: #282828;
     border: 1px solid rgba(255, 255, 255, .1);
     box-shadow: none;
     border-radius: 30px;
 }
 
-.button_ef319f {
+.button_f7e168 {
     color: #F1F1F1;
 }
 
-.button_ef319f:hover {
+.button_f7e168:hover {
     color: #F1F1F1;
     background-color: rgba(255, 255, 255, .1);
 }
 
-.button_ef319f.selected_ef319f {
+.button_f7e168.selected_f7e168 {
     color: white;
     background-color: #FF0000;
 }
@@ -1217,6 +1217,12 @@
 .theme-dark .form_a7d72e:after {
     background: none;
 }
+
+.contentWrapper_f7506e {
+    background-color: rgba(0, 0, 0, .6);  
+    box-shadow: none;
+}
+  
 
 .jumpToPresentBar_cf58b5 {
     border-radius: 30px 30px 0 0;
@@ -2684,7 +2690,7 @@
 }
 
 .wrapper_a08117,
-.wrapper_a08117 .container_cc72c1 {
+.wrapper_a08117 .container_a5ad5c {
     color: #F1F1F1;
 }
 
@@ -3029,12 +3035,12 @@
     font-weight: 600;
 }
 
-button.button_f67531 {
+button.button_adca65 {
     border-radius: 30px;
     color: #F1F1F1;
 }
 
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
     color: white;
     background-color: #FF0000;
 }
@@ -3060,13 +3066,13 @@ button.button_f67531.enabled_f67531:hover {
     background: none;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     border: 1px solid rgba(255, 255, 255, .1);
     background: none !important;
     box-shadow: none;
 }
 
-.activityItem_d46b95:hover {
+.container_e5da8b:hover {
     border: 1px solid rgba(255, 255, 255, .2);
 }
 
@@ -3703,7 +3709,7 @@ button.button_f67531.enabled_f67531:hover {
     box-shadow: none;
 }
 
-.title_a1cafe.container_cc72c1 {
+.title_a1cafe.container_a5ad5c {
     color: #F1F1F1;
     font-size: large;
 }
@@ -3832,7 +3838,7 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 
-.privateChannelsHeaderContainer_c47fa9.container_cc72c1 {
+.privateChannelsHeaderContainer_c47fa9.container_a5ad5c {
     color: #F1F1F1;
 }
 

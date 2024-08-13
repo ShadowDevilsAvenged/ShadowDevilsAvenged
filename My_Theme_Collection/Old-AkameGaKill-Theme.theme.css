@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 6.3
+ * @version 6.4
  */
 
  #app-mount .app_a01fb1 {
@@ -1294,8 +1294,8 @@
 
 .cozy_f9f2ca .timestamp_f9f2ca,
 .cozy_f9f2ca .timestamp_f9f2ca.alt_ec86aa,
-button.button_f67531,
-.button_ef319f {
+button.button_adca65,
+.button_f7e168 {
   color: white;
 }
 
@@ -1344,7 +1344,7 @@ button.button_f67531,
   background: none;
 }
 
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
   color: white;
   background-color: rgba(155, 39, 66, .4);
 }
@@ -1386,7 +1386,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: #9b2742;
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
   background-color: #9b2742;
   box-shadow: none;
 }
@@ -1408,8 +1408,8 @@ button.button_f67531.enabled_f67531:hover {
   border-radius: 4px;
 }
 
-.button_ef319f:hover,
-.button_ef319f.selected_ef319f {
+.button_f7e168:hover,
+.button_f7e168.selected_f7e168 {
   color: white;
   background-color: rgba(0, 0, 0, .2);
 }
@@ -2048,8 +2048,8 @@ button.button_f67531.enabled_f67531:hover {
 .body_ac90a2,
 .activity_a31c43,
 .member_a31c43,
-.clickable_e9f61e.container_e9f61e:hover,
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e {
+.clickable_d808b0.container_d808b0:hover,
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e {
   color: white;
 }
 
@@ -2104,17 +2104,17 @@ button.button_f67531.enabled_f67531:hover {
 }
 
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
   background-color: rgba(173, 57, 80, .4);
 }
 
-.selected_e9f61e .layout_e9f61e,
+.selected_d808b0 .layout_d808b0,
 .categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37 {
   background-color: rgba(255, 255, 255, .16);
 }
 
-.clickable_e9f61e.container_e9f61e:active,
-.selected_e9f61e.container_e9f61e {
+.clickable_d808b0.container_d808b0:active,
+.selected_d808b0.container_d808b0 {
   color: white;
 }
 
@@ -2226,6 +2226,12 @@ button.button_f67531.enabled_f67531:hover {
 .theme-dark .uploadModal_f82cc7 {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%);
 }
+
+.contentWrapper_f7506e {
+  background-color: rgba(0, 0, 0, .6);  
+  box-shadow: none;
+}
+
 
 .theme-dark .scrollableContainer_d0696b {
   background-color: transparent;
@@ -3201,7 +3207,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.selected_e9f61e .layout_e9f61e,
+.selected_d808b0 .layout_d808b0,
 .categoryItem_c72b37.selectedCategoryItem_c72b37 .itemInner_c72b37,
 .selected_f5eb4b {
   background-color: rgba(155, 39, 66, .81) !important;
@@ -4533,7 +4539,7 @@ button.button_f67531.enabled_f67531:hover {
   background-color: transparent;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
   background: rgba(0, 0, 0, .6) !important;
   box-shadow: none;
 }

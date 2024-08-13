@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 6.5
+ * @version 6.6
  */
 
 /* Main Background */
@@ -767,6 +767,12 @@
     border: none;
 }
 
+.contentWrapper_f7506e {
+    background-color: rgba(0, 0, 0, .6);  
+    box-shadow: none;
+}
+  
+
 .theme-dark .paginator_f66684 {
     background: none;
 }
@@ -1241,7 +1247,7 @@
     color: white;
 }
 
-.container_cc72c1 {
+.container_a5ad5c {
     text-transform: capitalize;
     letter-spacing: 0px;
     font-size: 15px;
@@ -1729,17 +1735,17 @@
     background-color: rgba(0, 0, 0, .14);
 }
 
-.button_ef319f {
+.button_f7e168 {
     color: white;
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
     background-color: rgba(0, 0, 0, .5);
     box-shadow: none;
 }
 
-.button_ef319f:hover,
-.button_ef319f.selected_ef319f {
+.button_f7e168:hover,
+.button_f7e168.selected_f7e168 {
     color: white;
     background-color: #C67;
 }
@@ -2146,8 +2152,8 @@
 }
 
 .membersGroup_cbd271,
-.container_e9f61e,
-button.button_f67531 {
+.container_d808b0,
+button.button_adca65 {
     color: white;
 }
 
@@ -2259,22 +2265,22 @@ button.button_f67531 {
 }
 
 
-.clickable_e9f61e.container_e9f61e:hover,
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e {
+.clickable_d808b0.container_d808b0:hover,
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e {
     color: white;
 }
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
     background-color: rgba(204, 102, 119, .24);
 }
 
-.clickable_e9f61e:active .layout_e9f61e {
+.clickable_d808b0:active .layout_d808b0 {
     background-color: rgba(204, 102, 119, .54);
 }
 
-.clickable_e9f61e.container_e9f61e:active,
-.highlighted_e9f61e.container_e9f61e,
-.selected_e9f61e.container_e9f61e {
+.clickable_d808b0.container_d808b0:active,
+.highlighted_d808b0.container_d808b0,
+.selected_d808b0.container_d808b0 {
     color: white;
 }
 
@@ -2519,7 +2525,7 @@ button.button_f67531 {
     color: silver
 }
 
-.mainContent_a08117 .container_cc72c1 {
+.mainContent_a08117 .container_a5ad5c {
     text-transform: capitalize;
     letter-spacing: 0;
     color: white;
@@ -2660,7 +2666,7 @@ button.button_f67531 {
     border-radius: 2px;
 }
 
-.role_deddac {
+.role_d70de6 {
     border: 2px outset #f44;
     color: white;
     background-color: rgba(0, 0, 0, .4) !important;
@@ -3253,7 +3259,7 @@ button.button_f67531 {
     background-image: -webkit-radial-gradient(50% 53%, ellipse cover, #292929 15%, #000000 71%);
 }
 
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
     color: white;
     background-color: #F44;
 }
@@ -4110,7 +4116,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: transparent;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     background: rgba(0, 0, 0, .6) !important;
     box-shadow: none;
 }

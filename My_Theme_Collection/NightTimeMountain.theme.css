@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 3.9
+ * @version 4
 */
 
 .app_a01fb1 {
@@ -720,6 +720,12 @@
     color: #e2e2e2;
     text-shadow: 0 1px 6px black, 0 3px 6px black;
 }
+
+.contentWrapper_f7506e {
+    background-color: rgba(0, 0, 0, .6);  
+    box-shadow: none;
+}
+  
 
 .after_inlineCode_cdb578, 
 .before_inlineCode_cdb578, 
@@ -1505,22 +1511,22 @@
     background-color: #95A8B0;
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
     background-color: rgba(149, 168, 176, .6);
     box-shadow: none;
     border-radius: 7px;
 }
 
-.button_ef319f {
+.button_f7e168 {
     color: #D0DFFF;
 }
 
-.button_ef319f:hover {
+.button_f7e168:hover {
     color: #e2e2e2;
     background-color: #4B5569;
 }
 
-.button_ef319f.selected_ef319f {
+.button_f7e168.selected_f7e168 {
     color: white;
     background-color: #4B5569;
 }
@@ -1883,7 +1889,7 @@
     background-color: transparent;
 }
 
-#app-mount .role_deddac {
+#app-mount .role_d70de6 {
     padding: 5px 10px;
     font-size: 11px;
     color: white;
@@ -2218,7 +2224,7 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.membersGroup_cbd271.container_cc72c1 {
+.membersGroup_cbd271.container_a5ad5c {
     padding: 10px 8px 0 16px;
     text-transform: capitalize;
     text-decoration: underline;
@@ -2232,7 +2238,7 @@
     
 }
 
-.container_cbd271:hover .membersGroup_cbd271.container_cc72c1 {
+.container_cbd271:hover .membersGroup_cbd271.container_a5ad5c {
     color: #D0DFFF;
     transform: translateX(26px);
 }
@@ -2241,36 +2247,36 @@
     background: none;
 }
 
-.layout_e9f61e,
-.container_e9f61e {
+.layout_d808b0,
+.container_d808b0 {
     border-radius: 7px;
 }
 
 .activity_a31c43,
-.container_e9f61e {
+.container_d808b0 {
     color: #D0DFFF;
 }
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
     background-color: rgba(149, 168, 176, .4);
 }
 
-.clickable_e9f61e.container_e9f61e:hover, 
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e,
-.clickable_e9f61e:hover .layout_e9f61e .username_d272d6,
-.clickable_e9f61e:hover .layout_e9f61e .activity_a31c43 {
+.clickable_d808b0.container_d808b0:hover, 
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e,
+.clickable_d808b0:hover .layout_d808b0 .name_a31c43,
+.clickable_d808b0:hover .layout_d808b0 .activity_a31c43 {
     color: #e2e2e2 !important;
 }
 
-.selected_e9f61e .layout_e9f61e {
+.selected_d808b0 .layout_d808b0 {
     background-color: #4B5569;
 }
 
-.clickable_e9f61e.container_e9f61e:active, 
-.highlighted_e9f61e.container_e9f61e, 
-.selected_e9f61e.container_e9f61e,
-.selected_e9f61e .layout_e9f61e .username_d272d6,
-.selected_e9f61e .layout_e9f61e .activity_a31c43 {
+.clickable_d808b0.container_d808b0:active, 
+.highlighted_d808b0.container_d808b0, 
+.selected_d808b0.container_d808b0,
+.selected_d808b0 .layout_d808b0 .name_a31c43,
+.selected_d808b0 .layout_d808b0 .activity_a31c43 {
     color: white !important;
 }
 
@@ -2627,7 +2633,7 @@
     border-color: #000;
 }
 
-.wrapper_a08117 .container_cc72c1,
+.wrapper_a08117 .container_a5ad5c,
 .wrapper_a08117 {
     color: white;
 }
@@ -2720,11 +2726,11 @@
     border-radius: 4px;
 }
 
-button.button_f67531 {
+button.button_adca65 {
     color: #e2e2e2;
 }
 
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
     color: white;
     background-color: #4B5569;
 }
@@ -3325,7 +3331,7 @@ button.button_f67531.enabled_f67531:hover {
     border-radius: 4px;
 }
 
-.privateChannelsHeaderContainer_c47fa9.container_cc72c1 {
+.privateChannelsHeaderContainer_c47fa9.container_a5ad5c {
     color: #D0DFFF;
 }
 
@@ -3348,7 +3354,7 @@ button.button_f67531.enabled_f67531:hover {
     color: white !important;
 }
 
-.title_a1cafe.container_cc72c1 {
+.title_a1cafe.container_a5ad5c {
     font-size: 14px;
     color: #D0DFFF;
 }
@@ -3839,7 +3845,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: transparent;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     background: rgba(0,0,0,.6) !important;
     box-shadow: none;
 }

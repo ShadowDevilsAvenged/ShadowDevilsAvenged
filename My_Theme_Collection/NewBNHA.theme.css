@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 6.3
+ * @version 6.4
  */
 
 /* Main Background */
@@ -568,6 +568,12 @@
 .itemFilled_eb92a8:hover:not([aria-checked=true]):not(.disabled_eb92a8) {
     background-color: rgba(0, 0, 0, .6);
 }
+
+.contentWrapper_f7506e {
+    background-color: rgba(0, 0, 0, .6);  
+    box-shadow: none;
+}
+  
 
 .theme-dark .game_fd966d {
     box-shadow: 0 1px 0 0 #2AB;
@@ -1330,7 +1336,7 @@
     background-color: transparent;
 }
 
-.container_cc72c1 {
+.container_a5ad5c {
     text-transform: capitalize;
     font-size: 14px;
     letter-spacing: 0;
@@ -1493,17 +1499,17 @@
     box-shadow: none;
 }
 
-.button_ef319f {
+.button_f7e168 {
     color: white;
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
     background-color: #2AB;
     box-shadow: none;
 }
 
-.button_ef319f:hover,
-.button_ef319f.selected_ef319f {
+.button_f7e168:hover,
+.button_f7e168.selected_f7e168 {
     color: white;
     background-color: #1BC;
 }
@@ -2066,26 +2072,26 @@
     border-radius: 5px;
 }
 
-.clickable_e9f61e.container_e9f61e:hover,
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e {
+.clickable_d808b0.container_d808b0:hover,
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e {
     color: white;
 }
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
     background-color: rgba(17, 188, 204, .24);
 }
 
-.clickable_e9f61e:active .layout_e9f61e {
+.clickable_d808b0:active .layout_d808b0 {
     background-color: rgba(17, 188, 204, .54);
 }
 
-.selected_e9f61e .layout_e9f61e {
+.selected_d808b0 .layout_d808b0 {
     background: linear-gradient(to bottom, #22AABB 0%, #1C1C1C 100%);
 }
 
-.clickable_e9f61e.container_e9f61e:active,
-.highlighted_e9f61e.container_e9f61e,
-.selected_e9f61e.container_e9f61e {
+.clickable_d808b0.container_d808b0:active,
+.highlighted_d808b0.container_d808b0,
+.selected_d808b0.container_d808b0 {
     color: white;
 }
 
@@ -2461,7 +2467,7 @@
     background-color: #2AB;
 }
 
-.role_deddac {
+.role_d70de6 {
     color: white;
     background-color: rgba(0, 0, 0, .2)
 }
@@ -3838,7 +3844,7 @@
     background-color: transparent;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     background: rgba(0, 0, 0, .6) !important;
     box-shadow: none;
 }

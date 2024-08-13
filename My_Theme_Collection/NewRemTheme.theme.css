@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 6.3
+ * @version 6.4
  */
 
  .app_a01fb1 {
@@ -442,6 +442,12 @@
     background-color: transparent;
     border-color: transparent;
 }
+
+.contentWrapper_f7506e {
+    background-color: rgba(0, 0, 0, .6);  
+    box-shadow: none;
+}
+  
 
 .option_f6639d[aria-selected=true]:not(.option_f6639d.multi_f6639d) {
     color: white !important;
@@ -1275,17 +1281,17 @@
     background: rgba(0, 0, 0, .5);
 }
 
-.wrapper_ef319f {
+.wrapper_f7e168 {
     background-color: #61A5D8;
     box-shadow: none;
 }
 
-.button_ef319f {
+.button_f7e168 {
     color: white !important;
 }
 
-.button_ef319f:hover,
-.button_ef319f.selected_ef319f {
+.button_f7e168:hover,
+.button_f7e168.selected_f7e168 {
     background-color: #76AAD9;
 }
 
@@ -1471,12 +1477,12 @@
     border: none;
 }
 
-.membersGroup_cbd271.container_cc72c1 {
+.membersGroup_cbd271.container_a5ad5c {
     color: white;
     font-size: 14px;
 }
 
-.container_cc72c1 {
+.container_a5ad5c {
     text-transform: capitalize;
     letter-spacing: 0;
 }
@@ -1486,29 +1492,29 @@
 }
 
 
-.layout_e9f61e {
+.layout_d808b0 {
     border-radius: 7px;
 }
 
-.container_e9f61e {
+.container_d808b0 {
     border-radius: 7px;
     color: white;
 }
 
-.clickable_e9f61e.container_e9f61e:hover,
-.clickable_e9f61e.container_e9f61e:hover .muted_e9f61e,
-.clickable_e9f61e.container_e9f61e:active,
-.highlighted_e9f61e.container_e9f61e,
-.selected_e9f61e.container_e9f61e {
+.clickable_d808b0.container_d808b0:hover,
+.clickable_d808b0.container_d808b0:hover .muted_e9f61e,
+.clickable_d808b0.container_d808b0:active,
+.highlighted_d808b0.container_d808b0,
+.selected_d808b0.container_d808b0 {
     color: white;
 }
 
-.clickable_e9f61e:hover .layout_e9f61e {
+.clickable_d808b0:hover .layout_d808b0 {
     background-color: rgba(0, 0, 0, 0.28);
     border: 2px ridge #76AAD9;
 }
 
-.selected_e9f61e .layout_e9f61e {
+.selected_d808b0 .layout_d808b0 {
     background-color: rgba(0, 0, 0, 0.78);
     border: 2px inset #61A5D8;
 }
@@ -1783,7 +1789,7 @@
     border: 3px inset #61A5D8;
 }
 
-.role_deddac {
+.role_d70de6 {
     padding: 5px 10px;
     color: white;
     background-color: rgba(0, 0, 0, .59) !important;
@@ -2085,7 +2091,7 @@
     color: white;
 }
 
-.wrapper_a08117 .container_cc72c1 {
+.wrapper_a08117 .container_a5ad5c {
     color: white;
 }
 
@@ -2247,11 +2253,11 @@
     border-radius: 3px;
 }
 
-button.button_f67531 {
+button.button_adca65 {
     color: white !important;
 }
 
-button.button_f67531.enabled_f67531:hover {
+button.button_adca65.enabled_adca65:hover {
     background-color: rgba(118, 171, 217, .54);
     border: 2px outset #76AAD9;
 }
@@ -2696,7 +2702,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: #61A5D8 !important;
 }
 
-.privateChannelsHeaderContainer_c47fa9.container_cc72c1 {
+.privateChannelsHeaderContainer_c47fa9.container_a5ad5c {
     color: white;
 }
 
@@ -3831,7 +3837,7 @@ button.button_f67531.enabled_f67531:hover {
     background-color: transparent;
 }
 
-.activityItem_d46b95 {
+.container_e5da8b {
     background: rgba(0, 0, 0, .6) !important;
     box-shadow: none;
 }
