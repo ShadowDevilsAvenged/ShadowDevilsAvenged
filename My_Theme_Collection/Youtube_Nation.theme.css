@@ -997,12 +997,12 @@
     opacity: .3 !important;
 }
 
-.mention_c10249 {
+.mention_edf32f {
     background-color: #FF0000;
     opacity: .7;
 }
 
-.mention_c10249:active {
+.mention_edf32f:active {
     background-color: #FF0000;
     opacity: 1;
 }
@@ -1748,7 +1748,7 @@
     background-color: rgba(0, 0, 0, .1);
 }
 
-.scroller_e9196a,
+.scroller_ff90b2,
 .separator_a0 {
     background-color: transparent;
 }
@@ -2434,21 +2434,21 @@
     border: 1px solid rgba(255, 255, 255, .2) !important;
 }
 
-.theme-dark .tierAccomplished_a4fd01,
-.theme-dark .tierCurrent_a4fd01,
-.theme-dark .tierFirst_a4fd01 {
+.theme-dark .tierAccomplished_bfac79,
+.theme-dark .tierCurrent_bfac79,
+.theme-dark .tierFirst_bfac79 {
     background: #FF0000;
 }
 
-.foreground_a4fd01 {
+.foreground_bfac79 {
     color: #FF0000;
 }
 
-.theme-dark .background_a4fd01 {
+.theme-dark .background_bfac79 {
     color: rgba(255, 255, 255, .1);
 }
 
-.theme-dark .tierInProgress_a4fd01 {
+.theme-dark .tierInProgress_bfac79 {
     background-color: rgba(255, 255, 255, .1);
 }
 
@@ -2705,11 +2705,19 @@
 }
 
 .sectionDivider_c43953,
-.theme-dark .container_c2efea,
-.theme-dark .container_f1fd9c, 
-.theme-dark .header_f1fd9c {
+.theme-dark .container_c2efea {
     background-color: transparent;
 }
+
+#app-mount .container_f1fd9c,
+#app-mount .header_f1fd9c {
+  background-color: transparent !important;
+}
+
+.pageBody_c2efea {
+  background: none;
+}
+
 
 .container_b55df8 {
     background-color: transparent;
@@ -3517,7 +3525,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .search_f69601 .searchBox_d83b4d .searchBoxInput_f69601,
-#app-mount .search_f69601 .searchBox_d83b4d .searchIcon_f69601 {
+#app-mount .searchIcon_d83b4d {
     color: white;
 }
 
@@ -3634,13 +3642,13 @@ button.button_adca65.enabled_adca65:hover {
     background-color: transparent;
 }
 
-.contentDefault_f14193,
-.header_f14193 {
+.contentDefault_e3c1c6,
+.header_e3c1c6 {
     color: #F1F1F1;
 }
 
-.note_f14193,
-.misc_f14193 {
+.note_e3c1c6,
+.misc_e3c1c6 {
     color: #aaa;
 }
 
@@ -3648,11 +3656,11 @@ button.button_adca65.enabled_adca65:hover {
     opacity: 1;
 }
 
-.result_f14193[aria-selected=true] {
+.result_e3c1c6[aria-selected=true] {
     background: rgba(255, 255, 255, .1);
 }
 
-.contentUnread_f14193 {
+.contentUnread_e3c1c6 {
     color: #3ea6ff;
 }
 
@@ -3660,7 +3668,7 @@ button.button_adca65.enabled_adca65:hover {
     border-top: none;
 }
 
-.tip_dcc874,
+.tip_b5053a,
 .emptyStateCTA_f4e139 {
     opacity: 1;
 }
@@ -3785,7 +3793,7 @@ button.button_adca65.enabled_adca65:hover {
     background: none;
 }
 
-.theme-dark .inset_c0f6a6 {
+.theme-dark .inset_ac5d22 {
     background-color: rgba(0, 0, 0, .1);
 }
 
@@ -3794,8 +3802,8 @@ button.button_adca65.enabled_adca65:hover {
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.theme-dark .outer_c0f6a6.active_c0f6a6, 
-.theme-dark .outer_c0f6a6.interactive_c0f6a6:hover {
+.theme-dark .outer_ac5d22.active_ac5d22, 
+.theme-dark .outer_ac5d22.interactive_ac5d22:hover {
     border: 1px solid rgba(255, 255, 255, .2);
 }
 
@@ -3900,12 +3908,12 @@ button.button_adca65.enabled_adca65:hover {
     box-shadow: none;
 }
 
-.phoneField_d4eb58 {
+.phoneField_f26de7 {
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.phoneField_d4eb58 .inputField_d4eb58 {
+.phoneField_f26de7 .inputField_f26de7 {
     background-color: transparent;
     color: #F1F1F1;
 }

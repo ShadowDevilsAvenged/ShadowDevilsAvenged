@@ -12,6 +12,21 @@
     background-color: transparent;
 }
 
+.theme-dark .scrollerContainer_c6b11b, 
+.theme-dark .emptyPage_c6b11b,
+.separator_c6b11b {
+  background-color: transparent;
+}
+
+#app-mount .container_f1fd9c /* Channel and Roles */,
+#app-mount .header_f1fd9c {
+  background-color: transparent !important;
+}
+
+.pageBody_c2efea {
+  background: none;
+}
+
 /* (*NEW*) Members List */
 .page_d20375 /* (Members List *NEW*) */ {
     background: none!important;
@@ -246,8 +261,7 @@
     background-color: transparent;
 }
 
-.withTagAsButton_b2ca13:hover,
-.withTagless_b2ca13:hover {
+.avatarWrapper_b2ca13:hover {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
     border: 1px solid #22a9bb;
@@ -1214,27 +1228,27 @@
     box-shadow: none;
 }
 
-.header_f14193 {
+.header_e3c1c6 {
     font-size: 14px;
     text-transform: capitalize;
     letter-spacing: 0;
     color: white;
 }
 
-.contentDefault_f14193 {
+.contentDefault_e3c1c6 {
     color: white;
 }
 
-.result_f14193 {
+.result_e3c1c6 {
     border-radius: 6px;
 }
 
-.misc_f14193,
-.contentUnread_f14193 {
+.misc_e3c1c6,
+.contentUnread_e3c1c6 {
     color: white;
 }
 
-.result_f14193[aria-selected=true] {
+.result_e3c1c6[aria-selected=true] {
     background: rgba(17, 188, 204, .23);
 }
 
@@ -1247,7 +1261,7 @@
     text-shadow: none;
 }
 
-.note_f14193 {
+.note_e3c1c6 {
     text-transform: capitalize;
     color: white;
 }
@@ -1256,7 +1270,7 @@
     border-top: none;
 }
 
-.tip_dcc874 {
+.tip_b5053a {
     color: white;
     opacity: 1;
 }
@@ -2018,7 +2032,7 @@
     border: none;
 }
 
-.theme-dark .inset_c0f6a6 {
+.theme-dark .inset_ac5d22 {
     background-color: rgba(0, 0, 0, .2);
 }
 
@@ -2228,7 +2242,7 @@
     background: rgba(0, 0, 0, .2);
 }
 
-.scroller_e9196a {
+.scroller_ff90b2 {
     background-color: transparent;
 }
 
@@ -2446,7 +2460,7 @@
     border-radius: 4px;
 }
 
-.mention_c10249 {
+.mention_edf32f {
     background-color: #2AB;
     opacity: .6;
     border: 2px outset #2AB;
@@ -3781,12 +3795,12 @@
     box-shadow: none;
 }
 
-.phoneField_d4eb58 {
+.phoneField_f26de7 {
     background-color: rgba(0, 0, 0, .4);
     border: none;
 }
 
-.phoneField_d4eb58 .inputField_d4eb58 {
+.phoneField_f26de7 .inputField_f26de7 {
     background-color: transparent;
     color: white;
 }
@@ -4049,17 +4063,17 @@
     background-color: #FF2EB9;
 }
 
-.theme-dark .tierAccomplished_a4fd01,
-.theme-dark .tierCurrent_a4fd01,
-.theme-dark .tierFirst_a4fd01 {
+.theme-dark .tierAccomplished_bfac79,
+.theme-dark .tierCurrent_bfac79,
+.theme-dark .tierFirst_bfac79 {
     background: #FF2EB9;
 }
 
-.foreground_a4fd01 {
+.foreground_bfac79 {
     color: #FF2EB9;
 }
 
-.theme-dark .tierInProgress_a4fd01 {
+.theme-dark .tierInProgress_bfac79 {
     background-color: rgba(0, 0, 0, .4);
 }
 

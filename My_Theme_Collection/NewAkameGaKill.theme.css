@@ -229,8 +229,7 @@
     color: white;
 }
 
-.withTagAsButton_b2ca13:hover,
-.withTagless_b2ca13:hover {
+.avatarWrapper_b2ca13:hover {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 4px;
     border: 1px solid #912;
@@ -1713,7 +1712,7 @@
     border: 1px solid rgba(255, 255, 255, .3);
 }
 
-.theme-dark .inset_c0f6a6 {
+.theme-dark .inset_ac5d22 {
     background-color: rgba(0, 0, 0, .5);
 }
 
@@ -1850,28 +1849,28 @@
     background-color: transparent;
 }
 
-.contentDefault_f14193,
+.contentDefault_e3c1c6,
 .icon_f14193 {
     color: white;
 }
 
-.header_f14193 {
+.header_e3c1c6 {
     font-size: 14px;
     text-transform: capitalize;
     font-weight: 400;
     color: white;
 }
 
-.result_f14193 {
+.result_e3c1c6 {
     border: 2px outset transparent;
 }
 
-.result_f14193[aria-selected=true] {
+.result_e3c1c6[aria-selected=true] {
     background: rgba(204, 17, 51, .39);
     border: 2px outset #C13;
 }
 
-.note_f14193 {
+.note_e3c1c6 {
     color: silver;
 }
 
@@ -1888,7 +1887,7 @@
 }
 
 .emptyStateCTA_f4e139,
-.tip_dcc874 {
+.tip_b5053a {
     opacity: 1;
 }
 
@@ -2776,7 +2775,7 @@ span.button_adca65.enabled_adca65:hover path {
     color: white;
 }
 
-.scroller_e9196a {
+.scroller_ff90b2 {
     background-color: transparent;
 }
 
@@ -2860,7 +2859,7 @@ span.button_adca65.enabled_adca65:hover path {
     border-radius: 4px;
 }
 
-.mention_c10249 {
+.mention_edf32f {
     background-color: #912;
     border: 2px outset #912;
     opacity: .8;
@@ -2916,7 +2915,7 @@ span.button_adca65.enabled_adca65:hover path {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.theme-dark .search_f69601 .searchBox_d83b4d .searchIcon_f69601,
+#app-mount .searchIcon_d83b4d,
 .theme-dark .search_f69601 .searchBox_d83b4d .searchBoxInput_f69601 {
     color: white;
 }
@@ -4050,12 +4049,12 @@ span.button_adca65.enabled_adca65:hover path {
     box-shadow: none;
 }
 
-.phoneField_d4eb58 {
+.phoneField_f26de7 {
     background-color: rgba(0, 0, 0, .4);
     border: none;
 }
 
-.phoneField_d4eb58 .inputField_d4eb58 {
+.phoneField_f26de7 .inputField_f26de7 {
     background-color: transparent;
     color: white;
 }
@@ -4327,17 +4326,17 @@ span.button_adca65.enabled_adca65:hover path {
     background-color: #FF2EB9;
 }
 
-.theme-dark .tierAccomplished_a4fd01,
-.theme-dark .tierCurrent_a4fd01,
-.theme-dark .tierFirst_a4fd01 {
+.theme-dark .tierAccomplished_bfac79,
+.theme-dark .tierCurrent_bfac79,
+.theme-dark .tierFirst_bfac79 {
     background: #FF2EB9;
 }
 
-.foreground_a4fd01 {
+.foreground_bfac79 {
     color: #FF2EB9;
 }
 
-.theme-dark .tierInProgress_a4fd01 {
+.theme-dark .tierInProgress_bfac79 {
     background-color: rgba(0, 0, 0, .4);
 }
 
@@ -4767,12 +4766,20 @@ span.button_adca65.enabled_adca65:hover path {
     border-bottom: 2px solid #912;
 }
 
-.theme-dark .container_f1fd9c, 
-.theme-dark .header_f1fd9c,
 .theme-dark .scrollerContainer_c6b11b, 
 .theme-dark .emptyPage_c6b11b {
-    background-color: transparent;
+  background-color: transparent;
 }
+
+#app-mount .container_f1fd9c /* Channel and Roles */,
+#app-mount .header_f1fd9c {
+  background-color: transparent !important;
+}
+
+.pageBody_c2efea {
+  background: none;
+}
+
 
 .checkIcon_bd5e1f,
 .memberCount_bd5e1f {

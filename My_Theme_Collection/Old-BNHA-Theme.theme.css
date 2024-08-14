@@ -11,6 +11,21 @@
     margin-top: 0;
     margin-left: -12px;
 }
+
+.theme-dark .scrollerContainer_c6b11b, 
+.theme-dark .emptyPage_c6b11b,
+.separator_c6b11b {
+  background-color: transparent;
+}
+
+#app-mount .container_f1fd9c /* Channel and Roles */,
+#app-mount .header_f1fd9c {
+  background-color: transparent !important;
+}
+
+.pageBody_c2efea {
+  background: none;
+}
   
 .message_d5deea[class*="hasReply_ec86aa"] > .contents_ec86aa .avatar_ec86aa + .avatarDecoration_ec86aa {
     margin-top: -20px;
@@ -282,7 +297,7 @@ textarea,
 .theme-dark .container_ee69e0,
 .theme-dark .chat_a7d72e,
 .theme-dark .content_a7d72e,
-.scroller_e9196a,
+.scroller_ff90b2,
 .sidebar_a4d4d9 {
     background-color: transparent;
 }
@@ -352,7 +367,7 @@ textarea,
     background: transparent;
 }
 
-.tip_dcc874 {
+.tip_b5053a {
     color: white;
     opacity: 1;
 }
@@ -441,7 +456,7 @@ textarea,
 .theme-dark .input_f8bc55,
 .search_f69601 .searchBox_d83b4d .searchBoxInput_f69601,
 .search_f69601 .searchBox_d83b4d .closeIcon_f69601,
-.search_f69601 .searchBox_d83b4d .searchIcon_f69601 {
+#app-mount .searchIcon_d83b4d {
     color: white;
 }
 
@@ -887,13 +902,13 @@ textarea,
     background-color: #008c99;
 }
 
-.mention_c10249 {
+.mention_edf32f {
     background-color: rgba(0, 0, 0, 0.716);
     color: #008c99;
     height: 35px;
 }
 
-.mention_c10249:hover {
+.mention_edf32f:hover {
     background-color: #008c99;
     color: white;
 }
@@ -2089,7 +2104,7 @@ textarea,
 
  .input_effbe2,
 .emptyStateNote_f4e139,
-.contentDefault_f14193,
+.contentDefault_e3c1c6,
 .input_c18ec9 {
     color: white;
 }
@@ -2112,7 +2127,7 @@ textarea,
     color: white;
 }
 
-.result_f14193[aria-selected=true],
+.result_e3c1c6[aria-selected=true],
 .container__33507 {
     background-color: rgba(0, 0, 0, 0.37);
 }
@@ -2284,7 +2299,7 @@ textarea,
     background-color: transparent;
 }
 
-.theme-dark .inset_c0f6a6 {
+.theme-dark .inset_ac5d22 {
     background-color: rgba(0, 0, 0, 0.33);
 }
 
@@ -2446,12 +2461,12 @@ textarea,
     background-color: transparent;
 }
 
-.phoneField_d4eb58 {
+.phoneField_f26de7 {
     background-color: transparent;
     border: none;
 }
 
-.phoneField_d4eb58 .inputField_d4eb58 {
+.phoneField_f26de7 .inputField_f26de7 {
     background-color: transparent;
     color: white;
 }
@@ -3971,17 +3986,17 @@ textarea,
     background-color: #FF2EB9;
 }
 
-.theme-dark .tierAccomplished_a4fd01,
-.theme-dark .tierCurrent_a4fd01,
-.theme-dark .tierFirst_a4fd01 {
+.theme-dark .tierAccomplished_bfac79,
+.theme-dark .tierCurrent_bfac79,
+.theme-dark .tierFirst_bfac79 {
     background: #FF2EB9;
 }
 
-.foreground_a4fd01 {
+.foreground_bfac79 {
     color: #FF2EB9;
 }
 
-.theme-dark .tierInProgress_a4fd01 {
+.theme-dark .tierInProgress_bfac79 {
     background-color: rgba(0, 0, 0, .4);
 }
 
