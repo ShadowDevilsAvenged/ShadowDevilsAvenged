@@ -14,4 +14,4 @@ So the rules are:
 
 My currently invite to my newest discord server:
  
-[Shadow's Theme Headquarters](https://discord.gg/zsYysrSXjD "Shadow's Discord")
+[Shadow's Theme Headquarters](https://discord.gg/JG4Hz52xXz "Shadow's Discord")
