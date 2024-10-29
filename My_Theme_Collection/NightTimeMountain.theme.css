@@ -2,7 +2,7 @@
  * @name Night Time Mountain
  * @author ShadowDevilsAvenged
  * @description Nice view of the mountain in the night time
- * @version 4.2
+ * @version 4.3
 */
 
 .app_a01fb1 {
@@ -12,6 +12,14 @@
 
 .bg_d4b6c5 {
     background-color: rgba(69, 69, 69, 0.5);
+}
+
+.footer_aa1bff {
+    background: none;
+}
+
+.gradient_aa1bff {
+    opacity: 0 !important;
 }
 
 .contentWrapper_f7506e {
@@ -520,17 +528,17 @@
     border-bottom: none;
 }
 
-.bioTextArea_ccf27d.scrollableContainer_d0696b {
+.bioTextArea_ccf27d.scrollableContainer_bdf0de {
     background-color: rgba(0, 0, 0, .3);
     --channel-text-area-placeholder: white;
     border-radius: 20px;
 }
 
-.theme-dark .scrollableContainer_d0696b {
+.theme-dark .scrollableContainer_bdf0de {
     background-color: transparent;
 }
 
-.textArea_d0696b,
+.textArea_bdf0de,
 .markup_f8f345 {
     font-size: 14px;
     color: white;
@@ -1844,7 +1852,7 @@
 }
 
 /* | Progress Line | */
-.progress_a4623d[style*="background-color: var(--background-modifier-active);"] {
+.progress_b52bef[style*="background-color: var(--background-modifier-active);"] {
     background-color: #4B5569 !important;
 }
 
@@ -2582,7 +2590,7 @@
 
 .replyBar_b11c5e, 
 .threadSuggestionBar_b11c5e,
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
     background: none;
 }
 

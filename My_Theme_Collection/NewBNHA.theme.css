@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 6.6
+ * @version 6.7
  */
 
 /* Main Background */
@@ -16,6 +16,14 @@
 .theme-dark .emptyPage_c6b11b,
 .separator_c6b11b {
   background-color: transparent;
+}
+
+.footer_aa1bff {
+    background: none;
+}
+
+.gradient_aa1bff {
+    opacity: 0 !important;
 }
 
 #app-mount .container_f1fd9c /* Channel and Roles */,
@@ -1430,7 +1438,7 @@
     background: none;
 }
 
-.theme-dark .scrollableContainer_d0696b {
+.theme-dark .scrollableContainer_bdf0de {
     background-color: transparent;
     border-radius: 5px;
 }
@@ -1439,7 +1447,7 @@
     background-color: transparent;
 }
 
-.channelTextArea_d0696b {
+.channelTextArea_bdf0de {
     border-radius: 5px;
 }
 
@@ -2379,7 +2387,7 @@
     background-color: rgba(34, 169, 187, .41);
 }
 
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
     background: transparent;
 }
 
@@ -3568,7 +3576,7 @@
     color: white;
 }
 
-.progress_a4623d[style*="background-color: var(--background-modifier-active);"] {
+.progress_b52bef[style*="background-color: var(--background-modifier-active);"] {
     background-color: transparent !important;
 }
 

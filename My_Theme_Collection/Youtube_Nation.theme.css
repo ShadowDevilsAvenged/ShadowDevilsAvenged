@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 3.9
+ * @version 4
 */
 
 .app_a01fb1, 
@@ -16,6 +16,14 @@
 .sidebar_a4d4d9,
 .chat_a7d72e {
     background: none !important;
+}
+
+.footer_aa1bff {
+    background: none;
+}
+
+.gradient_aa1bff {
+    opacity: 0 !important;
 }
 
 .contentWrapper_f7506e {
@@ -1189,11 +1197,11 @@
     caret-color: #F1F1F1;
 }
 
-.textArea_d0696b {
+.textArea_bdf0de {
     color: #F1F1F1;
 }
 
-[class^="channelTextArea"] .scrollableContainer_d0696b {
+[class^="channelTextArea"] .scrollableContainer_bdf0de {
    background-color: transparent;
 }
 
@@ -1328,7 +1336,7 @@
 }
 
 
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
     background: none;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -2595,7 +2603,7 @@
     border: 3px solid transparent;
 }
 
-.progress_a4623d[style*="background-color: var(--background-modifier-active);"] {
+.progress_b52bef[style*="background-color: var(--background-modifier-active);"] {
     background-color: transparent !important;
 }
 

@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 6.8
+ * @version 6.9
  */
 
 /* Main Background */
@@ -16,6 +16,14 @@
 .theme-dark .emptyPage_c6b11b,
 .separator_c6b11b {
   background-color: transparent;
+}
+
+.footer_aa1bff {
+    background: none;
+}
+
+.gradient_aa1bff {
+    opacity: 0 !important;
 }
 
 #app-mount .container_f1fd9c /* Channel and Roles */,
@@ -1714,12 +1722,12 @@
     border-radius: 6px 6px 0 0;
 }
 
-.theme-dark .scrollableContainer_d0696b {
+.theme-dark .scrollableContainer_bdf0de {
     background-color: rgba(0, 0, 0, .2);
     border-radius: 4px;
 }
 
-.textArea_d0696b {
+.textArea_bdf0de {
     color: white;
 }
 
@@ -2500,7 +2508,7 @@ button.button_adca65 {
     background: rgba(0, 0, 0, .3);
 }
 
-.attachedBars_d0696b {
+.stackedBars_bdf0de {
     background: transparent;
 }
 
@@ -3804,7 +3812,7 @@ button.button_adca65.enabled_adca65:hover {
     color: white;
 }
 
-.progress_a4623d[style*="background-color: var(--background-modifier-active);"] {
+.progress_b52bef[style*="background-color: var(--background-modifier-active);"] {
     background-color: transparent !important;
 }
 
