@@ -2,7 +2,7 @@
  * @name Old BNHA Theme Returns
  * @author ShadowDevilsAvenged
  * @description Say Hello to the BNHA theme once again
- * @version 6.7
+ * @version 6.8
 */
 
 .avatarDecoration_ec86aa {
@@ -17,11 +17,11 @@
     box-shadow: none;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
     background: none;
 }
 
-.gradient_aa1bff {
+.gradient_f8ec41 {
     opacity: 0 !important;
 }
 
@@ -435,7 +435,7 @@ textarea,
     background-color: #008c99;
 }
 
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     background-color: rgba(0, 0, 0, 0.33) !important;
 }
 
@@ -1173,7 +1173,7 @@ textarea,
     top: -1px;
 }
 
-.tabBar_c1519f {
+.tabBar_ecc04c {
     border-top: none;
 }
 
@@ -1185,16 +1185,16 @@ textarea,
     margin-top: -40px;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     border-radius: 12px;
     border: 2px solid black;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"] {
+.connectedAccountContainer_ab12c6[style*="color:"] {
     color: white !important;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     background-color: rgba(0, 0, 0, 0.324);
 }
 
@@ -1237,11 +1237,11 @@ textarea,
     height: 14px;
 }
 
-.mediaBarGrabber_f7877e,
+.mediaBarGrabber_d12f5a,
 .mediaBarProgress_d12f5a,
 .mediaBarProgress_d12f5a:after,
 .mediaBarProgress_d12f5a:before,
-.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_f7877e {
+.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_d12f5a {
     background-color: #008c99;
 }
 
@@ -2368,7 +2368,7 @@ textarea,
     background-color: transparent;
 }
 
-.backdrop__1a911,
+.backdrop_e4f2ae,
 .backdropWithLayer-3_uhz4 {
     background-color: rgba(0, 0, 0, 0.25) !important;
     opacity: 0.5 !important;
@@ -2636,17 +2636,17 @@ textarea,
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
     background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #008c99 100%) !important;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #008c99 100%) !important;
 }
 
@@ -3892,7 +3892,7 @@ textarea,
     color: #FFF88D;
 }
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
     background-color: rgba(0, 0, 0, .09);
 }
 

@@ -2,7 +2,7 @@
  * @name New Rem Theme
  * @author ShadowDevilsAvenged
  * @description Newer Rem theme for my return
- * @version 6.8
+ * @version 6.9
  */
 
  .app_a01fb1 {
@@ -16,11 +16,11 @@
 .separator_c6b11b {
   background-color: transparent;
 }
-.footer_aa1bff {
+.footer_f8ec41 {
     background: none;
 }
 
-.gradient_aa1bff {
+.gradient_f8ec41 {
     opacity: 0 !important;
 }
 
@@ -1575,17 +1575,17 @@
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
     background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%) !important;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background-image: -webkit-repeating-linear-gradient(-48deg, #000000 30%, #1a1a1a 35%) !important;
 }
 
@@ -1672,13 +1672,13 @@
     background-color: transparent;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     background-color: rgba(97, 165, 216, .32);
     border-radius: 6px;
     border: 1px solid #61A5D8;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"] {
+.connectedAccountContainer_ab12c6[style*="color:"] {
     color: white !important;
 }
 
@@ -2080,7 +2080,7 @@
     color: white;
 }
 
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     background-color: rgba(0, 0, 0, .2) !important;
 }
 
@@ -2202,7 +2202,7 @@
     border-radius: 4px;
 }
 
-.avatarSpeaking_c51b4e {
+.avatarSpeaking_d80634 {
     box-shadow: inset 0 0 0 3px #61A5D8, inset 0 0 0 3px black;
 }
 
@@ -3974,7 +3974,7 @@ button.button_adca65.enabled_adca65:hover {
     color: #FFF88D;
 }
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
     background-color: rgba(0, 0, 0, .09);
 }
 

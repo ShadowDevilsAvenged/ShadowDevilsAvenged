@@ -2,7 +2,7 @@
  * @name New Kemono Friends Theme
  * @author ShadowDevilsAvenged
  * @description Newer Kemono Friends theme for my return
- * @version 6.9
+ * @version 7
  */
 
 /* Main Background */
@@ -18,11 +18,11 @@
   background-color: transparent;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
     background: none;
 }
 
-.gradient_aa1bff {
+.gradient_f8ec41 {
     opacity: 0 !important;
 }
 
@@ -1632,7 +1632,7 @@
     background-color: transparent !important;
 }
 
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     background-color: rgba(0, 0, 0, .5) !important;
 }
 
@@ -1698,18 +1698,18 @@
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
     background-color: rgba(0, 0, 0, .5);
     background: none;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background: rgba(0, 0, 0, .5);
 }
 
@@ -1920,14 +1920,14 @@
     border-top: none;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     background-color: rgba(255, 68, 68, .12);
     border-radius: 6px;
     border: 2px solid;
     border-color: #F44;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"] {
+.connectedAccountContainer_ab12c6[style*="color:"] {
     color: white !important;
 }
 
@@ -2468,7 +2468,7 @@ button.button_adca65 {
     border-radius: 4px;
 }
 
-.avatarSpeaking_c51b4e {
+.avatarSpeaking_d80634 {
     box-shadow: none;
     border: 1px solid #C67;
 }
@@ -4223,7 +4223,7 @@ button.button_adca65.enabled_adca65:hover {
     color: #FFF88D;
 }
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
     background-color: rgba(0, 0, 0, .09);
 }
 

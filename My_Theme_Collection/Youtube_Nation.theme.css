@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 4
+ * @version 4.1
 */
 
 .app_a01fb1, 
@@ -18,11 +18,11 @@
     background: none !important;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
     background: none;
 }
 
-.gradient_aa1bff {
+.gradient_f8ec41 {
     opacity: 0 !important;
 }
 
@@ -469,7 +469,7 @@
     font-weight: 600;
 }
 
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     opacity: 1 !important;
     background-color: rgba(0, 0, 0, .3) !important;
 }
@@ -580,18 +580,18 @@
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
     background-color: #282828 !important;
     background: #282828 !important;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background-color: #282828 !important;
     background: #282828 !important;
 }
@@ -688,10 +688,10 @@
     background-color: rgba(255, 255, 255, .2);
 }
 
-.note_c90ad7 textarea:focus,
+.note_d53fbd textarea:focus,
 .input_f8bc55.focused_f8bc55, 
 .input_f8bc55:focus,
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
     background-color: rgba(255, 0, 0, .3);
 }
 
@@ -699,7 +699,7 @@
     background: none;
 }
 
-.tabBar_c1519f {
+.tabBar_ecc04c {
     border-bottom: none;
 }
 
@@ -767,14 +767,14 @@
     border-top: none;
 } 
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     background-color: rgba(255, 255, 255, .4);
     border-radius: 30px;
     border: none;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"],
-.connectedAccountOpenIcon_f3eb60 {
+.connectedAccountContainer_ab12c6[style*="color:"],
+.connectedAccountOpenIcon_ab12c6 {
     color: #0F0F0F !important;
 }
 
@@ -1053,12 +1053,12 @@
     background-color: transparent;
 }
 
-.mediaBarGrabber_f7877e, 
+.mediaBarGrabber_d12f5a, 
 .mediaBarProgress_d12f5a, 
 .mediaBarProgress_d12f5a:after, 
 .mediaBarProgress_d12f5a:before,
-.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_f7877e,
-.mediaBarInteractionDragging_d12f5a .mediaBarGrabber_f7877e {
+.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_d12f5a,
+.mediaBarInteractionDragging_d12f5a .mediaBarGrabber_d12f5a {
     background-color: #FF0000;
 }
 
@@ -3042,7 +3042,7 @@
 
 .border_ba4b17.speaking_ba4b17,
 .avatarSpeaking_cdc675,
-.avatarSpeaking_c51b4e {
+.avatarSpeaking_d80634 {
     box-shadow: inset 0 0 0 2px #FF0000,inset 0 0 0 4px black;
 }
 

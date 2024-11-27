@@ -2,7 +2,7 @@
  * @name New BNHA Theme
  * @author ShadowDevilsAvenged
  * @description Newer BNHA theme for my return
- * @version 6.7
+ * @version 6.8
  */
 
 /* Main Background */
@@ -18,11 +18,11 @@
   background-color: transparent;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
     background: none;
 }
 
-.gradient_aa1bff {
+.gradient_f8ec41 {
     opacity: 0 !important;
 }
 
@@ -408,7 +408,7 @@
     border-radius: 9px;
 }
 
-.backdrop__1a911 {
+.backdrop_e4f2ae {
     background-color: rgba(0, 0, 0, .3) !important;
 }
 
@@ -1186,17 +1186,17 @@
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%) !important;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
     background-image: -webkit-radial-gradient(50% 50%, ellipse cover, #22a9bb 0%, #000000 95%) !important;
 }
 
@@ -1985,14 +1985,14 @@
     border-top: none;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
     background-image: -webkit-linear-gradient(90deg, #000000 5%, #22a9bb 100%);
     border-radius: 7px;
     border: 1px outset;
     border-color: #2AB;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"] {
+.connectedAccountContainer_ab12c6[style*="color:"] {
     color: white !important;
 }
 
@@ -2195,7 +2195,7 @@
     border-radius: 5px;
 }
 
-.avatarSpeaking_c51b4e {
+.avatarSpeaking_d80634 {
     border: 2px solid #2AB;
     box-shadow: none;
     border-radius: 5px;
@@ -3977,7 +3977,7 @@
     color: #FFF88D;
 }
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
     background-color: rgba(0, 0, 0, .09);
 }
 

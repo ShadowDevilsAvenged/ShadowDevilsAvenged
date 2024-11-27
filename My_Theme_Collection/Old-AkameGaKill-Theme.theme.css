@@ -2,7 +2,7 @@
  * @name Old-Akame_Ga_Kill-Theme
  * @author ShadowDevilsAvenged
  * @description Akame from Akame No Kill
- * @version 6.7
+ * @version 6.8
  */
 
  #app-mount .app_a01fb1 {
@@ -16,10 +16,10 @@
   box-shadow: none;
 }
 
-.footer_aa1bff {
+.footer_f8ec41 {
   background: none;
 }
-.gradient_aa1bff {
+.gradient_f8ec41 {
   opacity: 0 !important;
 }
 
@@ -494,7 +494,7 @@
   color: white;
 }
 
-.backdrop__1a911,
+.backdrop_e4f2ae,
 .backdropWithLayer-3_uhz4 {
   background-color: rgba(0, 0, 0, .26) !important;
   opacity: .4 !important;
@@ -1265,7 +1265,7 @@
   background-color: rgba(0, 0, 0, .26);
 }
 
-.avatarSpeaking_c51b4e {
+.avatarSpeaking_d80634 {
   box-shadow: 0 0 0 2px #26a96a, inset 0 0 0 1px black;
 }
 
@@ -1584,11 +1584,11 @@ button.button_adca65.enabled_adca65:hover {
   height: 14px;
 }
 
-.mediaBarGrabber_f7877e,
+.mediaBarGrabber_d12f5a,
 .mediaBarProgress_d12f5a,
 .mediaBarProgress_d12f5a:after,
 .mediaBarProgress_d12f5a:before,
-.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_f7877e {
+.mediaBarInteraction_d12f5a:hover .mediaBarGrabber_d12f5a {
   background-color: #9b2742;
 }
 
@@ -2361,7 +2361,7 @@ button.button_adca65.enabled_adca65:hover {
 .theme-dark .bodyInner-245q0L,
 .theme-dark .body-3iLsc4,
 .theme-dark .footer-1fjuF6,
-#app-mount .connectedAccountNameText_f3eb60,
+#app-mount .connectedAccountContainer_ab12c6,
 .listRow_e4be58 {
   color: white;
 }
@@ -2438,7 +2438,7 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
   background-color: rgba(0, 0, 0, .26);
 }
 
@@ -2446,7 +2446,7 @@ button.button_adca65.enabled_adca65:hover {
   border-radius: 5px;
 }
 
-.note_c90ad7 textarea {
+.note_d53fbd textarea {
   padding: 5px 10px;
   color: white;
 }
@@ -2456,18 +2456,18 @@ button.button_adca65.enabled_adca65:hover {
   display: none;
 }
 
-.tabBar_c1519f,
+.tabBar_ecc04c,
 .userInfoSection_a24910+.userInfoSection_a24910 {
   border: none;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
   background-color: rgba(155, 39, 66, .5);
   border: none;
   border-radius: 5px;
 }
 
-.connectedAccountNameText_f3eb60[style*="color:"] {
+.connectedAccountContainer_ab12c6[style*="color:"] {
   color: white !important;
 }
 
@@ -2583,11 +2583,11 @@ button.button_adca65.enabled_adca65:hover {
   background-color: transparent;
 }
 
-.tabBar_c1519f {
+.tabBar_ecc04c {
   border-bottom: none;
 }
 
-.connectedAccountContainer_f3eb60 {
+.connectedAccountContainer_ab12c6 {
   background-color: #9b2742;
   border-radius: 5px;
   border: none;
@@ -3457,17 +3457,17 @@ button.button_adca65.enabled_adca65:hover {
 }
 
 .userProfileInnerThemedNonPremium_c69a7b,
-.biteSizeInnerThemed_c69a7b,
-.fullSizeInnerThemed_c69a7b {
+#app-mount .biteSize_c69a7b,
+#app-mount .fullSize_c69a7b {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%) !important;
 }
 
 .userProfileInnerThemedWithBanner_c69a7b,
 .userProfileInnerThemedPremiumWithoutBanner_c69a7b,
-.biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
-.fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
-.theme-dark .biteSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
-.theme-dark .fullSizeInnerThemed_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBannerPremium_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBannerPremium_c3e427),
+#app-mount .biteSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .biteSizeBanner_c3e427),
+#app-mount .fullSize_c69a7b:has(.bannerSVGWrapper_b32cc2 .fullSizeBanner_c3e427) {
   background: linear-gradient(342deg, rgba(0, 0, 0, 1) 10%, #9b2742 100%) !important;
 }
 
@@ -4666,7 +4666,7 @@ button.button_adca65.enabled_adca65:hover {
   color: #FFF88D;
 }
 
-.note_c90ad7 textarea:focus {
+.note_d53fbd textarea:focus {
   background-color: rgba(0, 0, 0, .09);
 }
 
