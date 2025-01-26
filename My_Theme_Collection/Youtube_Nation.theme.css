@@ -2,7 +2,7 @@
  * @name Youtube Nation
  * @author ShadowDevilsAvenged
  * @description The Storage of All Videos
- * @version 4.1
+ * @version 4.2
 */
 
 .app_a01fb1, 
@@ -11,19 +11,19 @@
     background: #282828;
 }
 
+.footer_d71945 {
+    background: none;
+}
+
+.gradient_d71945 {
+    opacity: 0 !important;
+}
+
 .container_cbd271,
 #app-mount .container_fc4f04,
 .sidebar_a4d4d9,
 .chat_a7d72e {
     background: none !important;
-}
-
-.footer_f8ec41 {
-    background: none;
-}
-
-.gradient_f8ec41 {
-    opacity: 0 !important;
 }
 
 .contentWrapper_f7506e {
@@ -234,7 +234,7 @@
     background-color: transparent;
 }
 
-.attachment_b52bef {
+.theme-dark .file_f46c86 {
     border-color: rgba(255, 255, 255, .1);
     background-color: #282828;
 }
@@ -564,9 +564,10 @@
     background-color: rgba(0, 0, 0, .2);
 }
 
-.userProfileOuterUnthemed_c69a7b,
+.theme-dark .outer_c69a7b,
 .userProfileInner_c69a7b:before,
-.overlayBackground_c69a7b,
+.theme-dark 
+.overlay_c69a7b,
 #app-mount .fullSizeOverlayBackground_c69a7b {
     background-color: transparent;
 }
@@ -1242,8 +1243,8 @@
    background: none;
 }
 
-.filenameLinkWrapper_b52bef,
-.filenameLinkWrapper_b52bef a,
+.filenameLinkWrapper_f46c86,
+.filenameLinkWrapper_f46c86 a,
 .metadataContent_f72aac a {
     color: #3ea6ff;
 }

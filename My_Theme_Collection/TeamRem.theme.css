@@ -2,7 +2,7 @@
  * @name Team Rem
  * @author ShadowDevilsAvenged
  * @description Team Rem is back once again(big request to bring this back)
- * @version 4.6
+ * @version 4.7
 */
 
 /* Rem Main Picture */
@@ -16,11 +16,11 @@
     box-shadow: none;
 }
 
-.footer_f8ec41 {
+.footer_d71945 {
     background: none;
 }
 
-.gradient_f8ec41 {
+.gradient_d71945 {
     opacity: 0 !important;
 }
 
@@ -528,7 +528,7 @@
   fill: currentColor;
 }
 
-.userProfileOuterUnthemed_c69a7b,
+.theme-dark .outer_c69a7b,
 .userProfileOuterThemed_c69a7b {
     background: transparent;
 }
@@ -556,7 +556,8 @@
     border-radius: 4px;
 }
 
-.overlayBackground_c69a7b,
+.theme-dark 
+.overlay_c69a7b,
 #app-mount .fullSizeOverlayBackground_c69a7b {
     background-color: rgba(0,0,0,.7);
     border-radius: 4px;
