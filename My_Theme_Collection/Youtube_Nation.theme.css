@@ -11,6 +11,10 @@
     background: #282828;
 }
 
+.container_fb64c9 /* Missing Create Thread Layer */{
+  background: none;
+}
+
 .scroller__23746,
 .container__551b0 /* Discovery */ {
   background: none;
@@ -882,7 +886,7 @@
 .clickable__91a9d.container__91a9d:hover, 
 .clickable__91a9d.container__91a9d:hover .muted__91a9d,
 .clickable__91a9d:hover .layout__91a9d .name__5d473,
-.clickable__91a9d:hover .layout__91a9d .activity__5d473 {
+.clickable__91a9d:hover .layout__91a9d .activityText__5d473 {
     color: #F1F1F1 !important;
 }
 
@@ -898,7 +902,7 @@
 .highlighted__91a9d.container__91a9d, 
 .selected__91a9d.container__91a9d,
 .selected__91a9d .layout__91a9d .name__5d473,
-.selected__91a9d .layout__91a9d .activity__5d473 {
+.selected__91a9d .layout__91a9d .activityText__5d473 {
     color: #0F0F0F !important;
     font-weight: 600;
 }
@@ -1074,13 +1078,13 @@
     border-color: transparent;
 }
 
-.button_a24e84 {
+.button_f563df {
     background-color: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.button_a24e84:hover, 
-.keyboard-mode .button_a24e84.focused_a24e84 {
+.button_f563df:hover, 
+.keyboard-mode .button_f563df.focused_f563df {
     background-color: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .2);
 }
@@ -1145,7 +1149,8 @@
     background-color: #FF0000;
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     background-color: #282828;
     box-shadow: none;
 }
@@ -1208,7 +1213,7 @@
     color: #F1F1F1;
 }
 
-[class^="channelTextArea"] .scrollableContainer__74017 {
+[class^="channelTextArea"] #app-mount .scrollableContainer__74017 {
    background-color: transparent;
 }
 
@@ -1477,7 +1482,8 @@
 }
 
 .container_fea832,
-.container_a45028 {
+.container_a45028,
+.container_fed6d3 {
     border-radius: 6px;
     background-color: #282828;
     border: 1px solid rgba(255, 255, 255, .1);
@@ -2164,13 +2170,13 @@
 }
 
 .keywordTextArea__4546e,
-.keywordsTextArea_bdc518,
-.textArea_bd9c39 {
+.keywordsTextArea__6a631,
+.textArea_c615b7 {
     background: none;
 }
 
-.keywordsTextArea_bdc518,
-.textArea_bd9c39 {
+.keywordsTextArea__6a631,
+.textArea_c615b7 {
     border: 1px solid rgba(255, 255, 255, .1);
     color: #F1F1F1;
 }
@@ -2441,12 +2447,12 @@
     background-color: rgba(255, 255, 255, .1);
 }
 
-.guildFeatureAvailabilityIndicator__46bca .icon_b29edb,
+.guildFeatureAvailabilityIndicator__46bca .icon__40463,
 .guildFeatureAvailabilityIndicator__46bca .defaultColor__4bd52,
 .guildFeatureAvailabilityIndicator_cd0bbe .defaultColor__4bd52,
-.guildFeatureAvailabilityIndicator_cd0bbe .icon_b29edb,
+.guildFeatureAvailabilityIndicator_cd0bbe .icon__40463,
 .availabilityIndicator__05e8e .defaultColor__4bd52,
-.availabilityIndicator__05e8e .icon_b29edb {
+.availabilityIndicator__05e8e .icon__40463 {
     color: #aaa;
 }
 
@@ -2622,12 +2628,12 @@
     background-color: transparent;
 }
 
-.reactionBtn__23977.forceShowLook__23977 {
+.theme-dark .reactionBtn__23977.forceShow__23977 {
     background-color: rgba(255, 255, 255, .1);
     border: 1px solid rgba(255, 255, 255, .1);
 }
 
-.reactionBtn__23977.forceShowLook__23977:hover {
+.theme-dark .reactionBtn__23977.forceShow__23977:hover {
     background-color: rgba(255, 255, 255, .2);
     border-color: rgba(255, 255, 255, .2);
 }
@@ -2905,7 +2911,7 @@
     background-color: rgba(255, 255, 255, .1);
 }
 
-.tabBar_f1fd9c {
+.tabBar__0b563 {
     border: none;
 }
 
@@ -3023,7 +3029,7 @@
     background-color: #FF0000;
 }
 
-.container_b572de {
+.container__9fa5a {
     box-shadow: none;
     background-color: #282828;
     border: 1px solid rgba(255, 255, 255, .1);
@@ -4428,12 +4434,12 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.friendRequestsButton_c0c071 {
+.friendRequestsButton__523aa {
     background-color: rgba(255, 255, 255, .15);
     color: white;
 }
 
-.friendRequestsButton_c0c071:hover {
+.friendRequestsButton__523aa:hover {
     background-color: rgba(255, 255, 255, .25);
 
 }

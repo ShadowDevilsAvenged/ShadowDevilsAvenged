@@ -10,6 +10,10 @@
     background-size: cover;
 }
 
+.container_fb64c9 /* Missing Create Thread Layer */{
+  background: none;
+}
+
 .scroller__23746,
 .container__551b0 /* Discovery */ {
   background: none;
@@ -534,7 +538,7 @@
     border-bottom: none;
 }
 
-.bioTextArea__6a919.scrollableContainer__74017 {
+.bioTextArea__6a919#app-mount .scrollableContainer__74017 {
     background-color: rgba(0, 0, 0, .3);
     --channel-text-area-placeholder: white;
     border-radius: 20px;
@@ -573,7 +577,8 @@
 }
 
 .container_fea832,
-.container_a45028 {
+.container_a45028,
+.container_fed6d3 {
     border-radius: 12px;
     background-color: rgba(149, 168, 176, .2);
     border: 1px solid #95A8B0;
@@ -1587,12 +1592,14 @@
     background-color: #4B5569;
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     background-color: #000;
     box-shadow: none;
 }
 
-.header_c0e32c + .emojiPicker_c0e32c {
+.header_c0e32c,
+.header_fed6d3 + .emojiPicker_c0e32c {
     border-radius: 0;
 }
 
@@ -1604,12 +1611,12 @@
     color: #e2e2e2;
 }
 
-.button_a24e84 {
+.button_f563df {
     background-color: rgba(149, 168, 176, .15);
 }
 
-.button_a24e84:hover, 
-.keyboard-mode .button_a24e84.focused_a24e84 {
+.button_f563df:hover, 
+.keyboard-mode .button_f563df.focused_f563df {
     background-color: rgba(149, 168, 176, .40);
 }
 
@@ -2227,7 +2234,7 @@
     background-color: rgba(0, 0, 0, .1);
 }
 
-.theme-dark .header__45690 .tabBar_f0cd33 .tab_f0cd33.active_f0cd33 {
+.theme-dark .header__45690 .tabBar_ab6641 .tab_ab6641.active_ab6641 {
     background-color: transparent;
 }
 
@@ -2308,7 +2315,7 @@
     border-radius: 7px;
 }
 
-.activity__5d473,
+.activityText__5d473,
 .container__91a9d {
     color: #D0DFFF;
 }
@@ -2320,7 +2327,7 @@
 .clickable__91a9d.container__91a9d:hover, 
 .clickable__91a9d.container__91a9d:hover .muted__91a9d,
 .clickable__91a9d:hover .layout__91a9d .name__5d473,
-.clickable__91a9d:hover .layout__91a9d .activity__5d473 {
+.clickable__91a9d:hover .layout__91a9d .activityText__5d473 {
     color: #e2e2e2 !important;
 }
 
@@ -2332,7 +2339,7 @@
 .highlighted__91a9d.container__91a9d, 
 .selected__91a9d.container__91a9d,
 .selected__91a9d .layout__91a9d .name__5d473,
-.selected__91a9d .layout__91a9d .activity__5d473 {
+.selected__91a9d .layout__91a9d .activityText__5d473 {
     color: white !important;
 }
 
@@ -4541,12 +4548,12 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.friendRequestsButton_c0c071 {
+.friendRequestsButton__523aa {
     background-color: rgba(255, 255, 255, .15);
     color: white;
 }
 
-.friendRequestsButton_c0c071:hover {
+.friendRequestsButton__523aa:hover {
     background-color: rgba(255, 255, 255, .25);
 
 }

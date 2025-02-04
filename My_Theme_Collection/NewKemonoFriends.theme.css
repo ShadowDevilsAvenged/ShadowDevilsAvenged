@@ -12,6 +12,10 @@
     background-color: transparent;
 }
 
+.container_fb64c9 /* Missing Create Thread Layer */{
+  background: none;
+}
+
 .scroller__23746,
 .container__551b0 /* Discovery */ {
   background: none;
@@ -433,7 +437,8 @@
 }
 
 .container_fea832,
-.container_a45028 {
+.container_a45028,
+.container_fed6d3 {
     background-color: rgba(0, 0, 0, .3);
 }
 
@@ -2198,13 +2203,13 @@ button.button__67645 {
     border-radius: 6px;
 }
 
-.button_a24e84 {
+.button_f563df {
     border-radius: 6px;
     background-color: rgba(255, 68, 68, .4);
 }
 
-.button_a24e84:hover,
-.keyboard-mode .button_a24e84.focused_a24e84 {
+.button_f563df:hover,
+.keyboard-mode .button_f563df.focused_f563df {
     background-color: #f44;
 }
 
@@ -2719,7 +2724,7 @@ button.button__67645 {
 }
 
 .memberRow__1a4ef .colorMuted-20987_,
-.activity__5d473 {
+.activityText__5d473 {
     color: white;
 }
 
@@ -3298,13 +3303,13 @@ button.button__67645.enabled__67645:hover {
     border-radius: 5px;
 }
 
-.reactionBtn__23977.forceShowLook__23977 {
+.theme-dark .reactionBtn__23977.forceShow__23977 {
     background-color: rgba(255, 68, 68, .4);
     border-radius: 4px;
     border: 1px solid transparent;
 }
 
-.reactionBtn__23977.forceShowLook__23977:hover {
+.theme-dark .reactionBtn__23977.forceShow__23977:hover {
     background-color: rgba(204, 102, 119, .4);
     border-color: #C67;
 }
@@ -3529,15 +3534,15 @@ button.button__67645.enabled__67645:hover {
     border-color: transparent;
 }
 
-.selectorButton_a78967 {
+.selectorButton_c6d3dc {
     background: rgba(0, 0, 0, .2);
 }
 
-.selectorButton_a78967:hover {
+.selectorButton_c6d3dc:hover {
     background-color: rgba(0, 0, 0, .6);
 }
 
-.selectorButtonSelected_a78967 {
+.selectorButtonSelected_c6d3dc {
     background-color: black;
 }
 
@@ -4128,11 +4133,13 @@ button.button__67645.enabled__67645:hover {
 }
 
 .header_c0e32c,
+.header_fed6d3,
 .container__0800c {
     background-color: #141414;
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     box-shadow: none;
 }
 
@@ -4788,7 +4795,7 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.container_b572de {
+.container__9fa5a {
     box-shadow: none;
     background-color: #282828;
     border: 1px solid rgba(255, 255, 255, .1);
@@ -4814,12 +4821,12 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.friendRequestsButton_c0c071 {
+.friendRequestsButton__523aa {
     background-color: rgba(255, 255, 255, .15);
     color: white;
 }
 
-.friendRequestsButton_c0c071:hover {
+.friendRequestsButton__523aa:hover {
     background-color: rgba(255, 255, 255, .25);
 
 }

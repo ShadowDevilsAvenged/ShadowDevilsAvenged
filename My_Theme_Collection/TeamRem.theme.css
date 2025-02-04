@@ -11,6 +11,10 @@
     background-size: cover;
 }
 
+.container_fb64c9 /* Missing Create Thread Layer */{
+  background: none;
+}
+
 .scroller__23746,
 .container__551b0 /* Discovery */ {
   background: none;
@@ -607,7 +611,8 @@
 }
 
 .container_fea832,
-.container_a45028 {
+.container_a45028,
+.container_fed6d3 {
     background-color: transparent;
 }
 
@@ -630,7 +635,8 @@
     background-color: rgba(0,0,0,.3);
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     box-shadow: none;
 }
 
@@ -2197,7 +2203,8 @@ button.button__67645.enabled__67645:hover {
     background-color: transparent;
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     background-color: #1c1c1c;
     box-shadow: none;
 }
@@ -2232,13 +2239,13 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.button_a24e84 {
+.button_f563df {
     border-radius: 3px;
     background-color: rgba(108, 180, 254, .3);
 }
 
-.button_a24e84:hover, 
-.keyboard-mode .button_a24e84.focused_a24e84 {
+.button_f563df:hover, 
+.keyboard-mode .button_f563df.focused_f563df {
     background-color: rgba(108, 180, 254, .7);
 }
 
@@ -2494,7 +2501,7 @@ button.button__67645.enabled__67645:hover {
 }
 
 .clickable__91a9d:hover .layout__91a9d .name__5d473,
-.clickable__91a9d:hover .layout__91a9d .activity__5d473 {
+.clickable__91a9d:hover .layout__91a9d .activityText__5d473 {
     color: white !important;
 }
 
@@ -2504,7 +2511,7 @@ button.button__67645.enabled__67645:hover {
 }
 
 .selected__91a9d .layout__91a9d .name__5d473,
-.selected__91a9d .layout__91a9d .activity__5d473 {
+.selected__91a9d .layout__91a9d .activityText__5d473 {
     color: black !important;
 }
 
@@ -3131,7 +3138,7 @@ button.button__67645.enabled__67645:hover {
     color: white;
 }
 
-#app-mount .reactionBtn__23977.forceShowLook__23977 {
+#app-mount .theme-dark .reactionBtn__23977.forceShow__23977 {
     background-color: #6cb4fe;
     border: none;
 }
@@ -4329,7 +4336,7 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .2);
 }
 
-.container_b572de {
+.container__9fa5a {
     box-shadow: none;
     background-color: #282828;
     border: 1px solid rgba(255, 255, 255, .1);
@@ -4355,12 +4362,12 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.friendRequestsButton_c0c071 {
+.friendRequestsButton__523aa {
     background-color: rgba(255, 255, 255, .15);
     color: white;
 }
 
-.friendRequestsButton_c0c071:hover {
+.friendRequestsButton__523aa:hover {
     background-color: rgba(255, 255, 255, .25);
 
 }

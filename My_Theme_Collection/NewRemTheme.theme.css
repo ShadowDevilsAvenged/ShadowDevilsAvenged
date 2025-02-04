@@ -11,6 +11,10 @@
     background-color: transparent;
 }
 
+.container_fb64c9 /* Missing Create Thread Layer */{
+  background: none;
+}
+
 .scroller__23746,
 .container__551b0 /* Discovery */ {
   background: none;
@@ -1010,7 +1014,7 @@
     color: white !important;
 }
 
-.channelTextAreaInner_fb4810 {
+.channelTextAreaInner_fb64c9 {
     background-color: transparent;
     border: none;
 }
@@ -1019,7 +1023,7 @@
     background-color: transparent;
 }
 
-.channelTextArea_fb4810,
+.channelTextArea_fb64c9,
 .channelTextArea_f75fb0 {
     background-color: rgba(0, 0, 0, .15);
 }
@@ -1097,12 +1101,14 @@
     border: 2px inset #76AAD9;
 }
 
-.header_c0e32c {
+.header_c0e32c,
+.header_fed6d3 {
     box-shadow: none;
 }
 
 .container_fea832,
-.container_a45028 {
+.container_a45028,
+.container_fed6d3 {
     border-radius: 6px;
     background-color: rgba(0, 0, 0, .25);
 }
@@ -1279,19 +1285,19 @@
     border-radius: 5px;
 }
 
-.button_a24e84 {
+.button_f563df {
     border-radius: 5px;
     background-color: #61A5D8;
     border: 3px groove #61A5D8;
 }
 
-.button_a24e84:hover,
-.keyboard-mode .button_a24e84.focused_a24e84 {
+.button_f563df:hover,
+.keyboard-mode .button_f563df.focused_f563df {
     background-color: #76AAD9;
     border: 3px outset #76AAD9;
 }
 
-.button_a24e84:active {
+.button_f563df:active {
     background-color: #61A5D8;
     border: 3px inset #61A5D8;
 }
@@ -1633,7 +1639,7 @@
     border-radius: 3px 3px 0 0;
 }
 
-.activity__5d473 {
+.activityText__5d473 {
     color: white;
 }
 
@@ -3190,13 +3196,13 @@ button.button__67645.enabled__67645:hover {
     border-radius: 5px;
 }
 
-.reactionBtn__23977.forceShowLook__23977 {
+.theme-dark .reactionBtn__23977.forceShow__23977 {
     border-radius: 5px;
     background-color: rgba(97, 165, 216, .5);
     border: 2px solid transparent;
 }
 
-.reactionBtn__23977.forceShowLook__23977:hover {
+.theme-dark .reactionBtn__23977.forceShow__23977:hover {
     background-color: rgba(118, 170, 217, .5);
     border-color: #76AAD9;
 }
@@ -3880,6 +3886,7 @@ button.button__67645.enabled__67645:hover {
 }
 
 .header_c0e32c,
+.header_fed6d3,
 .container__0800c {
     background-color: #141414;
 }
@@ -4550,12 +4557,12 @@ button.button__67645.enabled__67645:hover {
     background-color: rgba(0, 0, 0, .3);
 }
 
-.friendRequestsButton_c0c071 {
+.friendRequestsButton__523aa {
     background-color: rgba(255, 255, 255, .15);
     color: white;
 }
 
-.friendRequestsButton_c0c071:hover {
+.friendRequestsButton__523aa:hover {
     background-color: rgba(255, 255, 255, .25);
 
 }
